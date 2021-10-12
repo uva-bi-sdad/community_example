@@ -1,0 +1,344 @@
+{
+  "title": "Demographics and Health Access demo",
+  "theme": "default",
+  "metadata": {
+    "package": "data/datapackage.json",
+    "datasets": ["district", "county", "tract"],
+    "info": {
+      "district": {
+        "bytes": 31419,
+        "encoding": "ISO-8859-1",
+        "md5": "b4e9682e3251cdbf826f3764be6f6c67",
+        "sha512": "zJM4lzHO9O/6Sfd+xeEswOVrD7PH4y9N4BWJmy0czzZO7V2SjyhMlALeDWZEgPYxE0PocYLxqB2f15gPlDrRgw==",
+        "format": "csv",
+        "name": "district",
+        "filename": "va_hd_acs5_2019_health_access.csv",
+        "source": [
+          {
+            "name": "U.S. Census Bureau",
+            "url": "https://www2.census.gov/programs-surveys/acs",
+            "description": "For population counts."
+          }
+        ],
+        "ids": [
+          {
+            "variable": "ID",
+            "map": "https://uva-bi-sdad.github.io/community/dist/shapes/VA/virginia_2010.json"
+          }
+        ],
+        "time": "year",
+        "profile": "data-resource",
+        "created": "2021-10-06 13:14:27",
+        "last_modified": "2021-10-12 04:32:36",
+        "rowcount": 385,
+        "schema": {
+          "fields": [
+            {
+              "name": "ID",
+              "duplicates": 350,
+              "type": "integer",
+              "missing": 0,
+              "mean": 18,
+              "sd": 10.1126,
+              "min": 1,
+              "max": 35
+            },
+            {
+              "name": "year",
+              "duplicates": 374,
+              "type": "integer",
+              "missing": 0,
+              "mean": 2014,
+              "sd": 3.1664,
+              "min": 2009,
+              "max": 2019
+            },
+            {
+              "name": "population",
+              "duplicates": 4,
+              "type": "integer",
+              "missing": 0,
+              "mean": 223832.8208,
+              "sd": 184696.8136,
+              "min": 0,
+              "max": 1183521
+            },
+            {
+              "name": "population_error",
+              "duplicates": 4,
+              "type": "integer",
+              "missing": 0,
+              "mean": 47245.9688,
+              "sd": 35601.7667,
+              "min": 0,
+              "max": 230866
+            },
+            {
+              "name": "doctors",
+              "duplicates": 82,
+              "type": "integer",
+              "missing": 0,
+              "mean": 630.239,
+              "sd": 701.2281,
+              "min": 69,
+              "max": 4482
+            },
+            {
+              "name": "obesity",
+              "duplicates": 85,
+              "type": "float",
+              "missing": 0,
+              "mean": 2.0685,
+              "sd": 8.484,
+              "min": -1.6264,
+              "max": 40.0323
+            },
+            {
+              "name": "physician_access",
+              "duplicates": 3,
+              "type": "float",
+              "missing": 0,
+              "mean": -0.0114,
+              "sd": 0.1156,
+              "min": -0.3056,
+              "max": 0.4722
+            },
+            {
+              "name": "health_score",
+              "duplicates": 0,
+              "type": "float",
+              "missing": 0,
+              "mean": 0,
+              "sd": 0.2851,
+              "min": -0.7373,
+              "max": 0.7867
+            }
+          ]
+        }
+      },
+      "county": {
+        "bytes": 113867,
+        "encoding": "ISO-8859-1",
+        "md5": "e475e86df80fc14a3d19a88d27bbbf06",
+        "sha512": "yF/Z7RFpwyNB3BR16/qVh/8d2sqb37YpKRbMoAUQd3wfJ2IEGD8j6lVnVm2mNlS/TZ+StcKgAiC/lHAr44Vo3Q==",
+        "format": "csv",
+        "name": "county",
+        "filename": "va_ct_acs5_2019_health_access.csv",
+        "source": [
+          {
+            "name": "U.S. Census Bureau",
+            "url": "https://www2.census.gov/programs-surveys/acs",
+            "description": "For population counts."
+          }
+        ],
+        "ids": [
+          {
+            "variable": "ID",
+            "map": "https://uva-bi-sdad.github.io/community/dist/shapes/VA/virginia_2010.json"
+          }
+        ],
+        "time": "year",
+        "profile": "data-resource",
+        "created": "2021-10-06 13:14:14",
+        "last_modified": "2021-10-12 04:32:36",
+        "rowcount": 1463,
+        "schema": {
+          "fields": [
+            {
+              "name": "ID",
+              "duplicates": 1330,
+              "type": "integer",
+              "missing": 0,
+              "mean": 51263.9925,
+              "sd": 270.9516,
+              "min": 51001,
+              "max": 51840
+            },
+            {
+              "name": "year",
+              "duplicates": 1452,
+              "type": "integer",
+              "missing": 0,
+              "mean": 2014,
+              "sd": 3.1634,
+              "min": 2009,
+              "max": 2019
+            },
+            {
+              "name": "population",
+              "duplicates": 57,
+              "type": "integer",
+              "missing": 0,
+              "mean": 58903.3739,
+              "sd": 116626.7455,
+              "min": 0,
+              "max": 1145862
+            },
+            {
+              "name": "population_error",
+              "duplicates": 100,
+              "type": "integer",
+              "missing": 0,
+              "mean": 12433.1497,
+              "sd": 23255.0045,
+              "min": 0,
+              "max": 224221
+            },
+            {
+              "name": "doctors",
+              "duplicates": 1069,
+              "type": "integer",
+              "missing": 0,
+              "mean": 165.8524,
+              "sd": 400.1156,
+              "min": 1,
+              "max": 4158
+            },
+            {
+              "name": "obesity",
+              "duplicates": 413,
+              "type": "float",
+              "missing": 0,
+              "mean": 0.2842,
+              "sd": 5.0618,
+              "min": -7.0848,
+              "max": 40.0323
+            },
+            {
+              "name": "physician_access",
+              "duplicates": 91,
+              "type": "float",
+              "missing": 0,
+              "mean": -0.0493,
+              "sd": 0.2125,
+              "min": -1.483,
+              "max": 2.6661
+            },
+            {
+              "name": "health_score",
+              "duplicates": 0,
+              "type": "float",
+              "missing": 0,
+              "mean": 0,
+              "sd": 0.3655,
+              "min": -1.4331,
+              "max": 1.3815
+            }
+          ]
+        }
+      },
+      "tract": {
+        "bytes": 1600667,
+        "encoding": "ISO-8859-1",
+        "md5": "9acd9d20df6cd2b575e2ae59987fd18a",
+        "sha512": "gNdcreMSQCeG/t7X2MA7130Gi380JCxcAMHZunxGhHMlfXMGJijv+UYo45IHs4vP5RXS9vyEzr3c2KNW0is3xA==",
+        "format": "csv",
+        "name": "tract",
+        "filename": "va_tr_acs5_2019_health_access.csv",
+        "source": [
+          {
+            "name": "U.S. Census Bureau",
+            "url": "https://www2.census.gov/programs-surveys/acs",
+            "description": "For population counts."
+          }
+        ],
+        "ids": [
+          {
+            "variable": "ID",
+            "map": "https://uva-bi-sdad.github.io/community/dist/shapes/VA/virginia_2010.json"
+          }
+        ],
+        "time": "year",
+        "profile": "data-resource",
+        "created": "2021-10-06 13:14:11",
+        "last_modified": "2021-10-12 04:32:36",
+        "rowcount": 20977,
+        "schema": {
+          "fields": [
+            {
+              "name": "ID",
+              "duplicates": 19070,
+              "type": "integer",
+              "missing": 0,
+              "mean": 51296485701,
+              "sd": 297017604.8279,
+              "min": 51001090100,
+              "max": 51840000302
+            },
+            {
+              "name": "year",
+              "duplicates": 20966,
+              "type": "integer",
+              "missing": 0,
+              "mean": 2014,
+              "sd": 3.1624,
+              "min": 2009,
+              "max": 2019
+            },
+            {
+              "name": "population",
+              "duplicates": 14262,
+              "type": "integer",
+              "missing": 0,
+              "mean": 4108.1011,
+              "sd": 2024.5613,
+              "min": 0,
+              "max": 19438
+            },
+            {
+              "name": "population_error",
+              "duplicates": 18656,
+              "type": "integer",
+              "missing": 0,
+              "mean": 867.1258,
+              "sd": 523.7634,
+              "min": 0,
+              "max": 4109
+            },
+            {
+              "name": "doctors",
+              "duplicates": 20696,
+              "type": "integer",
+              "missing": 0,
+              "mean": 11.5671,
+              "sd": 59.6341,
+              "min": 0,
+              "max": 3925
+            },
+            {
+              "name": "obesity",
+              "duplicates": 6478,
+              "type": "float",
+              "missing": 4224,
+              "mean": 2.416,
+              "sd": 9.8142,
+              "min": -18.5528,
+              "max": 53.7
+            },
+            {
+              "name": "physician_access",
+              "duplicates": 4793,
+              "type": "float",
+              "missing": 16,
+              "mean": 0.0001,
+              "sd": 0.4241,
+              "min": -4.3881,
+              "max": 6.6048
+            },
+            {
+              "name": "health_score",
+              "duplicates": 59,
+              "type": "float",
+              "missing": 0,
+              "mean": 0,
+              "sd": 0.5931,
+              "min": -2.4581,
+              "max": 2.7222
+            }
+          ]
+        }
+      }
+    },
+    "file": "data.json"
+  }
+}

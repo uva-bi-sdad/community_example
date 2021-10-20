@@ -27,11 +27,11 @@ page_menu(
     id = "selected_county", reset_button = TRUE
   ),
   input_checkbox("Select a Region Type", options = c("rural", "mixed", "urban"), id = "region_type"),
-  input_slider("Select a Year", variable = "year", id = "selected_year"),
+  input_slider("Select a Year", variable = "time", default = 2019, id = "selected_year"),
   input_select(
     "Select a Variable",
     options = "variables", id = "selected_variable",
-    default = "health_score", depends = "shapes"
+    default = "no_hlth_ins_pct", depends = "shapes"
   ),
   position = "top",
   default_open = TRUE,
@@ -102,52 +102,70 @@ page_section(
   ),
   page_section(
     type = "row",
-    {
-      ## make plots with plotly
-      library(plotly)
-      
-      ### make a template plot
-      template <- plot_ly(
-        hoverinfo = "text",
-        type = "scatter",
-        mode = "lines+markers",
-        showlegend = FALSE
-      ) |>
-        add_trace(
-          name = "Box Plot",
-          inherit = FALSE,
-          type = "box",
-          fillcolor = "transparent",
-          line = list(color = "#d6d6d6")
-        ) |>
-        layout(
-          xaxis = list(fixedrange = TRUE),
-          yaxis = list(fixedrange = TRUE)
-        ) |>
-        config(
-          responsive = TRUE,
-          displayModeBar = FALSE,
-          showTips = FALSE
-        )
-      
-      ### then specify dynamic variables, and use the template plot for configuration
-      output_plot(
-        x = "year",
-        y = "selected_variable",
-        color = "selected_variable",
-        color_time = "selected_year",
-        dataview = "primary_view",
-        click = "region_select",
-        subto = "map0",
-        options = plotly_json(template, FALSE, FALSE)
+    wraps = "col",
+    sizes = c(7, 5),
+    page_tabgroup(
+      list(
+        name = "Plot",
+        {
+          ## make plots with plotly
+          library(plotly)
+          
+          ### make a template plot
+          template <- plot_ly(
+            hoverinfo = "text",
+            type = "scatter",
+            mode = "lines+markers",
+            showlegend = FALSE
+          ) |>
+            add_trace(
+              name = "Box Plot",
+              inherit = FALSE,
+              type = "box",
+              fillcolor = "transparent",
+              line = list(color = "#d6d6d6")
+            ) |>
+            layout(
+              xaxis = list(fixedrange = TRUE),
+              yaxis = list(fixedrange = TRUE)
+            ) |>
+            config(
+              responsive = TRUE,
+              displayModeBar = FALSE,
+              showTips = FALSE
+            )
+          
+          ### then specify dynamic variables, and use the template plot for configuration
+          output_plot(
+            x = "time",
+            y = "selected_variable",
+            color = "selected_variable",
+            color_time = "selected_year",
+            dataview = "primary_view",
+            click = "region_select",
+            subto = "map0",
+            options = plotly_json(template, FALSE, FALSE)
+          )
+        }
+      ),
+      list(
+        name = "Data",
+        output_table(dataview = "primary_view", options = list(
+          scrollX = TRUE,
+          scrollY = TRUE
+        ))
       )
-    }
-  ),
-  page_section(
-    type = "row",
-    output_table(dataview = "primary_view")
+    ),
+    output_table("selected_variable", dataview = "primary_view", options = list(
+      scrollX = TRUE,
+      scrollY = TRUE
+    ))
   )
 )
 
 # render the site
-site_build("../demo_site", bundle_data = TRUE)
+vars <- c(
+  'ID', 'time', 'primcare_e2sfca', 'primcare_cnt', 'obgyn_e2sfca', 'obgyn_cnt', 'dent_cnt',
+  'dent_e2sfca', 'no_hlth_ins_pct', 'prevent_hosp_rate', 'daycare_cnt', 'daycare_norm_3sfca'
+)
+site_build(variables = vars)

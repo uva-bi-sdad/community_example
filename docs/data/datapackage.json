@@ -9,334 +9,818 @@
   },
   "resources": [
     {
-      "bytes": 31419,
+      "bytes": 23761,
       "encoding": "ISO-8859-1",
-      "md5": "b4e9682e3251cdbf826f3764be6f6c67",
-      "sha512": "zJM4lzHO9O/6Sfd+xeEswOVrD7PH4y9N4BWJmy0czzZO7V2SjyhMlALeDWZEgPYxE0PocYLxqB2f15gPlDrRgw==",
+      "md5": "858c7752278865298fedacac6808373d",
+      "sha512": "zzK+MLgvuwSw3MpBEBv7rOXpwrUNpYrlV2AQVRqnYE5WA7YEGdbnoWZ1i0/mDSCPehJqPCgRp96A8Jg9i0JUuw==",
       "format": "csv",
       "name": "district",
-      "filename": "va_hd_acs5_2019_health_access.csv",
-      "source": [
-        {
-          "name": "U.S. Census Bureau",
-          "url": "https://www2.census.gov/programs-surveys/acs",
-          "description": "For population counts."
-        }
-      ],
+      "filename": "health_district.csv",
+      "source": [],
       "ids": [
         {
           "variable": "ID",
           "map": "https://uva-bi-sdad.github.io/community/dist/shapes/VA/virginia_2010.json"
         }
       ],
-      "time": "year",
+      "time": "time",
       "profile": "data-resource",
-      "created": "2021-10-06 13:14:27",
-      "last_modified": "2021-10-12 04:32:36",
-      "rowcount": 385,
+      "created": "2021-10-20 00:50:32",
+      "last_modified": "2021-10-20 00:50:32",
+      "rowcount": 245,
       "schema": {
         "fields": [
           {
             "name": "ID",
-            "duplicates": 350,
+            "duplicates": 210,
             "type": "integer",
             "missing": 0,
             "mean": 18,
-            "sd": 10.112647,
+            "sd": 10.120179,
             "min": 1,
             "max": 35
           },
           {
-            "name": "year",
-            "duplicates": 374,
+            "name": "time",
+            "duplicates": 238,
             "type": "integer",
             "missing": 0,
-            "mean": 2014,
-            "sd": 3.166393,
-            "min": 2009,
-            "max": 2019
+            "mean": 2018,
+            "sd": 2.004094,
+            "min": 2015,
+            "max": 2021
           },
           {
-            "name": "population",
-            "duplicates": 4,
-            "type": "integer",
-            "missing": 0,
-            "mean": 223832.820779,
-            "sd": 184696.813613,
+            "name": "prevent_hosp_rate",
+            "duplicates": 244,
+            "type": "string",
+            "missing": 245,
+            "table": {
+              "1": 0
+            }
+          },
+          {
+            "name": "no_hlth_ins_pct",
+            "duplicates": 141,
+            "type": "float",
+            "missing": 135,
+            "mean": 3.167733,
+            "sd": 3.446182,
             "min": 0,
-            "max": 1183521
+            "max": 17.15
           },
           {
-            "name": "population_error",
-            "duplicates": 4,
+            "name": "daycare_3sfca_capacity",
+            "duplicates": 209,
+            "type": "float",
+            "missing": 210,
+            "mean": 0.922754,
+            "sd": 0.335857,
+            "min": 0.324367,
+            "max": 1.807624
+          },
+          {
+            "name": "daycare_cnt",
+            "duplicates": 209,
             "type": "integer",
-            "missing": 0,
-            "mean": 47245.968831,
-            "sd": 35601.766659,
+            "missing": 210,
+            "mean": 10654.4,
+            "sd": 12153.907404,
+            "min": 1027,
+            "max": 67563
+          },
+          {
+            "name": "daycare_norm_3sfca",
+            "duplicates": 209,
+            "type": "float",
+            "missing": 210,
+            "mean": 40.342738,
+            "sd": 22.643193,
             "min": 0,
-            "max": 230866
+            "max": 100
           },
           {
-            "name": "doctors",
-            "duplicates": 82,
+            "name": "dent_fca",
+            "duplicates": 209,
+            "type": "float",
+            "missing": 210,
+            "mean": 0.001571,
+            "sd": 0.000675,
+            "min": 0.000665,
+            "max": 0.003278
+          },
+          {
+            "name": "dent_cnt",
+            "duplicates": 211,
             "type": "integer",
-            "missing": 0,
-            "mean": 630.238961,
-            "sd": 701.228056,
-            "min": 69,
-            "max": 4482
+            "missing": 210,
+            "mean": 122.885714,
+            "sd": 170.494742,
+            "min": 15,
+            "max": 1000
           },
           {
-            "name": "obesity",
-            "duplicates": 85,
+            "name": "dent_3sfca",
+            "duplicates": 211,
             "type": "float",
-            "missing": 0,
-            "mean": 2.068514,
-            "sd": 8.484033,
-            "min": -1.626412,
-            "max": 40.032258
+            "missing": 210,
+            "mean": 0.000334,
+            "sd": 0.000129,
+            "min": 0.000145,
+            "max": 0.000678
           },
           {
-            "name": "physician_access",
-            "duplicates": 3,
+            "name": "dent_e2sfca",
+            "duplicates": 211,
             "type": "float",
-            "missing": 0,
-            "mean": -0.011386,
-            "sd": 0.11558,
-            "min": -0.305642,
-            "max": 0.47217
+            "missing": 212,
+            "mean": 0.000338,
+            "sd": 0.000138,
+            "min": 0.000092,
+            "max": 0.000626
           },
           {
-            "name": "health_score",
-            "duplicates": 0,
+            "name": "dent_2sfca",
+            "duplicates": 211,
             "type": "float",
-            "missing": 0,
-            "mean": 0,
-            "sd": 0.285061,
-            "min": -0.73735,
-            "max": 0.786717
+            "missing": 212,
+            "mean": 0.000338,
+            "sd": 0.000138,
+            "min": 0.000092,
+            "max": 0.000626
+          },
+          {
+            "name": "dent_pop_cnt",
+            "duplicates": 244,
+            "type": "string",
+            "missing": 245,
+            "table": {
+              "1": 0
+            }
+          },
+          {
+            "name": "obgyn_cnt",
+            "duplicates": 213,
+            "type": "integer",
+            "missing": 210,
+            "mean": 88,
+            "sd": 106.409033,
+            "min": 7,
+            "max": 611
+          },
+          {
+            "name": "obgyn_pop_cnt",
+            "duplicates": 244,
+            "type": "string",
+            "missing": 245,
+            "table": {
+              "1": 0
+            }
+          },
+          {
+            "name": "obgyn_2sfca",
+            "duplicates": 210,
+            "type": "float",
+            "missing": 211,
+            "mean": 0.000618,
+            "sd": 0.00022,
+            "min": 0.000115,
+            "max": 0.000918
+          },
+          {
+            "name": "obgyn_e2sfca",
+            "duplicates": 210,
+            "type": "float",
+            "missing": 211,
+            "mean": 0.000618,
+            "sd": 0.00022,
+            "min": 0.000115,
+            "max": 0.000918
+          },
+          {
+            "name": "obgyn_3sfca",
+            "duplicates": 210,
+            "type": "float",
+            "missing": 211,
+            "mean": 0.000663,
+            "sd": 0.000314,
+            "min": 0.000101,
+            "max": 0.001577
+          },
+          {
+            "name": "obgyn_fca",
+            "duplicates": 210,
+            "type": "float",
+            "missing": 211,
+            "mean": 0.013899,
+            "sd": 0.013021,
+            "min": 0.001289,
+            "max": 0.050765
+          },
+          {
+            "name": "primcare_3sfca",
+            "duplicates": 209,
+            "type": "float",
+            "missing": 210,
+            "mean": 0.00228,
+            "sd": 0.000843,
+            "min": 0.001364,
+            "max": 0.005012
+          },
+          {
+            "name": "primcare_2sfca",
+            "duplicates": 209,
+            "type": "float",
+            "missing": 210,
+            "mean": 0.002257,
+            "sd": 0.000657,
+            "min": 0.001107,
+            "max": 0.003521
+          },
+          {
+            "name": "primcare_pop_cnt",
+            "duplicates": 244,
+            "type": "string",
+            "missing": 245,
+            "table": {
+              "1": 0
+            }
+          },
+          {
+            "name": "primcare_fca",
+            "duplicates": 209,
+            "type": "float",
+            "missing": 210,
+            "mean": 0.020138,
+            "sd": 0.016943,
+            "min": 0.003393,
+            "max": 0.067092
+          },
+          {
+            "name": "primcare_e2sfca",
+            "duplicates": 209,
+            "type": "float",
+            "missing": 210,
+            "mean": 0.002257,
+            "sd": 0.000657,
+            "min": 0.001107,
+            "max": 0.003521
+          },
+          {
+            "name": "primcare_cnt",
+            "duplicates": 209,
+            "type": "integer",
+            "missing": 210,
+            "mean": 560.457143,
+            "sd": 581.307114,
+            "min": 74,
+            "max": 3360
           }
         ]
       }
     },
     {
-      "bytes": 113867,
+      "bytes": 94178,
       "encoding": "ISO-8859-1",
-      "md5": "e475e86df80fc14a3d19a88d27bbbf06",
-      "sha512": "yF/Z7RFpwyNB3BR16/qVh/8d2sqb37YpKRbMoAUQd3wfJ2IEGD8j6lVnVm2mNlS/TZ+StcKgAiC/lHAr44Vo3Q==",
+      "md5": "54e5a54e563f7b53358f85ec5e474856",
+      "sha512": "Ugkt9G+xTzigas8ZCfP+4sQTyDzyRqddlGglrhY2WUoq6FU+RsaOqxQvLm+33CXZZgRXRwQ6vsmoML+jshqAVA==",
       "format": "csv",
       "name": "county",
-      "filename": "va_ct_acs5_2019_health_access.csv",
-      "source": [
-        {
-          "name": "U.S. Census Bureau",
-          "url": "https://www2.census.gov/programs-surveys/acs",
-          "description": "For population counts."
-        }
-      ],
+      "filename": "county.csv",
+      "source": [],
       "ids": [
         {
           "variable": "ID",
           "map": "https://uva-bi-sdad.github.io/community/dist/shapes/VA/virginia_2010.json"
         }
       ],
-      "time": "year",
+      "time": "time",
       "profile": "data-resource",
-      "created": "2021-10-06 13:14:14",
-      "last_modified": "2021-10-12 04:32:36",
-      "rowcount": 1463,
+      "created": "2021-10-20 00:50:32",
+      "last_modified": "2021-10-20 00:50:32",
+      "rowcount": 938,
       "schema": {
         "fields": [
           {
             "name": "ID",
-            "duplicates": 1330,
+            "duplicates": 804,
             "type": "integer",
             "missing": 0,
-            "mean": 51263.992481,
-            "sd": 270.95161,
+            "mean": 51265.865672,
+            "sd": 270.854175,
             "min": 51001,
             "max": 51840
           },
           {
-            "name": "year",
-            "duplicates": 1452,
+            "name": "time",
+            "duplicates": 931,
             "type": "integer",
             "missing": 0,
-            "mean": 2014,
-            "sd": 3.163359,
-            "min": 2009,
-            "max": 2019
+            "mean": 2018,
+            "sd": 2.001067,
+            "min": 2015,
+            "max": 2021
           },
           {
-            "name": "population",
-            "duplicates": 57,
-            "type": "integer",
-            "missing": 0,
-            "mean": 58903.373889,
-            "sd": 116626.745534,
+            "name": "prevent_hosp_rate",
+            "duplicates": 66,
+            "type": "float",
+            "missing": 35,
+            "mean": 2095.477187,
+            "sd": 2453.038671,
+            "min": 20.98,
+            "max": 10521
+          },
+          {
+            "name": "no_hlth_ins_pct",
+            "duplicates": 612,
+            "type": "float",
+            "missing": 273,
+            "mean": 1.844301,
+            "sd": 2.541139,
             "min": 0,
-            "max": 1145862
+            "max": 21.15
           },
           {
-            "name": "population_error",
-            "duplicates": 100,
+            "name": "daycare_3sfca_capacity",
+            "duplicates": 804,
+            "type": "float",
+            "missing": 805,
+            "mean": 0.780385,
+            "sd": 0.353083,
+            "min": 0.149469,
+            "max": 1.78231
+          },
+          {
+            "name": "daycare_cnt",
+            "duplicates": 807,
             "type": "integer",
-            "missing": 0,
-            "mean": 12433.149692,
-            "sd": 23255.004468,
+            "missing": 805,
+            "mean": 2803.789474,
+            "sd": 7034.229806,
+            "min": 19,
+            "max": 64562
+          },
+          {
+            "name": "daycare_norm_3sfca",
+            "duplicates": 804,
+            "type": "float",
+            "missing": 805,
+            "mean": 38.639131,
+            "sd": 21.623851,
             "min": 0,
-            "max": 224221
+            "max": 100
           },
           {
-            "name": "doctors",
-            "duplicates": 1069,
+            "name": "dent_fca",
+            "duplicates": 815,
+            "type": "float",
+            "missing": 812,
+            "mean": 0.001314,
+            "sd": 0.000787,
+            "min": 0.000251,
+            "max": 0.005244
+          },
+          {
+            "name": "dent_cnt",
+            "duplicates": 888,
             "type": "integer",
-            "missing": 0,
-            "mean": 165.852358,
-            "sd": 400.115596,
+            "missing": 816,
+            "mean": 35.254098,
+            "sd": 93.122825,
             "min": 1,
-            "max": 4158
+            "max": 894
           },
           {
-            "name": "obesity",
-            "duplicates": 413,
+            "name": "dent_3sfca",
+            "duplicates": 826,
             "type": "float",
-            "missing": 0,
-            "mean": 0.284191,
-            "sd": 5.061766,
-            "min": -7.084844,
-            "max": 40.032258
+            "missing": 812,
+            "mean": 0.000303,
+            "sd": 0.000155,
+            "min": 0.000036,
+            "max": 0.000765
           },
           {
-            "name": "physician_access",
-            "duplicates": 91,
+            "name": "dent_e2sfca",
+            "duplicates": 824,
             "type": "float",
-            "missing": 0,
-            "mean": -0.049254,
-            "sd": 0.212484,
-            "min": -1.482988,
-            "max": 2.666097
+            "missing": 812,
+            "mean": 0.000272,
+            "sd": 0.000137,
+            "min": 0.000033,
+            "max": 0.000668
           },
           {
-            "name": "health_score",
-            "duplicates": 0,
+            "name": "dent_2sfca",
+            "duplicates": 824,
             "type": "float",
-            "missing": 0,
-            "mean": -0,
-            "sd": 0.365494,
-            "min": -1.433142,
-            "max": 1.381514
+            "missing": 812,
+            "mean": 0.000272,
+            "sd": 0.000137,
+            "min": 0.000033,
+            "max": 0.000668
+          },
+          {
+            "name": "dent_pop_cnt",
+            "duplicates": 937,
+            "type": "string",
+            "missing": 938,
+            "table": {
+              "1": 0
+            }
+          },
+          {
+            "name": "obgyn_cnt",
+            "duplicates": 891,
+            "type": "integer",
+            "missing": 844,
+            "mean": 32.765957,
+            "sd": 69.696797,
+            "min": 1,
+            "max": 562
+          },
+          {
+            "name": "obgyn_pop_cnt",
+            "duplicates": 937,
+            "type": "string",
+            "missing": 938,
+            "table": {
+              "1": 0
+            }
+          },
+          {
+            "name": "obgyn_2sfca",
+            "duplicates": 835,
+            "type": "float",
+            "missing": 828,
+            "mean": 0.00053,
+            "sd": 0.000277,
+            "min": 0.000046,
+            "max": 0.001064
+          },
+          {
+            "name": "obgyn_e2sfca",
+            "duplicates": 835,
+            "type": "float",
+            "missing": 828,
+            "mean": 0.00053,
+            "sd": 0.000277,
+            "min": 0.000046,
+            "max": 0.001064
+          },
+          {
+            "name": "obgyn_3sfca",
+            "duplicates": 834,
+            "type": "float",
+            "missing": 828,
+            "mean": 0.000547,
+            "sd": 0.000363,
+            "min": 0.000051,
+            "max": 0.001932
+          },
+          {
+            "name": "obgyn_fca",
+            "duplicates": 831,
+            "type": "float",
+            "missing": 828,
+            "mean": 0.00872,
+            "sd": 0.010221,
+            "min": 0.000481,
+            "max": 0.053137
+          },
+          {
+            "name": "primcare_3sfca",
+            "duplicates": 807,
+            "type": "float",
+            "missing": 805,
+            "mean": 0.002048,
+            "sd": 0.001021,
+            "min": 0.000394,
+            "max": 0.007805
+          },
+          {
+            "name": "primcare_2sfca",
+            "duplicates": 806,
+            "type": "float",
+            "missing": 805,
+            "mean": 0.002031,
+            "sd": 0.000922,
+            "min": 0.000534,
+            "max": 0.004604
+          },
+          {
+            "name": "primcare_pop_cnt",
+            "duplicates": 937,
+            "type": "string",
+            "missing": 938,
+            "table": {
+              "1": 0
+            }
+          },
+          {
+            "name": "primcare_fca",
+            "duplicates": 804,
+            "type": "float",
+            "missing": 805,
+            "mean": 0.012263,
+            "sd": 0.014118,
+            "min": 0.000741,
+            "max": 0.067092
+          },
+          {
+            "name": "primcare_e2sfca",
+            "duplicates": 806,
+            "type": "float",
+            "missing": 805,
+            "mean": 0.002031,
+            "sd": 0.000922,
+            "min": 0.000534,
+            "max": 0.004604
+          },
+          {
+            "name": "primcare_cnt",
+            "duplicates": 844,
+            "type": "integer",
+            "missing": 805,
+            "mean": 147.488722,
+            "sd": 341.347655,
+            "min": 1,
+            "max": 3152
           }
         ]
       }
     },
     {
-      "bytes": 1600667,
+      "bytes": 1391503,
       "encoding": "ISO-8859-1",
-      "md5": "9acd9d20df6cd2b575e2ae59987fd18a",
-      "sha512": "gNdcreMSQCeG/t7X2MA7130Gi380JCxcAMHZunxGhHMlfXMGJijv+UYo45IHs4vP5RXS9vyEzr3c2KNW0is3xA==",
+      "md5": "5b275259cc87fe061cd92cbe7fe68ce1",
+      "sha512": "EZ0y7GJ5N3OxHpFlcgDWz9RiYhdReqbNPEHXIS36kvPiXtKx4OIsVSuFFz510k9vvq/hANqOAAuOBl/3KIhMDA==",
       "format": "csv",
       "name": "tract",
-      "filename": "va_tr_acs5_2019_health_access.csv",
-      "source": [
-        {
-          "name": "U.S. Census Bureau",
-          "url": "https://www2.census.gov/programs-surveys/acs",
-          "description": "For population counts."
-        }
-      ],
+      "filename": "tract.csv",
+      "source": [],
       "ids": [
         {
           "variable": "ID",
           "map": "https://uva-bi-sdad.github.io/community/dist/shapes/VA/virginia_2010.json"
         }
       ],
-      "time": "year",
+      "time": "time",
       "profile": "data-resource",
-      "created": "2021-10-06 13:14:11",
-      "last_modified": "2021-10-12 04:32:36",
-      "rowcount": 20977,
+      "created": "2021-10-20 00:50:32",
+      "last_modified": "2021-10-20 00:50:32",
+      "rowcount": 13349,
       "schema": {
         "fields": [
           {
             "name": "ID",
-            "duplicates": 19070,
+            "duplicates": 11442,
             "type": "integer",
             "missing": 0,
             "mean": 51296485701,
-            "sd": 297017604.827919,
+            "sd": 297021650.590062,
             "min": 51001090100,
             "max": 51840000302
           },
           {
-            "name": "year",
-            "duplicates": 20966,
+            "name": "time",
+            "duplicates": 13342,
             "type": "integer",
             "missing": 0,
-            "mean": 2014,
-            "sd": 3.162353,
-            "min": 2009,
-            "max": 2019
+            "mean": 2018,
+            "sd": 2.000075,
+            "min": 2015,
+            "max": 2021
           },
           {
-            "name": "population",
-            "duplicates": 14262,
+            "name": "prevent_hosp_rate",
+            "duplicates": 13348,
+            "type": "string",
+            "missing": 13349,
+            "table": {
+              "1": 0
+            }
+          },
+          {
+            "name": "no_hlth_ins_pct",
+            "duplicates": 11872,
+            "type": "float",
+            "missing": 3979,
+            "mean": 2.771591,
+            "sd": 5.325791,
+            "min": 0,
+            "max": 66.75
+          },
+          {
+            "name": "daycare_3sfca_capacity",
+            "duplicates": 11449,
+            "type": "float",
+            "missing": 11449,
+            "mean": 0.967495,
+            "sd": 0.323011,
+            "min": 0,
+            "max": 1.845706
+          },
+          {
+            "name": "daycare_cnt",
+            "duplicates": 12781,
             "type": "integer",
-            "missing": 0,
-            "mean": 4108.101063,
-            "sd": 2024.561314,
+            "missing": 11442,
+            "mean": 195.544835,
+            "sd": 235.098779,
+            "min": 0,
+            "max": 2273
+          },
+          {
+            "name": "daycare_norm_3sfca",
+            "duplicates": 11449,
+            "type": "float",
+            "missing": 11449,
+            "mean": 52.41866,
+            "sd": 17.500646,
+            "min": 0,
+            "max": 100
+          },
+          {
+            "name": "dent_fca",
+            "duplicates": 12266,
+            "type": "float",
+            "missing": 11528,
+            "mean": 0.001827,
+            "sd": 0.000811,
+            "min": 0,
+            "max": 0.00648
+          },
+          {
+            "name": "dent_cnt",
+            "duplicates": 13316,
+            "type": "integer",
+            "missing": 12384,
+            "mean": 4.456995,
+            "sd": 4.964131,
+            "min": 1,
+            "max": 39
+          },
+          {
+            "name": "dent_3sfca",
+            "duplicates": 12672,
+            "type": "float",
+            "missing": 11450,
+            "mean": 0.000387,
+            "sd": 0.000182,
+            "min": 0,
+            "max": 0.000862
+          },
+          {
+            "name": "dent_e2sfca",
+            "duplicates": 12833,
+            "type": "float",
+            "missing": 11452,
+            "mean": 0.000386,
+            "sd": 0.00016,
+            "min": 0,
+            "max": 0.000702
+          },
+          {
+            "name": "dent_2sfca",
+            "duplicates": 12833,
+            "type": "float",
+            "missing": 11452,
+            "mean": 0.000386,
+            "sd": 0.00016,
+            "min": 0,
+            "max": 0.000702
+          },
+          {
+            "name": "dent_pop_cnt",
+            "duplicates": 11710,
+            "type": "integer",
+            "missing": 11450,
+            "mean": 4449.587151,
+            "sd": 2030.424604,
             "min": 0,
             "max": 19438
           },
           {
-            "name": "population_error",
-            "duplicates": 18656,
+            "name": "obgyn_cnt",
+            "duplicates": 13305,
             "type": "integer",
-            "missing": 0,
-            "mean": 867.125804,
-            "sd": 523.763356,
-            "min": 0,
-            "max": 4109
+            "missing": 12876,
+            "mean": 6.511628,
+            "sd": 13.452694,
+            "min": 1,
+            "max": 137
           },
           {
-            "name": "doctors",
-            "duplicates": 20696,
+            "name": "obgyn_pop_cnt",
+            "duplicates": 11996,
             "type": "integer",
-            "missing": 0,
-            "mean": 11.56705,
-            "sd": 59.634099,
+            "missing": 11450,
+            "mean": 1861.517114,
+            "sd": 832.691345,
             "min": 0,
-            "max": 3925
+            "max": 6877
           },
           {
-            "name": "obesity",
-            "duplicates": 6478,
+            "name": "obgyn_2sfca",
+            "duplicates": 12841,
             "type": "float",
-            "missing": 4224,
-            "mean": 2.416005,
-            "sd": 9.814226,
-            "min": -18.552841,
-            "max": 53.7
+            "missing": 11453,
+            "mean": 0.000634,
+            "sd": 0.000261,
+            "min": 0,
+            "max": 0.001232
           },
           {
-            "name": "physician_access",
-            "duplicates": 4793,
+            "name": "obgyn_e2sfca",
+            "duplicates": 12841,
             "type": "float",
-            "missing": 16,
-            "mean": 0.000094,
-            "sd": 0.424143,
-            "min": -4.388129,
-            "max": 6.604806
+            "missing": 11453,
+            "mean": 0.000634,
+            "sd": 0.000261,
+            "min": 0,
+            "max": 0.001232
           },
           {
-            "name": "health_score",
-            "duplicates": 59,
+            "name": "obgyn_3sfca",
+            "duplicates": 12407,
             "type": "float",
-            "missing": 0,
-            "mean": 0,
-            "sd": 0.593146,
-            "min": -2.458067,
-            "max": 2.722221
+            "missing": 11450,
+            "mean": 0.000644,
+            "sd": 0.000398,
+            "min": 0,
+            "max": 0.001974
+          },
+          {
+            "name": "obgyn_fca",
+            "duplicates": 12293,
+            "type": "float",
+            "missing": 11638,
+            "mean": 0.016164,
+            "sd": 0.014387,
+            "min": 0.000345,
+            "max": 0.101242
+          },
+          {
+            "name": "primcare_3sfca",
+            "duplicates": 11883,
+            "type": "float",
+            "missing": 11450,
+            "mean": 0.002328,
+            "sd": 0.001139,
+            "min": 0,
+            "max": 0.007967
+          },
+          {
+            "name": "primcare_2sfca",
+            "duplicates": 12172,
+            "type": "float",
+            "missing": 11450,
+            "mean": 0.002295,
+            "sd": 0.000761,
+            "min": 0,
+            "max": 0.004802
+          },
+          {
+            "name": "primcare_pop_cnt",
+            "duplicates": 11710,
+            "type": "integer",
+            "missing": 11450,
+            "mean": 4449.587151,
+            "sd": 2030.424604,
+            "min": 0,
+            "max": 19438
+          },
+          {
+            "name": "primcare_fca",
+            "duplicates": 11611,
+            "type": "float",
+            "missing": 11468,
+            "mean": "Inf",
+            "sd": "NaN",
+            "min": 0.000201,
+            "max": "Inf"
+          },
+          {
+            "name": "primcare_e2sfca",
+            "duplicates": 12172,
+            "type": "float",
+            "missing": 11450,
+            "mean": 0.002295,
+            "sd": 0.000761,
+            "min": 0,
+            "max": 0.004802
+          },
+          {
+            "name": "primcare_cnt",
+            "duplicates": 13244,
+            "type": "integer",
+            "missing": 12058,
+            "mean": 15.194423,
+            "sd": 41.247863,
+            "min": 1,
+            "max": 847
           }
         ]
       }

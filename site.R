@@ -17,25 +17,35 @@ page_navbar(
 # use `input_` functions to add input elements that affect outputs
 page_menu(
   input_select(
-    "Select a Health District", options = "levels",
+    "Health District", options = "levels",
     variable = "ID", dataset = "district", dataview = "primary_view",
     id = "selected_district", reset_button = TRUE
   ),
   input_select(
-    "Select a County", options = "levels",
+    "County", options = "levels",
     variable = "ID", dataset = "county", dataview = "primary_view",
     id = "selected_county", reset_button = TRUE
   ),
-  input_checkbox("Select a Region Type", options = c("rural", "mixed", "urban"), id = "region_type"),
-  input_slider("Select a Year", variable = "time", default = 2019, id = "selected_year"),
+  input_checkbox("Region Types", options = c("rural", "mixed", "urban"), id = "region_type"),
   input_select(
-    "Select a Variable",
+    "Variable",
     options = "variables", id = "selected_variable",
     default = "no_hlth_ins_pct", depends = "shapes"
   ),
+  page_section(
+    type = "col",
+    page_section(
+      type = "row",
+      wraps = "col",
+      input_number("First Year", "min_year", default = "min", max = "max_year", dataview = "primary_view"),
+      input_slider("Selected Year", min = "min_year", max = "max_year", default = "max", id = "selected_year"),
+      input_number("Last Year", "max_year", default = "max", min = "min_year", dataview = "primary_view")
+    )
+  ),
   position = "top",
   default_open = TRUE,
-  conditions = c("", "selected_district", "", "", "")
+  conditions = c("", "selected_district", "", "", ""),
+  sizes = c(NA, NA, NA, NA, 4)
 )
 
 ## `input_variable` can be used to set up logical controls
@@ -54,10 +64,25 @@ input_variable("selected_region", list(
 
 ## `input_dataview` can collect multiple inputs as filters for a shared data view
 input_dataview(
+  "primary_view",
+  y = "selected_variable",
+  x = "selected_year",
   dataset = "shapes",
   ids = "selected_region",
   features = c(type = "region_type"),
-  id = "primary_view"
+  time_agg = "selected_year",
+  time_filters = list(
+    list(
+      variable = "time",
+      type = ">=",
+      value = "min_year"
+    ),
+    list(
+      variable = "time",
+      type = "<=",
+      value = "max_year"
+    )
+  )
 )
 
 ## `input_rule` can be used to specify if-then conditions for inputs
@@ -82,8 +107,6 @@ page_section(
       ), names = shape_names)
       output_map(
         shapes,
-        color = "selected_variable",
-        color_time = "selected_year",
         dataview = "primary_view",
         click = "region_select",
         subto = "plot0",
@@ -127,7 +150,7 @@ page_section(
             ) |>
             layout(
               xaxis = list(fixedrange = TRUE),
-              yaxis = list(fixedrange = TRUE)
+              yaxis = list(fixedrange = TRUE, zeroline = FALSE)
             ) |>
             config(
               responsive = TRUE,
@@ -139,8 +162,6 @@ page_section(
           output_plot(
             x = "time",
             y = "selected_variable",
-            color = "selected_variable",
-            color_time = "selected_year",
             dataview = "primary_view",
             click = "region_select",
             subto = "map0",
@@ -151,14 +172,18 @@ page_section(
       list(
         name = "Data",
         output_table(dataview = "primary_view", options = list(
-          scrollX = TRUE,
-          scrollY = TRUE
+          info = FALSE,
+          paging = FALSE,
+          scrollY = 400,
+          scrollX = 1000
         ))
       )
     ),
     output_table("selected_variable", dataview = "primary_view", options = list(
-      scrollX = TRUE,
-      scrollY = TRUE
+      info = FALSE,
+      paging = FALSE,
+      searching = FALSE,
+      scrollY = 500
     ))
   )
 )

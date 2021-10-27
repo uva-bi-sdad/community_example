@@ -4,6 +4,7 @@
   "metadata": {
     "package": "data/datapackage.json",
     "datasets": ["district", "county", "tract"],
+    "variables": ["ID", "time", "primcare_e2sfca", "primcare_cnt", "obgyn_e2sfca", "obgyn_cnt", "dent_cnt", "dent_e2sfca", "no_hlth_ins_pct", "prevent_hosp_rate", "daycare_cnt", "daycare_norm_3sfca"],
     "info": {
       "district": {
         "bytes": 23761,

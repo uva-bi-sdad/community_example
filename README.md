@@ -24,20 +24,17 @@ data_add(
       variable = 'ID',
       map = 'https://uva-bi-sdad.github.io/community/dist/shapes/VA/virginia_2010.json'
     ),
-    time = 'time'
+    time = 'time',
+    variables = 'measure_info.json'
   )), 3),
   dir = 'docs/data',
   refresh = TRUE
 )
 
 # specify variables if you want to only include a subset
-vars <- c(
-  'ID', 'time', 'primcare_e2sfca', 'primcare_cnt', 'obgyn_e2sfca', 'obgyn_cnt', 'dent_cnt',
-  'dent_e2sfca', 'no_hlth_ins_pct', 'prevent_hosp_rate', 'daycare_cnt', 'daycare_norm_3sfca'
-)
+meta <- jsonlite::read_json('docs/data/measure_info.json')
 
 # edit site.R, and add some styling to docs/style.css, then run
 # (add `bundle_data = TRUE` or run `npm start` from a console to run locally)
-site_build(variables = vars)
+site_build(variables = c('ID', names(meta)))
 ```
-

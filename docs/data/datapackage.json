@@ -9,10 +9,10 @@
   },
   "resources": [
     {
-      "bytes": 23761,
+      "bytes": 71856,
       "encoding": "ISO-8859-1",
-      "md5": "858c7752278865298fedacac6808373d",
-      "sha512": "zzK+MLgvuwSw3MpBEBv7rOXpwrUNpYrlV2AQVRqnYE5WA7YEGdbnoWZ1i0/mDSCPehJqPCgRp96A8Jg9i0JUuw==",
+      "md5": "090597144ae5040943836149aba5afc4",
+      "sha512": "mNZkeETTmAKaBYjimDwaY6AjnIYnwjOCL7vUsifE/X6qRMNPCBtQRShBr7kw/YwK4OSc/ZnLobRq8LNz/oHeog==",
       "format": "csv",
       "name": "district",
       "filename": "health_district.csv",
@@ -25,7 +25,7 @@
       ],
       "time": "time",
       "profile": "data-resource",
-      "created": "2021-10-20 00:50:32",
+      "created": "2021-10-27 18:52:17",
       "last_modified": "2021-10-20 00:50:32",
       "rowcount": 245,
       "schema": {
@@ -43,6 +43,10 @@
           {
             "name": "time",
             "duplicates": 238,
+            "info": {
+              "type": "year",
+              "short_name": "Year"
+            },
             "type": "integer",
             "missing": 0,
             "mean": 2018,
@@ -51,7 +55,380 @@
             "max": 2021
           },
           {
-            "name": "prevent_hosp_rate",
+            "name": "preventable_hospitalizations:prevent_hosp_rate",
+            "duplicates": 244,
+            "info": {
+              "type": "rate",
+              "short_name": "Preventable hospitalizations per 100,000",
+              "long_name": "Preventable hospital stays per 100,000 Medicare enrollees",
+              "short_description": "Rate of hospital stays for ambulatory-care sensitive conditions per 100,000 Medicare enrollees",
+              "long_description": "Rate of hospital stays for ambulatory-care sensitive conditions per 100,000 Medicare enrollees. Ambulatory care refers to diagnoses that are usually treatable in outpatient settings. This data is based on Medicare claims and comes from County Health Rankings.",
+              "statement": "prevent_hosp_rate + \" percent of the hospitalizations in \" +  region_name + \" were preventable",
+              "name": "",
+              "url": "https://www.countyhealthrankings.org/app/virginia/2021/measure/factors/5/description",
+              "category": "Health",
+              "measure": "prevent_hosp_rate",
+              "full_name": "preventable_hospitalizations:prevent_hosp_rate",
+              "db_name": "dc_health_behavior_diet.va_ct_chr_2015_2021_preventable_hospitalizations"
+            },
+            "type": "string",
+            "missing": 245,
+            "table": {
+              "1": 0
+            }
+          },
+          {
+            "name": "3rd_grade_median_read_score:median_read_pass_rate",
+            "duplicates": 210,
+            "info": {
+              "type": "",
+              "short_name": "3rd grade reading scores",
+              "long_name": "Median 3rd grade reading scores (pass rate?)",
+              "short_description": "",
+              "long_description": "",
+              "statement": "",
+              "name": "Virginia Department of Education",
+              "url": "",
+              "category": "Education",
+              "measure": "median_read_pass_rate",
+              "full_name": "3rd_grade_median_read_score:median_read_pass_rate",
+              "db_name": "dc_education_training.va_hdct_vdoe_2019_2021_3rd_grade_median_read_score"
+            },
+            "type": "float",
+            "missing": 175,
+            "mean": 11.107143,
+            "sd": 5.300323,
+            "min": 0,
+            "max": 28
+          },
+          {
+            "name": "post_hs_education:num_post_hs_edu",
+            "duplicates": 209,
+            "type": "integer",
+            "missing": 210,
+            "mean": 108507.685714,
+            "sd": 109357.768954,
+            "min": 14651,
+            "max": 643354
+          },
+          {
+            "name": "post_hs_education:perc_post_hs_edu",
+            "duplicates": 209,
+            "info": {
+              "type": "percent",
+              "short_name": "Percent  of population with post-high school education",
+              "long_name": "Percent  of population with post-high school education",
+              "short_description": "",
+              "long_description": "",
+              "statement": "",
+              "name": "American Community Survey",
+              "url": "",
+              "category": "Education",
+              "measure": "perc_post_hs_edu",
+              "full_name": "post_hs_education:perc_post_hs_edu",
+              "db_name": "dc_education_training.va_hdcttr_acs_2015_2019_post_hs_education"
+            },
+            "type": "float",
+            "missing": 210,
+            "mean": 0.604963,
+            "sd": 0.117451,
+            "min": 0.414343,
+            "max": 0.865411
+          },
+          {
+            "name": "no_health_insurance_19_to_64:no_hlth_ins_pct",
+            "duplicates": 77,
+            "info": {
+              "type": "percent",
+              "short_name": "Uninsured population",
+              "long_name": "Percent of population without health insurance",
+              "short_description": "Percent of the population self-reported to not be currently covered by any type of health insurance or health coverage plan",
+              "long_description": "Percent of the population self-reported to not be currently covered by any type of health insurance or health coverage plan. This data comes from Question 16 of the American Community Survey.",
+              "statement": "no_hlth_ins_pct +  \" percent of the population has no health insurance in \" + region_name",
+              "name": "American Community Survey",
+              "url": "https://www.census.gov/programs-surveys/acs.html",
+              "category": "Health",
+              "measure": "no_hlth_ins_pct",
+              "full_name": "no_health_insurance_19_to_64:no_hlth_ins_pct",
+              "db_name": "dc_health_behavior_diet.va_hdcttr_acs5_2015_2019_no_health_insurance_19_to_64"
+            },
+            "type": "float",
+            "missing": 70,
+            "mean": 2.309139,
+            "sd": 2.452081,
+            "min": 0.2,
+            "max": 15.453333
+          },
+          {
+            "name": "pct_pop_broadband:perc_w_broadband",
+            "duplicates": 139,
+            "info": {
+              "type": "percent",
+              "short_name": "Population with broadband",
+              "long_name": "Percent of population with broadband",
+              "short_description": "",
+              "long_description": "",
+              "statement": "",
+              "name": "American Community Survey",
+              "url": "",
+              "category": "Broadband",
+              "measure": "perc_w_broadband",
+              "full_name": "pct_pop_broadband:perc_w_broadband",
+              "db_name": "dc_digital_communications.va_hdcttr_acs_2017_2019_pct_pop_broadband"
+            },
+            "type": "float",
+            "missing": 140,
+            "mean": 0.774409,
+            "sd": 0.101325,
+            "min": 0.541467,
+            "max": 0.946151
+          },
+          {
+            "name": "pct_pop_cable_fiber_dsl:perc_w_cable_fiber_DSL",
+            "duplicates": 139,
+            "info": {
+              "type": "percent",
+              "short_name": "Population with cable fiber internet or DSL",
+              "long_name": "Percent of population with cable fiber internet or DSL",
+              "short_description": "",
+              "long_description": "",
+              "statement": "",
+              "name": "American Community Survey",
+              "url": "",
+              "category": "Broadband",
+              "measure": "perc_w_cable_fiber_DSL",
+              "full_name": "pct_pop_cable_fiber_dsl:perc_w_cable_fiber_DSL",
+              "db_name": "dc_digital_communications.va_hdcttr_acs_2017_2019_pct_pop_cable_fiber_dsl"
+            },
+            "type": "float",
+            "missing": 140,
+            "mean": 0.621007,
+            "sd": 0.149794,
+            "min": 0.304352,
+            "max": 0.879704
+          },
+          {
+            "name": "download_speeds:download",
+            "duplicates": 139,
+            "info": {
+              "type": "float",
+              "short_name": "Average download speed",
+              "long_name": "Average download speed (MB/s)",
+              "short_description": "",
+              "long_description": "",
+              "statement": "",
+              "name": "Ookla",
+              "url": "https://www.ookla.com",
+              "category": "Broadband",
+              "measure": "download",
+              "full_name": "download_speeds:download",
+              "db_name": "dc_digital_communications.va_hdcttr_ookla_2019_2021_download_speeds"
+            },
+            "type": "float",
+            "missing": 140,
+            "mean": 126.42255,
+            "sd": 38.920948,
+            "min": 27.599472,
+            "max": 208.29525
+          },
+          {
+            "name": "drive_times_nearest_2year_colleges:median_drive_time_top5",
+            "duplicates": 209,
+            "info": {
+              "type": "",
+              "short_name": "2-year college access (drive time)",
+              "long_name": "2-year college access by median dive time to the five closest colleges in minutes",
+              "short_description": "",
+              "long_description": "",
+              "statement": "",
+              "name": "",
+              "url": "",
+              "category": "Education",
+              "measure": "median_drive_time_top5",
+              "full_name": "drive_times_nearest_2year_colleges:median_drive_time_top5",
+              "db_name": "dc_education_training.va_hdcttr_osrm_2021_drive_times_nearest_2year_colleges"
+            },
+            "type": "float",
+            "missing": 210,
+            "mean": 52.288571,
+            "sd": 32.361767,
+            "min": 9,
+            "max": 122.8
+          },
+          {
+            "name": "drive_times_nearest_2year_colleges:median_drive_time_top10",
+            "duplicates": 209,
+            "type": "float",
+            "missing": 210,
+            "mean": 72.13,
+            "sd": 39.854098,
+            "min": 13.3,
+            "max": 185.35
+          },
+          {
+            "name": "drive_times_nearest_2year_colleges:mean_drive_time_top5",
+            "duplicates": 209,
+            "type": "float",
+            "missing": 210,
+            "mean": 50.005143,
+            "sd": 28.916866,
+            "min": 9.16,
+            "max": 115.3
+          },
+          {
+            "name": "drive_times_nearest_2year_colleges:mean_drive_time_top10",
+            "duplicates": 209,
+            "type": "float",
+            "missing": 210,
+            "mean": 70.979429,
+            "sd": 37.067062,
+            "min": 14.33,
+            "max": 174.17
+          },
+          {
+            "name": "drive_times_nearest_daycares:median_drive_time_top5",
+            "duplicates": 212,
+            "info": {
+              "type": "",
+              "short_name": "Day care access (drive time)",
+              "long_name": "Day care access by median drive time to the five closest day cares in minutes",
+              "short_description": "",
+              "long_description": "",
+              "statement": "",
+              "name": "Virginia Department of Social Services",
+              "url": "",
+              "category": "Education",
+              "measure": "median_drive_time_top5",
+              "full_name": "drive_times_nearest_daycares:median_drive_time_top5",
+              "db_name": "dc_education_training.va_hdcttr_osrm_2021_drive_times_nearest_daycares"
+            },
+            "type": "float",
+            "missing": 210,
+            "mean": 13.28,
+            "sd": 12.568162,
+            "min": 1.8,
+            "max": 62.1
+          },
+          {
+            "name": "drive_times_nearest_daycares:median_drive_time_top10",
+            "duplicates": 212,
+            "type": "float",
+            "missing": 210,
+            "mean": 15.804286,
+            "sd": 13.878694,
+            "min": 2.65,
+            "max": 64.3
+          },
+          {
+            "name": "drive_times_nearest_daycares:mean_drive_time_top10",
+            "duplicates": 209,
+            "type": "float",
+            "missing": 210,
+            "mean": 15.167688,
+            "sd": 13.36465,
+            "min": 2.4,
+            "max": 63.22
+          },
+          {
+            "name": "drive_times_nearest_daycares:mean_drive_time_top5",
+            "duplicates": 209,
+            "type": "float",
+            "missing": 210,
+            "mean": 12.894952,
+            "sd": 12.24142,
+            "min": 1.8,
+            "max": 59.9
+          },
+          {
+            "name": "drive_times_nearest_trade_schools:mean_drive_time_top10",
+            "duplicates": 210,
+            "type": "float",
+            "missing": 210,
+            "mean": 105.867065,
+            "sd": 81.611978,
+            "min": 22.01,
+            "max": 345.15
+          },
+          {
+            "name": "drive_times_nearest_trade_schools:median_drive_time_top10",
+            "duplicates": 209,
+            "type": "float",
+            "missing": 210,
+            "mean": 115.504286,
+            "sd": 100.308776,
+            "min": 18.2,
+            "max": 413.25
+          },
+          {
+            "name": "drive_times_nearest_trade_schools:mean_drive_time_top5",
+            "duplicates": 210,
+            "type": "float",
+            "missing": 210,
+            "mean": 80.131429,
+            "sd": 64.968168,
+            "min": 12.4,
+            "max": 267
+          },
+          {
+            "name": "drive_times_nearest_trade_schools:median_drive_time_top5",
+            "duplicates": 209,
+            "info": {
+              "type": "",
+              "short_name": "Trade school access (drive time)",
+              "long_name": "Trade school access by median drive time to the five closest schools in minutes",
+              "short_description": "",
+              "long_description": "",
+              "statement": "",
+              "name": "",
+              "url": "",
+              "category": "Education",
+              "measure": "median_drive_time_top5",
+              "full_name": "drive_times_nearest_trade_schools:median_drive_time_top5",
+              "db_name": "dc_education_training.va_hdcttr_osrm_2021_drive_times_nearest_trade_schools"
+            },
+            "type": "float",
+            "missing": 210,
+            "mean": 83.048571,
+            "sd": 70.831214,
+            "min": 14,
+            "max": 300.9
+          },
+          {
+            "name": "dei_index:norm_dei",
+            "duplicates": 143,
+            "info": {
+              "type": "index",
+              "short_name": "Digital equity index",
+              "long_name": "Digitial equity index",
+              "short_description": "",
+              "long_description": "",
+              "statement": "",
+              "name": "",
+              "url": "",
+              "category": "Broadband",
+              "measure": "norm_dei",
+              "full_name": "dei_index:norm_dei",
+              "db_name": "dc_digital_communications.va_hdcttr_sdad_2019_2021_dei_index"
+            },
+            "type": "float",
+            "missing": 140,
+            "mean": 51.411416,
+            "sd": 27.408998,
+            "min": 0,
+            "max": 100
+          },
+          {
+            "name": "2year_colleges_access_scores:perc_3sfca",
+            "duplicates": 210,
+            "type": "float",
+            "missing": 210,
+            "mean": 51.510204,
+            "sd": 29.141256,
+            "min": 5.714286,
+            "max": 100
+          },
+          {
+            "name": "2year_colleges_access_scores:college_capacity",
             "duplicates": 244,
             "type": "string",
             "missing": 245,
@@ -60,17 +437,270 @@
             }
           },
           {
-            "name": "no_hlth_ins_pct",
-            "duplicates": 141,
-            "type": "float",
-            "missing": 135,
-            "mean": 3.167733,
-            "sd": 3.446182,
-            "min": 0,
-            "max": 17.15
+            "name": "2year_colleges_access_scores:norm_2sfca",
+            "duplicates": 244,
+            "type": "string",
+            "missing": 245,
+            "table": {
+              "1": 0
+            }
           },
           {
-            "name": "daycare_3sfca_capacity",
+            "name": "2year_colleges_access_scores:perc_2sfca30",
+            "duplicates": 244,
+            "type": "string",
+            "missing": 245,
+            "table": {
+              "1": 0
+            }
+          },
+          {
+            "name": "2year_colleges_access_scores:2sfca30_capacity",
+            "duplicates": 244,
+            "type": "string",
+            "missing": 245,
+            "table": {
+              "1": 0
+            }
+          },
+          {
+            "name": "2year_colleges_access_scores:norm_3sfca",
+            "duplicates": 210,
+            "type": "float",
+            "missing": 210,
+            "mean": 19.688058,
+            "sd": 19.836537,
+            "min": 0,
+            "max": 100
+          },
+          {
+            "name": "2year_colleges_access_scores:3sfca_capacity",
+            "duplicates": 244,
+            "type": "string",
+            "missing": 245,
+            "table": {
+              "1": 0
+            }
+          },
+          {
+            "name": "2year_colleges_access_scores:perc_2sefca",
+            "duplicates": 220,
+            "type": "float",
+            "missing": 210,
+            "mean": 56,
+            "sd": 23.674463,
+            "min": 31.428571,
+            "max": 100
+          },
+          {
+            "name": "2year_colleges_access_scores:norm_2sefca",
+            "duplicates": 220,
+            "info": {
+              "type": "index",
+              "short_name": "2-year college access (score)",
+              "long_name": "2 year college access score (2-step enhanced floating catchment areas)",
+              "short_description": "",
+              "long_description": "",
+              "statement": "",
+              "name": "",
+              "url": "",
+              "category": "Education",
+              "measure": "norm_2sefca",
+              "full_name": "2year_colleges_access_scores:norm_2sefca",
+              "db_name": "dc_education_training.va_hdcttr_sdad_2019_2year_colleges_access_scores"
+            },
+            "type": "float",
+            "missing": 210,
+            "mean": 18.022223,
+            "sd": 22.62049,
+            "min": 0,
+            "max": 100
+          },
+          {
+            "name": "2year_colleges_access_scores:2sefca30_tot_enrol",
+            "duplicates": 220,
+            "type": "float",
+            "missing": 210,
+            "mean": 0.953406,
+            "sd": 1.196663,
+            "min": 0,
+            "max": 5.290171
+          },
+          {
+            "name": "2year_colleges_access_scores:3sfca_tot_enrol",
+            "duplicates": 210,
+            "type": "float",
+            "missing": 210,
+            "mean": 1.095022,
+            "sd": 1.10328,
+            "min": 0,
+            "max": 5.56186
+          },
+          {
+            "name": "2year_colleges_access_scores:capacity",
+            "duplicates": 217,
+            "type": "integer",
+            "missing": 218,
+            "mean": 6441.444444,
+            "sd": 12350.117425,
+            "min": 99,
+            "max": 61024
+          },
+          {
+            "name": "health_literacy_estimates:health_literacy_estimate",
+            "duplicates": 240,
+            "info": {
+              "type": "index",
+              "short_name": "Health literacy estimate",
+              "long_name": "Health literacy estimate",
+              "short_description": "",
+              "long_description": "",
+              "statement": "",
+              "name": "",
+              "url": "",
+              "category": "Education",
+              "measure": "health_literacy_estimate",
+              "full_name": "health_literacy_estimates:health_literacy_estimate",
+              "db_name": "dc_education_training.va_hdcttr_sdad_2019_health_literacy_estimates"
+            },
+            "type": "float",
+            "missing": 210,
+            "mean": 0.176656,
+            "sd": 0.207033,
+            "min": -0.994982,
+            "max": 0.219303
+          },
+          {
+            "name": "trade_schools_access_scores:norm_3sfca",
+            "duplicates": 221,
+            "type": "float",
+            "missing": 210,
+            "mean": 20.488734,
+            "sd": 24.124413,
+            "min": 0,
+            "max": 100
+          },
+          {
+            "name": "trade_schools_access_scores:college_capacity",
+            "duplicates": 244,
+            "type": "string",
+            "missing": 245,
+            "table": {
+              "1": 0
+            }
+          },
+          {
+            "name": "trade_schools_access_scores:2sfca30_capacity",
+            "duplicates": 244,
+            "type": "string",
+            "missing": 245,
+            "table": {
+              "1": 0
+            }
+          },
+          {
+            "name": "trade_schools_access_scores:perc_2sfca30",
+            "duplicates": 244,
+            "type": "string",
+            "missing": 245,
+            "table": {
+              "1": 0
+            }
+          },
+          {
+            "name": "trade_schools_access_scores:3sfca_capacity",
+            "duplicates": 244,
+            "type": "string",
+            "missing": 245,
+            "table": {
+              "1": 0
+            }
+          },
+          {
+            "name": "trade_schools_access_scores:perc_3sfca",
+            "duplicates": 221,
+            "type": "float",
+            "missing": 210,
+            "mean": 56.081633,
+            "sd": 23.602203,
+            "min": 31.428571,
+            "max": 100
+          },
+          {
+            "name": "trade_schools_access_scores:norm_2sfca",
+            "duplicates": 244,
+            "type": "string",
+            "missing": 245,
+            "table": {
+              "1": 0
+            }
+          },
+          {
+            "name": "trade_schools_access_scores:capacity",
+            "duplicates": 228,
+            "type": "integer",
+            "missing": 228,
+            "mean": 159.882353,
+            "sd": 237.542071,
+            "min": 3,
+            "max": 873
+          },
+          {
+            "name": "trade_schools_access_scores:3sfca_tot_enrol",
+            "duplicates": 221,
+            "type": "float",
+            "missing": 210,
+            "mean": 0.80284,
+            "sd": 0.945302,
+            "min": 0,
+            "max": 3.918446
+          },
+          {
+            "name": "trade_schools_access_scores:norm_2sefca",
+            "duplicates": 227,
+            "info": {
+              "type": "index",
+              "short_name": "Trade school access (score)",
+              "long_name": "Trade school access score (2-step enhanced floating catchment areas)",
+              "short_description": "",
+              "long_description": "",
+              "statement": "",
+              "name": "",
+              "url": "",
+              "category": "Education",
+              "measure": "norm_2sefca",
+              "full_name": "trade_schools_access_scores:norm_2sefca",
+              "db_name": "dc_education_training.va_hdcttr_sdad_2019_trade_schools_access_scores"
+            },
+            "type": "float",
+            "missing": 210,
+            "mean": 19.666599,
+            "sd": 28.295682,
+            "min": 0,
+            "max": 100
+          },
+          {
+            "name": "trade_schools_access_scores:2sefca30_tot_enrol",
+            "duplicates": 227,
+            "type": "float",
+            "missing": 210,
+            "mean": 0.698443,
+            "sd": 1.004898,
+            "min": 0,
+            "max": 3.551418
+          },
+          {
+            "name": "trade_schools_access_scores:perc_2sefca",
+            "duplicates": 227,
+            "type": "float",
+            "missing": 210,
+            "mean": 61.469388,
+            "sd": 18.572998,
+            "min": 45.714286,
+            "max": 100
+          },
+          {
+            "name": "daycare_services_access_scores:daycare_3sfca_capacity",
             "duplicates": 209,
             "type": "float",
             "missing": 210,
@@ -80,8 +710,22 @@
             "max": 1.807624
           },
           {
-            "name": "daycare_cnt",
+            "name": "daycare_services_access_scores:daycare_cnt",
             "duplicates": 209,
+            "info": {
+              "type": "count",
+              "short_name": "Day care access (count)",
+              "long_name": "Access to day care by count",
+              "short_description": "Count of day cares based on provider locations",
+              "long_description": "Count of day cares based on provider locations. Address data was collected from Virginia Department of Social Services day care search tool.",
+              "statement": "There are \" + daycare_cnt + \" daycares in \" + region_name",
+              "name": "Virginia Department of Social Services",
+              "url": "https://www.dss.virginia.gov/facility/search/cc.cgi",
+              "category": "Education",
+              "measure": "daycare_cnt",
+              "full_name": "daycare_services_access_scores:daycare_cnt",
+              "db_name": "dc_education_training.va_hdcttr_sdad_2021_daycare_services_access_scores"
+            },
             "type": "integer",
             "missing": 210,
             "mean": 10654.4,
@@ -90,8 +734,22 @@
             "max": 67563
           },
           {
-            "name": "daycare_norm_3sfca",
+            "name": "daycare_services_access_scores:daycare_norm_3sfca",
             "duplicates": 209,
+            "info": {
+              "type": "index",
+              "short_name": "Day care access (score)",
+              "long_name": "Day care access score (3-step floating catchment area)",
+              "short_description": "Index of day care accessibility based on supply of and demand for providers",
+              "long_description": "Primary care access score based on 2-step enhanced floating catchment areas. This method is an aggregation of day care facilities per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Provider address data was collected from Virginia Department of Social Services day care search tool. \nCitations:\nWei Luo. Using a GIS-based floating catchment method to assess areas with shortage of physicians. Health & Place, 10(1):1 – 11, 2004. doi:10.1016/S1353-8292(02)00067-9.\nWei Luo and Yi Qi. An enhanced two-step floating catchment area (e2sfca) method for measuring spatial accessibility to primary care physicians. Health & Place, 15(4):1100 – 1107, 2009. doi:10.1016/j.healthplace.2009.06.002.\nWei Luo and Fahui Wang. Measures of spatial accessibility to health care in a GIS environment: synthesis and a case study in the Chicago region. Environment and Planning B: Planning and Design, 30(6):865–884, 2003. doi:10.1068/b29120.\nSaxon, James, Julia Koschinsky, Karina Acosta, Vidal Anguiano, Luc Anselin, and Sergio Rey. (2020). An Open Software Environment to Make Spatial Access Metrics More Accessible. University of Chicago: Center for Spatial Data Science. Preprint doi:10.13140/RG.2.2.12396.28807",
+              "statement": "The daycare accessibility score for \" + region_name +  \" is \" + daycare_norm_3sfca",
+              "name": "Virginia Department of Social Services",
+              "url": "https://www.dss.virginia.gov/facility/search/cc.cgi",
+              "category": "Education",
+              "measure": "daycare_norm_3sfca",
+              "full_name": "daycare_services_access_scores:daycare_norm_3sfca",
+              "db_name": "dc_education_training.va_hdcttr_sdad_2021_daycare_services_access_scores"
+            },
             "type": "float",
             "missing": 210,
             "mean": 40.342738,
@@ -100,7 +758,7 @@
             "max": 100
           },
           {
-            "name": "dent_fca",
+            "name": "dentist_access_scores:dent_fca",
             "duplicates": 209,
             "type": "float",
             "missing": 210,
@@ -110,8 +768,22 @@
             "max": 0.003278
           },
           {
-            "name": "dent_cnt",
+            "name": "dentist_access_scores:dent_cnt",
             "duplicates": 211,
+            "info": {
+              "type": "count",
+              "short_name": "Dental care access (count)",
+              "long_name": "Dental care access by count",
+              "short_description": "Count of dentists based on provider locations",
+              "long_description": "Count of dentists based on provider locations. Address data was collected from WebMD's online Physician Directory.",
+              "statement": "There are \" + dent_cnt + \" dentists in \" + region_name",
+              "name": "WebMD Physician Directory",
+              "url": "https://doctor.webmd.com",
+              "category": "Health",
+              "measure": "dent_cnt",
+              "full_name": "dentist_access_scores:dent_cnt",
+              "db_name": "dc_health_behavior_diet.va_hdcttr_sdad_2021_dentist_access_scores"
+            },
             "type": "integer",
             "missing": 210,
             "mean": 122.885714,
@@ -120,7 +792,7 @@
             "max": 1000
           },
           {
-            "name": "dent_3sfca",
+            "name": "dentist_access_scores:dent_3sfca",
             "duplicates": 211,
             "type": "float",
             "missing": 210,
@@ -130,7 +802,31 @@
             "max": 0.000678
           },
           {
-            "name": "dent_e2sfca",
+            "name": "dentist_access_scores:dent_e2sfca",
+            "duplicates": 211,
+            "info": {
+              "type": "index",
+              "short_name": "Dental care access (score)",
+              "long_name": "Dental care access score (2 step-enhanced floating catchment areas)",
+              "short_description": "Index of dental care accessibility based on supply and demand of providers",
+              "long_description": "Dental care access score based on 2-step enhanced floating catchment areas. This method is an aggregation of dentists per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for dentists (population served by dentists). Provider address data was collected from WebMD's online Physician Directory.\nCitations:\nWei Luo. Using a GIS-based floating catchment method to assess areas with shortage of physicians. Health & Place, 10(1):1 – 11, 2004. doi:10.1016/S1353-8292(02)00067-9.\nWei Luo and Yi Qi. An enhanced two-step floating catchment area (e2sfca) method for measuring spatial accessibility to primary care physicians. Health & Place, 15(4):1100 – 1107, 2009. doi:10.1016/j.healthplace.2009.06.002.\nWei Luo and Fahui Wang. Measures of spatial accessibility to health care in a GIS environment: synthesis and a case study in the Chicago region. Environment and Planning B: Planning and Design, 30(6):865–884, 2003. doi:10.1068/b29120.\nSaxon, James, Julia Koschinsky, Karina Acosta, Vidal Anguiano, Luc Anselin, and Sergio Rey. (2020). An Open Software Environment to Make Spatial Access Metrics More Accessible. University of Chicago: Center for Spatial Data Science. Preprint doi:10.13140/RG.2.2.12396.28807",
+              "statement": "The dentist accessibility score for \" + region_name + \"is\" + value",
+              "name": "WebMD Physician Directory",
+              "url": "https://doctor.webmd.com",
+              "category": "Health",
+              "measure": "dent_e2sfca",
+              "full_name": "dentist_access_scores:dent_e2sfca",
+              "db_name": "dc_health_behavior_diet.va_hdcttr_sdad_2021_dentist_access_scores"
+            },
+            "type": "float",
+            "missing": 212,
+            "mean": 0.000338,
+            "sd": 0.000138,
+            "min": 0.000092,
+            "max": 0.000626
+          },
+          {
+            "name": "dentist_access_scores:dent_2sfca",
             "duplicates": 211,
             "type": "float",
             "missing": 212,
@@ -140,17 +836,7 @@
             "max": 0.000626
           },
           {
-            "name": "dent_2sfca",
-            "duplicates": 211,
-            "type": "float",
-            "missing": 212,
-            "mean": 0.000338,
-            "sd": 0.000138,
-            "min": 0.000092,
-            "max": 0.000626
-          },
-          {
-            "name": "dent_pop_cnt",
+            "name": "dentist_access_scores:dent_pop_cnt",
             "duplicates": 244,
             "type": "string",
             "missing": 245,
@@ -159,8 +845,22 @@
             }
           },
           {
-            "name": "obgyn_cnt",
+            "name": "obgyn_access_scores:obgyn_cnt",
             "duplicates": 213,
+            "info": {
+              "type": "count",
+              "short_name": "OBGYN care access (count)",
+              "long_name": "OBGYN care access by count",
+              "short_description": "Count of OBGYNs based on provider locations",
+              "long_description": "Count of OBGYN care providers based on provider locations. Address data was collected from WebMD's online Physician Directory.",
+              "statement": "There are \" + obgyn_cnt + \" OBGYNs in \" + region_name",
+              "name": "WebMD Physician Directory",
+              "url": "https://doctor.webmd.com",
+              "category": "Health",
+              "measure": "obgyn_cnt",
+              "full_name": "obgyn_access_scores:obgyn_cnt",
+              "db_name": "dc_health_behavior_diet.va_hdcttr_sdad_2021_obgyn_access_scores"
+            },
             "type": "integer",
             "missing": 210,
             "mean": 88,
@@ -169,7 +869,7 @@
             "max": 611
           },
           {
-            "name": "obgyn_pop_cnt",
+            "name": "obgyn_access_scores:obgyn_pop_cnt",
             "duplicates": 244,
             "type": "string",
             "missing": 245,
@@ -178,7 +878,7 @@
             }
           },
           {
-            "name": "obgyn_2sfca",
+            "name": "obgyn_access_scores:obgyn_2sfca",
             "duplicates": 210,
             "type": "float",
             "missing": 211,
@@ -188,8 +888,22 @@
             "max": 0.000918
           },
           {
-            "name": "obgyn_e2sfca",
+            "name": "obgyn_access_scores:obgyn_e2sfca",
             "duplicates": 210,
+            "info": {
+              "type": "index",
+              "short_name": "OBGYN care access (score)",
+              "long_name": "OBGYN care access score (2 step-enhanced floating catchment areas)",
+              "short_description": "Index of OBGYN care accessibility based on supply and demand of providers",
+              "long_description": "OBGYN care access score based on 2-step enhanced floating catchment areas. This method is an aggregation of OBGYNs per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for OBGYNs (population served by OBGYNs). Provider address data was collected from WebMD's online physician directory.\nCitations:\nWei Luo. Using a GIS-based floating catchment method to assess areas with shortage of physicians. Health & Place, 10(1):1 – 11, 2004. doi:10.1016/S1353-8292(02)00067-9.\nWei Luo and Yi Qi. An enhanced two-step floating catchment area (e2sfca) method for measuring spatial accessibility to primary care physicians. Health & Place, 15(4):1100 – 1107, 2009. doi:10.1016/j.healthplace.2009.06.002.\nWei Luo and Fahui Wang. Measures of spatial accessibility to health care in a GIS environment: synthesis and a case study in the Chicago region. Environment and Planning B: Planning and Design, 30(6):865–884, 2003. doi:10.1068/b29120.\nSaxon, James, Julia Koschinsky, Karina Acosta, Vidal Anguiano, Luc Anselin, and Sergio Rey. (2020). An Open Software Environment to Make Spatial Access Metrics More Accessible. University of Chicago: Center for Spatial Data Science. Preprint doi:10.13140/RG.2.2.12396.28807",
+              "statement": "The OBGYN access score for \" + region_name + \" is \" + obgyn_e2sfca",
+              "name": "WebMD Physician Directory",
+              "url": "https://doctor.webmd.com",
+              "category": "Health",
+              "measure": "obgyn_e2sfca",
+              "full_name": "obgyn_access_scores:obgyn_e2sfca",
+              "db_name": "dc_health_behavior_diet.va_hdcttr_sdad_2021_obgyn_access_scores"
+            },
             "type": "float",
             "missing": 211,
             "mean": 0.000618,
@@ -198,7 +912,7 @@
             "max": 0.000918
           },
           {
-            "name": "obgyn_3sfca",
+            "name": "obgyn_access_scores:obgyn_3sfca",
             "duplicates": 210,
             "type": "float",
             "missing": 211,
@@ -208,7 +922,7 @@
             "max": 0.001577
           },
           {
-            "name": "obgyn_fca",
+            "name": "obgyn_access_scores:obgyn_fca",
             "duplicates": 210,
             "type": "float",
             "missing": 211,
@@ -218,7 +932,7 @@
             "max": 0.050765
           },
           {
-            "name": "primcare_3sfca",
+            "name": "primary_care_acccess_scores:primcare_3sfca",
             "duplicates": 209,
             "type": "float",
             "missing": 210,
@@ -228,7 +942,7 @@
             "max": 0.005012
           },
           {
-            "name": "primcare_2sfca",
+            "name": "primary_care_acccess_scores:primcare_2sfca",
             "duplicates": 209,
             "type": "float",
             "missing": 210,
@@ -238,7 +952,7 @@
             "max": 0.003521
           },
           {
-            "name": "primcare_pop_cnt",
+            "name": "primary_care_acccess_scores:primcare_pop_cnt",
             "duplicates": 244,
             "type": "string",
             "missing": 245,
@@ -247,7 +961,7 @@
             }
           },
           {
-            "name": "primcare_fca",
+            "name": "primary_care_acccess_scores:primcare_fca",
             "duplicates": 209,
             "type": "float",
             "missing": 210,
@@ -257,8 +971,22 @@
             "max": 0.067092
           },
           {
-            "name": "primcare_e2sfca",
+            "name": "primary_care_acccess_scores:primcare_e2sfca",
             "duplicates": 209,
+            "info": {
+              "type": "index",
+              "short_name": "Primary care access (score)",
+              "long_name": "Primary care access score (2-step enhanced floating catchment areas)",
+              "short_description": "Index of primary care physician accessibility based on supply and demand of providers",
+              "long_description": "Primary care access score based on 2-step enhanced floating catchment areas. This method is an aggregation of physicians per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for physicians (population served by physicians). Provider address data was collected from WebMD's online Physician Directory.\nCitations:\nWei Luo. Using a GIS-based floating catchment method to assess areas with shortage of physicians. Health & Place, 10(1):1 – 11, 2004. doi:10.1016/S1353-8292(02)00067-9.\nWei Luo and Yi Qi. An enhanced two-step floating catchment area (e2sfca) method for measuring spatial accessibility to primary care physicians. Health & Place, 15(4):1100 – 1107, 2009. doi:10.1016/j.healthplace.2009.06.002.\nWei Luo and Fahui Wang. Measures of spatial accessibility to health care in a GIS environment: synthesis and a case study in the Chicago region. Environment and Planning B: Planning and Design, 30(6):865–884, 2003. doi:10.1068/b29120.\nSaxon, James, Julia Koschinsky, Karina Acosta, Vidal Anguiano, Luc Anselin, and Sergio Rey. (2020). An Open Software Environment to Make Spatial Access Metrics More Accessible. University of Chicago: Center for Spatial Data Science. Preprint doi:10.13140/RG.2.2.12396.28807",
+              "statement": "The primary care accessibility score for \" + region_name + \" is \" +  primcare_e2sfca",
+              "name": "WebMD Physician Directory",
+              "url": "https://doctor.webmd.com",
+              "category": "Health",
+              "measure": "primcare_e2sfca",
+              "full_name": "primary_care_acccess_scores:primcare_e2sfca",
+              "db_name": "dc_health_behavior_diet.va_hdcttr_sdad_2021_primary_care_acccess_scores"
+            },
             "type": "float",
             "missing": 210,
             "mean": 0.002257,
@@ -267,8 +995,22 @@
             "max": 0.003521
           },
           {
-            "name": "primcare_cnt",
+            "name": "primary_care_acccess_scores:primcare_cnt",
             "duplicates": 209,
+            "info": {
+              "type": "count",
+              "short_name": "Primary care access (count)",
+              "long_name": "Primary care access by count",
+              "short_description": "Count of primary care physicians based on provider locations",
+              "long_description": "Count of primary care physicians based on provider locations. Address data was collected from WebMD's online Physician Directory.",
+              "statement": "There are \" + primacare_cnt + \" primary care physicians in \" + region_name",
+              "name": "WebMD Physician Directory",
+              "url": "https://doctor.webmd.com",
+              "category": "Health",
+              "measure": "primcare_cnt",
+              "full_name": "primary_care_acccess_scores:primcare_cnt",
+              "db_name": "dc_health_behavior_diet.va_hdcttr_sdad_2021_primary_care_acccess_scores"
+            },
             "type": "integer",
             "missing": 210,
             "mean": 560.457143,
@@ -280,10 +1022,10 @@
       }
     },
     {
-      "bytes": 94178,
+      "bytes": 251603,
       "encoding": "ISO-8859-1",
-      "md5": "54e5a54e563f7b53358f85ec5e474856",
-      "sha512": "Ugkt9G+xTzigas8ZCfP+4sQTyDzyRqddlGglrhY2WUoq6FU+RsaOqxQvLm+33CXZZgRXRwQ6vsmoML+jshqAVA==",
+      "md5": "6bcfa8979bb20f2726dcf6be8a388812",
+      "sha512": "0mGl35Cf5r6TxxlM1GQNPCDl7vV7P8ApuPcLufSJ45SXrlgkRxPHKEmLTlcmwW6OO1OPuXUy/tg/9WaynMI8Tg==",
       "format": "csv",
       "name": "county",
       "filename": "county.csv",
@@ -296,7 +1038,7 @@
       ],
       "time": "time",
       "profile": "data-resource",
-      "created": "2021-10-20 00:50:32",
+      "created": "2021-10-27 18:52:17",
       "last_modified": "2021-10-20 00:50:32",
       "rowcount": 938,
       "schema": {
@@ -314,6 +1056,10 @@
           {
             "name": "time",
             "duplicates": 931,
+            "info": {
+              "type": "year",
+              "short_name": "Year"
+            },
             "type": "integer",
             "missing": 0,
             "mean": 2018,
@@ -322,18 +1068,104 @@
             "max": 2021
           },
           {
-            "name": "prevent_hosp_rate",
-            "duplicates": 66,
-            "type": "float",
+            "name": "preventable_hospitalizations:prevent_hosp_rate",
+            "duplicates": 113,
+            "info": {
+              "type": "rate",
+              "short_name": "Preventable hospitalizations per 100,000",
+              "long_name": "Preventable hospital stays per 100,000 Medicare enrollees",
+              "short_description": "Rate of hospital stays for ambulatory-care sensitive conditions per 100,000 Medicare enrollees",
+              "long_description": "Rate of hospital stays for ambulatory-care sensitive conditions per 100,000 Medicare enrollees. Ambulatory care refers to diagnoses that are usually treatable in outpatient settings. This data is based on Medicare claims and comes from County Health Rankings.",
+              "statement": "prevent_hosp_rate + \" percent of the hospitalizations in \" +  region_name + \" were preventable",
+              "name": "",
+              "url": "https://www.countyhealthrankings.org/app/virginia/2021/measure/factors/5/description",
+              "category": "Health",
+              "measure": "prevent_hosp_rate",
+              "full_name": "preventable_hospitalizations:prevent_hosp_rate",
+              "db_name": "dc_health_behavior_diet.va_ct_chr_2015_2021_preventable_hospitalizations"
+            },
+            "type": "integer",
             "missing": 35,
-            "mean": 2095.477187,
-            "sd": 2453.038671,
-            "min": 20.98,
-            "max": 10521
+            "mean": 5161.067553,
+            "sd": 1879.030916,
+            "min": 2091,
+            "max": 18247
           },
           {
-            "name": "no_hlth_ins_pct",
+            "name": "3rd_grade_median_read_score:median_read_pass_rate",
+            "duplicates": 880,
+            "info": {
+              "type": "",
+              "short_name": "3rd grade reading scores",
+              "long_name": "Median 3rd grade reading scores (pass rate?)",
+              "short_description": "",
+              "long_description": "",
+              "statement": "",
+              "name": "Virginia Department of Education",
+              "url": "",
+              "category": "Education",
+              "measure": "median_read_pass_rate",
+              "full_name": "3rd_grade_median_read_score:median_read_pass_rate",
+              "db_name": "dc_education_training.va_hdct_vdoe_2019_2021_3rd_grade_median_read_score"
+            },
+            "type": "float",
+            "missing": 684,
+            "mean": 11.517717,
+            "sd": 7.455844,
+            "min": 0,
+            "max": 57
+          },
+          {
+            "name": "post_hs_education:num_post_hs_edu",
+            "duplicates": 804,
+            "type": "integer",
+            "missing": 805,
+            "mean": 28554.654135,
+            "sd": 65871.649007,
+            "min": 933,
+            "max": 621587
+          },
+          {
+            "name": "post_hs_education:perc_post_hs_edu",
+            "duplicates": 804,
+            "info": {
+              "type": "percent",
+              "short_name": "Percent  of population with post-high school education",
+              "long_name": "Percent  of population with post-high school education",
+              "short_description": "",
+              "long_description": "",
+              "statement": "",
+              "name": "American Community Survey",
+              "url": "",
+              "category": "Education",
+              "measure": "perc_post_hs_edu",
+              "full_name": "post_hs_education:perc_post_hs_edu",
+              "db_name": "dc_education_training.va_hdcttr_acs_2015_2019_post_hs_education"
+            },
+            "type": "float",
+            "missing": 805,
+            "mean": 0.556125,
+            "sd": 0.114797,
+            "min": 0.350119,
+            "max": 0.91618
+          },
+          {
+            "name": "no_health_insurance_19_to_64:no_hlth_ins_pct",
             "duplicates": 612,
+            "info": {
+              "type": "percent",
+              "short_name": "Uninsured population",
+              "long_name": "Percent of population without health insurance",
+              "short_description": "Percent of the population self-reported to not be currently covered by any type of health insurance or health coverage plan",
+              "long_description": "Percent of the population self-reported to not be currently covered by any type of health insurance or health coverage plan. This data comes from Question 16 of the American Community Survey.",
+              "statement": "no_hlth_ins_pct +  \" percent of the population has no health insurance in \" + region_name",
+              "name": "American Community Survey",
+              "url": "https://www.census.gov/programs-surveys/acs.html",
+              "category": "Health",
+              "measure": "no_hlth_ins_pct",
+              "full_name": "no_health_insurance_19_to_64:no_hlth_ins_pct",
+              "db_name": "dc_health_behavior_diet.va_hdcttr_acs5_2015_2019_no_health_insurance_19_to_64"
+            },
             "type": "float",
             "missing": 273,
             "mean": 1.844301,
@@ -342,7 +1174,533 @@
             "max": 21.15
           },
           {
-            "name": "daycare_3sfca_capacity",
+            "name": "pct_pop_broadband:perc_w_broadband",
+            "duplicates": 538,
+            "info": {
+              "type": "percent",
+              "short_name": "Population with broadband",
+              "long_name": "Percent of population with broadband",
+              "short_description": "",
+              "long_description": "",
+              "statement": "",
+              "name": "American Community Survey",
+              "url": "",
+              "category": "Broadband",
+              "measure": "perc_w_broadband",
+              "full_name": "pct_pop_broadband:perc_w_broadband",
+              "db_name": "dc_digital_communications.va_hdcttr_acs_2017_2019_pct_pop_broadband"
+            },
+            "type": "float",
+            "missing": 539,
+            "mean": 0.731099,
+            "sd": 0.103811,
+            "min": 0.482457,
+            "max": 0.95418
+          },
+          {
+            "name": "pct_pop_cable_fiber_dsl:perc_w_cable_fiber_DSL",
+            "duplicates": 538,
+            "info": {
+              "type": "percent",
+              "short_name": "Population with cable fiber internet or DSL",
+              "long_name": "Percent of population with cable fiber internet or DSL",
+              "short_description": "",
+              "long_description": "",
+              "statement": "",
+              "name": "American Community Survey",
+              "url": "",
+              "category": "Broadband",
+              "measure": "perc_w_cable_fiber_DSL",
+              "full_name": "pct_pop_cable_fiber_dsl:perc_w_cable_fiber_DSL",
+              "db_name": "dc_digital_communications.va_hdcttr_acs_2017_2019_pct_pop_cable_fiber_dsl"
+            },
+            "type": "float",
+            "missing": 539,
+            "mean": 0.54313,
+            "sd": 0.171723,
+            "min": 0.100733,
+            "max": 0.897517
+          },
+          {
+            "name": "download_speeds:download",
+            "duplicates": 538,
+            "info": {
+              "type": "float",
+              "short_name": "Average download speed",
+              "long_name": "Average download speed (MB/s)",
+              "short_description": "",
+              "long_description": "",
+              "statement": "",
+              "name": "Ookla",
+              "url": "https://www.ookla.com",
+              "category": "Broadband",
+              "measure": "download",
+              "full_name": "download_speeds:download",
+              "db_name": "dc_digital_communications.va_hdcttr_ookla_2019_2021_download_speeds"
+            },
+            "type": "float",
+            "missing": 539,
+            "mean": 111.817553,
+            "sd": 49.343852,
+            "min": 8.155631,
+            "max": 234.460702
+          },
+          {
+            "name": "drive_times_nearest_2year_colleges:median_drive_time_top5",
+            "duplicates": 811,
+            "info": {
+              "type": "",
+              "short_name": "2-year college access (drive time)",
+              "long_name": "2-year college access by median dive time to the five closest colleges in minutes",
+              "short_description": "",
+              "long_description": "",
+              "statement": "",
+              "name": "",
+              "url": "",
+              "category": "Education",
+              "measure": "median_drive_time_top5",
+              "full_name": "drive_times_nearest_2year_colleges:median_drive_time_top5",
+              "db_name": "dc_education_training.va_hdcttr_osrm_2021_drive_times_nearest_2year_colleges"
+            },
+            "type": "float",
+            "missing": 805,
+            "mean": 58.781579,
+            "sd": 25.137181,
+            "min": 9,
+            "max": 128.6
+          },
+          {
+            "name": "drive_times_nearest_2year_colleges:median_drive_time_top10",
+            "duplicates": 806,
+            "type": "float",
+            "missing": 805,
+            "mean": 82.253383,
+            "sd": 33.767494,
+            "min": 13.3,
+            "max": 207.1
+          },
+          {
+            "name": "drive_times_nearest_2year_colleges:mean_drive_time_top5",
+            "duplicates": 804,
+            "type": "float",
+            "missing": 805,
+            "mean": 57.527845,
+            "sd": 23.180778,
+            "min": 9.16,
+            "max": 128.2
+          },
+          {
+            "name": "drive_times_nearest_2year_colleges:mean_drive_time_top10",
+            "duplicates": 804,
+            "type": "float",
+            "missing": 805,
+            "mean": 79.52609,
+            "sd": 31.34532,
+            "min": 14.33,
+            "max": 196.97
+          },
+          {
+            "name": "drive_times_nearest_daycares:median_drive_time_top5",
+            "duplicates": 834,
+            "info": {
+              "type": "",
+              "short_name": "Day care access (drive time)",
+              "long_name": "Day care access by median drive time to the five closest day cares in minutes",
+              "short_description": "",
+              "long_description": "",
+              "statement": "",
+              "name": "Virginia Department of Social Services",
+              "url": "",
+              "category": "Education",
+              "measure": "median_drive_time_top5",
+              "full_name": "drive_times_nearest_daycares:median_drive_time_top5",
+              "db_name": "dc_education_training.va_hdcttr_osrm_2021_drive_times_nearest_daycares"
+            },
+            "type": "float",
+            "missing": 805,
+            "mean": 10.420677,
+            "sd": 9.423816,
+            "min": 0.9,
+            "max": 49.6
+          },
+          {
+            "name": "drive_times_nearest_daycares:median_drive_time_top10",
+            "duplicates": 819,
+            "type": "float",
+            "missing": 805,
+            "mean": 14.601128,
+            "sd": 11.41075,
+            "min": 1.55,
+            "max": 53.95
+          },
+          {
+            "name": "drive_times_nearest_daycares:mean_drive_time_top10",
+            "duplicates": 805,
+            "type": "float",
+            "missing": 805,
+            "mean": 13.976844,
+            "sd": 10.100257,
+            "min": 1.49,
+            "max": 48.62
+          },
+          {
+            "name": "drive_times_nearest_daycares:mean_drive_time_top5",
+            "duplicates": 811,
+            "type": "float",
+            "missing": 805,
+            "mean": 10.118908,
+            "sd": 8.197514,
+            "min": 1.1,
+            "max": 41.26
+          },
+          {
+            "name": "drive_times_nearest_trade_schools:mean_drive_time_top10",
+            "duplicates": 804,
+            "type": "float",
+            "missing": 805,
+            "mean": 123.354983,
+            "sd": 78.385799,
+            "min": 22.01,
+            "max": 366.93
+          },
+          {
+            "name": "drive_times_nearest_trade_schools:median_drive_time_top10",
+            "duplicates": 804,
+            "type": "float",
+            "missing": 805,
+            "mean": 136.454887,
+            "sd": 98.268331,
+            "min": 15.85,
+            "max": 435.05
+          },
+          {
+            "name": "drive_times_nearest_trade_schools:mean_drive_time_top5",
+            "duplicates": 806,
+            "type": "float",
+            "missing": 805,
+            "mean": 95.339248,
+            "sd": 60.133238,
+            "min": 9.8,
+            "max": 288.78
+          },
+          {
+            "name": "drive_times_nearest_trade_schools:median_drive_time_top5",
+            "duplicates": 806,
+            "info": {
+              "type": "",
+              "short_name": "Trade school access (drive time)",
+              "long_name": "Trade school access by median drive time to the five closest schools in minutes",
+              "short_description": "",
+              "long_description": "",
+              "statement": "",
+              "name": "",
+              "url": "",
+              "category": "Education",
+              "measure": "median_drive_time_top5",
+              "full_name": "drive_times_nearest_trade_schools:median_drive_time_top5",
+              "db_name": "dc_education_training.va_hdcttr_osrm_2021_drive_times_nearest_trade_schools"
+            },
+            "type": "float",
+            "missing": 805,
+            "mean": 99.058647,
+            "sd": 66.24042,
+            "min": 10.1,
+            "max": 322.7
+          },
+          {
+            "name": "dei_index:norm_dei",
+            "duplicates": 542,
+            "info": {
+              "type": "index",
+              "short_name": "Digital equity index",
+              "long_name": "Digitial equity index",
+              "short_description": "",
+              "long_description": "",
+              "statement": "",
+              "name": "",
+              "url": "",
+              "category": "Broadband",
+              "measure": "norm_dei",
+              "full_name": "dei_index:norm_dei",
+              "db_name": "dc_digital_communications.va_hdcttr_sdad_2019_2021_dei_index"
+            },
+            "type": "float",
+            "missing": 539,
+            "mean": 46.809144,
+            "sd": 23.305838,
+            "min": 0,
+            "max": 100
+          },
+          {
+            "name": "2year_colleges_access_scores:perc_3sfca",
+            "duplicates": 937,
+            "type": "string",
+            "missing": 938,
+            "table": {
+              "1": 0
+            }
+          },
+          {
+            "name": "2year_colleges_access_scores:college_capacity",
+            "duplicates": 937,
+            "type": "string",
+            "missing": 938,
+            "table": {
+              "1": 0
+            }
+          },
+          {
+            "name": "2year_colleges_access_scores:norm_2sfca",
+            "duplicates": 937,
+            "type": "string",
+            "missing": 938,
+            "table": {
+              "1": 0
+            }
+          },
+          {
+            "name": "2year_colleges_access_scores:perc_2sfca30",
+            "duplicates": 937,
+            "type": "string",
+            "missing": 938,
+            "table": {
+              "1": 0
+            }
+          },
+          {
+            "name": "2year_colleges_access_scores:2sfca30_capacity",
+            "duplicates": 937,
+            "type": "string",
+            "missing": 938,
+            "table": {
+              "1": 0
+            }
+          },
+          {
+            "name": "2year_colleges_access_scores:norm_3sfca",
+            "duplicates": 937,
+            "type": "string",
+            "missing": 938,
+            "table": {
+              "1": 0
+            }
+          },
+          {
+            "name": "2year_colleges_access_scores:3sfca_capacity",
+            "duplicates": 937,
+            "type": "string",
+            "missing": 938,
+            "table": {
+              "1": 0
+            }
+          },
+          {
+            "name": "2year_colleges_access_scores:perc_2sefca",
+            "duplicates": 937,
+            "type": "string",
+            "missing": 938,
+            "table": {
+              "1": 0
+            }
+          },
+          {
+            "name": "2year_colleges_access_scores:norm_2sefca",
+            "duplicates": 937,
+            "info": {
+              "type": "index",
+              "short_name": "2-year college access (score)",
+              "long_name": "2 year college access score (2-step enhanced floating catchment areas)",
+              "short_description": "",
+              "long_description": "",
+              "statement": "",
+              "name": "",
+              "url": "",
+              "category": "Education",
+              "measure": "norm_2sefca",
+              "full_name": "2year_colleges_access_scores:norm_2sefca",
+              "db_name": "dc_education_training.va_hdcttr_sdad_2019_2year_colleges_access_scores"
+            },
+            "type": "string",
+            "missing": 938,
+            "table": {
+              "1": 0
+            }
+          },
+          {
+            "name": "2year_colleges_access_scores:2sefca30_tot_enrol",
+            "duplicates": 937,
+            "type": "string",
+            "missing": 938,
+            "table": {
+              "1": 0
+            }
+          },
+          {
+            "name": "2year_colleges_access_scores:3sfca_tot_enrol",
+            "duplicates": 937,
+            "type": "string",
+            "missing": 938,
+            "table": {
+              "1": 0
+            }
+          },
+          {
+            "name": "2year_colleges_access_scores:capacity",
+            "duplicates": 937,
+            "type": "string",
+            "missing": 938,
+            "table": {
+              "1": 0
+            }
+          },
+          {
+            "name": "health_literacy_estimates:health_literacy_estimate",
+            "duplicates": 932,
+            "info": {
+              "type": "index",
+              "short_name": "Health literacy estimate",
+              "long_name": "Health literacy estimate",
+              "short_description": "",
+              "long_description": "",
+              "statement": "",
+              "name": "",
+              "url": "",
+              "category": "Education",
+              "measure": "health_literacy_estimate",
+              "full_name": "health_literacy_estimates:health_literacy_estimate",
+              "db_name": "dc_education_training.va_hdcttr_sdad_2019_health_literacy_estimates"
+            },
+            "type": "float",
+            "missing": 805,
+            "mean": 0.316456,
+            "sd": 0.676931,
+            "min": -0.994982,
+            "max": 3.005018
+          },
+          {
+            "name": "trade_schools_access_scores:norm_3sfca",
+            "duplicates": 937,
+            "type": "string",
+            "missing": 938,
+            "table": {
+              "1": 0
+            }
+          },
+          {
+            "name": "trade_schools_access_scores:college_capacity",
+            "duplicates": 937,
+            "type": "string",
+            "missing": 938,
+            "table": {
+              "1": 0
+            }
+          },
+          {
+            "name": "trade_schools_access_scores:2sfca30_capacity",
+            "duplicates": 937,
+            "type": "string",
+            "missing": 938,
+            "table": {
+              "1": 0
+            }
+          },
+          {
+            "name": "trade_schools_access_scores:perc_2sfca30",
+            "duplicates": 937,
+            "type": "string",
+            "missing": 938,
+            "table": {
+              "1": 0
+            }
+          },
+          {
+            "name": "trade_schools_access_scores:3sfca_capacity",
+            "duplicates": 937,
+            "type": "string",
+            "missing": 938,
+            "table": {
+              "1": 0
+            }
+          },
+          {
+            "name": "trade_schools_access_scores:perc_3sfca",
+            "duplicates": 937,
+            "type": "string",
+            "missing": 938,
+            "table": {
+              "1": 0
+            }
+          },
+          {
+            "name": "trade_schools_access_scores:norm_2sfca",
+            "duplicates": 937,
+            "type": "string",
+            "missing": 938,
+            "table": {
+              "1": 0
+            }
+          },
+          {
+            "name": "trade_schools_access_scores:capacity",
+            "duplicates": 937,
+            "type": "string",
+            "missing": 938,
+            "table": {
+              "1": 0
+            }
+          },
+          {
+            "name": "trade_schools_access_scores:3sfca_tot_enrol",
+            "duplicates": 937,
+            "type": "string",
+            "missing": 938,
+            "table": {
+              "1": 0
+            }
+          },
+          {
+            "name": "trade_schools_access_scores:norm_2sefca",
+            "duplicates": 937,
+            "info": {
+              "type": "index",
+              "short_name": "Trade school access (score)",
+              "long_name": "Trade school access score (2-step enhanced floating catchment areas)",
+              "short_description": "",
+              "long_description": "",
+              "statement": "",
+              "name": "",
+              "url": "",
+              "category": "Education",
+              "measure": "norm_2sefca",
+              "full_name": "trade_schools_access_scores:norm_2sefca",
+              "db_name": "dc_education_training.va_hdcttr_sdad_2019_trade_schools_access_scores"
+            },
+            "type": "string",
+            "missing": 938,
+            "table": {
+              "1": 0
+            }
+          },
+          {
+            "name": "trade_schools_access_scores:2sefca30_tot_enrol",
+            "duplicates": 937,
+            "type": "string",
+            "missing": 938,
+            "table": {
+              "1": 0
+            }
+          },
+          {
+            "name": "trade_schools_access_scores:perc_2sefca",
+            "duplicates": 937,
+            "type": "string",
+            "missing": 938,
+            "table": {
+              "1": 0
+            }
+          },
+          {
+            "name": "daycare_services_access_scores:daycare_3sfca_capacity",
             "duplicates": 804,
             "type": "float",
             "missing": 805,
@@ -352,8 +1710,22 @@
             "max": 1.78231
           },
           {
-            "name": "daycare_cnt",
+            "name": "daycare_services_access_scores:daycare_cnt",
             "duplicates": 807,
+            "info": {
+              "type": "count",
+              "short_name": "Day care access (count)",
+              "long_name": "Access to day care by count",
+              "short_description": "Count of day cares based on provider locations",
+              "long_description": "Count of day cares based on provider locations. Address data was collected from Virginia Department of Social Services day care search tool.",
+              "statement": "There are \" + daycare_cnt + \" daycares in \" + region_name",
+              "name": "Virginia Department of Social Services",
+              "url": "https://www.dss.virginia.gov/facility/search/cc.cgi",
+              "category": "Education",
+              "measure": "daycare_cnt",
+              "full_name": "daycare_services_access_scores:daycare_cnt",
+              "db_name": "dc_education_training.va_hdcttr_sdad_2021_daycare_services_access_scores"
+            },
             "type": "integer",
             "missing": 805,
             "mean": 2803.789474,
@@ -362,8 +1734,22 @@
             "max": 64562
           },
           {
-            "name": "daycare_norm_3sfca",
+            "name": "daycare_services_access_scores:daycare_norm_3sfca",
             "duplicates": 804,
+            "info": {
+              "type": "index",
+              "short_name": "Day care access (score)",
+              "long_name": "Day care access score (3-step floating catchment area)",
+              "short_description": "Index of day care accessibility based on supply of and demand for providers",
+              "long_description": "Primary care access score based on 2-step enhanced floating catchment areas. This method is an aggregation of day care facilities per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Provider address data was collected from Virginia Department of Social Services day care search tool. \nCitations:\nWei Luo. Using a GIS-based floating catchment method to assess areas with shortage of physicians. Health & Place, 10(1):1 – 11, 2004. doi:10.1016/S1353-8292(02)00067-9.\nWei Luo and Yi Qi. An enhanced two-step floating catchment area (e2sfca) method for measuring spatial accessibility to primary care physicians. Health & Place, 15(4):1100 – 1107, 2009. doi:10.1016/j.healthplace.2009.06.002.\nWei Luo and Fahui Wang. Measures of spatial accessibility to health care in a GIS environment: synthesis and a case study in the Chicago region. Environment and Planning B: Planning and Design, 30(6):865–884, 2003. doi:10.1068/b29120.\nSaxon, James, Julia Koschinsky, Karina Acosta, Vidal Anguiano, Luc Anselin, and Sergio Rey. (2020). An Open Software Environment to Make Spatial Access Metrics More Accessible. University of Chicago: Center for Spatial Data Science. Preprint doi:10.13140/RG.2.2.12396.28807",
+              "statement": "The daycare accessibility score for \" + region_name +  \" is \" + daycare_norm_3sfca",
+              "name": "Virginia Department of Social Services",
+              "url": "https://www.dss.virginia.gov/facility/search/cc.cgi",
+              "category": "Education",
+              "measure": "daycare_norm_3sfca",
+              "full_name": "daycare_services_access_scores:daycare_norm_3sfca",
+              "db_name": "dc_education_training.va_hdcttr_sdad_2021_daycare_services_access_scores"
+            },
             "type": "float",
             "missing": 805,
             "mean": 38.639131,
@@ -372,7 +1758,7 @@
             "max": 100
           },
           {
-            "name": "dent_fca",
+            "name": "dentist_access_scores:dent_fca",
             "duplicates": 815,
             "type": "float",
             "missing": 812,
@@ -382,8 +1768,22 @@
             "max": 0.005244
           },
           {
-            "name": "dent_cnt",
+            "name": "dentist_access_scores:dent_cnt",
             "duplicates": 888,
+            "info": {
+              "type": "count",
+              "short_name": "Dental care access (count)",
+              "long_name": "Dental care access by count",
+              "short_description": "Count of dentists based on provider locations",
+              "long_description": "Count of dentists based on provider locations. Address data was collected from WebMD's online Physician Directory.",
+              "statement": "There are \" + dent_cnt + \" dentists in \" + region_name",
+              "name": "WebMD Physician Directory",
+              "url": "https://doctor.webmd.com",
+              "category": "Health",
+              "measure": "dent_cnt",
+              "full_name": "dentist_access_scores:dent_cnt",
+              "db_name": "dc_health_behavior_diet.va_hdcttr_sdad_2021_dentist_access_scores"
+            },
             "type": "integer",
             "missing": 816,
             "mean": 35.254098,
@@ -392,7 +1792,7 @@
             "max": 894
           },
           {
-            "name": "dent_3sfca",
+            "name": "dentist_access_scores:dent_3sfca",
             "duplicates": 826,
             "type": "float",
             "missing": 812,
@@ -402,7 +1802,31 @@
             "max": 0.000765
           },
           {
-            "name": "dent_e2sfca",
+            "name": "dentist_access_scores:dent_e2sfca",
+            "duplicates": 824,
+            "info": {
+              "type": "index",
+              "short_name": "Dental care access (score)",
+              "long_name": "Dental care access score (2 step-enhanced floating catchment areas)",
+              "short_description": "Index of dental care accessibility based on supply and demand of providers",
+              "long_description": "Dental care access score based on 2-step enhanced floating catchment areas. This method is an aggregation of dentists per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for dentists (population served by dentists). Provider address data was collected from WebMD's online Physician Directory.\nCitations:\nWei Luo. Using a GIS-based floating catchment method to assess areas with shortage of physicians. Health & Place, 10(1):1 – 11, 2004. doi:10.1016/S1353-8292(02)00067-9.\nWei Luo and Yi Qi. An enhanced two-step floating catchment area (e2sfca) method for measuring spatial accessibility to primary care physicians. Health & Place, 15(4):1100 – 1107, 2009. doi:10.1016/j.healthplace.2009.06.002.\nWei Luo and Fahui Wang. Measures of spatial accessibility to health care in a GIS environment: synthesis and a case study in the Chicago region. Environment and Planning B: Planning and Design, 30(6):865–884, 2003. doi:10.1068/b29120.\nSaxon, James, Julia Koschinsky, Karina Acosta, Vidal Anguiano, Luc Anselin, and Sergio Rey. (2020). An Open Software Environment to Make Spatial Access Metrics More Accessible. University of Chicago: Center for Spatial Data Science. Preprint doi:10.13140/RG.2.2.12396.28807",
+              "statement": "The dentist accessibility score for \" + region_name + \"is\" + value",
+              "name": "WebMD Physician Directory",
+              "url": "https://doctor.webmd.com",
+              "category": "Health",
+              "measure": "dent_e2sfca",
+              "full_name": "dentist_access_scores:dent_e2sfca",
+              "db_name": "dc_health_behavior_diet.va_hdcttr_sdad_2021_dentist_access_scores"
+            },
+            "type": "float",
+            "missing": 812,
+            "mean": 0.000272,
+            "sd": 0.000137,
+            "min": 0.000033,
+            "max": 0.000668
+          },
+          {
+            "name": "dentist_access_scores:dent_2sfca",
             "duplicates": 824,
             "type": "float",
             "missing": 812,
@@ -412,17 +1836,7 @@
             "max": 0.000668
           },
           {
-            "name": "dent_2sfca",
-            "duplicates": 824,
-            "type": "float",
-            "missing": 812,
-            "mean": 0.000272,
-            "sd": 0.000137,
-            "min": 0.000033,
-            "max": 0.000668
-          },
-          {
-            "name": "dent_pop_cnt",
+            "name": "dentist_access_scores:dent_pop_cnt",
             "duplicates": 937,
             "type": "string",
             "missing": 938,
@@ -431,8 +1845,22 @@
             }
           },
           {
-            "name": "obgyn_cnt",
+            "name": "obgyn_access_scores:obgyn_cnt",
             "duplicates": 891,
+            "info": {
+              "type": "count",
+              "short_name": "OBGYN care access (count)",
+              "long_name": "OBGYN care access by count",
+              "short_description": "Count of OBGYNs based on provider locations",
+              "long_description": "Count of OBGYN care providers based on provider locations. Address data was collected from WebMD's online Physician Directory.",
+              "statement": "There are \" + obgyn_cnt + \" OBGYNs in \" + region_name",
+              "name": "WebMD Physician Directory",
+              "url": "https://doctor.webmd.com",
+              "category": "Health",
+              "measure": "obgyn_cnt",
+              "full_name": "obgyn_access_scores:obgyn_cnt",
+              "db_name": "dc_health_behavior_diet.va_hdcttr_sdad_2021_obgyn_access_scores"
+            },
             "type": "integer",
             "missing": 844,
             "mean": 32.765957,
@@ -441,7 +1869,7 @@
             "max": 562
           },
           {
-            "name": "obgyn_pop_cnt",
+            "name": "obgyn_access_scores:obgyn_pop_cnt",
             "duplicates": 937,
             "type": "string",
             "missing": 938,
@@ -450,7 +1878,7 @@
             }
           },
           {
-            "name": "obgyn_2sfca",
+            "name": "obgyn_access_scores:obgyn_2sfca",
             "duplicates": 835,
             "type": "float",
             "missing": 828,
@@ -460,8 +1888,22 @@
             "max": 0.001064
           },
           {
-            "name": "obgyn_e2sfca",
+            "name": "obgyn_access_scores:obgyn_e2sfca",
             "duplicates": 835,
+            "info": {
+              "type": "index",
+              "short_name": "OBGYN care access (score)",
+              "long_name": "OBGYN care access score (2 step-enhanced floating catchment areas)",
+              "short_description": "Index of OBGYN care accessibility based on supply and demand of providers",
+              "long_description": "OBGYN care access score based on 2-step enhanced floating catchment areas. This method is an aggregation of OBGYNs per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for OBGYNs (population served by OBGYNs). Provider address data was collected from WebMD's online physician directory.\nCitations:\nWei Luo. Using a GIS-based floating catchment method to assess areas with shortage of physicians. Health & Place, 10(1):1 – 11, 2004. doi:10.1016/S1353-8292(02)00067-9.\nWei Luo and Yi Qi. An enhanced two-step floating catchment area (e2sfca) method for measuring spatial accessibility to primary care physicians. Health & Place, 15(4):1100 – 1107, 2009. doi:10.1016/j.healthplace.2009.06.002.\nWei Luo and Fahui Wang. Measures of spatial accessibility to health care in a GIS environment: synthesis and a case study in the Chicago region. Environment and Planning B: Planning and Design, 30(6):865–884, 2003. doi:10.1068/b29120.\nSaxon, James, Julia Koschinsky, Karina Acosta, Vidal Anguiano, Luc Anselin, and Sergio Rey. (2020). An Open Software Environment to Make Spatial Access Metrics More Accessible. University of Chicago: Center for Spatial Data Science. Preprint doi:10.13140/RG.2.2.12396.28807",
+              "statement": "The OBGYN access score for \" + region_name + \" is \" + obgyn_e2sfca",
+              "name": "WebMD Physician Directory",
+              "url": "https://doctor.webmd.com",
+              "category": "Health",
+              "measure": "obgyn_e2sfca",
+              "full_name": "obgyn_access_scores:obgyn_e2sfca",
+              "db_name": "dc_health_behavior_diet.va_hdcttr_sdad_2021_obgyn_access_scores"
+            },
             "type": "float",
             "missing": 828,
             "mean": 0.00053,
@@ -470,7 +1912,7 @@
             "max": 0.001064
           },
           {
-            "name": "obgyn_3sfca",
+            "name": "obgyn_access_scores:obgyn_3sfca",
             "duplicates": 834,
             "type": "float",
             "missing": 828,
@@ -480,7 +1922,7 @@
             "max": 0.001932
           },
           {
-            "name": "obgyn_fca",
+            "name": "obgyn_access_scores:obgyn_fca",
             "duplicates": 831,
             "type": "float",
             "missing": 828,
@@ -490,7 +1932,7 @@
             "max": 0.053137
           },
           {
-            "name": "primcare_3sfca",
+            "name": "primary_care_acccess_scores:primcare_3sfca",
             "duplicates": 807,
             "type": "float",
             "missing": 805,
@@ -500,7 +1942,7 @@
             "max": 0.007805
           },
           {
-            "name": "primcare_2sfca",
+            "name": "primary_care_acccess_scores:primcare_2sfca",
             "duplicates": 806,
             "type": "float",
             "missing": 805,
@@ -510,7 +1952,7 @@
             "max": 0.004604
           },
           {
-            "name": "primcare_pop_cnt",
+            "name": "primary_care_acccess_scores:primcare_pop_cnt",
             "duplicates": 937,
             "type": "string",
             "missing": 938,
@@ -519,7 +1961,7 @@
             }
           },
           {
-            "name": "primcare_fca",
+            "name": "primary_care_acccess_scores:primcare_fca",
             "duplicates": 804,
             "type": "float",
             "missing": 805,
@@ -529,8 +1971,22 @@
             "max": 0.067092
           },
           {
-            "name": "primcare_e2sfca",
+            "name": "primary_care_acccess_scores:primcare_e2sfca",
             "duplicates": 806,
+            "info": {
+              "type": "index",
+              "short_name": "Primary care access (score)",
+              "long_name": "Primary care access score (2-step enhanced floating catchment areas)",
+              "short_description": "Index of primary care physician accessibility based on supply and demand of providers",
+              "long_description": "Primary care access score based on 2-step enhanced floating catchment areas. This method is an aggregation of physicians per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for physicians (population served by physicians). Provider address data was collected from WebMD's online Physician Directory.\nCitations:\nWei Luo. Using a GIS-based floating catchment method to assess areas with shortage of physicians. Health & Place, 10(1):1 – 11, 2004. doi:10.1016/S1353-8292(02)00067-9.\nWei Luo and Yi Qi. An enhanced two-step floating catchment area (e2sfca) method for measuring spatial accessibility to primary care physicians. Health & Place, 15(4):1100 – 1107, 2009. doi:10.1016/j.healthplace.2009.06.002.\nWei Luo and Fahui Wang. Measures of spatial accessibility to health care in a GIS environment: synthesis and a case study in the Chicago region. Environment and Planning B: Planning and Design, 30(6):865–884, 2003. doi:10.1068/b29120.\nSaxon, James, Julia Koschinsky, Karina Acosta, Vidal Anguiano, Luc Anselin, and Sergio Rey. (2020). An Open Software Environment to Make Spatial Access Metrics More Accessible. University of Chicago: Center for Spatial Data Science. Preprint doi:10.13140/RG.2.2.12396.28807",
+              "statement": "The primary care accessibility score for \" + region_name + \" is \" +  primcare_e2sfca",
+              "name": "WebMD Physician Directory",
+              "url": "https://doctor.webmd.com",
+              "category": "Health",
+              "measure": "primcare_e2sfca",
+              "full_name": "primary_care_acccess_scores:primcare_e2sfca",
+              "db_name": "dc_health_behavior_diet.va_hdcttr_sdad_2021_primary_care_acccess_scores"
+            },
             "type": "float",
             "missing": 805,
             "mean": 0.002031,
@@ -539,8 +1995,22 @@
             "max": 0.004604
           },
           {
-            "name": "primcare_cnt",
+            "name": "primary_care_acccess_scores:primcare_cnt",
             "duplicates": 844,
+            "info": {
+              "type": "count",
+              "short_name": "Primary care access (count)",
+              "long_name": "Primary care access by count",
+              "short_description": "Count of primary care physicians based on provider locations",
+              "long_description": "Count of primary care physicians based on provider locations. Address data was collected from WebMD's online Physician Directory.",
+              "statement": "There are \" + primacare_cnt + \" primary care physicians in \" + region_name",
+              "name": "WebMD Physician Directory",
+              "url": "https://doctor.webmd.com",
+              "category": "Health",
+              "measure": "primcare_cnt",
+              "full_name": "primary_care_acccess_scores:primcare_cnt",
+              "db_name": "dc_health_behavior_diet.va_hdcttr_sdad_2021_primary_care_acccess_scores"
+            },
             "type": "integer",
             "missing": 805,
             "mean": 147.488722,
@@ -552,10 +2022,10 @@
       }
     },
     {
-      "bytes": 1391503,
+      "bytes": 4102175,
       "encoding": "ISO-8859-1",
-      "md5": "5b275259cc87fe061cd92cbe7fe68ce1",
-      "sha512": "EZ0y7GJ5N3OxHpFlcgDWz9RiYhdReqbNPEHXIS36kvPiXtKx4OIsVSuFFz510k9vvq/hANqOAAuOBl/3KIhMDA==",
+      "md5": "f36403ed653b1b21addb86c1d66b6bc8",
+      "sha512": "fVVnHDvyoX6Gn99Vkqp5FBBHTUekAtYkT0k9O2cEMhtDUcffFCy2w+jFIHiY9s88+xJRaVKW9rnoa8h3zyoBoQ==",
       "format": "csv",
       "name": "tract",
       "filename": "tract.csv",
@@ -568,255 +2038,996 @@
       ],
       "time": "time",
       "profile": "data-resource",
-      "created": "2021-10-20 00:50:32",
+      "created": "2021-10-27 18:52:18",
       "last_modified": "2021-10-20 00:50:32",
-      "rowcount": 13349,
+      "rowcount": 14280,
       "schema": {
         "fields": [
           {
             "name": "ID",
-            "duplicates": 11442,
+            "duplicates": 12240,
             "type": "integer",
             "missing": 0,
-            "mean": 51296485701,
-            "sd": 297021650.590062,
-            "min": 51001090100,
+            "mean": 47952159338,
+            "sd": 12667328050.086,
+            "min": 51001,
             "max": 51840000302
           },
           {
             "name": "time",
-            "duplicates": 13342,
+            "duplicates": 14273,
+            "info": {
+              "type": "year",
+              "short_name": "Year"
+            },
             "type": "integer",
             "missing": 0,
             "mean": 2018,
-            "sd": 2.000075,
+            "sd": 2.00007,
             "min": 2015,
             "max": 2021
           },
           {
-            "name": "prevent_hosp_rate",
-            "duplicates": 13348,
+            "name": "preventable_hospitalizations:prevent_hosp_rate",
+            "duplicates": 14279,
+            "info": {
+              "type": "rate",
+              "short_name": "Preventable hospitalizations per 100,000",
+              "long_name": "Preventable hospital stays per 100,000 Medicare enrollees",
+              "short_description": "Rate of hospital stays for ambulatory-care sensitive conditions per 100,000 Medicare enrollees",
+              "long_description": "Rate of hospital stays for ambulatory-care sensitive conditions per 100,000 Medicare enrollees. Ambulatory care refers to diagnoses that are usually treatable in outpatient settings. This data is based on Medicare claims and comes from County Health Rankings.",
+              "statement": "prevent_hosp_rate + \" percent of the hospitalizations in \" +  region_name + \" were preventable",
+              "name": "",
+              "url": "https://www.countyhealthrankings.org/app/virginia/2021/measure/factors/5/description",
+              "category": "Health",
+              "measure": "prevent_hosp_rate",
+              "full_name": "preventable_hospitalizations:prevent_hosp_rate",
+              "db_name": "dc_health_behavior_diet.va_ct_chr_2015_2021_preventable_hospitalizations"
+            },
             "type": "string",
-            "missing": 13349,
+            "missing": 14280,
             "table": {
               "1": 0
             }
           },
           {
-            "name": "no_hlth_ins_pct",
-            "duplicates": 11872,
+            "name": "3rd_grade_median_read_score:median_read_pass_rate",
+            "duplicates": 14279,
+            "info": {
+              "type": "",
+              "short_name": "3rd grade reading scores",
+              "long_name": "Median 3rd grade reading scores (pass rate?)",
+              "short_description": "",
+              "long_description": "",
+              "statement": "",
+              "name": "Virginia Department of Education",
+              "url": "",
+              "category": "Education",
+              "measure": "median_read_pass_rate",
+              "full_name": "3rd_grade_median_read_score:median_read_pass_rate",
+              "db_name": "dc_education_training.va_hdct_vdoe_2019_2021_3rd_grade_median_read_score"
+            },
+            "type": "string",
+            "missing": 14280,
+            "table": {
+              "1": 0
+            }
+          },
+          {
+            "name": "post_hs_education:num_post_hs_edu",
+            "duplicates": 12831,
+            "type": "integer",
+            "missing": 12373,
+            "mean": 1991.488726,
+            "sd": 1126.256583,
+            "min": 0,
+            "max": 10524
+          },
+          {
+            "name": "post_hs_education:perc_post_hs_edu",
+            "duplicates": 12404,
+            "info": {
+              "type": "percent",
+              "short_name": "Percent  of population with post-high school education",
+              "long_name": "Percent  of population with post-high school education",
+              "short_description": "",
+              "long_description": "",
+              "statement": "",
+              "name": "American Community Survey",
+              "url": "",
+              "category": "Education",
+              "measure": "perc_post_hs_edu",
+              "full_name": "post_hs_education:perc_post_hs_edu",
+              "db_name": "dc_education_training.va_hdcttr_acs_2015_2019_post_hs_education"
+            },
             "type": "float",
-            "missing": 3979,
+            "missing": 12401,
+            "mean": 0.647933,
+            "sd": 0.173377,
+            "min": 0.155943,
+            "max": 1
+          },
+          {
+            "name": "no_health_insurance_19_to_64:no_hlth_ins_pct",
+            "duplicates": 12803,
+            "info": {
+              "type": "percent",
+              "short_name": "Uninsured population",
+              "long_name": "Percent of population without health insurance",
+              "short_description": "Percent of the population self-reported to not be currently covered by any type of health insurance or health coverage plan",
+              "long_description": "Percent of the population self-reported to not be currently covered by any type of health insurance or health coverage plan. This data comes from Question 16 of the American Community Survey.",
+              "statement": "no_hlth_ins_pct +  \" percent of the population has no health insurance in \" + region_name",
+              "name": "American Community Survey",
+              "url": "https://www.census.gov/programs-surveys/acs.html",
+              "category": "Health",
+              "measure": "no_hlth_ins_pct",
+              "full_name": "no_health_insurance_19_to_64:no_hlth_ins_pct",
+              "db_name": "dc_health_behavior_diet.va_hdcttr_acs5_2015_2019_no_health_insurance_19_to_64"
+            },
+            "type": "float",
+            "missing": 4910,
             "mean": 2.771591,
             "sd": 5.325791,
             "min": 0,
             "max": 66.75
           },
           {
-            "name": "daycare_3sfca_capacity",
-            "duplicates": 11449,
+            "name": "pct_pop_broadband:perc_w_broadband",
+            "duplicates": 8772,
+            "info": {
+              "type": "percent",
+              "short_name": "Population with broadband",
+              "long_name": "Percent of population with broadband",
+              "short_description": "",
+              "long_description": "",
+              "statement": "",
+              "name": "American Community Survey",
+              "url": "",
+              "category": "Broadband",
+              "measure": "perc_w_broadband",
+              "full_name": "pct_pop_broadband:perc_w_broadband",
+              "db_name": "dc_digital_communications.va_hdcttr_acs_2017_2019_pct_pop_broadband"
+            },
             "type": "float",
-            "missing": 11449,
+            "missing": 8660,
+            "mean": 0.812353,
+            "sd": 0.134042,
+            "min": 0,
+            "max": 1
+          },
+          {
+            "name": "pct_pop_cable_fiber_dsl:perc_w_cable_fiber_DSL",
+            "duplicates": 8748,
+            "info": {
+              "type": "percent",
+              "short_name": "Population with cable fiber internet or DSL",
+              "long_name": "Percent of population with cable fiber internet or DSL",
+              "short_description": "",
+              "long_description": "",
+              "statement": "",
+              "name": "American Community Survey",
+              "url": "",
+              "category": "Broadband",
+              "measure": "perc_w_cable_fiber_DSL",
+              "full_name": "pct_pop_cable_fiber_dsl:perc_w_cable_fiber_DSL",
+              "db_name": "dc_digital_communications.va_hdcttr_acs_2017_2019_pct_pop_cable_fiber_dsl"
+            },
+            "type": "float",
+            "missing": 8660,
+            "mean": 0.681339,
+            "sd": 0.206201,
+            "min": 0,
+            "max": 1
+          },
+          {
+            "name": "download_speeds:download",
+            "duplicates": 8606,
+            "info": {
+              "type": "float",
+              "short_name": "Average download speed",
+              "long_name": "Average download speed (MB/s)",
+              "short_description": "",
+              "long_description": "",
+              "statement": "",
+              "name": "Ookla",
+              "url": "https://www.ookla.com",
+              "category": "Broadband",
+              "measure": "download",
+              "full_name": "download_speeds:download",
+              "db_name": "dc_digital_communications.va_hdcttr_ookla_2019_2021_download_speeds"
+            },
+            "type": "float",
+            "missing": 8607,
+            "mean": 137.407758,
+            "sd": 49.338687,
+            "min": 5.435575,
+            "max": 347.963722
+          },
+          {
+            "name": "drive_times_nearest_2year_colleges:median_drive_time_top5",
+            "duplicates": 13517,
+            "info": {
+              "type": "",
+              "short_name": "2-year college access (drive time)",
+              "long_name": "2-year college access by median dive time to the five closest colleges in minutes",
+              "short_description": "",
+              "long_description": "",
+              "statement": "",
+              "name": "",
+              "url": "",
+              "category": "Education",
+              "measure": "median_drive_time_top5",
+              "full_name": "drive_times_nearest_2year_colleges:median_drive_time_top5",
+              "db_name": "dc_education_training.va_hdcttr_osrm_2021_drive_times_nearest_2year_colleges"
+            },
+            "type": "float",
+            "missing": 12381,
+            "mean": 40.198789,
+            "sd": 26.679042,
+            "min": 4.2,
+            "max": 177.8
+          },
+          {
+            "name": "drive_times_nearest_2year_colleges:median_drive_time_top10",
+            "duplicates": 13047,
+            "type": "float",
+            "missing": 12381,
+            "mean": 60.902923,
+            "sd": 34.097268,
+            "min": 9.15,
+            "max": 228.05
+          },
+          {
+            "name": "drive_times_nearest_2year_colleges:mean_drive_time_top5",
+            "duplicates": 12814,
+            "type": "float",
+            "missing": 12381,
+            "mean": 39.66971,
+            "sd": 24.460229,
+            "min": 6,
+            "max": 159.16
+          },
+          {
+            "name": "drive_times_nearest_2year_colleges:mean_drive_time_top10",
+            "duplicates": 12605,
+            "type": "float",
+            "missing": 12381,
+            "mean": 61.442335,
+            "sd": 31.543252,
+            "min": 10.05,
+            "max": 218.51
+          },
+          {
+            "name": "drive_times_nearest_daycares:median_drive_time_top5",
+            "duplicates": 13905,
+            "info": {
+              "type": "",
+              "short_name": "Day care access (drive time)",
+              "long_name": "Day care access by median drive time to the five closest day cares in minutes",
+              "short_description": "",
+              "long_description": "",
+              "statement": "",
+              "name": "Virginia Department of Social Services",
+              "url": "",
+              "category": "Education",
+              "measure": "median_drive_time_top5",
+              "full_name": "drive_times_nearest_daycares:median_drive_time_top5",
+              "db_name": "dc_education_training.va_hdcttr_osrm_2021_drive_times_nearest_daycares"
+            },
+            "type": "float",
+            "missing": 12381,
+            "mean": 7.829989,
+            "sd": 8.024324,
+            "min": 0.5,
+            "max": 71.7
+          },
+          {
+            "name": "drive_times_nearest_daycares:median_drive_time_top10",
+            "duplicates": 13764,
+            "type": "float",
+            "missing": 12381,
+            "mean": 9.588889,
+            "sd": 9.269877,
+            "min": 1,
+            "max": 76.9
+          },
+          {
+            "name": "drive_times_nearest_daycares:mean_drive_time_top10",
+            "duplicates": 13001,
+            "type": "float",
+            "missing": 12381,
+            "mean": 9.309802,
+            "sd": 9.016892,
+            "min": 1.04,
+            "max": 73.68
+          },
+          {
+            "name": "drive_times_nearest_daycares:mean_drive_time_top5",
+            "duplicates": 13377,
+            "type": "float",
+            "missing": 12381,
+            "mean": 7.585434,
+            "sd": 7.666875,
+            "min": 0.6,
+            "max": 62.4
+          },
+          {
+            "name": "drive_times_nearest_trade_schools:mean_drive_time_top10",
+            "duplicates": 12758,
+            "type": "float",
+            "missing": 12381,
+            "mean": 58.491964,
+            "sd": 56.30629,
+            "min": 6.32,
+            "max": 309.68
+          },
+          {
+            "name": "drive_times_nearest_trade_schools:median_drive_time_top10",
+            "duplicates": 13330,
+            "type": "float",
+            "missing": 12381,
+            "mean": 61.289784,
+            "sd": 61.2115,
+            "min": 4.8,
+            "max": 343.6
+          },
+          {
+            "name": "drive_times_nearest_trade_schools:mean_drive_time_top5",
+            "duplicates": 12758,
+            "type": "float",
+            "missing": 12381,
+            "mean": 58.491964,
+            "sd": 56.30629,
+            "min": 6.32,
+            "max": 309.68
+          },
+          {
+            "name": "drive_times_nearest_trade_schools:median_drive_time_top5",
+            "duplicates": 13330,
+            "info": {
+              "type": "",
+              "short_name": "Trade school access (drive time)",
+              "long_name": "Trade school access by median drive time to the five closest schools in minutes",
+              "short_description": "",
+              "long_description": "",
+              "statement": "",
+              "name": "",
+              "url": "",
+              "category": "Education",
+              "measure": "median_drive_time_top5",
+              "full_name": "drive_times_nearest_trade_schools:median_drive_time_top5",
+              "db_name": "dc_education_training.va_hdcttr_osrm_2021_drive_times_nearest_trade_schools"
+            },
+            "type": "float",
+            "missing": 12381,
+            "mean": 61.289784,
+            "sd": 61.2115,
+            "min": 4.8,
+            "max": 343.6
+          },
+          {
+            "name": "dei_index:norm_dei",
+            "duplicates": 8679,
+            "info": {
+              "type": "index",
+              "short_name": "Digital equity index",
+              "long_name": "Digitial equity index",
+              "short_description": "",
+              "long_description": "",
+              "statement": "",
+              "name": "",
+              "url": "",
+              "category": "Broadband",
+              "measure": "norm_dei",
+              "full_name": "dei_index:norm_dei",
+              "db_name": "dc_digital_communications.va_hdcttr_sdad_2019_2021_dei_index"
+            },
+            "type": "float",
+            "missing": 8676,
+            "mean": 70.981735,
+            "sd": 16.832372,
+            "min": 0,
+            "max": 100
+          },
+          {
+            "name": "2year_colleges_access_scores:perc_3sfca",
+            "duplicates": 13551,
+            "type": "float",
+            "missing": 12247,
+            "mean": 0.502537,
+            "sd": 0.288378,
+            "min": 0.024737,
+            "max": 1
+          },
+          {
+            "name": "2year_colleges_access_scores:college_capacity",
+            "duplicates": 14222,
+            "type": "integer",
+            "missing": 14201,
+            "mean": 4426.582278,
+            "sd": 9648.592709,
+            "min": 13,
+            "max": 61024
+          },
+          {
+            "name": "2year_colleges_access_scores:norm_2sfca",
+            "duplicates": 13843,
+            "type": "float",
+            "missing": 12247,
+            "mean": 10.091838,
+            "sd": 11.754596,
+            "min": 0,
+            "max": 100
+          },
+          {
+            "name": "2year_colleges_access_scores:perc_2sfca30",
+            "duplicates": 13845,
+            "type": "float",
+            "missing": 12247,
+            "mean": 0.537115,
+            "sd": 0.248672,
+            "min": 0.237368,
+            "max": 1
+          },
+          {
+            "name": "2year_colleges_access_scores:2sfca30_capacity",
+            "duplicates": 13842,
+            "type": "float",
+            "missing": 12247,
+            "mean": 0.021538,
+            "sd": 0.024956,
+            "min": 0,
+            "max": 0.214828
+          },
+          {
+            "name": "2year_colleges_access_scores:norm_3sfca",
+            "duplicates": 13547,
+            "type": "float",
+            "missing": 12247,
+            "mean": 11.325595,
+            "sd": 11.476681,
+            "min": 0,
+            "max": 100
+          },
+          {
+            "name": "2year_colleges_access_scores:3sfca_capacity",
+            "duplicates": 13546,
+            "type": "float",
+            "missing": 12247,
+            "mean": 1.040556,
+            "sd": 1.036218,
+            "min": 0,
+            "max": 9.343608
+          },
+          {
+            "name": "2year_colleges_access_scores:perc_2sefca",
+            "duplicates": 14279,
+            "type": "string",
+            "missing": 14280,
+            "table": {
+              "1": 0
+            }
+          },
+          {
+            "name": "2year_colleges_access_scores:norm_2sefca",
+            "duplicates": 14279,
+            "info": {
+              "type": "index",
+              "short_name": "2-year college access (score)",
+              "long_name": "2 year college access score (2-step enhanced floating catchment areas)",
+              "short_description": "",
+              "long_description": "",
+              "statement": "",
+              "name": "",
+              "url": "",
+              "category": "Education",
+              "measure": "norm_2sefca",
+              "full_name": "2year_colleges_access_scores:norm_2sefca",
+              "db_name": "dc_education_training.va_hdcttr_sdad_2019_2year_colleges_access_scores"
+            },
+            "type": "string",
+            "missing": 14280,
+            "table": {
+              "1": 0
+            }
+          },
+          {
+            "name": "2year_colleges_access_scores:2sefca30_tot_enrol",
+            "duplicates": 14279,
+            "type": "string",
+            "missing": 14280,
+            "table": {
+              "1": 0
+            }
+          },
+          {
+            "name": "2year_colleges_access_scores:3sfca_tot_enrol",
+            "duplicates": 14279,
+            "type": "string",
+            "missing": 14280,
+            "table": {
+              "1": 0
+            }
+          },
+          {
+            "name": "2year_colleges_access_scores:capacity",
+            "duplicates": 14279,
+            "type": "string",
+            "missing": 14280,
+            "table": {
+              "1": 0
+            }
+          },
+          {
+            "name": "health_literacy_estimates:health_literacy_estimate",
+            "duplicates": 14266,
+            "info": {
+              "type": "index",
+              "short_name": "Health literacy estimate",
+              "long_name": "Health literacy estimate",
+              "short_description": "",
+              "long_description": "",
+              "statement": "",
+              "name": "",
+              "url": "",
+              "category": "Education",
+              "measure": "health_literacy_estimate",
+              "full_name": "health_literacy_estimates:health_literacy_estimate",
+              "db_name": "dc_education_training.va_hdcttr_sdad_2019_health_literacy_estimates"
+            },
+            "type": "float",
+            "missing": 12373,
+            "mean": 0.432925,
+            "sd": 0.8731,
+            "min": -2.994982,
+            "max": 3.005018
+          },
+          {
+            "name": "trade_schools_access_scores:norm_3sfca",
+            "duplicates": 13781,
+            "type": "float",
+            "missing": 12248,
+            "mean": 21.316879,
+            "sd": 23.937409,
+            "min": 0,
+            "max": 100
+          },
+          {
+            "name": "trade_schools_access_scores:college_capacity",
+            "duplicates": 14246,
+            "type": "integer",
+            "missing": 14232,
+            "mean": 113.25,
+            "sd": 159.05967,
+            "min": 3,
+            "max": 873
+          },
+          {
+            "name": "trade_schools_access_scores:2sfca30_capacity",
+            "duplicates": 13907,
+            "type": "float",
+            "missing": 12248,
+            "mean": 0.000324,
+            "sd": 0.000404,
+            "min": 0,
+            "max": 0.001748
+          },
+          {
+            "name": "trade_schools_access_scores:perc_2sfca30",
+            "duplicates": 13907,
+            "type": "float",
+            "missing": 12248,
+            "mean": 0.572705,
+            "sd": 0.219401,
+            "min": 0.341232,
+            "max": 1
+          },
+          {
+            "name": "trade_schools_access_scores:3sfca_capacity",
+            "duplicates": 13780,
+            "type": "float",
+            "missing": 12248,
+            "mean": 1.005291,
+            "sd": 1.129763,
+            "min": 0,
+            "max": 4.729496
+          },
+          {
+            "name": "trade_schools_access_scores:perc_3sfca",
+            "duplicates": 13780,
+            "type": "float",
+            "missing": 12248,
+            "mean": 0.518111,
+            "sd": 0.268376,
+            "min": 0.153765,
+            "max": 1
+          },
+          {
+            "name": "trade_schools_access_scores:norm_2sfca",
+            "duplicates": 13908,
+            "type": "float",
+            "missing": 12248,
+            "mean": 18.693966,
+            "sd": 23.296317,
+            "min": 0,
+            "max": 100
+          },
+          {
+            "name": "trade_schools_access_scores:capacity",
+            "duplicates": 14279,
+            "type": "string",
+            "missing": 14280,
+            "table": {
+              "1": 0
+            }
+          },
+          {
+            "name": "trade_schools_access_scores:3sfca_tot_enrol",
+            "duplicates": 14279,
+            "type": "string",
+            "missing": 14280,
+            "table": {
+              "1": 0
+            }
+          },
+          {
+            "name": "trade_schools_access_scores:norm_2sefca",
+            "duplicates": 14279,
+            "info": {
+              "type": "index",
+              "short_name": "Trade school access (score)",
+              "long_name": "Trade school access score (2-step enhanced floating catchment areas)",
+              "short_description": "",
+              "long_description": "",
+              "statement": "",
+              "name": "",
+              "url": "",
+              "category": "Education",
+              "measure": "norm_2sefca",
+              "full_name": "trade_schools_access_scores:norm_2sefca",
+              "db_name": "dc_education_training.va_hdcttr_sdad_2019_trade_schools_access_scores"
+            },
+            "type": "string",
+            "missing": 14280,
+            "table": {
+              "1": 0
+            }
+          },
+          {
+            "name": "trade_schools_access_scores:2sefca30_tot_enrol",
+            "duplicates": 14279,
+            "type": "string",
+            "missing": 14280,
+            "table": {
+              "1": 0
+            }
+          },
+          {
+            "name": "trade_schools_access_scores:perc_2sefca",
+            "duplicates": 14279,
+            "type": "string",
+            "missing": 14280,
+            "table": {
+              "1": 0
+            }
+          },
+          {
+            "name": "daycare_services_access_scores:daycare_3sfca_capacity",
+            "duplicates": 12380,
+            "type": "float",
+            "missing": 12380,
             "mean": 0.967495,
             "sd": 0.323011,
             "min": 0,
             "max": 1.845706
           },
           {
-            "name": "daycare_cnt",
-            "duplicates": 12781,
+            "name": "daycare_services_access_scores:daycare_cnt",
+            "duplicates": 13712,
+            "info": {
+              "type": "count",
+              "short_name": "Day care access (count)",
+              "long_name": "Access to day care by count",
+              "short_description": "Count of day cares based on provider locations",
+              "long_description": "Count of day cares based on provider locations. Address data was collected from Virginia Department of Social Services day care search tool.",
+              "statement": "There are \" + daycare_cnt + \" daycares in \" + region_name",
+              "name": "Virginia Department of Social Services",
+              "url": "https://www.dss.virginia.gov/facility/search/cc.cgi",
+              "category": "Education",
+              "measure": "daycare_cnt",
+              "full_name": "daycare_services_access_scores:daycare_cnt",
+              "db_name": "dc_education_training.va_hdcttr_sdad_2021_daycare_services_access_scores"
+            },
             "type": "integer",
-            "missing": 11442,
+            "missing": 12373,
             "mean": 195.544835,
             "sd": 235.098779,
             "min": 0,
             "max": 2273
           },
           {
-            "name": "daycare_norm_3sfca",
-            "duplicates": 11449,
+            "name": "daycare_services_access_scores:daycare_norm_3sfca",
+            "duplicates": 12380,
+            "info": {
+              "type": "index",
+              "short_name": "Day care access (score)",
+              "long_name": "Day care access score (3-step floating catchment area)",
+              "short_description": "Index of day care accessibility based on supply of and demand for providers",
+              "long_description": "Primary care access score based on 2-step enhanced floating catchment areas. This method is an aggregation of day care facilities per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Provider address data was collected from Virginia Department of Social Services day care search tool. \nCitations:\nWei Luo. Using a GIS-based floating catchment method to assess areas with shortage of physicians. Health & Place, 10(1):1 – 11, 2004. doi:10.1016/S1353-8292(02)00067-9.\nWei Luo and Yi Qi. An enhanced two-step floating catchment area (e2sfca) method for measuring spatial accessibility to primary care physicians. Health & Place, 15(4):1100 – 1107, 2009. doi:10.1016/j.healthplace.2009.06.002.\nWei Luo and Fahui Wang. Measures of spatial accessibility to health care in a GIS environment: synthesis and a case study in the Chicago region. Environment and Planning B: Planning and Design, 30(6):865–884, 2003. doi:10.1068/b29120.\nSaxon, James, Julia Koschinsky, Karina Acosta, Vidal Anguiano, Luc Anselin, and Sergio Rey. (2020). An Open Software Environment to Make Spatial Access Metrics More Accessible. University of Chicago: Center for Spatial Data Science. Preprint doi:10.13140/RG.2.2.12396.28807",
+              "statement": "The daycare accessibility score for \" + region_name +  \" is \" + daycare_norm_3sfca",
+              "name": "Virginia Department of Social Services",
+              "url": "https://www.dss.virginia.gov/facility/search/cc.cgi",
+              "category": "Education",
+              "measure": "daycare_norm_3sfca",
+              "full_name": "daycare_services_access_scores:daycare_norm_3sfca",
+              "db_name": "dc_education_training.va_hdcttr_sdad_2021_daycare_services_access_scores"
+            },
             "type": "float",
-            "missing": 11449,
+            "missing": 12380,
             "mean": 52.41866,
             "sd": 17.500646,
             "min": 0,
             "max": 100
           },
           {
-            "name": "dent_fca",
-            "duplicates": 12266,
+            "name": "dentist_access_scores:dent_fca",
+            "duplicates": 13197,
             "type": "float",
-            "missing": 11528,
+            "missing": 12459,
             "mean": 0.001827,
             "sd": 0.000811,
             "min": 0,
             "max": 0.00648
           },
           {
-            "name": "dent_cnt",
-            "duplicates": 13316,
+            "name": "dentist_access_scores:dent_cnt",
+            "duplicates": 14247,
+            "info": {
+              "type": "count",
+              "short_name": "Dental care access (count)",
+              "long_name": "Dental care access by count",
+              "short_description": "Count of dentists based on provider locations",
+              "long_description": "Count of dentists based on provider locations. Address data was collected from WebMD's online Physician Directory.",
+              "statement": "There are \" + dent_cnt + \" dentists in \" + region_name",
+              "name": "WebMD Physician Directory",
+              "url": "https://doctor.webmd.com",
+              "category": "Health",
+              "measure": "dent_cnt",
+              "full_name": "dentist_access_scores:dent_cnt",
+              "db_name": "dc_health_behavior_diet.va_hdcttr_sdad_2021_dentist_access_scores"
+            },
             "type": "integer",
-            "missing": 12384,
+            "missing": 13315,
             "mean": 4.456995,
             "sd": 4.964131,
             "min": 1,
             "max": 39
           },
           {
-            "name": "dent_3sfca",
-            "duplicates": 12672,
+            "name": "dentist_access_scores:dent_3sfca",
+            "duplicates": 13603,
             "type": "float",
-            "missing": 11450,
+            "missing": 12381,
             "mean": 0.000387,
             "sd": 0.000182,
             "min": 0,
             "max": 0.000862
           },
           {
-            "name": "dent_e2sfca",
-            "duplicates": 12833,
+            "name": "dentist_access_scores:dent_e2sfca",
+            "duplicates": 13764,
+            "info": {
+              "type": "index",
+              "short_name": "Dental care access (score)",
+              "long_name": "Dental care access score (2 step-enhanced floating catchment areas)",
+              "short_description": "Index of dental care accessibility based on supply and demand of providers",
+              "long_description": "Dental care access score based on 2-step enhanced floating catchment areas. This method is an aggregation of dentists per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for dentists (population served by dentists). Provider address data was collected from WebMD's online Physician Directory.\nCitations:\nWei Luo. Using a GIS-based floating catchment method to assess areas with shortage of physicians. Health & Place, 10(1):1 – 11, 2004. doi:10.1016/S1353-8292(02)00067-9.\nWei Luo and Yi Qi. An enhanced two-step floating catchment area (e2sfca) method for measuring spatial accessibility to primary care physicians. Health & Place, 15(4):1100 – 1107, 2009. doi:10.1016/j.healthplace.2009.06.002.\nWei Luo and Fahui Wang. Measures of spatial accessibility to health care in a GIS environment: synthesis and a case study in the Chicago region. Environment and Planning B: Planning and Design, 30(6):865–884, 2003. doi:10.1068/b29120.\nSaxon, James, Julia Koschinsky, Karina Acosta, Vidal Anguiano, Luc Anselin, and Sergio Rey. (2020). An Open Software Environment to Make Spatial Access Metrics More Accessible. University of Chicago: Center for Spatial Data Science. Preprint doi:10.13140/RG.2.2.12396.28807",
+              "statement": "The dentist accessibility score for \" + region_name + \"is\" + value",
+              "name": "WebMD Physician Directory",
+              "url": "https://doctor.webmd.com",
+              "category": "Health",
+              "measure": "dent_e2sfca",
+              "full_name": "dentist_access_scores:dent_e2sfca",
+              "db_name": "dc_health_behavior_diet.va_hdcttr_sdad_2021_dentist_access_scores"
+            },
             "type": "float",
-            "missing": 11452,
+            "missing": 12383,
             "mean": 0.000386,
             "sd": 0.00016,
             "min": 0,
             "max": 0.000702
           },
           {
-            "name": "dent_2sfca",
-            "duplicates": 12833,
+            "name": "dentist_access_scores:dent_2sfca",
+            "duplicates": 13764,
             "type": "float",
-            "missing": 11452,
+            "missing": 12383,
             "mean": 0.000386,
             "sd": 0.00016,
             "min": 0,
             "max": 0.000702
           },
           {
-            "name": "dent_pop_cnt",
-            "duplicates": 11710,
+            "name": "dentist_access_scores:dent_pop_cnt",
+            "duplicates": 12641,
             "type": "integer",
-            "missing": 11450,
+            "missing": 12381,
             "mean": 4449.587151,
             "sd": 2030.424604,
             "min": 0,
             "max": 19438
           },
           {
-            "name": "obgyn_cnt",
-            "duplicates": 13305,
+            "name": "obgyn_access_scores:obgyn_cnt",
+            "duplicates": 14236,
+            "info": {
+              "type": "count",
+              "short_name": "OBGYN care access (count)",
+              "long_name": "OBGYN care access by count",
+              "short_description": "Count of OBGYNs based on provider locations",
+              "long_description": "Count of OBGYN care providers based on provider locations. Address data was collected from WebMD's online Physician Directory.",
+              "statement": "There are \" + obgyn_cnt + \" OBGYNs in \" + region_name",
+              "name": "WebMD Physician Directory",
+              "url": "https://doctor.webmd.com",
+              "category": "Health",
+              "measure": "obgyn_cnt",
+              "full_name": "obgyn_access_scores:obgyn_cnt",
+              "db_name": "dc_health_behavior_diet.va_hdcttr_sdad_2021_obgyn_access_scores"
+            },
             "type": "integer",
-            "missing": 12876,
+            "missing": 13807,
             "mean": 6.511628,
             "sd": 13.452694,
             "min": 1,
             "max": 137
           },
           {
-            "name": "obgyn_pop_cnt",
-            "duplicates": 11996,
+            "name": "obgyn_access_scores:obgyn_pop_cnt",
+            "duplicates": 12927,
             "type": "integer",
-            "missing": 11450,
+            "missing": 12381,
             "mean": 1861.517114,
             "sd": 832.691345,
             "min": 0,
             "max": 6877
           },
           {
-            "name": "obgyn_2sfca",
-            "duplicates": 12841,
+            "name": "obgyn_access_scores:obgyn_2sfca",
+            "duplicates": 13772,
             "type": "float",
-            "missing": 11453,
+            "missing": 12384,
             "mean": 0.000634,
             "sd": 0.000261,
             "min": 0,
             "max": 0.001232
           },
           {
-            "name": "obgyn_e2sfca",
-            "duplicates": 12841,
+            "name": "obgyn_access_scores:obgyn_e2sfca",
+            "duplicates": 13772,
+            "info": {
+              "type": "index",
+              "short_name": "OBGYN care access (score)",
+              "long_name": "OBGYN care access score (2 step-enhanced floating catchment areas)",
+              "short_description": "Index of OBGYN care accessibility based on supply and demand of providers",
+              "long_description": "OBGYN care access score based on 2-step enhanced floating catchment areas. This method is an aggregation of OBGYNs per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for OBGYNs (population served by OBGYNs). Provider address data was collected from WebMD's online physician directory.\nCitations:\nWei Luo. Using a GIS-based floating catchment method to assess areas with shortage of physicians. Health & Place, 10(1):1 – 11, 2004. doi:10.1016/S1353-8292(02)00067-9.\nWei Luo and Yi Qi. An enhanced two-step floating catchment area (e2sfca) method for measuring spatial accessibility to primary care physicians. Health & Place, 15(4):1100 – 1107, 2009. doi:10.1016/j.healthplace.2009.06.002.\nWei Luo and Fahui Wang. Measures of spatial accessibility to health care in a GIS environment: synthesis and a case study in the Chicago region. Environment and Planning B: Planning and Design, 30(6):865–884, 2003. doi:10.1068/b29120.\nSaxon, James, Julia Koschinsky, Karina Acosta, Vidal Anguiano, Luc Anselin, and Sergio Rey. (2020). An Open Software Environment to Make Spatial Access Metrics More Accessible. University of Chicago: Center for Spatial Data Science. Preprint doi:10.13140/RG.2.2.12396.28807",
+              "statement": "The OBGYN access score for \" + region_name + \" is \" + obgyn_e2sfca",
+              "name": "WebMD Physician Directory",
+              "url": "https://doctor.webmd.com",
+              "category": "Health",
+              "measure": "obgyn_e2sfca",
+              "full_name": "obgyn_access_scores:obgyn_e2sfca",
+              "db_name": "dc_health_behavior_diet.va_hdcttr_sdad_2021_obgyn_access_scores"
+            },
             "type": "float",
-            "missing": 11453,
+            "missing": 12384,
             "mean": 0.000634,
             "sd": 0.000261,
             "min": 0,
             "max": 0.001232
           },
           {
-            "name": "obgyn_3sfca",
-            "duplicates": 12407,
+            "name": "obgyn_access_scores:obgyn_3sfca",
+            "duplicates": 13338,
             "type": "float",
-            "missing": 11450,
+            "missing": 12381,
             "mean": 0.000644,
             "sd": 0.000398,
             "min": 0,
             "max": 0.001974
           },
           {
-            "name": "obgyn_fca",
-            "duplicates": 12293,
+            "name": "obgyn_access_scores:obgyn_fca",
+            "duplicates": 13224,
             "type": "float",
-            "missing": 11638,
+            "missing": 12569,
             "mean": 0.016164,
             "sd": 0.014387,
             "min": 0.000345,
             "max": 0.101242
           },
           {
-            "name": "primcare_3sfca",
-            "duplicates": 11883,
+            "name": "primary_care_acccess_scores:primcare_3sfca",
+            "duplicates": 12814,
             "type": "float",
-            "missing": 11450,
+            "missing": 12381,
             "mean": 0.002328,
             "sd": 0.001139,
             "min": 0,
             "max": 0.007967
           },
           {
-            "name": "primcare_2sfca",
-            "duplicates": 12172,
+            "name": "primary_care_acccess_scores:primcare_2sfca",
+            "duplicates": 13103,
             "type": "float",
-            "missing": 11450,
+            "missing": 12381,
             "mean": 0.002295,
             "sd": 0.000761,
             "min": 0,
             "max": 0.004802
           },
           {
-            "name": "primcare_pop_cnt",
-            "duplicates": 11710,
+            "name": "primary_care_acccess_scores:primcare_pop_cnt",
+            "duplicates": 12641,
             "type": "integer",
-            "missing": 11450,
+            "missing": 12381,
             "mean": 4449.587151,
             "sd": 2030.424604,
             "min": 0,
             "max": 19438
           },
           {
-            "name": "primcare_fca",
-            "duplicates": 11611,
+            "name": "primary_care_acccess_scores:primcare_fca",
+            "duplicates": 12542,
             "type": "float",
-            "missing": 11468,
+            "missing": 12399,
             "mean": "Inf",
             "sd": "NaN",
             "min": 0.000201,
             "max": "Inf"
           },
           {
-            "name": "primcare_e2sfca",
-            "duplicates": 12172,
+            "name": "primary_care_acccess_scores:primcare_e2sfca",
+            "duplicates": 13103,
+            "info": {
+              "type": "index",
+              "short_name": "Primary care access (score)",
+              "long_name": "Primary care access score (2-step enhanced floating catchment areas)",
+              "short_description": "Index of primary care physician accessibility based on supply and demand of providers",
+              "long_description": "Primary care access score based on 2-step enhanced floating catchment areas. This method is an aggregation of physicians per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for physicians (population served by physicians). Provider address data was collected from WebMD's online Physician Directory.\nCitations:\nWei Luo. Using a GIS-based floating catchment method to assess areas with shortage of physicians. Health & Place, 10(1):1 – 11, 2004. doi:10.1016/S1353-8292(02)00067-9.\nWei Luo and Yi Qi. An enhanced two-step floating catchment area (e2sfca) method for measuring spatial accessibility to primary care physicians. Health & Place, 15(4):1100 – 1107, 2009. doi:10.1016/j.healthplace.2009.06.002.\nWei Luo and Fahui Wang. Measures of spatial accessibility to health care in a GIS environment: synthesis and a case study in the Chicago region. Environment and Planning B: Planning and Design, 30(6):865–884, 2003. doi:10.1068/b29120.\nSaxon, James, Julia Koschinsky, Karina Acosta, Vidal Anguiano, Luc Anselin, and Sergio Rey. (2020). An Open Software Environment to Make Spatial Access Metrics More Accessible. University of Chicago: Center for Spatial Data Science. Preprint doi:10.13140/RG.2.2.12396.28807",
+              "statement": "The primary care accessibility score for \" + region_name + \" is \" +  primcare_e2sfca",
+              "name": "WebMD Physician Directory",
+              "url": "https://doctor.webmd.com",
+              "category": "Health",
+              "measure": "primcare_e2sfca",
+              "full_name": "primary_care_acccess_scores:primcare_e2sfca",
+              "db_name": "dc_health_behavior_diet.va_hdcttr_sdad_2021_primary_care_acccess_scores"
+            },
             "type": "float",
-            "missing": 11450,
+            "missing": 12381,
             "mean": 0.002295,
             "sd": 0.000761,
             "min": 0,
             "max": 0.004802
           },
           {
-            "name": "primcare_cnt",
-            "duplicates": 13244,
+            "name": "primary_care_acccess_scores:primcare_cnt",
+            "duplicates": 14175,
+            "info": {
+              "type": "count",
+              "short_name": "Primary care access (count)",
+              "long_name": "Primary care access by count",
+              "short_description": "Count of primary care physicians based on provider locations",
+              "long_description": "Count of primary care physicians based on provider locations. Address data was collected from WebMD's online Physician Directory.",
+              "statement": "There are \" + primacare_cnt + \" primary care physicians in \" + region_name",
+              "name": "WebMD Physician Directory",
+              "url": "https://doctor.webmd.com",
+              "category": "Health",
+              "measure": "primcare_cnt",
+              "full_name": "primary_care_acccess_scores:primcare_cnt",
+              "db_name": "dc_health_behavior_diet.va_hdcttr_sdad_2021_primary_care_acccess_scores"
+            },
             "type": "integer",
-            "missing": 12058,
+            "missing": 12989,
             "mean": 15.194423,
             "sd": 41.247863,
             "min": 1,

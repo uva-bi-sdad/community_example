@@ -1,4 +1,6 @@
 library(community)
+vars <- jsonlite::read_json('../community_example/docs/data/measure_info.json')
+varcats <- Filter(nchar, unique(vapply(vars, function(v) if(is.null(v$category)) "" else v$category, "")))
 
 # use `page_` functions to add parts of a page
 
@@ -27,10 +29,15 @@ page_menu(
     id = "selected_county", reset_button = TRUE
   ),
   input_checkbox("Region Types", options = c("rural", "mixed", "urban"), id = "region_type"),
-  input_select(
-    "Variable",
-    options = "variables", id = "selected_variable",
-    default = "no_hlth_ins_pct", depends = "shapes"
+  page_section(
+    type = "col",
+    wraps = "row form-row",
+    input_select("Variable Category", "variable_type", options = varcats, default = "Health"),
+    input_select(
+      "Variable", "selected_variable", options = "variables",
+      default = "no_health_insurance_19_to_64:no_hlth_ins_pct", depends = "shapes",
+      filters = list(category = "variable_type")
+    )
   ),
   page_section(
     type = "col",
@@ -45,7 +52,7 @@ page_menu(
   position = "top",
   default_open = TRUE,
   conditions = c("", "selected_district", "", "", ""),
-  sizes = c(NA, NA, NA, NA, 4)
+  sizes = c(2, 2, 1, 3, 4)
 )
 
 ## `input_variable` can be used to set up logical controls
@@ -120,8 +127,21 @@ page_section(
       )
     },
     
-    ## add an pane to display information about selected and hovered over data
-    output_info("Virginia", "Hover over or select a region for more information.", "primary_view", c("map0", "plot0"))
+    page_section(
+      type = "d-flex flex-column col align-items-end",
+      ## add an pane to display information about selected and hovered over data
+      c(
+        '<div class="row">',
+        output_info(
+          "Virginia", "Hover over or select a region for more information.",
+          "primary_view", c("map0", "plot0")
+        ),
+        "</div>",
+        '<div class="row mt-auto">',
+        output_legend("divergent", "Below", "Region Median", "Above"),
+        "</div>"
+      )
+    )
   ),
   page_section(
     type = "row",
@@ -149,7 +169,7 @@ page_section(
               line = list(color = "#d6d6d6")
             ) |>
             layout(
-              xaxis = list(fixedrange = TRUE),
+              xaxis = list(title = FALSE, fixedrange = TRUE),
               yaxis = list(fixedrange = TRUE, zeroline = FALSE)
             ) |>
             config(
@@ -171,7 +191,7 @@ page_section(
       ),
       list(
         name = "Data",
-        output_table(dataview = "primary_view", options = list(
+        output_table(dataview = "primary_view", wide = TRUE, options = list(
           info = FALSE,
           paging = FALSE,
           scrollY = 400,
@@ -179,7 +199,7 @@ page_section(
         ))
       )
     ),
-    output_table("selected_variable", dataview = "primary_view", options = list(
+    output_table("selected_variable", dataview = "primary_view", wide = TRUE, options = list(
       info = FALSE,
       paging = FALSE,
       searching = FALSE,
@@ -189,8 +209,4 @@ page_section(
 )
 
 # render the site
-vars <- c(
-  'ID', 'time', 'primcare_e2sfca', 'primcare_cnt', 'obgyn_e2sfca', 'obgyn_cnt', 'dent_cnt',
-  'dent_e2sfca', 'no_hlth_ins_pct', 'prevent_hosp_rate', 'daycare_cnt', 'daycare_norm_3sfca'
-)
-site_build(variables = vars)
+site_build(variables = c('ID', names(vars)))

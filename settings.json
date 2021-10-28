@@ -4,13 +4,13 @@
   "metadata": {
     "package": "data/datapackage.json",
     "datasets": ["district", "county", "tract"],
-    "variables": ["ID", "primary_care_acccess_scores:primcare_cnt", "primary_care_acccess_scores:primcare_e2sfca", "dentist_access_scores:dent_cnt", "dentist_access_scores:dent_e2sfca", "obgyn_access_scores:obgyn_cnt", "obgyn_access_scores:obgyn_e2sfca", "no_health_insurance_19_to_64:no_hlth_ins_pct", "preventable_hospitalizations:prevent_hosp_rate", "daycare_services_access_scores:daycare_cnt", "daycare_services_access_scores:daycare_norm_3sfca", "dei_index:norm_dei", "pct_pop_broadband:perc_w_broadband", "pct_pop_cable_fiber_dsl:perc_w_cable_fiber_DSL", "download_speeds:download", "3rd_grade_median_read_score:median_read_pass_rate", "health_literacy_estimates:health_literacy_estimate", "2year_colleges_access_scores:norm_2sefca", "trade_schools_access_scores:norm_2sefca", "post_hs_education:perc_post_hs_edu", "drive_times_nearest_daycares:median_drive_time_top5", "drive_times_nearest_2year_colleges:median_drive_time_top5", "drive_times_nearest_trade_schools:median_drive_time_top5", "time"],
+    "variables": ["ID", "primary_care_access_scores:prim_cnt", "primary_care_access_scores:prim_e2sfca", "dentist_access_scores:dent_cnt", "dentist_access_scores:dent_e2sfca", "obgyn_access_scores:obgyn_cnt", "obgyn_access_scores:obgyn_e2sfca", "no_health_insurance_19_to_64:no_hlth_ins_pct", "preventable_hospitalizations:prevent_hosp_rate", "daycare_services_access_scores:daycare_cnt", "daycare_services_access_scores:daycare_norm_3sfca", "dei_index:norm_dei", "pct_pop_broadband:perc_w_broadband", "pct_pop_cable_fiber_dsl:perc_w_cable_fiber_DSL", "download_speeds:download", "3rd_grade_median_read_score:median_read_pass_rate", "health_literacy_estimates:health_literacy_estimate", "2year_colleges_access_scores:norm_2sefca", "trade_schools_access_scores:norm_2sefca", "post_hs_education:perc_post_hs_edu", "drive_times_nearest_daycares:median_drive_time_top5", "drive_times_nearest_2year_colleges:median_drive_time_top5", "drive_times_nearest_trade_schools:median_drive_time_top5", "time"],
     "info": {
       "district": {
-        "bytes": 71856,
+        "bytes": 98275,
         "encoding": "ISO-8859-1",
-        "md5": "090597144ae5040943836149aba5afc4",
-        "sha512": "mNZkeETTmAKaBYjimDwaY6AjnIYnwjOCL7vUsifE/X6qRMNPCBtQRShBr7kw/YwK4OSc/ZnLobRq8LNz/oHeog==",
+        "md5": "821a1fef834fc9c9df5b4c9e2af66a15",
+        "sha512": "5jkP/ZqlbJ7VTjM0oD9rhkICZRYFE7RJIQS/qmmB5DsMkk+x+3jZP0WLHhVpGqPbCPEUtzuVzpk3bHnjuF7vXg==",
         "format": "csv",
         "name": "district",
         "filename": "health_district.csv",
@@ -23,7 +23,7 @@
         ],
         "time": "time",
         "profile": "data-resource",
-        "created": "2021-10-27 18:52:17",
+        "created": "2021-10-28 13:33:25",
         "last_modified": "2021-10-20 00:50:32",
         "rowcount": 245,
         "schema": {
@@ -39,7 +39,7 @@
               "max": 35
             },
             {
-              "name": "primary_care_acccess_scores:primcare_cnt",
+              "name": "primary_care_access_scores:prim_cnt",
               "duplicates": 209,
               "info": {
                 "type": "count",
@@ -51,9 +51,9 @@
                 "name": "WebMD Physician Directory",
                 "url": "https://doctor.webmd.com",
                 "category": "Health",
-                "measure": "primcare_cnt",
-                "full_name": "primary_care_acccess_scores:primcare_cnt",
-                "db_name": "dc_health_behavior_diet.va_hdcttr_sdad_2021_primary_care_acccess_scores"
+                "measure": "prim_cnt",
+                "full_name": "primary_care_access_scores:prim_cnt",
+                "db_name": "dc_health_behavior_diet.va_hdcttr_sdad_2021_primary_care_access_scores"
               },
               "type": "integer",
               "missing": 210,
@@ -63,7 +63,7 @@
               "max": 3360
             },
             {
-              "name": "primary_care_acccess_scores:primcare_e2sfca",
+              "name": "primary_care_access_scores:prim_e2sfca",
               "duplicates": 209,
               "info": {
                 "type": "index",
@@ -71,20 +71,20 @@
                 "long_name": "Primary care access score (2-step enhanced floating catchment areas)",
                 "short_description": "Index of primary care physician accessibility based on supply and demand of providers",
                 "long_description": "Primary care access score based on 2-step enhanced floating catchment areas. This method is an aggregation of physicians per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for physicians (population served by physicians). Provider address data was collected from WebMD's online Physician Directory.\nCitations:\nWei Luo. Using a GIS-based floating catchment method to assess areas with shortage of physicians. Health & Place, 10(1):1 – 11, 2004. doi:10.1016/S1353-8292(02)00067-9.\nWei Luo and Yi Qi. An enhanced two-step floating catchment area (e2sfca) method for measuring spatial accessibility to primary care physicians. Health & Place, 15(4):1100 – 1107, 2009. doi:10.1016/j.healthplace.2009.06.002.\nWei Luo and Fahui Wang. Measures of spatial accessibility to health care in a GIS environment: synthesis and a case study in the Chicago region. Environment and Planning B: Planning and Design, 30(6):865–884, 2003. doi:10.1068/b29120.\nSaxon, James, Julia Koschinsky, Karina Acosta, Vidal Anguiano, Luc Anselin, and Sergio Rey. (2020). An Open Software Environment to Make Spatial Access Metrics More Accessible. University of Chicago: Center for Spatial Data Science. Preprint doi:10.13140/RG.2.2.12396.28807",
-                "statement": "The primary care accessibility score for \" + region_name + \" is \" +  primcare_e2sfca",
+                "statement": "The primary care accessibility score for \" + region_name + \" is \" +  prim_e2sfca",
                 "name": "WebMD Physician Directory",
                 "url": "https://doctor.webmd.com",
                 "category": "Health",
-                "measure": "primcare_e2sfca",
-                "full_name": "primary_care_acccess_scores:primcare_e2sfca",
-                "db_name": "dc_health_behavior_diet.va_hdcttr_sdad_2021_primary_care_acccess_scores"
+                "measure": "prim_e2sfca",
+                "full_name": "primary_care_access_scores:prim_e2sfca",
+                "db_name": "dc_health_behavior_diet.va_hdcttr_sdad_2021_primary_care_access_scores"
               },
               "type": "float",
               "missing": 210,
               "mean": 0.0023,
-              "sd": 0.0007,
+              "sd": 0.0011,
               "min": 0.0011,
-              "max": 0.0035
+              "max": 0.0058
             },
             {
               "name": "dentist_access_scores:dent_cnt",
@@ -112,7 +112,7 @@
             },
             {
               "name": "dentist_access_scores:dent_e2sfca",
-              "duplicates": 211,
+              "duplicates": 209,
               "info": {
                 "type": "index",
                 "short_name": "Dental care access (score)",
@@ -128,11 +128,11 @@
                 "db_name": "dc_health_behavior_diet.va_hdcttr_sdad_2021_dentist_access_scores"
               },
               "type": "float",
-              "missing": 212,
+              "missing": 210,
               "mean": 0.0003,
               "sd": 0.0001,
               "min": 0.0001,
-              "max": 0.0006
+              "max": 0.0007
             },
             {
               "name": "obgyn_access_scores:obgyn_cnt",
@@ -160,7 +160,7 @@
             },
             {
               "name": "obgyn_access_scores:obgyn_e2sfca",
-              "duplicates": 210,
+              "duplicates": 209,
               "info": {
                 "type": "index",
                 "short_name": "OBGYN care access (score)",
@@ -176,11 +176,11 @@
                 "db_name": "dc_health_behavior_diet.va_hdcttr_sdad_2021_obgyn_access_scores"
               },
               "type": "float",
-              "missing": 211,
+              "missing": 210,
               "mean": 0.0006,
-              "sd": 0.0002,
-              "min": 0.0001,
-              "max": 0.0009
+              "sd": 0.0004,
+              "min": 0,
+              "max": 0.0018
             },
             {
               "name": "no_health_insurance_19_to_64:no_hlth_ins_pct",
@@ -570,7 +570,8 @@
               "duplicates": 238,
               "info": {
                 "type": "year",
-                "short_name": "Year"
+                "short_name": "Year",
+                "full_name": "time"
               },
               "type": "integer",
               "missing": 0,
@@ -583,10 +584,10 @@
         }
       },
       "county": {
-        "bytes": 251603,
+        "bytes": 349025,
         "encoding": "ISO-8859-1",
-        "md5": "6bcfa8979bb20f2726dcf6be8a388812",
-        "sha512": "0mGl35Cf5r6TxxlM1GQNPCDl7vV7P8ApuPcLufSJ45SXrlgkRxPHKEmLTlcmwW6OO1OPuXUy/tg/9WaynMI8Tg==",
+        "md5": "0659a5d0872d3150df2edb09874fa1d4",
+        "sha512": "zxnH+D8OcLCCtzJZq3yJzDQvpk9Q4RyaOMtPPYrlCzpYwJtUvjHkFAR3eMP0gOCra8JlWVHrQ7A56Zj59jVuaA==",
         "format": "csv",
         "name": "county",
         "filename": "county.csv",
@@ -599,7 +600,7 @@
         ],
         "time": "time",
         "profile": "data-resource",
-        "created": "2021-10-27 18:52:17",
+        "created": "2021-10-28 13:33:25",
         "last_modified": "2021-10-20 00:50:32",
         "rowcount": 938,
         "schema": {
@@ -615,7 +616,7 @@
               "max": 51840
             },
             {
-              "name": "primary_care_acccess_scores:primcare_cnt",
+              "name": "primary_care_access_scores:prim_cnt",
               "duplicates": 844,
               "info": {
                 "type": "count",
@@ -627,9 +628,9 @@
                 "name": "WebMD Physician Directory",
                 "url": "https://doctor.webmd.com",
                 "category": "Health",
-                "measure": "primcare_cnt",
-                "full_name": "primary_care_acccess_scores:primcare_cnt",
-                "db_name": "dc_health_behavior_diet.va_hdcttr_sdad_2021_primary_care_acccess_scores"
+                "measure": "prim_cnt",
+                "full_name": "primary_care_access_scores:prim_cnt",
+                "db_name": "dc_health_behavior_diet.va_hdcttr_sdad_2021_primary_care_access_scores"
               },
               "type": "integer",
               "missing": 805,
@@ -639,32 +640,32 @@
               "max": 3152
             },
             {
-              "name": "primary_care_acccess_scores:primcare_e2sfca",
-              "duplicates": 806,
+              "name": "primary_care_access_scores:prim_e2sfca",
+              "duplicates": 804,
               "info": {
                 "type": "index",
                 "short_name": "Primary care access (score)",
                 "long_name": "Primary care access score (2-step enhanced floating catchment areas)",
                 "short_description": "Index of primary care physician accessibility based on supply and demand of providers",
                 "long_description": "Primary care access score based on 2-step enhanced floating catchment areas. This method is an aggregation of physicians per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for physicians (population served by physicians). Provider address data was collected from WebMD's online Physician Directory.\nCitations:\nWei Luo. Using a GIS-based floating catchment method to assess areas with shortage of physicians. Health & Place, 10(1):1 – 11, 2004. doi:10.1016/S1353-8292(02)00067-9.\nWei Luo and Yi Qi. An enhanced two-step floating catchment area (e2sfca) method for measuring spatial accessibility to primary care physicians. Health & Place, 15(4):1100 – 1107, 2009. doi:10.1016/j.healthplace.2009.06.002.\nWei Luo and Fahui Wang. Measures of spatial accessibility to health care in a GIS environment: synthesis and a case study in the Chicago region. Environment and Planning B: Planning and Design, 30(6):865–884, 2003. doi:10.1068/b29120.\nSaxon, James, Julia Koschinsky, Karina Acosta, Vidal Anguiano, Luc Anselin, and Sergio Rey. (2020). An Open Software Environment to Make Spatial Access Metrics More Accessible. University of Chicago: Center for Spatial Data Science. Preprint doi:10.13140/RG.2.2.12396.28807",
-                "statement": "The primary care accessibility score for \" + region_name + \" is \" +  primcare_e2sfca",
+                "statement": "The primary care accessibility score for \" + region_name + \" is \" +  prim_e2sfca",
                 "name": "WebMD Physician Directory",
                 "url": "https://doctor.webmd.com",
                 "category": "Health",
-                "measure": "primcare_e2sfca",
-                "full_name": "primary_care_acccess_scores:primcare_e2sfca",
-                "db_name": "dc_health_behavior_diet.va_hdcttr_sdad_2021_primary_care_acccess_scores"
+                "measure": "prim_e2sfca",
+                "full_name": "primary_care_access_scores:prim_e2sfca",
+                "db_name": "dc_health_behavior_diet.va_hdcttr_sdad_2021_primary_care_access_scores"
               },
               "type": "float",
               "missing": 805,
               "mean": 0.002,
-              "sd": 0.0009,
-              "min": 0.0005,
-              "max": 0.0046
+              "sd": 0.0014,
+              "min": 0.0001,
+              "max": 0.0091
             },
             {
               "name": "dentist_access_scores:dent_cnt",
-              "duplicates": 888,
+              "duplicates": 887,
               "info": {
                 "type": "count",
                 "short_name": "Dental care access (count)",
@@ -680,15 +681,15 @@
                 "db_name": "dc_health_behavior_diet.va_hdcttr_sdad_2021_dentist_access_scores"
               },
               "type": "integer",
-              "missing": 816,
-              "mean": 35.2541,
-              "sd": 93.1228,
-              "min": 1,
+              "missing": 805,
+              "mean": 32.3383,
+              "sd": 89.6895,
+              "min": 0,
               "max": 894
             },
             {
               "name": "dentist_access_scores:dent_e2sfca",
-              "duplicates": 824,
+              "duplicates": 810,
               "info": {
                 "type": "index",
                 "short_name": "Dental care access (score)",
@@ -704,15 +705,15 @@
                 "db_name": "dc_health_behavior_diet.va_hdcttr_sdad_2021_dentist_access_scores"
               },
               "type": "float",
-              "missing": 812,
+              "missing": 805,
               "mean": 0.0003,
-              "sd": 0.0001,
+              "sd": 0.0002,
               "min": 0,
-              "max": 0.0007
+              "max": 0.0011
             },
             {
               "name": "obgyn_access_scores:obgyn_cnt",
-              "duplicates": 891,
+              "duplicates": 890,
               "info": {
                 "type": "count",
                 "short_name": "OBGYN care access (count)",
@@ -728,15 +729,15 @@
                 "db_name": "dc_health_behavior_diet.va_hdcttr_sdad_2021_obgyn_access_scores"
               },
               "type": "integer",
-              "missing": 844,
-              "mean": 32.766,
-              "sd": 69.6968,
-              "min": 1,
+              "missing": 805,
+              "mean": 23.1579,
+              "sd": 60.3872,
+              "min": 0,
               "max": 562
             },
             {
               "name": "obgyn_access_scores:obgyn_e2sfca",
-              "duplicates": 835,
+              "duplicates": 826,
               "info": {
                 "type": "index",
                 "short_name": "OBGYN care access (score)",
@@ -752,11 +753,11 @@
                 "db_name": "dc_health_behavior_diet.va_hdcttr_sdad_2021_obgyn_access_scores"
               },
               "type": "float",
-              "missing": 828,
-              "mean": 0.0005,
-              "sd": 0.0003,
+              "missing": 805,
+              "mean": 0.0004,
+              "sd": 0.0004,
               "min": 0,
-              "max": 0.0011
+              "max": 0.0022
             },
             {
               "name": "no_health_insurance_19_to_64:no_hlth_ins_pct",
@@ -1145,7 +1146,8 @@
               "duplicates": 931,
               "info": {
                 "type": "year",
-                "short_name": "Year"
+                "short_name": "Year",
+                "full_name": "time"
               },
               "type": "integer",
               "missing": 0,
@@ -1158,10 +1160,10 @@
         }
       },
       "tract": {
-        "bytes": 4102175,
+        "bytes": 5329778,
         "encoding": "ISO-8859-1",
-        "md5": "f36403ed653b1b21addb86c1d66b6bc8",
-        "sha512": "fVVnHDvyoX6Gn99Vkqp5FBBHTUekAtYkT0k9O2cEMhtDUcffFCy2w+jFIHiY9s88+xJRaVKW9rnoa8h3zyoBoQ==",
+        "md5": "d8ca3252acc910211836f6aa25958e1c",
+        "sha512": "90EMRq5DXNbKY/Tkuuh7Po7MtI5RbBh8QuQIMX2GtjCItfthnvc5kvZAjdH9rdeiKDlOC318VRLA7dKzRmBeqw==",
         "format": "csv",
         "name": "tract",
         "filename": "tract.csv",
@@ -1174,7 +1176,7 @@
         ],
         "time": "time",
         "profile": "data-resource",
-        "created": "2021-10-27 18:52:18",
+        "created": "2021-10-28 13:33:27",
         "last_modified": "2021-10-20 00:50:32",
         "rowcount": 14280,
         "schema": {
@@ -1190,7 +1192,7 @@
               "max": 51840000302
             },
             {
-              "name": "primary_care_acccess_scores:primcare_cnt",
+              "name": "primary_care_access_scores:prim_cnt",
               "duplicates": 14175,
               "info": {
                 "type": "count",
@@ -1202,9 +1204,9 @@
                 "name": "WebMD Physician Directory",
                 "url": "https://doctor.webmd.com",
                 "category": "Health",
-                "measure": "primcare_cnt",
-                "full_name": "primary_care_acccess_scores:primcare_cnt",
-                "db_name": "dc_health_behavior_diet.va_hdcttr_sdad_2021_primary_care_acccess_scores"
+                "measure": "prim_cnt",
+                "full_name": "primary_care_access_scores:prim_cnt",
+                "db_name": "dc_health_behavior_diet.va_hdcttr_sdad_2021_primary_care_access_scores"
               },
               "type": "integer",
               "missing": 12989,
@@ -1214,28 +1216,28 @@
               "max": 847
             },
             {
-              "name": "primary_care_acccess_scores:primcare_e2sfca",
-              "duplicates": 13103,
+              "name": "primary_care_access_scores:prim_e2sfca",
+              "duplicates": 12408,
               "info": {
                 "type": "index",
                 "short_name": "Primary care access (score)",
                 "long_name": "Primary care access score (2-step enhanced floating catchment areas)",
                 "short_description": "Index of primary care physician accessibility based on supply and demand of providers",
                 "long_description": "Primary care access score based on 2-step enhanced floating catchment areas. This method is an aggregation of physicians per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for physicians (population served by physicians). Provider address data was collected from WebMD's online Physician Directory.\nCitations:\nWei Luo. Using a GIS-based floating catchment method to assess areas with shortage of physicians. Health & Place, 10(1):1 – 11, 2004. doi:10.1016/S1353-8292(02)00067-9.\nWei Luo and Yi Qi. An enhanced two-step floating catchment area (e2sfca) method for measuring spatial accessibility to primary care physicians. Health & Place, 15(4):1100 – 1107, 2009. doi:10.1016/j.healthplace.2009.06.002.\nWei Luo and Fahui Wang. Measures of spatial accessibility to health care in a GIS environment: synthesis and a case study in the Chicago region. Environment and Planning B: Planning and Design, 30(6):865–884, 2003. doi:10.1068/b29120.\nSaxon, James, Julia Koschinsky, Karina Acosta, Vidal Anguiano, Luc Anselin, and Sergio Rey. (2020). An Open Software Environment to Make Spatial Access Metrics More Accessible. University of Chicago: Center for Spatial Data Science. Preprint doi:10.13140/RG.2.2.12396.28807",
-                "statement": "The primary care accessibility score for \" + region_name + \" is \" +  primcare_e2sfca",
+                "statement": "The primary care accessibility score for \" + region_name + \" is \" +  prim_e2sfca",
                 "name": "WebMD Physician Directory",
                 "url": "https://doctor.webmd.com",
                 "category": "Health",
-                "measure": "primcare_e2sfca",
-                "full_name": "primary_care_acccess_scores:primcare_e2sfca",
-                "db_name": "dc_health_behavior_diet.va_hdcttr_sdad_2021_primary_care_acccess_scores"
+                "measure": "prim_e2sfca",
+                "full_name": "primary_care_access_scores:prim_e2sfca",
+                "db_name": "dc_health_behavior_diet.va_hdcttr_sdad_2021_primary_care_access_scores"
               },
               "type": "float",
               "missing": 12381,
-              "mean": 0.0023,
-              "sd": 0.0008,
+              "mean": 0.0024,
+              "sd": 0.0015,
               "min": 0,
-              "max": 0.0048
+              "max": 0.0094
             },
             {
               "name": "dentist_access_scores:dent_cnt",
@@ -1263,7 +1265,7 @@
             },
             {
               "name": "dentist_access_scores:dent_e2sfca",
-              "duplicates": 13764,
+              "duplicates": 12510,
               "info": {
                 "type": "index",
                 "short_name": "Dental care access (score)",
@@ -1279,11 +1281,11 @@
                 "db_name": "dc_health_behavior_diet.va_hdcttr_sdad_2021_dentist_access_scores"
               },
               "type": "float",
-              "missing": 12383,
+              "missing": 12381,
               "mean": 0.0004,
               "sd": 0.0002,
               "min": 0,
-              "max": 0.0007
+              "max": 0.0011
             },
             {
               "name": "obgyn_access_scores:obgyn_cnt",
@@ -1311,7 +1313,7 @@
             },
             {
               "name": "obgyn_access_scores:obgyn_e2sfca",
-              "duplicates": 13772,
+              "duplicates": 12726,
               "info": {
                 "type": "index",
                 "short_name": "OBGYN care access (score)",
@@ -1327,11 +1329,11 @@
                 "db_name": "dc_health_behavior_diet.va_hdcttr_sdad_2021_obgyn_access_scores"
               },
               "type": "float",
-              "missing": 12384,
-              "mean": 0.0006,
-              "sd": 0.0003,
+              "missing": 12381,
+              "mean": 0.0007,
+              "sd": 0.0005,
               "min": 0,
-              "max": 0.0012
+              "max": 0.0022
             },
             {
               "name": "no_health_insurance_19_to_64:no_hlth_ins_pct",
@@ -1718,7 +1720,8 @@
               "duplicates": 14273,
               "info": {
                 "type": "year",
-                "short_name": "Year"
+                "short_name": "Year",
+                "full_name": "time"
               },
               "type": "integer",
               "missing": 0,

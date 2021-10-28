@@ -1,5 +1,5 @@
 {
-  "primary_care_acccess_scores:primcare_cnt": {
+  "primary_care_access_scores:prim_cnt": {
     "type": "count",
     "short_name": "Primary care access (count)",
     "long_name": "Primary care access by count",
@@ -9,23 +9,23 @@
     "name": "WebMD Physician Directory",
     "url": "https://doctor.webmd.com",
     "category": "Health",
-    "measure": "primcare_cnt",
-    "full_name": "primary_care_acccess_scores:primcare_cnt",
-    "db_name": "dc_health_behavior_diet.va_hdcttr_sdad_2021_primary_care_acccess_scores"
+    "measure": "prim_cnt",
+    "full_name": "primary_care_access_scores:prim_cnt",
+    "db_name": "dc_health_behavior_diet.va_hdcttr_sdad_2021_primary_care_access_scores"
   },
-  "primary_care_acccess_scores:primcare_e2sfca": {
+  "primary_care_access_scores:prim_e2sfca": {
     "type": "index",
     "short_name": "Primary care access (score)",
     "long_name": "Primary care access score (2-step enhanced floating catchment areas)",
     "short_description": "Index of primary care physician accessibility based on supply and demand of providers",
     "long_description": "Primary care access score based on 2-step enhanced floating catchment areas. This method is an aggregation of physicians per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for physicians (population served by physicians). Provider address data was collected from WebMD's online Physician Directory.\nCitations:\nWei Luo. Using a GIS-based floating catchment method to assess areas with shortage of physicians. Health & Place, 10(1):1 – 11, 2004. doi:10.1016/S1353-8292(02)00067-9.\nWei Luo and Yi Qi. An enhanced two-step floating catchment area (e2sfca) method for measuring spatial accessibility to primary care physicians. Health & Place, 15(4):1100 – 1107, 2009. doi:10.1016/j.healthplace.2009.06.002.\nWei Luo and Fahui Wang. Measures of spatial accessibility to health care in a GIS environment: synthesis and a case study in the Chicago region. Environment and Planning B: Planning and Design, 30(6):865–884, 2003. doi:10.1068/b29120.\nSaxon, James, Julia Koschinsky, Karina Acosta, Vidal Anguiano, Luc Anselin, and Sergio Rey. (2020). An Open Software Environment to Make Spatial Access Metrics More Accessible. University of Chicago: Center for Spatial Data Science. Preprint doi:10.13140/RG.2.2.12396.28807",
-    "statement": "The primary care accessibility score for \" + region_name + \" is \" +  primcare_e2sfca",
+    "statement": "The primary care accessibility score for \" + region_name + \" is \" +  prim_e2sfca",
     "name": "WebMD Physician Directory",
     "url": "https://doctor.webmd.com",
     "category": "Health",
-    "measure": "primcare_e2sfca",
-    "full_name": "primary_care_acccess_scores:primcare_e2sfca",
-    "db_name": "dc_health_behavior_diet.va_hdcttr_sdad_2021_primary_care_acccess_scores"
+    "measure": "prim_e2sfca",
+    "full_name": "primary_care_access_scores:prim_e2sfca",
+    "db_name": "dc_health_behavior_diet.va_hdcttr_sdad_2021_primary_care_access_scores"
   },
   "dentist_access_scores:dent_cnt": {
     "type": "count",
@@ -309,6 +309,7 @@
   },
   "time": {
     "type": "year",
-    "short_name": "Year"
+    "short_name": "Year",
+    "full_name": "time"
   }
 }

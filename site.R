@@ -1,5 +1,5 @@
 library(community)
-vars <- jsonlite::read_json('../community_example/docs/data/measure_info.json')
+vars <- jsonlite::read_json('docs/data/measure_info.json')
 varcats <- Filter(nchar, unique(vapply(vars, function(v) if(is.null(v$category)) "" else v$category, "")))
 
 # use `page_` functions to add parts of a page
@@ -191,11 +191,10 @@ page_section(
       ),
       list(
         name = "Data",
-        output_table(dataview = "primary_view", wide = TRUE, options = list(
+        output_table(dataview = "primary_view", filters = list(category = "variable_type"), options = list(
           info = FALSE,
           paging = FALSE,
-          scrollY = 400,
-          scrollX = 1000
+          scrollY = 400
         ))
       )
     ),

@@ -7,6 +7,7 @@ varcats <- Filter(nchar, unique(vapply(vars, function(v) if(is.null(v$category))
 ## `page_head` adds to the page's meta data, and can be a place to import script and style sheets
 page_head(
   title = "Virginia Department of Health Dashboard",
+  description = "Example of a dashboard made with the community package.",
   icon = "https://www.vdh.virginia.gov/content/themes/vdh-shared/assets/images/icon.png"
 )
 
@@ -52,7 +53,7 @@ page_menu(
   position = "top",
   default_open = TRUE,
   conditions = c("", "selected_district", "", "", ""),
-  sizes = c(2, 2, 1, 3, 4)
+  sizes = c(2, 2, 1, 3, NA)
 )
 
 ## `input_variable` can be used to set up logical controls
@@ -98,12 +99,19 @@ input_dataview(
 # use `page_section` to build the page's layout
 page_section(
   type = "col",
+  # use `output_` functions to add data displays
+  page_section(
+    type = "row",
+    output_text(c(
+      "State: Virginia[r selected_district]",
+      "? > (Health District: {selected_district})[r selected_county]",
+      "? > County: {selected_county}"
+    ))
+  ),
   page_section(
     type = "row",
     wraps = "col",
     sizes = c(8, 4),
-    
-    # use `output_` functions to add data displays
     {
       ## add a map
       shape_names <- c("district", "county", "tract")
@@ -174,8 +182,9 @@ page_section(
             ) |>
             config(
               responsive = TRUE,
-              displayModeBar = FALSE,
-              showTips = FALSE
+              showTips = FALSE,
+              displaylogo = FALSE,
+              modeBarButtonsToRemove = c("select2d", "lasso2d", "sendDataToCloud")
             )
           
           ### then specify dynamic variables, and use the template plot for configuration
@@ -192,9 +201,13 @@ page_section(
       list(
         name = "Data",
         output_table(dataview = "primary_view", filters = list(category = "variable_type"), options = list(
-          info = FALSE,
           paging = FALSE,
-          scrollY = 400
+          scrollY = 400,
+          scrollCollapse = TRUE,
+          rowGroup = list(dataSrc = "features.name"),
+          columnDefs = list(list(targets = "features.name", visible = FALSE)),
+          buttons = c('copy', 'csv', 'excel', 'print'),
+          dom = "<'row't><'row'<'col'B><'col'f>>"
         ))
       )
     ),
@@ -202,7 +215,8 @@ page_section(
       info = FALSE,
       paging = FALSE,
       searching = FALSE,
-      scrollY = 500
+      scrollY = 500,
+      scrollCollapse = TRUE
     ))
   )
 )

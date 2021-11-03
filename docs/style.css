@@ -1,2 +1,8 @@
 .navbar{background-color: #141E3C; color: #fff}
 .primary{background-color: #ED79F9}
+
+:root{
+  --bs-body-font-family: 'Lato', sans-serif;
+  --link: #007eb3;
+  --highlight: #173a64
+}

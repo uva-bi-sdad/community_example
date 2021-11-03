@@ -6,7 +6,7 @@ This site was generated with these commands:
 library(community)
 
 # run from where you want the site files, or set `dir`
-init_site('Demographics and Health Access demo', with_data = TRUE)
+init_site('Virginia Department of Health Dashboard', with_data = TRUE)
 
 # reformat original files, and output to the current working directory
 # (in this case, the original files were moved to a subdirectory of the output directory first)

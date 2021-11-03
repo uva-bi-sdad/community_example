@@ -1,6 +1,4 @@
 library(community)
-vars <- jsonlite::read_json('docs/data/measure_info.json')
-varcats <- Filter(nchar, unique(vapply(vars, function(v) if(is.null(v$category)) "" else v$category, "")))
 
 # use `page_` functions to add parts of a page
 
@@ -19,21 +17,30 @@ page_navbar(
 
 # use `input_` functions to add input elements that affect outputs
 page_menu(
-  input_select(
-    "Health District", options = "levels",
-    variable = "ID", dataset = "district", dataview = "primary_view",
-    id = "selected_district", reset_button = TRUE
-  ),
-  input_select(
-    "County", options = "levels",
-    variable = "ID", dataset = "county", dataview = "primary_view",
-    id = "selected_county", reset_button = TRUE
+  page_section(
+    type = "col",
+    wraps = "row form-row",
+    input_select(
+      "Health District", options = "levels",
+      variable = "ID", dataset = "district", dataview = "primary_view",
+      id = "selected_district", reset_button = TRUE
+    ),
+    input_select(
+      "County", options = "levels",
+      variable = "ID", dataset = "county", dataview = "primary_view",
+      id = "selected_county", reset_button = TRUE
+    ),
+    conditions = c("", "selected_district")
   ),
   input_checkbox("Region Types", options = c("rural", "mixed", "urban"), id = "region_type"),
   page_section(
     type = "col",
     wraps = "row form-row",
-    input_select("Variable Category", "variable_type", options = varcats, default = "Health"),
+    {
+      vars <- jsonlite::read_json('../community_example/docs/data/measure_info.json')
+      varcats <- Filter(nchar, unique(vapply(vars, function(v) if(is.null(v$category)) "" else v$category, "")))
+      input_select("Variable Category", "variable_type", options = varcats, default = "Health")
+    },
     input_select(
       "Variable", "selected_variable", options = "variables",
       default = "no_health_insurance_19_to_64:no_hlth_ins_pct", depends = "shapes",
@@ -47,13 +54,14 @@ page_menu(
       wraps = "col",
       input_number("First Year", "min_year", default = "min", max = "max_year", dataview = "primary_view"),
       input_slider("Selected Year", min = "min_year", max = "max_year", default = "max", id = "selected_year"),
-      input_number("Last Year", "max_year", default = "max", min = "min_year", dataview = "primary_view")
+      input_number("Last Year", "max_year", default = "max", min = "min_year", dataview = "primary_view"),
+      breakpoints = "sm",
+      sizes = c(3, NA, 3)
     )
   ),
   position = "top",
   default_open = TRUE,
-  conditions = c("", "selected_district", "", "", ""),
-  sizes = c(2, 2, 1, 3, NA)
+  sizes = c(NA, 1, NA, 4)
 )
 
 ## `input_variable` can be used to set up logical controls
@@ -104,7 +112,7 @@ page_section(
     type = "row",
     output_text(c(
       "State: Virginia[r selected_district]",
-      "? > (Health District: {selected_district})[r selected_county]",
+      "? > Health District: {selected_district}[r selected_county]",
       "? > County: {selected_county}"
     ))
   ),
@@ -151,6 +159,11 @@ page_section(
       )
     )
   ),
+  output_text(c(
+    "?{!selected_district}Health Districts",
+    "?{selected_district & !selected_county}Counties",
+    "?{selected_county}Census Tracts"
+  ), class = "h2 text-center"),
   page_section(
     type = "row",
     wraps = "col",
@@ -203,6 +216,7 @@ page_section(
         output_table(dataview = "primary_view", filters = list(category = "variable_type"), options = list(
           paging = FALSE,
           scrollY = 400,
+          scrollX = 500,
           scrollCollapse = TRUE,
           rowGroup = list(dataSrc = "features.name"),
           columnDefs = list(list(targets = "features.name", visible = FALSE)),
@@ -216,6 +230,7 @@ page_section(
       paging = FALSE,
       searching = FALSE,
       scrollY = 500,
+      scrollX = 500,
       scrollCollapse = TRUE
     ))
   )

@@ -1,5 +1,4 @@
-{
-  "title": "Virginia Department of Health Dashboard",
+const site = {
   "digits": 3,
   "metadata": {
     "package": "data/datapackage.json",
@@ -2104,5 +2103,340 @@
       }
     },
     "file": "data.json"
-  }
+  },
+  "rules": [
+    {
+      "condition": [
+        {
+          "id": "selected_district",
+          "type": "",
+          "value": ""
+        }
+      ],
+      "effects": {
+        "display": "sec22"
+      }
+    }
+  ],
+  "dataviews": {
+    "primary_view": {
+      "palette": "selected_palette",
+      "y": "selected_variable",
+      "x": "selected_year",
+      "time_agg": "selected_year",
+      "time_filters": [
+        {
+          "variable": "time",
+          "type": ">=",
+          "value": "min_year"
+        },
+        {
+          "variable": "time",
+          "type": "<=",
+          "value": "max_year"
+        }
+      ],
+      "dataset": "shapes",
+      "ids": "selected_region",
+      "features": {
+        "type": "region_type"
+      }
+    }
+  },
+  "info": {
+    "info0": {
+      "subto": ["map0", "plot0"]
+    }
+  },
+  "text": {
+    "text6": {
+      "text": [
+        {
+          "button": {
+            "b1": {
+              "text": [
+                "Virginia"
+              ],
+              "type": "reset",
+              "target": "selected_district"
+            }
+          },
+          "text": ["State: ", "b1"]
+        },
+        {
+          "condition": [
+            {
+              "id": "selected_district",
+              "type": "",
+              "value": ""
+            }
+          ],
+          "button": {
+            "b1": {
+              "text": [
+                "",
+                "selected_district"
+              ],
+              "type": "reset",
+              "target": "selected_county"
+            }
+          },
+          "text": [" > Health District: ", "b1"]
+        },
+        {
+          "condition": [
+            {
+              "id": "selected_county",
+              "type": "",
+              "value": ""
+            }
+          ],
+          "text": [" > County: ", "selected_county"]
+        }
+      ]
+    },
+    "text7": {
+      "text": [
+        [
+          {
+            "text": "Virginia Health Districts",
+            "condition": [
+              {
+                "id": "default",
+                "type": "",
+                "value": ""
+              }
+            ]
+          },
+          {
+            "text": ["selected_district", " Counties"],
+            "condition": [
+              {
+                "id": "selected_district",
+                "type": "",
+                "value": ""
+              }
+            ]
+          },
+          {
+            "text": ["selected_county", " Census Tracts"],
+            "condition": [
+              {
+                "id": "selected_county",
+                "type": "",
+                "value": ""
+              }
+            ]
+          }
+        ]
+      ]
+    }
+  },
+  "select": {
+    "selected_variable": {
+      "category": "variable_type"
+    }
+  },
+  "tables": {
+    "table10": {
+      "paging": false,
+      "scrollY": 400,
+      "scrollX": 500,
+      "scrollCollapse": true,
+      "rowGroup": {
+        "dataSrc": "features.name"
+      },
+      "columnDefs": [
+        {
+          "targets": "features.name",
+          "visible": false
+        }
+      ],
+      "buttons": ["copy", "csv", "excel", "print"],
+      "dom": "<'row't><'row'<'col'B><'col'f>>",
+      "filters": {
+        "category": "variable_type"
+      },
+      "wide": false,
+      "single_variable": false
+    },
+    "table12": {
+      "info": false,
+      "paging": false,
+      "searching": false,
+      "scrollY": 500,
+      "scrollX": 500,
+      "scrollCollapse": true,
+      "variables": "selected_variable",
+      "wide": true,
+      "single_variable": true
+    }
+  },
+  "plots": {
+    "plot0": {
+      "layout": {
+        "margin": {
+          "b": 40,
+          "l": 60,
+          "t": 25,
+          "r": 10
+        },
+        "xaxis": {
+          "domain": [0, 1],
+          "automargin": true,
+          "title": false,
+          "fixedrange": true
+        },
+        "yaxis": {
+          "domain": [0, 1],
+          "automargin": true,
+          "fixedrange": true,
+          "zeroline": false
+        },
+        "hovermode": "closest",
+        "showlegend": false
+      },
+      "config": {
+        "modeBarButtonsToAdd": ["hoverclosest", "hovercompare"],
+        "showSendToCloud": false,
+        "responsive": true,
+        "showTips": false,
+        "displaylogo": false,
+        "modeBarButtonsToRemove": ["select2d", "lasso2d", "sendDataToCloud"]
+      },
+      "data": [
+        {
+          "hoverinfo": "text",
+          "mode": "lines+markers",
+          "showlegend": false,
+          "type": "scatter",
+          "marker": {
+            "color": "rgba(31,119,180,1)",
+            "line": {
+              "color": "rgba(31,119,180,1)"
+            }
+          },
+          "error_y": {
+            "color": "rgba(31,119,180,1)"
+          },
+          "error_x": {
+            "color": "rgba(31,119,180,1)"
+          },
+          "line": {
+            "color": "rgba(31,119,180,1)"
+          },
+          "xaxis": "x",
+          "yaxis": "y"
+        },
+        {
+          "type": "box",
+          "marker": {
+            "color": "rgba(255,127,14,1)",
+            "line": {
+              "color": "rgba(255,127,14,1)"
+            }
+          },
+          "error_y": {},
+          "error_x": {},
+          "line": {
+            "color": "#d6d6d6"
+          },
+          "xaxis": "x",
+          "yaxis": "y",
+          "fillcolor": "transparent",
+          "name": "Box Plot"
+        }
+      ],
+      "subto": [
+        "map0"
+      ]
+    }
+  },
+  "maps": {
+    "map0": {
+      "shapes": {
+        "district": "https://uva-bi-sdad.github.io/community/dist/shapes/VA/district.geojson",
+        "county": "https://uva-bi-sdad.github.io/community/dist/shapes/VA/county.geojson",
+        "tract": "https://uva-bi-sdad.github.io/community/dist/shapes/VA/tract.geojson"
+      },
+      "options": {
+        "attributionControl": false,
+        "scrollWheelZoom": false,
+        "center": [38, -79.5],
+        "zoom": 7,
+        "legend": true,
+        "subto": [
+          "plot0"
+        ]
+      },
+      "tiles": {
+        "url": "https://stamen-tiles-{s}.a.ssl.fastly.net/toner-lite/{z}/{x}/{y}{r}.png"
+      }
+    }
+  },
+  "variables": [
+    {
+      "id": "shapes",
+      "states": [
+        {
+          "condition": [
+            {
+              "id": "selected_district",
+              "type": "",
+              "value": ""
+            },
+            {
+              "id": "selected_county",
+              "type": "!",
+              "value": ""
+            }
+          ],
+          "value": "county"
+        },
+        {
+          "condition": [
+            {
+              "id": "selected_county",
+              "type": "",
+              "value": ""
+            }
+          ],
+          "value": "tract"
+        }
+      ],
+      "default": "district"
+    },
+    {
+      "id": "region_select",
+      "states": [
+        {
+          "condition": [
+            {
+              "id": "shapes",
+              "type": "=",
+              "value": "county"
+            }
+          ],
+          "value": "selected_county"
+        }
+      ],
+      "default": "selected_district"
+    },
+    {
+      "id": "selected_region",
+      "states": [
+        {
+          "condition": [
+            {
+              "id": "selected_county",
+              "type": "",
+              "value": ""
+            }
+          ],
+          "value": "selected_county"
+        }
+      ],
+      "default": "selected_district"
+    }
+  ]
 }

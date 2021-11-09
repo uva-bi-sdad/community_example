@@ -12,7 +12,14 @@ page_head(
 ## `page_header` adds to the top bar (navbar) of the page
 page_navbar(
   "Virginia Department of Health",
-  "https://www.developer.virginia.gov/media/developer/resources/brand/banner/latest/cardinal.svg"
+  "https://www.developer.virginia.gov/media/developer/resources/brand/banner/latest/cardinal.svg",
+  list(
+    name = "Settings",
+    backdrop = "false",
+    items = list(
+      input_select("Color Palette", options = "palettes", default = "rdylbu7", id = "selected_palette")
+    )
+  )
 )
 
 # use `input_` functions to add input elements that affect outputs
@@ -37,7 +44,7 @@ page_menu(
     type = "col",
     wraps = "row form-row",
     {
-      vars <- jsonlite::read_json('../community_example/docs/data/measure_info.json')
+      vars <- jsonlite::read_json('docs/data/measure_info.json')
       varcats <- Filter(nchar, unique(vapply(vars, function(v) if(is.null(v$category)) "" else v$category, "")))
       input_select("Variable Category", "variable_type", options = varcats, default = "Health")
     },
@@ -98,7 +105,8 @@ input_dataview(
       type = "<=",
       value = "max_year"
     )
-  )
+  ),
+  palette = "selected_palette"
 )
 
 ## `input_rule` can be used to specify if-then conditions for inputs
@@ -108,14 +116,16 @@ input_dataview(
 page_section(
   type = "col",
   # use `output_` functions to add data displays
-  page_section(
-    type = "row",
-    output_text(c(
-      "State: Virginia[r selected_district]",
-      "? > Health District: {selected_district}[r selected_county]",
-      "? > County: {selected_county}"
-    ))
-  ),
+  output_text(c(
+    "State: Virginia[r selected_district]",
+    "? > Health District: {selected_district}[r selected_county]",
+    "? > County: {selected_county}"
+  )),
+  output_text(list(
+    "default" = "Virginia Health Districts",
+    "selected_district" = "{selected_district} Counties",
+    "selected_county" = "{selected_county} Census Tracts"
+  ), class = "h1 text-center"),
   page_section(
     type = "row",
     wraps = "col",
@@ -124,7 +134,7 @@ page_section(
       ## add a map
       shape_names <- c("district", "county", "tract")
       shapes <- structure(paste0(
-        "https://raw.githubusercontent.com/uva-bi-sdad/VDH/main/src/dashboard/app/assets/",
+        "https://uva-bi-sdad.github.io/community/dist/shapes/VA/",
         shape_names,
         ".geojson"
       ), names = shape_names)
@@ -154,16 +164,11 @@ page_section(
         ),
         "</div>",
         '<div class="row mt-auto">',
-        output_legend("divergent", "Below", "Region Median", "Above"),
+        output_legend("selected_palette", "Below", "Region Median", "Above"),
         "</div>"
       )
     )
   ),
-  output_text(c(
-    "?{!selected_district}Health Districts",
-    "?{selected_district & !selected_county}Counties",
-    "?{selected_county}Census Tracts"
-  ), class = "h2 text-center"),
   page_section(
     type = "row",
     wraps = "col",

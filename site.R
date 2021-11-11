@@ -17,7 +17,35 @@ page_navbar(
     name = "Settings",
     backdrop = "false",
     items = list(
-      input_select("Color Palette", options = "palettes", default = "rdylbu7", id = "selected_palette")
+      input_select(
+        "Color Palette", options = "palettes", default = "rdylbu7", id = "selected_palette",
+        floating_label = FALSE
+      ),
+      input_number("Digits", "settings.digits", min = 0, max = 6, floating_label = FALSE),
+      input_select(
+        "Summary Level", options = c("filtered", "all"), default = "filtered",
+        display = c("Entire State", "Selected Region"), id = "settings.summary_selection", floating_label = FALSE
+      )
+    )
+  ),
+  list(
+    name = "About",
+    items = list(
+      page_text(c(
+        paste0(
+          "This site was made by the [Social and Decision Analytics Division]",
+          "(https://biocomplexity.virginia.edu/institute/divisions/social-and-decision-analytics)",
+          " of the [Biocomplexity Institute](https://biocomplexity.virginia.edu) for the ",
+          "[Virginia Department of Health](https://www.vdh.virginia.gov)."
+        ),
+        "View its source on [GitHub](https://github.com/uva-bi-sdad/community_example).",
+        "Credits",
+        paste(
+          "Built in [R](https://www.r-project.org) with the",
+          "[community](https://uva-bi-sdad.github.io/community) package, using these resources:"
+        )
+      ), class = c("", "", "h5")),
+      output_credits()
     )
   )
 )
@@ -39,19 +67,19 @@ page_menu(
     ),
     conditions = c("", "selected_district")
   ),
-  input_checkbox("Region Types", options = c("rural", "mixed", "urban"), id = "region_type"),
+  input_checkbox("Region Types", options = c("rural", "mixed", "urban"), id = "region_type", as.switch = TRUE),
   page_section(
     type = "col",
     wraps = "row form-row",
     {
       vars <- jsonlite::read_json('docs/data/measure_info.json')
       varcats <- Filter(nchar, unique(vapply(vars, function(v) if(is.null(v$category)) "" else v$category, "")))
-      input_select("Variable Category", "variable_type", options = varcats, default = "Health")
+      input_select("Variable Category", options = varcats, default = "Health", id = "variable_type")
     },
     input_select(
-      "Variable", "selected_variable", options = "variables",
+      "Variable", options = "variables",
       default = "no_health_insurance_19_to_64:no_hlth_ins_pct", depends = "shapes",
-      filters = list(category = "variable_type")
+      id = "selected_variable", filters = list(category = "variable_type")
     )
   ),
   page_section(
@@ -60,7 +88,7 @@ page_menu(
       type = "row",
       wraps = "col",
       input_number("First Year", "min_year", default = "min", max = "max_year", dataview = "primary_view"),
-      input_slider("Selected Year", min = "min_year", max = "max_year", default = "max", id = "selected_year"),
+      input_number("Selected Year", min = "min_year", max = "max_year", default = "max", id = "selected_year"),
       input_number("Last Year", "max_year", default = "max", min = "min_year", dataview = "primary_view"),
       breakpoints = "sm",
       sizes = c(3, NA, 3)
@@ -150,23 +178,34 @@ page_section(
           zoom = 7
         ),
         tiles = list(url = "https://stamen-tiles-{s}.a.ssl.fastly.net/toner-lite/{z}/{x}/{y}{r}.png"),
+        attribution = list(
+          list(
+            name = "Stamen toner-light",
+            url = "https://stamen.com",
+            description = "Map tiles by Stamen Design"
+          ),
+          list(
+            name = "OpenStreetMap",
+            url = "https://www.openstreetmap.org/copyright"
+          )
+        )
       )
     },
     
     page_section(
       type = "d-flex flex-column col align-items-end",
       ## add an pane to display information about selected and hovered over data
-      c(
-        '<div class="row">',
-        output_info(
-          "Virginia", "Hover over or select a region for more information.",
-          "primary_view", c("map0", "plot0")
+      output_info(
+        body = c("Region Type" = "features.type", "value"),
+        default = c(
+          title = "Virginia",
+          body = "Hover over or select a region for more information."
         ),
-        "</div>",
-        '<div class="row mt-auto">',
-        output_legend("selected_palette", "Below", "Region Median", "Above"),
-        "</div>"
-      )
+        dataview = "primary_view",
+        subto = c("map0", "plot0")
+      ),
+      output_legend("selected_palette", "Below", "Region Median", "Above"),
+      wraps = c("row mb-auto", "row")
     )
   ),
   page_section(

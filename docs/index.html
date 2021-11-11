@@ -6,8 +6,8 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 <meta name="viewport" content="width=device-width,initial-scale=1" />
 <script type="application/javascript" src="settings.js"></script>
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous" rel="stylesheet" media="all" async>
-<script type="application/javascript" src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous" async></script>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" rel="stylesheet" media="all" async>
+<script type="application/javascript" src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous" async></script>
 <link href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha384-VzLXTJGPSyTLX6d96AxgkKvE/LRb7ECGyTxuwtpjHnVWVZs2gp5RDjeM/tgBnVdM" crossorigin="anonymous" rel="stylesheet" media="all" async>
 <script type="application/javascript" src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha384-RFZC58YeKApoNsIbBxf4z6JJXmh+geBSgkCQXFyh+4tiFSJmJBt+2FbjxW7Ar16M" crossorigin="anonymous" async></script>
 <script type="application/javascript" src="https://cdn.plot.ly/plotly-2.4.2.min.js" integrity="sha384-X9COQf511UOEwK4K4fkWIg2ySl5SMo0Rs9PDwMXSwMKKbBgvpMLpmGuD3Z6VM/uR" crossorigin="anonymous" async></script>
@@ -24,15 +24,19 @@
 <link rel="icon" href="https://www.vdh.virginia.gov/content/themes/vdh-shared/assets/images/icon.png">
 </head>
 <body>
-<div class="navbar">
-<div class="navbar-header" role="heading" aria-level="1">
+<nav class="navbar navbar-dark navbar-expand-md">
 <div class="container-fluid">
-<span class="navbar-logo"><img alt="site logo" src="https://www.developer.virginia.gov/media/developer/resources/brand/banner/latest/cardinal.svg"></span>
-<span class="navbar-brand">Virginia Department of Health</span>
-</div>
-</div>
-<button class="btn btn-link" type="button" data-bs-toggle="offcanvas" data-bs-target="#submenu01" aria-control="submenu01">Settings</button>
-</div>
+<span class="navbar-brand"><img alt="site logo" src="https://www.developer.virginia.gov/media/developer/resources/brand/banner/latest/cardinal.svg">
+Virginia Department of Health
+</span>
+<button type="button" class="navbar-toggler" data-bs-toggle="collapse"data-bs-target="#navbar_menu"aria-controls="narbar_menu" aria-expanded="false" aria-lable="toggle navbar menu">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbar_menu">
+<ul class="navbar-nav">
+<li class="nav-item"><button class="btn btn-link" type="button" data-bs-toggle="offcanvas" data-bs-target="#submenu01" aria-control="submenu01">Settings</button></li>
+<li class="nav-item"><button class="btn btn-link" type="button" data-bs-toggle="offcanvas" data-bs-target="#submenu02" aria-control="submenu02">About</button></li>
+</ul></div></div></nav>
 <div tabindex="-1" id="submenu01" aria-labelledby="submenu01_label" class="offcanvas offcanvas-end" data-bs-backdrop="false">
 <div class="offcanvas-header">
 <h5 class="offcanvas-title" id="submenu01_label">Settings</h5>
@@ -46,28 +50,54 @@
 </select>
 </div>
 </div>
+<div class="wrapper text-wrapper">
+<label for="settings.digits">Digits</label>
+<input type="number" id="settings.digits" min="0" max="6" class="form-control auto-input" auto-type="number">
+</div>
+<div class="wrapper select-wrapper">
+<label for="settings.summary_selection">Summary Level</label>
+<div class="input-group">
+<select class="auto-input form-select" auto-type="select" id="settings.summary_selection" default="filtered"  default="filtered">
+<option value="filtered">Entire State</option>
+<option value="all">Selected Region</option>
+</select>
+</div>
+</div>
+</div>
+</div>
+<div tabindex="-1" id="submenu02" aria-labelledby="submenu02_label" class="offcanvas offcanvas-end">
+<div class="offcanvas-header">
+<h5 class="offcanvas-title" id="submenu02_label">About</h5>
+<button class="btn-close text-reset" type="button" data-bs-dismiss="offcanvas" title="Close"></button>
+</div>
+<div class="offcanvas-body">
+<p class=>This site was made by the <a target="_blank" rel="nofollow" href="https://biocomplexity.virginia.edu/institute/divisions/social-and-decision-analytics">Social and Decision Analytics Division</a> of the <a target="_blank" rel="nofollow" href="https://biocomplexity.virginia.edu">Biocomplexity Institute</a> for the <a target="_blank" rel="nofollow" href="https://www.vdh.virginia.gov">Virginia Department of Health</a>.</p>
+<p class=>View its source on <a target="_blank" rel="nofollow" href="https://github.com/uva-bi-sdad/community_example">GitHub</a>.</p>
+<p class=h5>Credits</p>
+<p class=>Built in <a target="_blank" rel="nofollow" href="https://www.r-project.org">R</a> with the <a target="_blank" rel="nofollow" href="https://uva-bi-sdad.github.io/community">community</a> package, using these resources:</p>
+<div id="credits0" class="auto-output credits" auto-type="credits"></div>
 </div>
 </div>
 <div class="menu-wrapper menu-top" style="top: 0; width: 100%">
-<div class="menu row menu-top">
+<div state="open" class="menu row menu-top">
 <div class="col">
 <div class="col">
 <div class="row form-row">
 <div class="wrapper select-wrapper">
-<label for="selected_district">Health District</label>
-<div class="input-group">
+<div class="input-group form-floating">
 <select class="auto-input form-select" auto-type="select" id="selected_district" default="-1" auto-options="levels" default="-1" data-view="primary_view" dataset="district" variable="ID">
 </select>
+<label for="selected_district">Health District</label>
 <button type="button" class="btn select-reset">Reset</button>
 </div>
 </div>
 </div>
-<div class="row form-row" id="sec22">
+<div class="row form-row" id="sec32">
 <div class="wrapper select-wrapper">
-<label for="selected_county">County</label>
-<div class="input-group">
+<div class="input-group form-floating">
 <select class="auto-input form-select" auto-type="select" id="selected_county" default="-1" auto-options="levels" default="-1" data-view="primary_view" dataset="county" variable="ID">
 </select>
+<label for="selected_county">County</label>
 <button type="button" class="btn select-reset">Reset</button>
 </div>
 </div>
@@ -78,16 +108,16 @@
 <div class="wrapper checkbox-wrapper">
 <label for="region_type">Region Types</label>
 <div class="auto-input" role="group" auto-type="checkbox" id="region_type" default="rural,mixed,urban" >
-<div class="form-check">
-<input type="checkbox" autocomplete="off" class="form-check-input" name="region_type_options" id="region_type_option1" value="rural" checked>
+<div class="form-check form-switch">
+<input type="checkbox" autocomplete="off" class="form-check-input" name="region_type_options" id="region_type_option1" role="switch" value="rural" checked>
 <label class="form-check-label" for="region_type_option1">rural</label>
 </div>
-<div class="form-check">
-<input type="checkbox" autocomplete="off" class="form-check-input" name="region_type_options" id="region_type_option2" value="mixed" checked>
+<div class="form-check form-switch">
+<input type="checkbox" autocomplete="off" class="form-check-input" name="region_type_options" id="region_type_option2" role="switch" value="mixed" checked>
 <label class="form-check-label" for="region_type_option2">mixed</label>
 </div>
-<div class="form-check">
-<input type="checkbox" autocomplete="off" class="form-check-input" name="region_type_options" id="region_type_option3" value="urban" checked>
+<div class="form-check form-switch">
+<input type="checkbox" autocomplete="off" class="form-check-input" name="region_type_options" id="region_type_option3" role="switch" value="urban" checked>
 <label class="form-check-label" for="region_type_option3">urban</label>
 </div>
 </div>
@@ -97,22 +127,22 @@
 <div class="col">
 <div class="row form-row">
 <div class="wrapper select-wrapper">
-<label for="variable_type">Variable Category</label>
-<div class="input-group">
+<div class="input-group form-floating">
 <select class="auto-input form-select" auto-type="select" id="variable_type" default="Health"  default="Health">
 <option value="Education">Education</option>
 <option value="Broadband">Broadband</option>
 <option value="Health">Health</option>
 </select>
+<label for="variable_type">Variable Category</label>
 </div>
 </div>
 </div>
 <div class="row form-row">
 <div class="wrapper select-wrapper">
-<label for="selected_variable">Variable</label>
-<div class="input-group">
+<div class="input-group form-floating">
 <select class="auto-input form-select" auto-type="select" id="selected_variable" default="no_health_insurance_19_to_64:no_hlth_ins_pct" auto-options="variables" default="no_health_insurance_19_to_64:no_hlth_ins_pct" depends="shapes">
 </select>
+<label for="selected_variable">Variable</label>
 </div>
 </div>
 </div>
@@ -122,22 +152,18 @@
 <div class="col">
 <div class="row">
 <div class="col-sm-3">
-<div class="wrapper text-wrapper">
-<label for="min_year">First Year</label>
-<input type="number" id="min_year" default="min" max="max_year" data-view="primary_view" class="form-control auto-input" auto-type="number">
+<div class="wrapper text-wrapper form-floating">
+<input type="number" id="min_year" default="min" max="max_year" data-view="primary_view" class="form-control auto-input" auto-type="number"><label for="min_year">First Year</label>
 </div>
 </div>
 <div class="col-sm">
-<div class="wrapper slider-wrapper">
-<label class="form-label" for="selected_year">Selected Year</label>
-<input role="slider" type="range" class="auto-input form-range" auto-type="number" id="selected_year" default=max step=1 min=min_year max=max_year>
-<div class="slider-display"><span>max</span></div>
+<div class="wrapper text-wrapper form-floating">
+<input type="number" id="selected_year" default="max" min="min_year" max="max_year" class="form-control auto-input" auto-type="number"><label for="selected_year">Selected Year</label>
 </div>
 </div>
 <div class="col-sm-3">
-<div class="wrapper text-wrapper">
-<label for="max_year">Last Year</label>
-<input type="number" id="max_year" default="max" min="min_year" data-view="primary_view" class="form-control auto-input" auto-type="number">
+<div class="wrapper text-wrapper form-floating">
+<input type="number" id="max_year" default="max" min="min_year" data-view="primary_view" class="form-control auto-input" auto-type="number"><label for="max_year">Last Year</label>
 </div>
 </div>
 </div>
@@ -148,28 +174,29 @@
 </div>
 <div class="content container-fluid">
 <div class="col">
-<p auto-type="text" id="text6" class="auto-output output-text"></p>
-<p auto-type="text" id="text7" class="auto-output output-text h1 text-center"></p>
+<p auto-type="text" id="text7" class="auto-output output-text"></p>
+<p auto-type="text" id="text8" class="auto-output output-text h1 text-center"></p>
 <div class="row">
 <div class="col-8">
 <div class="auto-output leaflet"data-view="primary_view"click="region_select"id="map0"auto-type="map"></div>
 </div>
 <div class="col-4">
 <div class="d-flex flex-column col align-items-end">
-<div class="row">
+<div class="row mb-auto">
 <div class="auto-output text-display" auto-type="info" id="info0" data-view="primary_view">
 <div class="">
-<h1>Virginia</h1>
+<p class="h2">Virginia</p>
 <p>Hover over or select a region for more information.</p>
 <table class="table location-table hidden"></table>
 </div>
 <div class="hidden">
-<h1>Virginia</h1>
+<p class="h2">Virginia</p>
 <table class="table location-table hidden"></table>
 </div>
+<div class="variable-info"></div>
 </div>
 </div>
-<div class="row mt-auto">
+<div class="row">
 <div palette="selected_palette" class="legend">
 <div class="legend-scale"></div>
 <div class="legend-text"><span>Below</span><span>Region Median</span><span>Above</span></div>
@@ -182,17 +209,17 @@
 <div class="col-7">
 <nav>
 <div class="nav nav-tabs">
-<button type="button" data-bs-toggle="tab" aria-controls="tg101" class="nav-link active" aria-selected="true" data-bs-target="#tg101" id="tg101-tab">Plot</button>
-<button type="button" data-bs-toggle="tab" aria-controls="tg102" class="nav-link" aria-selected="false" data-bs-target="#tg102" id="tg102-tab">Data</button>
+<button type="button" data-bs-toggle="tab" aria-controls="tg111" class="nav-link active" aria-selected="true" data-bs-target="#tg111" id="tg111-tab">Plot</button>
+<button type="button" data-bs-toggle="tab" aria-controls="tg112" class="nav-link" aria-selected="false" data-bs-target="#tg112" id="tg112-tab">Data</button>
 </div>
 </nav>
 <div class="tab-content">
-<div role="tabpanel" aria-labelledby="tg101-tab" class="tab-pane fade show active" id="tg101"><div class="auto-output plotly" data-view="primary_view" click="region_select" x="time" y="selected_variable" id="plot0" auto-type="plot"></div></div>
-<div role="tabpanel" aria-labelledby="tg102-tab" class="tab-pane fade" id="tg102"><table class="auto-output datatables compact" data-view="primary_view" id="table10" auto-type="table"></table></div>
+<div role="tabpanel" aria-labelledby="tg111-tab" class="tab-pane fade show active" id="tg111"><div class="auto-output plotly" data-view="primary_view" click="region_select" x="time" y="selected_variable" id="plot0" auto-type="plot"></div></div>
+<div role="tabpanel" aria-labelledby="tg112-tab" class="tab-pane fade" id="tg112"><table class="auto-output datatables compact" data-view="primary_view" id="table11" auto-type="table"></table></div>
 </div>
 </div>
 <div class="col-5">
-<table class="auto-output datatables compact" data-view="primary_view" id="table12" auto-type="table"></table>
+<table class="auto-output datatables compact" data-view="primary_view" id="table13" auto-type="table"></table>
 </div>
 </div>
 </div>

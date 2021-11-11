@@ -1,5 +1,6 @@
 const site = {
   "digits": 3,
+  "summary_selection": "all",
   "metadata": {
     "package": "data/datapackage.json",
     "datasets": ["district", "county", "tract"],
@@ -41,19 +42,65 @@ const site = {
               "name": "2year_colleges_access_scores:norm_2sefca",
               "duplicates": 220,
               "info": {
+                "category": "Education",
+                "measure_table": "dc_education_training.va_hdcttr_sdad_2019_2year_colleges_access_scores",
+                "full_name": "2year_colleges_access_scores:norm_2sefca",
+                "measure": "norm_2sefca",
                 "type": "index",
-                "short_name": "2-year college access (score)",
+                "short_name": "2-year college access score",
                 "long_name": "2 year college access score (2-step enhanced floating catchment areas)",
                 "short_description": "Index of 2-year college accessibility based on supply and demand of providers",
-                "long_description": "Demand = whole population, supply = total number of students enrolled in a year (graduate and undergraduate)",
-                "statement": "",
-                "name": "National Center for Education Statistics",
-                "url": "https://nces.ed.gov/",
-                "citations": "Lou, Wei (2004); Lou, Wei and Yi Qi (2009); Lou, Wei and Fahui Wang (2003); Saxon, James et al. (2020)",
-                "category": "Education",
-                "measure": "norm_2sefca",
-                "full_name": "2year_colleges_access_scores:norm_2sefca",
-                "db_name": "dc_education_training.va_hdcttr_sdad_2019_2year_colleges_access_scores"
+                "long_description": "2-year college access score based on 2-step enhanced floating catchment areas. This method is an aggregation of college capacity per population ratios weighted by distance or travel time in each catchment area (area within which an institution is accessible). Weights are defined for the demand for 2-year college (whole population in an area served by the institution) and supply is the total number of students enrolled in a year (graduate and undergraduate).",
+                "statement": "The 2-year college accessibility score for {region_name} is  {value}",
+                "citations": [
+                  {
+                    "id": 1,
+                    "author": "Wei Lou",
+                    "year": 2004,
+                    "title": "Using a gis-based floating catchment method to assess areas with shortage of physicians",
+                    "journal": "Health & Place",
+                    "number": "10(1)",
+                    "page": "1-11",
+                    "doi": "doi:10.1016/S1353-8292(02)00067-9."
+                  },
+                  {
+                    "id": 2,
+                    "author": "Wei Lou and Yi Qi",
+                    "year": 2009,
+                    "title": "An enhanced two-step floating catchment area (e2sfca) method for measuring spatial accessibility to primary care physicians",
+                    "journal": "Health & Place",
+                    "number": "15(4)",
+                    "page": "1100-1107",
+                    "doi": "doi:10.1016/j.healthplace.2009.06.002"
+                  },
+                  {
+                    "id": 3,
+                    "author": "Wei Luo and Fahui Wang",
+                    "year": 2003,
+                    "title": "Measures of spatial accessibility to health care in a gis environment: synthesis and a case study in the Chicago region",
+                    "journal": "Environment and Planning B: Planning and Design",
+                    "number": "30(6)",
+                    "page": "865-884",
+                    "doi": "doi:10.1068/b29120"
+                  },
+                  {
+                    "id": 4,
+                    "author": "James Saxon, Julia Koschinsky, Karina Acosta, Vidal Anguiano, Luc Anselin, and Sergio Rey",
+                    "year": 2020,
+                    "title": "An Open Software Environment to Make Spatial Access Metrics More Accessible",
+                    "journal": "University of Chicago: Center for Spatial Data Science",
+                    "number": "Preprint",
+                    "page": {},
+                    "doi": "doi:10.13140/RG.2.2.12396.28807"
+                  }
+                ],
+                "source": [
+                  {
+                    "name": "National Center for Education Statistics",
+                    "date_accessed": 2021,
+                    "url": "https://nces.ed.gov/"
+                  }
+                ]
               },
               "type": "float",
               "missing": 210,
@@ -66,19 +113,24 @@ const site = {
               "name": "drive_times_nearest_2year_colleges:median_drive_time_top5",
               "duplicates": 209,
               "info": {
-                "type": "",
+                "category": "Education",
+                "measure_table": "dc_education_training.va_hdcttr_osrm_2021_drive_times_nearest_2year_colleges",
+                "full_name": "drive_times_nearest_2year_colleges:median_drive_time_top5",
+                "measure": "median_drive_time_top5",
+                "type": "float",
                 "short_name": "2-year college access (drive time)",
                 "long_name": "2-year college access by median dive time to the five closest colleges in minutes",
-                "short_description": "",
-                "long_description": "",
-                "statement": "",
-                "name": "National Center for Education Statistics",
-                "url": "https://nces.ed.gov/",
-                "citations": "",
-                "category": "Education",
-                "measure": "median_drive_time_top5",
-                "full_name": "drive_times_nearest_2year_colleges:median_drive_time_top5",
-                "db_name": "dc_education_training.va_hdcttr_osrm_2021_drive_times_nearest_2year_colleges"
+                "short_description": "Median drive time (minutes) to the five closest 2-year colleges",
+                "long_description": {},
+                "statement": "The median drive time to the five closest 2-year colleges to {region_name} is {value} minutes",
+                "citations": {},
+                "source": [
+                  {
+                    "name": "National Center for Education Statistics",
+                    "date_accessed": 2021,
+                    "url": "https://nces.ed.gov/"
+                  }
+                ]
               },
               "type": "float",
               "missing": 210,
@@ -91,19 +143,24 @@ const site = {
               "name": "3rd_grade_median_read_score:median_read_pass_rate",
               "duplicates": 210,
               "info": {
-                "type": "",
+                "category": "Education",
+                "measure_table": "dc_education_training.va_hdct_vdoe_2019_2021_3rd_grade_median_read_score",
+                "full_name": "3rd_grade_median_read_score:median_read_pass_rate",
+                "measure": "median_pass_rate",
+                "type": "rate",
                 "short_name": "3rd grade population passing reading",
                 "long_name": "Median percent of 3rd grade population passing reading test",
-                "short_description": "",
-                "long_description": "",
-                "statement": "The median percent of 3rd graders with passing reading scores in {region_name} is {median_read_pass_rate} percent",
-                "name": "Virginia Department of Education",
-                "url": "",
-                "citations": "",
-                "category": "Education",
-                "measure": "median_read_pass_rate",
-                "full_name": "3rd_grade_median_read_score:median_read_pass_rate",
-                "db_name": "dc_education_training.va_hdct_vdoe_2019_2021_3rd_grade_median_read_score"
+                "short_description": "Median percent of 3rd grade population passing reading test for schools in the region",
+                "long_description": "Median percent of 3rd grade population passing reading test. The median is calculated across schools in the region.",
+                "statement": "The median percent of 3rd graders with passing reading scores in {region_name} is {value} percent",
+                "citations": {},
+                "source": [
+                  {
+                    "name": "Virginia Department of Education",
+                    "date_accessed": 2021,
+                    "url": "https://www.doe.virginia.gov/statistics_reports/sol-pass-rates/index.shtml"
+                  }
+                ]
               },
               "type": "float",
               "missing": 175,
@@ -116,19 +173,65 @@ const site = {
               "name": "daycare_services_access_scores:daycare_norm_3sfca",
               "duplicates": 209,
               "info": {
+                "category": "Education",
+                "measure_table": "dc_education_training.va_hdcttr_sdad_2021_daycare_services_access_scores",
+                "full_name": "daycare_services_access_scores:daycare_norm_3sfca",
+                "measure": "daycare_norm_3sefca",
                 "type": "index",
-                "short_name": "Day care access (score)",
+                "short_name": "Day care access score",
                 "long_name": "Day care access score (3-step floating catchment area)",
                 "short_description": "Index of day care accessibility based on supply of and demand for providers",
                 "long_description": "Primary care access score based on 2-step enhanced floating catchment areas. This method is an aggregation of day care facilities per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Provider address data was collected from Virginia Department of Social Services day care search tool. Demand = 0-12 years, supply = day care capacity",
-                "statement": "The daycare accessibility score for {region_name} is  {daycare_norm_3sfca}",
-                "name": "Virginia Department of Social Services",
-                "url": "https://www.dss.virginia.gov/facility/search/cc.cgi",
-                "citations": "Lou, Wei (2004); Lou, Wei and Yi Qi (2009); Lou, Wei and Fahui Wang (2003); Saxon, James et al. (2020)",
-                "category": "Education",
-                "measure": "daycare_norm_3sfca",
-                "full_name": "daycare_services_access_scores:daycare_norm_3sfca",
-                "db_name": "dc_education_training.va_hdcttr_sdad_2021_daycare_services_access_scores"
+                "statement": "The daycare accessibility score for {region_name} is  {value}",
+                "citations": [
+                  {
+                    "id": 1,
+                    "author": "Wei Lou",
+                    "year": 2004,
+                    "title": "Using a gis-based floating catchment method to assess areas with shortage of physicians",
+                    "journal": "Health & Place",
+                    "number": "10(1)",
+                    "page": "1-11",
+                    "doi": "doi:10.1016/S1353-8292(02)00067-9."
+                  },
+                  {
+                    "id": 2,
+                    "author": "Wei Lou and Yi Qi",
+                    "year": 2009,
+                    "title": "An enhanced two-step floating catchment area (e2sfca) method for measuring spatial accessibility to primary care physicians",
+                    "journal": "Health & Place",
+                    "number": "15(4)",
+                    "page": "1100-1107",
+                    "doi": "doi:10.1016/j.healthplace.2009.06.002"
+                  },
+                  {
+                    "id": 3,
+                    "author": "Wei Luo and Fahui Wang",
+                    "year": 2003,
+                    "title": "Measures of spatial accessibility to health care in a gis environment: synthesis and a case study in the Chicago region",
+                    "journal": "Environment and Planning B: Planning and Design",
+                    "number": "30(6)",
+                    "page": "865-884",
+                    "doi": "doi:10.1068/b29120"
+                  },
+                  {
+                    "id": 4,
+                    "author": "James Saxon, Julia Koschinsky, Karina Acosta, Vidal Anguiano, Luc Anselin, and Sergio Rey",
+                    "year": 2020,
+                    "title": "An Open Software Environment to Make Spatial Access Metrics More Accessible",
+                    "journal": "University of Chicago: Center for Spatial Data Science",
+                    "number": "Preprint",
+                    "page": {},
+                    "doi": "doi:10.13140/RG.2.2.12396.28807"
+                  }
+                ],
+                "source": [
+                  {
+                    "name": "Virginia Department of Social Services",
+                    "date_accessed": 2021,
+                    "url": "https://www.dss.virginia.gov/facility/search/cc.cgi"
+                  }
+                ]
               },
               "type": "float",
               "missing": 210,
@@ -141,19 +244,24 @@ const site = {
               "name": "daycare_services_access_scores:daycare_cnt",
               "duplicates": 209,
               "info": {
+                "category": "Education",
+                "measure_table": "dc_education_training.va_hdcttr_sdad_2021_daycare_services_access_scores",
+                "full_name": "daycare_services_access_scores:daycare_cnt",
+                "measure": "daycare_cnt",
                 "type": "count",
                 "short_name": "Day care access (count)",
                 "long_name": "Access to day care by count",
-                "short_description": "Count of day cares based on provider locations",
-                "long_description": "Count of day cares based on provider locations. Address data was collected from Virginia Department of Social Services day care search tool.  Day care capacity count",
-                "statement": "There are {daycare_cnt} daycares in {region_name}",
-                "name": "Virginia Department of Social Services",
-                "url": "https://www.dss.virginia.gov/facility/search/cc.cgi",
-                "citations": "",
-                "category": "Education",
-                "measure": "daycare_cnt",
-                "full_name": "daycare_services_access_scores:daycare_cnt",
-                "db_name": "dc_education_training.va_hdcttr_sdad_2021_daycare_services_access_scores"
+                "short_description": "Count of day care capacity (seats) based on provider locations",
+                "long_description": "Count of day care capacity (seats) based on provider locations. Address  and capacity data was collected from Virginia Department of Social Services day care search tool.",
+                "statement": "There are {value} day cares seats in {region_name}",
+                "citations": {},
+                "source": [
+                  {
+                    "name": "Virginia Department of Social Services",
+                    "date_accessed": 2021,
+                    "url": "https://www.dss.virginia.gov/facility/search/cc.cgi"
+                  }
+                ]
               },
               "type": "integer",
               "missing": 210,
@@ -166,19 +274,24 @@ const site = {
               "name": "drive_times_nearest_daycares:median_drive_time_top5",
               "duplicates": 212,
               "info": {
-                "type": "",
+                "category": "Education",
+                "measure_table": "dc_education_training.va_hdcttr_osrm_2021_drive_times_nearest_daycares",
+                "full_name": "drive_times_nearest_daycares:median_drive_time_top5",
+                "measure": "median_drive_time_top5",
+                "type": "float",
                 "short_name": "Day care access (drive time)",
                 "long_name": "Day care access by median drive time to the five closest day cares in minutes",
-                "short_description": "",
-                "long_description": "",
-                "statement": "",
-                "name": "Virginia Department of Social Services",
-                "url": "https://www.dss.virginia.gov/facility/search/cc.cgi",
-                "citations": "",
-                "category": "Education",
-                "measure": "median_drive_time_top5",
-                "full_name": "drive_times_nearest_daycares:median_drive_time_top5",
-                "db_name": "dc_education_training.va_hdcttr_osrm_2021_drive_times_nearest_daycares"
+                "short_description": "Median drive time (minutes) to the five closest day cares",
+                "long_description": {},
+                "statement": "The median drive time to the five closest day cares to {region_name} is {value} minutes",
+                "citations": {},
+                "source": [
+                  {
+                    "name": "Virginia Department of Social Services",
+                    "date_accessed": 2021,
+                    "url": "https://www.dss.virginia.gov/facility/search/cc.cgi"
+                  }
+                ]
               },
               "type": "float",
               "missing": 210,
@@ -191,19 +304,40 @@ const site = {
               "name": "dei_index:norm_dei",
               "duplicates": 143,
               "info": {
-                "type": "index",
-                "short_name": "Digital equity index",
-                "long_name": "Digitial equity index",
-                "short_description": "",
-                "long_description": "",
-                "statement": "The digital equity index for {region_name} is {norm_dei}",
-                "name": "",
-                "url": "",
-                "citations": "Gallardo, Robert (2020)",
                 "category": "Broadband",
-                "measure": "norm_dei",
+                "measure_table": "dc_digital_communications.va_hdcttr_sdad_2019_2021_dei_index",
                 "full_name": "dei_index:norm_dei",
-                "db_name": "dc_digital_communications.va_hdcttr_sdad_2019_2021_dei_index"
+                "measure": "norm_dei",
+                "type": "index",
+                "short_name": "Digital Equity Index",
+                "long_name": "Digitial Equity Index",
+                "short_description": "Digital Equity Index captures the relative equity of digitial access, with 0 being a score of relative equity and 100 being relative inequity.",
+                "long_description": "The Digital Equity Index captures the relative equity of digitial access. The Digital Equity Index uses is a composite of measures of broadband infrastructure and adoption and socioeconomic variables, with 0 being a score of relative equity and 100 being relative inequity. The variables include x, y, z.",
+                "statement": "The digital equity index for {region_name} is {value}",
+                "citations": [
+                  {
+                    "id": 5,
+                    "author": "Robert Gallardo",
+                    "year": 2020,
+                    "title": "Digital Divide Index",
+                    "journal": "Purdue Center for Regional Development",
+                    "number": {},
+                    "page": {},
+                    "doi": "http://pcrd.purdue.edu/ddi"
+                  }
+                ],
+                "source": [
+                  {
+                    "name": "American Community Survey",
+                    "date_accessed": 2021,
+                    "url": "https://www.census.gov/programs-surveys/acs.html"
+                  },
+                  {
+                    "name": "Ookla",
+                    "date_accessed": 2021,
+                    "url": "https://www.ookla.com/ookla-for-good/open-data"
+                  }
+                ]
               },
               "type": "float",
               "missing": 140,
@@ -216,19 +350,65 @@ const site = {
               "name": "dentist_access_scores:dent_e2sfca",
               "duplicates": 209,
               "info": {
+                "category": "Health",
+                "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_dentist_access_scores",
+                "full_name": "dentist_access_scores:dent_e2sfca",
+                "measure": "dent_e2sfca",
                 "type": "index",
-                "short_name": "Dental care access (score)",
+                "short_name": "Dental care access score",
                 "long_name": "Dental care access score (2 step-enhanced floating catchment areas)",
                 "short_description": "Index of dental care accessibility based on supply and demand of providers",
                 "long_description": "Dental care access score based on 2-step ehanced floating catchment areas. This method is an aggregation of dentists per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for dentists (population served by dentists). Provider address data was collected from WebMD's online Physician Directory.",
-                "statement": "The dental care access score for {region_name} is {dent_e2sfca}",
-                "name": "SafeGraph Core",
-                "url": "https://www.safegraph.com/products/core",
-                "citations": "Lou, Wei (2004); Lou, Wei and Yi Qi (2009); Lou, Wei and Fahui Wang (2003); Saxon, James et al. (2020)",
-                "category": "Health",
-                "measure": "dent_e2sfca",
-                "full_name": "dentist_access_scores:dent_e2sfca",
-                "db_name": "dc_health_behavior_diet.va_hdcttr_sdad_2021_dentist_access_scores"
+                "statement": "The dental care access score for {region_name} is {value}",
+                "citations": [
+                  {
+                    "id": 1,
+                    "author": "Wei Lou",
+                    "year": 2004,
+                    "title": "Using a gis-based floating catchment method to assess areas with shortage of physicians",
+                    "journal": "Health & Place",
+                    "number": "10(1)",
+                    "page": "1-11",
+                    "doi": "doi:10.1016/S1353-8292(02)00067-9."
+                  },
+                  {
+                    "id": 2,
+                    "author": "Wei Lou and Yi Qi",
+                    "year": 2009,
+                    "title": "An enhanced two-step floating catchment area (e2sfca) method for measuring spatial accessibility to primary care physicians",
+                    "journal": "Health & Place",
+                    "number": "15(4)",
+                    "page": "1100-1107",
+                    "doi": "doi:10.1016/j.healthplace.2009.06.002"
+                  },
+                  {
+                    "id": 3,
+                    "author": "Wei Luo and Fahui Wang",
+                    "year": 2003,
+                    "title": "Measures of spatial accessibility to health care in a gis environment: synthesis and a case study in the Chicago region",
+                    "journal": "Environment and Planning B: Planning and Design",
+                    "number": "30(6)",
+                    "page": "865-884",
+                    "doi": "doi:10.1068/b29120"
+                  },
+                  {
+                    "id": 4,
+                    "author": "James Saxon, Julia Koschinsky, Karina Acosta, Vidal Anguiano, Luc Anselin, and Sergio Rey",
+                    "year": 2020,
+                    "title": "An Open Software Environment to Make Spatial Access Metrics More Accessible",
+                    "journal": "University of Chicago: Center for Spatial Data Science",
+                    "number": "Preprint",
+                    "page": {},
+                    "doi": "doi:10.13140/RG.2.2.12396.28807"
+                  }
+                ],
+                "source": [
+                  {
+                    "name": "SafeGraph Core",
+                    "date_accessed": 2021,
+                    "url": "https://www.safegraph.com/products/core"
+                  }
+                ]
               },
               "type": "float",
               "missing": 210,
@@ -241,19 +421,24 @@ const site = {
               "name": "dentist_access_scores:dent_cnt",
               "duplicates": 211,
               "info": {
+                "category": "Health",
+                "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_dentist_access_scores",
+                "full_name": "dentist_access_scores:dent_cnt",
+                "measure": "dent_cnt",
                 "type": "count",
                 "short_name": "Dental care access (count)",
                 "long_name": "Dental care access by count",
                 "short_description": "Count of dentists based on provider locations",
                 "long_description": "Count of dentists based on provider locations. Address data was collected from WebMD's online Physician Directory.",
-                "statement": "There are {dent_cnt} densits in {region_name}",
-                "name": "SafeGraph Core",
-                "url": "https://www.safegraph.com/products/core",
-                "citations": "",
-                "category": "Health",
-                "measure": "dent_cnt",
-                "full_name": "dentist_access_scores:dent_cnt",
-                "db_name": "dc_health_behavior_diet.va_hdcttr_sdad_2021_dentist_access_scores"
+                "statement": "There are {value} densits in {region_name}",
+                "citations": {},
+                "source": [
+                  {
+                    "name": "SafeGraph Core",
+                    "date_accessed": 2021,
+                    "url": "https://www.safegraph.com/products/core"
+                  }
+                ]
               },
               "type": "integer",
               "missing": 210,
@@ -266,19 +451,24 @@ const site = {
               "name": "download_speeds:download",
               "duplicates": 139,
               "info": {
+                "category": "Broadband",
+                "measure_table": "dc_digital_communications.va_hdcttr_ookla_2019_2021_download_speeds",
+                "full_name": "download_speeds:download",
+                "measure": "download",
                 "type": "float",
                 "short_name": "Average download speed",
                 "long_name": "Average download speed (MB/s)",
-                "short_description": "",
-                "long_description": "",
-                "statement": "The average download speed for internet connections in {region_name} is {download} MB/s",
-                "name": "Ookla",
-                "url": "https://www.ookla.com/ookla-for-good/open-data",
-                "citations": "",
-                "category": "Broadband",
-                "measure": "download",
-                "full_name": "download_speeds:download",
-                "db_name": "dc_digital_communications.va_hdcttr_ookla_2019_2021_download_speeds"
+                "short_description": "Average download speed for internet connection in MB/s",
+                "long_description": "The average download speed for internet users' connections who performed a speed check using Ookla. Speeds are reported in MB/s. A speed of 100 MB/s is considered adequate for school work, video calling etc.",
+                "statement": "The average download speed for internet connections in {region_name} is {value} MB/s",
+                "citations": {},
+                "source": [
+                  {
+                    "name": "Ookla",
+                    "date_accessed": 2021,
+                    "url": "https://www.ookla.com/ookla-for-good/open-data"
+                  }
+                ]
               },
               "type": "float",
               "missing": 140,
@@ -290,21 +480,6 @@ const site = {
             {
               "name": "trade_schools_access_scores:norm_3sfca",
               "duplicates": 221,
-              "info": {
-                "type": "index",
-                "short_name": "Trade school access (score)",
-                "long_name": "Trade school access score (2-step enhanced floating catchment areas)",
-                "short_description": "Index of trade school accessibility based on supply and demand of providers",
-                "long_description": "Demand = whole population, supply = total number of students enrolled in a year ( undergraduate)",
-                "statement": "",
-                "name": "National Center for Education Statistics",
-                "url": "https://nces.ed.gov/",
-                "citations": "Lou, Wei (2004); Lou, Wei and Yi Qi (2009); Lou, Wei and Fahui Wang (2003); Saxon, James et al. (2020)",
-                "category": "Education",
-                "measure": "norm_3sfca",
-                "full_name": "trade_schools_access_scores:norm_3sfca",
-                "db_name": "dc_education_training.va_hdcttr_sdad_2019_trade_schools_access_scores"
-              },
               "type": "float",
               "missing": 210,
               "mean": 20.4887,
@@ -316,19 +491,24 @@ const site = {
               "name": "drive_times_nearest_trade_schools:median_drive_time_top5",
               "duplicates": 209,
               "info": {
-                "type": "",
+                "category": "Education",
+                "measure_table": "dc_education_training.va_hdcttr_osrm_2021_drive_times_nearest_trade_schools",
+                "full_name": "drive_times_nearest_trade_schools:median_drive_time_top5",
+                "measure": "median_drive_time_top5",
+                "type": "float",
                 "short_name": "Trade school access (drive time)",
                 "long_name": "Trade school access by median drive time to the five closest schools in minutes",
-                "short_description": "",
-                "long_description": "",
-                "statement": "",
-                "name": "National Center for Education Statistics",
-                "url": "https://nces.ed.gov/",
-                "citations": "",
-                "category": "Education",
-                "measure": "median_drive_time_top5",
-                "full_name": "drive_times_nearest_trade_schools:median_drive_time_top5",
-                "db_name": "dc_education_training.va_hdcttr_osrm_2021_drive_times_nearest_trade_schools"
+                "short_description": "Mean drive time (minutes) to the five closest trade schools",
+                "long_description": {},
+                "statement": "The median drive time to the five closest trade schools to {region_name} is {value} minutes",
+                "citations": {},
+                "source": [
+                  {
+                    "name": "National Center for Education Statistics",
+                    "date_accessed": 2021,
+                    "url": "https://nces.ed.gov/"
+                  }
+                ]
               },
               "type": "float",
               "missing": 210,
@@ -341,19 +521,24 @@ const site = {
               "name": "have_computer:perc_have_computer",
               "duplicates": 209,
               "info": {
-                "type": "",
+                "category": "Broadband",
+                "measure_table": "dc_digital_communications.va_hdcttr_acs5_2019_have_computer",
+                "full_name": "have_computer:perc_have_computer",
+                "measure": "perc_have_computer",
+                "type": "percent",
                 "short_name": "Population with a computer",
                 "long_name": "Percent of population with a computer",
-                "short_description": "",
-                "long_description": "",
-                "statement": "",
-                "name": "American Community Survey",
-                "url": "https://www.census.gov/programs-surveys/acs.html",
-                "citations": "",
-                "category": "Broadband",
-                "measure": "perc_have_computer",
-                "full_name": "have_computer:perc_have_computer",
-                "db_name": "dc_digital_communications.va_hdcttr_acs5_2019_have_computer"
+                "short_description": "Percent of the population self-reported to have a computer at home",
+                "long_description": {},
+                "statement": "{value} percent of the population in {region_name} have a computer",
+                "citations": {},
+                "source": [
+                  {
+                    "name": "American Community Survey",
+                    "date_accessed": 2021,
+                    "url": "https://www.census.gov/programs-surveys/acs.html"
+                  }
+                ]
               },
               "type": "float",
               "missing": 210,
@@ -366,19 +551,24 @@ const site = {
               "name": "have_internet:perc_have_internet_access",
               "duplicates": 209,
               "info": {
-                "type": "",
+                "category": "Broadband",
+                "measure_table": "dc_digital_communications.va_hdcttr_acs5_2019_have_internet",
+                "full_name": "have_internet:perc_have_internet_access",
+                "measure": "perc_have_internet_access",
+                "type": "percent",
                 "short_name": "Population with internet access",
                 "long_name": "Percent of population with internet access",
-                "short_description": "",
-                "long_description": "",
-                "statement": "",
-                "name": "American Community Survey",
-                "url": "https://www.census.gov/programs-surveys/acs.html",
-                "citations": "",
-                "category": "Broadband",
-                "measure": "perc_have_internet_access",
-                "full_name": "have_internet:perc_have_internet_access",
-                "db_name": "dc_digital_communications.va_hdcttr_acs5_2019_have_internet"
+                "short_description": "Percent of the population self-reported to have internet acess at home",
+                "long_description": {},
+                "statement": "{value} percent of the population in {region_name} have internet access",
+                "citations": {},
+                "source": [
+                  {
+                    "name": "American Community Survey",
+                    "date_accessed": 2021,
+                    "url": "https://www.census.gov/programs-surveys/acs.html"
+                  }
+                ]
               },
               "type": "float",
               "missing": 210,
@@ -391,19 +581,50 @@ const site = {
               "name": "health_literacy_estimates:health_literacy_estimate",
               "duplicates": 240,
               "info": {
+                "category": "Education",
+                "measure_table": "dc_education_training.va_hdcttr_sdad_2019_health_literacy_estimates",
+                "full_name": "health_literacy_estimates:health_literacy_estimate",
+                "measure": "health_literacy_estimate",
                 "type": "index",
                 "short_name": "Health literacy estimate",
                 "long_name": "Health literacy estimate",
-                "short_description": "",
-                "long_description": "",
-                "statement": "",
-                "name": "Medical Expenditure Panel Survey; American Community Survey",
-                "url": "https://www.meps.ahrq.gov/mepsweb/; https://www.census.gov/programs-surveys/acs.html",
-                "citations": "Stavitz et al. (2020); Liang and Branch (2017)",
-                "category": "Education",
-                "measure": "health_literacy_estimate",
-                "full_name": "health_literacy_estimates:health_literacy_estimate",
-                "db_name": "dc_education_training.va_hdcttr_sdad_2019_health_literacy_estimates"
+                "short_description": "Health literacy estimate captures the adult population's ability to obtain, process, and understand basic health services to make appropriate health decisions",
+                "long_description": "The health literacy estimate captures the adult population's ability to obtain, process, and understand basic health services to make appropriate health decisions. Health literacy estimate is based on variables of demographic characteristics, health status, and health care use.",
+                "statement": "The health literacy estimate for {region_name} is {value}",
+                "citations": [
+                  {
+                    "id": 6,
+                    "author": "Lan Liang and Cindy Brach",
+                    "year": 2017,
+                    "title": "Health Literacy Universal Precautions Are Still a Distant Dream: Analysis of U.S. Data on Health Literate Practices",
+                    "journal": "Health Lit Res Pract",
+                    "number": "1(4)",
+                    "page": "e216-e230",
+                    "doi": "doi: 10.3928/24748307-20170929-01"
+                  },
+                  {
+                    "id": 7,
+                    "author": "Samuel Savitz, Stacy Bailey, Stacie Dusetzina, W. Schuyler Jones, Justin Trogdon, and Sally Stearns",
+                    "year": 2020,
+                    "title": "Treatment selection and medication adherence for stable angina: The role of area-based health literacy",
+                    "journal": "Journal of Evaluation in Clinical Practice",
+                    "number": "26(6)",
+                    "page": "1711-1721",
+                    "doi": "doi:10.1111/jep.13341"
+                  }
+                ],
+                "source": [
+                  {
+                    "name": "Medical Expenditure Panel Survey",
+                    "date_accessed": 2021,
+                    "url": "https://www.meps.ahrq.gov/mepsweb/"
+                  },
+                  {
+                    "name": "American Community Survey",
+                    "date_accessed": 2021,
+                    "url": "https://www.census.gov/programs-surveys/acs.html"
+                  }
+                ]
               },
               "type": "float",
               "missing": 210,
@@ -416,19 +637,24 @@ const site = {
               "name": "no_health_insurance_19_to_64:no_hlth_ins_pct",
               "duplicates": 77,
               "info": {
+                "category": "Health",
+                "measure_table": "dc_health_behavior_diet.va_hdcttr_acs5_2015_2019_no_health_insurance_19_to_64",
+                "full_name": "no_health_insurance_19_to_64:no_hlth_ins_pct",
+                "measure": "no_hlth_ins_pct",
                 "type": "percent",
                 "short_name": "Uninsured population",
                 "long_name": "Percent of population without health insurance",
-                "short_description": "Percent of the population self-reported to not be currently covered by any type of health insurance or health coverage plan",
+                "short_description": "Percent of the population (ages 16-64) self-reported to not be currently covered by any type of health insurance or health coverage plan",
                 "long_description": "Percent of the population self-reported to not be currently covered by any type of health insurance or health coverage plan. This data comes from Question 16 of the Person section of the American Community Survey.",
-                "statement": "{no_hlth_ins_pct} percent of the population has no health insurance in  {region_name}",
-                "name": "American Community Survey",
-                "url": "https://www.census.gov/programs-surveys/acs.html",
-                "citations": "",
-                "category": "Health",
-                "measure": "no_hlth_ins_pct",
-                "full_name": "no_health_insurance_19_to_64:no_hlth_ins_pct",
-                "db_name": "dc_health_behavior_diet.va_hdcttr_acs5_2015_2019_no_health_insurance_19_to_64"
+                "statement": "{value} percent of the population has no health insurance in  {region_name}",
+                "citations": {},
+                "source": [
+                  {
+                    "name": "American Community Survey",
+                    "date_accessed": 2021,
+                    "url": "https://www.census.gov/programs-surveys/acs.html"
+                  }
+                ]
               },
               "type": "float",
               "missing": 70,
@@ -441,19 +667,65 @@ const site = {
               "name": "obgyn_access_scores:obgyn_e2sfca",
               "duplicates": 209,
               "info": {
+                "category": "Health",
+                "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_obgyn_access_scores",
+                "full_name": "obgyn_access_scores:obgyn_e2sfca",
+                "measure": "obgyn_e2sfca",
                 "type": "index",
-                "short_name": "OBGYN care access (score)",
+                "short_name": "OBGYN care access score",
                 "long_name": "OBGYN care access score (2 step-enhanced floating catchment areas)",
                 "short_description": "Index of OBGYN care accessibility based on supply and demand of providers",
-                "long_description": "OBGYN care access score based on 2-step enhanced floating catchment areas. This method is an aggregation of OBGYNs per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for OBGYNs (population served by OBGYNs). Provider address data was collected from WebMD's online physician directory.",
-                "statement": "The OBGYN access score for {region_name}  is {obgyn_e2sfca}",
-                "name": "WebMD Physician Directory",
-                "url": "https://doctor.webmd.com/",
-                "citations": "Lou, Wei (2004); Lou, Wei and Yi Qi (2009); Lou, Wei and Fahui Wang (2003); Saxon, James et al. (2020)",
-                "category": "Health",
-                "measure": "obgyn_e2sfca",
-                "full_name": "obgyn_access_scores:obgyn_e2sfca",
-                "db_name": "dc_health_behavior_diet.va_hdcttr_sdad_2021_obgyn_access_scores"
+                "long_description": "OBGYN care access score based on 2-step enhanced floating catchment areas. This method is an aggregation of OBGYNs per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for OBGYNs (population served by OBGYNs). Provider address data was collected from WebMD's online physician directory.\n",
+                "statement": "The OBGYN access score for {region_name}  is {value}",
+                "citations": [
+                  {
+                    "id": 1,
+                    "author": "Wei Lou",
+                    "year": 2004,
+                    "title": "Using a gis-based floating catchment method to assess areas with shortage of physicians",
+                    "journal": "Health & Place",
+                    "number": "10(1)",
+                    "page": "1-11",
+                    "doi": "doi:10.1016/S1353-8292(02)00067-9."
+                  },
+                  {
+                    "id": 2,
+                    "author": "Wei Lou and Yi Qi",
+                    "year": 2009,
+                    "title": "An enhanced two-step floating catchment area (e2sfca) method for measuring spatial accessibility to primary care physicians",
+                    "journal": "Health & Place",
+                    "number": "15(4)",
+                    "page": "1100-1107",
+                    "doi": "doi:10.1016/j.healthplace.2009.06.002"
+                  },
+                  {
+                    "id": 3,
+                    "author": "Wei Luo and Fahui Wang",
+                    "year": 2003,
+                    "title": "Measures of spatial accessibility to health care in a gis environment: synthesis and a case study in the Chicago region",
+                    "journal": "Environment and Planning B: Planning and Design",
+                    "number": "30(6)",
+                    "page": "865-884",
+                    "doi": "doi:10.1068/b29120"
+                  },
+                  {
+                    "id": 4,
+                    "author": "James Saxon, Julia Koschinsky, Karina Acosta, Vidal Anguiano, Luc Anselin, and Sergio Rey",
+                    "year": 2020,
+                    "title": "An Open Software Environment to Make Spatial Access Metrics More Accessible",
+                    "journal": "University of Chicago: Center for Spatial Data Science",
+                    "number": "Preprint",
+                    "page": {},
+                    "doi": "doi:10.13140/RG.2.2.12396.28807"
+                  }
+                ],
+                "source": [
+                  {
+                    "name": "WebMD Physician Directory",
+                    "date_accessed": 2021,
+                    "url": "https://doctor.webmd.com/"
+                  }
+                ]
               },
               "type": "float",
               "missing": 210,
@@ -466,19 +738,24 @@ const site = {
               "name": "obgyn_access_scores:obgyn_cnt",
               "duplicates": 213,
               "info": {
+                "category": "Health",
+                "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_obgyn_access_scores",
+                "full_name": "obgyn_access_scores:obgyn_cnt",
+                "measure": "obgyn_cnt",
                 "type": "count",
                 "short_name": "OBGYN care access (count)",
                 "long_name": "OBGYN care acess by count",
                 "short_description": "Count of OBGYNs based on provider locations",
                 "long_description": "Count of OBGYN care providers based on provider locations. Address data was collected from WebMD's online Physician Directory.",
-                "statement": "There are {obgyn_cnt}  OBGYNs in {region_name}",
-                "name": "WebMD Physician Directory",
-                "url": "https://doctor.webmd.com/",
-                "citations": "",
-                "category": "Health",
-                "measure": "obgyn_cnt",
-                "full_name": "obgyn_access_scores:obgyn_cnt",
-                "db_name": "dc_health_behavior_diet.va_hdcttr_sdad_2021_obgyn_access_scores"
+                "statement": "There are {value}  OBGYNs in {region_name}",
+                "citations": {},
+                "source": [
+                  {
+                    "name": "WebMD Physician Directory",
+                    "date_accessed": 2021,
+                    "url": "https://doctor.webmd.com/"
+                  }
+                ]
               },
               "type": "integer",
               "missing": 210,
@@ -491,19 +768,24 @@ const site = {
               "name": "pct_pop_broadband:perc_w_broadband",
               "duplicates": 139,
               "info": {
+                "category": "Broadband",
+                "measure_table": "dc_digital_communications.va_hdcttr_acs_2017_2019_pct_pop_broadband",
+                "full_name": "pct_pop_broadband:perc_w_broadband",
+                "measure": "perc_w_broadband",
                 "type": "percent",
                 "short_name": "Population with broadband",
                 "long_name": "Percent of population with broadband",
-                "short_description": "",
-                "long_description": "",
-                "statement": "{perc_w_broadband} percent of the population in {region_name} has a broadband connection",
-                "name": "American Community Survey",
-                "url": "https://www.census.gov/programs-surveys/acs.html",
-                "citations": "",
-                "category": "Broadband",
-                "measure": "perc_w_broadband",
-                "full_name": "pct_pop_broadband:perc_w_broadband",
-                "db_name": "dc_digital_communications.va_hdcttr_acs_2017_2019_pct_pop_broadband"
+                "short_description": "Percent of population self-reported to have a broadband internet connection (any type of internet other than a dial-up)",
+                "long_description": {},
+                "statement": "{value} percent of the population in {region_name} has a broadband connection",
+                "citations": {},
+                "source": [
+                  {
+                    "name": "American Community Survey",
+                    "date_accessed": 2021,
+                    "url": "https://www.census.gov/programs-surveys/acs.html"
+                  }
+                ]
               },
               "type": "float",
               "missing": 140,
@@ -516,19 +798,24 @@ const site = {
               "name": "pct_pop_cable_fiber_dsl:perc_w_cable_fiber_DSL",
               "duplicates": 139,
               "info": {
+                "category": "Broadband",
+                "measure_table": "dc_digital_communications.va_hdcttr_acs_2017_2019_pct_pop_cable_fiber_dsl",
+                "full_name": "pct_pop_cable_fiber_dsl:perc_w_cable_fiber_DSL",
+                "measure": "perc_w_cable_fiber_DSL",
                 "type": "percent",
                 "short_name": "Population with cable, fiber optic, or DSL",
                 "long_name": "Percent of population with a high speed internet service (cable, fiber optic, or DSL)",
-                "short_description": "",
-                "long_description": "",
-                "statement": "{perc_w_cable_fiber_DSL} percent of the population in {region_name} has a cable fiber or DSL internet connection",
-                "name": "American Community Survey",
-                "url": "https://www.census.gov/programs-surveys/acs.html",
-                "citations": "",
-                "category": "Broadband",
-                "measure": "perc_w_cable_fiber_DSL",
-                "full_name": "pct_pop_cable_fiber_dsl:perc_w_cable_fiber_DSL",
-                "db_name": "dc_digital_communications.va_hdcttr_acs_2017_2019_pct_pop_cable_fiber_dsl"
+                "short_description": "Percent of population self-reported to have a high speed internet service (cable, fiber optic, or DSL)",
+                "long_description": {},
+                "statement": "{value} percent of the population in {region_name} has a cable fiber or DSL internet connection",
+                "citations": {},
+                "source": [
+                  {
+                    "name": "American Community Survey",
+                    "date_accessed": 2021,
+                    "url": "https://www.census.gov/programs-surveys/acs.html"
+                  }
+                ]
               },
               "type": "float",
               "missing": 140,
@@ -541,19 +828,65 @@ const site = {
               "name": "pediatrics_access_scores:ped_e2sfca",
               "duplicates": 209,
               "info": {
-                "type": "",
-                "short_name": "Pediatric care access (score)",
+                "category": "Health",
+                "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_pediatrics_access_scores",
+                "full_name": "pediatrics_access_scores:ped_e2sfca",
+                "measure": "ped_e2sfca",
+                "type": "index",
+                "short_name": "Pediatric care access score",
                 "long_name": "Pediatric care access score (2-step enhanced floating catchment areas)",
                 "short_description": "Index of pediatric care physician accessibility based on supply and demand of providers",
-                "long_description": "",
-                "statement": "",
-                "name": "WebMD Physician Directory",
-                "url": "https://doctor.webmd.com/",
-                "citations": "",
-                "category": "Health",
-                "measure": "ped_e2sfca",
-                "full_name": "pediatrics_access_scores:ped_e2sfca",
-                "db_name": "dc_health_behavior_diet.va_hdcttr_sdad_2021_pediatrics_access_scores"
+                "long_description": {},
+                "statement": "The pediatric care accessibility score for {region_name} is  {value}",
+                "citations": [
+                  {
+                    "id": 1,
+                    "author": "Wei Lou",
+                    "year": 2004,
+                    "title": "Using a gis-based floating catchment method to assess areas with shortage of physicians",
+                    "journal": "Health & Place",
+                    "number": "10(1)",
+                    "page": "1-11",
+                    "doi": "doi:10.1016/S1353-8292(02)00067-9."
+                  },
+                  {
+                    "id": 2,
+                    "author": "Wei Lou and Yi Qi",
+                    "year": 2009,
+                    "title": "An enhanced two-step floating catchment area (e2sfca) method for measuring spatial accessibility to primary care physicians",
+                    "journal": "Health & Place",
+                    "number": "15(4)",
+                    "page": "1100-1107",
+                    "doi": "doi:10.1016/j.healthplace.2009.06.002"
+                  },
+                  {
+                    "id": 3,
+                    "author": "Wei Luo and Fahui Wang",
+                    "year": 2003,
+                    "title": "Measures of spatial accessibility to health care in a gis environment: synthesis and a case study in the Chicago region",
+                    "journal": "Environment and Planning B: Planning and Design",
+                    "number": "30(6)",
+                    "page": "865-884",
+                    "doi": "doi:10.1068/b29120"
+                  },
+                  {
+                    "id": 4,
+                    "author": "James Saxon, Julia Koschinsky, Karina Acosta, Vidal Anguiano, Luc Anselin, and Sergio Rey",
+                    "year": 2020,
+                    "title": "An Open Software Environment to Make Spatial Access Metrics More Accessible",
+                    "journal": "University of Chicago: Center for Spatial Data Science",
+                    "number": "Preprint",
+                    "page": {},
+                    "doi": "doi:10.13140/RG.2.2.12396.28807"
+                  }
+                ],
+                "source": [
+                  {
+                    "name": "WebMD Physician Directory",
+                    "date_accessed": 2021,
+                    "url": "https://doctor.webmd.com/"
+                  }
+                ]
               },
               "type": "float",
               "missing": 210,
@@ -566,19 +899,24 @@ const site = {
               "name": "pediatrics_access_scores:ped_cnt",
               "duplicates": 211,
               "info": {
-                "type": "",
+                "category": "Health",
+                "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_pediatrics_access_scores",
+                "full_name": "pediatrics_access_scores:ped_cnt",
+                "measure": "ped_cnt",
+                "type": "count",
                 "short_name": "Pediatric care access (count)",
                 "long_name": "Pediatric care access by count",
                 "short_description": "Count of pediatricians based on provider locations",
-                "long_description": "",
-                "statement": "",
-                "name": "WebMD Physician Directory",
-                "url": "https://doctor.webmd.com/",
-                "citations": "",
-                "category": "Health",
-                "measure": "ped_cnt",
-                "full_name": "pediatrics_access_scores:ped_cnt",
-                "db_name": "dc_health_behavior_diet.va_hdcttr_sdad_2021_pediatrics_access_scores"
+                "long_description": {},
+                "statement": "There are {value} pediatricians in {region_name}",
+                "citations": {},
+                "source": [
+                  {
+                    "name": "WebMD Physician Directory",
+                    "date_accessed": 2021,
+                    "url": "https://doctor.webmd.com/"
+                  }
+                ]
               },
               "type": "integer",
               "missing": 210,
@@ -591,19 +929,24 @@ const site = {
               "name": "post_hs_education:perc_post_hs_edu",
               "duplicates": 209,
               "info": {
+                "category": "Education",
+                "measure_table": "dc_education_training.va_hdcttr_acs_2015_2019_post_hs_education",
+                "full_name": "post_hs_education:perc_post_hs_edu",
+                "measure": "perc_post_hs_edu",
                 "type": "percent",
                 "short_name": "Population with post-high school education",
                 "long_name": "Percent  of population with post-high school education",
-                "short_description": "",
-                "long_description": "",
-                "statement": "",
-                "name": "American Community Survey",
-                "url": "https://www.census.gov/programs-surveys/acs.html",
-                "citations": "",
-                "category": "Education",
-                "measure": "perc_post_hs_edu",
-                "full_name": "post_hs_education:perc_post_hs_edu",
-                "db_name": "dc_education_training.va_hdcttr_acs_2015_2019_post_hs_education"
+                "short_description": "Percent of the population self-reported to have post-high school level degree",
+                "long_description": {},
+                "statement": "{value} percent of the population in {region_name} have a post-high school education",
+                "citations": {},
+                "source": [
+                  {
+                    "name": "American Community Survey",
+                    "date_accessed": 2021,
+                    "url": "https://www.census.gov/programs-surveys/acs.html"
+                  }
+                ]
               },
               "type": "float",
               "missing": 210,
@@ -616,19 +959,24 @@ const site = {
               "name": "preventable_hospitalizations:prevent_hosp_rate",
               "duplicates": 2,
               "info": {
+                "category": "Health",
+                "measure_table": "dc_health_behavior_diet.va_hdct_chr_2015_2021_preventable_hospitalizations",
+                "full_name": "preventable_hospitalizations:prevent_hosp_rate",
+                "measure": "prevent_hosp_rate",
                 "type": "rate",
                 "short_name": "Preventable hospitalizations per 100,000",
                 "long_name": "Preventable hospital stays per 100,000 Medicare enrollees",
                 "short_description": "Rate of hospital stays for ambulatory-care sensitive conditions per 100,000 Medicare enrollees",
                 "long_description": "Rate of hospital stays for ambulatory-care sensitive conditions per 100,000 Medicare enrollees. Ambulatory care refers to diagnoses that are usually treatable in outpatient settings. This data is based on Medicare claims and comes from County Health Rankings.",
-                "statement": "{prevent_hosp_rate} percent of the hospitalizations in {region_name}  were preventable (due to conditions usually treated in outpatient settings)",
-                "name": "County Health Rankings",
-                "url": "https://www.countyhealthrankings.org/app/virginia/2021/measure/factors/5/description",
-                "citations": "",
-                "category": "Health",
-                "measure": "prevent_hosp_rate",
-                "full_name": "preventable_hospitalizations:prevent_hosp_rate",
-                "db_name": "dc_health_behavior_diet.va_hdct_chr_2015_2021_preventable_hospitalizations"
+                "statement": "{value} percent of the hospitalizations in {region_name}  were preventable (due to conditions usually treated in outpatient settings)",
+                "citations": {},
+                "source": [
+                  {
+                    "name": "County Health Rankings",
+                    "date_accessed": 2021,
+                    "url": "https://www.countyhealthrankings.org/app/virginia/2021/measure/factors/5/description"
+                  }
+                ]
               },
               "type": "float",
               "missing": 0,
@@ -641,19 +989,65 @@ const site = {
               "name": "primary_care_access_scores:prim_e2sfca",
               "duplicates": 209,
               "info": {
+                "category": "Health",
+                "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_primary_care_access_scores",
+                "full_name": "primary_care_access_scores:prim_e2sfca",
+                "measure": "prim_e2sfca",
                 "type": "index",
-                "short_name": "Primary care access (score)",
+                "short_name": "Primary care access score",
                 "long_name": "Primary care access score (2-step enhanced floating catchment areas)",
                 "short_description": "Index of primary care physician accessibility based on supply and demand of providers",
-                "long_description": "Primary care access score based on 2-step enhanced floating catchment areas. This method is an aggregation of physicians per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for physicians (population served by physicians). Provider address data was collected from WebMD's online Physician Directory.",
-                "statement": "The primary care accessibility score for {region_name}  is  {primacare_e2sfca}",
-                "name": "WebMD Physician Directory",
-                "url": "https://doctor.webmd.com/",
-                "citations": "Lou, Wei (2004); Lou, Wei and Yi Qi (2009); Lou, Wei and Fahui Wang (2003); Saxon, James et al. (2020)",
-                "category": "Health",
-                "measure": "prim_e2sfca",
-                "full_name": "primary_care_access_scores:prim_e2sfca",
-                "db_name": "dc_health_behavior_diet.va_hdcttr_sdad_2021_primary_care_access_scores"
+                "long_description": "Primary care access score based on 2-step enhanced floating catchment areas. This method is an aggregation of physicians per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for physicians (population served by physicians). Provider address data was collected from WebMD's online Physician Directory.\n",
+                "statement": "The primary care accessibility score for {region_name}  is  {value}",
+                "citations": [
+                  {
+                    "id": 1,
+                    "author": "Wei Lou",
+                    "year": 2004,
+                    "title": "Using a gis-based floating catchment method to assess areas with shortage of physicians",
+                    "journal": "Health & Place",
+                    "number": "10(1)",
+                    "page": "1-11",
+                    "doi": "doi:10.1016/S1353-8292(02)00067-9."
+                  },
+                  {
+                    "id": 2,
+                    "author": "Wei Lou and Yi Qi",
+                    "year": 2009,
+                    "title": "An enhanced two-step floating catchment area (e2sfca) method for measuring spatial accessibility to primary care physicians",
+                    "journal": "Health & Place",
+                    "number": "15(4)",
+                    "page": "1100-1107",
+                    "doi": "doi:10.1016/j.healthplace.2009.06.002"
+                  },
+                  {
+                    "id": 3,
+                    "author": "Wei Luo and Fahui Wang",
+                    "year": 2003,
+                    "title": "Measures of spatial accessibility to health care in a gis environment: synthesis and a case study in the Chicago region",
+                    "journal": "Environment and Planning B: Planning and Design",
+                    "number": "30(6)",
+                    "page": "865-884",
+                    "doi": "doi:10.1068/b29120"
+                  },
+                  {
+                    "id": 4,
+                    "author": "James Saxon, Julia Koschinsky, Karina Acosta, Vidal Anguiano, Luc Anselin, and Sergio Rey",
+                    "year": 2020,
+                    "title": "An Open Software Environment to Make Spatial Access Metrics More Accessible",
+                    "journal": "University of Chicago: Center for Spatial Data Science",
+                    "number": "Preprint",
+                    "page": {},
+                    "doi": "doi:10.13140/RG.2.2.12396.28807"
+                  }
+                ],
+                "source": [
+                  {
+                    "name": "WebMD Physician Directory",
+                    "date_accessed": 2021,
+                    "url": "https://doctor.webmd.com/"
+                  }
+                ]
               },
               "type": "float",
               "missing": 210,
@@ -666,19 +1060,24 @@ const site = {
               "name": "primary_care_access_scores:prim_cnt",
               "duplicates": 209,
               "info": {
+                "category": "Health",
+                "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_primary_care_access_scores",
+                "full_name": "primary_care_access_scores:prim_cnt",
+                "measure": "prim_cnt",
                 "type": "count",
                 "short_name": "Primary care access (count)",
                 "long_name": "Primary care access by count",
                 "short_description": "Count of primary care physicians based on provider locations",
                 "long_description": "Count of primary care physicians based on provider locations. Address data was collected from WebMD's online Physician Directory.",
-                "statement": "There are {primacare_cnt} primary care physicians in {region_name}",
-                "name": "WebMD Physician Directory",
-                "url": "https://doctor.webmd.com/",
-                "citations": "",
-                "category": "Health",
-                "measure": "prim_cnt",
-                "full_name": "primary_care_access_scores:prim_cnt",
-                "db_name": "dc_health_behavior_diet.va_hdcttr_sdad_2021_primary_care_access_scores"
+                "statement": "There are {value} primary care physicians in {region_name}",
+                "citations": {},
+                "source": [
+                  {
+                    "name": "WebMD Physician Directory",
+                    "date_accessed": 2021,
+                    "url": "https://doctor.webmd.com/"
+                  }
+                ]
               },
               "type": "integer",
               "missing": 210,
@@ -741,19 +1140,65 @@ const site = {
               "name": "2year_colleges_access_scores:norm_2sefca",
               "duplicates": 937,
               "info": {
+                "category": "Education",
+                "measure_table": "dc_education_training.va_hdcttr_sdad_2019_2year_colleges_access_scores",
+                "full_name": "2year_colleges_access_scores:norm_2sefca",
+                "measure": "norm_2sefca",
                 "type": "index",
-                "short_name": "2-year college access (score)",
+                "short_name": "2-year college access score",
                 "long_name": "2 year college access score (2-step enhanced floating catchment areas)",
                 "short_description": "Index of 2-year college accessibility based on supply and demand of providers",
-                "long_description": "Demand = whole population, supply = total number of students enrolled in a year (graduate and undergraduate)",
-                "statement": "",
-                "name": "National Center for Education Statistics",
-                "url": "https://nces.ed.gov/",
-                "citations": "Lou, Wei (2004); Lou, Wei and Yi Qi (2009); Lou, Wei and Fahui Wang (2003); Saxon, James et al. (2020)",
-                "category": "Education",
-                "measure": "norm_2sefca",
-                "full_name": "2year_colleges_access_scores:norm_2sefca",
-                "db_name": "dc_education_training.va_hdcttr_sdad_2019_2year_colleges_access_scores"
+                "long_description": "2-year college access score based on 2-step enhanced floating catchment areas. This method is an aggregation of college capacity per population ratios weighted by distance or travel time in each catchment area (area within which an institution is accessible). Weights are defined for the demand for 2-year college (whole population in an area served by the institution) and supply is the total number of students enrolled in a year (graduate and undergraduate).",
+                "statement": "The 2-year college accessibility score for {region_name} is  {value}",
+                "citations": [
+                  {
+                    "id": 1,
+                    "author": "Wei Lou",
+                    "year": 2004,
+                    "title": "Using a gis-based floating catchment method to assess areas with shortage of physicians",
+                    "journal": "Health & Place",
+                    "number": "10(1)",
+                    "page": "1-11",
+                    "doi": "doi:10.1016/S1353-8292(02)00067-9."
+                  },
+                  {
+                    "id": 2,
+                    "author": "Wei Lou and Yi Qi",
+                    "year": 2009,
+                    "title": "An enhanced two-step floating catchment area (e2sfca) method for measuring spatial accessibility to primary care physicians",
+                    "journal": "Health & Place",
+                    "number": "15(4)",
+                    "page": "1100-1107",
+                    "doi": "doi:10.1016/j.healthplace.2009.06.002"
+                  },
+                  {
+                    "id": 3,
+                    "author": "Wei Luo and Fahui Wang",
+                    "year": 2003,
+                    "title": "Measures of spatial accessibility to health care in a gis environment: synthesis and a case study in the Chicago region",
+                    "journal": "Environment and Planning B: Planning and Design",
+                    "number": "30(6)",
+                    "page": "865-884",
+                    "doi": "doi:10.1068/b29120"
+                  },
+                  {
+                    "id": 4,
+                    "author": "James Saxon, Julia Koschinsky, Karina Acosta, Vidal Anguiano, Luc Anselin, and Sergio Rey",
+                    "year": 2020,
+                    "title": "An Open Software Environment to Make Spatial Access Metrics More Accessible",
+                    "journal": "University of Chicago: Center for Spatial Data Science",
+                    "number": "Preprint",
+                    "page": {},
+                    "doi": "doi:10.13140/RG.2.2.12396.28807"
+                  }
+                ],
+                "source": [
+                  {
+                    "name": "National Center for Education Statistics",
+                    "date_accessed": 2021,
+                    "url": "https://nces.ed.gov/"
+                  }
+                ]
               },
               "type": "string",
               "missing": 938,
@@ -765,19 +1210,24 @@ const site = {
               "name": "drive_times_nearest_2year_colleges:median_drive_time_top5",
               "duplicates": 811,
               "info": {
-                "type": "",
+                "category": "Education",
+                "measure_table": "dc_education_training.va_hdcttr_osrm_2021_drive_times_nearest_2year_colleges",
+                "full_name": "drive_times_nearest_2year_colleges:median_drive_time_top5",
+                "measure": "median_drive_time_top5",
+                "type": "float",
                 "short_name": "2-year college access (drive time)",
                 "long_name": "2-year college access by median dive time to the five closest colleges in minutes",
-                "short_description": "",
-                "long_description": "",
-                "statement": "",
-                "name": "National Center for Education Statistics",
-                "url": "https://nces.ed.gov/",
-                "citations": "",
-                "category": "Education",
-                "measure": "median_drive_time_top5",
-                "full_name": "drive_times_nearest_2year_colleges:median_drive_time_top5",
-                "db_name": "dc_education_training.va_hdcttr_osrm_2021_drive_times_nearest_2year_colleges"
+                "short_description": "Median drive time (minutes) to the five closest 2-year colleges",
+                "long_description": {},
+                "statement": "The median drive time to the five closest 2-year colleges to {region_name} is {value} minutes",
+                "citations": {},
+                "source": [
+                  {
+                    "name": "National Center for Education Statistics",
+                    "date_accessed": 2021,
+                    "url": "https://nces.ed.gov/"
+                  }
+                ]
               },
               "type": "float",
               "missing": 805,
@@ -790,19 +1240,24 @@ const site = {
               "name": "3rd_grade_median_read_score:median_read_pass_rate",
               "duplicates": 880,
               "info": {
-                "type": "",
+                "category": "Education",
+                "measure_table": "dc_education_training.va_hdct_vdoe_2019_2021_3rd_grade_median_read_score",
+                "full_name": "3rd_grade_median_read_score:median_read_pass_rate",
+                "measure": "median_pass_rate",
+                "type": "rate",
                 "short_name": "3rd grade population passing reading",
                 "long_name": "Median percent of 3rd grade population passing reading test",
-                "short_description": "",
-                "long_description": "",
-                "statement": "The median percent of 3rd graders with passing reading scores in {region_name} is {median_read_pass_rate} percent",
-                "name": "Virginia Department of Education",
-                "url": "",
-                "citations": "",
-                "category": "Education",
-                "measure": "median_read_pass_rate",
-                "full_name": "3rd_grade_median_read_score:median_read_pass_rate",
-                "db_name": "dc_education_training.va_hdct_vdoe_2019_2021_3rd_grade_median_read_score"
+                "short_description": "Median percent of 3rd grade population passing reading test for schools in the region",
+                "long_description": "Median percent of 3rd grade population passing reading test. The median is calculated across schools in the region.",
+                "statement": "The median percent of 3rd graders with passing reading scores in {region_name} is {value} percent",
+                "citations": {},
+                "source": [
+                  {
+                    "name": "Virginia Department of Education",
+                    "date_accessed": 2021,
+                    "url": "https://www.doe.virginia.gov/statistics_reports/sol-pass-rates/index.shtml"
+                  }
+                ]
               },
               "type": "float",
               "missing": 684,
@@ -815,19 +1270,65 @@ const site = {
               "name": "daycare_services_access_scores:daycare_norm_3sfca",
               "duplicates": 804,
               "info": {
+                "category": "Education",
+                "measure_table": "dc_education_training.va_hdcttr_sdad_2021_daycare_services_access_scores",
+                "full_name": "daycare_services_access_scores:daycare_norm_3sfca",
+                "measure": "daycare_norm_3sefca",
                 "type": "index",
-                "short_name": "Day care access (score)",
+                "short_name": "Day care access score",
                 "long_name": "Day care access score (3-step floating catchment area)",
                 "short_description": "Index of day care accessibility based on supply of and demand for providers",
                 "long_description": "Primary care access score based on 2-step enhanced floating catchment areas. This method is an aggregation of day care facilities per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Provider address data was collected from Virginia Department of Social Services day care search tool. Demand = 0-12 years, supply = day care capacity",
-                "statement": "The daycare accessibility score for {region_name} is  {daycare_norm_3sfca}",
-                "name": "Virginia Department of Social Services",
-                "url": "https://www.dss.virginia.gov/facility/search/cc.cgi",
-                "citations": "Lou, Wei (2004); Lou, Wei and Yi Qi (2009); Lou, Wei and Fahui Wang (2003); Saxon, James et al. (2020)",
-                "category": "Education",
-                "measure": "daycare_norm_3sfca",
-                "full_name": "daycare_services_access_scores:daycare_norm_3sfca",
-                "db_name": "dc_education_training.va_hdcttr_sdad_2021_daycare_services_access_scores"
+                "statement": "The daycare accessibility score for {region_name} is  {value}",
+                "citations": [
+                  {
+                    "id": 1,
+                    "author": "Wei Lou",
+                    "year": 2004,
+                    "title": "Using a gis-based floating catchment method to assess areas with shortage of physicians",
+                    "journal": "Health & Place",
+                    "number": "10(1)",
+                    "page": "1-11",
+                    "doi": "doi:10.1016/S1353-8292(02)00067-9."
+                  },
+                  {
+                    "id": 2,
+                    "author": "Wei Lou and Yi Qi",
+                    "year": 2009,
+                    "title": "An enhanced two-step floating catchment area (e2sfca) method for measuring spatial accessibility to primary care physicians",
+                    "journal": "Health & Place",
+                    "number": "15(4)",
+                    "page": "1100-1107",
+                    "doi": "doi:10.1016/j.healthplace.2009.06.002"
+                  },
+                  {
+                    "id": 3,
+                    "author": "Wei Luo and Fahui Wang",
+                    "year": 2003,
+                    "title": "Measures of spatial accessibility to health care in a gis environment: synthesis and a case study in the Chicago region",
+                    "journal": "Environment and Planning B: Planning and Design",
+                    "number": "30(6)",
+                    "page": "865-884",
+                    "doi": "doi:10.1068/b29120"
+                  },
+                  {
+                    "id": 4,
+                    "author": "James Saxon, Julia Koschinsky, Karina Acosta, Vidal Anguiano, Luc Anselin, and Sergio Rey",
+                    "year": 2020,
+                    "title": "An Open Software Environment to Make Spatial Access Metrics More Accessible",
+                    "journal": "University of Chicago: Center for Spatial Data Science",
+                    "number": "Preprint",
+                    "page": {},
+                    "doi": "doi:10.13140/RG.2.2.12396.28807"
+                  }
+                ],
+                "source": [
+                  {
+                    "name": "Virginia Department of Social Services",
+                    "date_accessed": 2021,
+                    "url": "https://www.dss.virginia.gov/facility/search/cc.cgi"
+                  }
+                ]
               },
               "type": "float",
               "missing": 805,
@@ -840,19 +1341,24 @@ const site = {
               "name": "daycare_services_access_scores:daycare_cnt",
               "duplicates": 807,
               "info": {
+                "category": "Education",
+                "measure_table": "dc_education_training.va_hdcttr_sdad_2021_daycare_services_access_scores",
+                "full_name": "daycare_services_access_scores:daycare_cnt",
+                "measure": "daycare_cnt",
                 "type": "count",
                 "short_name": "Day care access (count)",
                 "long_name": "Access to day care by count",
-                "short_description": "Count of day cares based on provider locations",
-                "long_description": "Count of day cares based on provider locations. Address data was collected from Virginia Department of Social Services day care search tool.  Day care capacity count",
-                "statement": "There are {daycare_cnt} daycares in {region_name}",
-                "name": "Virginia Department of Social Services",
-                "url": "https://www.dss.virginia.gov/facility/search/cc.cgi",
-                "citations": "",
-                "category": "Education",
-                "measure": "daycare_cnt",
-                "full_name": "daycare_services_access_scores:daycare_cnt",
-                "db_name": "dc_education_training.va_hdcttr_sdad_2021_daycare_services_access_scores"
+                "short_description": "Count of day care capacity (seats) based on provider locations",
+                "long_description": "Count of day care capacity (seats) based on provider locations. Address  and capacity data was collected from Virginia Department of Social Services day care search tool.",
+                "statement": "There are {value} day cares seats in {region_name}",
+                "citations": {},
+                "source": [
+                  {
+                    "name": "Virginia Department of Social Services",
+                    "date_accessed": 2021,
+                    "url": "https://www.dss.virginia.gov/facility/search/cc.cgi"
+                  }
+                ]
               },
               "type": "integer",
               "missing": 805,
@@ -865,19 +1371,24 @@ const site = {
               "name": "drive_times_nearest_daycares:median_drive_time_top5",
               "duplicates": 834,
               "info": {
-                "type": "",
+                "category": "Education",
+                "measure_table": "dc_education_training.va_hdcttr_osrm_2021_drive_times_nearest_daycares",
+                "full_name": "drive_times_nearest_daycares:median_drive_time_top5",
+                "measure": "median_drive_time_top5",
+                "type": "float",
                 "short_name": "Day care access (drive time)",
                 "long_name": "Day care access by median drive time to the five closest day cares in minutes",
-                "short_description": "",
-                "long_description": "",
-                "statement": "",
-                "name": "Virginia Department of Social Services",
-                "url": "https://www.dss.virginia.gov/facility/search/cc.cgi",
-                "citations": "",
-                "category": "Education",
-                "measure": "median_drive_time_top5",
-                "full_name": "drive_times_nearest_daycares:median_drive_time_top5",
-                "db_name": "dc_education_training.va_hdcttr_osrm_2021_drive_times_nearest_daycares"
+                "short_description": "Median drive time (minutes) to the five closest day cares",
+                "long_description": {},
+                "statement": "The median drive time to the five closest day cares to {region_name} is {value} minutes",
+                "citations": {},
+                "source": [
+                  {
+                    "name": "Virginia Department of Social Services",
+                    "date_accessed": 2021,
+                    "url": "https://www.dss.virginia.gov/facility/search/cc.cgi"
+                  }
+                ]
               },
               "type": "float",
               "missing": 805,
@@ -890,19 +1401,40 @@ const site = {
               "name": "dei_index:norm_dei",
               "duplicates": 542,
               "info": {
-                "type": "index",
-                "short_name": "Digital equity index",
-                "long_name": "Digitial equity index",
-                "short_description": "",
-                "long_description": "",
-                "statement": "The digital equity index for {region_name} is {norm_dei}",
-                "name": "",
-                "url": "",
-                "citations": "Gallardo, Robert (2020)",
                 "category": "Broadband",
-                "measure": "norm_dei",
+                "measure_table": "dc_digital_communications.va_hdcttr_sdad_2019_2021_dei_index",
                 "full_name": "dei_index:norm_dei",
-                "db_name": "dc_digital_communications.va_hdcttr_sdad_2019_2021_dei_index"
+                "measure": "norm_dei",
+                "type": "index",
+                "short_name": "Digital Equity Index",
+                "long_name": "Digitial Equity Index",
+                "short_description": "Digital Equity Index captures the relative equity of digitial access, with 0 being a score of relative equity and 100 being relative inequity.",
+                "long_description": "The Digital Equity Index captures the relative equity of digitial access. The Digital Equity Index uses is a composite of measures of broadband infrastructure and adoption and socioeconomic variables, with 0 being a score of relative equity and 100 being relative inequity. The variables include x, y, z.",
+                "statement": "The digital equity index for {region_name} is {value}",
+                "citations": [
+                  {
+                    "id": 5,
+                    "author": "Robert Gallardo",
+                    "year": 2020,
+                    "title": "Digital Divide Index",
+                    "journal": "Purdue Center for Regional Development",
+                    "number": {},
+                    "page": {},
+                    "doi": "http://pcrd.purdue.edu/ddi"
+                  }
+                ],
+                "source": [
+                  {
+                    "name": "American Community Survey",
+                    "date_accessed": 2021,
+                    "url": "https://www.census.gov/programs-surveys/acs.html"
+                  },
+                  {
+                    "name": "Ookla",
+                    "date_accessed": 2021,
+                    "url": "https://www.ookla.com/ookla-for-good/open-data"
+                  }
+                ]
               },
               "type": "float",
               "missing": 539,
@@ -915,19 +1447,65 @@ const site = {
               "name": "dentist_access_scores:dent_e2sfca",
               "duplicates": 810,
               "info": {
+                "category": "Health",
+                "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_dentist_access_scores",
+                "full_name": "dentist_access_scores:dent_e2sfca",
+                "measure": "dent_e2sfca",
                 "type": "index",
-                "short_name": "Dental care access (score)",
+                "short_name": "Dental care access score",
                 "long_name": "Dental care access score (2 step-enhanced floating catchment areas)",
                 "short_description": "Index of dental care accessibility based on supply and demand of providers",
                 "long_description": "Dental care access score based on 2-step ehanced floating catchment areas. This method is an aggregation of dentists per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for dentists (population served by dentists). Provider address data was collected from WebMD's online Physician Directory.",
-                "statement": "The dental care access score for {region_name} is {dent_e2sfca}",
-                "name": "SafeGraph Core",
-                "url": "https://www.safegraph.com/products/core",
-                "citations": "Lou, Wei (2004); Lou, Wei and Yi Qi (2009); Lou, Wei and Fahui Wang (2003); Saxon, James et al. (2020)",
-                "category": "Health",
-                "measure": "dent_e2sfca",
-                "full_name": "dentist_access_scores:dent_e2sfca",
-                "db_name": "dc_health_behavior_diet.va_hdcttr_sdad_2021_dentist_access_scores"
+                "statement": "The dental care access score for {region_name} is {value}",
+                "citations": [
+                  {
+                    "id": 1,
+                    "author": "Wei Lou",
+                    "year": 2004,
+                    "title": "Using a gis-based floating catchment method to assess areas with shortage of physicians",
+                    "journal": "Health & Place",
+                    "number": "10(1)",
+                    "page": "1-11",
+                    "doi": "doi:10.1016/S1353-8292(02)00067-9."
+                  },
+                  {
+                    "id": 2,
+                    "author": "Wei Lou and Yi Qi",
+                    "year": 2009,
+                    "title": "An enhanced two-step floating catchment area (e2sfca) method for measuring spatial accessibility to primary care physicians",
+                    "journal": "Health & Place",
+                    "number": "15(4)",
+                    "page": "1100-1107",
+                    "doi": "doi:10.1016/j.healthplace.2009.06.002"
+                  },
+                  {
+                    "id": 3,
+                    "author": "Wei Luo and Fahui Wang",
+                    "year": 2003,
+                    "title": "Measures of spatial accessibility to health care in a gis environment: synthesis and a case study in the Chicago region",
+                    "journal": "Environment and Planning B: Planning and Design",
+                    "number": "30(6)",
+                    "page": "865-884",
+                    "doi": "doi:10.1068/b29120"
+                  },
+                  {
+                    "id": 4,
+                    "author": "James Saxon, Julia Koschinsky, Karina Acosta, Vidal Anguiano, Luc Anselin, and Sergio Rey",
+                    "year": 2020,
+                    "title": "An Open Software Environment to Make Spatial Access Metrics More Accessible",
+                    "journal": "University of Chicago: Center for Spatial Data Science",
+                    "number": "Preprint",
+                    "page": {},
+                    "doi": "doi:10.13140/RG.2.2.12396.28807"
+                  }
+                ],
+                "source": [
+                  {
+                    "name": "SafeGraph Core",
+                    "date_accessed": 2021,
+                    "url": "https://www.safegraph.com/products/core"
+                  }
+                ]
               },
               "type": "float",
               "missing": 805,
@@ -940,19 +1518,24 @@ const site = {
               "name": "dentist_access_scores:dent_cnt",
               "duplicates": 887,
               "info": {
+                "category": "Health",
+                "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_dentist_access_scores",
+                "full_name": "dentist_access_scores:dent_cnt",
+                "measure": "dent_cnt",
                 "type": "count",
                 "short_name": "Dental care access (count)",
                 "long_name": "Dental care access by count",
                 "short_description": "Count of dentists based on provider locations",
                 "long_description": "Count of dentists based on provider locations. Address data was collected from WebMD's online Physician Directory.",
-                "statement": "There are {dent_cnt} densits in {region_name}",
-                "name": "SafeGraph Core",
-                "url": "https://www.safegraph.com/products/core",
-                "citations": "",
-                "category": "Health",
-                "measure": "dent_cnt",
-                "full_name": "dentist_access_scores:dent_cnt",
-                "db_name": "dc_health_behavior_diet.va_hdcttr_sdad_2021_dentist_access_scores"
+                "statement": "There are {value} densits in {region_name}",
+                "citations": {},
+                "source": [
+                  {
+                    "name": "SafeGraph Core",
+                    "date_accessed": 2021,
+                    "url": "https://www.safegraph.com/products/core"
+                  }
+                ]
               },
               "type": "integer",
               "missing": 805,
@@ -965,19 +1548,24 @@ const site = {
               "name": "download_speeds:download",
               "duplicates": 538,
               "info": {
+                "category": "Broadband",
+                "measure_table": "dc_digital_communications.va_hdcttr_ookla_2019_2021_download_speeds",
+                "full_name": "download_speeds:download",
+                "measure": "download",
                 "type": "float",
                 "short_name": "Average download speed",
                 "long_name": "Average download speed (MB/s)",
-                "short_description": "",
-                "long_description": "",
-                "statement": "The average download speed for internet connections in {region_name} is {download} MB/s",
-                "name": "Ookla",
-                "url": "https://www.ookla.com/ookla-for-good/open-data",
-                "citations": "",
-                "category": "Broadband",
-                "measure": "download",
-                "full_name": "download_speeds:download",
-                "db_name": "dc_digital_communications.va_hdcttr_ookla_2019_2021_download_speeds"
+                "short_description": "Average download speed for internet connection in MB/s",
+                "long_description": "The average download speed for internet users' connections who performed a speed check using Ookla. Speeds are reported in MB/s. A speed of 100 MB/s is considered adequate for school work, video calling etc.",
+                "statement": "The average download speed for internet connections in {region_name} is {value} MB/s",
+                "citations": {},
+                "source": [
+                  {
+                    "name": "Ookla",
+                    "date_accessed": 2021,
+                    "url": "https://www.ookla.com/ookla-for-good/open-data"
+                  }
+                ]
               },
               "type": "float",
               "missing": 539,
@@ -989,21 +1577,6 @@ const site = {
             {
               "name": "trade_schools_access_scores:norm_3sfca",
               "duplicates": 883,
-              "info": {
-                "type": "index",
-                "short_name": "Trade school access (score)",
-                "long_name": "Trade school access score (2-step enhanced floating catchment areas)",
-                "short_description": "Index of trade school accessibility based on supply and demand of providers",
-                "long_description": "Demand = whole population, supply = total number of students enrolled in a year ( undergraduate)",
-                "statement": "",
-                "name": "National Center for Education Statistics",
-                "url": "https://nces.ed.gov/",
-                "citations": "Lou, Wei (2004); Lou, Wei and Yi Qi (2009); Lou, Wei and Fahui Wang (2003); Saxon, James et al. (2020)",
-                "category": "Education",
-                "measure": "norm_3sfca",
-                "full_name": "trade_schools_access_scores:norm_3sfca",
-                "db_name": "dc_education_training.va_hdcttr_sdad_2019_trade_schools_access_scores"
-              },
               "type": "float",
               "missing": 805,
               "mean": 9.9285,
@@ -1015,19 +1588,24 @@ const site = {
               "name": "drive_times_nearest_trade_schools:median_drive_time_top5",
               "duplicates": 806,
               "info": {
-                "type": "",
+                "category": "Education",
+                "measure_table": "dc_education_training.va_hdcttr_osrm_2021_drive_times_nearest_trade_schools",
+                "full_name": "drive_times_nearest_trade_schools:median_drive_time_top5",
+                "measure": "median_drive_time_top5",
+                "type": "float",
                 "short_name": "Trade school access (drive time)",
                 "long_name": "Trade school access by median drive time to the five closest schools in minutes",
-                "short_description": "",
-                "long_description": "",
-                "statement": "",
-                "name": "National Center for Education Statistics",
-                "url": "https://nces.ed.gov/",
-                "citations": "",
-                "category": "Education",
-                "measure": "median_drive_time_top5",
-                "full_name": "drive_times_nearest_trade_schools:median_drive_time_top5",
-                "db_name": "dc_education_training.va_hdcttr_osrm_2021_drive_times_nearest_trade_schools"
+                "short_description": "Mean drive time (minutes) to the five closest trade schools",
+                "long_description": {},
+                "statement": "The median drive time to the five closest trade schools to {region_name} is {value} minutes",
+                "citations": {},
+                "source": [
+                  {
+                    "name": "National Center for Education Statistics",
+                    "date_accessed": 2021,
+                    "url": "https://nces.ed.gov/"
+                  }
+                ]
               },
               "type": "float",
               "missing": 805,
@@ -1040,19 +1618,24 @@ const site = {
               "name": "have_computer:perc_have_computer",
               "duplicates": 804,
               "info": {
-                "type": "",
+                "category": "Broadband",
+                "measure_table": "dc_digital_communications.va_hdcttr_acs5_2019_have_computer",
+                "full_name": "have_computer:perc_have_computer",
+                "measure": "perc_have_computer",
+                "type": "percent",
                 "short_name": "Population with a computer",
                 "long_name": "Percent of population with a computer",
-                "short_description": "",
-                "long_description": "",
-                "statement": "",
-                "name": "American Community Survey",
-                "url": "https://www.census.gov/programs-surveys/acs.html",
-                "citations": "",
-                "category": "Broadband",
-                "measure": "perc_have_computer",
-                "full_name": "have_computer:perc_have_computer",
-                "db_name": "dc_digital_communications.va_hdcttr_acs5_2019_have_computer"
+                "short_description": "Percent of the population self-reported to have a computer at home",
+                "long_description": {},
+                "statement": "{value} percent of the population in {region_name} have a computer",
+                "citations": {},
+                "source": [
+                  {
+                    "name": "American Community Survey",
+                    "date_accessed": 2021,
+                    "url": "https://www.census.gov/programs-surveys/acs.html"
+                  }
+                ]
               },
               "type": "float",
               "missing": 805,
@@ -1065,19 +1648,24 @@ const site = {
               "name": "have_internet:perc_have_internet_access",
               "duplicates": 804,
               "info": {
-                "type": "",
+                "category": "Broadband",
+                "measure_table": "dc_digital_communications.va_hdcttr_acs5_2019_have_internet",
+                "full_name": "have_internet:perc_have_internet_access",
+                "measure": "perc_have_internet_access",
+                "type": "percent",
                 "short_name": "Population with internet access",
                 "long_name": "Percent of population with internet access",
-                "short_description": "",
-                "long_description": "",
-                "statement": "",
-                "name": "American Community Survey",
-                "url": "https://www.census.gov/programs-surveys/acs.html",
-                "citations": "",
-                "category": "Broadband",
-                "measure": "perc_have_internet_access",
-                "full_name": "have_internet:perc_have_internet_access",
-                "db_name": "dc_digital_communications.va_hdcttr_acs5_2019_have_internet"
+                "short_description": "Percent of the population self-reported to have internet acess at home",
+                "long_description": {},
+                "statement": "{value} percent of the population in {region_name} have internet access",
+                "citations": {},
+                "source": [
+                  {
+                    "name": "American Community Survey",
+                    "date_accessed": 2021,
+                    "url": "https://www.census.gov/programs-surveys/acs.html"
+                  }
+                ]
               },
               "type": "float",
               "missing": 805,
@@ -1090,19 +1678,50 @@ const site = {
               "name": "health_literacy_estimates:health_literacy_estimate",
               "duplicates": 932,
               "info": {
+                "category": "Education",
+                "measure_table": "dc_education_training.va_hdcttr_sdad_2019_health_literacy_estimates",
+                "full_name": "health_literacy_estimates:health_literacy_estimate",
+                "measure": "health_literacy_estimate",
                 "type": "index",
                 "short_name": "Health literacy estimate",
                 "long_name": "Health literacy estimate",
-                "short_description": "",
-                "long_description": "",
-                "statement": "",
-                "name": "Medical Expenditure Panel Survey; American Community Survey",
-                "url": "https://www.meps.ahrq.gov/mepsweb/; https://www.census.gov/programs-surveys/acs.html",
-                "citations": "Stavitz et al. (2020); Liang and Branch (2017)",
-                "category": "Education",
-                "measure": "health_literacy_estimate",
-                "full_name": "health_literacy_estimates:health_literacy_estimate",
-                "db_name": "dc_education_training.va_hdcttr_sdad_2019_health_literacy_estimates"
+                "short_description": "Health literacy estimate captures the adult population's ability to obtain, process, and understand basic health services to make appropriate health decisions",
+                "long_description": "The health literacy estimate captures the adult population's ability to obtain, process, and understand basic health services to make appropriate health decisions. Health literacy estimate is based on variables of demographic characteristics, health status, and health care use.",
+                "statement": "The health literacy estimate for {region_name} is {value}",
+                "citations": [
+                  {
+                    "id": 6,
+                    "author": "Lan Liang and Cindy Brach",
+                    "year": 2017,
+                    "title": "Health Literacy Universal Precautions Are Still a Distant Dream: Analysis of U.S. Data on Health Literate Practices",
+                    "journal": "Health Lit Res Pract",
+                    "number": "1(4)",
+                    "page": "e216-e230",
+                    "doi": "doi: 10.3928/24748307-20170929-01"
+                  },
+                  {
+                    "id": 7,
+                    "author": "Samuel Savitz, Stacy Bailey, Stacie Dusetzina, W. Schuyler Jones, Justin Trogdon, and Sally Stearns",
+                    "year": 2020,
+                    "title": "Treatment selection and medication adherence for stable angina: The role of area-based health literacy",
+                    "journal": "Journal of Evaluation in Clinical Practice",
+                    "number": "26(6)",
+                    "page": "1711-1721",
+                    "doi": "doi:10.1111/jep.13341"
+                  }
+                ],
+                "source": [
+                  {
+                    "name": "Medical Expenditure Panel Survey",
+                    "date_accessed": 2021,
+                    "url": "https://www.meps.ahrq.gov/mepsweb/"
+                  },
+                  {
+                    "name": "American Community Survey",
+                    "date_accessed": 2021,
+                    "url": "https://www.census.gov/programs-surveys/acs.html"
+                  }
+                ]
               },
               "type": "float",
               "missing": 805,
@@ -1115,19 +1734,24 @@ const site = {
               "name": "no_health_insurance_19_to_64:no_hlth_ins_pct",
               "duplicates": 612,
               "info": {
+                "category": "Health",
+                "measure_table": "dc_health_behavior_diet.va_hdcttr_acs5_2015_2019_no_health_insurance_19_to_64",
+                "full_name": "no_health_insurance_19_to_64:no_hlth_ins_pct",
+                "measure": "no_hlth_ins_pct",
                 "type": "percent",
                 "short_name": "Uninsured population",
                 "long_name": "Percent of population without health insurance",
-                "short_description": "Percent of the population self-reported to not be currently covered by any type of health insurance or health coverage plan",
+                "short_description": "Percent of the population (ages 16-64) self-reported to not be currently covered by any type of health insurance or health coverage plan",
                 "long_description": "Percent of the population self-reported to not be currently covered by any type of health insurance or health coverage plan. This data comes from Question 16 of the Person section of the American Community Survey.",
-                "statement": "{no_hlth_ins_pct} percent of the population has no health insurance in  {region_name}",
-                "name": "American Community Survey",
-                "url": "https://www.census.gov/programs-surveys/acs.html",
-                "citations": "",
-                "category": "Health",
-                "measure": "no_hlth_ins_pct",
-                "full_name": "no_health_insurance_19_to_64:no_hlth_ins_pct",
-                "db_name": "dc_health_behavior_diet.va_hdcttr_acs5_2015_2019_no_health_insurance_19_to_64"
+                "statement": "{value} percent of the population has no health insurance in  {region_name}",
+                "citations": {},
+                "source": [
+                  {
+                    "name": "American Community Survey",
+                    "date_accessed": 2021,
+                    "url": "https://www.census.gov/programs-surveys/acs.html"
+                  }
+                ]
               },
               "type": "float",
               "missing": 273,
@@ -1140,19 +1764,65 @@ const site = {
               "name": "obgyn_access_scores:obgyn_e2sfca",
               "duplicates": 826,
               "info": {
+                "category": "Health",
+                "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_obgyn_access_scores",
+                "full_name": "obgyn_access_scores:obgyn_e2sfca",
+                "measure": "obgyn_e2sfca",
                 "type": "index",
-                "short_name": "OBGYN care access (score)",
+                "short_name": "OBGYN care access score",
                 "long_name": "OBGYN care access score (2 step-enhanced floating catchment areas)",
                 "short_description": "Index of OBGYN care accessibility based on supply and demand of providers",
-                "long_description": "OBGYN care access score based on 2-step enhanced floating catchment areas. This method is an aggregation of OBGYNs per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for OBGYNs (population served by OBGYNs). Provider address data was collected from WebMD's online physician directory.",
-                "statement": "The OBGYN access score for {region_name}  is {obgyn_e2sfca}",
-                "name": "WebMD Physician Directory",
-                "url": "https://doctor.webmd.com/",
-                "citations": "Lou, Wei (2004); Lou, Wei and Yi Qi (2009); Lou, Wei and Fahui Wang (2003); Saxon, James et al. (2020)",
-                "category": "Health",
-                "measure": "obgyn_e2sfca",
-                "full_name": "obgyn_access_scores:obgyn_e2sfca",
-                "db_name": "dc_health_behavior_diet.va_hdcttr_sdad_2021_obgyn_access_scores"
+                "long_description": "OBGYN care access score based on 2-step enhanced floating catchment areas. This method is an aggregation of OBGYNs per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for OBGYNs (population served by OBGYNs). Provider address data was collected from WebMD's online physician directory.\n",
+                "statement": "The OBGYN access score for {region_name}  is {value}",
+                "citations": [
+                  {
+                    "id": 1,
+                    "author": "Wei Lou",
+                    "year": 2004,
+                    "title": "Using a gis-based floating catchment method to assess areas with shortage of physicians",
+                    "journal": "Health & Place",
+                    "number": "10(1)",
+                    "page": "1-11",
+                    "doi": "doi:10.1016/S1353-8292(02)00067-9."
+                  },
+                  {
+                    "id": 2,
+                    "author": "Wei Lou and Yi Qi",
+                    "year": 2009,
+                    "title": "An enhanced two-step floating catchment area (e2sfca) method for measuring spatial accessibility to primary care physicians",
+                    "journal": "Health & Place",
+                    "number": "15(4)",
+                    "page": "1100-1107",
+                    "doi": "doi:10.1016/j.healthplace.2009.06.002"
+                  },
+                  {
+                    "id": 3,
+                    "author": "Wei Luo and Fahui Wang",
+                    "year": 2003,
+                    "title": "Measures of spatial accessibility to health care in a gis environment: synthesis and a case study in the Chicago region",
+                    "journal": "Environment and Planning B: Planning and Design",
+                    "number": "30(6)",
+                    "page": "865-884",
+                    "doi": "doi:10.1068/b29120"
+                  },
+                  {
+                    "id": 4,
+                    "author": "James Saxon, Julia Koschinsky, Karina Acosta, Vidal Anguiano, Luc Anselin, and Sergio Rey",
+                    "year": 2020,
+                    "title": "An Open Software Environment to Make Spatial Access Metrics More Accessible",
+                    "journal": "University of Chicago: Center for Spatial Data Science",
+                    "number": "Preprint",
+                    "page": {},
+                    "doi": "doi:10.13140/RG.2.2.12396.28807"
+                  }
+                ],
+                "source": [
+                  {
+                    "name": "WebMD Physician Directory",
+                    "date_accessed": 2021,
+                    "url": "https://doctor.webmd.com/"
+                  }
+                ]
               },
               "type": "float",
               "missing": 805,
@@ -1165,19 +1835,24 @@ const site = {
               "name": "obgyn_access_scores:obgyn_cnt",
               "duplicates": 890,
               "info": {
+                "category": "Health",
+                "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_obgyn_access_scores",
+                "full_name": "obgyn_access_scores:obgyn_cnt",
+                "measure": "obgyn_cnt",
                 "type": "count",
                 "short_name": "OBGYN care access (count)",
                 "long_name": "OBGYN care acess by count",
                 "short_description": "Count of OBGYNs based on provider locations",
                 "long_description": "Count of OBGYN care providers based on provider locations. Address data was collected from WebMD's online Physician Directory.",
-                "statement": "There are {obgyn_cnt}  OBGYNs in {region_name}",
-                "name": "WebMD Physician Directory",
-                "url": "https://doctor.webmd.com/",
-                "citations": "",
-                "category": "Health",
-                "measure": "obgyn_cnt",
-                "full_name": "obgyn_access_scores:obgyn_cnt",
-                "db_name": "dc_health_behavior_diet.va_hdcttr_sdad_2021_obgyn_access_scores"
+                "statement": "There are {value}  OBGYNs in {region_name}",
+                "citations": {},
+                "source": [
+                  {
+                    "name": "WebMD Physician Directory",
+                    "date_accessed": 2021,
+                    "url": "https://doctor.webmd.com/"
+                  }
+                ]
               },
               "type": "integer",
               "missing": 805,
@@ -1190,19 +1865,24 @@ const site = {
               "name": "pct_pop_broadband:perc_w_broadband",
               "duplicates": 538,
               "info": {
+                "category": "Broadband",
+                "measure_table": "dc_digital_communications.va_hdcttr_acs_2017_2019_pct_pop_broadband",
+                "full_name": "pct_pop_broadband:perc_w_broadband",
+                "measure": "perc_w_broadband",
                 "type": "percent",
                 "short_name": "Population with broadband",
                 "long_name": "Percent of population with broadband",
-                "short_description": "",
-                "long_description": "",
-                "statement": "{perc_w_broadband} percent of the population in {region_name} has a broadband connection",
-                "name": "American Community Survey",
-                "url": "https://www.census.gov/programs-surveys/acs.html",
-                "citations": "",
-                "category": "Broadband",
-                "measure": "perc_w_broadband",
-                "full_name": "pct_pop_broadband:perc_w_broadband",
-                "db_name": "dc_digital_communications.va_hdcttr_acs_2017_2019_pct_pop_broadband"
+                "short_description": "Percent of population self-reported to have a broadband internet connection (any type of internet other than a dial-up)",
+                "long_description": {},
+                "statement": "{value} percent of the population in {region_name} has a broadband connection",
+                "citations": {},
+                "source": [
+                  {
+                    "name": "American Community Survey",
+                    "date_accessed": 2021,
+                    "url": "https://www.census.gov/programs-surveys/acs.html"
+                  }
+                ]
               },
               "type": "float",
               "missing": 539,
@@ -1215,19 +1895,24 @@ const site = {
               "name": "pct_pop_cable_fiber_dsl:perc_w_cable_fiber_DSL",
               "duplicates": 538,
               "info": {
+                "category": "Broadband",
+                "measure_table": "dc_digital_communications.va_hdcttr_acs_2017_2019_pct_pop_cable_fiber_dsl",
+                "full_name": "pct_pop_cable_fiber_dsl:perc_w_cable_fiber_DSL",
+                "measure": "perc_w_cable_fiber_DSL",
                 "type": "percent",
                 "short_name": "Population with cable, fiber optic, or DSL",
                 "long_name": "Percent of population with a high speed internet service (cable, fiber optic, or DSL)",
-                "short_description": "",
-                "long_description": "",
-                "statement": "{perc_w_cable_fiber_DSL} percent of the population in {region_name} has a cable fiber or DSL internet connection",
-                "name": "American Community Survey",
-                "url": "https://www.census.gov/programs-surveys/acs.html",
-                "citations": "",
-                "category": "Broadband",
-                "measure": "perc_w_cable_fiber_DSL",
-                "full_name": "pct_pop_cable_fiber_dsl:perc_w_cable_fiber_DSL",
-                "db_name": "dc_digital_communications.va_hdcttr_acs_2017_2019_pct_pop_cable_fiber_dsl"
+                "short_description": "Percent of population self-reported to have a high speed internet service (cable, fiber optic, or DSL)",
+                "long_description": {},
+                "statement": "{value} percent of the population in {region_name} has a cable fiber or DSL internet connection",
+                "citations": {},
+                "source": [
+                  {
+                    "name": "American Community Survey",
+                    "date_accessed": 2021,
+                    "url": "https://www.census.gov/programs-surveys/acs.html"
+                  }
+                ]
               },
               "type": "float",
               "missing": 539,
@@ -1240,19 +1925,65 @@ const site = {
               "name": "pediatrics_access_scores:ped_e2sfca",
               "duplicates": 809,
               "info": {
-                "type": "",
-                "short_name": "Pediatric care access (score)",
+                "category": "Health",
+                "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_pediatrics_access_scores",
+                "full_name": "pediatrics_access_scores:ped_e2sfca",
+                "measure": "ped_e2sfca",
+                "type": "index",
+                "short_name": "Pediatric care access score",
                 "long_name": "Pediatric care access score (2-step enhanced floating catchment areas)",
                 "short_description": "Index of pediatric care physician accessibility based on supply and demand of providers",
-                "long_description": "",
-                "statement": "",
-                "name": "WebMD Physician Directory",
-                "url": "https://doctor.webmd.com/",
-                "citations": "",
-                "category": "Health",
-                "measure": "ped_e2sfca",
-                "full_name": "pediatrics_access_scores:ped_e2sfca",
-                "db_name": "dc_health_behavior_diet.va_hdcttr_sdad_2021_pediatrics_access_scores"
+                "long_description": {},
+                "statement": "The pediatric care accessibility score for {region_name} is  {value}",
+                "citations": [
+                  {
+                    "id": 1,
+                    "author": "Wei Lou",
+                    "year": 2004,
+                    "title": "Using a gis-based floating catchment method to assess areas with shortage of physicians",
+                    "journal": "Health & Place",
+                    "number": "10(1)",
+                    "page": "1-11",
+                    "doi": "doi:10.1016/S1353-8292(02)00067-9."
+                  },
+                  {
+                    "id": 2,
+                    "author": "Wei Lou and Yi Qi",
+                    "year": 2009,
+                    "title": "An enhanced two-step floating catchment area (e2sfca) method for measuring spatial accessibility to primary care physicians",
+                    "journal": "Health & Place",
+                    "number": "15(4)",
+                    "page": "1100-1107",
+                    "doi": "doi:10.1016/j.healthplace.2009.06.002"
+                  },
+                  {
+                    "id": 3,
+                    "author": "Wei Luo and Fahui Wang",
+                    "year": 2003,
+                    "title": "Measures of spatial accessibility to health care in a gis environment: synthesis and a case study in the Chicago region",
+                    "journal": "Environment and Planning B: Planning and Design",
+                    "number": "30(6)",
+                    "page": "865-884",
+                    "doi": "doi:10.1068/b29120"
+                  },
+                  {
+                    "id": 4,
+                    "author": "James Saxon, Julia Koschinsky, Karina Acosta, Vidal Anguiano, Luc Anselin, and Sergio Rey",
+                    "year": 2020,
+                    "title": "An Open Software Environment to Make Spatial Access Metrics More Accessible",
+                    "journal": "University of Chicago: Center for Spatial Data Science",
+                    "number": "Preprint",
+                    "page": {},
+                    "doi": "doi:10.13140/RG.2.2.12396.28807"
+                  }
+                ],
+                "source": [
+                  {
+                    "name": "WebMD Physician Directory",
+                    "date_accessed": 2021,
+                    "url": "https://doctor.webmd.com/"
+                  }
+                ]
               },
               "type": "float",
               "missing": 805,
@@ -1265,19 +1996,24 @@ const site = {
               "name": "pediatrics_access_scores:ped_cnt",
               "duplicates": 891,
               "info": {
-                "type": "",
+                "category": "Health",
+                "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_pediatrics_access_scores",
+                "full_name": "pediatrics_access_scores:ped_cnt",
+                "measure": "ped_cnt",
+                "type": "count",
                 "short_name": "Pediatric care access (count)",
                 "long_name": "Pediatric care access by count",
                 "short_description": "Count of pediatricians based on provider locations",
-                "long_description": "",
-                "statement": "",
-                "name": "WebMD Physician Directory",
-                "url": "https://doctor.webmd.com/",
-                "citations": "",
-                "category": "Health",
-                "measure": "ped_cnt",
-                "full_name": "pediatrics_access_scores:ped_cnt",
-                "db_name": "dc_health_behavior_diet.va_hdcttr_sdad_2021_pediatrics_access_scores"
+                "long_description": {},
+                "statement": "There are {value} pediatricians in {region_name}",
+                "citations": {},
+                "source": [
+                  {
+                    "name": "WebMD Physician Directory",
+                    "date_accessed": 2021,
+                    "url": "https://doctor.webmd.com/"
+                  }
+                ]
               },
               "type": "integer",
               "missing": 805,
@@ -1290,19 +2026,24 @@ const site = {
               "name": "post_hs_education:perc_post_hs_edu",
               "duplicates": 804,
               "info": {
+                "category": "Education",
+                "measure_table": "dc_education_training.va_hdcttr_acs_2015_2019_post_hs_education",
+                "full_name": "post_hs_education:perc_post_hs_edu",
+                "measure": "perc_post_hs_edu",
                 "type": "percent",
                 "short_name": "Population with post-high school education",
                 "long_name": "Percent  of population with post-high school education",
-                "short_description": "",
-                "long_description": "",
-                "statement": "",
-                "name": "American Community Survey",
-                "url": "https://www.census.gov/programs-surveys/acs.html",
-                "citations": "",
-                "category": "Education",
-                "measure": "perc_post_hs_edu",
-                "full_name": "post_hs_education:perc_post_hs_edu",
-                "db_name": "dc_education_training.va_hdcttr_acs_2015_2019_post_hs_education"
+                "short_description": "Percent of the population self-reported to have post-high school level degree",
+                "long_description": {},
+                "statement": "{value} percent of the population in {region_name} have a post-high school education",
+                "citations": {},
+                "source": [
+                  {
+                    "name": "American Community Survey",
+                    "date_accessed": 2021,
+                    "url": "https://www.census.gov/programs-surveys/acs.html"
+                  }
+                ]
               },
               "type": "float",
               "missing": 805,
@@ -1315,19 +2056,24 @@ const site = {
               "name": "preventable_hospitalizations:prevent_hosp_rate",
               "duplicates": 113,
               "info": {
+                "category": "Health",
+                "measure_table": "dc_health_behavior_diet.va_hdct_chr_2015_2021_preventable_hospitalizations",
+                "full_name": "preventable_hospitalizations:prevent_hosp_rate",
+                "measure": "prevent_hosp_rate",
                 "type": "rate",
                 "short_name": "Preventable hospitalizations per 100,000",
                 "long_name": "Preventable hospital stays per 100,000 Medicare enrollees",
                 "short_description": "Rate of hospital stays for ambulatory-care sensitive conditions per 100,000 Medicare enrollees",
                 "long_description": "Rate of hospital stays for ambulatory-care sensitive conditions per 100,000 Medicare enrollees. Ambulatory care refers to diagnoses that are usually treatable in outpatient settings. This data is based on Medicare claims and comes from County Health Rankings.",
-                "statement": "{prevent_hosp_rate} percent of the hospitalizations in {region_name}  were preventable (due to conditions usually treated in outpatient settings)",
-                "name": "County Health Rankings",
-                "url": "https://www.countyhealthrankings.org/app/virginia/2021/measure/factors/5/description",
-                "citations": "",
-                "category": "Health",
-                "measure": "prevent_hosp_rate",
-                "full_name": "preventable_hospitalizations:prevent_hosp_rate",
-                "db_name": "dc_health_behavior_diet.va_hdct_chr_2015_2021_preventable_hospitalizations"
+                "statement": "{value} percent of the hospitalizations in {region_name}  were preventable (due to conditions usually treated in outpatient settings)",
+                "citations": {},
+                "source": [
+                  {
+                    "name": "County Health Rankings",
+                    "date_accessed": 2021,
+                    "url": "https://www.countyhealthrankings.org/app/virginia/2021/measure/factors/5/description"
+                  }
+                ]
               },
               "type": "integer",
               "missing": 35,
@@ -1340,19 +2086,65 @@ const site = {
               "name": "primary_care_access_scores:prim_e2sfca",
               "duplicates": 804,
               "info": {
+                "category": "Health",
+                "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_primary_care_access_scores",
+                "full_name": "primary_care_access_scores:prim_e2sfca",
+                "measure": "prim_e2sfca",
                 "type": "index",
-                "short_name": "Primary care access (score)",
+                "short_name": "Primary care access score",
                 "long_name": "Primary care access score (2-step enhanced floating catchment areas)",
                 "short_description": "Index of primary care physician accessibility based on supply and demand of providers",
-                "long_description": "Primary care access score based on 2-step enhanced floating catchment areas. This method is an aggregation of physicians per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for physicians (population served by physicians). Provider address data was collected from WebMD's online Physician Directory.",
-                "statement": "The primary care accessibility score for {region_name}  is  {primacare_e2sfca}",
-                "name": "WebMD Physician Directory",
-                "url": "https://doctor.webmd.com/",
-                "citations": "Lou, Wei (2004); Lou, Wei and Yi Qi (2009); Lou, Wei and Fahui Wang (2003); Saxon, James et al. (2020)",
-                "category": "Health",
-                "measure": "prim_e2sfca",
-                "full_name": "primary_care_access_scores:prim_e2sfca",
-                "db_name": "dc_health_behavior_diet.va_hdcttr_sdad_2021_primary_care_access_scores"
+                "long_description": "Primary care access score based on 2-step enhanced floating catchment areas. This method is an aggregation of physicians per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for physicians (population served by physicians). Provider address data was collected from WebMD's online Physician Directory.\n",
+                "statement": "The primary care accessibility score for {region_name}  is  {value}",
+                "citations": [
+                  {
+                    "id": 1,
+                    "author": "Wei Lou",
+                    "year": 2004,
+                    "title": "Using a gis-based floating catchment method to assess areas with shortage of physicians",
+                    "journal": "Health & Place",
+                    "number": "10(1)",
+                    "page": "1-11",
+                    "doi": "doi:10.1016/S1353-8292(02)00067-9."
+                  },
+                  {
+                    "id": 2,
+                    "author": "Wei Lou and Yi Qi",
+                    "year": 2009,
+                    "title": "An enhanced two-step floating catchment area (e2sfca) method for measuring spatial accessibility to primary care physicians",
+                    "journal": "Health & Place",
+                    "number": "15(4)",
+                    "page": "1100-1107",
+                    "doi": "doi:10.1016/j.healthplace.2009.06.002"
+                  },
+                  {
+                    "id": 3,
+                    "author": "Wei Luo and Fahui Wang",
+                    "year": 2003,
+                    "title": "Measures of spatial accessibility to health care in a gis environment: synthesis and a case study in the Chicago region",
+                    "journal": "Environment and Planning B: Planning and Design",
+                    "number": "30(6)",
+                    "page": "865-884",
+                    "doi": "doi:10.1068/b29120"
+                  },
+                  {
+                    "id": 4,
+                    "author": "James Saxon, Julia Koschinsky, Karina Acosta, Vidal Anguiano, Luc Anselin, and Sergio Rey",
+                    "year": 2020,
+                    "title": "An Open Software Environment to Make Spatial Access Metrics More Accessible",
+                    "journal": "University of Chicago: Center for Spatial Data Science",
+                    "number": "Preprint",
+                    "page": {},
+                    "doi": "doi:10.13140/RG.2.2.12396.28807"
+                  }
+                ],
+                "source": [
+                  {
+                    "name": "WebMD Physician Directory",
+                    "date_accessed": 2021,
+                    "url": "https://doctor.webmd.com/"
+                  }
+                ]
               },
               "type": "float",
               "missing": 805,
@@ -1365,19 +2157,24 @@ const site = {
               "name": "primary_care_access_scores:prim_cnt",
               "duplicates": 844,
               "info": {
+                "category": "Health",
+                "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_primary_care_access_scores",
+                "full_name": "primary_care_access_scores:prim_cnt",
+                "measure": "prim_cnt",
                 "type": "count",
                 "short_name": "Primary care access (count)",
                 "long_name": "Primary care access by count",
                 "short_description": "Count of primary care physicians based on provider locations",
                 "long_description": "Count of primary care physicians based on provider locations. Address data was collected from WebMD's online Physician Directory.",
-                "statement": "There are {primacare_cnt} primary care physicians in {region_name}",
-                "name": "WebMD Physician Directory",
-                "url": "https://doctor.webmd.com/",
-                "citations": "",
-                "category": "Health",
-                "measure": "prim_cnt",
-                "full_name": "primary_care_access_scores:prim_cnt",
-                "db_name": "dc_health_behavior_diet.va_hdcttr_sdad_2021_primary_care_access_scores"
+                "statement": "There are {value} primary care physicians in {region_name}",
+                "citations": {},
+                "source": [
+                  {
+                    "name": "WebMD Physician Directory",
+                    "date_accessed": 2021,
+                    "url": "https://doctor.webmd.com/"
+                  }
+                ]
               },
               "type": "integer",
               "missing": 805,
@@ -1440,19 +2237,65 @@ const site = {
               "name": "2year_colleges_access_scores:norm_2sefca",
               "duplicates": 14279,
               "info": {
+                "category": "Education",
+                "measure_table": "dc_education_training.va_hdcttr_sdad_2019_2year_colleges_access_scores",
+                "full_name": "2year_colleges_access_scores:norm_2sefca",
+                "measure": "norm_2sefca",
                 "type": "index",
-                "short_name": "2-year college access (score)",
+                "short_name": "2-year college access score",
                 "long_name": "2 year college access score (2-step enhanced floating catchment areas)",
                 "short_description": "Index of 2-year college accessibility based on supply and demand of providers",
-                "long_description": "Demand = whole population, supply = total number of students enrolled in a year (graduate and undergraduate)",
-                "statement": "",
-                "name": "National Center for Education Statistics",
-                "url": "https://nces.ed.gov/",
-                "citations": "Lou, Wei (2004); Lou, Wei and Yi Qi (2009); Lou, Wei and Fahui Wang (2003); Saxon, James et al. (2020)",
-                "category": "Education",
-                "measure": "norm_2sefca",
-                "full_name": "2year_colleges_access_scores:norm_2sefca",
-                "db_name": "dc_education_training.va_hdcttr_sdad_2019_2year_colleges_access_scores"
+                "long_description": "2-year college access score based on 2-step enhanced floating catchment areas. This method is an aggregation of college capacity per population ratios weighted by distance or travel time in each catchment area (area within which an institution is accessible). Weights are defined for the demand for 2-year college (whole population in an area served by the institution) and supply is the total number of students enrolled in a year (graduate and undergraduate).",
+                "statement": "The 2-year college accessibility score for {region_name} is  {value}",
+                "citations": [
+                  {
+                    "id": 1,
+                    "author": "Wei Lou",
+                    "year": 2004,
+                    "title": "Using a gis-based floating catchment method to assess areas with shortage of physicians",
+                    "journal": "Health & Place",
+                    "number": "10(1)",
+                    "page": "1-11",
+                    "doi": "doi:10.1016/S1353-8292(02)00067-9."
+                  },
+                  {
+                    "id": 2,
+                    "author": "Wei Lou and Yi Qi",
+                    "year": 2009,
+                    "title": "An enhanced two-step floating catchment area (e2sfca) method for measuring spatial accessibility to primary care physicians",
+                    "journal": "Health & Place",
+                    "number": "15(4)",
+                    "page": "1100-1107",
+                    "doi": "doi:10.1016/j.healthplace.2009.06.002"
+                  },
+                  {
+                    "id": 3,
+                    "author": "Wei Luo and Fahui Wang",
+                    "year": 2003,
+                    "title": "Measures of spatial accessibility to health care in a gis environment: synthesis and a case study in the Chicago region",
+                    "journal": "Environment and Planning B: Planning and Design",
+                    "number": "30(6)",
+                    "page": "865-884",
+                    "doi": "doi:10.1068/b29120"
+                  },
+                  {
+                    "id": 4,
+                    "author": "James Saxon, Julia Koschinsky, Karina Acosta, Vidal Anguiano, Luc Anselin, and Sergio Rey",
+                    "year": 2020,
+                    "title": "An Open Software Environment to Make Spatial Access Metrics More Accessible",
+                    "journal": "University of Chicago: Center for Spatial Data Science",
+                    "number": "Preprint",
+                    "page": {},
+                    "doi": "doi:10.13140/RG.2.2.12396.28807"
+                  }
+                ],
+                "source": [
+                  {
+                    "name": "National Center for Education Statistics",
+                    "date_accessed": 2021,
+                    "url": "https://nces.ed.gov/"
+                  }
+                ]
               },
               "type": "string",
               "missing": 14280,
@@ -1464,19 +2307,24 @@ const site = {
               "name": "drive_times_nearest_2year_colleges:median_drive_time_top5",
               "duplicates": 13517,
               "info": {
-                "type": "",
+                "category": "Education",
+                "measure_table": "dc_education_training.va_hdcttr_osrm_2021_drive_times_nearest_2year_colleges",
+                "full_name": "drive_times_nearest_2year_colleges:median_drive_time_top5",
+                "measure": "median_drive_time_top5",
+                "type": "float",
                 "short_name": "2-year college access (drive time)",
                 "long_name": "2-year college access by median dive time to the five closest colleges in minutes",
-                "short_description": "",
-                "long_description": "",
-                "statement": "",
-                "name": "National Center for Education Statistics",
-                "url": "https://nces.ed.gov/",
-                "citations": "",
-                "category": "Education",
-                "measure": "median_drive_time_top5",
-                "full_name": "drive_times_nearest_2year_colleges:median_drive_time_top5",
-                "db_name": "dc_education_training.va_hdcttr_osrm_2021_drive_times_nearest_2year_colleges"
+                "short_description": "Median drive time (minutes) to the five closest 2-year colleges",
+                "long_description": {},
+                "statement": "The median drive time to the five closest 2-year colleges to {region_name} is {value} minutes",
+                "citations": {},
+                "source": [
+                  {
+                    "name": "National Center for Education Statistics",
+                    "date_accessed": 2021,
+                    "url": "https://nces.ed.gov/"
+                  }
+                ]
               },
               "type": "float",
               "missing": 12381,
@@ -1489,19 +2337,24 @@ const site = {
               "name": "3rd_grade_median_read_score:median_read_pass_rate",
               "duplicates": 14279,
               "info": {
-                "type": "",
+                "category": "Education",
+                "measure_table": "dc_education_training.va_hdct_vdoe_2019_2021_3rd_grade_median_read_score",
+                "full_name": "3rd_grade_median_read_score:median_read_pass_rate",
+                "measure": "median_pass_rate",
+                "type": "rate",
                 "short_name": "3rd grade population passing reading",
                 "long_name": "Median percent of 3rd grade population passing reading test",
-                "short_description": "",
-                "long_description": "",
-                "statement": "The median percent of 3rd graders with passing reading scores in {region_name} is {median_read_pass_rate} percent",
-                "name": "Virginia Department of Education",
-                "url": "",
-                "citations": "",
-                "category": "Education",
-                "measure": "median_read_pass_rate",
-                "full_name": "3rd_grade_median_read_score:median_read_pass_rate",
-                "db_name": "dc_education_training.va_hdct_vdoe_2019_2021_3rd_grade_median_read_score"
+                "short_description": "Median percent of 3rd grade population passing reading test for schools in the region",
+                "long_description": "Median percent of 3rd grade population passing reading test. The median is calculated across schools in the region.",
+                "statement": "The median percent of 3rd graders with passing reading scores in {region_name} is {value} percent",
+                "citations": {},
+                "source": [
+                  {
+                    "name": "Virginia Department of Education",
+                    "date_accessed": 2021,
+                    "url": "https://www.doe.virginia.gov/statistics_reports/sol-pass-rates/index.shtml"
+                  }
+                ]
               },
               "type": "string",
               "missing": 14280,
@@ -1513,19 +2366,65 @@ const site = {
               "name": "daycare_services_access_scores:daycare_norm_3sfca",
               "duplicates": 12380,
               "info": {
+                "category": "Education",
+                "measure_table": "dc_education_training.va_hdcttr_sdad_2021_daycare_services_access_scores",
+                "full_name": "daycare_services_access_scores:daycare_norm_3sfca",
+                "measure": "daycare_norm_3sefca",
                 "type": "index",
-                "short_name": "Day care access (score)",
+                "short_name": "Day care access score",
                 "long_name": "Day care access score (3-step floating catchment area)",
                 "short_description": "Index of day care accessibility based on supply of and demand for providers",
                 "long_description": "Primary care access score based on 2-step enhanced floating catchment areas. This method is an aggregation of day care facilities per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Provider address data was collected from Virginia Department of Social Services day care search tool. Demand = 0-12 years, supply = day care capacity",
-                "statement": "The daycare accessibility score for {region_name} is  {daycare_norm_3sfca}",
-                "name": "Virginia Department of Social Services",
-                "url": "https://www.dss.virginia.gov/facility/search/cc.cgi",
-                "citations": "Lou, Wei (2004); Lou, Wei and Yi Qi (2009); Lou, Wei and Fahui Wang (2003); Saxon, James et al. (2020)",
-                "category": "Education",
-                "measure": "daycare_norm_3sfca",
-                "full_name": "daycare_services_access_scores:daycare_norm_3sfca",
-                "db_name": "dc_education_training.va_hdcttr_sdad_2021_daycare_services_access_scores"
+                "statement": "The daycare accessibility score for {region_name} is  {value}",
+                "citations": [
+                  {
+                    "id": 1,
+                    "author": "Wei Lou",
+                    "year": 2004,
+                    "title": "Using a gis-based floating catchment method to assess areas with shortage of physicians",
+                    "journal": "Health & Place",
+                    "number": "10(1)",
+                    "page": "1-11",
+                    "doi": "doi:10.1016/S1353-8292(02)00067-9."
+                  },
+                  {
+                    "id": 2,
+                    "author": "Wei Lou and Yi Qi",
+                    "year": 2009,
+                    "title": "An enhanced two-step floating catchment area (e2sfca) method for measuring spatial accessibility to primary care physicians",
+                    "journal": "Health & Place",
+                    "number": "15(4)",
+                    "page": "1100-1107",
+                    "doi": "doi:10.1016/j.healthplace.2009.06.002"
+                  },
+                  {
+                    "id": 3,
+                    "author": "Wei Luo and Fahui Wang",
+                    "year": 2003,
+                    "title": "Measures of spatial accessibility to health care in a gis environment: synthesis and a case study in the Chicago region",
+                    "journal": "Environment and Planning B: Planning and Design",
+                    "number": "30(6)",
+                    "page": "865-884",
+                    "doi": "doi:10.1068/b29120"
+                  },
+                  {
+                    "id": 4,
+                    "author": "James Saxon, Julia Koschinsky, Karina Acosta, Vidal Anguiano, Luc Anselin, and Sergio Rey",
+                    "year": 2020,
+                    "title": "An Open Software Environment to Make Spatial Access Metrics More Accessible",
+                    "journal": "University of Chicago: Center for Spatial Data Science",
+                    "number": "Preprint",
+                    "page": {},
+                    "doi": "doi:10.13140/RG.2.2.12396.28807"
+                  }
+                ],
+                "source": [
+                  {
+                    "name": "Virginia Department of Social Services",
+                    "date_accessed": 2021,
+                    "url": "https://www.dss.virginia.gov/facility/search/cc.cgi"
+                  }
+                ]
               },
               "type": "float",
               "missing": 12380,
@@ -1538,19 +2437,24 @@ const site = {
               "name": "daycare_services_access_scores:daycare_cnt",
               "duplicates": 13712,
               "info": {
+                "category": "Education",
+                "measure_table": "dc_education_training.va_hdcttr_sdad_2021_daycare_services_access_scores",
+                "full_name": "daycare_services_access_scores:daycare_cnt",
+                "measure": "daycare_cnt",
                 "type": "count",
                 "short_name": "Day care access (count)",
                 "long_name": "Access to day care by count",
-                "short_description": "Count of day cares based on provider locations",
-                "long_description": "Count of day cares based on provider locations. Address data was collected from Virginia Department of Social Services day care search tool.  Day care capacity count",
-                "statement": "There are {daycare_cnt} daycares in {region_name}",
-                "name": "Virginia Department of Social Services",
-                "url": "https://www.dss.virginia.gov/facility/search/cc.cgi",
-                "citations": "",
-                "category": "Education",
-                "measure": "daycare_cnt",
-                "full_name": "daycare_services_access_scores:daycare_cnt",
-                "db_name": "dc_education_training.va_hdcttr_sdad_2021_daycare_services_access_scores"
+                "short_description": "Count of day care capacity (seats) based on provider locations",
+                "long_description": "Count of day care capacity (seats) based on provider locations. Address  and capacity data was collected from Virginia Department of Social Services day care search tool.",
+                "statement": "There are {value} day cares seats in {region_name}",
+                "citations": {},
+                "source": [
+                  {
+                    "name": "Virginia Department of Social Services",
+                    "date_accessed": 2021,
+                    "url": "https://www.dss.virginia.gov/facility/search/cc.cgi"
+                  }
+                ]
               },
               "type": "integer",
               "missing": 12373,
@@ -1563,19 +2467,24 @@ const site = {
               "name": "drive_times_nearest_daycares:median_drive_time_top5",
               "duplicates": 13905,
               "info": {
-                "type": "",
+                "category": "Education",
+                "measure_table": "dc_education_training.va_hdcttr_osrm_2021_drive_times_nearest_daycares",
+                "full_name": "drive_times_nearest_daycares:median_drive_time_top5",
+                "measure": "median_drive_time_top5",
+                "type": "float",
                 "short_name": "Day care access (drive time)",
                 "long_name": "Day care access by median drive time to the five closest day cares in minutes",
-                "short_description": "",
-                "long_description": "",
-                "statement": "",
-                "name": "Virginia Department of Social Services",
-                "url": "https://www.dss.virginia.gov/facility/search/cc.cgi",
-                "citations": "",
-                "category": "Education",
-                "measure": "median_drive_time_top5",
-                "full_name": "drive_times_nearest_daycares:median_drive_time_top5",
-                "db_name": "dc_education_training.va_hdcttr_osrm_2021_drive_times_nearest_daycares"
+                "short_description": "Median drive time (minutes) to the five closest day cares",
+                "long_description": {},
+                "statement": "The median drive time to the five closest day cares to {region_name} is {value} minutes",
+                "citations": {},
+                "source": [
+                  {
+                    "name": "Virginia Department of Social Services",
+                    "date_accessed": 2021,
+                    "url": "https://www.dss.virginia.gov/facility/search/cc.cgi"
+                  }
+                ]
               },
               "type": "float",
               "missing": 12381,
@@ -1588,19 +2497,40 @@ const site = {
               "name": "dei_index:norm_dei",
               "duplicates": 8679,
               "info": {
-                "type": "index",
-                "short_name": "Digital equity index",
-                "long_name": "Digitial equity index",
-                "short_description": "",
-                "long_description": "",
-                "statement": "The digital equity index for {region_name} is {norm_dei}",
-                "name": "",
-                "url": "",
-                "citations": "Gallardo, Robert (2020)",
                 "category": "Broadband",
-                "measure": "norm_dei",
+                "measure_table": "dc_digital_communications.va_hdcttr_sdad_2019_2021_dei_index",
                 "full_name": "dei_index:norm_dei",
-                "db_name": "dc_digital_communications.va_hdcttr_sdad_2019_2021_dei_index"
+                "measure": "norm_dei",
+                "type": "index",
+                "short_name": "Digital Equity Index",
+                "long_name": "Digitial Equity Index",
+                "short_description": "Digital Equity Index captures the relative equity of digitial access, with 0 being a score of relative equity and 100 being relative inequity.",
+                "long_description": "The Digital Equity Index captures the relative equity of digitial access. The Digital Equity Index uses is a composite of measures of broadband infrastructure and adoption and socioeconomic variables, with 0 being a score of relative equity and 100 being relative inequity. The variables include x, y, z.",
+                "statement": "The digital equity index for {region_name} is {value}",
+                "citations": [
+                  {
+                    "id": 5,
+                    "author": "Robert Gallardo",
+                    "year": 2020,
+                    "title": "Digital Divide Index",
+                    "journal": "Purdue Center for Regional Development",
+                    "number": {},
+                    "page": {},
+                    "doi": "http://pcrd.purdue.edu/ddi"
+                  }
+                ],
+                "source": [
+                  {
+                    "name": "American Community Survey",
+                    "date_accessed": 2021,
+                    "url": "https://www.census.gov/programs-surveys/acs.html"
+                  },
+                  {
+                    "name": "Ookla",
+                    "date_accessed": 2021,
+                    "url": "https://www.ookla.com/ookla-for-good/open-data"
+                  }
+                ]
               },
               "type": "float",
               "missing": 8676,
@@ -1613,19 +2543,65 @@ const site = {
               "name": "dentist_access_scores:dent_e2sfca",
               "duplicates": 12510,
               "info": {
+                "category": "Health",
+                "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_dentist_access_scores",
+                "full_name": "dentist_access_scores:dent_e2sfca",
+                "measure": "dent_e2sfca",
                 "type": "index",
-                "short_name": "Dental care access (score)",
+                "short_name": "Dental care access score",
                 "long_name": "Dental care access score (2 step-enhanced floating catchment areas)",
                 "short_description": "Index of dental care accessibility based on supply and demand of providers",
                 "long_description": "Dental care access score based on 2-step ehanced floating catchment areas. This method is an aggregation of dentists per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for dentists (population served by dentists). Provider address data was collected from WebMD's online Physician Directory.",
-                "statement": "The dental care access score for {region_name} is {dent_e2sfca}",
-                "name": "SafeGraph Core",
-                "url": "https://www.safegraph.com/products/core",
-                "citations": "Lou, Wei (2004); Lou, Wei and Yi Qi (2009); Lou, Wei and Fahui Wang (2003); Saxon, James et al. (2020)",
-                "category": "Health",
-                "measure": "dent_e2sfca",
-                "full_name": "dentist_access_scores:dent_e2sfca",
-                "db_name": "dc_health_behavior_diet.va_hdcttr_sdad_2021_dentist_access_scores"
+                "statement": "The dental care access score for {region_name} is {value}",
+                "citations": [
+                  {
+                    "id": 1,
+                    "author": "Wei Lou",
+                    "year": 2004,
+                    "title": "Using a gis-based floating catchment method to assess areas with shortage of physicians",
+                    "journal": "Health & Place",
+                    "number": "10(1)",
+                    "page": "1-11",
+                    "doi": "doi:10.1016/S1353-8292(02)00067-9."
+                  },
+                  {
+                    "id": 2,
+                    "author": "Wei Lou and Yi Qi",
+                    "year": 2009,
+                    "title": "An enhanced two-step floating catchment area (e2sfca) method for measuring spatial accessibility to primary care physicians",
+                    "journal": "Health & Place",
+                    "number": "15(4)",
+                    "page": "1100-1107",
+                    "doi": "doi:10.1016/j.healthplace.2009.06.002"
+                  },
+                  {
+                    "id": 3,
+                    "author": "Wei Luo and Fahui Wang",
+                    "year": 2003,
+                    "title": "Measures of spatial accessibility to health care in a gis environment: synthesis and a case study in the Chicago region",
+                    "journal": "Environment and Planning B: Planning and Design",
+                    "number": "30(6)",
+                    "page": "865-884",
+                    "doi": "doi:10.1068/b29120"
+                  },
+                  {
+                    "id": 4,
+                    "author": "James Saxon, Julia Koschinsky, Karina Acosta, Vidal Anguiano, Luc Anselin, and Sergio Rey",
+                    "year": 2020,
+                    "title": "An Open Software Environment to Make Spatial Access Metrics More Accessible",
+                    "journal": "University of Chicago: Center for Spatial Data Science",
+                    "number": "Preprint",
+                    "page": {},
+                    "doi": "doi:10.13140/RG.2.2.12396.28807"
+                  }
+                ],
+                "source": [
+                  {
+                    "name": "SafeGraph Core",
+                    "date_accessed": 2021,
+                    "url": "https://www.safegraph.com/products/core"
+                  }
+                ]
               },
               "type": "float",
               "missing": 12381,
@@ -1638,19 +2614,24 @@ const site = {
               "name": "dentist_access_scores:dent_cnt",
               "duplicates": 14247,
               "info": {
+                "category": "Health",
+                "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_dentist_access_scores",
+                "full_name": "dentist_access_scores:dent_cnt",
+                "measure": "dent_cnt",
                 "type": "count",
                 "short_name": "Dental care access (count)",
                 "long_name": "Dental care access by count",
                 "short_description": "Count of dentists based on provider locations",
                 "long_description": "Count of dentists based on provider locations. Address data was collected from WebMD's online Physician Directory.",
-                "statement": "There are {dent_cnt} densits in {region_name}",
-                "name": "SafeGraph Core",
-                "url": "https://www.safegraph.com/products/core",
-                "citations": "",
-                "category": "Health",
-                "measure": "dent_cnt",
-                "full_name": "dentist_access_scores:dent_cnt",
-                "db_name": "dc_health_behavior_diet.va_hdcttr_sdad_2021_dentist_access_scores"
+                "statement": "There are {value} densits in {region_name}",
+                "citations": {},
+                "source": [
+                  {
+                    "name": "SafeGraph Core",
+                    "date_accessed": 2021,
+                    "url": "https://www.safegraph.com/products/core"
+                  }
+                ]
               },
               "type": "integer",
               "missing": 13315,
@@ -1663,19 +2644,24 @@ const site = {
               "name": "download_speeds:download",
               "duplicates": 8606,
               "info": {
+                "category": "Broadband",
+                "measure_table": "dc_digital_communications.va_hdcttr_ookla_2019_2021_download_speeds",
+                "full_name": "download_speeds:download",
+                "measure": "download",
                 "type": "float",
                 "short_name": "Average download speed",
                 "long_name": "Average download speed (MB/s)",
-                "short_description": "",
-                "long_description": "",
-                "statement": "The average download speed for internet connections in {region_name} is {download} MB/s",
-                "name": "Ookla",
-                "url": "https://www.ookla.com/ookla-for-good/open-data",
-                "citations": "",
-                "category": "Broadband",
-                "measure": "download",
-                "full_name": "download_speeds:download",
-                "db_name": "dc_digital_communications.va_hdcttr_ookla_2019_2021_download_speeds"
+                "short_description": "Average download speed for internet connection in MB/s",
+                "long_description": "The average download speed for internet users' connections who performed a speed check using Ookla. Speeds are reported in MB/s. A speed of 100 MB/s is considered adequate for school work, video calling etc.",
+                "statement": "The average download speed for internet connections in {region_name} is {value} MB/s",
+                "citations": {},
+                "source": [
+                  {
+                    "name": "Ookla",
+                    "date_accessed": 2021,
+                    "url": "https://www.ookla.com/ookla-for-good/open-data"
+                  }
+                ]
               },
               "type": "float",
               "missing": 8607,
@@ -1687,21 +2673,6 @@ const site = {
             {
               "name": "trade_schools_access_scores:norm_3sfca",
               "duplicates": 13833,
-              "info": {
-                "type": "index",
-                "short_name": "Trade school access (score)",
-                "long_name": "Trade school access score (2-step enhanced floating catchment areas)",
-                "short_description": "Index of trade school accessibility based on supply and demand of providers",
-                "long_description": "Demand = whole population, supply = total number of students enrolled in a year ( undergraduate)",
-                "statement": "",
-                "name": "National Center for Education Statistics",
-                "url": "https://nces.ed.gov/",
-                "citations": "Lou, Wei (2004); Lou, Wei and Yi Qi (2009); Lou, Wei and Fahui Wang (2003); Saxon, James et al. (2020)",
-                "category": "Education",
-                "measure": "norm_3sfca",
-                "full_name": "trade_schools_access_scores:norm_3sfca",
-                "db_name": "dc_education_training.va_hdcttr_sdad_2019_trade_schools_access_scores"
-              },
               "type": "float",
               "missing": 12381,
               "mean": 22.1145,
@@ -1713,19 +2684,24 @@ const site = {
               "name": "drive_times_nearest_trade_schools:median_drive_time_top5",
               "duplicates": 13330,
               "info": {
-                "type": "",
+                "category": "Education",
+                "measure_table": "dc_education_training.va_hdcttr_osrm_2021_drive_times_nearest_trade_schools",
+                "full_name": "drive_times_nearest_trade_schools:median_drive_time_top5",
+                "measure": "median_drive_time_top5",
+                "type": "float",
                 "short_name": "Trade school access (drive time)",
                 "long_name": "Trade school access by median drive time to the five closest schools in minutes",
-                "short_description": "",
-                "long_description": "",
-                "statement": "",
-                "name": "National Center for Education Statistics",
-                "url": "https://nces.ed.gov/",
-                "citations": "",
-                "category": "Education",
-                "measure": "median_drive_time_top5",
-                "full_name": "drive_times_nearest_trade_schools:median_drive_time_top5",
-                "db_name": "dc_education_training.va_hdcttr_osrm_2021_drive_times_nearest_trade_schools"
+                "short_description": "Mean drive time (minutes) to the five closest trade schools",
+                "long_description": {},
+                "statement": "The median drive time to the five closest trade schools to {region_name} is {value} minutes",
+                "citations": {},
+                "source": [
+                  {
+                    "name": "National Center for Education Statistics",
+                    "date_accessed": 2021,
+                    "url": "https://nces.ed.gov/"
+                  }
+                ]
               },
               "type": "float",
               "missing": 12381,
@@ -1738,19 +2714,24 @@ const site = {
               "name": "have_computer:perc_have_computer",
               "duplicates": 12505,
               "info": {
-                "type": "",
+                "category": "Broadband",
+                "measure_table": "dc_digital_communications.va_hdcttr_acs5_2019_have_computer",
+                "full_name": "have_computer:perc_have_computer",
+                "measure": "perc_have_computer",
+                "type": "percent",
                 "short_name": "Population with a computer",
                 "long_name": "Percent of population with a computer",
-                "short_description": "",
-                "long_description": "",
-                "statement": "",
-                "name": "American Community Survey",
-                "url": "https://www.census.gov/programs-surveys/acs.html",
-                "citations": "",
-                "category": "Broadband",
-                "measure": "perc_have_computer",
-                "full_name": "have_computer:perc_have_computer",
-                "db_name": "dc_digital_communications.va_hdcttr_acs5_2019_have_computer"
+                "short_description": "Percent of the population self-reported to have a computer at home",
+                "long_description": {},
+                "statement": "{value} percent of the population in {region_name} have a computer",
+                "citations": {},
+                "source": [
+                  {
+                    "name": "American Community Survey",
+                    "date_accessed": 2021,
+                    "url": "https://www.census.gov/programs-surveys/acs.html"
+                  }
+                ]
               },
               "type": "float",
               "missing": 12389,
@@ -1763,19 +2744,24 @@ const site = {
               "name": "have_internet:perc_have_internet_access",
               "duplicates": 12474,
               "info": {
-                "type": "",
+                "category": "Broadband",
+                "measure_table": "dc_digital_communications.va_hdcttr_acs5_2019_have_internet",
+                "full_name": "have_internet:perc_have_internet_access",
+                "measure": "perc_have_internet_access",
+                "type": "percent",
                 "short_name": "Population with internet access",
                 "long_name": "Percent of population with internet access",
-                "short_description": "",
-                "long_description": "",
-                "statement": "",
-                "name": "American Community Survey",
-                "url": "https://www.census.gov/programs-surveys/acs.html",
-                "citations": "",
-                "category": "Broadband",
-                "measure": "perc_have_internet_access",
-                "full_name": "have_internet:perc_have_internet_access",
-                "db_name": "dc_digital_communications.va_hdcttr_acs5_2019_have_internet"
+                "short_description": "Percent of the population self-reported to have internet acess at home",
+                "long_description": {},
+                "statement": "{value} percent of the population in {region_name} have internet access",
+                "citations": {},
+                "source": [
+                  {
+                    "name": "American Community Survey",
+                    "date_accessed": 2021,
+                    "url": "https://www.census.gov/programs-surveys/acs.html"
+                  }
+                ]
               },
               "type": "float",
               "missing": 12389,
@@ -1788,19 +2774,50 @@ const site = {
               "name": "health_literacy_estimates:health_literacy_estimate",
               "duplicates": 14266,
               "info": {
+                "category": "Education",
+                "measure_table": "dc_education_training.va_hdcttr_sdad_2019_health_literacy_estimates",
+                "full_name": "health_literacy_estimates:health_literacy_estimate",
+                "measure": "health_literacy_estimate",
                 "type": "index",
                 "short_name": "Health literacy estimate",
                 "long_name": "Health literacy estimate",
-                "short_description": "",
-                "long_description": "",
-                "statement": "",
-                "name": "Medical Expenditure Panel Survey; American Community Survey",
-                "url": "https://www.meps.ahrq.gov/mepsweb/; https://www.census.gov/programs-surveys/acs.html",
-                "citations": "Stavitz et al. (2020); Liang and Branch (2017)",
-                "category": "Education",
-                "measure": "health_literacy_estimate",
-                "full_name": "health_literacy_estimates:health_literacy_estimate",
-                "db_name": "dc_education_training.va_hdcttr_sdad_2019_health_literacy_estimates"
+                "short_description": "Health literacy estimate captures the adult population's ability to obtain, process, and understand basic health services to make appropriate health decisions",
+                "long_description": "The health literacy estimate captures the adult population's ability to obtain, process, and understand basic health services to make appropriate health decisions. Health literacy estimate is based on variables of demographic characteristics, health status, and health care use.",
+                "statement": "The health literacy estimate for {region_name} is {value}",
+                "citations": [
+                  {
+                    "id": 6,
+                    "author": "Lan Liang and Cindy Brach",
+                    "year": 2017,
+                    "title": "Health Literacy Universal Precautions Are Still a Distant Dream: Analysis of U.S. Data on Health Literate Practices",
+                    "journal": "Health Lit Res Pract",
+                    "number": "1(4)",
+                    "page": "e216-e230",
+                    "doi": "doi: 10.3928/24748307-20170929-01"
+                  },
+                  {
+                    "id": 7,
+                    "author": "Samuel Savitz, Stacy Bailey, Stacie Dusetzina, W. Schuyler Jones, Justin Trogdon, and Sally Stearns",
+                    "year": 2020,
+                    "title": "Treatment selection and medication adherence for stable angina: The role of area-based health literacy",
+                    "journal": "Journal of Evaluation in Clinical Practice",
+                    "number": "26(6)",
+                    "page": "1711-1721",
+                    "doi": "doi:10.1111/jep.13341"
+                  }
+                ],
+                "source": [
+                  {
+                    "name": "Medical Expenditure Panel Survey",
+                    "date_accessed": 2021,
+                    "url": "https://www.meps.ahrq.gov/mepsweb/"
+                  },
+                  {
+                    "name": "American Community Survey",
+                    "date_accessed": 2021,
+                    "url": "https://www.census.gov/programs-surveys/acs.html"
+                  }
+                ]
               },
               "type": "float",
               "missing": 12373,
@@ -1813,19 +2830,24 @@ const site = {
               "name": "no_health_insurance_19_to_64:no_hlth_ins_pct",
               "duplicates": 12803,
               "info": {
+                "category": "Health",
+                "measure_table": "dc_health_behavior_diet.va_hdcttr_acs5_2015_2019_no_health_insurance_19_to_64",
+                "full_name": "no_health_insurance_19_to_64:no_hlth_ins_pct",
+                "measure": "no_hlth_ins_pct",
                 "type": "percent",
                 "short_name": "Uninsured population",
                 "long_name": "Percent of population without health insurance",
-                "short_description": "Percent of the population self-reported to not be currently covered by any type of health insurance or health coverage plan",
+                "short_description": "Percent of the population (ages 16-64) self-reported to not be currently covered by any type of health insurance or health coverage plan",
                 "long_description": "Percent of the population self-reported to not be currently covered by any type of health insurance or health coverage plan. This data comes from Question 16 of the Person section of the American Community Survey.",
-                "statement": "{no_hlth_ins_pct} percent of the population has no health insurance in  {region_name}",
-                "name": "American Community Survey",
-                "url": "https://www.census.gov/programs-surveys/acs.html",
-                "citations": "",
-                "category": "Health",
-                "measure": "no_hlth_ins_pct",
-                "full_name": "no_health_insurance_19_to_64:no_hlth_ins_pct",
-                "db_name": "dc_health_behavior_diet.va_hdcttr_acs5_2015_2019_no_health_insurance_19_to_64"
+                "statement": "{value} percent of the population has no health insurance in  {region_name}",
+                "citations": {},
+                "source": [
+                  {
+                    "name": "American Community Survey",
+                    "date_accessed": 2021,
+                    "url": "https://www.census.gov/programs-surveys/acs.html"
+                  }
+                ]
               },
               "type": "float",
               "missing": 4910,
@@ -1838,19 +2860,65 @@ const site = {
               "name": "obgyn_access_scores:obgyn_e2sfca",
               "duplicates": 12726,
               "info": {
+                "category": "Health",
+                "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_obgyn_access_scores",
+                "full_name": "obgyn_access_scores:obgyn_e2sfca",
+                "measure": "obgyn_e2sfca",
                 "type": "index",
-                "short_name": "OBGYN care access (score)",
+                "short_name": "OBGYN care access score",
                 "long_name": "OBGYN care access score (2 step-enhanced floating catchment areas)",
                 "short_description": "Index of OBGYN care accessibility based on supply and demand of providers",
-                "long_description": "OBGYN care access score based on 2-step enhanced floating catchment areas. This method is an aggregation of OBGYNs per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for OBGYNs (population served by OBGYNs). Provider address data was collected from WebMD's online physician directory.",
-                "statement": "The OBGYN access score for {region_name}  is {obgyn_e2sfca}",
-                "name": "WebMD Physician Directory",
-                "url": "https://doctor.webmd.com/",
-                "citations": "Lou, Wei (2004); Lou, Wei and Yi Qi (2009); Lou, Wei and Fahui Wang (2003); Saxon, James et al. (2020)",
-                "category": "Health",
-                "measure": "obgyn_e2sfca",
-                "full_name": "obgyn_access_scores:obgyn_e2sfca",
-                "db_name": "dc_health_behavior_diet.va_hdcttr_sdad_2021_obgyn_access_scores"
+                "long_description": "OBGYN care access score based on 2-step enhanced floating catchment areas. This method is an aggregation of OBGYNs per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for OBGYNs (population served by OBGYNs). Provider address data was collected from WebMD's online physician directory.\n",
+                "statement": "The OBGYN access score for {region_name}  is {value}",
+                "citations": [
+                  {
+                    "id": 1,
+                    "author": "Wei Lou",
+                    "year": 2004,
+                    "title": "Using a gis-based floating catchment method to assess areas with shortage of physicians",
+                    "journal": "Health & Place",
+                    "number": "10(1)",
+                    "page": "1-11",
+                    "doi": "doi:10.1016/S1353-8292(02)00067-9."
+                  },
+                  {
+                    "id": 2,
+                    "author": "Wei Lou and Yi Qi",
+                    "year": 2009,
+                    "title": "An enhanced two-step floating catchment area (e2sfca) method for measuring spatial accessibility to primary care physicians",
+                    "journal": "Health & Place",
+                    "number": "15(4)",
+                    "page": "1100-1107",
+                    "doi": "doi:10.1016/j.healthplace.2009.06.002"
+                  },
+                  {
+                    "id": 3,
+                    "author": "Wei Luo and Fahui Wang",
+                    "year": 2003,
+                    "title": "Measures of spatial accessibility to health care in a gis environment: synthesis and a case study in the Chicago region",
+                    "journal": "Environment and Planning B: Planning and Design",
+                    "number": "30(6)",
+                    "page": "865-884",
+                    "doi": "doi:10.1068/b29120"
+                  },
+                  {
+                    "id": 4,
+                    "author": "James Saxon, Julia Koschinsky, Karina Acosta, Vidal Anguiano, Luc Anselin, and Sergio Rey",
+                    "year": 2020,
+                    "title": "An Open Software Environment to Make Spatial Access Metrics More Accessible",
+                    "journal": "University of Chicago: Center for Spatial Data Science",
+                    "number": "Preprint",
+                    "page": {},
+                    "doi": "doi:10.13140/RG.2.2.12396.28807"
+                  }
+                ],
+                "source": [
+                  {
+                    "name": "WebMD Physician Directory",
+                    "date_accessed": 2021,
+                    "url": "https://doctor.webmd.com/"
+                  }
+                ]
               },
               "type": "float",
               "missing": 12381,
@@ -1863,19 +2931,24 @@ const site = {
               "name": "obgyn_access_scores:obgyn_cnt",
               "duplicates": 14236,
               "info": {
+                "category": "Health",
+                "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_obgyn_access_scores",
+                "full_name": "obgyn_access_scores:obgyn_cnt",
+                "measure": "obgyn_cnt",
                 "type": "count",
                 "short_name": "OBGYN care access (count)",
                 "long_name": "OBGYN care acess by count",
                 "short_description": "Count of OBGYNs based on provider locations",
                 "long_description": "Count of OBGYN care providers based on provider locations. Address data was collected from WebMD's online Physician Directory.",
-                "statement": "There are {obgyn_cnt}  OBGYNs in {region_name}",
-                "name": "WebMD Physician Directory",
-                "url": "https://doctor.webmd.com/",
-                "citations": "",
-                "category": "Health",
-                "measure": "obgyn_cnt",
-                "full_name": "obgyn_access_scores:obgyn_cnt",
-                "db_name": "dc_health_behavior_diet.va_hdcttr_sdad_2021_obgyn_access_scores"
+                "statement": "There are {value}  OBGYNs in {region_name}",
+                "citations": {},
+                "source": [
+                  {
+                    "name": "WebMD Physician Directory",
+                    "date_accessed": 2021,
+                    "url": "https://doctor.webmd.com/"
+                  }
+                ]
               },
               "type": "integer",
               "missing": 13807,
@@ -1888,19 +2961,24 @@ const site = {
               "name": "pct_pop_broadband:perc_w_broadband",
               "duplicates": 8772,
               "info": {
+                "category": "Broadband",
+                "measure_table": "dc_digital_communications.va_hdcttr_acs_2017_2019_pct_pop_broadband",
+                "full_name": "pct_pop_broadband:perc_w_broadband",
+                "measure": "perc_w_broadband",
                 "type": "percent",
                 "short_name": "Population with broadband",
                 "long_name": "Percent of population with broadband",
-                "short_description": "",
-                "long_description": "",
-                "statement": "{perc_w_broadband} percent of the population in {region_name} has a broadband connection",
-                "name": "American Community Survey",
-                "url": "https://www.census.gov/programs-surveys/acs.html",
-                "citations": "",
-                "category": "Broadband",
-                "measure": "perc_w_broadband",
-                "full_name": "pct_pop_broadband:perc_w_broadband",
-                "db_name": "dc_digital_communications.va_hdcttr_acs_2017_2019_pct_pop_broadband"
+                "short_description": "Percent of population self-reported to have a broadband internet connection (any type of internet other than a dial-up)",
+                "long_description": {},
+                "statement": "{value} percent of the population in {region_name} has a broadband connection",
+                "citations": {},
+                "source": [
+                  {
+                    "name": "American Community Survey",
+                    "date_accessed": 2021,
+                    "url": "https://www.census.gov/programs-surveys/acs.html"
+                  }
+                ]
               },
               "type": "float",
               "missing": 8660,
@@ -1913,19 +2991,24 @@ const site = {
               "name": "pct_pop_cable_fiber_dsl:perc_w_cable_fiber_DSL",
               "duplicates": 8748,
               "info": {
+                "category": "Broadband",
+                "measure_table": "dc_digital_communications.va_hdcttr_acs_2017_2019_pct_pop_cable_fiber_dsl",
+                "full_name": "pct_pop_cable_fiber_dsl:perc_w_cable_fiber_DSL",
+                "measure": "perc_w_cable_fiber_DSL",
                 "type": "percent",
                 "short_name": "Population with cable, fiber optic, or DSL",
                 "long_name": "Percent of population with a high speed internet service (cable, fiber optic, or DSL)",
-                "short_description": "",
-                "long_description": "",
-                "statement": "{perc_w_cable_fiber_DSL} percent of the population in {region_name} has a cable fiber or DSL internet connection",
-                "name": "American Community Survey",
-                "url": "https://www.census.gov/programs-surveys/acs.html",
-                "citations": "",
-                "category": "Broadband",
-                "measure": "perc_w_cable_fiber_DSL",
-                "full_name": "pct_pop_cable_fiber_dsl:perc_w_cable_fiber_DSL",
-                "db_name": "dc_digital_communications.va_hdcttr_acs_2017_2019_pct_pop_cable_fiber_dsl"
+                "short_description": "Percent of population self-reported to have a high speed internet service (cable, fiber optic, or DSL)",
+                "long_description": {},
+                "statement": "{value} percent of the population in {region_name} has a cable fiber or DSL internet connection",
+                "citations": {},
+                "source": [
+                  {
+                    "name": "American Community Survey",
+                    "date_accessed": 2021,
+                    "url": "https://www.census.gov/programs-surveys/acs.html"
+                  }
+                ]
               },
               "type": "float",
               "missing": 8660,
@@ -1938,19 +3021,65 @@ const site = {
               "name": "pediatrics_access_scores:ped_e2sfca",
               "duplicates": 12574,
               "info": {
-                "type": "",
-                "short_name": "Pediatric care access (score)",
+                "category": "Health",
+                "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_pediatrics_access_scores",
+                "full_name": "pediatrics_access_scores:ped_e2sfca",
+                "measure": "ped_e2sfca",
+                "type": "index",
+                "short_name": "Pediatric care access score",
                 "long_name": "Pediatric care access score (2-step enhanced floating catchment areas)",
                 "short_description": "Index of pediatric care physician accessibility based on supply and demand of providers",
-                "long_description": "",
-                "statement": "",
-                "name": "WebMD Physician Directory",
-                "url": "https://doctor.webmd.com/",
-                "citations": "",
-                "category": "Health",
-                "measure": "ped_e2sfca",
-                "full_name": "pediatrics_access_scores:ped_e2sfca",
-                "db_name": "dc_health_behavior_diet.va_hdcttr_sdad_2021_pediatrics_access_scores"
+                "long_description": {},
+                "statement": "The pediatric care accessibility score for {region_name} is  {value}",
+                "citations": [
+                  {
+                    "id": 1,
+                    "author": "Wei Lou",
+                    "year": 2004,
+                    "title": "Using a gis-based floating catchment method to assess areas with shortage of physicians",
+                    "journal": "Health & Place",
+                    "number": "10(1)",
+                    "page": "1-11",
+                    "doi": "doi:10.1016/S1353-8292(02)00067-9."
+                  },
+                  {
+                    "id": 2,
+                    "author": "Wei Lou and Yi Qi",
+                    "year": 2009,
+                    "title": "An enhanced two-step floating catchment area (e2sfca) method for measuring spatial accessibility to primary care physicians",
+                    "journal": "Health & Place",
+                    "number": "15(4)",
+                    "page": "1100-1107",
+                    "doi": "doi:10.1016/j.healthplace.2009.06.002"
+                  },
+                  {
+                    "id": 3,
+                    "author": "Wei Luo and Fahui Wang",
+                    "year": 2003,
+                    "title": "Measures of spatial accessibility to health care in a gis environment: synthesis and a case study in the Chicago region",
+                    "journal": "Environment and Planning B: Planning and Design",
+                    "number": "30(6)",
+                    "page": "865-884",
+                    "doi": "doi:10.1068/b29120"
+                  },
+                  {
+                    "id": 4,
+                    "author": "James Saxon, Julia Koschinsky, Karina Acosta, Vidal Anguiano, Luc Anselin, and Sergio Rey",
+                    "year": 2020,
+                    "title": "An Open Software Environment to Make Spatial Access Metrics More Accessible",
+                    "journal": "University of Chicago: Center for Spatial Data Science",
+                    "number": "Preprint",
+                    "page": {},
+                    "doi": "doi:10.13140/RG.2.2.12396.28807"
+                  }
+                ],
+                "source": [
+                  {
+                    "name": "WebMD Physician Directory",
+                    "date_accessed": 2021,
+                    "url": "https://doctor.webmd.com/"
+                  }
+                ]
               },
               "type": "float",
               "missing": 12381,
@@ -1963,19 +3092,24 @@ const site = {
               "name": "pediatrics_access_scores:ped_cnt",
               "duplicates": 14238,
               "info": {
-                "type": "",
+                "category": "Health",
+                "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_pediatrics_access_scores",
+                "full_name": "pediatrics_access_scores:ped_cnt",
+                "measure": "ped_cnt",
+                "type": "count",
                 "short_name": "Pediatric care access (count)",
                 "long_name": "Pediatric care access by count",
                 "short_description": "Count of pediatricians based on provider locations",
-                "long_description": "",
-                "statement": "",
-                "name": "WebMD Physician Directory",
-                "url": "https://doctor.webmd.com/",
-                "citations": "",
-                "category": "Health",
-                "measure": "ped_cnt",
-                "full_name": "pediatrics_access_scores:ped_cnt",
-                "db_name": "dc_health_behavior_diet.va_hdcttr_sdad_2021_pediatrics_access_scores"
+                "long_description": {},
+                "statement": "There are {value} pediatricians in {region_name}",
+                "citations": {},
+                "source": [
+                  {
+                    "name": "WebMD Physician Directory",
+                    "date_accessed": 2021,
+                    "url": "https://doctor.webmd.com/"
+                  }
+                ]
               },
               "type": "integer",
               "missing": 13686,
@@ -1988,19 +3122,24 @@ const site = {
               "name": "post_hs_education:perc_post_hs_edu",
               "duplicates": 12404,
               "info": {
+                "category": "Education",
+                "measure_table": "dc_education_training.va_hdcttr_acs_2015_2019_post_hs_education",
+                "full_name": "post_hs_education:perc_post_hs_edu",
+                "measure": "perc_post_hs_edu",
                 "type": "percent",
                 "short_name": "Population with post-high school education",
                 "long_name": "Percent  of population with post-high school education",
-                "short_description": "",
-                "long_description": "",
-                "statement": "",
-                "name": "American Community Survey",
-                "url": "https://www.census.gov/programs-surveys/acs.html",
-                "citations": "",
-                "category": "Education",
-                "measure": "perc_post_hs_edu",
-                "full_name": "post_hs_education:perc_post_hs_edu",
-                "db_name": "dc_education_training.va_hdcttr_acs_2015_2019_post_hs_education"
+                "short_description": "Percent of the population self-reported to have post-high school level degree",
+                "long_description": {},
+                "statement": "{value} percent of the population in {region_name} have a post-high school education",
+                "citations": {},
+                "source": [
+                  {
+                    "name": "American Community Survey",
+                    "date_accessed": 2021,
+                    "url": "https://www.census.gov/programs-surveys/acs.html"
+                  }
+                ]
               },
               "type": "float",
               "missing": 12401,
@@ -2013,19 +3152,24 @@ const site = {
               "name": "preventable_hospitalizations:prevent_hosp_rate",
               "duplicates": 14279,
               "info": {
+                "category": "Health",
+                "measure_table": "dc_health_behavior_diet.va_hdct_chr_2015_2021_preventable_hospitalizations",
+                "full_name": "preventable_hospitalizations:prevent_hosp_rate",
+                "measure": "prevent_hosp_rate",
                 "type": "rate",
                 "short_name": "Preventable hospitalizations per 100,000",
                 "long_name": "Preventable hospital stays per 100,000 Medicare enrollees",
                 "short_description": "Rate of hospital stays for ambulatory-care sensitive conditions per 100,000 Medicare enrollees",
                 "long_description": "Rate of hospital stays for ambulatory-care sensitive conditions per 100,000 Medicare enrollees. Ambulatory care refers to diagnoses that are usually treatable in outpatient settings. This data is based on Medicare claims and comes from County Health Rankings.",
-                "statement": "{prevent_hosp_rate} percent of the hospitalizations in {region_name}  were preventable (due to conditions usually treated in outpatient settings)",
-                "name": "County Health Rankings",
-                "url": "https://www.countyhealthrankings.org/app/virginia/2021/measure/factors/5/description",
-                "citations": "",
-                "category": "Health",
-                "measure": "prevent_hosp_rate",
-                "full_name": "preventable_hospitalizations:prevent_hosp_rate",
-                "db_name": "dc_health_behavior_diet.va_hdct_chr_2015_2021_preventable_hospitalizations"
+                "statement": "{value} percent of the hospitalizations in {region_name}  were preventable (due to conditions usually treated in outpatient settings)",
+                "citations": {},
+                "source": [
+                  {
+                    "name": "County Health Rankings",
+                    "date_accessed": 2021,
+                    "url": "https://www.countyhealthrankings.org/app/virginia/2021/measure/factors/5/description"
+                  }
+                ]
               },
               "type": "string",
               "missing": 14280,
@@ -2037,19 +3181,65 @@ const site = {
               "name": "primary_care_access_scores:prim_e2sfca",
               "duplicates": 12408,
               "info": {
+                "category": "Health",
+                "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_primary_care_access_scores",
+                "full_name": "primary_care_access_scores:prim_e2sfca",
+                "measure": "prim_e2sfca",
                 "type": "index",
-                "short_name": "Primary care access (score)",
+                "short_name": "Primary care access score",
                 "long_name": "Primary care access score (2-step enhanced floating catchment areas)",
                 "short_description": "Index of primary care physician accessibility based on supply and demand of providers",
-                "long_description": "Primary care access score based on 2-step enhanced floating catchment areas. This method is an aggregation of physicians per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for physicians (population served by physicians). Provider address data was collected from WebMD's online Physician Directory.",
-                "statement": "The primary care accessibility score for {region_name}  is  {primacare_e2sfca}",
-                "name": "WebMD Physician Directory",
-                "url": "https://doctor.webmd.com/",
-                "citations": "Lou, Wei (2004); Lou, Wei and Yi Qi (2009); Lou, Wei and Fahui Wang (2003); Saxon, James et al. (2020)",
-                "category": "Health",
-                "measure": "prim_e2sfca",
-                "full_name": "primary_care_access_scores:prim_e2sfca",
-                "db_name": "dc_health_behavior_diet.va_hdcttr_sdad_2021_primary_care_access_scores"
+                "long_description": "Primary care access score based on 2-step enhanced floating catchment areas. This method is an aggregation of physicians per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for physicians (population served by physicians). Provider address data was collected from WebMD's online Physician Directory.\n",
+                "statement": "The primary care accessibility score for {region_name}  is  {value}",
+                "citations": [
+                  {
+                    "id": 1,
+                    "author": "Wei Lou",
+                    "year": 2004,
+                    "title": "Using a gis-based floating catchment method to assess areas with shortage of physicians",
+                    "journal": "Health & Place",
+                    "number": "10(1)",
+                    "page": "1-11",
+                    "doi": "doi:10.1016/S1353-8292(02)00067-9."
+                  },
+                  {
+                    "id": 2,
+                    "author": "Wei Lou and Yi Qi",
+                    "year": 2009,
+                    "title": "An enhanced two-step floating catchment area (e2sfca) method for measuring spatial accessibility to primary care physicians",
+                    "journal": "Health & Place",
+                    "number": "15(4)",
+                    "page": "1100-1107",
+                    "doi": "doi:10.1016/j.healthplace.2009.06.002"
+                  },
+                  {
+                    "id": 3,
+                    "author": "Wei Luo and Fahui Wang",
+                    "year": 2003,
+                    "title": "Measures of spatial accessibility to health care in a gis environment: synthesis and a case study in the Chicago region",
+                    "journal": "Environment and Planning B: Planning and Design",
+                    "number": "30(6)",
+                    "page": "865-884",
+                    "doi": "doi:10.1068/b29120"
+                  },
+                  {
+                    "id": 4,
+                    "author": "James Saxon, Julia Koschinsky, Karina Acosta, Vidal Anguiano, Luc Anselin, and Sergio Rey",
+                    "year": 2020,
+                    "title": "An Open Software Environment to Make Spatial Access Metrics More Accessible",
+                    "journal": "University of Chicago: Center for Spatial Data Science",
+                    "number": "Preprint",
+                    "page": {},
+                    "doi": "doi:10.13140/RG.2.2.12396.28807"
+                  }
+                ],
+                "source": [
+                  {
+                    "name": "WebMD Physician Directory",
+                    "date_accessed": 2021,
+                    "url": "https://doctor.webmd.com/"
+                  }
+                ]
               },
               "type": "float",
               "missing": 12381,
@@ -2062,19 +3252,24 @@ const site = {
               "name": "primary_care_access_scores:prim_cnt",
               "duplicates": 14175,
               "info": {
+                "category": "Health",
+                "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_primary_care_access_scores",
+                "full_name": "primary_care_access_scores:prim_cnt",
+                "measure": "prim_cnt",
                 "type": "count",
                 "short_name": "Primary care access (count)",
                 "long_name": "Primary care access by count",
                 "short_description": "Count of primary care physicians based on provider locations",
                 "long_description": "Count of primary care physicians based on provider locations. Address data was collected from WebMD's online Physician Directory.",
-                "statement": "There are {primacare_cnt} primary care physicians in {region_name}",
-                "name": "WebMD Physician Directory",
-                "url": "https://doctor.webmd.com/",
-                "citations": "",
-                "category": "Health",
-                "measure": "prim_cnt",
-                "full_name": "primary_care_access_scores:prim_cnt",
-                "db_name": "dc_health_behavior_diet.va_hdcttr_sdad_2021_primary_care_access_scores"
+                "statement": "There are {value} primary care physicians in {region_name}",
+                "citations": {},
+                "source": [
+                  {
+                    "name": "WebMD Physician Directory",
+                    "date_accessed": 2021,
+                    "url": "https://doctor.webmd.com/"
+                  }
+                ]
               },
               "type": "integer",
               "missing": 12989,
@@ -2114,8 +3309,73 @@ const site = {
         }
       ],
       "effects": {
-        "display": "sec22"
+        "display": "sec32"
       }
+    }
+  ],
+  "variables": [
+    {
+      "id": "shapes",
+      "states": [
+        {
+          "condition": [
+            {
+              "id": "selected_district",
+              "type": "",
+              "value": ""
+            },
+            {
+              "id": "selected_county",
+              "type": "!",
+              "value": ""
+            }
+          ],
+          "value": "county"
+        },
+        {
+          "condition": [
+            {
+              "id": "selected_county",
+              "type": "",
+              "value": ""
+            }
+          ],
+          "value": "tract"
+        }
+      ],
+      "default": "district"
+    },
+    {
+      "id": "region_select",
+      "states": [
+        {
+          "condition": [
+            {
+              "id": "shapes",
+              "type": "=",
+              "value": "county"
+            }
+          ],
+          "value": "selected_county"
+        }
+      ],
+      "default": "selected_district"
+    },
+    {
+      "id": "selected_region",
+      "states": [
+        {
+          "condition": [
+            {
+              "id": "selected_county",
+              "type": "",
+              "value": ""
+            }
+          ],
+          "value": "selected_county"
+        }
+      ],
+      "default": "selected_district"
     }
   ],
   "dataviews": {
@@ -2145,11 +3405,30 @@ const site = {
   },
   "info": {
     "info0": {
+      "title": "features.name",
+      "body": [
+        {
+          "name": "Region Type",
+          "value": "features.type"
+        },
+        {
+          "name": "",
+          "value": "value"
+        }
+      ],
+      "variable_info": {
+        "title": "short_name",
+        "body": "short_description"
+      },
+      "default": {
+        "title": "Virginia",
+        "body": "Hover over or select a region for more information."
+      },
       "subto": ["map0", "plot0"]
     }
   },
   "text": {
-    "text6": {
+    "text7": {
       "text": [
         {
           "button": {
@@ -2195,7 +3474,7 @@ const site = {
         }
       ]
     },
-    "text7": {
+    "text8": {
       "text": [
         [
           {
@@ -2238,7 +3517,7 @@ const site = {
     }
   },
   "tables": {
-    "table10": {
+    "table11": {
       "paging": false,
       "scrollY": 400,
       "scrollX": 500,
@@ -2260,7 +3539,7 @@ const site = {
       "wide": false,
       "single_variable": false
     },
-    "table12": {
+    "table13": {
       "info": false,
       "paging": false,
       "searching": false,
@@ -2374,69 +3653,36 @@ const site = {
       }
     }
   },
-  "variables": [
-    {
-      "id": "shapes",
-      "states": [
-        {
-          "condition": [
-            {
-              "id": "selected_district",
-              "type": "",
-              "value": ""
-            },
-            {
-              "id": "selected_county",
-              "type": "!",
-              "value": ""
-            }
-          ],
-          "value": "county"
-        },
-        {
-          "condition": [
-            {
-              "id": "selected_county",
-              "type": "",
-              "value": ""
-            }
-          ],
-          "value": "tract"
-        }
-      ],
-      "default": "district"
+  "credits": {
+    "bootstrap": {
+      "name": "Bootstrap",
+      "url": "https://getbootstrap.com",
+      "version": "5.1.3"
     },
-    {
-      "id": "region_select",
-      "states": [
-        {
-          "condition": [
-            {
-              "id": "shapes",
-              "type": "=",
-              "value": "county"
-            }
-          ],
-          "value": "selected_county"
-        }
-      ],
-      "default": "selected_district"
+    "leaflet": {
+      "name": "Leaflet",
+      "url": "https://leafletjs.com",
+      "version": "1.7.1",
+      "description": "A JS library for interactive maps"
     },
-    {
-      "id": "selected_region",
-      "states": [
-        {
-          "condition": [
-            {
-              "id": "selected_county",
-              "type": "",
-              "value": ""
-            }
-          ],
-          "value": "selected_county"
-        }
-      ],
-      "default": "selected_district"
+    "Stamen toner-light": {
+      "name": "Stamen toner-light",
+      "url": "https://stamen.com",
+      "description": "Map tiles by Stamen Design"
+    },
+    "OpenStreetMap": {
+      "name": "OpenStreetMap",
+      "url": "https://www.openstreetmap.org/copyright"
+    },
+    "plotly": {
+      "name": "Plotly",
+      "url": "https://plotly.com",
+      "version": "2.4.2"
+    },
+    "datatables": {
+      "name": "DataTables",
+      "url": "https://datatables.net",
+      "version": "1.11.3"
     }
-  ]
+  }
 }

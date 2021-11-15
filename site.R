@@ -21,10 +21,12 @@ page_navbar(
         "Color Palette", options = "palettes", default = "rdylbu7", id = "selected_palette",
         floating_label = FALSE
       ),
+      input_switch("Color by Order", default_on = FALSE, id = "settings.color_by_order"),
       input_number("Digits", "settings.digits", min = 0, max = 6, floating_label = FALSE),
       input_select(
-        "Summary Level", options = c("filtered", "all"), default = "filtered",
-        display = c("Entire State", "Selected Region"), id = "settings.summary_selection", floating_label = FALSE
+        "Summary Level", options = c("dataset", "filtered", "all"), default = "dataset",
+        display = c("All Regions", "Selected Region Types", "Selected Region"), id = "settings.summary_selection",
+        floating_label = FALSE
       )
     )
   ),
@@ -137,13 +139,10 @@ input_dataview(
   palette = "selected_palette"
 )
 
-## `input_rule` can be used to specify if-then conditions for inputs
-# input_rule("scale == 'county' & shapes == 'district'", list(shapes = "county"))
-
 # use `page_section` to build the page's layout
 page_section(
   type = "col",
-  # use `output_` functions to add data displays
+  # use `output_` functions to add state and data displays
   output_text(c(
     "State: Virginia[r selected_district]",
     "? > Health District: {selected_district}[r selected_county]",
@@ -157,7 +156,7 @@ page_section(
   page_section(
     type = "row",
     wraps = "col",
-    sizes = c(8, 4),
+    sizes = c(NA, 4),
     {
       ## add a map
       shape_names <- c("district", "county", "tract")
@@ -191,21 +190,38 @@ page_section(
         )
       )
     },
-    
     page_section(
       type = "d-flex flex-column col align-items-end",
-      ## add an pane to display information about selected and hovered over data
-      output_info(
-        body = c("Region Type" = "features.type", "value"),
-        default = c(
-          title = "Virginia",
-          body = "Hover over or select a region for more information."
+      ## use `output_info` to display information about selected and hovered-over entities
+      page_section(
+        wraps = "row",
+        output_info(
+          title = "features.name",
+          default = c(title = "Virginia", body = "Hover over or select a region for more information."),
+          dataview = "primary_view",
+          subto = c("map0", "plot0")
         ),
+        output_info(
+          body = c(
+            "Region Type" = "features.type",
+            "variables.measure" = "selected_variable",
+            "variables.statement"
+          ),
+          row_style = c("table", "stack"),
+          dataview = "primary_view",
+          subto = c("map0", "plot0"),
+          variable_info = TRUE
+        )
+      ),
+      output_info(
+        title = "variables.short_name",
+        body = c(Year = "data.time", "variables.source"),
         dataview = "primary_view",
-        subto = c("map0", "plot0")
+        id = "variable_info_pane",
+        variable_info = TRUE
       ),
       output_legend("selected_palette", "Below", "Region Median", "Above"),
-      wraps = c("row mb-auto", "row")
+      wraps = c("row mb-auto", "row", "row")
     )
   ),
   page_section(

@@ -4,7 +4,7 @@ const site = {
   "metadata": {
     "package": "data/datapackage.json",
     "datasets": ["district", "county", "tract"],
-    "variables": ["ID", "2year_colleges_access_scores:norm_2sefca", "drive_times_nearest_2year_colleges:median_drive_time_top5", "3rd_grade_median_read_score:median_read_pass_rate", "daycare_services_access_scores:daycare_norm_3sfca", "daycare_services_access_scores:daycare_cnt", "drive_times_nearest_daycares:median_drive_time_top5", "dei_index:norm_dei", "dentist_access_scores:dent_e2sfca", "dentist_access_scores:dent_cnt", "download_speeds:download", "trade_schools_access_scores:norm_3sfca", "drive_times_nearest_trade_schools:median_drive_time_top5", "have_computer:perc_have_computer", "have_internet:perc_have_internet_access", "health_literacy_estimates:health_literacy_estimate", "no_health_insurance_19_to_64:no_hlth_ins_pct", "obgyn_access_scores:obgyn_e2sfca", "obgyn_access_scores:obgyn_cnt", "pct_pop_broadband:perc_w_broadband", "pct_pop_cable_fiber_dsl:perc_w_cable_fiber_DSL", "pediatrics_access_scores:ped_e2sfca", "pediatrics_access_scores:ped_cnt", "post_hs_education:perc_post_hs_edu", "preventable_hospitalizations:prevent_hosp_rate", "primary_care_access_scores:prim_e2sfca", "primary_care_access_scores:prim_cnt", "time"],
+    "variables": ["ID", "2year_colleges_access_scores:norm_2sefca", "drive_times_nearest_2year_colleges:median_drive_time_top5", "3rd_grade_median_read_score:median_read_pass_rate", "daycare_services_access_scores:daycare_norm_3sfca", "daycare_services_access_scores:daycare_cnt", "drive_times_nearest_daycares:median_drive_time_top5", "dei_index:norm_dei", "dentist_access_scores:dent_e2sfca", "dentist_access_scores:dent_cnt", "download_speeds:download", "trade_schools_access_scores:norm_2sefca", "drive_times_nearest_trade_schools:median_drive_time_top5", "have_computer:perc_have_computer", "have_internet:perc_have_internet_access", "health_literacy_estimates:health_literacy_estimate", "no_health_insurance_19_to_64:no_hlth_ins_pct", "obgyn_access_scores:obgyn_e2sfca", "obgyn_access_scores:obgyn_cnt", "pct_pop_broadband:perc_w_broadband", "pct_pop_cable_fiber_dsl:perc_w_cable_fiber_DSL", "pediatrics_access_scores:ped_e2sfca", "pediatrics_access_scores:ped_cnt", "post_hs_education:perc_post_hs_edu", "preventable_hospitalizations:prevent_hosp_rate", "primary_care_access_scores:prim_e2sfca", "primary_care_access_scores:prim_cnt", "time"],
     "info": {
       "district": {
         "bytes": 99091,
@@ -51,17 +51,17 @@ const site = {
                 "long_name": "2 year college access score (2-step enhanced floating catchment areas)",
                 "short_description": "Index of 2-year college accessibility based on supply and demand of providers",
                 "long_description": "2-year college access score based on 2-step enhanced floating catchment areas. This method is an aggregation of college capacity per population ratios weighted by distance or travel time in each catchment area (area within which an institution is accessible). Weights are defined for the demand for 2-year college (whole population in an area served by the institution) and supply is the total number of students enrolled in a year (graduate and undergraduate).",
-                "statement": "The 2-year college accessibility score for {region_name} is  {value}",
+                "statement": "The 2-year college accessibility score for {features.name} is {value}",
                 "citations": [
                   {
                     "id": 1,
                     "author": "Wei Lou",
                     "year": 2004,
-                    "title": "Using a gis-based floating catchment method to assess areas with shortage of physicians",
+                    "title": "Using a GIS-based floating catchment method to assess areas with shortage of physicians",
                     "journal": "Health & Place",
                     "number": "10(1)",
                     "page": "1-11",
-                    "doi": "doi:10.1016/S1353-8292(02)00067-9."
+                    "doi": "10.1016/S1353-8292(02)00067-9"
                   },
                   {
                     "id": 2,
@@ -71,17 +71,17 @@ const site = {
                     "journal": "Health & Place",
                     "number": "15(4)",
                     "page": "1100-1107",
-                    "doi": "doi:10.1016/j.healthplace.2009.06.002"
+                    "doi": "10.1016/j.healthplace.2009.06.002"
                   },
                   {
                     "id": 3,
                     "author": "Wei Luo and Fahui Wang",
                     "year": 2003,
-                    "title": "Measures of spatial accessibility to health care in a gis environment: synthesis and a case study in the Chicago region",
+                    "title": "Measures of spatial accessibility to health care in a GIS environment: synthesis and a case study in the Chicago region",
                     "journal": "Environment and Planning B: Planning and Design",
                     "number": "30(6)",
                     "page": "865-884",
-                    "doi": "doi:10.1068/b29120"
+                    "doi": "10.1068/b29120"
                   },
                   {
                     "id": 4,
@@ -91,14 +91,14 @@ const site = {
                     "journal": "University of Chicago: Center for Spatial Data Science",
                     "number": "Preprint",
                     "page": {},
-                    "doi": "doi:10.13140/RG.2.2.12396.28807"
+                    "doi": "10.13140/RG.2.2.12396.28807"
                   }
                 ],
                 "source": [
                   {
                     "name": "National Center for Education Statistics",
                     "date_accessed": 2021,
-                    "url": "https://nces.ed.gov/"
+                    "url": "https://nces.ed.gov"
                   }
                 ]
               },
@@ -122,13 +122,13 @@ const site = {
                 "long_name": "2-year college access by median dive time to the five closest colleges in minutes",
                 "short_description": "Median drive time (minutes) to the five closest 2-year colleges",
                 "long_description": {},
-                "statement": "The median drive time to the five closest 2-year colleges to {region_name} is {value} minutes",
+                "statement": "The median drive time to the five closest 2-year colleges to {features.name} is {value} minutes",
                 "citations": {},
                 "source": [
                   {
                     "name": "National Center for Education Statistics",
                     "date_accessed": 2021,
-                    "url": "https://nces.ed.gov/"
+                    "url": "https://nces.ed.gov"
                   }
                 ]
               },
@@ -152,7 +152,7 @@ const site = {
                 "long_name": "Median percent of 3rd grade population passing reading test",
                 "short_description": "Median percent of 3rd grade population passing reading test for schools in the region",
                 "long_description": "Median percent of 3rd grade population passing reading test. The median is calculated across schools in the region.",
-                "statement": "The median percent of 3rd graders with passing reading scores in {region_name} is {value} percent",
+                "statement": "The median percent of 3rd graders with passing reading scores in {features.name} is {value} percent",
                 "citations": {},
                 "source": [
                   {
@@ -182,17 +182,17 @@ const site = {
                 "long_name": "Day care access score (3-step floating catchment area)",
                 "short_description": "Index of day care accessibility based on supply of and demand for providers",
                 "long_description": "Primary care access score based on 2-step enhanced floating catchment areas. This method is an aggregation of day care facilities per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Provider address data was collected from Virginia Department of Social Services day care search tool. Demand = 0-12 years, supply = day care capacity",
-                "statement": "The daycare accessibility score for {region_name} is  {value}",
+                "statement": "The daycare accessibility score for {features.name} is {value}",
                 "citations": [
                   {
                     "id": 1,
                     "author": "Wei Lou",
                     "year": 2004,
-                    "title": "Using a gis-based floating catchment method to assess areas with shortage of physicians",
+                    "title": "Using a GIS-based floating catchment method to assess areas with shortage of physicians",
                     "journal": "Health & Place",
                     "number": "10(1)",
                     "page": "1-11",
-                    "doi": "doi:10.1016/S1353-8292(02)00067-9."
+                    "doi": "10.1016/S1353-8292(02)00067-9"
                   },
                   {
                     "id": 2,
@@ -202,17 +202,17 @@ const site = {
                     "journal": "Health & Place",
                     "number": "15(4)",
                     "page": "1100-1107",
-                    "doi": "doi:10.1016/j.healthplace.2009.06.002"
+                    "doi": "10.1016/j.healthplace.2009.06.002"
                   },
                   {
                     "id": 3,
                     "author": "Wei Luo and Fahui Wang",
                     "year": 2003,
-                    "title": "Measures of spatial accessibility to health care in a gis environment: synthesis and a case study in the Chicago region",
+                    "title": "Measures of spatial accessibility to health care in a GIS environment: synthesis and a case study in the Chicago region",
                     "journal": "Environment and Planning B: Planning and Design",
                     "number": "30(6)",
                     "page": "865-884",
-                    "doi": "doi:10.1068/b29120"
+                    "doi": "10.1068/b29120"
                   },
                   {
                     "id": 4,
@@ -222,7 +222,7 @@ const site = {
                     "journal": "University of Chicago: Center for Spatial Data Science",
                     "number": "Preprint",
                     "page": {},
-                    "doi": "doi:10.13140/RG.2.2.12396.28807"
+                    "doi": "10.13140/RG.2.2.12396.28807"
                   }
                 ],
                 "source": [
@@ -253,7 +253,7 @@ const site = {
                 "long_name": "Access to day care by count",
                 "short_description": "Count of day care capacity (seats) based on provider locations",
                 "long_description": "Count of day care capacity (seats) based on provider locations. Address  and capacity data was collected from Virginia Department of Social Services day care search tool.",
-                "statement": "There are {value} day cares seats in {region_name}",
+                "statement": "There are {value} day cares seats in {features.name}",
                 "citations": {},
                 "source": [
                   {
@@ -283,7 +283,7 @@ const site = {
                 "long_name": "Day care access by median drive time to the five closest day cares in minutes",
                 "short_description": "Median drive time (minutes) to the five closest day cares",
                 "long_description": {},
-                "statement": "The median drive time to the five closest day cares to {region_name} is {value} minutes",
+                "statement": "The median drive time to the five closest day cares to {features.name} is {value} minutes",
                 "citations": {},
                 "source": [
                   {
@@ -310,10 +310,10 @@ const site = {
                 "measure": "norm_dei",
                 "type": "index",
                 "short_name": "Digital Equity Index",
-                "long_name": "Digitial Equity Index",
-                "short_description": "Digital Equity Index captures the relative equity of digitial access, with 0 being a score of relative equity and 100 being relative inequity.",
-                "long_description": "The Digital Equity Index captures the relative equity of digitial access. The Digital Equity Index uses is a composite of measures of broadband infrastructure and adoption and socioeconomic variables, with 0 being a score of relative equity and 100 being relative inequity. The variables include x, y, z.",
-                "statement": "The digital equity index for {region_name} is {value}",
+                "long_name": "Digital Equity Index",
+                "short_description": "Digital Equity Index captures the relative equity of digital access, with 0 being a score of relative equity and 100 being relative inequity.",
+                "long_description": "The Digital Equity Index captures the relative equity of digital access. The Digital Equity Index uses is a composite of measures of broadband infrastructure and adoption and socioeconomic variables, with 0 being a score of relative equity and 100 being relative inequity. The variables include x, y, z.",
+                "statement": "The digital equity index for {features.name} is {value}",
                 "citations": [
                   {
                     "id": 5,
@@ -323,7 +323,7 @@ const site = {
                     "journal": "Purdue Center for Regional Development",
                     "number": {},
                     "page": {},
-                    "doi": "http://pcrd.purdue.edu/ddi"
+                    "url": "http://pcrd.purdue.edu/ddi"
                   }
                 ],
                 "source": [
@@ -358,18 +358,18 @@ const site = {
                 "short_name": "Dental care access score",
                 "long_name": "Dental care access score (2 step-enhanced floating catchment areas)",
                 "short_description": "Index of dental care accessibility based on supply and demand of providers",
-                "long_description": "Dental care access score based on 2-step ehanced floating catchment areas. This method is an aggregation of dentists per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for dentists (population served by dentists). Provider address data was collected from WebMD's online Physician Directory.",
-                "statement": "The dental care access score for {region_name} is {value}",
+                "long_description": "Dental care access score based on 2-step enhanced floating catchment areas. This method is an aggregation of dentists per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for dentists (population served by dentists). Provider address data was collected from WebMD's online Physician Directory.",
+                "statement": "The dental care access score for {features.name} is {value}",
                 "citations": [
                   {
                     "id": 1,
                     "author": "Wei Lou",
                     "year": 2004,
-                    "title": "Using a gis-based floating catchment method to assess areas with shortage of physicians",
+                    "title": "Using a GIS-based floating catchment method to assess areas with shortage of physicians",
                     "journal": "Health & Place",
                     "number": "10(1)",
                     "page": "1-11",
-                    "doi": "doi:10.1016/S1353-8292(02)00067-9."
+                    "doi": "10.1016/S1353-8292(02)00067-9"
                   },
                   {
                     "id": 2,
@@ -379,17 +379,17 @@ const site = {
                     "journal": "Health & Place",
                     "number": "15(4)",
                     "page": "1100-1107",
-                    "doi": "doi:10.1016/j.healthplace.2009.06.002"
+                    "doi": "10.1016/j.healthplace.2009.06.002"
                   },
                   {
                     "id": 3,
                     "author": "Wei Luo and Fahui Wang",
                     "year": 2003,
-                    "title": "Measures of spatial accessibility to health care in a gis environment: synthesis and a case study in the Chicago region",
+                    "title": "Measures of spatial accessibility to health care in a GIS environment: synthesis and a case study in the Chicago region",
                     "journal": "Environment and Planning B: Planning and Design",
                     "number": "30(6)",
                     "page": "865-884",
-                    "doi": "doi:10.1068/b29120"
+                    "doi": "10.1068/b29120"
                   },
                   {
                     "id": 4,
@@ -399,7 +399,7 @@ const site = {
                     "journal": "University of Chicago: Center for Spatial Data Science",
                     "number": "Preprint",
                     "page": {},
-                    "doi": "doi:10.13140/RG.2.2.12396.28807"
+                    "doi": "10.13140/RG.2.2.12396.28807"
                   }
                 ],
                 "source": [
@@ -430,7 +430,7 @@ const site = {
                 "long_name": "Dental care access by count",
                 "short_description": "Count of dentists based on provider locations",
                 "long_description": "Count of dentists based on provider locations. Address data was collected from WebMD's online Physician Directory.",
-                "statement": "There are {value} densits in {region_name}",
+                "statement": "There are {value} dentists in {features.name}",
                 "citations": {},
                 "source": [
                   {
@@ -460,7 +460,7 @@ const site = {
                 "long_name": "Average download speed (MB/s)",
                 "short_description": "Average download speed for internet connection in MB/s",
                 "long_description": "The average download speed for internet users' connections who performed a speed check using Ookla. Speeds are reported in MB/s. A speed of 100 MB/s is considered adequate for school work, video calling etc.",
-                "statement": "The average download speed for internet connections in {region_name} is {value} MB/s",
+                "statement": "The average download speed for internet connections in {features.name} is {value} MB/s",
                 "citations": {},
                 "source": [
                   {
@@ -478,12 +478,73 @@ const site = {
               "max": 208.2953
             },
             {
-              "name": "trade_schools_access_scores:norm_3sfca",
-              "duplicates": 221,
+              "name": "trade_schools_access_scores:norm_2sefca",
+              "duplicates": 227,
+              "info": {
+                "category": "Education",
+                "measure_table": "dc_education_training.va_hdcttr_sdad_2019_trade_schools_access_scores",
+                "full_name": "trade_schools_access_scores:norm_2sefca",
+                "measure": "norm_2sefca",
+                "type": "index",
+                "short_name": "Trade school access score",
+                "long_name": "Trade school access score (2-step enhanced floating catchment areas)",
+                "short_description": "Index of trade school accessibility based on supply and demand of providers",
+                "long_description": "Trade school  access score based on 2-step enhanced floating catchment areas. This method is an aggregation of trade school capacity per population ratios weighted by distance or travel time in each catchment area (area within which an institution is accessible). Weights are defined for the demand for trade schools (whole population in an area served by the institution) and supply is the total number of students enrolled in a year (undergraduate).",
+                "statement": "The trade school accessibility score for {features.name} is {value}",
+                "citations": [
+                  {
+                    "id": 1,
+                    "author": "Wei Lou",
+                    "year": 2004,
+                    "title": "Using a GIS-based floating catchment method to assess areas with shortage of physicians",
+                    "journal": "Health & Place",
+                    "number": "10(1)",
+                    "page": "1-11",
+                    "doi": "10.1016/S1353-8292(02)00067-9"
+                  },
+                  {
+                    "id": 2,
+                    "author": "Wei Lou and Yi Qi",
+                    "year": 2009,
+                    "title": "An enhanced two-step floating catchment area (e2sfca) method for measuring spatial accessibility to primary care physicians",
+                    "journal": "Health & Place",
+                    "number": "15(4)",
+                    "page": "1100-1107",
+                    "doi": "10.1016/j.healthplace.2009.06.002"
+                  },
+                  {
+                    "id": 3,
+                    "author": "Wei Luo and Fahui Wang",
+                    "year": 2003,
+                    "title": "Measures of spatial accessibility to health care in a GIS environment: synthesis and a case study in the Chicago region",
+                    "journal": "Environment and Planning B: Planning and Design",
+                    "number": "30(6)",
+                    "page": "865-884",
+                    "doi": "10.1068/b29120"
+                  },
+                  {
+                    "id": 4,
+                    "author": "James Saxon, Julia Koschinsky, Karina Acosta, Vidal Anguiano, Luc Anselin, and Sergio Rey",
+                    "year": 2020,
+                    "title": "An Open Software Environment to Make Spatial Access Metrics More Accessible",
+                    "journal": "University of Chicago: Center for Spatial Data Science",
+                    "number": "Preprint",
+                    "page": {},
+                    "doi": "10.13140/RG.2.2.12396.28807"
+                  }
+                ],
+                "source": [
+                  {
+                    "name": "National Center for Education Statistics",
+                    "date_accessed": 2021,
+                    "url": "https://nces.ed.gov"
+                  }
+                ]
+              },
               "type": "float",
               "missing": 210,
-              "mean": 20.4887,
-              "sd": 24.1244,
+              "mean": 19.6666,
+              "sd": 28.2957,
               "min": 0,
               "max": 100
             },
@@ -500,13 +561,13 @@ const site = {
                 "long_name": "Trade school access by median drive time to the five closest schools in minutes",
                 "short_description": "Mean drive time (minutes) to the five closest trade schools",
                 "long_description": {},
-                "statement": "The median drive time to the five closest trade schools to {region_name} is {value} minutes",
+                "statement": "The median drive time to the five closest trade schools to {features.name} is {value} minutes",
                 "citations": {},
                 "source": [
                   {
                     "name": "National Center for Education Statistics",
                     "date_accessed": 2021,
-                    "url": "https://nces.ed.gov/"
+                    "url": "https://nces.ed.gov"
                   }
                 ]
               },
@@ -530,7 +591,7 @@ const site = {
                 "long_name": "Percent of population with a computer",
                 "short_description": "Percent of the population self-reported to have a computer at home",
                 "long_description": {},
-                "statement": "{value} percent of the population in {region_name} have a computer",
+                "statement": "{value} percent of the population in {features.name} have a computer",
                 "citations": {},
                 "source": [
                   {
@@ -558,9 +619,9 @@ const site = {
                 "type": "percent",
                 "short_name": "Population with internet access",
                 "long_name": "Percent of population with internet access",
-                "short_description": "Percent of the population self-reported to have internet acess at home",
+                "short_description": "Percent of the population self-reported to have internet access at home",
                 "long_description": {},
-                "statement": "{value} percent of the population in {region_name} have internet access",
+                "statement": "{value} percent of the population in {features.name} have internet access",
                 "citations": {},
                 "source": [
                   {
@@ -590,7 +651,7 @@ const site = {
                 "long_name": "Health literacy estimate",
                 "short_description": "Health literacy estimate captures the adult population's ability to obtain, process, and understand basic health services to make appropriate health decisions",
                 "long_description": "The health literacy estimate captures the adult population's ability to obtain, process, and understand basic health services to make appropriate health decisions. Health literacy estimate is based on variables of demographic characteristics, health status, and health care use.",
-                "statement": "The health literacy estimate for {region_name} is {value}",
+                "statement": "The health literacy estimate for {features.name} is {value}",
                 "citations": [
                   {
                     "id": 6,
@@ -600,7 +661,7 @@ const site = {
                     "journal": "Health Lit Res Pract",
                     "number": "1(4)",
                     "page": "e216-e230",
-                    "doi": "doi: 10.3928/24748307-20170929-01"
+                    "doi": " 10.3928/24748307-20170929-01"
                   },
                   {
                     "id": 7,
@@ -610,14 +671,14 @@ const site = {
                     "journal": "Journal of Evaluation in Clinical Practice",
                     "number": "26(6)",
                     "page": "1711-1721",
-                    "doi": "doi:10.1111/jep.13341"
+                    "doi": "10.1111/jep.13341"
                   }
                 ],
                 "source": [
                   {
                     "name": "Medical Expenditure Panel Survey",
                     "date_accessed": 2021,
-                    "url": "https://www.meps.ahrq.gov/mepsweb/"
+                    "url": "https://www.meps.ahrq.gov/mepsweb"
                   },
                   {
                     "name": "American Community Survey",
@@ -646,7 +707,7 @@ const site = {
                 "long_name": "Percent of population without health insurance",
                 "short_description": "Percent of the population (ages 16-64) self-reported to not be currently covered by any type of health insurance or health coverage plan",
                 "long_description": "Percent of the population self-reported to not be currently covered by any type of health insurance or health coverage plan. This data comes from Question 16 of the Person section of the American Community Survey.",
-                "statement": "{value} percent of the population has no health insurance in  {region_name}",
+                "statement": "{value} percent of the population has no health insurance in {features.name}",
                 "citations": {},
                 "source": [
                   {
@@ -676,17 +737,17 @@ const site = {
                 "long_name": "OBGYN care access score (2 step-enhanced floating catchment areas)",
                 "short_description": "Index of OBGYN care accessibility based on supply and demand of providers",
                 "long_description": "OBGYN care access score based on 2-step enhanced floating catchment areas. This method is an aggregation of OBGYNs per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for OBGYNs (population served by OBGYNs). Provider address data was collected from WebMD's online physician directory.\n",
-                "statement": "The OBGYN access score for {region_name}  is {value}",
+                "statement": "The OBGYN access score for {features.name}  is {value}",
                 "citations": [
                   {
                     "id": 1,
                     "author": "Wei Lou",
                     "year": 2004,
-                    "title": "Using a gis-based floating catchment method to assess areas with shortage of physicians",
+                    "title": "Using a GIS-based floating catchment method to assess areas with shortage of physicians",
                     "journal": "Health & Place",
                     "number": "10(1)",
                     "page": "1-11",
-                    "doi": "doi:10.1016/S1353-8292(02)00067-9."
+                    "doi": "10.1016/S1353-8292(02)00067-9"
                   },
                   {
                     "id": 2,
@@ -696,17 +757,17 @@ const site = {
                     "journal": "Health & Place",
                     "number": "15(4)",
                     "page": "1100-1107",
-                    "doi": "doi:10.1016/j.healthplace.2009.06.002"
+                    "doi": "10.1016/j.healthplace.2009.06.002"
                   },
                   {
                     "id": 3,
                     "author": "Wei Luo and Fahui Wang",
                     "year": 2003,
-                    "title": "Measures of spatial accessibility to health care in a gis environment: synthesis and a case study in the Chicago region",
+                    "title": "Measures of spatial accessibility to health care in a GIS environment: synthesis and a case study in the Chicago region",
                     "journal": "Environment and Planning B: Planning and Design",
                     "number": "30(6)",
                     "page": "865-884",
-                    "doi": "doi:10.1068/b29120"
+                    "doi": "10.1068/b29120"
                   },
                   {
                     "id": 4,
@@ -716,14 +777,14 @@ const site = {
                     "journal": "University of Chicago: Center for Spatial Data Science",
                     "number": "Preprint",
                     "page": {},
-                    "doi": "doi:10.13140/RG.2.2.12396.28807"
+                    "doi": "10.13140/RG.2.2.12396.28807"
                   }
                 ],
                 "source": [
                   {
                     "name": "WebMD Physician Directory",
                     "date_accessed": 2021,
-                    "url": "https://doctor.webmd.com/"
+                    "url": "https://doctor.webmd.com"
                   }
                 ]
               },
@@ -744,16 +805,16 @@ const site = {
                 "measure": "obgyn_cnt",
                 "type": "count",
                 "short_name": "OBGYN care access (count)",
-                "long_name": "OBGYN care acess by count",
+                "long_name": "OBGYN care access by count",
                 "short_description": "Count of OBGYNs based on provider locations",
                 "long_description": "Count of OBGYN care providers based on provider locations. Address data was collected from WebMD's online Physician Directory.",
-                "statement": "There are {value}  OBGYNs in {region_name}",
+                "statement": "There are {value}  OBGYNs in {features.name}",
                 "citations": {},
                 "source": [
                   {
                     "name": "WebMD Physician Directory",
                     "date_accessed": 2021,
-                    "url": "https://doctor.webmd.com/"
+                    "url": "https://doctor.webmd.com"
                   }
                 ]
               },
@@ -777,7 +838,7 @@ const site = {
                 "long_name": "Percent of population with broadband",
                 "short_description": "Percent of population self-reported to have a broadband internet connection (any type of internet other than a dial-up)",
                 "long_description": {},
-                "statement": "{value} percent of the population in {region_name} has a broadband connection",
+                "statement": "{value} percent of the population in {features.name} has a broadband connection",
                 "citations": {},
                 "source": [
                   {
@@ -807,7 +868,7 @@ const site = {
                 "long_name": "Percent of population with a high speed internet service (cable, fiber optic, or DSL)",
                 "short_description": "Percent of population self-reported to have a high speed internet service (cable, fiber optic, or DSL)",
                 "long_description": {},
-                "statement": "{value} percent of the population in {region_name} has a cable fiber or DSL internet connection",
+                "statement": "{value} percent of the population in {features.name} has a cable fiber or DSL internet connection",
                 "citations": {},
                 "source": [
                   {
@@ -837,17 +898,17 @@ const site = {
                 "long_name": "Pediatric care access score (2-step enhanced floating catchment areas)",
                 "short_description": "Index of pediatric care physician accessibility based on supply and demand of providers",
                 "long_description": {},
-                "statement": "The pediatric care accessibility score for {region_name} is  {value}",
+                "statement": "The pediatric care accessibility score for {features.name} is {value}",
                 "citations": [
                   {
                     "id": 1,
                     "author": "Wei Lou",
                     "year": 2004,
-                    "title": "Using a gis-based floating catchment method to assess areas with shortage of physicians",
+                    "title": "Using a GIS-based floating catchment method to assess areas with shortage of physicians",
                     "journal": "Health & Place",
                     "number": "10(1)",
                     "page": "1-11",
-                    "doi": "doi:10.1016/S1353-8292(02)00067-9."
+                    "doi": "10.1016/S1353-8292(02)00067-9"
                   },
                   {
                     "id": 2,
@@ -857,17 +918,17 @@ const site = {
                     "journal": "Health & Place",
                     "number": "15(4)",
                     "page": "1100-1107",
-                    "doi": "doi:10.1016/j.healthplace.2009.06.002"
+                    "doi": "10.1016/j.healthplace.2009.06.002"
                   },
                   {
                     "id": 3,
                     "author": "Wei Luo and Fahui Wang",
                     "year": 2003,
-                    "title": "Measures of spatial accessibility to health care in a gis environment: synthesis and a case study in the Chicago region",
+                    "title": "Measures of spatial accessibility to health care in a GIS environment: synthesis and a case study in the Chicago region",
                     "journal": "Environment and Planning B: Planning and Design",
                     "number": "30(6)",
                     "page": "865-884",
-                    "doi": "doi:10.1068/b29120"
+                    "doi": "10.1068/b29120"
                   },
                   {
                     "id": 4,
@@ -877,14 +938,14 @@ const site = {
                     "journal": "University of Chicago: Center for Spatial Data Science",
                     "number": "Preprint",
                     "page": {},
-                    "doi": "doi:10.13140/RG.2.2.12396.28807"
+                    "doi": "10.13140/RG.2.2.12396.28807"
                   }
                 ],
                 "source": [
                   {
                     "name": "WebMD Physician Directory",
                     "date_accessed": 2021,
-                    "url": "https://doctor.webmd.com/"
+                    "url": "https://doctor.webmd.com"
                   }
                 ]
               },
@@ -908,13 +969,13 @@ const site = {
                 "long_name": "Pediatric care access by count",
                 "short_description": "Count of pediatricians based on provider locations",
                 "long_description": {},
-                "statement": "There are {value} pediatricians in {region_name}",
+                "statement": "There are {value} pediatricians in {features.name}",
                 "citations": {},
                 "source": [
                   {
                     "name": "WebMD Physician Directory",
                     "date_accessed": 2021,
-                    "url": "https://doctor.webmd.com/"
+                    "url": "https://doctor.webmd.com"
                   }
                 ]
               },
@@ -938,7 +999,7 @@ const site = {
                 "long_name": "Percent  of population with post-high school education",
                 "short_description": "Percent of the population self-reported to have post-high school level degree",
                 "long_description": {},
-                "statement": "{value} percent of the population in {region_name} have a post-high school education",
+                "statement": "{value} percent of the population in {features.name} have a post-high school education",
                 "citations": {},
                 "source": [
                   {
@@ -968,7 +1029,7 @@ const site = {
                 "long_name": "Preventable hospital stays per 100,000 Medicare enrollees",
                 "short_description": "Rate of hospital stays for ambulatory-care sensitive conditions per 100,000 Medicare enrollees",
                 "long_description": "Rate of hospital stays for ambulatory-care sensitive conditions per 100,000 Medicare enrollees. Ambulatory care refers to diagnoses that are usually treatable in outpatient settings. This data is based on Medicare claims and comes from County Health Rankings.",
-                "statement": "{value} percent of the hospitalizations in {region_name}  were preventable (due to conditions usually treated in outpatient settings)",
+                "statement": "{value} percent of the hospitalizations in {features.name}  were preventable (due to conditions usually treated in outpatient settings)",
                 "citations": {},
                 "source": [
                   {
@@ -998,17 +1059,17 @@ const site = {
                 "long_name": "Primary care access score (2-step enhanced floating catchment areas)",
                 "short_description": "Index of primary care physician accessibility based on supply and demand of providers",
                 "long_description": "Primary care access score based on 2-step enhanced floating catchment areas. This method is an aggregation of physicians per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for physicians (population served by physicians). Provider address data was collected from WebMD's online Physician Directory.\n",
-                "statement": "The primary care accessibility score for {region_name}  is  {value}",
+                "statement": "The primary care accessibility score for {features.name}  is {value}",
                 "citations": [
                   {
                     "id": 1,
                     "author": "Wei Lou",
                     "year": 2004,
-                    "title": "Using a gis-based floating catchment method to assess areas with shortage of physicians",
+                    "title": "Using a GIS-based floating catchment method to assess areas with shortage of physicians",
                     "journal": "Health & Place",
                     "number": "10(1)",
                     "page": "1-11",
-                    "doi": "doi:10.1016/S1353-8292(02)00067-9."
+                    "doi": "10.1016/S1353-8292(02)00067-9"
                   },
                   {
                     "id": 2,
@@ -1018,17 +1079,17 @@ const site = {
                     "journal": "Health & Place",
                     "number": "15(4)",
                     "page": "1100-1107",
-                    "doi": "doi:10.1016/j.healthplace.2009.06.002"
+                    "doi": "10.1016/j.healthplace.2009.06.002"
                   },
                   {
                     "id": 3,
                     "author": "Wei Luo and Fahui Wang",
                     "year": 2003,
-                    "title": "Measures of spatial accessibility to health care in a gis environment: synthesis and a case study in the Chicago region",
+                    "title": "Measures of spatial accessibility to health care in a GIS environment: synthesis and a case study in the Chicago region",
                     "journal": "Environment and Planning B: Planning and Design",
                     "number": "30(6)",
                     "page": "865-884",
-                    "doi": "doi:10.1068/b29120"
+                    "doi": "10.1068/b29120"
                   },
                   {
                     "id": 4,
@@ -1038,14 +1099,14 @@ const site = {
                     "journal": "University of Chicago: Center for Spatial Data Science",
                     "number": "Preprint",
                     "page": {},
-                    "doi": "doi:10.13140/RG.2.2.12396.28807"
+                    "doi": "10.13140/RG.2.2.12396.28807"
                   }
                 ],
                 "source": [
                   {
                     "name": "WebMD Physician Directory",
                     "date_accessed": 2021,
-                    "url": "https://doctor.webmd.com/"
+                    "url": "https://doctor.webmd.com"
                   }
                 ]
               },
@@ -1069,13 +1130,13 @@ const site = {
                 "long_name": "Primary care access by count",
                 "short_description": "Count of primary care physicians based on provider locations",
                 "long_description": "Count of primary care physicians based on provider locations. Address data was collected from WebMD's online Physician Directory.",
-                "statement": "There are {value} primary care physicians in {region_name}",
+                "statement": "There are {value} primary care physicians in {features.name}",
                 "citations": {},
                 "source": [
                   {
                     "name": "WebMD Physician Directory",
                     "date_accessed": 2021,
-                    "url": "https://doctor.webmd.com/"
+                    "url": "https://doctor.webmd.com"
                   }
                 ]
               },
@@ -1149,17 +1210,17 @@ const site = {
                 "long_name": "2 year college access score (2-step enhanced floating catchment areas)",
                 "short_description": "Index of 2-year college accessibility based on supply and demand of providers",
                 "long_description": "2-year college access score based on 2-step enhanced floating catchment areas. This method is an aggregation of college capacity per population ratios weighted by distance or travel time in each catchment area (area within which an institution is accessible). Weights are defined for the demand for 2-year college (whole population in an area served by the institution) and supply is the total number of students enrolled in a year (graduate and undergraduate).",
-                "statement": "The 2-year college accessibility score for {region_name} is  {value}",
+                "statement": "The 2-year college accessibility score for {features.name} is {value}",
                 "citations": [
                   {
                     "id": 1,
                     "author": "Wei Lou",
                     "year": 2004,
-                    "title": "Using a gis-based floating catchment method to assess areas with shortage of physicians",
+                    "title": "Using a GIS-based floating catchment method to assess areas with shortage of physicians",
                     "journal": "Health & Place",
                     "number": "10(1)",
                     "page": "1-11",
-                    "doi": "doi:10.1016/S1353-8292(02)00067-9."
+                    "doi": "10.1016/S1353-8292(02)00067-9"
                   },
                   {
                     "id": 2,
@@ -1169,17 +1230,17 @@ const site = {
                     "journal": "Health & Place",
                     "number": "15(4)",
                     "page": "1100-1107",
-                    "doi": "doi:10.1016/j.healthplace.2009.06.002"
+                    "doi": "10.1016/j.healthplace.2009.06.002"
                   },
                   {
                     "id": 3,
                     "author": "Wei Luo and Fahui Wang",
                     "year": 2003,
-                    "title": "Measures of spatial accessibility to health care in a gis environment: synthesis and a case study in the Chicago region",
+                    "title": "Measures of spatial accessibility to health care in a GIS environment: synthesis and a case study in the Chicago region",
                     "journal": "Environment and Planning B: Planning and Design",
                     "number": "30(6)",
                     "page": "865-884",
-                    "doi": "doi:10.1068/b29120"
+                    "doi": "10.1068/b29120"
                   },
                   {
                     "id": 4,
@@ -1189,14 +1250,14 @@ const site = {
                     "journal": "University of Chicago: Center for Spatial Data Science",
                     "number": "Preprint",
                     "page": {},
-                    "doi": "doi:10.13140/RG.2.2.12396.28807"
+                    "doi": "10.13140/RG.2.2.12396.28807"
                   }
                 ],
                 "source": [
                   {
                     "name": "National Center for Education Statistics",
                     "date_accessed": 2021,
-                    "url": "https://nces.ed.gov/"
+                    "url": "https://nces.ed.gov"
                   }
                 ]
               },
@@ -1219,13 +1280,13 @@ const site = {
                 "long_name": "2-year college access by median dive time to the five closest colleges in minutes",
                 "short_description": "Median drive time (minutes) to the five closest 2-year colleges",
                 "long_description": {},
-                "statement": "The median drive time to the five closest 2-year colleges to {region_name} is {value} minutes",
+                "statement": "The median drive time to the five closest 2-year colleges to {features.name} is {value} minutes",
                 "citations": {},
                 "source": [
                   {
                     "name": "National Center for Education Statistics",
                     "date_accessed": 2021,
-                    "url": "https://nces.ed.gov/"
+                    "url": "https://nces.ed.gov"
                   }
                 ]
               },
@@ -1249,7 +1310,7 @@ const site = {
                 "long_name": "Median percent of 3rd grade population passing reading test",
                 "short_description": "Median percent of 3rd grade population passing reading test for schools in the region",
                 "long_description": "Median percent of 3rd grade population passing reading test. The median is calculated across schools in the region.",
-                "statement": "The median percent of 3rd graders with passing reading scores in {region_name} is {value} percent",
+                "statement": "The median percent of 3rd graders with passing reading scores in {features.name} is {value} percent",
                 "citations": {},
                 "source": [
                   {
@@ -1279,17 +1340,17 @@ const site = {
                 "long_name": "Day care access score (3-step floating catchment area)",
                 "short_description": "Index of day care accessibility based on supply of and demand for providers",
                 "long_description": "Primary care access score based on 2-step enhanced floating catchment areas. This method is an aggregation of day care facilities per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Provider address data was collected from Virginia Department of Social Services day care search tool. Demand = 0-12 years, supply = day care capacity",
-                "statement": "The daycare accessibility score for {region_name} is  {value}",
+                "statement": "The daycare accessibility score for {features.name} is {value}",
                 "citations": [
                   {
                     "id": 1,
                     "author": "Wei Lou",
                     "year": 2004,
-                    "title": "Using a gis-based floating catchment method to assess areas with shortage of physicians",
+                    "title": "Using a GIS-based floating catchment method to assess areas with shortage of physicians",
                     "journal": "Health & Place",
                     "number": "10(1)",
                     "page": "1-11",
-                    "doi": "doi:10.1016/S1353-8292(02)00067-9."
+                    "doi": "10.1016/S1353-8292(02)00067-9"
                   },
                   {
                     "id": 2,
@@ -1299,17 +1360,17 @@ const site = {
                     "journal": "Health & Place",
                     "number": "15(4)",
                     "page": "1100-1107",
-                    "doi": "doi:10.1016/j.healthplace.2009.06.002"
+                    "doi": "10.1016/j.healthplace.2009.06.002"
                   },
                   {
                     "id": 3,
                     "author": "Wei Luo and Fahui Wang",
                     "year": 2003,
-                    "title": "Measures of spatial accessibility to health care in a gis environment: synthesis and a case study in the Chicago region",
+                    "title": "Measures of spatial accessibility to health care in a GIS environment: synthesis and a case study in the Chicago region",
                     "journal": "Environment and Planning B: Planning and Design",
                     "number": "30(6)",
                     "page": "865-884",
-                    "doi": "doi:10.1068/b29120"
+                    "doi": "10.1068/b29120"
                   },
                   {
                     "id": 4,
@@ -1319,7 +1380,7 @@ const site = {
                     "journal": "University of Chicago: Center for Spatial Data Science",
                     "number": "Preprint",
                     "page": {},
-                    "doi": "doi:10.13140/RG.2.2.12396.28807"
+                    "doi": "10.13140/RG.2.2.12396.28807"
                   }
                 ],
                 "source": [
@@ -1350,7 +1411,7 @@ const site = {
                 "long_name": "Access to day care by count",
                 "short_description": "Count of day care capacity (seats) based on provider locations",
                 "long_description": "Count of day care capacity (seats) based on provider locations. Address  and capacity data was collected from Virginia Department of Social Services day care search tool.",
-                "statement": "There are {value} day cares seats in {region_name}",
+                "statement": "There are {value} day cares seats in {features.name}",
                 "citations": {},
                 "source": [
                   {
@@ -1380,7 +1441,7 @@ const site = {
                 "long_name": "Day care access by median drive time to the five closest day cares in minutes",
                 "short_description": "Median drive time (minutes) to the five closest day cares",
                 "long_description": {},
-                "statement": "The median drive time to the five closest day cares to {region_name} is {value} minutes",
+                "statement": "The median drive time to the five closest day cares to {features.name} is {value} minutes",
                 "citations": {},
                 "source": [
                   {
@@ -1407,10 +1468,10 @@ const site = {
                 "measure": "norm_dei",
                 "type": "index",
                 "short_name": "Digital Equity Index",
-                "long_name": "Digitial Equity Index",
-                "short_description": "Digital Equity Index captures the relative equity of digitial access, with 0 being a score of relative equity and 100 being relative inequity.",
-                "long_description": "The Digital Equity Index captures the relative equity of digitial access. The Digital Equity Index uses is a composite of measures of broadband infrastructure and adoption and socioeconomic variables, with 0 being a score of relative equity and 100 being relative inequity. The variables include x, y, z.",
-                "statement": "The digital equity index for {region_name} is {value}",
+                "long_name": "Digital Equity Index",
+                "short_description": "Digital Equity Index captures the relative equity of digital access, with 0 being a score of relative equity and 100 being relative inequity.",
+                "long_description": "The Digital Equity Index captures the relative equity of digital access. The Digital Equity Index uses is a composite of measures of broadband infrastructure and adoption and socioeconomic variables, with 0 being a score of relative equity and 100 being relative inequity. The variables include x, y, z.",
+                "statement": "The digital equity index for {features.name} is {value}",
                 "citations": [
                   {
                     "id": 5,
@@ -1420,7 +1481,7 @@ const site = {
                     "journal": "Purdue Center for Regional Development",
                     "number": {},
                     "page": {},
-                    "doi": "http://pcrd.purdue.edu/ddi"
+                    "url": "http://pcrd.purdue.edu/ddi"
                   }
                 ],
                 "source": [
@@ -1455,18 +1516,18 @@ const site = {
                 "short_name": "Dental care access score",
                 "long_name": "Dental care access score (2 step-enhanced floating catchment areas)",
                 "short_description": "Index of dental care accessibility based on supply and demand of providers",
-                "long_description": "Dental care access score based on 2-step ehanced floating catchment areas. This method is an aggregation of dentists per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for dentists (population served by dentists). Provider address data was collected from WebMD's online Physician Directory.",
-                "statement": "The dental care access score for {region_name} is {value}",
+                "long_description": "Dental care access score based on 2-step enhanced floating catchment areas. This method is an aggregation of dentists per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for dentists (population served by dentists). Provider address data was collected from WebMD's online Physician Directory.",
+                "statement": "The dental care access score for {features.name} is {value}",
                 "citations": [
                   {
                     "id": 1,
                     "author": "Wei Lou",
                     "year": 2004,
-                    "title": "Using a gis-based floating catchment method to assess areas with shortage of physicians",
+                    "title": "Using a GIS-based floating catchment method to assess areas with shortage of physicians",
                     "journal": "Health & Place",
                     "number": "10(1)",
                     "page": "1-11",
-                    "doi": "doi:10.1016/S1353-8292(02)00067-9."
+                    "doi": "10.1016/S1353-8292(02)00067-9"
                   },
                   {
                     "id": 2,
@@ -1476,17 +1537,17 @@ const site = {
                     "journal": "Health & Place",
                     "number": "15(4)",
                     "page": "1100-1107",
-                    "doi": "doi:10.1016/j.healthplace.2009.06.002"
+                    "doi": "10.1016/j.healthplace.2009.06.002"
                   },
                   {
                     "id": 3,
                     "author": "Wei Luo and Fahui Wang",
                     "year": 2003,
-                    "title": "Measures of spatial accessibility to health care in a gis environment: synthesis and a case study in the Chicago region",
+                    "title": "Measures of spatial accessibility to health care in a GIS environment: synthesis and a case study in the Chicago region",
                     "journal": "Environment and Planning B: Planning and Design",
                     "number": "30(6)",
                     "page": "865-884",
-                    "doi": "doi:10.1068/b29120"
+                    "doi": "10.1068/b29120"
                   },
                   {
                     "id": 4,
@@ -1496,7 +1557,7 @@ const site = {
                     "journal": "University of Chicago: Center for Spatial Data Science",
                     "number": "Preprint",
                     "page": {},
-                    "doi": "doi:10.13140/RG.2.2.12396.28807"
+                    "doi": "10.13140/RG.2.2.12396.28807"
                   }
                 ],
                 "source": [
@@ -1527,7 +1588,7 @@ const site = {
                 "long_name": "Dental care access by count",
                 "short_description": "Count of dentists based on provider locations",
                 "long_description": "Count of dentists based on provider locations. Address data was collected from WebMD's online Physician Directory.",
-                "statement": "There are {value} densits in {region_name}",
+                "statement": "There are {value} dentists in {features.name}",
                 "citations": {},
                 "source": [
                   {
@@ -1557,7 +1618,7 @@ const site = {
                 "long_name": "Average download speed (MB/s)",
                 "short_description": "Average download speed for internet connection in MB/s",
                 "long_description": "The average download speed for internet users' connections who performed a speed check using Ookla. Speeds are reported in MB/s. A speed of 100 MB/s is considered adequate for school work, video calling etc.",
-                "statement": "The average download speed for internet connections in {region_name} is {value} MB/s",
+                "statement": "The average download speed for internet connections in {features.name} is {value} MB/s",
                 "citations": {},
                 "source": [
                   {
@@ -1575,14 +1636,74 @@ const site = {
               "max": 234.4607
             },
             {
-              "name": "trade_schools_access_scores:norm_3sfca",
-              "duplicates": 883,
-              "type": "float",
-              "missing": 805,
-              "mean": 9.9285,
-              "sd": 18.1286,
-              "min": 0,
-              "max": 100
+              "name": "trade_schools_access_scores:norm_2sefca",
+              "duplicates": 937,
+              "info": {
+                "category": "Education",
+                "measure_table": "dc_education_training.va_hdcttr_sdad_2019_trade_schools_access_scores",
+                "full_name": "trade_schools_access_scores:norm_2sefca",
+                "measure": "norm_2sefca",
+                "type": "index",
+                "short_name": "Trade school access score",
+                "long_name": "Trade school access score (2-step enhanced floating catchment areas)",
+                "short_description": "Index of trade school accessibility based on supply and demand of providers",
+                "long_description": "Trade school  access score based on 2-step enhanced floating catchment areas. This method is an aggregation of trade school capacity per population ratios weighted by distance or travel time in each catchment area (area within which an institution is accessible). Weights are defined for the demand for trade schools (whole population in an area served by the institution) and supply is the total number of students enrolled in a year (undergraduate).",
+                "statement": "The trade school accessibility score for {features.name} is {value}",
+                "citations": [
+                  {
+                    "id": 1,
+                    "author": "Wei Lou",
+                    "year": 2004,
+                    "title": "Using a GIS-based floating catchment method to assess areas with shortage of physicians",
+                    "journal": "Health & Place",
+                    "number": "10(1)",
+                    "page": "1-11",
+                    "doi": "10.1016/S1353-8292(02)00067-9"
+                  },
+                  {
+                    "id": 2,
+                    "author": "Wei Lou and Yi Qi",
+                    "year": 2009,
+                    "title": "An enhanced two-step floating catchment area (e2sfca) method for measuring spatial accessibility to primary care physicians",
+                    "journal": "Health & Place",
+                    "number": "15(4)",
+                    "page": "1100-1107",
+                    "doi": "10.1016/j.healthplace.2009.06.002"
+                  },
+                  {
+                    "id": 3,
+                    "author": "Wei Luo and Fahui Wang",
+                    "year": 2003,
+                    "title": "Measures of spatial accessibility to health care in a GIS environment: synthesis and a case study in the Chicago region",
+                    "journal": "Environment and Planning B: Planning and Design",
+                    "number": "30(6)",
+                    "page": "865-884",
+                    "doi": "10.1068/b29120"
+                  },
+                  {
+                    "id": 4,
+                    "author": "James Saxon, Julia Koschinsky, Karina Acosta, Vidal Anguiano, Luc Anselin, and Sergio Rey",
+                    "year": 2020,
+                    "title": "An Open Software Environment to Make Spatial Access Metrics More Accessible",
+                    "journal": "University of Chicago: Center for Spatial Data Science",
+                    "number": "Preprint",
+                    "page": {},
+                    "doi": "10.13140/RG.2.2.12396.28807"
+                  }
+                ],
+                "source": [
+                  {
+                    "name": "National Center for Education Statistics",
+                    "date_accessed": 2021,
+                    "url": "https://nces.ed.gov"
+                  }
+                ]
+              },
+              "type": "string",
+              "missing": 938,
+              "table": {
+                "1": 0
+              }
             },
             {
               "name": "drive_times_nearest_trade_schools:median_drive_time_top5",
@@ -1597,13 +1718,13 @@ const site = {
                 "long_name": "Trade school access by median drive time to the five closest schools in minutes",
                 "short_description": "Mean drive time (minutes) to the five closest trade schools",
                 "long_description": {},
-                "statement": "The median drive time to the five closest trade schools to {region_name} is {value} minutes",
+                "statement": "The median drive time to the five closest trade schools to {features.name} is {value} minutes",
                 "citations": {},
                 "source": [
                   {
                     "name": "National Center for Education Statistics",
                     "date_accessed": 2021,
-                    "url": "https://nces.ed.gov/"
+                    "url": "https://nces.ed.gov"
                   }
                 ]
               },
@@ -1627,7 +1748,7 @@ const site = {
                 "long_name": "Percent of population with a computer",
                 "short_description": "Percent of the population self-reported to have a computer at home",
                 "long_description": {},
-                "statement": "{value} percent of the population in {region_name} have a computer",
+                "statement": "{value} percent of the population in {features.name} have a computer",
                 "citations": {},
                 "source": [
                   {
@@ -1655,9 +1776,9 @@ const site = {
                 "type": "percent",
                 "short_name": "Population with internet access",
                 "long_name": "Percent of population with internet access",
-                "short_description": "Percent of the population self-reported to have internet acess at home",
+                "short_description": "Percent of the population self-reported to have internet access at home",
                 "long_description": {},
-                "statement": "{value} percent of the population in {region_name} have internet access",
+                "statement": "{value} percent of the population in {features.name} have internet access",
                 "citations": {},
                 "source": [
                   {
@@ -1687,7 +1808,7 @@ const site = {
                 "long_name": "Health literacy estimate",
                 "short_description": "Health literacy estimate captures the adult population's ability to obtain, process, and understand basic health services to make appropriate health decisions",
                 "long_description": "The health literacy estimate captures the adult population's ability to obtain, process, and understand basic health services to make appropriate health decisions. Health literacy estimate is based on variables of demographic characteristics, health status, and health care use.",
-                "statement": "The health literacy estimate for {region_name} is {value}",
+                "statement": "The health literacy estimate for {features.name} is {value}",
                 "citations": [
                   {
                     "id": 6,
@@ -1697,7 +1818,7 @@ const site = {
                     "journal": "Health Lit Res Pract",
                     "number": "1(4)",
                     "page": "e216-e230",
-                    "doi": "doi: 10.3928/24748307-20170929-01"
+                    "doi": " 10.3928/24748307-20170929-01"
                   },
                   {
                     "id": 7,
@@ -1707,14 +1828,14 @@ const site = {
                     "journal": "Journal of Evaluation in Clinical Practice",
                     "number": "26(6)",
                     "page": "1711-1721",
-                    "doi": "doi:10.1111/jep.13341"
+                    "doi": "10.1111/jep.13341"
                   }
                 ],
                 "source": [
                   {
                     "name": "Medical Expenditure Panel Survey",
                     "date_accessed": 2021,
-                    "url": "https://www.meps.ahrq.gov/mepsweb/"
+                    "url": "https://www.meps.ahrq.gov/mepsweb"
                   },
                   {
                     "name": "American Community Survey",
@@ -1743,7 +1864,7 @@ const site = {
                 "long_name": "Percent of population without health insurance",
                 "short_description": "Percent of the population (ages 16-64) self-reported to not be currently covered by any type of health insurance or health coverage plan",
                 "long_description": "Percent of the population self-reported to not be currently covered by any type of health insurance or health coverage plan. This data comes from Question 16 of the Person section of the American Community Survey.",
-                "statement": "{value} percent of the population has no health insurance in  {region_name}",
+                "statement": "{value} percent of the population has no health insurance in {features.name}",
                 "citations": {},
                 "source": [
                   {
@@ -1773,17 +1894,17 @@ const site = {
                 "long_name": "OBGYN care access score (2 step-enhanced floating catchment areas)",
                 "short_description": "Index of OBGYN care accessibility based on supply and demand of providers",
                 "long_description": "OBGYN care access score based on 2-step enhanced floating catchment areas. This method is an aggregation of OBGYNs per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for OBGYNs (population served by OBGYNs). Provider address data was collected from WebMD's online physician directory.\n",
-                "statement": "The OBGYN access score for {region_name}  is {value}",
+                "statement": "The OBGYN access score for {features.name}  is {value}",
                 "citations": [
                   {
                     "id": 1,
                     "author": "Wei Lou",
                     "year": 2004,
-                    "title": "Using a gis-based floating catchment method to assess areas with shortage of physicians",
+                    "title": "Using a GIS-based floating catchment method to assess areas with shortage of physicians",
                     "journal": "Health & Place",
                     "number": "10(1)",
                     "page": "1-11",
-                    "doi": "doi:10.1016/S1353-8292(02)00067-9."
+                    "doi": "10.1016/S1353-8292(02)00067-9"
                   },
                   {
                     "id": 2,
@@ -1793,17 +1914,17 @@ const site = {
                     "journal": "Health & Place",
                     "number": "15(4)",
                     "page": "1100-1107",
-                    "doi": "doi:10.1016/j.healthplace.2009.06.002"
+                    "doi": "10.1016/j.healthplace.2009.06.002"
                   },
                   {
                     "id": 3,
                     "author": "Wei Luo and Fahui Wang",
                     "year": 2003,
-                    "title": "Measures of spatial accessibility to health care in a gis environment: synthesis and a case study in the Chicago region",
+                    "title": "Measures of spatial accessibility to health care in a GIS environment: synthesis and a case study in the Chicago region",
                     "journal": "Environment and Planning B: Planning and Design",
                     "number": "30(6)",
                     "page": "865-884",
-                    "doi": "doi:10.1068/b29120"
+                    "doi": "10.1068/b29120"
                   },
                   {
                     "id": 4,
@@ -1813,14 +1934,14 @@ const site = {
                     "journal": "University of Chicago: Center for Spatial Data Science",
                     "number": "Preprint",
                     "page": {},
-                    "doi": "doi:10.13140/RG.2.2.12396.28807"
+                    "doi": "10.13140/RG.2.2.12396.28807"
                   }
                 ],
                 "source": [
                   {
                     "name": "WebMD Physician Directory",
                     "date_accessed": 2021,
-                    "url": "https://doctor.webmd.com/"
+                    "url": "https://doctor.webmd.com"
                   }
                 ]
               },
@@ -1841,16 +1962,16 @@ const site = {
                 "measure": "obgyn_cnt",
                 "type": "count",
                 "short_name": "OBGYN care access (count)",
-                "long_name": "OBGYN care acess by count",
+                "long_name": "OBGYN care access by count",
                 "short_description": "Count of OBGYNs based on provider locations",
                 "long_description": "Count of OBGYN care providers based on provider locations. Address data was collected from WebMD's online Physician Directory.",
-                "statement": "There are {value}  OBGYNs in {region_name}",
+                "statement": "There are {value}  OBGYNs in {features.name}",
                 "citations": {},
                 "source": [
                   {
                     "name": "WebMD Physician Directory",
                     "date_accessed": 2021,
-                    "url": "https://doctor.webmd.com/"
+                    "url": "https://doctor.webmd.com"
                   }
                 ]
               },
@@ -1874,7 +1995,7 @@ const site = {
                 "long_name": "Percent of population with broadband",
                 "short_description": "Percent of population self-reported to have a broadband internet connection (any type of internet other than a dial-up)",
                 "long_description": {},
-                "statement": "{value} percent of the population in {region_name} has a broadband connection",
+                "statement": "{value} percent of the population in {features.name} has a broadband connection",
                 "citations": {},
                 "source": [
                   {
@@ -1904,7 +2025,7 @@ const site = {
                 "long_name": "Percent of population with a high speed internet service (cable, fiber optic, or DSL)",
                 "short_description": "Percent of population self-reported to have a high speed internet service (cable, fiber optic, or DSL)",
                 "long_description": {},
-                "statement": "{value} percent of the population in {region_name} has a cable fiber or DSL internet connection",
+                "statement": "{value} percent of the population in {features.name} has a cable fiber or DSL internet connection",
                 "citations": {},
                 "source": [
                   {
@@ -1934,17 +2055,17 @@ const site = {
                 "long_name": "Pediatric care access score (2-step enhanced floating catchment areas)",
                 "short_description": "Index of pediatric care physician accessibility based on supply and demand of providers",
                 "long_description": {},
-                "statement": "The pediatric care accessibility score for {region_name} is  {value}",
+                "statement": "The pediatric care accessibility score for {features.name} is {value}",
                 "citations": [
                   {
                     "id": 1,
                     "author": "Wei Lou",
                     "year": 2004,
-                    "title": "Using a gis-based floating catchment method to assess areas with shortage of physicians",
+                    "title": "Using a GIS-based floating catchment method to assess areas with shortage of physicians",
                     "journal": "Health & Place",
                     "number": "10(1)",
                     "page": "1-11",
-                    "doi": "doi:10.1016/S1353-8292(02)00067-9."
+                    "doi": "10.1016/S1353-8292(02)00067-9"
                   },
                   {
                     "id": 2,
@@ -1954,17 +2075,17 @@ const site = {
                     "journal": "Health & Place",
                     "number": "15(4)",
                     "page": "1100-1107",
-                    "doi": "doi:10.1016/j.healthplace.2009.06.002"
+                    "doi": "10.1016/j.healthplace.2009.06.002"
                   },
                   {
                     "id": 3,
                     "author": "Wei Luo and Fahui Wang",
                     "year": 2003,
-                    "title": "Measures of spatial accessibility to health care in a gis environment: synthesis and a case study in the Chicago region",
+                    "title": "Measures of spatial accessibility to health care in a GIS environment: synthesis and a case study in the Chicago region",
                     "journal": "Environment and Planning B: Planning and Design",
                     "number": "30(6)",
                     "page": "865-884",
-                    "doi": "doi:10.1068/b29120"
+                    "doi": "10.1068/b29120"
                   },
                   {
                     "id": 4,
@@ -1974,14 +2095,14 @@ const site = {
                     "journal": "University of Chicago: Center for Spatial Data Science",
                     "number": "Preprint",
                     "page": {},
-                    "doi": "doi:10.13140/RG.2.2.12396.28807"
+                    "doi": "10.13140/RG.2.2.12396.28807"
                   }
                 ],
                 "source": [
                   {
                     "name": "WebMD Physician Directory",
                     "date_accessed": 2021,
-                    "url": "https://doctor.webmd.com/"
+                    "url": "https://doctor.webmd.com"
                   }
                 ]
               },
@@ -2005,13 +2126,13 @@ const site = {
                 "long_name": "Pediatric care access by count",
                 "short_description": "Count of pediatricians based on provider locations",
                 "long_description": {},
-                "statement": "There are {value} pediatricians in {region_name}",
+                "statement": "There are {value} pediatricians in {features.name}",
                 "citations": {},
                 "source": [
                   {
                     "name": "WebMD Physician Directory",
                     "date_accessed": 2021,
-                    "url": "https://doctor.webmd.com/"
+                    "url": "https://doctor.webmd.com"
                   }
                 ]
               },
@@ -2035,7 +2156,7 @@ const site = {
                 "long_name": "Percent  of population with post-high school education",
                 "short_description": "Percent of the population self-reported to have post-high school level degree",
                 "long_description": {},
-                "statement": "{value} percent of the population in {region_name} have a post-high school education",
+                "statement": "{value} percent of the population in {features.name} have a post-high school education",
                 "citations": {},
                 "source": [
                   {
@@ -2065,7 +2186,7 @@ const site = {
                 "long_name": "Preventable hospital stays per 100,000 Medicare enrollees",
                 "short_description": "Rate of hospital stays for ambulatory-care sensitive conditions per 100,000 Medicare enrollees",
                 "long_description": "Rate of hospital stays for ambulatory-care sensitive conditions per 100,000 Medicare enrollees. Ambulatory care refers to diagnoses that are usually treatable in outpatient settings. This data is based on Medicare claims and comes from County Health Rankings.",
-                "statement": "{value} percent of the hospitalizations in {region_name}  were preventable (due to conditions usually treated in outpatient settings)",
+                "statement": "{value} percent of the hospitalizations in {features.name}  were preventable (due to conditions usually treated in outpatient settings)",
                 "citations": {},
                 "source": [
                   {
@@ -2095,17 +2216,17 @@ const site = {
                 "long_name": "Primary care access score (2-step enhanced floating catchment areas)",
                 "short_description": "Index of primary care physician accessibility based on supply and demand of providers",
                 "long_description": "Primary care access score based on 2-step enhanced floating catchment areas. This method is an aggregation of physicians per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for physicians (population served by physicians). Provider address data was collected from WebMD's online Physician Directory.\n",
-                "statement": "The primary care accessibility score for {region_name}  is  {value}",
+                "statement": "The primary care accessibility score for {features.name}  is {value}",
                 "citations": [
                   {
                     "id": 1,
                     "author": "Wei Lou",
                     "year": 2004,
-                    "title": "Using a gis-based floating catchment method to assess areas with shortage of physicians",
+                    "title": "Using a GIS-based floating catchment method to assess areas with shortage of physicians",
                     "journal": "Health & Place",
                     "number": "10(1)",
                     "page": "1-11",
-                    "doi": "doi:10.1016/S1353-8292(02)00067-9."
+                    "doi": "10.1016/S1353-8292(02)00067-9"
                   },
                   {
                     "id": 2,
@@ -2115,17 +2236,17 @@ const site = {
                     "journal": "Health & Place",
                     "number": "15(4)",
                     "page": "1100-1107",
-                    "doi": "doi:10.1016/j.healthplace.2009.06.002"
+                    "doi": "10.1016/j.healthplace.2009.06.002"
                   },
                   {
                     "id": 3,
                     "author": "Wei Luo and Fahui Wang",
                     "year": 2003,
-                    "title": "Measures of spatial accessibility to health care in a gis environment: synthesis and a case study in the Chicago region",
+                    "title": "Measures of spatial accessibility to health care in a GIS environment: synthesis and a case study in the Chicago region",
                     "journal": "Environment and Planning B: Planning and Design",
                     "number": "30(6)",
                     "page": "865-884",
-                    "doi": "doi:10.1068/b29120"
+                    "doi": "10.1068/b29120"
                   },
                   {
                     "id": 4,
@@ -2135,14 +2256,14 @@ const site = {
                     "journal": "University of Chicago: Center for Spatial Data Science",
                     "number": "Preprint",
                     "page": {},
-                    "doi": "doi:10.13140/RG.2.2.12396.28807"
+                    "doi": "10.13140/RG.2.2.12396.28807"
                   }
                 ],
                 "source": [
                   {
                     "name": "WebMD Physician Directory",
                     "date_accessed": 2021,
-                    "url": "https://doctor.webmd.com/"
+                    "url": "https://doctor.webmd.com"
                   }
                 ]
               },
@@ -2166,13 +2287,13 @@ const site = {
                 "long_name": "Primary care access by count",
                 "short_description": "Count of primary care physicians based on provider locations",
                 "long_description": "Count of primary care physicians based on provider locations. Address data was collected from WebMD's online Physician Directory.",
-                "statement": "There are {value} primary care physicians in {region_name}",
+                "statement": "There are {value} primary care physicians in {features.name}",
                 "citations": {},
                 "source": [
                   {
                     "name": "WebMD Physician Directory",
                     "date_accessed": 2021,
-                    "url": "https://doctor.webmd.com/"
+                    "url": "https://doctor.webmd.com"
                   }
                 ]
               },
@@ -2246,17 +2367,17 @@ const site = {
                 "long_name": "2 year college access score (2-step enhanced floating catchment areas)",
                 "short_description": "Index of 2-year college accessibility based on supply and demand of providers",
                 "long_description": "2-year college access score based on 2-step enhanced floating catchment areas. This method is an aggregation of college capacity per population ratios weighted by distance or travel time in each catchment area (area within which an institution is accessible). Weights are defined for the demand for 2-year college (whole population in an area served by the institution) and supply is the total number of students enrolled in a year (graduate and undergraduate).",
-                "statement": "The 2-year college accessibility score for {region_name} is  {value}",
+                "statement": "The 2-year college accessibility score for {features.name} is {value}",
                 "citations": [
                   {
                     "id": 1,
                     "author": "Wei Lou",
                     "year": 2004,
-                    "title": "Using a gis-based floating catchment method to assess areas with shortage of physicians",
+                    "title": "Using a GIS-based floating catchment method to assess areas with shortage of physicians",
                     "journal": "Health & Place",
                     "number": "10(1)",
                     "page": "1-11",
-                    "doi": "doi:10.1016/S1353-8292(02)00067-9."
+                    "doi": "10.1016/S1353-8292(02)00067-9"
                   },
                   {
                     "id": 2,
@@ -2266,17 +2387,17 @@ const site = {
                     "journal": "Health & Place",
                     "number": "15(4)",
                     "page": "1100-1107",
-                    "doi": "doi:10.1016/j.healthplace.2009.06.002"
+                    "doi": "10.1016/j.healthplace.2009.06.002"
                   },
                   {
                     "id": 3,
                     "author": "Wei Luo and Fahui Wang",
                     "year": 2003,
-                    "title": "Measures of spatial accessibility to health care in a gis environment: synthesis and a case study in the Chicago region",
+                    "title": "Measures of spatial accessibility to health care in a GIS environment: synthesis and a case study in the Chicago region",
                     "journal": "Environment and Planning B: Planning and Design",
                     "number": "30(6)",
                     "page": "865-884",
-                    "doi": "doi:10.1068/b29120"
+                    "doi": "10.1068/b29120"
                   },
                   {
                     "id": 4,
@@ -2286,14 +2407,14 @@ const site = {
                     "journal": "University of Chicago: Center for Spatial Data Science",
                     "number": "Preprint",
                     "page": {},
-                    "doi": "doi:10.13140/RG.2.2.12396.28807"
+                    "doi": "10.13140/RG.2.2.12396.28807"
                   }
                 ],
                 "source": [
                   {
                     "name": "National Center for Education Statistics",
                     "date_accessed": 2021,
-                    "url": "https://nces.ed.gov/"
+                    "url": "https://nces.ed.gov"
                   }
                 ]
               },
@@ -2316,13 +2437,13 @@ const site = {
                 "long_name": "2-year college access by median dive time to the five closest colleges in minutes",
                 "short_description": "Median drive time (minutes) to the five closest 2-year colleges",
                 "long_description": {},
-                "statement": "The median drive time to the five closest 2-year colleges to {region_name} is {value} minutes",
+                "statement": "The median drive time to the five closest 2-year colleges to {features.name} is {value} minutes",
                 "citations": {},
                 "source": [
                   {
                     "name": "National Center for Education Statistics",
                     "date_accessed": 2021,
-                    "url": "https://nces.ed.gov/"
+                    "url": "https://nces.ed.gov"
                   }
                 ]
               },
@@ -2346,7 +2467,7 @@ const site = {
                 "long_name": "Median percent of 3rd grade population passing reading test",
                 "short_description": "Median percent of 3rd grade population passing reading test for schools in the region",
                 "long_description": "Median percent of 3rd grade population passing reading test. The median is calculated across schools in the region.",
-                "statement": "The median percent of 3rd graders with passing reading scores in {region_name} is {value} percent",
+                "statement": "The median percent of 3rd graders with passing reading scores in {features.name} is {value} percent",
                 "citations": {},
                 "source": [
                   {
@@ -2375,17 +2496,17 @@ const site = {
                 "long_name": "Day care access score (3-step floating catchment area)",
                 "short_description": "Index of day care accessibility based on supply of and demand for providers",
                 "long_description": "Primary care access score based on 2-step enhanced floating catchment areas. This method is an aggregation of day care facilities per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Provider address data was collected from Virginia Department of Social Services day care search tool. Demand = 0-12 years, supply = day care capacity",
-                "statement": "The daycare accessibility score for {region_name} is  {value}",
+                "statement": "The daycare accessibility score for {features.name} is {value}",
                 "citations": [
                   {
                     "id": 1,
                     "author": "Wei Lou",
                     "year": 2004,
-                    "title": "Using a gis-based floating catchment method to assess areas with shortage of physicians",
+                    "title": "Using a GIS-based floating catchment method to assess areas with shortage of physicians",
                     "journal": "Health & Place",
                     "number": "10(1)",
                     "page": "1-11",
-                    "doi": "doi:10.1016/S1353-8292(02)00067-9."
+                    "doi": "10.1016/S1353-8292(02)00067-9"
                   },
                   {
                     "id": 2,
@@ -2395,17 +2516,17 @@ const site = {
                     "journal": "Health & Place",
                     "number": "15(4)",
                     "page": "1100-1107",
-                    "doi": "doi:10.1016/j.healthplace.2009.06.002"
+                    "doi": "10.1016/j.healthplace.2009.06.002"
                   },
                   {
                     "id": 3,
                     "author": "Wei Luo and Fahui Wang",
                     "year": 2003,
-                    "title": "Measures of spatial accessibility to health care in a gis environment: synthesis and a case study in the Chicago region",
+                    "title": "Measures of spatial accessibility to health care in a GIS environment: synthesis and a case study in the Chicago region",
                     "journal": "Environment and Planning B: Planning and Design",
                     "number": "30(6)",
                     "page": "865-884",
-                    "doi": "doi:10.1068/b29120"
+                    "doi": "10.1068/b29120"
                   },
                   {
                     "id": 4,
@@ -2415,7 +2536,7 @@ const site = {
                     "journal": "University of Chicago: Center for Spatial Data Science",
                     "number": "Preprint",
                     "page": {},
-                    "doi": "doi:10.13140/RG.2.2.12396.28807"
+                    "doi": "10.13140/RG.2.2.12396.28807"
                   }
                 ],
                 "source": [
@@ -2446,7 +2567,7 @@ const site = {
                 "long_name": "Access to day care by count",
                 "short_description": "Count of day care capacity (seats) based on provider locations",
                 "long_description": "Count of day care capacity (seats) based on provider locations. Address  and capacity data was collected from Virginia Department of Social Services day care search tool.",
-                "statement": "There are {value} day cares seats in {region_name}",
+                "statement": "There are {value} day cares seats in {features.name}",
                 "citations": {},
                 "source": [
                   {
@@ -2476,7 +2597,7 @@ const site = {
                 "long_name": "Day care access by median drive time to the five closest day cares in minutes",
                 "short_description": "Median drive time (minutes) to the five closest day cares",
                 "long_description": {},
-                "statement": "The median drive time to the five closest day cares to {region_name} is {value} minutes",
+                "statement": "The median drive time to the five closest day cares to {features.name} is {value} minutes",
                 "citations": {},
                 "source": [
                   {
@@ -2503,10 +2624,10 @@ const site = {
                 "measure": "norm_dei",
                 "type": "index",
                 "short_name": "Digital Equity Index",
-                "long_name": "Digitial Equity Index",
-                "short_description": "Digital Equity Index captures the relative equity of digitial access, with 0 being a score of relative equity and 100 being relative inequity.",
-                "long_description": "The Digital Equity Index captures the relative equity of digitial access. The Digital Equity Index uses is a composite of measures of broadband infrastructure and adoption and socioeconomic variables, with 0 being a score of relative equity and 100 being relative inequity. The variables include x, y, z.",
-                "statement": "The digital equity index for {region_name} is {value}",
+                "long_name": "Digital Equity Index",
+                "short_description": "Digital Equity Index captures the relative equity of digital access, with 0 being a score of relative equity and 100 being relative inequity.",
+                "long_description": "The Digital Equity Index captures the relative equity of digital access. The Digital Equity Index uses is a composite of measures of broadband infrastructure and adoption and socioeconomic variables, with 0 being a score of relative equity and 100 being relative inequity. The variables include x, y, z.",
+                "statement": "The digital equity index for {features.name} is {value}",
                 "citations": [
                   {
                     "id": 5,
@@ -2516,7 +2637,7 @@ const site = {
                     "journal": "Purdue Center for Regional Development",
                     "number": {},
                     "page": {},
-                    "doi": "http://pcrd.purdue.edu/ddi"
+                    "url": "http://pcrd.purdue.edu/ddi"
                   }
                 ],
                 "source": [
@@ -2551,18 +2672,18 @@ const site = {
                 "short_name": "Dental care access score",
                 "long_name": "Dental care access score (2 step-enhanced floating catchment areas)",
                 "short_description": "Index of dental care accessibility based on supply and demand of providers",
-                "long_description": "Dental care access score based on 2-step ehanced floating catchment areas. This method is an aggregation of dentists per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for dentists (population served by dentists). Provider address data was collected from WebMD's online Physician Directory.",
-                "statement": "The dental care access score for {region_name} is {value}",
+                "long_description": "Dental care access score based on 2-step enhanced floating catchment areas. This method is an aggregation of dentists per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for dentists (population served by dentists). Provider address data was collected from WebMD's online Physician Directory.",
+                "statement": "The dental care access score for {features.name} is {value}",
                 "citations": [
                   {
                     "id": 1,
                     "author": "Wei Lou",
                     "year": 2004,
-                    "title": "Using a gis-based floating catchment method to assess areas with shortage of physicians",
+                    "title": "Using a GIS-based floating catchment method to assess areas with shortage of physicians",
                     "journal": "Health & Place",
                     "number": "10(1)",
                     "page": "1-11",
-                    "doi": "doi:10.1016/S1353-8292(02)00067-9."
+                    "doi": "10.1016/S1353-8292(02)00067-9"
                   },
                   {
                     "id": 2,
@@ -2572,17 +2693,17 @@ const site = {
                     "journal": "Health & Place",
                     "number": "15(4)",
                     "page": "1100-1107",
-                    "doi": "doi:10.1016/j.healthplace.2009.06.002"
+                    "doi": "10.1016/j.healthplace.2009.06.002"
                   },
                   {
                     "id": 3,
                     "author": "Wei Luo and Fahui Wang",
                     "year": 2003,
-                    "title": "Measures of spatial accessibility to health care in a gis environment: synthesis and a case study in the Chicago region",
+                    "title": "Measures of spatial accessibility to health care in a GIS environment: synthesis and a case study in the Chicago region",
                     "journal": "Environment and Planning B: Planning and Design",
                     "number": "30(6)",
                     "page": "865-884",
-                    "doi": "doi:10.1068/b29120"
+                    "doi": "10.1068/b29120"
                   },
                   {
                     "id": 4,
@@ -2592,7 +2713,7 @@ const site = {
                     "journal": "University of Chicago: Center for Spatial Data Science",
                     "number": "Preprint",
                     "page": {},
-                    "doi": "doi:10.13140/RG.2.2.12396.28807"
+                    "doi": "10.13140/RG.2.2.12396.28807"
                   }
                 ],
                 "source": [
@@ -2623,7 +2744,7 @@ const site = {
                 "long_name": "Dental care access by count",
                 "short_description": "Count of dentists based on provider locations",
                 "long_description": "Count of dentists based on provider locations. Address data was collected from WebMD's online Physician Directory.",
-                "statement": "There are {value} densits in {region_name}",
+                "statement": "There are {value} dentists in {features.name}",
                 "citations": {},
                 "source": [
                   {
@@ -2653,7 +2774,7 @@ const site = {
                 "long_name": "Average download speed (MB/s)",
                 "short_description": "Average download speed for internet connection in MB/s",
                 "long_description": "The average download speed for internet users' connections who performed a speed check using Ookla. Speeds are reported in MB/s. A speed of 100 MB/s is considered adequate for school work, video calling etc.",
-                "statement": "The average download speed for internet connections in {region_name} is {value} MB/s",
+                "statement": "The average download speed for internet connections in {features.name} is {value} MB/s",
                 "citations": {},
                 "source": [
                   {
@@ -2671,14 +2792,74 @@ const site = {
               "max": 347.9637
             },
             {
-              "name": "trade_schools_access_scores:norm_3sfca",
-              "duplicates": 13833,
-              "type": "float",
-              "missing": 12381,
-              "mean": 22.1145,
-              "sd": 24.095,
-              "min": 0,
-              "max": 100
+              "name": "trade_schools_access_scores:norm_2sefca",
+              "duplicates": 14279,
+              "info": {
+                "category": "Education",
+                "measure_table": "dc_education_training.va_hdcttr_sdad_2019_trade_schools_access_scores",
+                "full_name": "trade_schools_access_scores:norm_2sefca",
+                "measure": "norm_2sefca",
+                "type": "index",
+                "short_name": "Trade school access score",
+                "long_name": "Trade school access score (2-step enhanced floating catchment areas)",
+                "short_description": "Index of trade school accessibility based on supply and demand of providers",
+                "long_description": "Trade school  access score based on 2-step enhanced floating catchment areas. This method is an aggregation of trade school capacity per population ratios weighted by distance or travel time in each catchment area (area within which an institution is accessible). Weights are defined for the demand for trade schools (whole population in an area served by the institution) and supply is the total number of students enrolled in a year (undergraduate).",
+                "statement": "The trade school accessibility score for {features.name} is {value}",
+                "citations": [
+                  {
+                    "id": 1,
+                    "author": "Wei Lou",
+                    "year": 2004,
+                    "title": "Using a GIS-based floating catchment method to assess areas with shortage of physicians",
+                    "journal": "Health & Place",
+                    "number": "10(1)",
+                    "page": "1-11",
+                    "doi": "10.1016/S1353-8292(02)00067-9"
+                  },
+                  {
+                    "id": 2,
+                    "author": "Wei Lou and Yi Qi",
+                    "year": 2009,
+                    "title": "An enhanced two-step floating catchment area (e2sfca) method for measuring spatial accessibility to primary care physicians",
+                    "journal": "Health & Place",
+                    "number": "15(4)",
+                    "page": "1100-1107",
+                    "doi": "10.1016/j.healthplace.2009.06.002"
+                  },
+                  {
+                    "id": 3,
+                    "author": "Wei Luo and Fahui Wang",
+                    "year": 2003,
+                    "title": "Measures of spatial accessibility to health care in a GIS environment: synthesis and a case study in the Chicago region",
+                    "journal": "Environment and Planning B: Planning and Design",
+                    "number": "30(6)",
+                    "page": "865-884",
+                    "doi": "10.1068/b29120"
+                  },
+                  {
+                    "id": 4,
+                    "author": "James Saxon, Julia Koschinsky, Karina Acosta, Vidal Anguiano, Luc Anselin, and Sergio Rey",
+                    "year": 2020,
+                    "title": "An Open Software Environment to Make Spatial Access Metrics More Accessible",
+                    "journal": "University of Chicago: Center for Spatial Data Science",
+                    "number": "Preprint",
+                    "page": {},
+                    "doi": "10.13140/RG.2.2.12396.28807"
+                  }
+                ],
+                "source": [
+                  {
+                    "name": "National Center for Education Statistics",
+                    "date_accessed": 2021,
+                    "url": "https://nces.ed.gov"
+                  }
+                ]
+              },
+              "type": "string",
+              "missing": 14280,
+              "table": {
+                "1": 0
+              }
             },
             {
               "name": "drive_times_nearest_trade_schools:median_drive_time_top5",
@@ -2693,13 +2874,13 @@ const site = {
                 "long_name": "Trade school access by median drive time to the five closest schools in minutes",
                 "short_description": "Mean drive time (minutes) to the five closest trade schools",
                 "long_description": {},
-                "statement": "The median drive time to the five closest trade schools to {region_name} is {value} minutes",
+                "statement": "The median drive time to the five closest trade schools to {features.name} is {value} minutes",
                 "citations": {},
                 "source": [
                   {
                     "name": "National Center for Education Statistics",
                     "date_accessed": 2021,
-                    "url": "https://nces.ed.gov/"
+                    "url": "https://nces.ed.gov"
                   }
                 ]
               },
@@ -2723,7 +2904,7 @@ const site = {
                 "long_name": "Percent of population with a computer",
                 "short_description": "Percent of the population self-reported to have a computer at home",
                 "long_description": {},
-                "statement": "{value} percent of the population in {region_name} have a computer",
+                "statement": "{value} percent of the population in {features.name} have a computer",
                 "citations": {},
                 "source": [
                   {
@@ -2751,9 +2932,9 @@ const site = {
                 "type": "percent",
                 "short_name": "Population with internet access",
                 "long_name": "Percent of population with internet access",
-                "short_description": "Percent of the population self-reported to have internet acess at home",
+                "short_description": "Percent of the population self-reported to have internet access at home",
                 "long_description": {},
-                "statement": "{value} percent of the population in {region_name} have internet access",
+                "statement": "{value} percent of the population in {features.name} have internet access",
                 "citations": {},
                 "source": [
                   {
@@ -2783,7 +2964,7 @@ const site = {
                 "long_name": "Health literacy estimate",
                 "short_description": "Health literacy estimate captures the adult population's ability to obtain, process, and understand basic health services to make appropriate health decisions",
                 "long_description": "The health literacy estimate captures the adult population's ability to obtain, process, and understand basic health services to make appropriate health decisions. Health literacy estimate is based on variables of demographic characteristics, health status, and health care use.",
-                "statement": "The health literacy estimate for {region_name} is {value}",
+                "statement": "The health literacy estimate for {features.name} is {value}",
                 "citations": [
                   {
                     "id": 6,
@@ -2793,7 +2974,7 @@ const site = {
                     "journal": "Health Lit Res Pract",
                     "number": "1(4)",
                     "page": "e216-e230",
-                    "doi": "doi: 10.3928/24748307-20170929-01"
+                    "doi": " 10.3928/24748307-20170929-01"
                   },
                   {
                     "id": 7,
@@ -2803,14 +2984,14 @@ const site = {
                     "journal": "Journal of Evaluation in Clinical Practice",
                     "number": "26(6)",
                     "page": "1711-1721",
-                    "doi": "doi:10.1111/jep.13341"
+                    "doi": "10.1111/jep.13341"
                   }
                 ],
                 "source": [
                   {
                     "name": "Medical Expenditure Panel Survey",
                     "date_accessed": 2021,
-                    "url": "https://www.meps.ahrq.gov/mepsweb/"
+                    "url": "https://www.meps.ahrq.gov/mepsweb"
                   },
                   {
                     "name": "American Community Survey",
@@ -2839,7 +3020,7 @@ const site = {
                 "long_name": "Percent of population without health insurance",
                 "short_description": "Percent of the population (ages 16-64) self-reported to not be currently covered by any type of health insurance or health coverage plan",
                 "long_description": "Percent of the population self-reported to not be currently covered by any type of health insurance or health coverage plan. This data comes from Question 16 of the Person section of the American Community Survey.",
-                "statement": "{value} percent of the population has no health insurance in  {region_name}",
+                "statement": "{value} percent of the population has no health insurance in {features.name}",
                 "citations": {},
                 "source": [
                   {
@@ -2869,17 +3050,17 @@ const site = {
                 "long_name": "OBGYN care access score (2 step-enhanced floating catchment areas)",
                 "short_description": "Index of OBGYN care accessibility based on supply and demand of providers",
                 "long_description": "OBGYN care access score based on 2-step enhanced floating catchment areas. This method is an aggregation of OBGYNs per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for OBGYNs (population served by OBGYNs). Provider address data was collected from WebMD's online physician directory.\n",
-                "statement": "The OBGYN access score for {region_name}  is {value}",
+                "statement": "The OBGYN access score for {features.name}  is {value}",
                 "citations": [
                   {
                     "id": 1,
                     "author": "Wei Lou",
                     "year": 2004,
-                    "title": "Using a gis-based floating catchment method to assess areas with shortage of physicians",
+                    "title": "Using a GIS-based floating catchment method to assess areas with shortage of physicians",
                     "journal": "Health & Place",
                     "number": "10(1)",
                     "page": "1-11",
-                    "doi": "doi:10.1016/S1353-8292(02)00067-9."
+                    "doi": "10.1016/S1353-8292(02)00067-9"
                   },
                   {
                     "id": 2,
@@ -2889,17 +3070,17 @@ const site = {
                     "journal": "Health & Place",
                     "number": "15(4)",
                     "page": "1100-1107",
-                    "doi": "doi:10.1016/j.healthplace.2009.06.002"
+                    "doi": "10.1016/j.healthplace.2009.06.002"
                   },
                   {
                     "id": 3,
                     "author": "Wei Luo and Fahui Wang",
                     "year": 2003,
-                    "title": "Measures of spatial accessibility to health care in a gis environment: synthesis and a case study in the Chicago region",
+                    "title": "Measures of spatial accessibility to health care in a GIS environment: synthesis and a case study in the Chicago region",
                     "journal": "Environment and Planning B: Planning and Design",
                     "number": "30(6)",
                     "page": "865-884",
-                    "doi": "doi:10.1068/b29120"
+                    "doi": "10.1068/b29120"
                   },
                   {
                     "id": 4,
@@ -2909,14 +3090,14 @@ const site = {
                     "journal": "University of Chicago: Center for Spatial Data Science",
                     "number": "Preprint",
                     "page": {},
-                    "doi": "doi:10.13140/RG.2.2.12396.28807"
+                    "doi": "10.13140/RG.2.2.12396.28807"
                   }
                 ],
                 "source": [
                   {
                     "name": "WebMD Physician Directory",
                     "date_accessed": 2021,
-                    "url": "https://doctor.webmd.com/"
+                    "url": "https://doctor.webmd.com"
                   }
                 ]
               },
@@ -2937,16 +3118,16 @@ const site = {
                 "measure": "obgyn_cnt",
                 "type": "count",
                 "short_name": "OBGYN care access (count)",
-                "long_name": "OBGYN care acess by count",
+                "long_name": "OBGYN care access by count",
                 "short_description": "Count of OBGYNs based on provider locations",
                 "long_description": "Count of OBGYN care providers based on provider locations. Address data was collected from WebMD's online Physician Directory.",
-                "statement": "There are {value}  OBGYNs in {region_name}",
+                "statement": "There are {value}  OBGYNs in {features.name}",
                 "citations": {},
                 "source": [
                   {
                     "name": "WebMD Physician Directory",
                     "date_accessed": 2021,
-                    "url": "https://doctor.webmd.com/"
+                    "url": "https://doctor.webmd.com"
                   }
                 ]
               },
@@ -2970,7 +3151,7 @@ const site = {
                 "long_name": "Percent of population with broadband",
                 "short_description": "Percent of population self-reported to have a broadband internet connection (any type of internet other than a dial-up)",
                 "long_description": {},
-                "statement": "{value} percent of the population in {region_name} has a broadband connection",
+                "statement": "{value} percent of the population in {features.name} has a broadband connection",
                 "citations": {},
                 "source": [
                   {
@@ -3000,7 +3181,7 @@ const site = {
                 "long_name": "Percent of population with a high speed internet service (cable, fiber optic, or DSL)",
                 "short_description": "Percent of population self-reported to have a high speed internet service (cable, fiber optic, or DSL)",
                 "long_description": {},
-                "statement": "{value} percent of the population in {region_name} has a cable fiber or DSL internet connection",
+                "statement": "{value} percent of the population in {features.name} has a cable fiber or DSL internet connection",
                 "citations": {},
                 "source": [
                   {
@@ -3030,17 +3211,17 @@ const site = {
                 "long_name": "Pediatric care access score (2-step enhanced floating catchment areas)",
                 "short_description": "Index of pediatric care physician accessibility based on supply and demand of providers",
                 "long_description": {},
-                "statement": "The pediatric care accessibility score for {region_name} is  {value}",
+                "statement": "The pediatric care accessibility score for {features.name} is {value}",
                 "citations": [
                   {
                     "id": 1,
                     "author": "Wei Lou",
                     "year": 2004,
-                    "title": "Using a gis-based floating catchment method to assess areas with shortage of physicians",
+                    "title": "Using a GIS-based floating catchment method to assess areas with shortage of physicians",
                     "journal": "Health & Place",
                     "number": "10(1)",
                     "page": "1-11",
-                    "doi": "doi:10.1016/S1353-8292(02)00067-9."
+                    "doi": "10.1016/S1353-8292(02)00067-9"
                   },
                   {
                     "id": 2,
@@ -3050,17 +3231,17 @@ const site = {
                     "journal": "Health & Place",
                     "number": "15(4)",
                     "page": "1100-1107",
-                    "doi": "doi:10.1016/j.healthplace.2009.06.002"
+                    "doi": "10.1016/j.healthplace.2009.06.002"
                   },
                   {
                     "id": 3,
                     "author": "Wei Luo and Fahui Wang",
                     "year": 2003,
-                    "title": "Measures of spatial accessibility to health care in a gis environment: synthesis and a case study in the Chicago region",
+                    "title": "Measures of spatial accessibility to health care in a GIS environment: synthesis and a case study in the Chicago region",
                     "journal": "Environment and Planning B: Planning and Design",
                     "number": "30(6)",
                     "page": "865-884",
-                    "doi": "doi:10.1068/b29120"
+                    "doi": "10.1068/b29120"
                   },
                   {
                     "id": 4,
@@ -3070,14 +3251,14 @@ const site = {
                     "journal": "University of Chicago: Center for Spatial Data Science",
                     "number": "Preprint",
                     "page": {},
-                    "doi": "doi:10.13140/RG.2.2.12396.28807"
+                    "doi": "10.13140/RG.2.2.12396.28807"
                   }
                 ],
                 "source": [
                   {
                     "name": "WebMD Physician Directory",
                     "date_accessed": 2021,
-                    "url": "https://doctor.webmd.com/"
+                    "url": "https://doctor.webmd.com"
                   }
                 ]
               },
@@ -3101,13 +3282,13 @@ const site = {
                 "long_name": "Pediatric care access by count",
                 "short_description": "Count of pediatricians based on provider locations",
                 "long_description": {},
-                "statement": "There are {value} pediatricians in {region_name}",
+                "statement": "There are {value} pediatricians in {features.name}",
                 "citations": {},
                 "source": [
                   {
                     "name": "WebMD Physician Directory",
                     "date_accessed": 2021,
-                    "url": "https://doctor.webmd.com/"
+                    "url": "https://doctor.webmd.com"
                   }
                 ]
               },
@@ -3131,7 +3312,7 @@ const site = {
                 "long_name": "Percent  of population with post-high school education",
                 "short_description": "Percent of the population self-reported to have post-high school level degree",
                 "long_description": {},
-                "statement": "{value} percent of the population in {region_name} have a post-high school education",
+                "statement": "{value} percent of the population in {features.name} have a post-high school education",
                 "citations": {},
                 "source": [
                   {
@@ -3161,7 +3342,7 @@ const site = {
                 "long_name": "Preventable hospital stays per 100,000 Medicare enrollees",
                 "short_description": "Rate of hospital stays for ambulatory-care sensitive conditions per 100,000 Medicare enrollees",
                 "long_description": "Rate of hospital stays for ambulatory-care sensitive conditions per 100,000 Medicare enrollees. Ambulatory care refers to diagnoses that are usually treatable in outpatient settings. This data is based on Medicare claims and comes from County Health Rankings.",
-                "statement": "{value} percent of the hospitalizations in {region_name}  were preventable (due to conditions usually treated in outpatient settings)",
+                "statement": "{value} percent of the hospitalizations in {features.name}  were preventable (due to conditions usually treated in outpatient settings)",
                 "citations": {},
                 "source": [
                   {
@@ -3190,17 +3371,17 @@ const site = {
                 "long_name": "Primary care access score (2-step enhanced floating catchment areas)",
                 "short_description": "Index of primary care physician accessibility based on supply and demand of providers",
                 "long_description": "Primary care access score based on 2-step enhanced floating catchment areas. This method is an aggregation of physicians per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for physicians (population served by physicians). Provider address data was collected from WebMD's online Physician Directory.\n",
-                "statement": "The primary care accessibility score for {region_name}  is  {value}",
+                "statement": "The primary care accessibility score for {features.name}  is {value}",
                 "citations": [
                   {
                     "id": 1,
                     "author": "Wei Lou",
                     "year": 2004,
-                    "title": "Using a gis-based floating catchment method to assess areas with shortage of physicians",
+                    "title": "Using a GIS-based floating catchment method to assess areas with shortage of physicians",
                     "journal": "Health & Place",
                     "number": "10(1)",
                     "page": "1-11",
-                    "doi": "doi:10.1016/S1353-8292(02)00067-9."
+                    "doi": "10.1016/S1353-8292(02)00067-9"
                   },
                   {
                     "id": 2,
@@ -3210,17 +3391,17 @@ const site = {
                     "journal": "Health & Place",
                     "number": "15(4)",
                     "page": "1100-1107",
-                    "doi": "doi:10.1016/j.healthplace.2009.06.002"
+                    "doi": "10.1016/j.healthplace.2009.06.002"
                   },
                   {
                     "id": 3,
                     "author": "Wei Luo and Fahui Wang",
                     "year": 2003,
-                    "title": "Measures of spatial accessibility to health care in a gis environment: synthesis and a case study in the Chicago region",
+                    "title": "Measures of spatial accessibility to health care in a GIS environment: synthesis and a case study in the Chicago region",
                     "journal": "Environment and Planning B: Planning and Design",
                     "number": "30(6)",
                     "page": "865-884",
-                    "doi": "doi:10.1068/b29120"
+                    "doi": "10.1068/b29120"
                   },
                   {
                     "id": 4,
@@ -3230,14 +3411,14 @@ const site = {
                     "journal": "University of Chicago: Center for Spatial Data Science",
                     "number": "Preprint",
                     "page": {},
-                    "doi": "doi:10.13140/RG.2.2.12396.28807"
+                    "doi": "10.13140/RG.2.2.12396.28807"
                   }
                 ],
                 "source": [
                   {
                     "name": "WebMD Physician Directory",
                     "date_accessed": 2021,
-                    "url": "https://doctor.webmd.com/"
+                    "url": "https://doctor.webmd.com"
                   }
                 ]
               },
@@ -3261,13 +3442,13 @@ const site = {
                 "long_name": "Primary care access by count",
                 "short_description": "Count of primary care physicians based on provider locations",
                 "long_description": "Count of primary care physicians based on provider locations. Address data was collected from WebMD's online Physician Directory.",
-                "statement": "There are {value} primary care physicians in {region_name}",
+                "statement": "There are {value} primary care physicians in {features.name}",
                 "citations": {},
                 "source": [
                   {
                     "name": "WebMD Physician Directory",
                     "date_accessed": 2021,
-                    "url": "https://doctor.webmd.com/"
+                    "url": "https://doctor.webmd.com"
                   }
                 ]
               },
@@ -3404,27 +3585,59 @@ const site = {
     }
   },
   "info": {
-    "info0": {
+    "info9": {
       "title": "features.name",
-      "body": [
-        {
-          "name": "Region Type",
-          "value": "features.type"
-        },
-        {
-          "name": "",
-          "value": "value"
-        }
-      ],
-      "variable_info": {
-        "title": "short_name",
-        "body": "short_description"
-      },
+      "body": [],
       "default": {
         "title": "Virginia",
         "body": "Hover over or select a region for more information."
       },
-      "subto": ["map0", "plot0"]
+      "dataview": "primary_view",
+      "subto": ["map0", "plot0"],
+      "variable_info": false
+    },
+    "info10": {
+      "title": "",
+      "body": [
+        {
+          "name": "Region Type",
+          "value": "features.type",
+          "style": "table"
+        },
+        {
+          "name": "variables.measure",
+          "value": "selected_variable",
+          "style": "stack"
+        },
+        {
+          "name": "",
+          "value": "variables.statement",
+          "style": "table"
+        }
+      ],
+      "default": [],
+      "dataview": "primary_view",
+      "subto": ["map0", "plot0"],
+      "variable_info": true
+    },
+    "variable_info_pane": {
+      "title": "variables.short_name",
+      "body": [
+        {
+          "name": "Year",
+          "value": "data.time",
+          "style": "table"
+        },
+        {
+          "name": "",
+          "value": "variables.source",
+          "style": "table"
+        }
+      ],
+      "default": [],
+      "dataview": "primary_view",
+      "subto": {},
+      "variable_info": true
     }
   },
   "text": {
@@ -3517,7 +3730,7 @@ const site = {
     }
   },
   "tables": {
-    "table11": {
+    "table15": {
       "paging": false,
       "scrollY": 400,
       "scrollX": 500,
@@ -3539,7 +3752,7 @@ const site = {
       "wide": false,
       "single_variable": false
     },
-    "table13": {
+    "table17": {
       "info": false,
       "paging": false,
       "searching": false,
@@ -3684,5 +3897,6 @@ const site = {
       "url": "https://datatables.net",
       "version": "1.11.3"
     }
-  }
+  },
+  "color_by_order": false
 }

@@ -6,3 +6,5 @@
   --link: #007eb3;
   --highlight: #173a64
 }
+
+#variable_info_pane .info-title{font-size: 1.4em; text-align: center}

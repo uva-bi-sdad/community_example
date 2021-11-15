@@ -50,6 +50,12 @@ Virginia Department of Health
 </select>
 </div>
 </div>
+<div class="wrapper switch-wrapper">
+<div class="form-check form-switch">
+<label class="form-check-label" for="settings.color_by_order">Color by Order</label>
+<input auto-type="switch" type="checkbox" autocomplete="off" class="auto-input form-check-input" role="switch" id="settings.color_by_order">
+</div>
+</div>
 <div class="wrapper text-wrapper">
 <label for="settings.digits">Digits</label>
 <input type="number" id="settings.digits" min="0" max="6" class="form-control auto-input" auto-type="number">
@@ -57,8 +63,9 @@ Virginia Department of Health
 <div class="wrapper select-wrapper">
 <label for="settings.summary_selection">Summary Level</label>
 <div class="input-group">
-<select class="auto-input form-select" auto-type="select" id="settings.summary_selection" default="filtered"  default="filtered">
-<option value="filtered">Entire State</option>
+<select class="auto-input form-select" auto-type="select" id="settings.summary_selection" default="dataset"  default="dataset">
+<option value="dataset">All Regions</option>
+<option value="filtered">Selected Region Types</option>
 <option value="all">Selected Region</option>
 </select>
 </div>
@@ -177,24 +184,23 @@ Virginia Department of Health
 <p auto-type="text" id="text7" class="auto-output output-text"></p>
 <p auto-type="text" id="text8" class="auto-output output-text h1 text-center"></p>
 <div class="row">
-<div class="col-8">
+<div class="col">
 <div class="auto-output leaflet"data-view="primary_view"click="region_select"id="map0"auto-type="map"></div>
 </div>
 <div class="col-4">
 <div class="d-flex flex-column col align-items-end">
 <div class="row mb-auto">
-<div class="auto-output text-display" auto-type="info" id="info0" data-view="primary_view">
-<div class="">
-<p class="h2">Virginia</p>
-<p>Hover over or select a region for more information.</p>
-<table class="table location-table hidden"></table>
+<div class="row">
+<div class="row">
+<div class="auto-output text-display" auto-type="info" id="info9"></div>
 </div>
-<div class="hidden">
-<p class="h2">Virginia</p>
-<table class="table location-table hidden"></table>
+<div class="row">
+<div class="auto-output text-display" auto-type="info" id="info10"></div>
 </div>
-<div class="variable-info"></div>
 </div>
+</div>
+<div class="row">
+<div class="auto-output text-display" auto-type="info" id="variable_info_pane"></div>
 </div>
 <div class="row">
 <div palette="selected_palette" class="legend">
@@ -209,17 +215,17 @@ Virginia Department of Health
 <div class="col-7">
 <nav>
 <div class="nav nav-tabs">
-<button type="button" data-bs-toggle="tab" aria-controls="tg111" class="nav-link active" aria-selected="true" data-bs-target="#tg111" id="tg111-tab">Plot</button>
-<button type="button" data-bs-toggle="tab" aria-controls="tg112" class="nav-link" aria-selected="false" data-bs-target="#tg112" id="tg112-tab">Data</button>
+<button type="button" data-bs-toggle="tab" aria-controls="tg151" class="nav-link active" aria-selected="true" data-bs-target="#tg151" id="tg151-tab">Plot</button>
+<button type="button" data-bs-toggle="tab" aria-controls="tg152" class="nav-link" aria-selected="false" data-bs-target="#tg152" id="tg152-tab">Data</button>
 </div>
 </nav>
 <div class="tab-content">
-<div role="tabpanel" aria-labelledby="tg111-tab" class="tab-pane fade show active" id="tg111"><div class="auto-output plotly" data-view="primary_view" click="region_select" x="time" y="selected_variable" id="plot0" auto-type="plot"></div></div>
-<div role="tabpanel" aria-labelledby="tg112-tab" class="tab-pane fade" id="tg112"><table class="auto-output datatables compact" data-view="primary_view" id="table11" auto-type="table"></table></div>
+<div role="tabpanel" aria-labelledby="tg151-tab" class="tab-pane fade show active" id="tg151"><div class="auto-output plotly" data-view="primary_view" click="region_select" x="time" y="selected_variable" id="plot0" auto-type="plot"></div></div>
+<div role="tabpanel" aria-labelledby="tg152-tab" class="tab-pane fade" id="tg152"><table class="auto-output datatables compact" data-view="primary_view" id="table15" auto-type="table"></table></div>
 </div>
 </div>
 <div class="col-5">
-<table class="auto-output datatables compact" data-view="primary_view" id="table13" auto-type="table"></table>
+<table class="auto-output datatables compact" data-view="primary_view" id="table17" auto-type="table"></table>
 </div>
 </div>
 </div>

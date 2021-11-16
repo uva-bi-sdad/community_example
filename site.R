@@ -92,7 +92,7 @@ page_menu(
       input_number("First Year", "min_year", default = "min", max = "max_year", dataview = "primary_view"),
       input_number("Selected Year", min = "min_year", max = "max_year", default = "max", id = "selected_year"),
       input_number("Last Year", "max_year", default = "max", min = "min_year", dataview = "primary_view"),
-      breakpoints = "sm",
+      breakpoints = "md",
       sizes = c(3, NA, 3)
     )
   ),
@@ -191,7 +191,7 @@ page_section(
       )
     },
     page_section(
-      type = "d-flex flex-column col align-items-end",
+      type = "d-flex flex-column col align-items-end compact",
       ## use `output_info` to display information about selected and hovered-over entities
       page_section(
         wraps = "row",
@@ -210,7 +210,7 @@ page_section(
           row_style = c("table", "stack"),
           dataview = "primary_view",
           subto = c("map0", "plot0"),
-          variable_info = TRUE
+          variable_info = FALSE
         )
       ),
       output_info(
@@ -218,7 +218,6 @@ page_section(
         body = c(Year = "data.time", "variables.source"),
         dataview = "primary_view",
         id = "variable_info_pane",
-        variable_info = TRUE
       ),
       output_legend("selected_palette", "Below", "Region Median", "Above"),
       wraps = c("row mb-auto", "row", "row")

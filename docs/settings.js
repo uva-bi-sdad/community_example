@@ -3618,7 +3618,7 @@ const site = {
       "default": [],
       "dataview": "primary_view",
       "subto": ["map0", "plot0"],
-      "variable_info": true
+      "variable_info": false
     },
     "variable_info_pane": {
       "title": "variables.short_name",
@@ -3637,7 +3637,7 @@ const site = {
       "default": [],
       "dataview": "primary_view",
       "subto": {},
-      "variable_info": true
+      "variable_info": false
     }
   },
   "text": {

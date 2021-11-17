@@ -3177,41 +3177,6 @@ const site = {
     }
   },
   "info": {
-    "info9": {
-      "title": "features.name",
-      "body": [],
-      "default": {
-        "title": "Virginia",
-        "body": "Hover over or select a region for more information."
-      },
-      "dataview": "primary_view",
-      "subto": ["map0", "plot0"],
-      "variable_info": false
-    },
-    "info10": {
-      "title": "",
-      "body": [
-        {
-          "name": "Region Type",
-          "value": "features.type",
-          "style": "table"
-        },
-        {
-          "name": "variables.measure",
-          "value": "selected_variable",
-          "style": "stack"
-        },
-        {
-          "name": "",
-          "value": "variables.statement",
-          "style": "table"
-        }
-      ],
-      "default": [],
-      "dataview": "primary_view",
-      "subto": ["map0", "plot0"],
-      "variable_info": false
-    },
     "variable_info_pane": {
       "title": "variables.short_name",
       "body": [
@@ -3229,6 +3194,41 @@ const site = {
       "default": [],
       "dataview": "primary_view",
       "subto": {},
+      "variable_info": false
+    },
+    "info10": {
+      "title": "features.name",
+      "body": [],
+      "default": {
+        "title": "Virginia",
+        "body": "Hover over or select a region for more information."
+      },
+      "dataview": "primary_view",
+      "subto": ["map0", "plot0"],
+      "variable_info": false
+    },
+    "info11": {
+      "title": "",
+      "body": [
+        {
+          "name": "Region Type",
+          "value": "features.type",
+          "style": "table"
+        },
+        {
+          "name": "variables.long_name",
+          "value": "selected_variable",
+          "style": "stack"
+        },
+        {
+          "name": "",
+          "value": "variables.statement",
+          "style": "table"
+        }
+      ],
+      "default": [],
+      "dataview": "primary_view",
+      "subto": ["map0", "plot0"],
       "variable_info": false
     }
   },
@@ -3275,7 +3275,7 @@ const site = {
               "value": ""
             }
           ],
-          "text": [" > County: ", "selected_county"]
+          "text": [" > ", "selected_county"]
         }
       ]
     },
@@ -3381,6 +3381,7 @@ const site = {
         "showlegend": false
       },
       "config": {
+        "modeBarButtonsToAdd": ["hoverclosest", "hovercompare"],
         "showSendToCloud": false,
         "responsive": true,
         "showTips": false,
@@ -3447,6 +3448,7 @@ const site = {
         "scrollWheelZoom": false,
         "center": [38, -79.5],
         "zoom": 7,
+        "height": "430px",
         "legend": true,
         "subto": [
           "plot0"

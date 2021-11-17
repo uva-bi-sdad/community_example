@@ -146,7 +146,7 @@ page_section(
   output_text(c(
     "State: Virginia[r selected_district]",
     "? > Health District: {selected_district}[r selected_county]",
-    "? > County: {selected_county}"
+    "? > {selected_county}"
   )),
   output_text(list(
     "default" = "Virginia Health Districts",
@@ -174,7 +174,8 @@ page_section(
           attributionControl = FALSE,
           scrollWheelZoom = FALSE,
           center = c(38, -79.5),
-          zoom = 7
+          zoom = 7,
+          height = "430px"
         ),
         tiles = list(url = "https://stamen-tiles-{s}.a.ssl.fastly.net/toner-lite/{z}/{x}/{y}{r}.png"),
         attribution = list(
@@ -193,6 +194,12 @@ page_section(
     page_section(
       type = "d-flex flex-column col align-items-end compact",
       ## use `output_info` to display information about selected and hovered-over entities
+      output_info(
+        title = "variables.short_name",
+        body = c(Year = "data.time", "variables.source"),
+        dataview = "primary_view",
+        id = "variable_info_pane",
+      ),
       page_section(
         wraps = "row",
         output_info(
@@ -204,7 +211,7 @@ page_section(
         output_info(
           body = c(
             "Region Type" = "features.type",
-            "variables.measure" = "selected_variable",
+            "variables.long_name" = "selected_variable",
             "variables.statement"
           ),
           row_style = c("table", "stack"),
@@ -213,14 +220,8 @@ page_section(
           variable_info = FALSE
         )
       ),
-      output_info(
-        title = "variables.short_name",
-        body = c(Year = "data.time", "variables.source"),
-        dataview = "primary_view",
-        id = "variable_info_pane",
-      ),
       output_legend("selected_palette", "Below", "Region Median", "Above"),
-      wraps = c("row mb-auto", "row", "row")
+      wraps = c("row", "row mb-auto", "row")
     )
   ),
   page_section(

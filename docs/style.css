@@ -7,4 +7,5 @@
   --highlight: #173a64
 }
 
-#variable_info_pane .info-title{font-size: 1.4em; text-align: center}
+#variable_info_pane .info-title{text-align: left}
+.info-body table{margin: .2em 0 .5em 0}

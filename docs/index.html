@@ -43,17 +43,23 @@ Virginia Department of Health
 <button class="btn-close text-reset" type="button" data-bs-dismiss="offcanvas" title="Close"></button>
 </div>
 <div class="offcanvas-body">
+<div class="wrapper switch-wrapper">
+<div class="form-check form-switch">
+<label class="form-check-label" for="settings.theme_dark">Dark Theme</label>
+<input auto-type="switch" type="checkbox" autocomplete="off" class="auto-input form-check-input" role="switch" id="settings.theme_dark">
+</div>
+</div>
 <div class="wrapper select-wrapper">
 <label for="selected_palette">Color Palette</label>
 <div class="input-group">
-<select class="auto-input form-select" auto-type="select" id="selected_palette" default="rdylbu7" auto-options="palettes" default="rdylbu7">
+<select class="auto-input form-select" auto-type="select" id="selected_palette" auto-options="palettes" default="rdylbu7">
 </select>
 </div>
 </div>
 <div class="wrapper switch-wrapper">
 <div class="form-check form-switch">
 <label class="form-check-label" for="settings.color_by_order">Color by Order</label>
-<input auto-type="switch" type="checkbox" autocomplete="off" class="auto-input form-check-input" role="switch" id="settings.color_by_order">
+<input auto-type="switch" type="checkbox" autocomplete="off" class="auto-input form-check-input" role="switch" id="settings.color_by_order" title="Switch from coloring by value to coloring by sorted index. This may help differentiate regions with similar values.">
 </div>
 </div>
 <div class="wrapper text-wrapper">
@@ -63,11 +69,18 @@ Virginia Department of Health
 <div class="wrapper select-wrapper">
 <label for="settings.summary_selection">Summary Level</label>
 <div class="input-group">
-<select class="auto-input form-select" auto-type="select" id="settings.summary_selection" default="dataset"  default="dataset">
+<select class="auto-input form-select" auto-type="select" id="settings.summary_selection"  default="dataset" title="Determins which regions are included in summaries for box-plots and color scaling; All-Regions are state-wide, Selected Region Types are filtered by the Region Types input, and Selected Region are filtered by region selection.">
 <option value="dataset">All Regions</option>
 <option value="filtered">Selected Region Types</option>
 <option value="all">Selected Region</option>
 </select>
+</div>
+</div>
+<p class="section-heading">Plot Options</p>
+<div class="wrapper switch-wrapper">
+<div class="form-check form-switch">
+<label class="form-check-label" for="settings.boxplots">Box Plots</label>
+<input auto-type="switch" type="checkbox" autocomplete="off" class="auto-input form-check-input" role="switch" id="settings.boxplots" checked>
 </div>
 </div>
 </div>
@@ -92,7 +105,7 @@ Virginia Department of Health
 <div class="row form-row">
 <div class="wrapper select-wrapper">
 <div class="input-group form-floating">
-<select class="auto-input form-select" auto-type="select" id="selected_district" default="-1" auto-options="levels" default="-1" data-view="primary_view" dataset="district" variable="ID">
+<select class="auto-input form-select" auto-type="select" id="selected_district" auto-options="levels" default="-1" data-view="primary_view" dataset="district" variable="ID" variable="ID">
 </select>
 <label for="selected_district">Health District</label>
 <button type="button" class="btn select-reset">Reset</button>
@@ -102,7 +115,7 @@ Virginia Department of Health
 <div class="row form-row" id="sec32">
 <div class="wrapper select-wrapper">
 <div class="input-group form-floating">
-<select class="auto-input form-select" auto-type="select" id="selected_county" default="-1" auto-options="levels" default="-1" data-view="primary_view" dataset="county" variable="ID">
+<select class="auto-input form-select" auto-type="select" id="selected_county" auto-options="levels" default="-1" data-view="primary_view" dataset="county" variable="ID" variable="ID">
 </select>
 <label for="selected_county">County</label>
 <button type="button" class="btn select-reset">Reset</button>
@@ -135,7 +148,7 @@ Virginia Department of Health
 <div class="row form-row">
 <div class="wrapper select-wrapper">
 <div class="input-group form-floating">
-<select class="auto-input form-select" auto-type="select" id="variable_type" default="Health"  default="Health">
+<select class="auto-input form-select" auto-type="select" id="variable_type"  default="Health">
 <option value="Education">Education</option>
 <option value="Broadband">Broadband</option>
 <option value="Health">Health</option>
@@ -147,7 +160,7 @@ Virginia Department of Health
 <div class="row form-row">
 <div class="wrapper select-wrapper">
 <div class="input-group form-floating">
-<select class="auto-input form-select" auto-type="select" id="selected_variable" default="no_health_insurance_19_to_64:no_hlth_ins_pct" auto-options="variables" default="no_health_insurance_19_to_64:no_hlth_ins_pct" depends="shapes">
+<select class="auto-input form-select" auto-type="select" id="selected_variable" auto-options="variables" default="no_health_insurance_19_to_64:no_hlth_ins_pct" depends="shapes">
 </select>
 <label for="selected_variable">Variable</label>
 </div>

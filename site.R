@@ -17,17 +17,31 @@ page_navbar(
     name = "Settings",
     backdrop = "false",
     items = list(
+      input_switch("Dark Theme", default_on = FALSE, id = "settings.theme_dark"),
       input_select(
         "Color Palette", options = "palettes", default = "rdylbu7", id = "selected_palette",
         floating_label = FALSE
       ),
-      input_switch("Color by Order", default_on = FALSE, id = "settings.color_by_order"),
+      input_switch(
+        "Color by Order", default_on = FALSE, id = "settings.color_by_order",
+        title = paste(
+          "Switch from coloring by value to coloring by sorted index.",
+          "This may help differentiate regions with similar values."
+        )
+      ),
       input_number("Digits", "settings.digits", min = 0, max = 6, floating_label = FALSE),
       input_select(
         "Summary Level", options = c("dataset", "filtered", "all"), default = "dataset",
         display = c("All Regions", "Selected Region Types", "Selected Region"), id = "settings.summary_selection",
-        floating_label = FALSE
-      )
+        floating_label = FALSE,
+        title = paste(
+          "Determins which regions are included in summaries for box-plots and color scaling;",
+          "All-Regions are state-wide, Selected Region Types are filtered by the Region Types input, and",
+          "Selected Region are filtered by region selection."
+        )
+      ),
+      '<p class="section-heading">Plot Options</p>',
+      input_switch("Box Plots", id = "settings.boxplots")
     )
   ),
   list(

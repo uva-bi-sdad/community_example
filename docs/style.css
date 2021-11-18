@@ -3,6 +3,8 @@
 
 :root{
   --bs-body-font-family: 'Lato', sans-serif;
+}
+.light-theme{
   --link: #007eb3;
   --highlight: #173a64
 }

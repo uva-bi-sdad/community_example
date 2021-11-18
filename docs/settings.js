@@ -3491,5 +3491,7 @@ const site = {
       "version": "1.11.3"
     }
   },
-  "color_by_order": false
+  "color_by_order": false,
+  "boxplots": true,
+  "theme_dark": false
 }

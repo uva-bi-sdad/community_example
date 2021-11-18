@@ -191,12 +191,20 @@ page_section(
           zoom = 7,
           height = "430px"
         ),
-        tiles = list(url = "https://stamen-tiles-{s}.a.ssl.fastly.net/toner-lite/{z}/{x}/{y}{r}.png"),
+        tiles = list(
+          light = list(url = "https://stamen-tiles-{s}.a.ssl.fastly.net/toner-lite/{z}/{x}/{y}{r}.png"),
+          dark = list(url = "https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png")
+        ),
         attribution = list(
           list(
             name = "Stamen toner-light",
             url = "https://stamen.com",
-            description = "Map tiles by Stamen Design"
+            description = "Light-theme map tiles by Stamen Design"
+          ),
+          list(
+            name = "CARTO Dark Matter",
+            url = "https://carto.com/attributions",
+            description = "Dark-theme map tiles by CARTO"
           ),
           list(
             name = "OpenStreetMap",

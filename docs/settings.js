@@ -3381,7 +3381,6 @@ const site = {
         "showlegend": false
       },
       "config": {
-        "modeBarButtonsToAdd": ["hoverclosest", "hovercompare"],
         "showSendToCloud": false,
         "responsive": true,
         "showTips": false,
@@ -3455,7 +3454,12 @@ const site = {
         ]
       },
       "tiles": {
-        "url": "https://stamen-tiles-{s}.a.ssl.fastly.net/toner-lite/{z}/{x}/{y}{r}.png"
+        "light": {
+          "url": "https://stamen-tiles-{s}.a.ssl.fastly.net/toner-lite/{z}/{x}/{y}{r}.png"
+        },
+        "dark": {
+          "url": "https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png"
+        }
       }
     }
   },
@@ -3474,7 +3478,12 @@ const site = {
     "Stamen toner-light": {
       "name": "Stamen toner-light",
       "url": "https://stamen.com",
-      "description": "Map tiles by Stamen Design"
+      "description": "Light-theme map tiles by Stamen Design"
+    },
+    "CARTO Dark Matter": {
+      "name": "CARTO Dark Matter",
+      "url": "https://carto.com/attributions",
+      "description": "Dark-theme map tiles by CARTO"
     },
     "OpenStreetMap": {
       "name": "OpenStreetMap",

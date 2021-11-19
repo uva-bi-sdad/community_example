@@ -3381,6 +3381,7 @@ const site = {
         "showlegend": false
       },
       "config": {
+        "modeBarButtonsToAdd": ["hoverclosest", "hovercompare"],
         "showSendToCloud": false,
         "responsive": true,
         "showTips": false,

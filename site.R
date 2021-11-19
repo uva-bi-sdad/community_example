@@ -13,6 +13,7 @@ page_head(
 page_navbar(
   "Virginia Department of Health",
   "https://www.developer.virginia.gov/media/developer/resources/brand/banner/latest/cardinal.svg",
+  input_button("Reset", "reset_selection", "reset.selection", class = "btn-link"),
   list(
     name = "Settings",
     backdrop = "false",
@@ -41,7 +42,8 @@ page_navbar(
         )
       ),
       '<p class="section-heading">Plot Options</p>',
-      input_switch("Box Plots", id = "settings.boxplots")
+      input_switch("Box Plots", id = "settings.boxplots"),
+      input_button("Clear Settings", "reset_storage", "clear_storage", class = "btn-danger footer")
     )
   ),
   list(

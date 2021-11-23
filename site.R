@@ -168,7 +168,7 @@ page_section(
     "default" = "Virginia Health Districts",
     "selected_district" = "{selected_district} Counties",
     "selected_county" = "{selected_county} Census Tracts"
-  ), class = "h1 text-center"),
+  ), tag = "h1", class = "text-center"),
   page_section(
     type = "row",
     wraps = "col",

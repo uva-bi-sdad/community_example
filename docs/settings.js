@@ -23,8 +23,8 @@ const site = {
         ],
         "time": "time",
         "profile": "data-resource",
-        "created": "2021-11-16 10:33:34",
-        "last_modified": "2021-11-16 11:15:52",
+        "created": "2021-10-28 19:56:08",
+        "last_modified": "2021-10-20 00:50:32",
         "rowcount": 245,
         "schema": {
           "fields": [
@@ -83,9 +83,9 @@ const site = {
                 "measure": "median_drive_time_top5",
                 "type": "float",
                 "short_name": "2-year college access (drive time)",
-                "long_name": "2-year college access by median dive time to the five closest colleges in minutes",
-                "short_description": "Median drive time (minutes) to the five closest 2-year colleges",
-                "long_description": "Median drive time in minutes to the five closest 2-year colleges. Address data was collected from the National Center for Education Statistics. Drive times were computed using Open Source Routing Machine.",
+                "long_name": "2-year college access by median drive time to the five closest colleges in minutes",
+                "short_description": "Median drive time (minutes) to the five closest 2-year colleges from centroid of selected region",
+                "long_description": "Median drive time in minutes to the five closest 2-year colleges from centroid of selected region. Address data was collected from the National Center for Education Statistics (Dataset for year 2019). Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
                 "statement": "The median drive time to the five closest 2-year colleges to {features.name} is {value} minutes",
                 "source": [
                   {
@@ -143,7 +143,7 @@ const site = {
                 "short_name": "Day care access score",
                 "long_name": "Day care access score (3-step floating catchment area)",
                 "short_description": "Index of day care accessibility based on supply of and demand for providers",
-                "long_description": "Primary care access score based on 2-step enhanced floating catchment areas. This method is an aggregation of day care facilities per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Provider address data was collected from Virginia Department of Social Services day care search tool. Demand = 0-12 years, supply = day care capacity",
+                "long_description": "Primary care access score based on 2-step enhanced floating catchment areas. This method is an aggregation of day care facilities per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Provider address data was collected from Virginia Department of Social Services day care search tool. The demand for day care services is the population 0-12 years old and the supply is the capacity of day cares (number of seats).",
                 "statement": "The daycare accessibility score for {features.name} is {value}",
                 "citations": [
                   "lou04",
@@ -178,7 +178,7 @@ const site = {
                 "short_name": "Day care access (count)",
                 "long_name": "Access to day care by count",
                 "short_description": "Count of day care capacity (seats) based on provider locations",
-                "long_description": "Count of day care capacity (seats) based on provider locations. Address  and capacity data was collected from Virginia Department of Social Services day care search tool.",
+                "long_description": "Count of day care capacity (seats) based on provider locations. Address and capacity data was collected from Virginia Department of Social Services day care search tool.",
                 "statement": "There are {value} daycares in {features.name}",
                 "source": [
                   {
@@ -206,8 +206,8 @@ const site = {
                 "type": "float",
                 "short_name": "Day care access (drive time)",
                 "long_name": "Day care access by median drive time to the five closest day cares in minutes",
-                "short_description": "Median drive time (minutes) to the five closest day cares",
-                "long_description": "Median drive time in minutes to the five closest day cares. Address data was collected from the Virginia Department of Social Services Child Day Care Facility search. Drive times were computed using Open Source Routing Machine.",
+                "short_description": "Median drive time (minutes) to the five closest day cares from centroid of selected region",
+                "long_description": "Median drive time in minutes to the five closest day cares from centroid of selected region. Address data was collected from the Virginia Department of Social Services Child Day Care Facility search (Dataset for year 2019). Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
                 "statement": "The median drive time to the five closest day cares to {features.name} is {value} minutes",
                 "source": [
                   {
@@ -235,8 +235,8 @@ const site = {
                 "type": "index",
                 "short_name": "Digital Equity Index",
                 "long_name": "Digitial Equity Index",
-                "short_description": "Digital Equity Index captures the relative equity of digitial access, with 0 being a score of relative equity and 100 being relative inequity.",
-                "long_description": "The Digital Equity Index captures the relative equity of digitial access. The Digital Equity Index uses is a composite of measures of broadband infrastructure and adoption and socioeconomic variables, with 0 being a score of relative equity and 100 being relative inequity.",
+                "short_description": "Digital Equity Index captures the relative equity of digital access, with 0 being a score of relative equity and 100 being relative inequity.",
+                "long_description": "The Digital Equity Index captures the relative equity of digital access. The Digital Equity Index uses is a composite of measures of broadband infrastructure and adoption and socioeconomic variables, with 0 being a score of relative equity and 100 being relative inequity.",
                 "statement": "The digital equity index for {features.name} is {value}",
                 "citations": [
                   "gallardo20"
@@ -273,7 +273,7 @@ const site = {
                 "short_name": "Dental care access score",
                 "long_name": "Dental care access score (2 step-enhanced floating catchment areas)",
                 "short_description": "Index of dental care accessibility based on supply and demand of providers",
-                "long_description": "Dental care access score based on 2-step ehanced floating catchment areas. This method is an aggregation of dentists per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for dentists (population served by dentists). Provider address data was collected from WebMD's online Physician Directory.",
+                "long_description": "Dental care access score based on 2-step enhanced floating catchment areas. This method is an aggregation of dentists per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for dentists (population served by dentists). Provider address data was collected from WebMD's online Physician Directory.",
                 "statement": "The dental care access score for {features.name} is {value}",
                 "citations": [
                   "lou04",
@@ -309,7 +309,7 @@ const site = {
                 "long_name": "Dental care access by count",
                 "short_description": "Count of dentists based on provider locations",
                 "long_description": "Count of dentists based on provider locations. Address data was collected from WebMD's online Physician Directory.",
-                "statement": "There are {value} densits in {features.name}",
+                "statement": "There are {value} dentists in {features.name}",
                 "source": [
                   {
                     "name": "SafeGraph Core",
@@ -400,8 +400,8 @@ const site = {
                 "type": "float",
                 "short_name": "Trade school access (drive time)",
                 "long_name": "Trade school access by median drive time to the five closest schools in minutes",
-                "short_description": "Mean drive time (minutes) to the five closest trade schools",
-                "long_description": "Median drive time in minutes to the five closest trade schools. Address data was collected from the National Center for Education Statistics. Drive times were computed using Open Source Routing Machine.",
+                "short_description": "Mean drive time (minutes) to the five closest trade schools from centroid of selected region",
+                "long_description": "Median drive time in minutes to the five closest trade schools from centroid of selected region. Address data was collected from the National Center for Education Statistics (Dataset for year 2019). Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
                 "statement": "The median drive time to the five closest trade schools to {features.name} is {value} minutes",
                 "source": [
                   {
@@ -525,11 +525,11 @@ const site = {
                 "short_name": "Uninsured population",
                 "long_name": "Percent of population without health insurance",
                 "short_description": "Percent of the population (ages 16-64) self-reported to not be currently covered by any type of health insurance or health coverage plan",
-                "long_description": "Percent of the population self-reported to not be currently covered by any type of health insurance or health coverage plan. This data comes from Question 16 of the Person section of the American Community Survey.",
+                "long_description": "Percent of the population self-reported to not be currently covered by any type of health insurance or health coverage plan. Based on American Community Survey Tables B18135 and C27001I in ACS 2015/2019 5-year estimates.",
                 "statement": "{value} percent of the population has no health insurance in  {features.name}",
                 "source": [
                   {
-                    "name": "American Community Survey, Tables B18135 and C27001I, ACS 2015/2019 5-Year Estimates Detailed Tables",
+                    "name": "American Community Survey",
                     "date_accessed": 2021,
                     "url": "https://www.census.gov/programs-surveys/acs.html"
                   }
@@ -554,7 +554,7 @@ const site = {
                 "short_name": "OBGYN care access score",
                 "long_name": "OBGYN care access score (2 step-enhanced floating catchment areas)",
                 "short_description": "Index of OBGYN care accessibility based on supply and demand of providers",
-                "long_description": "OBGYN care access score based on 2-step enhanced floating catchment areas. This method is an aggregation of OBGYNs per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for OBGYNs (population served by OBGYNs). Provider address data was collected from WebMD's online physician directory.\n",
+                "long_description": "OBGYN care access score based on 2-step enhanced floating catchment areas. This method is an aggregation of OBGYNs per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for OBGYNs (population served by OBGYNs). Provider address data was collected from WebMD's online physician directory.",
                 "statement": "The OBGYN access score for {features.name} is {value}",
                 "citations": [
                   "lou04",
@@ -587,7 +587,7 @@ const site = {
                 "measure": "obgyn_cnt",
                 "type": "count",
                 "short_name": "OBGYN care access (count)",
-                "long_name": "OBGYN care acess by count",
+                "long_name": "OBGYN care access by count",
                 "short_description": "Count of OBGYNs based on provider locations",
                 "long_description": "Count of OBGYN care providers based on provider locations. Address data was collected from WebMD's online Physician Directory.",
                 "statement": "There are {value} OBGYNs in {features.name}",
@@ -676,7 +676,7 @@ const site = {
                 "short_name": "Pediatric care access score",
                 "long_name": "Pediatric care access score (2-step enhanced floating catchment areas)",
                 "short_description": "Index of pediatric care physician accessibility based on supply and demand of providers",
-                "long_description": "Pediatric care access score based on 2-step ehanced floating catchment areas. This method is an aggregation of pediatricians per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for pediatricians (population under 16). Provider address data was collected from WebMD's online Physician Directory.",
+                "long_description": "Pediatric care access score based on 2-step enhanced floating catchment areas. This method is an aggregation of pediatricians per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for pediatricians (population under 16). Provider address data was collected from WebMD's online Physician Directory.",
                 "statement": "The pediatric care accessibility score for {features.name} is  {value}",
                 "citations": [
                   "lou04",
@@ -711,7 +711,7 @@ const site = {
                 "short_name": "Pediatric care access (count)",
                 "long_name": "Pediatric care access by count",
                 "short_description": "Count of pediatricians based on provider locations",
-                "long_description": "Count of peditricians based on provider locations. Address data was collected from WebMD's online Physician Directory.",
+                "long_description": "Count of pediatricians based on provider locations. Address data was collected from WebMD's online Physician Directory.",
                 "statement": "There are {value} pediatricians in {features.name}",
                 "source": [
                   {
@@ -744,7 +744,7 @@ const site = {
                 "statement": "{value} percent of the population in {features.name} have a post-high school education",
                 "source": [
                   {
-                    "name": "American Community Survey, Table B15003, ACS 2015/2019 5-Year Estimates Detailed Tables",
+                    "name": "American Community Survey",
                     "date_accessed": 2021,
                     "url": "https://www.census.gov/data/developers/data-sets/acs-5year.html"
                   }
@@ -798,7 +798,7 @@ const site = {
                 "short_name": "Primary care access score",
                 "long_name": "Primary care access score (2-step enhanced floating catchment areas)",
                 "short_description": "Index of primary care physician accessibility based on supply and demand of providers",
-                "long_description": "Primary care access score based on 2-step enhanced floating catchment areas. This method is an aggregation of physicians per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for physicians (population served by physicians). Provider address data was collected from WebMD's online Physician Directory.\n",
+                "long_description": "Primary care access score based on 2-step enhanced floating catchment areas. This method is an aggregation of physicians per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for physicians (population served by physicians). Provider address data was collected from WebMD's online Physician Directory.",
                 "statement": "The primary care accessibility score for {features.name}  is  {value}",
                 "citations": [
                   "lou04",
@@ -1046,8 +1046,8 @@ const site = {
         ],
         "time": "time",
         "profile": "data-resource",
-        "created": "2021-11-16 10:33:35",
-        "last_modified": "2021-11-16 11:15:52",
+        "created": "2021-10-28 19:56:08",
+        "last_modified": "2021-10-20 00:50:32",
         "rowcount": 938,
         "schema": {
           "fields": [
@@ -1105,9 +1105,9 @@ const site = {
                 "measure": "median_drive_time_top5",
                 "type": "float",
                 "short_name": "2-year college access (drive time)",
-                "long_name": "2-year college access by median dive time to the five closest colleges in minutes",
-                "short_description": "Median drive time (minutes) to the five closest 2-year colleges",
-                "long_description": "Median drive time in minutes to the five closest 2-year colleges. Address data was collected from the National Center for Education Statistics. Drive times were computed using Open Source Routing Machine.",
+                "long_name": "2-year college access by median drive time to the five closest colleges in minutes",
+                "short_description": "Median drive time (minutes) to the five closest 2-year colleges from centroid of selected region",
+                "long_description": "Median drive time in minutes to the five closest 2-year colleges from centroid of selected region. Address data was collected from the National Center for Education Statistics (Dataset for year 2019). Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
                 "statement": "The median drive time to the five closest 2-year colleges to {features.name} is {value} minutes",
                 "source": [
                   {
@@ -1165,7 +1165,7 @@ const site = {
                 "short_name": "Day care access score",
                 "long_name": "Day care access score (3-step floating catchment area)",
                 "short_description": "Index of day care accessibility based on supply of and demand for providers",
-                "long_description": "Primary care access score based on 2-step enhanced floating catchment areas. This method is an aggregation of day care facilities per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Provider address data was collected from Virginia Department of Social Services day care search tool. Demand = 0-12 years, supply = day care capacity",
+                "long_description": "Primary care access score based on 2-step enhanced floating catchment areas. This method is an aggregation of day care facilities per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Provider address data was collected from Virginia Department of Social Services day care search tool. The demand for day care services is the population 0-12 years old and the supply is the capacity of day cares (number of seats).",
                 "statement": "The daycare accessibility score for {features.name} is {value}",
                 "citations": [
                   "lou04",
@@ -1200,7 +1200,7 @@ const site = {
                 "short_name": "Day care access (count)",
                 "long_name": "Access to day care by count",
                 "short_description": "Count of day care capacity (seats) based on provider locations",
-                "long_description": "Count of day care capacity (seats) based on provider locations. Address  and capacity data was collected from Virginia Department of Social Services day care search tool.",
+                "long_description": "Count of day care capacity (seats) based on provider locations. Address and capacity data was collected from Virginia Department of Social Services day care search tool.",
                 "statement": "There are {value} daycares in {features.name}",
                 "source": [
                   {
@@ -1228,8 +1228,8 @@ const site = {
                 "type": "float",
                 "short_name": "Day care access (drive time)",
                 "long_name": "Day care access by median drive time to the five closest day cares in minutes",
-                "short_description": "Median drive time (minutes) to the five closest day cares",
-                "long_description": "Median drive time in minutes to the five closest day cares. Address data was collected from the Virginia Department of Social Services Child Day Care Facility search. Drive times were computed using Open Source Routing Machine.",
+                "short_description": "Median drive time (minutes) to the five closest day cares from centroid of selected region",
+                "long_description": "Median drive time in minutes to the five closest day cares from centroid of selected region. Address data was collected from the Virginia Department of Social Services Child Day Care Facility search (Dataset for year 2019). Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
                 "statement": "The median drive time to the five closest day cares to {features.name} is {value} minutes",
                 "source": [
                   {
@@ -1257,8 +1257,8 @@ const site = {
                 "type": "index",
                 "short_name": "Digital Equity Index",
                 "long_name": "Digitial Equity Index",
-                "short_description": "Digital Equity Index captures the relative equity of digitial access, with 0 being a score of relative equity and 100 being relative inequity.",
-                "long_description": "The Digital Equity Index captures the relative equity of digitial access. The Digital Equity Index uses is a composite of measures of broadband infrastructure and adoption and socioeconomic variables, with 0 being a score of relative equity and 100 being relative inequity.",
+                "short_description": "Digital Equity Index captures the relative equity of digital access, with 0 being a score of relative equity and 100 being relative inequity.",
+                "long_description": "The Digital Equity Index captures the relative equity of digital access. The Digital Equity Index uses is a composite of measures of broadband infrastructure and adoption and socioeconomic variables, with 0 being a score of relative equity and 100 being relative inequity.",
                 "statement": "The digital equity index for {features.name} is {value}",
                 "citations": [
                   "gallardo20"
@@ -1295,7 +1295,7 @@ const site = {
                 "short_name": "Dental care access score",
                 "long_name": "Dental care access score (2 step-enhanced floating catchment areas)",
                 "short_description": "Index of dental care accessibility based on supply and demand of providers",
-                "long_description": "Dental care access score based on 2-step ehanced floating catchment areas. This method is an aggregation of dentists per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for dentists (population served by dentists). Provider address data was collected from WebMD's online Physician Directory.",
+                "long_description": "Dental care access score based on 2-step enhanced floating catchment areas. This method is an aggregation of dentists per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for dentists (population served by dentists). Provider address data was collected from WebMD's online Physician Directory.",
                 "statement": "The dental care access score for {features.name} is {value}",
                 "citations": [
                   "lou04",
@@ -1331,7 +1331,7 @@ const site = {
                 "long_name": "Dental care access by count",
                 "short_description": "Count of dentists based on provider locations",
                 "long_description": "Count of dentists based on provider locations. Address data was collected from WebMD's online Physician Directory.",
-                "statement": "There are {value} densits in {features.name}",
+                "statement": "There are {value} dentists in {features.name}",
                 "source": [
                   {
                     "name": "SafeGraph Core",
@@ -1421,8 +1421,8 @@ const site = {
                 "type": "float",
                 "short_name": "Trade school access (drive time)",
                 "long_name": "Trade school access by median drive time to the five closest schools in minutes",
-                "short_description": "Mean drive time (minutes) to the five closest trade schools",
-                "long_description": "Median drive time in minutes to the five closest trade schools. Address data was collected from the National Center for Education Statistics. Drive times were computed using Open Source Routing Machine.",
+                "short_description": "Mean drive time (minutes) to the five closest trade schools from centroid of selected region",
+                "long_description": "Median drive time in minutes to the five closest trade schools from centroid of selected region. Address data was collected from the National Center for Education Statistics (Dataset for year 2019). Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
                 "statement": "The median drive time to the five closest trade schools to {features.name} is {value} minutes",
                 "source": [
                   {
@@ -1546,11 +1546,11 @@ const site = {
                 "short_name": "Uninsured population",
                 "long_name": "Percent of population without health insurance",
                 "short_description": "Percent of the population (ages 16-64) self-reported to not be currently covered by any type of health insurance or health coverage plan",
-                "long_description": "Percent of the population self-reported to not be currently covered by any type of health insurance or health coverage plan. This data comes from Question 16 of the Person section of the American Community Survey.",
+                "long_description": "Percent of the population self-reported to not be currently covered by any type of health insurance or health coverage plan. Based on American Community Survey Tables B18135 and C27001I in ACS 2015/2019 5-year estimates.",
                 "statement": "{value} percent of the population has no health insurance in  {features.name}",
                 "source": [
                   {
-                    "name": "American Community Survey, Tables B18135 and C27001I, ACS 2015/2019 5-Year Estimates Detailed Tables",
+                    "name": "American Community Survey",
                     "date_accessed": 2021,
                     "url": "https://www.census.gov/programs-surveys/acs.html"
                   }
@@ -1575,7 +1575,7 @@ const site = {
                 "short_name": "OBGYN care access score",
                 "long_name": "OBGYN care access score (2 step-enhanced floating catchment areas)",
                 "short_description": "Index of OBGYN care accessibility based on supply and demand of providers",
-                "long_description": "OBGYN care access score based on 2-step enhanced floating catchment areas. This method is an aggregation of OBGYNs per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for OBGYNs (population served by OBGYNs). Provider address data was collected from WebMD's online physician directory.\n",
+                "long_description": "OBGYN care access score based on 2-step enhanced floating catchment areas. This method is an aggregation of OBGYNs per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for OBGYNs (population served by OBGYNs). Provider address data was collected from WebMD's online physician directory.",
                 "statement": "The OBGYN access score for {features.name} is {value}",
                 "citations": [
                   "lou04",
@@ -1608,7 +1608,7 @@ const site = {
                 "measure": "obgyn_cnt",
                 "type": "count",
                 "short_name": "OBGYN care access (count)",
-                "long_name": "OBGYN care acess by count",
+                "long_name": "OBGYN care access by count",
                 "short_description": "Count of OBGYNs based on provider locations",
                 "long_description": "Count of OBGYN care providers based on provider locations. Address data was collected from WebMD's online Physician Directory.",
                 "statement": "There are {value} OBGYNs in {features.name}",
@@ -1697,7 +1697,7 @@ const site = {
                 "short_name": "Pediatric care access score",
                 "long_name": "Pediatric care access score (2-step enhanced floating catchment areas)",
                 "short_description": "Index of pediatric care physician accessibility based on supply and demand of providers",
-                "long_description": "Pediatric care access score based on 2-step ehanced floating catchment areas. This method is an aggregation of pediatricians per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for pediatricians (population under 16). Provider address data was collected from WebMD's online Physician Directory.",
+                "long_description": "Pediatric care access score based on 2-step enhanced floating catchment areas. This method is an aggregation of pediatricians per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for pediatricians (population under 16). Provider address data was collected from WebMD's online Physician Directory.",
                 "statement": "The pediatric care accessibility score for {features.name} is  {value}",
                 "citations": [
                   "lou04",
@@ -1732,7 +1732,7 @@ const site = {
                 "short_name": "Pediatric care access (count)",
                 "long_name": "Pediatric care access by count",
                 "short_description": "Count of pediatricians based on provider locations",
-                "long_description": "Count of peditricians based on provider locations. Address data was collected from WebMD's online Physician Directory.",
+                "long_description": "Count of pediatricians based on provider locations. Address data was collected from WebMD's online Physician Directory.",
                 "statement": "There are {value} pediatricians in {features.name}",
                 "source": [
                   {
@@ -1765,7 +1765,7 @@ const site = {
                 "statement": "{value} percent of the population in {features.name} have a post-high school education",
                 "source": [
                   {
-                    "name": "American Community Survey, Table B15003, ACS 2015/2019 5-Year Estimates Detailed Tables",
+                    "name": "American Community Survey",
                     "date_accessed": 2021,
                     "url": "https://www.census.gov/data/developers/data-sets/acs-5year.html"
                   }
@@ -1819,7 +1819,7 @@ const site = {
                 "short_name": "Primary care access score",
                 "long_name": "Primary care access score (2-step enhanced floating catchment areas)",
                 "short_description": "Index of primary care physician accessibility based on supply and demand of providers",
-                "long_description": "Primary care access score based on 2-step enhanced floating catchment areas. This method is an aggregation of physicians per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for physicians (population served by physicians). Provider address data was collected from WebMD's online Physician Directory.\n",
+                "long_description": "Primary care access score based on 2-step enhanced floating catchment areas. This method is an aggregation of physicians per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for physicians (population served by physicians). Provider address data was collected from WebMD's online Physician Directory.",
                 "statement": "The primary care accessibility score for {features.name}  is  {value}",
                 "citations": [
                   "lou04",
@@ -2067,8 +2067,8 @@ const site = {
         ],
         "time": "time",
         "profile": "data-resource",
-        "created": "2021-11-16 10:33:35",
-        "last_modified": "2021-11-16 11:15:53",
+        "created": "2021-10-28 19:56:10",
+        "last_modified": "2021-10-20 00:50:32",
         "rowcount": 14280,
         "schema": {
           "fields": [
@@ -2126,9 +2126,9 @@ const site = {
                 "measure": "median_drive_time_top5",
                 "type": "float",
                 "short_name": "2-year college access (drive time)",
-                "long_name": "2-year college access by median dive time to the five closest colleges in minutes",
-                "short_description": "Median drive time (minutes) to the five closest 2-year colleges",
-                "long_description": "Median drive time in minutes to the five closest 2-year colleges. Address data was collected from the National Center for Education Statistics. Drive times were computed using Open Source Routing Machine.",
+                "long_name": "2-year college access by median drive time to the five closest colleges in minutes",
+                "short_description": "Median drive time (minutes) to the five closest 2-year colleges from centroid of selected region",
+                "long_description": "Median drive time in minutes to the five closest 2-year colleges from centroid of selected region. Address data was collected from the National Center for Education Statistics (Dataset for year 2019). Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
                 "statement": "The median drive time to the five closest 2-year colleges to {features.name} is {value} minutes",
                 "source": [
                   {
@@ -2185,7 +2185,7 @@ const site = {
                 "short_name": "Day care access score",
                 "long_name": "Day care access score (3-step floating catchment area)",
                 "short_description": "Index of day care accessibility based on supply of and demand for providers",
-                "long_description": "Primary care access score based on 2-step enhanced floating catchment areas. This method is an aggregation of day care facilities per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Provider address data was collected from Virginia Department of Social Services day care search tool. Demand = 0-12 years, supply = day care capacity",
+                "long_description": "Primary care access score based on 2-step enhanced floating catchment areas. This method is an aggregation of day care facilities per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Provider address data was collected from Virginia Department of Social Services day care search tool. The demand for day care services is the population 0-12 years old and the supply is the capacity of day cares (number of seats).",
                 "statement": "The daycare accessibility score for {features.name} is {value}",
                 "citations": [
                   "lou04",
@@ -2220,7 +2220,7 @@ const site = {
                 "short_name": "Day care access (count)",
                 "long_name": "Access to day care by count",
                 "short_description": "Count of day care capacity (seats) based on provider locations",
-                "long_description": "Count of day care capacity (seats) based on provider locations. Address  and capacity data was collected from Virginia Department of Social Services day care search tool.",
+                "long_description": "Count of day care capacity (seats) based on provider locations. Address and capacity data was collected from Virginia Department of Social Services day care search tool.",
                 "statement": "There are {value} daycares in {features.name}",
                 "source": [
                   {
@@ -2248,8 +2248,8 @@ const site = {
                 "type": "float",
                 "short_name": "Day care access (drive time)",
                 "long_name": "Day care access by median drive time to the five closest day cares in minutes",
-                "short_description": "Median drive time (minutes) to the five closest day cares",
-                "long_description": "Median drive time in minutes to the five closest day cares. Address data was collected from the Virginia Department of Social Services Child Day Care Facility search. Drive times were computed using Open Source Routing Machine.",
+                "short_description": "Median drive time (minutes) to the five closest day cares from centroid of selected region",
+                "long_description": "Median drive time in minutes to the five closest day cares from centroid of selected region. Address data was collected from the Virginia Department of Social Services Child Day Care Facility search (Dataset for year 2019). Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
                 "statement": "The median drive time to the five closest day cares to {features.name} is {value} minutes",
                 "source": [
                   {
@@ -2277,8 +2277,8 @@ const site = {
                 "type": "index",
                 "short_name": "Digital Equity Index",
                 "long_name": "Digitial Equity Index",
-                "short_description": "Digital Equity Index captures the relative equity of digitial access, with 0 being a score of relative equity and 100 being relative inequity.",
-                "long_description": "The Digital Equity Index captures the relative equity of digitial access. The Digital Equity Index uses is a composite of measures of broadband infrastructure and adoption and socioeconomic variables, with 0 being a score of relative equity and 100 being relative inequity.",
+                "short_description": "Digital Equity Index captures the relative equity of digital access, with 0 being a score of relative equity and 100 being relative inequity.",
+                "long_description": "The Digital Equity Index captures the relative equity of digital access. The Digital Equity Index uses is a composite of measures of broadband infrastructure and adoption and socioeconomic variables, with 0 being a score of relative equity and 100 being relative inequity.",
                 "statement": "The digital equity index for {features.name} is {value}",
                 "citations": [
                   "gallardo20"
@@ -2315,7 +2315,7 @@ const site = {
                 "short_name": "Dental care access score",
                 "long_name": "Dental care access score (2 step-enhanced floating catchment areas)",
                 "short_description": "Index of dental care accessibility based on supply and demand of providers",
-                "long_description": "Dental care access score based on 2-step ehanced floating catchment areas. This method is an aggregation of dentists per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for dentists (population served by dentists). Provider address data was collected from WebMD's online Physician Directory.",
+                "long_description": "Dental care access score based on 2-step enhanced floating catchment areas. This method is an aggregation of dentists per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for dentists (population served by dentists). Provider address data was collected from WebMD's online Physician Directory.",
                 "statement": "The dental care access score for {features.name} is {value}",
                 "citations": [
                   "lou04",
@@ -2351,7 +2351,7 @@ const site = {
                 "long_name": "Dental care access by count",
                 "short_description": "Count of dentists based on provider locations",
                 "long_description": "Count of dentists based on provider locations. Address data was collected from WebMD's online Physician Directory.",
-                "statement": "There are {value} densits in {features.name}",
+                "statement": "There are {value} dentists in {features.name}",
                 "source": [
                   {
                     "name": "SafeGraph Core",
@@ -2441,8 +2441,8 @@ const site = {
                 "type": "float",
                 "short_name": "Trade school access (drive time)",
                 "long_name": "Trade school access by median drive time to the five closest schools in minutes",
-                "short_description": "Mean drive time (minutes) to the five closest trade schools",
-                "long_description": "Median drive time in minutes to the five closest trade schools. Address data was collected from the National Center for Education Statistics. Drive times were computed using Open Source Routing Machine.",
+                "short_description": "Mean drive time (minutes) to the five closest trade schools from centroid of selected region",
+                "long_description": "Median drive time in minutes to the five closest trade schools from centroid of selected region. Address data was collected from the National Center for Education Statistics (Dataset for year 2019). Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
                 "statement": "The median drive time to the five closest trade schools to {features.name} is {value} minutes",
                 "source": [
                   {
@@ -2566,11 +2566,11 @@ const site = {
                 "short_name": "Uninsured population",
                 "long_name": "Percent of population without health insurance",
                 "short_description": "Percent of the population (ages 16-64) self-reported to not be currently covered by any type of health insurance or health coverage plan",
-                "long_description": "Percent of the population self-reported to not be currently covered by any type of health insurance or health coverage plan. This data comes from Question 16 of the Person section of the American Community Survey.",
+                "long_description": "Percent of the population self-reported to not be currently covered by any type of health insurance or health coverage plan. Based on American Community Survey Tables B18135 and C27001I in ACS 2015/2019 5-year estimates.",
                 "statement": "{value} percent of the population has no health insurance in  {features.name}",
                 "source": [
                   {
-                    "name": "American Community Survey, Tables B18135 and C27001I, ACS 2015/2019 5-Year Estimates Detailed Tables",
+                    "name": "American Community Survey",
                     "date_accessed": 2021,
                     "url": "https://www.census.gov/programs-surveys/acs.html"
                   }
@@ -2595,7 +2595,7 @@ const site = {
                 "short_name": "OBGYN care access score",
                 "long_name": "OBGYN care access score (2 step-enhanced floating catchment areas)",
                 "short_description": "Index of OBGYN care accessibility based on supply and demand of providers",
-                "long_description": "OBGYN care access score based on 2-step enhanced floating catchment areas. This method is an aggregation of OBGYNs per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for OBGYNs (population served by OBGYNs). Provider address data was collected from WebMD's online physician directory.\n",
+                "long_description": "OBGYN care access score based on 2-step enhanced floating catchment areas. This method is an aggregation of OBGYNs per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for OBGYNs (population served by OBGYNs). Provider address data was collected from WebMD's online physician directory.",
                 "statement": "The OBGYN access score for {features.name} is {value}",
                 "citations": [
                   "lou04",
@@ -2628,7 +2628,7 @@ const site = {
                 "measure": "obgyn_cnt",
                 "type": "count",
                 "short_name": "OBGYN care access (count)",
-                "long_name": "OBGYN care acess by count",
+                "long_name": "OBGYN care access by count",
                 "short_description": "Count of OBGYNs based on provider locations",
                 "long_description": "Count of OBGYN care providers based on provider locations. Address data was collected from WebMD's online Physician Directory.",
                 "statement": "There are {value} OBGYNs in {features.name}",
@@ -2717,7 +2717,7 @@ const site = {
                 "short_name": "Pediatric care access score",
                 "long_name": "Pediatric care access score (2-step enhanced floating catchment areas)",
                 "short_description": "Index of pediatric care physician accessibility based on supply and demand of providers",
-                "long_description": "Pediatric care access score based on 2-step ehanced floating catchment areas. This method is an aggregation of pediatricians per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for pediatricians (population under 16). Provider address data was collected from WebMD's online Physician Directory.",
+                "long_description": "Pediatric care access score based on 2-step enhanced floating catchment areas. This method is an aggregation of pediatricians per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for pediatricians (population under 16). Provider address data was collected from WebMD's online Physician Directory.",
                 "statement": "The pediatric care accessibility score for {features.name} is  {value}",
                 "citations": [
                   "lou04",
@@ -2752,7 +2752,7 @@ const site = {
                 "short_name": "Pediatric care access (count)",
                 "long_name": "Pediatric care access by count",
                 "short_description": "Count of pediatricians based on provider locations",
-                "long_description": "Count of peditricians based on provider locations. Address data was collected from WebMD's online Physician Directory.",
+                "long_description": "Count of pediatricians based on provider locations. Address data was collected from WebMD's online Physician Directory.",
                 "statement": "There are {value} pediatricians in {features.name}",
                 "source": [
                   {
@@ -2785,7 +2785,7 @@ const site = {
                 "statement": "{value} percent of the population in {features.name} have a post-high school education",
                 "source": [
                   {
-                    "name": "American Community Survey, Table B15003, ACS 2015/2019 5-Year Estimates Detailed Tables",
+                    "name": "American Community Survey",
                     "date_accessed": 2021,
                     "url": "https://www.census.gov/data/developers/data-sets/acs-5year.html"
                   }
@@ -2838,7 +2838,7 @@ const site = {
                 "short_name": "Primary care access score",
                 "long_name": "Primary care access score (2-step enhanced floating catchment areas)",
                 "short_description": "Index of primary care physician accessibility based on supply and demand of providers",
-                "long_description": "Primary care access score based on 2-step enhanced floating catchment areas. This method is an aggregation of physicians per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for physicians (population served by physicians). Provider address data was collected from WebMD's online Physician Directory.\n",
+                "long_description": "Primary care access score based on 2-step enhanced floating catchment areas. This method is an aggregation of physicians per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for physicians (population served by physicians). Provider address data was collected from WebMD's online Physician Directory.",
                 "statement": "The primary care accessibility score for {features.name}  is  {value}",
                 "citations": [
                   "lou04",

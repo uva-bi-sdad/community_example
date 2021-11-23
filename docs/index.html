@@ -14,8 +14,8 @@
 <script type="application/javascript" src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha384-vtXRMe3mGCbOeY7l30aIg8H9p3GdeSe4IFlP6G8JMa7o7lXvnz3GFKzPxzJdPfGK" crossorigin="anonymous" defer></script>
 <link href="https://cdn.datatables.net/1.11.3/css/jquery.dataTables.min.css" integrity="sha384-kKpyGTkmY+nYEkRda6qauvrYqFNO4csWTLspXM3FCJ89NsU9FhPY5kebmiPqu8B6" crossorigin="anonymous" rel="stylesheet" media="all" async>
 <script type="application/javascript" src="https://cdn.datatables.net/v/dt/jszip-2.5.0/dt-1.11.3/b-2.0.1/b-html5-2.0.1/b-print-2.0.1/rg-1.1.4/datatables.min.js" integrity="sha384-uf/Bcd4lCplN1dOhtGBZdheEsWnZs1FocqbGCOoBFX5rVwUAXJ1K79UJLzOMoDZO" crossorigin="anonymous" defer></script>
-<link href="https://uva-bi-sdad.github.io/community/dist/css/community.min.css" rel="stylesheet" media="all" async>
-<script type="application/javascript" src="https://uva-bi-sdad.github.io/community/dist/js/community.min.js" async></script>
+<link href="../../community/docs/dist/css/community.css" rel="stylesheet" media="all" async>
+<script type="application/javascript" src="../../community/docs/dist/js/community.js" async></script>
 <link href="style.css" rel="stylesheet" media="all" async>
 <meta name="generator" content="community v0.0.1" />
 <title>Virginia Department of Health Dashboard</title>
@@ -29,7 +29,7 @@
 <span class="navbar-brand"><img alt="site logo" src="https://www.developer.virginia.gov/media/developer/resources/brand/banner/latest/cardinal.svg">
 Virginia Department of Health
 </span>
-<button type="button" class="navbar-toggler" data-bs-toggle="collapse"data-bs-target="#navbar_menu"aria-controls="narbar_menu" aria-expanded="false" aria-lable="toggle navbar menu">
+<button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar_menu" aria-controls="narbar_menu" aria-expanded="false" aria-lable="toggle navbar menu">
 <span class="navbar-toggler-icon"></span>
 </button>
 <div class="collapse navbar-collapse" id="navbar_menu">
@@ -95,10 +95,10 @@ Virginia Department of Health
 <button class="btn-close text-reset" type="button" data-bs-dismiss="offcanvas" title="Close"></button>
 </div>
 <div class="offcanvas-body">
-<p class=>This site was made by the <a target="_blank" rel="nofollow" href="https://biocomplexity.virginia.edu/institute/divisions/social-and-decision-analytics">Social and Decision Analytics Division</a> of the <a target="_blank" rel="nofollow" href="https://biocomplexity.virginia.edu">Biocomplexity Institute</a> for the <a target="_blank" rel="nofollow" href="https://www.vdh.virginia.gov">Virginia Department of Health</a>.</p>
-<p class=>View its source on <a target="_blank" rel="nofollow" href="https://github.com/uva-bi-sdad/community_example">GitHub</a>.</p>
-<p class=h5>Credits</p>
-<p class=>Built in <a target="_blank" rel="nofollow" href="https://www.r-project.org">R</a> with the <a target="_blank" rel="nofollow" href="https://uva-bi-sdad.github.io/community">community</a> package, using these resources:</p>
+<p class="">This site was made by the <a target="_blank" rel="noreferrer" href="https://biocomplexity.virginia.edu/institute/divisions/social-and-decision-analytics">Social and Decision Analytics Division</a> of the <a target="_blank" rel="noreferrer" href="https://biocomplexity.virginia.edu">Biocomplexity Institute</a> for the <a target="_blank" rel="noreferrer" href="https://www.vdh.virginia.gov">Virginia Department of Health</a>.</p>
+<p class="">View its source on <a target="_blank" rel="noreferrer" href="https://github.com/uva-bi-sdad/community_example">GitHub</a>.</p>
+<p class="h5">Credits</p>
+<p class="">Built in <a target="_blank" rel="noreferrer" href="https://www.r-project.org">R</a> with the <a target="_blank" rel="noreferrer" href="https://uva-bi-sdad.github.io/community">community</a> package, using these resources:</p>
 <div id="credits0" class="auto-output credits" auto-type="credits"></div>
 </div>
 </div>
@@ -130,7 +130,8 @@ Virginia Department of Health
 </div>
 <div class="col-1">
 <div class="wrapper checkbox-wrapper">
-<label for="region_type">Region Types</label>
+<fieldset>
+<legend>Region Types</legend>
 <div class="auto-input" role="group" auto-type="checkbox" id="region_type" default="rural,mixed,urban" >
 <div class="form-check form-switch">
 <input type="checkbox" autocomplete="off" class="form-check-input" name="region_type_options" id="region_type_option1" role="switch" value="rural" checked>
@@ -145,6 +146,7 @@ Virginia Department of Health
 <label class="form-check-label" for="region_type_option3">urban</label>
 </div>
 </div>
+</fieldset>
 </div>
 </div>
 <div class="col">
@@ -199,10 +201,10 @@ Virginia Department of Health
 <div class="content container-fluid">
 <div class="col">
 <p auto-type="text" id="text7" class="auto-output output-text"></p>
-<p auto-type="text" id="text8" class="auto-output output-text h1 text-center"></p>
+<h1 auto-type="text" id="text8" class="auto-output output-text text-center"></h1>
 <div class="row">
 <div class="col">
-<div class="auto-output leaflet"data-view="primary_view"click="region_select"id="map0"auto-type="map"></div>
+<div class="auto-output leaflet" data-view="primary_view" click="region_select" id="map0" auto-type="map"></div>
 </div>
 <div class="col-4">
 <div class="d-flex flex-column col align-items-end compact">

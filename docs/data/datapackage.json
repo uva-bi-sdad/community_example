@@ -9,10 +9,10 @@
   },
   "resources": [
     {
-      "bytes": 99091,
+      "bytes": 98182,
       "encoding": "ISO-8859-1",
-      "md5": "d15b90a076c7172d29214f4224518111",
-      "sha512": "irIE9UZBU7qUkhztF2OaseZ330FKaMv81q60LhWy3BVthIIjwMmyQgl1OCTz0czmQbcr4zuJGLnyWff7nr6pbw==",
+      "md5": "513c7645cb3a6603649f9ced26008f60",
+      "sha512": "EBeMVLdVMWVhxXWsBNRTL5DpsQm43LOMw5AWrCtnsbDTsaPSvRwZWT/KEw7lLdy3AtiiXMgDZyYdNzZYQQsAOg==",
       "format": "csv",
       "name": "district",
       "filename": "health_district.csv",
@@ -25,8 +25,8 @@
       ],
       "time": "time",
       "profile": "data-resource",
-      "created": "2021-10-28 19:56:08",
-      "last_modified": "2021-10-20 00:50:32",
+      "created": "2021-11-29 21:36:30",
+      "last_modified": "2021-11-29 21:36:30",
       "rowcount": 245,
       "schema": {
         "fields": [
@@ -541,81 +541,6 @@
             "max": 100
           },
           {
-            "name": "2year_colleges_access_scores:perc_3sfca",
-            "duplicates": 210,
-            "type": "float",
-            "missing": 210,
-            "mean": 51.510204,
-            "sd": 29.141256,
-            "min": 5.714286,
-            "max": 100
-          },
-          {
-            "name": "2year_colleges_access_scores:college_capacity",
-            "duplicates": 244,
-            "type": "string",
-            "missing": 245,
-            "table": {
-              "1": 0
-            }
-          },
-          {
-            "name": "2year_colleges_access_scores:norm_2sfca",
-            "duplicates": 244,
-            "type": "string",
-            "missing": 245,
-            "table": {
-              "1": 0
-            }
-          },
-          {
-            "name": "2year_colleges_access_scores:perc_2sfca30",
-            "duplicates": 244,
-            "type": "string",
-            "missing": 245,
-            "table": {
-              "1": 0
-            }
-          },
-          {
-            "name": "2year_colleges_access_scores:2sfca30_capacity",
-            "duplicates": 244,
-            "type": "string",
-            "missing": 245,
-            "table": {
-              "1": 0
-            }
-          },
-          {
-            "name": "2year_colleges_access_scores:norm_3sfca",
-            "duplicates": 210,
-            "type": "float",
-            "missing": 210,
-            "mean": 19.688058,
-            "sd": 19.836537,
-            "min": 0,
-            "max": 100
-          },
-          {
-            "name": "2year_colleges_access_scores:3sfca_capacity",
-            "duplicates": 244,
-            "type": "string",
-            "missing": 245,
-            "table": {
-              "1": 0
-            }
-          },
-          {
-            "name": "2year_colleges_access_scores:perc_2sefca",
-            "duplicates": 220,
-            "type": "float",
-            "missing": 210,
-            "mean": 56,
-            "sd": 23.674463,
-            "min": 31.428571,
-            "max": 100
-          },
-          {
             "name": "2year_colleges_access_scores:norm_2sefca",
             "duplicates": 220,
             "info": {
@@ -651,16 +576,6 @@
             "max": 100
           },
           {
-            "name": "2year_colleges_access_scores:2sefca30_tot_enrol",
-            "duplicates": 220,
-            "type": "float",
-            "missing": 210,
-            "mean": 0.953406,
-            "sd": 1.196663,
-            "min": 0,
-            "max": 5.290171
-          },
-          {
             "name": "2year_colleges_access_scores:3sfca_tot_enrol",
             "duplicates": 210,
             "type": "float",
@@ -671,6 +586,46 @@
             "max": 5.56186
           },
           {
+            "name": "2year_colleges_access_scores:2sefca30_tot_enrol",
+            "duplicates": 220,
+            "type": "float",
+            "missing": 210,
+            "mean": 0.953406,
+            "sd": 1.196663,
+            "min": 0,
+            "max": 5.290171
+          },
+          {
+            "name": "2year_colleges_access_scores:norm_3sfca",
+            "duplicates": 210,
+            "type": "float",
+            "missing": 210,
+            "mean": 19.688058,
+            "sd": 19.836537,
+            "min": 0,
+            "max": 100
+          },
+          {
+            "name": "2year_colleges_access_scores:perc_2sefca",
+            "duplicates": 220,
+            "type": "float",
+            "missing": 210,
+            "mean": 56,
+            "sd": 23.674463,
+            "min": 31.428571,
+            "max": 100
+          },
+          {
+            "name": "2year_colleges_access_scores:perc_3sfca",
+            "duplicates": 210,
+            "type": "float",
+            "missing": 210,
+            "mean": 51.510204,
+            "sd": 29.141256,
+            "min": 5.714286,
+            "max": 100
+          },
+          {
             "name": "2year_colleges_access_scores:capacity",
             "duplicates": 217,
             "type": "integer",
@@ -679,6 +634,51 @@
             "sd": 12350.117425,
             "min": 99,
             "max": 61024
+          },
+          {
+            "name": "2year_colleges_access_scores:2sfca30_capacity",
+            "duplicates": 244,
+            "type": "string",
+            "missing": 245,
+            "table": {
+              "1": 0
+            }
+          },
+          {
+            "name": "2year_colleges_access_scores:norm_2sfca",
+            "duplicates": 244,
+            "type": "string",
+            "missing": 245,
+            "table": {
+              "1": 0
+            }
+          },
+          {
+            "name": "2year_colleges_access_scores:college_capacity",
+            "duplicates": 244,
+            "type": "string",
+            "missing": 245,
+            "table": {
+              "1": 0
+            }
+          },
+          {
+            "name": "2year_colleges_access_scores:perc_2sfca30",
+            "duplicates": 244,
+            "type": "string",
+            "missing": 245,
+            "table": {
+              "1": 0
+            }
+          },
+          {
+            "name": "2year_colleges_access_scores:3sfca_capacity",
+            "duplicates": 244,
+            "type": "string",
+            "missing": 245,
+            "table": {
+              "1": 0
+            }
           },
           {
             "name": "health_literacy_estimates:health_literacy_estimate",
@@ -1610,10 +1610,10 @@
       }
     },
     {
-      "bytes": 356341,
+      "bytes": 361923,
       "encoding": "ISO-8859-1",
-      "md5": "65b4fbddf79f2007cdb5fbac04872e16",
-      "sha512": "kB6r/HRqbNhwZHpQqo+spli9hLajrfiEjryueo+nzVzXO6LL1akOhhO1D2sHffzc1g1DUamYTkxJLBPnbzWrNg==",
+      "md5": "1803b868bf2498033efc668f4464b502",
+      "sha512": "Yfw60t8U7MWbt3nO4PfS8TXiIgOY9Xha+paQhPEgzx8Rt9uFiTTsYzvPvsl/rIvcTALGJMrBZZGXrvo6i6mUcw==",
       "format": "csv",
       "name": "county",
       "filename": "county.csv",
@@ -1626,8 +1626,8 @@
       ],
       "time": "time",
       "profile": "data-resource",
-      "created": "2021-10-28 19:56:08",
-      "last_modified": "2021-10-20 00:50:32",
+      "created": "2021-11-29 21:36:30",
+      "last_modified": "2021-11-29 21:36:30",
       "rowcount": 938,
       "schema": {
         "fields": [
@@ -2142,78 +2142,6 @@
             "max": 100
           },
           {
-            "name": "2year_colleges_access_scores:perc_3sfca",
-            "duplicates": 937,
-            "type": "string",
-            "missing": 938,
-            "table": {
-              "1": 0
-            }
-          },
-          {
-            "name": "2year_colleges_access_scores:college_capacity",
-            "duplicates": 937,
-            "type": "string",
-            "missing": 938,
-            "table": {
-              "1": 0
-            }
-          },
-          {
-            "name": "2year_colleges_access_scores:norm_2sfca",
-            "duplicates": 937,
-            "type": "string",
-            "missing": 938,
-            "table": {
-              "1": 0
-            }
-          },
-          {
-            "name": "2year_colleges_access_scores:perc_2sfca30",
-            "duplicates": 937,
-            "type": "string",
-            "missing": 938,
-            "table": {
-              "1": 0
-            }
-          },
-          {
-            "name": "2year_colleges_access_scores:2sfca30_capacity",
-            "duplicates": 937,
-            "type": "string",
-            "missing": 938,
-            "table": {
-              "1": 0
-            }
-          },
-          {
-            "name": "2year_colleges_access_scores:norm_3sfca",
-            "duplicates": 937,
-            "type": "string",
-            "missing": 938,
-            "table": {
-              "1": 0
-            }
-          },
-          {
-            "name": "2year_colleges_access_scores:3sfca_capacity",
-            "duplicates": 937,
-            "type": "string",
-            "missing": 938,
-            "table": {
-              "1": 0
-            }
-          },
-          {
-            "name": "2year_colleges_access_scores:perc_2sefca",
-            "duplicates": 937,
-            "type": "string",
-            "missing": 938,
-            "table": {
-              "1": 0
-            }
-          },
-          {
             "name": "2year_colleges_access_scores:norm_2sefca",
             "duplicates": 937,
             "info": {
@@ -2248,15 +2176,6 @@
             }
           },
           {
-            "name": "2year_colleges_access_scores:2sefca30_tot_enrol",
-            "duplicates": 937,
-            "type": "string",
-            "missing": 938,
-            "table": {
-              "1": 0
-            }
-          },
-          {
             "name": "2year_colleges_access_scores:3sfca_tot_enrol",
             "duplicates": 937,
             "type": "string",
@@ -2266,6 +2185,44 @@
             }
           },
           {
+            "name": "2year_colleges_access_scores:2sefca30_tot_enrol",
+            "duplicates": 937,
+            "type": "string",
+            "missing": 938,
+            "table": {
+              "1": 0
+            }
+          },
+          {
+            "name": "2year_colleges_access_scores:norm_3sfca",
+            "duplicates": 829,
+            "type": "float",
+            "missing": 805,
+            "mean": 13.09184,
+            "sd": 18.324059,
+            "min": 0,
+            "max": 100
+          },
+          {
+            "name": "2year_colleges_access_scores:perc_2sefca",
+            "duplicates": 937,
+            "type": "string",
+            "missing": 938,
+            "table": {
+              "1": 0
+            }
+          },
+          {
+            "name": "2year_colleges_access_scores:perc_3sfca",
+            "duplicates": 829,
+            "type": "float",
+            "missing": 805,
+            "mean": 0.506756,
+            "sd": 0.287336,
+            "min": 0.06015,
+            "max": 1
+          },
+          {
             "name": "2year_colleges_access_scores:capacity",
             "duplicates": 937,
             "type": "string",
@@ -2273,6 +2230,56 @@
             "table": {
               "1": 0
             }
+          },
+          {
+            "name": "2year_colleges_access_scores:2sfca30_capacity",
+            "duplicates": 888,
+            "type": "float",
+            "missing": 805,
+            "mean": 0.015974,
+            "sd": 0.029202,
+            "min": 0,
+            "max": 0.189044
+          },
+          {
+            "name": "2year_colleges_access_scores:norm_2sfca",
+            "duplicates": 888,
+            "type": "float",
+            "missing": 805,
+            "mean": 8.450009,
+            "sd": 15.447196,
+            "min": 0,
+            "max": 100
+          },
+          {
+            "name": "2year_colleges_access_scores:college_capacity",
+            "duplicates": 906,
+            "type": "integer",
+            "missing": 907,
+            "mean": 5640.322581,
+            "sd": 11665.120198,
+            "min": 29,
+            "max": 61024
+          },
+          {
+            "name": "2year_colleges_access_scores:perc_2sfca30",
+            "duplicates": 888,
+            "type": "float",
+            "missing": 805,
+            "mean": 0.637571,
+            "sd": 0.157372,
+            "min": 0.518797,
+            "max": 1
+          },
+          {
+            "name": "2year_colleges_access_scores:3sfca_capacity",
+            "duplicates": 829,
+            "type": "float",
+            "missing": 805,
+            "mean": 0.953261,
+            "sd": 1.334237,
+            "min": 0,
+            "max": 7.281337
           },
           {
             "name": "health_literacy_estimates:health_literacy_estimate",
@@ -3204,10 +3211,10 @@
       }
     },
     {
-      "bytes": 5322462,
+      "bytes": 5001860,
       "encoding": "ISO-8859-1",
-      "md5": "a7ecbfe35fd681626a1cabcdaa41ad32",
-      "sha512": "u8bnxNYqh5yNozbWoh4Bpz99M4S0Pc3rjO+0H6FVDk78UgJkiQstZgN9ROimbn4hW1ZuMVNatxb+FiLTIR9vMg==",
+      "md5": "1fdc4d73a861cfedcb7742c35faf2bf3",
+      "sha512": "Bdd2eqgqVC3wJ98sb4nXAqykGD26aNNi1RDZ84OJZnE1sr56D6Oa0xCmUf0lxfCha4/jgmz8bZqcWMCNzt4O0g==",
       "format": "csv",
       "name": "tract",
       "filename": "tract.csv",
@@ -3220,24 +3227,24 @@
       ],
       "time": "time",
       "profile": "data-resource",
-      "created": "2021-10-28 19:56:10",
-      "last_modified": "2021-10-20 00:50:32",
-      "rowcount": 14280,
+      "created": "2021-11-29 21:36:31",
+      "last_modified": "2021-11-29 21:36:30",
+      "rowcount": 13349,
       "schema": {
         "fields": [
           {
             "name": "ID",
-            "duplicates": 12240,
+            "duplicates": 11442,
             "type": "integer",
             "missing": 0,
-            "mean": 47952159338,
-            "sd": 12667328050.086,
-            "min": 51001,
+            "mean": 51296485701,
+            "sd": 297021650.590062,
+            "min": 51001090100,
             "max": 51840000302
           },
           {
             "name": "time",
-            "duplicates": 14273,
+            "duplicates": 13342,
             "info": {
               "type": "year",
               "short_name": "Year",
@@ -3246,13 +3253,13 @@
             "type": "integer",
             "missing": 0,
             "mean": 2018,
-            "sd": 2.00007,
+            "sd": 2.000075,
             "min": 2015,
             "max": 2021
           },
           {
             "name": "preventable_hospitalizations:prevent_hosp_rate",
-            "duplicates": 14279,
+            "duplicates": 13348,
             "info": {
               "category": "Health",
               "measure_table": "dc_health_behavior_diet.va_hdct_chr_2015_2021_preventable_hospitalizations",
@@ -3273,14 +3280,14 @@
               ]
             },
             "type": "string",
-            "missing": 14280,
+            "missing": 13349,
             "table": {
               "1": 0
             }
           },
           {
             "name": "3rd_grade_median_read_score:median_read_pass_rate",
-            "duplicates": 14279,
+            "duplicates": 13348,
             "info": {
               "category": "Education",
               "measure_table": "dc_education_training.va_hdct_vdoe_2019_2021_3rd_grade_median_read_score",
@@ -3301,16 +3308,16 @@
               ]
             },
             "type": "string",
-            "missing": 14280,
+            "missing": 13349,
             "table": {
               "1": 0
             }
           },
           {
             "name": "post_hs_education:num_post_hs_edu",
-            "duplicates": 12831,
+            "duplicates": 11900,
             "type": "integer",
-            "missing": 12373,
+            "missing": 11442,
             "mean": 1991.488726,
             "sd": 1126.256583,
             "min": 0,
@@ -3318,7 +3325,7 @@
           },
           {
             "name": "post_hs_education:perc_post_hs_edu",
-            "duplicates": 12404,
+            "duplicates": 11473,
             "info": {
               "category": "Education",
               "measure_table": "dc_education_training.va_hdcttr_acs_2015_2019_post_hs_education",
@@ -3339,7 +3346,7 @@
               ]
             },
             "type": "float",
-            "missing": 12401,
+            "missing": 11470,
             "mean": 0.647933,
             "sd": 0.173377,
             "min": 0.155943,
@@ -3347,7 +3354,7 @@
           },
           {
             "name": "no_health_insurance_19_to_64:no_hlth_ins_pct",
-            "duplicates": 12803,
+            "duplicates": 11872,
             "info": {
               "category": "Health",
               "measure_table": "dc_health_behavior_diet.va_hdcttr_acs5_2015_2019_no_health_insurance_19_to_64",
@@ -3368,7 +3375,7 @@
               ]
             },
             "type": "float",
-            "missing": 4910,
+            "missing": 3979,
             "mean": 2.771591,
             "sd": 5.325791,
             "min": 0,
@@ -3376,7 +3383,7 @@
           },
           {
             "name": "pct_pop_broadband:perc_w_broadband",
-            "duplicates": 8772,
+            "duplicates": 7841,
             "info": {
               "category": "Broadband",
               "measure_table": "dc_digital_communications.va_hdcttr_acs_2017_2019_pct_pop_broadband",
@@ -3397,7 +3404,7 @@
               ]
             },
             "type": "float",
-            "missing": 8660,
+            "missing": 7729,
             "mean": 0.812353,
             "sd": 0.134042,
             "min": 0,
@@ -3405,7 +3412,7 @@
           },
           {
             "name": "pct_pop_cable_fiber_dsl:perc_w_cable_fiber_DSL",
-            "duplicates": 8748,
+            "duplicates": 7817,
             "info": {
               "category": "Broadband",
               "measure_table": "dc_digital_communications.va_hdcttr_acs_2017_2019_pct_pop_cable_fiber_dsl",
@@ -3426,7 +3433,7 @@
               ]
             },
             "type": "float",
-            "missing": 8660,
+            "missing": 7729,
             "mean": 0.681339,
             "sd": 0.206201,
             "min": 0,
@@ -3434,7 +3441,7 @@
           },
           {
             "name": "have_computer:perc_have_computer",
-            "duplicates": 12505,
+            "duplicates": 11574,
             "info": {
               "category": "Broadband",
               "measure_table": "dc_digital_communications.va_hdcttr_acs5_2019_have_computer",
@@ -3455,7 +3462,7 @@
               ]
             },
             "type": "float",
-            "missing": 12389,
+            "missing": 11458,
             "mean": 90.665248,
             "sd": 8.303753,
             "min": 0,
@@ -3463,7 +3470,7 @@
           },
           {
             "name": "have_internet:perc_have_internet_access",
-            "duplicates": 12474,
+            "duplicates": 11543,
             "info": {
               "category": "Broadband",
               "measure_table": "dc_digital_communications.va_hdcttr_acs5_2019_have_internet",
@@ -3484,7 +3491,7 @@
               ]
             },
             "type": "float",
-            "missing": 12389,
+            "missing": 11458,
             "mean": 86.530835,
             "sd": 10.814647,
             "min": 38.557559,
@@ -3492,7 +3499,7 @@
           },
           {
             "name": "download_speeds:download",
-            "duplicates": 8606,
+            "duplicates": 7675,
             "info": {
               "category": "Broadband",
               "measure_table": "dc_digital_communications.va_hdcttr_ookla_2019_2021_download_speeds",
@@ -3513,7 +3520,7 @@
               ]
             },
             "type": "float",
-            "missing": 8607,
+            "missing": 7676,
             "mean": 137.407758,
             "sd": 49.338687,
             "min": 5.435575,
@@ -3521,7 +3528,7 @@
           },
           {
             "name": "drive_times_nearest_2year_colleges:median_drive_time_top5",
-            "duplicates": 13517,
+            "duplicates": 12586,
             "info": {
               "category": "Education",
               "measure_table": "dc_education_training.va_hdcttr_osrm_2021_drive_times_nearest_2year_colleges",
@@ -3542,7 +3549,7 @@
               ]
             },
             "type": "float",
-            "missing": 12381,
+            "missing": 11450,
             "mean": 40.198789,
             "sd": 26.679042,
             "min": 4.2,
@@ -3550,9 +3557,9 @@
           },
           {
             "name": "drive_times_nearest_2year_colleges:median_drive_time_top10",
-            "duplicates": 13047,
+            "duplicates": 12116,
             "type": "float",
-            "missing": 12381,
+            "missing": 11450,
             "mean": 60.902923,
             "sd": 34.097268,
             "min": 9.15,
@@ -3560,9 +3567,9 @@
           },
           {
             "name": "drive_times_nearest_2year_colleges:mean_drive_time_top5",
-            "duplicates": 12814,
+            "duplicates": 11883,
             "type": "float",
-            "missing": 12381,
+            "missing": 11450,
             "mean": 39.66971,
             "sd": 24.460229,
             "min": 6,
@@ -3570,9 +3577,9 @@
           },
           {
             "name": "drive_times_nearest_2year_colleges:mean_drive_time_top10",
-            "duplicates": 12605,
+            "duplicates": 11674,
             "type": "float",
-            "missing": 12381,
+            "missing": 11450,
             "mean": 61.442335,
             "sd": 31.543252,
             "min": 10.05,
@@ -3580,7 +3587,7 @@
           },
           {
             "name": "drive_times_nearest_daycares:median_drive_time_top5",
-            "duplicates": 13905,
+            "duplicates": 12974,
             "info": {
               "category": "Education",
               "measure_table": "dc_education_training.va_hdcttr_osrm_2021_drive_times_nearest_daycares",
@@ -3601,7 +3608,7 @@
               ]
             },
             "type": "float",
-            "missing": 12381,
+            "missing": 11450,
             "mean": 7.829989,
             "sd": 8.024324,
             "min": 0.5,
@@ -3609,9 +3616,9 @@
           },
           {
             "name": "drive_times_nearest_daycares:median_drive_time_top10",
-            "duplicates": 13764,
+            "duplicates": 12833,
             "type": "float",
-            "missing": 12381,
+            "missing": 11450,
             "mean": 9.588889,
             "sd": 9.269877,
             "min": 1,
@@ -3619,9 +3626,9 @@
           },
           {
             "name": "drive_times_nearest_daycares:mean_drive_time_top10",
-            "duplicates": 13001,
+            "duplicates": 12070,
             "type": "float",
-            "missing": 12381,
+            "missing": 11450,
             "mean": 9.309802,
             "sd": 9.016892,
             "min": 1.04,
@@ -3629,9 +3636,9 @@
           },
           {
             "name": "drive_times_nearest_daycares:mean_drive_time_top5",
-            "duplicates": 13377,
+            "duplicates": 12446,
             "type": "float",
-            "missing": 12381,
+            "missing": 11450,
             "mean": 7.585434,
             "sd": 7.666875,
             "min": 0.6,
@@ -3639,9 +3646,9 @@
           },
           {
             "name": "drive_times_nearest_trade_schools:mean_drive_time_top10",
-            "duplicates": 12758,
+            "duplicates": 11827,
             "type": "float",
-            "missing": 12381,
+            "missing": 11450,
             "mean": 58.491964,
             "sd": 56.30629,
             "min": 6.32,
@@ -3649,9 +3656,9 @@
           },
           {
             "name": "drive_times_nearest_trade_schools:median_drive_time_top10",
-            "duplicates": 13330,
+            "duplicates": 12399,
             "type": "float",
-            "missing": 12381,
+            "missing": 11450,
             "mean": 61.289784,
             "sd": 61.2115,
             "min": 4.8,
@@ -3659,9 +3666,9 @@
           },
           {
             "name": "drive_times_nearest_trade_schools:mean_drive_time_top5",
-            "duplicates": 12758,
+            "duplicates": 11827,
             "type": "float",
-            "missing": 12381,
+            "missing": 11450,
             "mean": 58.491964,
             "sd": 56.30629,
             "min": 6.32,
@@ -3669,7 +3676,7 @@
           },
           {
             "name": "drive_times_nearest_trade_schools:median_drive_time_top5",
-            "duplicates": 13330,
+            "duplicates": 12399,
             "info": {
               "category": "Education",
               "measure_table": "dc_education_training.va_hdcttr_osrm_2021_drive_times_nearest_trade_schools",
@@ -3690,7 +3697,7 @@
               ]
             },
             "type": "float",
-            "missing": 12381,
+            "missing": 11450,
             "mean": 61.289784,
             "sd": 61.2115,
             "min": 4.8,
@@ -3698,7 +3705,7 @@
           },
           {
             "name": "dei_index:norm_dei",
-            "duplicates": 8679,
+            "duplicates": 7748,
             "info": {
               "category": "Broadband",
               "measure_table": "dc_digital_communications.va_hdcttr_sdad_2019_2021_dei_index",
@@ -3727,94 +3734,15 @@
               ]
             },
             "type": "float",
-            "missing": 8676,
+            "missing": 7745,
             "mean": 70.981735,
             "sd": 16.832372,
             "min": 0,
             "max": 100
           },
           {
-            "name": "2year_colleges_access_scores:perc_3sfca",
-            "duplicates": 13551,
-            "type": "float",
-            "missing": 12247,
-            "mean": 0.502537,
-            "sd": 0.288378,
-            "min": 0.024737,
-            "max": 1
-          },
-          {
-            "name": "2year_colleges_access_scores:college_capacity",
-            "duplicates": 14222,
-            "type": "integer",
-            "missing": 14201,
-            "mean": 4426.582278,
-            "sd": 9648.592709,
-            "min": 13,
-            "max": 61024
-          },
-          {
-            "name": "2year_colleges_access_scores:norm_2sfca",
-            "duplicates": 13843,
-            "type": "float",
-            "missing": 12247,
-            "mean": 10.091838,
-            "sd": 11.754596,
-            "min": 0,
-            "max": 100
-          },
-          {
-            "name": "2year_colleges_access_scores:perc_2sfca30",
-            "duplicates": 13845,
-            "type": "float",
-            "missing": 12247,
-            "mean": 0.537115,
-            "sd": 0.248672,
-            "min": 0.237368,
-            "max": 1
-          },
-          {
-            "name": "2year_colleges_access_scores:2sfca30_capacity",
-            "duplicates": 13842,
-            "type": "float",
-            "missing": 12247,
-            "mean": 0.021538,
-            "sd": 0.024956,
-            "min": 0,
-            "max": 0.214828
-          },
-          {
-            "name": "2year_colleges_access_scores:norm_3sfca",
-            "duplicates": 13547,
-            "type": "float",
-            "missing": 12247,
-            "mean": 11.325595,
-            "sd": 11.476681,
-            "min": 0,
-            "max": 100
-          },
-          {
-            "name": "2year_colleges_access_scores:3sfca_capacity",
-            "duplicates": 13546,
-            "type": "float",
-            "missing": 12247,
-            "mean": 1.040556,
-            "sd": 1.036218,
-            "min": 0,
-            "max": 9.343608
-          },
-          {
-            "name": "2year_colleges_access_scores:perc_2sefca",
-            "duplicates": 14279,
-            "type": "string",
-            "missing": 14280,
-            "table": {
-              "1": 0
-            }
-          },
-          {
             "name": "2year_colleges_access_scores:norm_2sefca",
-            "duplicates": 14279,
+            "duplicates": 13348,
             "info": {
               "category": "Education",
               "measure_table": "dc_education_training.va_hdcttr_sdad_2019_2year_colleges_access_scores",
@@ -3841,41 +3769,120 @@
               ]
             },
             "type": "string",
-            "missing": 14280,
-            "table": {
-              "1": 0
-            }
-          },
-          {
-            "name": "2year_colleges_access_scores:2sefca30_tot_enrol",
-            "duplicates": 14279,
-            "type": "string",
-            "missing": 14280,
+            "missing": 13349,
             "table": {
               "1": 0
             }
           },
           {
             "name": "2year_colleges_access_scores:3sfca_tot_enrol",
-            "duplicates": 14279,
+            "duplicates": 13348,
             "type": "string",
-            "missing": 14280,
+            "missing": 13349,
             "table": {
               "1": 0
             }
+          },
+          {
+            "name": "2year_colleges_access_scores:2sefca30_tot_enrol",
+            "duplicates": 13348,
+            "type": "string",
+            "missing": 13349,
+            "table": {
+              "1": 0
+            }
+          },
+          {
+            "name": "2year_colleges_access_scores:norm_3sfca",
+            "duplicates": 12722,
+            "type": "float",
+            "missing": 11449,
+            "mean": 11.201958,
+            "sd": 10.833546,
+            "min": 0,
+            "max": 100
+          },
+          {
+            "name": "2year_colleges_access_scores:perc_2sefca",
+            "duplicates": 13348,
+            "type": "string",
+            "missing": 13349,
+            "table": {
+              "1": 0
+            }
+          },
+          {
+            "name": "2year_colleges_access_scores:perc_3sfca",
+            "duplicates": 12722,
+            "type": "float",
+            "missing": 11449,
+            "mean": 0.502242,
+            "sd": 0.288524,
+            "min": 0.024737,
+            "max": 1
           },
           {
             "name": "2year_colleges_access_scores:capacity",
-            "duplicates": 14279,
+            "duplicates": 13348,
             "type": "string",
-            "missing": 14280,
+            "missing": 13349,
             "table": {
               "1": 0
             }
           },
           {
+            "name": "2year_colleges_access_scores:2sfca30_capacity",
+            "duplicates": 12961,
+            "type": "float",
+            "missing": 11449,
+            "mean": 0.021927,
+            "sd": 0.024594,
+            "min": 0,
+            "max": 0.214828
+          },
+          {
+            "name": "2year_colleges_access_scores:norm_2sfca",
+            "duplicates": 12959,
+            "type": "float",
+            "missing": 11449,
+            "mean": 10.206766,
+            "sd": 11.448114,
+            "min": 0,
+            "max": 100
+          },
+          {
+            "name": "2year_colleges_access_scores:college_capacity",
+            "duplicates": 13300,
+            "type": "integer",
+            "missing": 13301,
+            "mean": 3642.708333,
+            "sd": 8126.687857,
+            "min": 13,
+            "max": 52873
+          },
+          {
+            "name": "2year_colleges_access_scores:perc_2sfca30",
+            "duplicates": 12959,
+            "type": "float",
+            "missing": 11449,
+            "mean": 0.530083,
+            "sd": 0.25237,
+            "min": 0.237368,
+            "max": 1
+          },
+          {
+            "name": "2year_colleges_access_scores:3sfca_capacity",
+            "duplicates": 12722,
+            "type": "float",
+            "missing": 11449,
+            "mean": 1.046667,
+            "sd": 1.012244,
+            "min": 0,
+            "max": 9.343608
+          },
+          {
             "name": "health_literacy_estimates:health_literacy_estimate",
-            "duplicates": 14266,
+            "duplicates": 13335,
             "info": {
               "category": "Education",
               "measure_table": "dc_education_training.va_hdcttr_sdad_2019_health_literacy_estimates",
@@ -3904,7 +3911,7 @@
               ]
             },
             "type": "float",
-            "missing": 12373,
+            "missing": 11442,
             "mean": 0.432925,
             "sd": 0.8731,
             "min": -2.994982,
@@ -3912,9 +3919,9 @@
           },
           {
             "name": "trade_schools_access_scores:norm_3sfca",
-            "duplicates": 13833,
+            "duplicates": 12902,
             "type": "float",
-            "missing": 12381,
+            "missing": 11450,
             "mean": 22.114487,
             "sd": 24.095035,
             "min": 0,
@@ -3922,9 +3929,9 @@
           },
           {
             "name": "trade_schools_access_scores:college_capacity",
-            "duplicates": 14251,
+            "duplicates": 13320,
             "type": "integer",
-            "missing": 14249,
+            "missing": 13318,
             "mean": 87.677419,
             "sd": 87.376346,
             "min": 3,
@@ -3932,9 +3939,9 @@
           },
           {
             "name": "trade_schools_access_scores:2sfca30_capacity",
-            "duplicates": 13937,
+            "duplicates": 13006,
             "type": "float",
-            "missing": 12381,
+            "missing": 11450,
             "mean": 0.00034,
             "sd": 0.000409,
             "min": 0,
@@ -3942,9 +3949,9 @@
           },
           {
             "name": "trade_schools_access_scores:perc_2sfca30",
-            "duplicates": 13937,
+            "duplicates": 13006,
             "type": "float",
-            "missing": 12381,
+            "missing": 11450,
             "mean": 0.559812,
             "sd": 0.220274,
             "min": 0.341232,
@@ -3952,9 +3959,9 @@
           },
           {
             "name": "trade_schools_access_scores:3sfca_capacity",
-            "duplicates": 13833,
+            "duplicates": 12902,
             "type": "float",
-            "missing": 12381,
+            "missing": 11450,
             "mean": 1.045904,
             "sd": 1.139574,
             "min": 0,
@@ -3962,9 +3969,9 @@
           },
           {
             "name": "trade_schools_access_scores:perc_3sfca",
-            "duplicates": 13833,
+            "duplicates": 12902,
             "type": "float",
-            "missing": 12381,
+            "missing": 11450,
             "mean": 0.514342,
             "sd": 0.271397,
             "min": 0.153765,
@@ -3972,9 +3979,9 @@
           },
           {
             "name": "trade_schools_access_scores:norm_2sfca",
-            "duplicates": 13937,
+            "duplicates": 13006,
             "type": "float",
-            "missing": 12381,
+            "missing": 11450,
             "mean": 19.475116,
             "sd": 23.377265,
             "min": 0,
@@ -3982,25 +3989,25 @@
           },
           {
             "name": "trade_schools_access_scores:capacity",
-            "duplicates": 14279,
+            "duplicates": 13348,
             "type": "string",
-            "missing": 14280,
+            "missing": 13349,
             "table": {
               "1": 0
             }
           },
           {
             "name": "trade_schools_access_scores:3sfca_tot_enrol",
-            "duplicates": 14279,
+            "duplicates": 13348,
             "type": "string",
-            "missing": 14280,
+            "missing": 13349,
             "table": {
               "1": 0
             }
           },
           {
             "name": "trade_schools_access_scores:norm_2sefca",
-            "duplicates": 14279,
+            "duplicates": 13348,
             "info": {
               "category": "Education",
               "measure_table": "dc_education_training.va_hdcttr_sdad_2019_trade_schools_access_scores",
@@ -4027,34 +4034,34 @@
               ]
             },
             "type": "string",
-            "missing": 14280,
+            "missing": 13349,
             "table": {
               "1": 0
             }
           },
           {
             "name": "trade_schools_access_scores:2sefca30_tot_enrol",
-            "duplicates": 14279,
+            "duplicates": 13348,
             "type": "string",
-            "missing": 14280,
+            "missing": 13349,
             "table": {
               "1": 0
             }
           },
           {
             "name": "trade_schools_access_scores:perc_2sefca",
-            "duplicates": 14279,
+            "duplicates": 13348,
             "type": "string",
-            "missing": 14280,
+            "missing": 13349,
             "table": {
               "1": 0
             }
           },
           {
             "name": "daycare_services_access_scores:daycare_3sfca_capacity",
-            "duplicates": 12380,
+            "duplicates": 11449,
             "type": "float",
-            "missing": 12380,
+            "missing": 11449,
             "mean": 0.967495,
             "sd": 0.323011,
             "min": 0,
@@ -4062,7 +4069,7 @@
           },
           {
             "name": "daycare_services_access_scores:daycare_cnt",
-            "duplicates": 13712,
+            "duplicates": 12781,
             "info": {
               "category": "Education",
               "measure_table": "dc_education_training.va_hdcttr_sdad_2021_daycare_services_access_scores",
@@ -4083,7 +4090,7 @@
               ]
             },
             "type": "integer",
-            "missing": 12373,
+            "missing": 11442,
             "mean": 195.544835,
             "sd": 235.098779,
             "min": 0,
@@ -4091,7 +4098,7 @@
           },
           {
             "name": "daycare_services_access_scores:daycare_norm_3sfca",
-            "duplicates": 12380,
+            "duplicates": 11449,
             "info": {
               "category": "Education",
               "measure_table": "dc_education_training.va_hdcttr_sdad_2021_daycare_services_access_scores",
@@ -4118,7 +4125,7 @@
               ]
             },
             "type": "float",
-            "missing": 12380,
+            "missing": 11449,
             "mean": 52.41866,
             "sd": 17.500646,
             "min": 0,
@@ -4126,9 +4133,9 @@
           },
           {
             "name": "dentist_access_scores:dent_fca",
-            "duplicates": 12779,
+            "duplicates": 11848,
             "type": "float",
-            "missing": 12459,
+            "missing": 11528,
             "mean": 0.001827,
             "sd": 0.000811,
             "min": 0,
@@ -4136,7 +4143,7 @@
           },
           {
             "name": "dentist_access_scores:dent_e2sfca",
-            "duplicates": 12510,
+            "duplicates": 11579,
             "info": {
               "category": "Health",
               "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_dentist_access_scores",
@@ -4163,7 +4170,7 @@
               ]
             },
             "type": "float",
-            "missing": 12381,
+            "missing": 11450,
             "mean": 0.000392,
             "sd": 0.000227,
             "min": 0,
@@ -4171,9 +4178,9 @@
           },
           {
             "name": "dentist_access_scores:dent_2sfca",
-            "duplicates": 12986,
+            "duplicates": 12055,
             "type": "float",
-            "missing": 12383,
+            "missing": 11452,
             "mean": 0.000386,
             "sd": 0.00016,
             "min": 0,
@@ -4181,9 +4188,9 @@
           },
           {
             "name": "dentist_access_scores:dent_3sfca",
-            "duplicates": 12395,
+            "duplicates": 11464,
             "type": "float",
-            "missing": 12381,
+            "missing": 11450,
             "mean": 0.000387,
             "sd": 0.000182,
             "min": 0,
@@ -4191,7 +4198,7 @@
           },
           {
             "name": "dentist_access_scores:dent_cnt",
-            "duplicates": 14247,
+            "duplicates": 13316,
             "info": {
               "category": "Health",
               "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_dentist_access_scores",
@@ -4212,7 +4219,7 @@
               ]
             },
             "type": "integer",
-            "missing": 13315,
+            "missing": 12384,
             "mean": 4.456995,
             "sd": 4.964131,
             "min": 1,
@@ -4220,9 +4227,9 @@
           },
           {
             "name": "dentist_access_scores:dent_pop_cnt",
-            "duplicates": 12640,
+            "duplicates": 11709,
             "type": "integer",
-            "missing": 12373,
+            "missing": 11442,
             "mean": 4433.383849,
             "sd": 2043.967503,
             "min": 0,
@@ -4230,9 +4237,9 @@
           },
           {
             "name": "dentist_access_scores:dent_mean10",
-            "duplicates": 13104,
+            "duplicates": 12173,
             "type": "float",
-            "missing": 12382,
+            "missing": 11451,
             "mean": 10.753562,
             "sd": 10.714506,
             "min": 0.67,
@@ -4240,9 +4247,9 @@
           },
           {
             "name": "dentist_access_scores:dent_median10",
-            "duplicates": 13710,
+            "duplicates": 12779,
             "type": "float",
-            "missing": 12382,
+            "missing": 11451,
             "mean": 11.109905,
             "sd": 11.455808,
             "min": 0.55,
@@ -4250,9 +4257,9 @@
           },
           {
             "name": "obgyn_access_scores:obgyn_fca",
-            "duplicates": 13198,
+            "duplicates": 12267,
             "type": "float",
-            "missing": 12569,
+            "missing": 11638,
             "mean": 0.016164,
             "sd": 0.014387,
             "min": 0.000345,
@@ -4260,7 +4267,7 @@
           },
           {
             "name": "obgyn_access_scores:obgyn_e2sfca",
-            "duplicates": 12726,
+            "duplicates": 11795,
             "info": {
               "category": "Health",
               "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_obgyn_access_scores",
@@ -4287,7 +4294,7 @@
               ]
             },
             "type": "float",
-            "missing": 12381,
+            "missing": 11450,
             "mean": 0.000655,
             "sd": 0.000485,
             "min": 0,
@@ -4295,9 +4302,9 @@
           },
           {
             "name": "obgyn_access_scores:obgyn_2sfca",
-            "duplicates": 13501,
+            "duplicates": 12570,
             "type": "float",
-            "missing": 12384,
+            "missing": 11453,
             "mean": 0.000634,
             "sd": 0.000261,
             "min": 0,
@@ -4305,7 +4312,7 @@
           },
           {
             "name": "obgyn_access_scores:obgyn_cnt",
-            "duplicates": 14236,
+            "duplicates": 13305,
             "info": {
               "category": "Health",
               "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_obgyn_access_scores",
@@ -4326,7 +4333,7 @@
               ]
             },
             "type": "integer",
-            "missing": 13807,
+            "missing": 12876,
             "mean": 6.511628,
             "sd": 13.452694,
             "min": 1,
@@ -4334,9 +4341,9 @@
           },
           {
             "name": "obgyn_access_scores:obgyn_3sfca",
-            "duplicates": 12429,
+            "duplicates": 11498,
             "type": "float",
-            "missing": 12381,
+            "missing": 11450,
             "mean": 0.000644,
             "sd": 0.000398,
             "min": 0,
@@ -4344,9 +4351,9 @@
           },
           {
             "name": "obgyn_access_scores:obgyn_pop_cnt",
-            "duplicates": 12927,
+            "duplicates": 11996,
             "type": "integer",
-            "missing": 12381,
+            "missing": 11450,
             "mean": 1861.517114,
             "sd": 832.691345,
             "min": 0,
@@ -4354,9 +4361,9 @@
           },
           {
             "name": "obgyn_access_scores:obgyn_mean10",
-            "duplicates": 12976,
+            "duplicates": 12045,
             "type": "float",
-            "missing": 12382,
+            "missing": 11451,
             "mean": 13.503288,
             "sd": 12.026599,
             "min": 0.8,
@@ -4364,9 +4371,9 @@
           },
           {
             "name": "obgyn_access_scores:obgyn_median10",
-            "duplicates": 13705,
+            "duplicates": 12774,
             "type": "float",
-            "missing": 12382,
+            "missing": 11451,
             "mean": 13.739041,
             "sd": 12.408444,
             "min": 0.6,
@@ -4374,9 +4381,9 @@
           },
           {
             "name": "pediatrics_access_scores:ped_fca",
-            "duplicates": 12909,
+            "duplicates": 11978,
             "type": "float",
-            "missing": 12499,
+            "missing": 11568,
             "mean": 0.040652,
             "sd": 0.04226,
             "min": 0.000583,
@@ -4384,9 +4391,9 @@
           },
           {
             "name": "pediatrics_access_scores:ped_2sfca",
-            "duplicates": 13170,
+            "duplicates": 12239,
             "type": "float",
-            "missing": 12381,
+            "missing": 11450,
             "mean": 0.002065,
             "sd": 0.000932,
             "min": 0,
@@ -4394,7 +4401,7 @@
           },
           {
             "name": "pediatrics_access_scores:ped_e2sfca",
-            "duplicates": 12574,
+            "duplicates": 11643,
             "info": {
               "category": "Health",
               "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_pediatrics_access_scores",
@@ -4421,7 +4428,7 @@
               ]
             },
             "type": "float",
-            "missing": 12381,
+            "missing": 11450,
             "mean": 0.002211,
             "sd": 0.001826,
             "min": 0,
@@ -4429,9 +4436,9 @@
           },
           {
             "name": "pediatrics_access_scores:ped_3sfca",
-            "duplicates": 12412,
+            "duplicates": 11481,
             "type": "float",
-            "missing": 12381,
+            "missing": 11450,
             "mean": 0.00212,
             "sd": 0.001435,
             "min": 0,
@@ -4439,7 +4446,7 @@
           },
           {
             "name": "pediatrics_access_scores:ped_cnt",
-            "duplicates": 14238,
+            "duplicates": 13307,
             "info": {
               "category": "Health",
               "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_pediatrics_access_scores",
@@ -4460,7 +4467,7 @@
               ]
             },
             "type": "integer",
-            "missing": 13686,
+            "missing": 12755,
             "mean": 6.653199,
             "sd": 14.804206,
             "min": 1,
@@ -4468,9 +4475,9 @@
           },
           {
             "name": "pediatrics_access_scores:ped_pop_cnt",
-            "duplicates": 13089,
+            "duplicates": 12158,
             "type": "integer",
-            "missing": 12381,
+            "missing": 11450,
             "mean": 982.024223,
             "sd": 600.133641,
             "min": 0,
@@ -4478,9 +4485,9 @@
           },
           {
             "name": "pediatrics_access_scores:ped_10near_mean",
-            "duplicates": 13044,
+            "duplicates": 12113,
             "type": "float",
-            "missing": 12381,
+            "missing": 11450,
             "mean": 12.446424,
             "sd": 11.727299,
             "min": 0,
@@ -4488,9 +4495,9 @@
           },
           {
             "name": "pediatrics_access_scores:ped_10near_median",
-            "duplicates": 13713,
+            "duplicates": 12782,
             "type": "float",
-            "missing": 12381,
+            "missing": 11450,
             "mean": 12.550895,
             "sd": 12.048645,
             "min": 0,
@@ -4498,27 +4505,27 @@
           },
           {
             "name": "pediatrics_access_scores:ped_mean10",
-            "duplicates": 14279,
+            "duplicates": 13348,
             "type": "string",
-            "missing": 14280,
+            "missing": 13349,
             "table": {
               "1": 0
             }
           },
           {
             "name": "pediatrics_access_scores:ped_median10",
-            "duplicates": 14279,
+            "duplicates": 13348,
             "type": "string",
-            "missing": 14280,
+            "missing": 13349,
             "table": {
               "1": 0
             }
           },
           {
             "name": "primary_care_access_scores:prim_fca",
-            "duplicates": 12494,
+            "duplicates": 11563,
             "type": "float",
-            "missing": 12399,
+            "missing": 11468,
             "mean": "Inf",
             "sd": "NaN",
             "min": 0.000201,
@@ -4526,7 +4533,7 @@
           },
           {
             "name": "primary_care_access_scores:prim_cnt",
-            "duplicates": 14175,
+            "duplicates": 13244,
             "info": {
               "category": "Health",
               "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_primary_care_access_scores",
@@ -4547,7 +4554,7 @@
               ]
             },
             "type": "integer",
-            "missing": 12989,
+            "missing": 12058,
             "mean": 15.194423,
             "sd": 41.247863,
             "min": 1,
@@ -4555,9 +4562,9 @@
           },
           {
             "name": "primary_care_access_scores:prim_2sfca",
-            "duplicates": 12568,
+            "duplicates": 11637,
             "type": "float",
-            "missing": 12381,
+            "missing": 11450,
             "mean": 0.002295,
             "sd": 0.000761,
             "min": 0,
@@ -4565,7 +4572,7 @@
           },
           {
             "name": "primary_care_access_scores:prim_e2sfca",
-            "duplicates": 12408,
+            "duplicates": 11477,
             "info": {
               "category": "Health",
               "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_primary_care_access_scores",
@@ -4592,7 +4599,7 @@
               ]
             },
             "type": "float",
-            "missing": 12381,
+            "missing": 11450,
             "mean": 0.002377,
             "sd": 0.001522,
             "min": 0,
@@ -4600,9 +4607,9 @@
           },
           {
             "name": "primary_care_access_scores:prim_3sfca",
-            "duplicates": 12381,
+            "duplicates": 11450,
             "type": "float",
-            "missing": 12381,
+            "missing": 11450,
             "mean": 0.002328,
             "sd": 0.001139,
             "min": 0,
@@ -4610,9 +4617,9 @@
           },
           {
             "name": "primary_care_access_scores:prim_pop_cnt",
-            "duplicates": 12640,
+            "duplicates": 11709,
             "type": "integer",
-            "missing": 12373,
+            "missing": 11442,
             "mean": 4433.383849,
             "sd": 2043.967503,
             "min": 0,
@@ -4620,9 +4627,9 @@
           },
           {
             "name": "primary_care_access_scores:prim_mean10",
-            "duplicates": 13185,
+            "duplicates": 12254,
             "type": "float",
-            "missing": 12381,
+            "missing": 11450,
             "mean": 7.910664,
             "sd": 7.244034,
             "min": 0.3,
@@ -4630,9 +4637,9 @@
           },
           {
             "name": "primary_care_access_scores:prim_median10",
-            "duplicates": 13853,
+            "duplicates": 12922,
             "type": "float",
-            "missing": 12381,
+            "missing": 11450,
             "mean": 8.020563,
             "sd": 7.381215,
             "min": 0.3,

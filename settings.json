@@ -1,0 +1,356 @@
+{
+  "title": "Demographics and Health Access demo",
+  "theme": "default",
+  "metadata": {
+    "package": "data/datapackage.json",
+    "datasets": ["district", "county", "tract"],
+    "info": {
+      "district": {
+        "bytes": 8635,
+        "encoding": "ISO-8859-1",
+        "md5": "33f0d36fbfdb00ed36b948f1e72e5aeb",
+        "sha512": "WDOPBmrU8MvuUUcUr3+TC/takkCU+9ULgwUXfbQgfXzIVju2UxO+TJp0DZmnX5zVu7iuDkzDAKT82C1lEtdoRQ==",
+        "format": "csv",
+        "name": "district",
+        "filename": "health_district.csv",
+        "source": [],
+        "ids": [
+          {
+            "variable": "ID",
+            "map": "https://uva-bi-sdad.github.io/community/dist/shapes/VA/virginia_2010.json"
+          }
+        ],
+        "time": "time",
+        "profile": "data-resource",
+        "created": "2021-10-19 11:05:49",
+        "last_modified": "2021-10-19 11:05:52",
+        "rowcount": 245,
+        "schema": {
+          "fields": [
+            {
+              "name": "ID",
+              "duplicates": 210,
+              "type": "integer",
+              "missing": 0,
+              "mean": 18,
+              "sd": 10.1202,
+              "min": 1,
+              "max": 35
+            },
+            {
+              "name": "time",
+              "duplicates": 238,
+              "type": "integer",
+              "missing": 0,
+              "mean": 2018,
+              "sd": 2.0041,
+              "min": 2015,
+              "max": 2021
+            },
+            {
+              "name": "dent_cnt",
+              "duplicates": 211,
+              "type": "integer",
+              "missing": 210,
+              "mean": 122.8857,
+              "sd": 170.4947,
+              "min": 15,
+              "max": 1000
+            },
+            {
+              "name": "dent_e2sfca",
+              "duplicates": 211,
+              "type": "float",
+              "missing": 212,
+              "mean": 0.0003,
+              "sd": 0.0001,
+              "min": 0.0001,
+              "max": 0.0006
+            },
+            {
+              "name": "no_hlth_ins_pct",
+              "duplicates": 141,
+              "type": "float",
+              "missing": 135,
+              "mean": 3.1677,
+              "sd": 3.4462,
+              "min": 0,
+              "max": 17.15
+            },
+            {
+              "name": "obgyn_cnt",
+              "duplicates": 213,
+              "type": "integer",
+              "missing": 210,
+              "mean": 88,
+              "sd": 106.409,
+              "min": 7,
+              "max": 611
+            },
+            {
+              "name": "obgyn_e2sfca",
+              "duplicates": 210,
+              "type": "float",
+              "missing": 211,
+              "mean": 0.0006,
+              "sd": 0.0002,
+              "min": 0.0001,
+              "max": 0.0009
+            },
+            {
+              "name": "primcare_cnt",
+              "duplicates": 209,
+              "type": "integer",
+              "missing": 210,
+              "mean": 560.4571,
+              "sd": 581.3071,
+              "min": 74,
+              "max": 3360
+            },
+            {
+              "name": "primcare_e2sfca",
+              "duplicates": 209,
+              "type": "float",
+              "missing": 210,
+              "mean": 0.0023,
+              "sd": 0.0007,
+              "min": 0.0011,
+              "max": 0.0035
+            }
+          ]
+        }
+      },
+      "county": {
+        "bytes": 34996,
+        "encoding": "ISO-8859-1",
+        "md5": "d877fcaa7f34add3eaee37d5355518f5",
+        "sha512": "sg7rnAA+244V84j0KLt1hANkpunEKKdwFJhBPa+tdCnUY1QNcrQ8dqpLSYuErej/lXb7OYUq09wX/vA4ND+YBA==",
+        "format": "csv",
+        "name": "county",
+        "filename": "county.csv",
+        "source": [],
+        "ids": [
+          {
+            "variable": "ID",
+            "map": "https://uva-bi-sdad.github.io/community/dist/shapes/VA/virginia_2010.json"
+          }
+        ],
+        "time": "time",
+        "profile": "data-resource",
+        "created": "2021-10-19 11:05:49",
+        "last_modified": "2021-10-19 11:05:52",
+        "rowcount": 931,
+        "schema": {
+          "fields": [
+            {
+              "name": "ID",
+              "duplicates": 798,
+              "type": "integer",
+              "missing": 0,
+              "mean": 51263.9925,
+              "sd": 271.0046,
+              "min": 51001,
+              "max": 51840
+            },
+            {
+              "name": "time",
+              "duplicates": 924,
+              "type": "integer",
+              "missing": 0,
+              "mean": 2018,
+              "sd": 2.0011,
+              "min": 2015,
+              "max": 2021
+            },
+            {
+              "name": "dent_cnt",
+              "duplicates": 881,
+              "type": "integer",
+              "missing": 809,
+              "mean": 35.2541,
+              "sd": 93.1228,
+              "min": 1,
+              "max": 894
+            },
+            {
+              "name": "dent_e2sfca",
+              "duplicates": 817,
+              "type": "float",
+              "missing": 805,
+              "mean": 0.0003,
+              "sd": 0.0001,
+              "min": 0,
+              "max": 0.0007
+            },
+            {
+              "name": "no_hlth_ins_pct",
+              "duplicates": 605,
+              "type": "float",
+              "missing": 266,
+              "mean": 1.8443,
+              "sd": 2.5411,
+              "min": 0,
+              "max": 21.15
+            },
+            {
+              "name": "obgyn_cnt",
+              "duplicates": 884,
+              "type": "integer",
+              "missing": 837,
+              "mean": 32.766,
+              "sd": 69.6968,
+              "min": 1,
+              "max": 562
+            },
+            {
+              "name": "obgyn_e2sfca",
+              "duplicates": 828,
+              "type": "float",
+              "missing": 821,
+              "mean": 0.0005,
+              "sd": 0.0003,
+              "min": 0,
+              "max": 0.0011
+            },
+            {
+              "name": "primcare_cnt",
+              "duplicates": 837,
+              "type": "integer",
+              "missing": 798,
+              "mean": 147.4887,
+              "sd": 341.3477,
+              "min": 1,
+              "max": 3152
+            },
+            {
+              "name": "primcare_e2sfca",
+              "duplicates": 799,
+              "type": "float",
+              "missing": 798,
+              "mean": 0.002,
+              "sd": 0.0009,
+              "min": 0.0005,
+              "max": 0.0046
+            }
+          ]
+        }
+      },
+      "tract": {
+        "bytes": 573957,
+        "encoding": "ISO-8859-1",
+        "md5": "ccba828e06f0c3f1ad156745b1e50a86",
+        "sha512": "jvjFqtBEWQNLQMVpJWnL/lug6R/ON3xx07IfkfdCuAWMCpZiY1tnWoBAlb/uWRQUpSeoE5hrmPAreK3Gk7DWNw==",
+        "format": "csv",
+        "name": "tract",
+        "filename": "tract.csv",
+        "source": [],
+        "ids": [
+          {
+            "variable": "ID",
+            "map": "https://uva-bi-sdad.github.io/community/dist/shapes/VA/virginia_2010.json"
+          }
+        ],
+        "time": "time",
+        "profile": "data-resource",
+        "created": "2021-10-19 11:05:50",
+        "last_modified": "2021-10-19 11:05:52",
+        "rowcount": 13349,
+        "schema": {
+          "fields": [
+            {
+              "name": "ID",
+              "duplicates": 11442,
+              "type": "integer",
+              "missing": 0,
+              "mean": 51296485701,
+              "sd": 297021650.5901,
+              "min": 51001090100,
+              "max": 51840000302
+            },
+            {
+              "name": "time",
+              "duplicates": 13342,
+              "type": "integer",
+              "missing": 0,
+              "mean": 2018,
+              "sd": 2.0001,
+              "min": 2015,
+              "max": 2021
+            },
+            {
+              "name": "dent_cnt",
+              "duplicates": 13316,
+              "type": "integer",
+              "missing": 12384,
+              "mean": 4.457,
+              "sd": 4.9641,
+              "min": 1,
+              "max": 39
+            },
+            {
+              "name": "dent_e2sfca",
+              "duplicates": 12833,
+              "type": "float",
+              "missing": 11452,
+              "mean": 0.0004,
+              "sd": 0.0002,
+              "min": 0,
+              "max": 0.0007
+            },
+            {
+              "name": "no_hlth_ins_pct",
+              "duplicates": 11872,
+              "type": "float",
+              "missing": 3979,
+              "mean": 2.7716,
+              "sd": 5.3258,
+              "min": 0,
+              "max": 66.75
+            },
+            {
+              "name": "obgyn_cnt",
+              "duplicates": 13305,
+              "type": "integer",
+              "missing": 12876,
+              "mean": 6.5116,
+              "sd": 13.4527,
+              "min": 1,
+              "max": 137
+            },
+            {
+              "name": "obgyn_e2sfca",
+              "duplicates": 12841,
+              "type": "float",
+              "missing": 11453,
+              "mean": 0.0006,
+              "sd": 0.0003,
+              "min": 0,
+              "max": 0.0012
+            },
+            {
+              "name": "primcare_cnt",
+              "duplicates": 13244,
+              "type": "integer",
+              "missing": 12058,
+              "mean": 15.1944,
+              "sd": 41.2479,
+              "min": 1,
+              "max": 847
+            },
+            {
+              "name": "primcare_e2sfca",
+              "duplicates": 12172,
+              "type": "float",
+              "missing": 11450,
+              "mean": 0.0023,
+              "sd": 0.0008,
+              "min": 0,
+              "max": 0.0048
+            }
+          ]
+        }
+      }
+    },
+    "file": "data.json"
+  }
+}

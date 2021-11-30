@@ -10,7 +10,7 @@
 <script type="application/javascript" src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous" async></script>
 <link href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha384-VzLXTJGPSyTLX6d96AxgkKvE/LRb7ECGyTxuwtpjHnVWVZs2gp5RDjeM/tgBnVdM" crossorigin="anonymous" rel="stylesheet" media="all" async>
 <script type="application/javascript" src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha384-RFZC58YeKApoNsIbBxf4z6JJXmh+geBSgkCQXFyh+4tiFSJmJBt+2FbjxW7Ar16M" crossorigin="anonymous" async></script>
-<script type="application/javascript" src="https://cdn.plot.ly/plotly-2.4.2.min.js" integrity="sha384-X9COQf511UOEwK4K4fkWIg2ySl5SMo0Rs9PDwMXSwMKKbBgvpMLpmGuD3Z6VM/uR" crossorigin="anonymous" async></script>
+<script type="application/javascript" src="https://cdn.plot.ly/plotly-2.6.3.min.js" integrity="sha384-xnfoM22BQ8982UWqWc9M6VxTauwl5xCxNc0QFVJfQXPco6lH4FuCJbN/unF0lfEE" crossorigin="anonymous" async></script>
 <script type="application/javascript" src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha384-vtXRMe3mGCbOeY7l30aIg8H9p3GdeSe4IFlP6G8JMa7o7lXvnz3GFKzPxzJdPfGK" crossorigin="anonymous" defer></script>
 <link href="https://cdn.datatables.net/1.11.3/css/jquery.dataTables.min.css" integrity="sha384-kKpyGTkmY+nYEkRda6qauvrYqFNO4csWTLspXM3FCJ89NsU9FhPY5kebmiPqu8B6" crossorigin="anonymous" rel="stylesheet" media="all" async>
 <script type="application/javascript" src="https://cdn.datatables.net/v/dt/jszip-2.5.0/dt-1.11.3/b-2.0.1/b-html5-2.0.1/b-print-2.0.1/rg-1.1.4/datatables.min.js" integrity="sha384-uf/Bcd4lCplN1dOhtGBZdheEsWnZs1FocqbGCOoBFX5rVwUAXJ1K79UJLzOMoDZO" crossorigin="anonymous" defer></script>
@@ -35,8 +35,8 @@ Virginia Department of Health
 <div class="collapse navbar-collapse" id="navbar_menu">
 <ul class="navbar-nav">
 <li class="nav-item"><div class="wrapper button-wrapper"><button type="button" auto-type="button" class="auto-input btn btn-link" id="reset.selection" target="reset_selection">Reset</button></div></li>
-<li class="nav-item"><button class="btn btn-link" type="button" data-bs-toggle="offcanvas" data-bs-target="#submenu02" aria-control="submenu02">Settings</button></li>
-<li class="nav-item"><button class="btn btn-link" type="button" data-bs-toggle="offcanvas" data-bs-target="#submenu03" aria-control="submenu03">About</button></li>
+<li class="nav-item"><button class="btn btn-link" type="button" data-bs-toggle="offcanvas" data-bs-target="#submenu02" aria-controls="submenu02">Settings</button></li>
+<li class="nav-item"><button class="btn btn-link" type="button" data-bs-toggle="offcanvas" data-bs-target="#submenu03" aria-controls="submenu03">About</button></li>
 </ul></div></div></nav>
 <div tabindex="-1" id="submenu02" aria-labelledby="submenu02_label" class="offcanvas offcanvas-end" data-bs-backdrop="false">
 <div class="offcanvas-header">
@@ -234,8 +234,8 @@ Virginia Department of Health
 <div class="col-7">
 <nav>
 <div class="nav nav-tabs">
-<button type="button" data-bs-toggle="tab" aria-controls="tg151" class="nav-link active" aria-selected="true" data-bs-target="#tg151" id="tg151-tab">Plot</button>
-<button type="button" data-bs-toggle="tab" aria-controls="tg152" class="nav-link" aria-selected="false" data-bs-target="#tg152" id="tg152-tab">Data</button>
+<button type="button" data-bs-toggle="tab" aria-controls="tg151" class="nav-link active" aria-current="page" data-bs-target="#tg151" id="tg151-tab">Plot</button>
+<button type="button" data-bs-toggle="tab" aria-controls="tg152" class="nav-link" data-bs-target="#tg152" id="tg152-tab">Data</button>
 </div>
 </nav>
 <div class="tab-content">

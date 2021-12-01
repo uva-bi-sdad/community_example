@@ -3156,7 +3156,7 @@ const site = {
   ],
   "dataviews": {
     "primary_view": {
-      "palette": "selected_palette",
+      "palette": "settings.palette",
       "y": "selected_variable",
       "x": "selected_year",
       "time_agg": "selected_year",
@@ -3326,10 +3326,7 @@ const site = {
   },
   "tables": {
     "table15": {
-      "paging": false,
       "scrollY": 400,
-      "scrollX": 500,
-      "scrollCollapse": true,
       "rowGroup": {
         "dataSrc": "features.name"
       },
@@ -3345,93 +3342,65 @@ const site = {
         "category": "variable_type"
       },
       "wide": false,
-      "single_variable": false
+      "single_variable": false,
+      "paging": false,
+      "scrollX": 500,
+      "scrollCollapse": true
     },
     "table17": {
       "info": false,
-      "paging": false,
       "searching": false,
-      "scrollY": 500,
-      "scrollX": 500,
-      "scrollCollapse": true,
       "variables": "selected_variable",
       "wide": true,
-      "single_variable": true
+      "single_variable": true,
+      "paging": false,
+      "scrollY": 500,
+      "scrollX": 500,
+      "scrollCollapse": true
     }
   },
   "plots": {
     "plot0": {
       "layout": {
-        "margin": {
-          "b": 40,
-          "l": 60,
-          "t": 25,
-          "r": 10
-        },
+        "showlegend": false,
         "xaxis": {
-          "domain": [0, 1],
-          "automargin": true,
           "title": false,
           "fixedrange": true
         },
         "yaxis": {
-          "domain": [0, 1],
-          "automargin": true,
           "fixedrange": true,
           "zeroline": false
         },
         "hovermode": "closest",
-        "showlegend": false
+        "margin": {
+          "t": 25,
+          "r": 10,
+          "b": 40,
+          "l": 60
+        }
       },
       "config": {
-        "modeBarButtonsToAdd": ["hoverclosest", "hovercompare"],
+        "modeBarButtonsToRemove": ["select2d", "lasso2d", "sendDataToCloud"],
         "showSendToCloud": false,
         "responsive": true,
         "showTips": false,
         "displaylogo": false,
-        "modeBarButtonsToRemove": ["select2d", "lasso2d", "sendDataToCloud"]
+        "modeBarButtonsToAdd": ["hoverclosest", "hovercompare"]
       },
       "data": [
         {
+          "type": "scatter",
           "hoverinfo": "text",
           "mode": "lines+markers",
-          "showlegend": false,
-          "type": "scatter",
-          "marker": {
-            "color": "rgba(31,119,180,1)",
-            "line": {
-              "color": "rgba(31,119,180,1)"
-            }
-          },
-          "error_y": {
-            "color": "rgba(31,119,180,1)"
-          },
-          "error_x": {
-            "color": "rgba(31,119,180,1)"
-          },
-          "line": {
-            "color": "rgba(31,119,180,1)"
-          },
-          "xaxis": "x",
-          "yaxis": "y"
+          "showlegend": false
         },
         {
           "type": "box",
-          "marker": {
-            "color": "rgba(255,127,14,1)",
-            "line": {
-              "color": "rgba(255,127,14,1)"
-            }
-          },
-          "error_y": {},
-          "error_x": {},
-          "line": {
-            "color": "#d6d6d6"
-          },
-          "xaxis": "x",
-          "yaxis": "y",
           "fillcolor": "transparent",
-          "name": "Box Plot"
+          "hoverinfo": "text",
+          "mode": "lines+markers",
+          "showlegend": false,
+          "name": "Summary"
         }
       ],
       "subto": [
@@ -3507,5 +3476,15 @@ const site = {
   "color_by_order": false,
   "boxplots": true,
   "theme_dark": false,
-  "partial_init": true
+  "partial_init": true,
+  "settings": {
+    "digits": 3,
+    "summary_selection": "all",
+    "color_by_order": false,
+    "boxplots": true,
+    "theme_dark": false,
+    "partial_init": false,
+    "palette": "rdylbu7",
+    "hide_url_parameters": false
+  }
 }

@@ -51,9 +51,9 @@ Virginia Department of Health
 </div>
 </div>
 <div class="wrapper select-wrapper">
-<label for="selected_palette">Color Palette</label>
+<label for="settings.palette">Color Palette</label>
 <div class="input-group">
-<select class="auto-input form-select" auto-type="select" id="selected_palette" auto-options="palettes" default="rdylbu7">
+<select class="auto-input form-select" auto-type="select" id="settings.palette" auto-options="palettes" default="rdylbu7">
 </select>
 </div>
 </div>
@@ -61,6 +61,12 @@ Virginia Department of Health
 <div class="form-check form-switch">
 <label class="form-check-label" for="settings.color_by_order">Color by Order</label>
 <input auto-type="switch" type="checkbox" autocomplete="off" class="auto-input form-check-input" role="switch" id="settings.color_by_order" title="Switch from coloring by value to coloring by sorted index. This may help differentiate regions with similar values.">
+</div>
+</div>
+<div class="wrapper switch-wrapper">
+<div class="form-check form-switch">
+<label class="form-check-label" for="settings.hide_url_parameters">Hide URL Settings</label>
+<input auto-type="switch" type="checkbox" autocomplete="off" class="auto-input form-check-input" role="switch" id="settings.hide_url_parameters">
 </div>
 </div>
 <div class="wrapper text-wrapper">
@@ -222,7 +228,7 @@ Virginia Department of Health
 </div>
 </div>
 <div class="row">
-<div palette="selected_palette" class="legend">
+<div palette="settings.palette" class="legend">
 <div class="legend-scale"></div>
 <div class="legend-text"><span>Below</span><span>Region Median</span><span>Above</span></div>
 </div>

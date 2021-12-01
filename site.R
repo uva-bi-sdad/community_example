@@ -18,18 +18,19 @@ page_navbar(
     name = "Settings",
     backdrop = "false",
     items = list(
-      input_switch("Dark Theme", default_on = FALSE, id = "settings.theme_dark"),
+      input_switch("Dark Theme", id = "settings.theme_dark"),
       input_select(
-        "Color Palette", options = "palettes", default = "rdylbu7", id = "selected_palette",
+        "Color Palette", options = "palettes", default = "rdylbu7", id = "settings.palette",
         floating_label = FALSE
       ),
       input_switch(
-        "Color by Order", default_on = FALSE, id = "settings.color_by_order",
+        "Color by Order", id = "settings.color_by_order",
         title = paste(
           "Switch from coloring by value to coloring by sorted index.",
           "This may help differentiate regions with similar values."
         )
       ),
+      input_switch("Hide URL Settings", id = "settings.hide_url_parameters"),
       input_number("Digits", "settings.digits", min = 0, max = 6, floating_label = FALSE),
       input_select(
         "Summary Level", options = c("dataset", "filtered", "all"), default = "dataset",
@@ -42,7 +43,7 @@ page_navbar(
         )
       ),
       '<p class="section-heading">Plot Options</p>',
-      input_switch("Box Plots", id = "settings.boxplots"),
+      input_switch("Box Plots", default_on = TRUE, id = "settings.boxplots"),
       input_button("Clear Settings", "reset_storage", "clear_storage", class = "btn-danger footer")
     )
   ),
@@ -90,7 +91,7 @@ page_menu(
     type = "col",
     wraps = "row form-row",
     {
-      vars <- jsonlite::read_json('docs/data/measure_info.json')
+      vars <- jsonlite::read_json('../community_example/docs/data/measure_info.json')
       varcats <- Filter(nchar, unique(vapply(vars, function(v) if(is.null(v$category)) "" else v$category, "")))
       input_select("Variable Category", options = varcats, default = "Health", id = "variable_type")
     },
@@ -152,7 +153,7 @@ input_dataview(
       value = "max_year"
     )
   ),
-  palette = "selected_palette"
+  palette = "settings.palette"
 )
 
 # use `page_section` to build the page's layout
@@ -244,7 +245,7 @@ page_section(
           variable_info = FALSE
         )
       ),
-      output_legend("selected_palette", "Below", "Region Median", "Above"),
+      output_legend("settings.palette", "Below", "Region Median", "Above"),
       wraps = c("row", "row mb-auto", "row")
     )
   ),
@@ -255,53 +256,27 @@ page_section(
     page_tabgroup(
       list(
         name = "Plot",
-        {
-          ## make plots with plotly
-          library(plotly)
-          
-          ### make a template plot
-          template <- plot_ly(
-            hoverinfo = "text",
-            type = "scatter",
-            mode = "lines+markers",
-            showlegend = FALSE
-          ) |>
-            add_trace(
-              name = "Box Plot",
-              inherit = FALSE,
-              type = "box",
-              fillcolor = "transparent",
-              line = list(color = "#d6d6d6")
-            ) |>
-            layout(
+        output_plot(
+          x = "time", y = "selected_variable", dataview = "primary_view",
+          click = "region_select", subto = "map0",
+          options = list(
+            layout = list(
+              showlegend = FALSE,
               xaxis = list(title = FALSE, fixedrange = TRUE),
               yaxis = list(fixedrange = TRUE, zeroline = FALSE)
-            ) |>
-            config(
-              responsive = TRUE,
-              showTips = FALSE,
-              displaylogo = FALSE,
-              modeBarButtonsToRemove = c("select2d", "lasso2d", "sendDataToCloud")
-            )
-          
-          ### then specify dynamic variables, and use the template plot for configuration
-          output_plot(
-            x = "time",
-            y = "selected_variable",
-            dataview = "primary_view",
-            click = "region_select",
-            subto = "map0",
-            options = plotly_json(template, FALSE, FALSE)
+            ),
+            data = data.frame(
+              type = c("scatter", "box"), fillcolor = c(NA, "transparent"),
+              hoverinfo = "text", mode = "lines+markers", showlegend = FALSE, name = c(NA, "Summary")
+            ),
+            config = list(modeBarButtonsToRemove = c("select2d", "lasso2d", "sendDataToCloud"))
           )
-        }
+        )
       ),
       list(
         name = "Data",
         output_table(dataview = "primary_view", filters = list(category = "variable_type"), options = list(
-          paging = FALSE,
           scrollY = 400,
-          scrollX = 500,
-          scrollCollapse = TRUE,
           rowGroup = list(dataSrc = "features.name"),
           columnDefs = list(list(targets = "features.name", visible = FALSE)),
           buttons = c('copy', 'csv', 'excel', 'print'),
@@ -311,14 +286,10 @@ page_section(
     ),
     output_table("selected_variable", dataview = "primary_view", wide = TRUE, options = list(
       info = FALSE,
-      paging = FALSE,
-      searching = FALSE,
-      scrollY = 500,
-      scrollX = 500,
-      scrollCollapse = TRUE
+      searching = FALSE
     ))
   )
 )
 
 # render the site
-site_build(variables = c('ID', names(vars)))
+site_build('../community_example', variables = c('ID', names(vars)))

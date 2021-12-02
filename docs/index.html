@@ -1,5 +1,5 @@
 <!doctype html>
-<!-- page generated from site.r by community::site_build() -->
+<!-- page generated from site.R by community::site_build() -->
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -83,7 +83,24 @@ Virginia Department of Health
 </select>
 </div>
 </div>
+<div class="wrapper text-wrapper">
+<label for="variable_min">Variable Min</label>
+<input type="number" id="variable_min" min="-Inf" max="Inf" step="1e-04" class="form-control auto-input" auto-type="number">
+</div>
+<div class="wrapper text-wrapper">
+<label for="variable_max">Variable Max</label>
+<input type="number" id="variable_max" min="-Inf" max="Inf" step="1e-04" class="form-control auto-input" auto-type="number">
+</div>
 <p class="section-heading">Plot Options</p>
+<div class="wrapper select-wrapper">
+<label for="plot_type">Plot Type</label>
+<div class="input-group">
+<select class="auto-input form-select" auto-type="select" id="plot_type"  default="scatter">
+<option value="scatter">scatter</option>
+<option value="bar">bar</option>
+</select>
+</div>
+</div>
 <div class="wrapper switch-wrapper">
 <div class="form-check form-switch">
 <label class="form-check-label" for="settings.boxplots">Box Plots</label>

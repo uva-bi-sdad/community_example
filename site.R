@@ -42,7 +42,10 @@ page_navbar(
           "Selected Region are filtered by region selection."
         )
       ),
+      input_number("Variable Min", "variable_min", min = -Inf, max = Inf, step = .0001, floating_label = FALSE),
+      input_number("Variable Max", "variable_max", min = -Inf, max = Inf, step = .0001, floating_label = FALSE),
       '<p class="section-heading">Plot Options</p>',
+      input_select("Plot Type", c("scatter", "bar"), "scatter", id = "plot_type", floating_label = FALSE),
       input_switch("Box Plots", default_on = TRUE, id = "settings.boxplots"),
       input_button("Clear Settings", "reset_storage", "clear_storage", class = "btn-danger footer")
     )
@@ -140,6 +143,10 @@ input_dataview(
   dataset = "shapes",
   ids = "selected_region",
   features = c(type = "region_type"),
+  variables = list(
+    list(variable = "selected_variable", type = "<=", value = "variable_min"),
+    list(variable = "selected_variable", type = ">=", value = "variable_max")
+  ),
   time_agg = "selected_year",
   time_filters = list(
     list(
@@ -266,7 +273,7 @@ page_section(
               yaxis = list(fixedrange = TRUE, zeroline = FALSE)
             ),
             data = data.frame(
-              type = c("scatter", "box"), fillcolor = c(NA, "transparent"),
+              type = c("plot_type", "box"), fillcolor = c(NA, "transparent"),
               hoverinfo = "text", mode = "lines+markers", showlegend = FALSE, name = c(NA, "Summary")
             ),
             config = list(modeBarButtonsToRemove = c("select2d", "lasso2d", "sendDataToCloud"))

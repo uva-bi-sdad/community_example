@@ -3176,7 +3176,19 @@ const site = {
       "ids": "selected_region",
       "features": {
         "type": "region_type"
-      }
+      },
+      "variables": [
+        {
+          "variable": "selected_variable",
+          "type": "<=",
+          "value": "variable_min"
+        },
+        {
+          "variable": "selected_variable",
+          "type": ">=",
+          "value": "variable_max"
+        }
+      ]
     }
   },
   "info": {
@@ -3389,7 +3401,7 @@ const site = {
       },
       "data": [
         {
-          "type": "scatter",
+          "type": "plot_type",
           "hoverinfo": "text",
           "mode": "lines+markers",
           "showlegend": false

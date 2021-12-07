@@ -638,47 +638,32 @@
           {
             "name": "2year_colleges_access_scores:2sfca30_capacity",
             "duplicates": 244,
-            "type": "string",
-            "missing": 245,
-            "table": {
-              "1": 0
-            }
+            "type": "unknown",
+            "missing": 245
           },
           {
             "name": "2year_colleges_access_scores:norm_2sfca",
             "duplicates": 244,
-            "type": "string",
-            "missing": 245,
-            "table": {
-              "1": 0
-            }
+            "type": "unknown",
+            "missing": 245
           },
           {
             "name": "2year_colleges_access_scores:college_capacity",
             "duplicates": 244,
-            "type": "string",
-            "missing": 245,
-            "table": {
-              "1": 0
-            }
+            "type": "unknown",
+            "missing": 245
           },
           {
             "name": "2year_colleges_access_scores:perc_2sfca30",
             "duplicates": 244,
-            "type": "string",
-            "missing": 245,
-            "table": {
-              "1": 0
-            }
+            "type": "unknown",
+            "missing": 245
           },
           {
             "name": "2year_colleges_access_scores:3sfca_capacity",
             "duplicates": 244,
-            "type": "string",
-            "missing": 245,
-            "table": {
-              "1": 0
-            }
+            "type": "unknown",
+            "missing": 245
           },
           {
             "name": "health_literacy_estimates:health_literacy_estimate",
@@ -730,38 +715,26 @@
           {
             "name": "trade_schools_access_scores:college_capacity",
             "duplicates": 244,
-            "type": "string",
-            "missing": 245,
-            "table": {
-              "1": 0
-            }
+            "type": "unknown",
+            "missing": 245
           },
           {
             "name": "trade_schools_access_scores:2sfca30_capacity",
             "duplicates": 244,
-            "type": "string",
-            "missing": 245,
-            "table": {
-              "1": 0
-            }
+            "type": "unknown",
+            "missing": 245
           },
           {
             "name": "trade_schools_access_scores:perc_2sfca30",
             "duplicates": 244,
-            "type": "string",
-            "missing": 245,
-            "table": {
-              "1": 0
-            }
+            "type": "unknown",
+            "missing": 245
           },
           {
             "name": "trade_schools_access_scores:3sfca_capacity",
             "duplicates": 244,
-            "type": "string",
-            "missing": 245,
-            "table": {
-              "1": 0
-            }
+            "type": "unknown",
+            "missing": 245
           },
           {
             "name": "trade_schools_access_scores:perc_3sfca",
@@ -776,11 +749,8 @@
           {
             "name": "trade_schools_access_scores:norm_2sfca",
             "duplicates": 244,
-            "type": "string",
-            "missing": 245,
-            "table": {
-              "1": 0
-            }
+            "type": "unknown",
+            "missing": 245
           },
           {
             "name": "trade_schools_access_scores:capacity",
@@ -1286,20 +1256,14 @@
           {
             "name": "pediatrics_access_scores:ped_10near_mean",
             "duplicates": 244,
-            "type": "string",
-            "missing": 245,
-            "table": {
-              "1": 0
-            }
+            "type": "unknown",
+            "missing": 245
           },
           {
             "name": "pediatrics_access_scores:ped_10near_median",
             "duplicates": 244,
-            "type": "string",
-            "missing": 245,
-            "table": {
-              "1": 0
-            }
+            "type": "unknown",
+            "missing": 245
           },
           {
             "name": "pediatrics_access_scores:ped_mean10",
@@ -2169,29 +2133,20 @@
                 }
               ]
             },
-            "type": "string",
-            "missing": 938,
-            "table": {
-              "1": 0
-            }
+            "type": "unknown",
+            "missing": 938
           },
           {
             "name": "2year_colleges_access_scores:3sfca_tot_enrol",
             "duplicates": 937,
-            "type": "string",
-            "missing": 938,
-            "table": {
-              "1": 0
-            }
+            "type": "unknown",
+            "missing": 938
           },
           {
             "name": "2year_colleges_access_scores:2sefca30_tot_enrol",
             "duplicates": 937,
-            "type": "string",
-            "missing": 938,
-            "table": {
-              "1": 0
-            }
+            "type": "unknown",
+            "missing": 938
           },
           {
             "name": "2year_colleges_access_scores:norm_3sfca",
@@ -2206,11 +2161,8 @@
           {
             "name": "2year_colleges_access_scores:perc_2sefca",
             "duplicates": 937,
-            "type": "string",
-            "missing": 938,
-            "table": {
-              "1": 0
-            }
+            "type": "unknown",
+            "missing": 938
           },
           {
             "name": "2year_colleges_access_scores:perc_3sfca",
@@ -2225,11 +2177,8 @@
           {
             "name": "2year_colleges_access_scores:capacity",
             "duplicates": 937,
-            "type": "string",
-            "missing": 938,
-            "table": {
-              "1": 0
-            }
+            "type": "unknown",
+            "missing": 938
           },
           {
             "name": "2year_colleges_access_scores:2sfca30_capacity",
@@ -2391,20 +2340,14 @@
           {
             "name": "trade_schools_access_scores:capacity",
             "duplicates": 937,
-            "type": "string",
-            "missing": 938,
-            "table": {
-              "1": 0
-            }
+            "type": "unknown",
+            "missing": 938
           },
           {
             "name": "trade_schools_access_scores:3sfca_tot_enrol",
             "duplicates": 937,
-            "type": "string",
-            "missing": 938,
-            "table": {
-              "1": 0
-            }
+            "type": "unknown",
+            "missing": 938
           },
           {
             "name": "trade_schools_access_scores:norm_2sefca",
@@ -2434,29 +2377,20 @@
                 }
               ]
             },
-            "type": "string",
-            "missing": 938,
-            "table": {
-              "1": 0
-            }
+            "type": "unknown",
+            "missing": 938
           },
           {
             "name": "trade_schools_access_scores:2sefca30_tot_enrol",
             "duplicates": 937,
-            "type": "string",
-            "missing": 938,
-            "table": {
-              "1": 0
-            }
+            "type": "unknown",
+            "missing": 938
           },
           {
             "name": "trade_schools_access_scores:perc_2sefca",
             "duplicates": 937,
-            "type": "string",
-            "missing": 938,
-            "table": {
-              "1": 0
-            }
+            "type": "unknown",
+            "missing": 938
           },
           {
             "name": "daycare_services_access_scores:daycare_3sfca_capacity",
@@ -2887,20 +2821,14 @@
           {
             "name": "pediatrics_access_scores:ped_10near_mean",
             "duplicates": 937,
-            "type": "string",
-            "missing": 938,
-            "table": {
-              "1": 0
-            }
+            "type": "unknown",
+            "missing": 938
           },
           {
             "name": "pediatrics_access_scores:ped_10near_median",
             "duplicates": 937,
-            "type": "string",
-            "missing": 938,
-            "table": {
-              "1": 0
-            }
+            "type": "unknown",
+            "missing": 938
           },
           {
             "name": "pediatrics_access_scores:ped_mean10",
@@ -3279,11 +3207,8 @@
                 }
               ]
             },
-            "type": "string",
-            "missing": 13349,
-            "table": {
-              "1": 0
-            }
+            "type": "unknown",
+            "missing": 13349
           },
           {
             "name": "3rd_grade_median_read_score:median_read_pass_rate",
@@ -3307,11 +3232,8 @@
                 }
               ]
             },
-            "type": "string",
-            "missing": 13349,
-            "table": {
-              "1": 0
-            }
+            "type": "unknown",
+            "missing": 13349
           },
           {
             "name": "post_hs_education:num_post_hs_edu",
@@ -3768,29 +3690,20 @@
                 }
               ]
             },
-            "type": "string",
-            "missing": 13349,
-            "table": {
-              "1": 0
-            }
+            "type": "unknown",
+            "missing": 13349
           },
           {
             "name": "2year_colleges_access_scores:3sfca_tot_enrol",
             "duplicates": 13348,
-            "type": "string",
-            "missing": 13349,
-            "table": {
-              "1": 0
-            }
+            "type": "unknown",
+            "missing": 13349
           },
           {
             "name": "2year_colleges_access_scores:2sefca30_tot_enrol",
             "duplicates": 13348,
-            "type": "string",
-            "missing": 13349,
-            "table": {
-              "1": 0
-            }
+            "type": "unknown",
+            "missing": 13349
           },
           {
             "name": "2year_colleges_access_scores:norm_3sfca",
@@ -3805,11 +3718,8 @@
           {
             "name": "2year_colleges_access_scores:perc_2sefca",
             "duplicates": 13348,
-            "type": "string",
-            "missing": 13349,
-            "table": {
-              "1": 0
-            }
+            "type": "unknown",
+            "missing": 13349
           },
           {
             "name": "2year_colleges_access_scores:perc_3sfca",
@@ -3824,11 +3734,8 @@
           {
             "name": "2year_colleges_access_scores:capacity",
             "duplicates": 13348,
-            "type": "string",
-            "missing": 13349,
-            "table": {
-              "1": 0
-            }
+            "type": "unknown",
+            "missing": 13349
           },
           {
             "name": "2year_colleges_access_scores:2sfca30_capacity",
@@ -3990,20 +3897,14 @@
           {
             "name": "trade_schools_access_scores:capacity",
             "duplicates": 13348,
-            "type": "string",
-            "missing": 13349,
-            "table": {
-              "1": 0
-            }
+            "type": "unknown",
+            "missing": 13349
           },
           {
             "name": "trade_schools_access_scores:3sfca_tot_enrol",
             "duplicates": 13348,
-            "type": "string",
-            "missing": 13349,
-            "table": {
-              "1": 0
-            }
+            "type": "unknown",
+            "missing": 13349
           },
           {
             "name": "trade_schools_access_scores:norm_2sefca",
@@ -4033,29 +3934,20 @@
                 }
               ]
             },
-            "type": "string",
-            "missing": 13349,
-            "table": {
-              "1": 0
-            }
+            "type": "unknown",
+            "missing": 13349
           },
           {
             "name": "trade_schools_access_scores:2sefca30_tot_enrol",
             "duplicates": 13348,
-            "type": "string",
-            "missing": 13349,
-            "table": {
-              "1": 0
-            }
+            "type": "unknown",
+            "missing": 13349
           },
           {
             "name": "trade_schools_access_scores:perc_2sefca",
             "duplicates": 13348,
-            "type": "string",
-            "missing": 13349,
-            "table": {
-              "1": 0
-            }
+            "type": "unknown",
+            "missing": 13349
           },
           {
             "name": "daycare_services_access_scores:daycare_3sfca_capacity",
@@ -4506,20 +4398,14 @@
           {
             "name": "pediatrics_access_scores:ped_mean10",
             "duplicates": 13348,
-            "type": "string",
-            "missing": 13349,
-            "table": {
-              "1": 0
-            }
+            "type": "unknown",
+            "missing": 13349
           },
           {
             "name": "pediatrics_access_scores:ped_median10",
             "duplicates": 13348,
-            "type": "string",
-            "missing": 13349,
-            "table": {
-              "1": 0
-            }
+            "type": "unknown",
+            "missing": 13349
           },
           {
             "name": "primary_care_access_scores:prim_fca",

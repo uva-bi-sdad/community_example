@@ -1090,11 +1090,8 @@ const site = {
                   }
                 ]
               },
-              "type": "string",
-              "missing": 938,
-              "table": {
-                "1": 0
-              }
+              "type": "unknown",
+              "missing": 938
             },
             {
               "name": "drive_times_nearest_2year_colleges:median_drive_time_top5",
@@ -1405,11 +1402,8 @@ const site = {
                   }
                 ]
               },
-              "type": "string",
-              "missing": 938,
-              "table": {
-                "1": 0
-              }
+              "type": "unknown",
+              "missing": 938
             },
             {
               "name": "drive_times_nearest_trade_schools:median_drive_time_top5",
@@ -2112,11 +2106,8 @@ const site = {
                   }
                 ]
               },
-              "type": "string",
-              "missing": 13349,
-              "table": {
-                "1": 0
-              }
+              "type": "unknown",
+              "missing": 13349
             },
             {
               "name": "drive_times_nearest_2year_colleges:median_drive_time_top5",
@@ -2169,11 +2160,8 @@ const site = {
                   }
                 ]
               },
-              "type": "string",
-              "missing": 13349,
-              "table": {
-                "1": 0
-              }
+              "type": "unknown",
+              "missing": 13349
             },
             {
               "name": "daycare_services_access_scores:daycare_norm_3sfca",
@@ -2426,11 +2414,8 @@ const site = {
                   }
                 ]
               },
-              "type": "string",
-              "missing": 13349,
-              "table": {
-                "1": 0
-              }
+              "type": "unknown",
+              "missing": 13349
             },
             {
               "name": "drive_times_nearest_trade_schools:median_drive_time_top5",
@@ -2822,11 +2807,8 @@ const site = {
                   }
                 ]
               },
-              "type": "string",
-              "missing": 13349,
-              "table": {
-                "1": 0
-              }
+              "type": "unknown",
+              "missing": 13349
             },
             {
               "name": "primary_care_access_scores:prim_e2sfca",
@@ -3211,7 +3193,7 @@ const site = {
       "subto": {},
       "variable_info": false
     },
-    "info10": {
+    "info11": {
       "title": "features.name",
       "body": [],
       "default": {
@@ -3222,7 +3204,7 @@ const site = {
       "subto": ["map0", "plot0"],
       "variable_info": false
     },
-    "info11": {
+    "info12": {
       "title": "",
       "body": [
         {
@@ -3337,7 +3319,7 @@ const site = {
     }
   },
   "tables": {
-    "table15": {
+    "table17": {
       "scrollY": 400,
       "rowGroup": {
         "dataSrc": "features.name"
@@ -3359,7 +3341,7 @@ const site = {
       "scrollX": 500,
       "scrollCollapse": true
     },
-    "table17": {
+    "table19": {
       "info": false,
       "searching": false,
       "variables": "selected_variable",
@@ -3372,7 +3354,7 @@ const site = {
     }
   },
   "plots": {
-    "plot0": {
+    "plot16": {
       "layout": {
         "showlegend": false,
         "xaxis": {
@@ -3421,19 +3403,30 @@ const site = {
     }
   },
   "maps": {
-    "map0": {
-      "shapes": {
-        "district": "https://uva-bi-sdad.github.io/community/dist/shapes/VA/district.geojson",
-        "county": "https://uva-bi-sdad.github.io/community/dist/shapes/VA/county.geojson",
-        "tract": "https://uva-bi-sdad.github.io/community/dist/shapes/VA/tract.geojson"
-      },
+    "map9": {
+      "shapes": [
+        {
+          "name": "district",
+          "url": "https://uva-bi-sdad.github.io/community/dist/shapes/VA/district.geojson",
+          "id_property": "id"
+        },
+        {
+          "name": "county",
+          "url": "https://uva-bi-sdad.github.io/community/dist/shapes/VA/county.geojson",
+          "id_property": "id"
+        },
+        {
+          "name": "tract",
+          "url": "https://uva-bi-sdad.github.io/community/dist/shapes/VA/tract.geojson",
+          "id_property": "id"
+        }
+      ],
       "options": {
         "attributionControl": false,
         "scrollWheelZoom": false,
         "center": [38, -79.5],
         "zoom": 7,
         "height": "430px",
-        "legend": true,
         "subto": [
           "plot0"
         ]

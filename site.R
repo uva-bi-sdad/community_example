@@ -181,48 +181,43 @@ page_section(
     type = "row",
     wraps = "col",
     sizes = c(NA, 4),
-    {
-      ## add a map
-      shape_names <- c("district", "county", "tract")
-      shapes <- structure(paste0(
-        "https://uva-bi-sdad.github.io/community/dist/shapes/VA/",
-        shape_names,
-        ".geojson"
-      ), names = shape_names)
-      output_map(
-        shapes,
-        dataview = "primary_view",
-        click = "region_select",
-        subto = "plot0",
-        options = list(
-          attributionControl = FALSE,
-          scrollWheelZoom = FALSE,
-          center = c(38, -79.5),
-          zoom = 7,
-          height = "430px"
+    output_map(
+      lapply(c("district", "county", "tract"), function(s) list(
+        name = s,
+        url = paste0("https://uva-bi-sdad.github.io/community/dist/shapes/VA/", s, ".geojson"),
+        id_property = "id"
+      )),
+      dataview = "primary_view",
+      click = "region_select",
+      subto = "plot0",
+      options = list(
+        attributionControl = FALSE,
+        scrollWheelZoom = FALSE,
+        center = c(38, -79.5),
+        zoom = 7,
+        height = "430px"
+      ),
+      tiles = list(
+        light = list(url = "https://stamen-tiles-{s}.a.ssl.fastly.net/toner-lite/{z}/{x}/{y}{r}.png"),
+        dark = list(url = "https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png")
+      ),
+      attribution = list(
+        list(
+          name = "Stamen toner-light",
+          url = "https://stamen.com",
+          description = "Light-theme map tiles by Stamen Design"
         ),
-        tiles = list(
-          light = list(url = "https://stamen-tiles-{s}.a.ssl.fastly.net/toner-lite/{z}/{x}/{y}{r}.png"),
-          dark = list(url = "https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png")
+        list(
+          name = "CARTO Dark Matter",
+          url = "https://carto.com/attributions",
+          description = "Dark-theme map tiles by CARTO"
         ),
-        attribution = list(
-          list(
-            name = "Stamen toner-light",
-            url = "https://stamen.com",
-            description = "Light-theme map tiles by Stamen Design"
-          ),
-          list(
-            name = "CARTO Dark Matter",
-            url = "https://carto.com/attributions",
-            description = "Dark-theme map tiles by CARTO"
-          ),
-          list(
-            name = "OpenStreetMap",
-            url = "https://www.openstreetmap.org/copyright"
-          )
+        list(
+          name = "OpenStreetMap",
+          url = "https://www.openstreetmap.org/copyright"
         )
       )
-    },
+    ),
     page_section(
       type = "d-flex flex-column col align-items-end compact",
       ## use `output_info` to display information about selected and hovered-over entities
@@ -282,16 +277,18 @@ page_section(
       ),
       list(
         name = "Data",
-        output_table(dataview = "primary_view", filters = list(category = "variable_type"), options = list(
-          scrollY = 400,
-          rowGroup = list(dataSrc = "features.name"),
-          columnDefs = list(list(targets = "features.name", visible = FALSE)),
-          buttons = c('copy', 'csv', 'excel', 'print'),
-          dom = "<'row't><'row'<'col'B><'col'f>>"
-        ))
+        output_table(dataview = "primary_view", wide = FALSE, filters = list(category = "variable_type"),
+          options = list(
+            scrollY = 400,
+            rowGroup = list(dataSrc = "features.name"),
+            columnDefs = list(list(targets = "features.name", visible = FALSE)),
+            buttons = c('copy', 'csv', 'excel', 'print'),
+            dom = "<'row't><'row'<'col'B><'col'f>>"
+          )
+        )
       )
     ),
-    output_table("selected_variable", dataview = "primary_view", wide = TRUE, options = list(
+    output_table("selected_variable", dataview = "primary_view", options = list(
       info = FALSE,
       searching = FALSE
     ))

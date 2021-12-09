@@ -189,7 +189,8 @@ page_section(
       )),
       dataview = "primary_view",
       click = "region_select",
-      subto = "plot0",
+      id = "main_map",
+      subto = "main_plot",
       options = list(
         attributionControl = FALSE,
         scrollWheelZoom = FALSE,
@@ -233,7 +234,7 @@ page_section(
           title = "features.name",
           default = c(title = "Virginia", body = "Hover over or select a region for more information."),
           dataview = "primary_view",
-          subto = c("map0", "plot0")
+          subto = c("main_map", "main_plot")
         ),
         output_info(
           body = c(
@@ -243,7 +244,7 @@ page_section(
           ),
           row_style = c("table", "stack"),
           dataview = "primary_view",
-          subto = c("map0", "plot0"),
+          subto = c("main_map", "main_plot"),
           variable_info = FALSE
         )
       ),
@@ -260,7 +261,7 @@ page_section(
         name = "Plot",
         output_plot(
           x = "time", y = "selected_variable", dataview = "primary_view",
-          click = "region_select", subto = "map0",
+          click = "region_select", subto = "main_map", id = "main_plot",
           options = list(
             layout = list(
               showlegend = FALSE,
@@ -277,7 +278,9 @@ page_section(
       ),
       list(
         name = "Data",
-        output_table(dataview = "primary_view", wide = FALSE, filters = list(category = "variable_type"),
+        output_table(
+          dataview = "primary_view", wide = FALSE, filters = list(category = "variable_type"),
+          features = c(ID = "id", Name = "name", Type = "type"),
           options = list(
             scrollY = 400,
             rowGroup = list(dataSrc = "features.name"),

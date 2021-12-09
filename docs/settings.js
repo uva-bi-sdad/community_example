@@ -3201,7 +3201,7 @@ const site = {
         "body": "Hover over or select a region for more information."
       },
       "dataview": "primary_view",
-      "subto": ["map0", "plot0"],
+      "subto": ["main_map", "main_plot"],
       "variable_info": false
     },
     "info12": {
@@ -3225,7 +3225,7 @@ const site = {
       ],
       "default": [],
       "dataview": "primary_view",
-      "subto": ["map0", "plot0"],
+      "subto": ["main_map", "main_plot"],
       "variable_info": false
     }
   },
@@ -3332,11 +3332,25 @@ const site = {
       ],
       "buttons": ["copy", "csv", "excel", "print"],
       "dom": "<'row't><'row'<'col'B><'col'f>>",
+      "features": [
+        {
+          "name": "id",
+          "title": "ID"
+        },
+        {
+          "name": "name",
+          "title": "Name"
+        },
+        {
+          "name": "type",
+          "title": "Type"
+        }
+      ],
       "filters": {
         "category": "variable_type"
       },
-      "wide": false,
       "single_variable": false,
+      "wide": false,
       "paging": false,
       "scrollX": 500,
       "scrollCollapse": true
@@ -3345,8 +3359,8 @@ const site = {
       "info": false,
       "searching": false,
       "variables": "selected_variable",
-      "wide": true,
       "single_variable": true,
+      "wide": true,
       "paging": false,
       "scrollY": 500,
       "scrollX": 500,
@@ -3354,7 +3368,7 @@ const site = {
     }
   },
   "plots": {
-    "plot16": {
+    "main_plot": {
       "layout": {
         "showlegend": false,
         "xaxis": {
@@ -3398,12 +3412,12 @@ const site = {
         }
       ],
       "subto": [
-        "map0"
+        "main_map"
       ]
     }
   },
   "maps": {
-    "map9": {
+    "main_map": {
       "shapes": [
         {
           "name": "district",
@@ -3428,7 +3442,7 @@ const site = {
         "zoom": 7,
         "height": "430px",
         "subto": [
-          "plot0"
+          "main_plot"
         ]
       },
       "tiles": {

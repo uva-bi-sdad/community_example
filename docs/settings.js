@@ -3138,7 +3138,7 @@ const site = {
   ],
   "dataviews": {
     "primary_view": {
-      "palette": "settings.palette",
+      "palette": "",
       "y": "selected_variable",
       "x": "selected_year",
       "time_agg": "selected_year",
@@ -3189,8 +3189,8 @@ const site = {
         }
       ],
       "default": [],
+      "floating": false,
       "dataview": "primary_view",
-      "subto": {},
       "variable_info": false
     },
     "info11": {
@@ -3200,6 +3200,7 @@ const site = {
         "title": "Virginia",
         "body": "Hover over or select a region for more information."
       },
+      "floating": false,
       "dataview": "primary_view",
       "subto": ["main_map", "main_plot"],
       "variable_info": false
@@ -3224,6 +3225,7 @@ const site = {
         }
       ],
       "default": [],
+      "floating": false,
       "dataview": "primary_view",
       "subto": ["main_map", "main_plot"],
       "variable_info": false
@@ -3453,7 +3455,8 @@ const site = {
           "url": "https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png"
         }
       }
-    }
+    },
+    "_raw": []
   },
   "credits": {
     "bootstrap": {

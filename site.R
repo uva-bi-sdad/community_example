@@ -6,13 +6,13 @@ library(community)
 page_head(
   title = "Virginia Department of Health Dashboard",
   description = "Example of a dashboard made with the community package.",
-  icon = "https://www.vdh.virginia.gov/content/themes/vdh-shared/assets/images/icon.png"
+  icon = "icon.svg"
 )
 
 ## `page_header` adds to the top bar (navbar) of the page
 page_navbar(
   "Virginia Department of Health",
-  "https://www.developer.virginia.gov/media/developer/resources/brand/banner/latest/cardinal.svg",
+  "icon.svg",
   input_button("Reset", "reset_selection", "reset.selection", class = "btn-link"),
   list(
     name = "Settings",
@@ -159,8 +159,7 @@ input_dataview(
       type = "<=",
       value = "max_year"
     )
-  ),
-  palette = "settings.palette"
+  )
 )
 
 # use `page_section` to build the page's layout
@@ -299,4 +298,4 @@ page_section(
 )
 
 # render the site
-site_build('../community_example', variables = c('ID', names(vars)))
+site_build('../community_example', variables = c('ID', names(vars)), bundle_data = TRUE)

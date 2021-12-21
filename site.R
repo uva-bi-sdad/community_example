@@ -11,8 +11,8 @@ page_head(
 
 ## `page_header` adds to the top bar (navbar) of the page
 page_navbar(
-  "Virginia Department of Health",
-  "icon.svg",
+  title = "Virginia Department of Health",
+  logo = "icon.svg",
   input_button("Reset", "reset_selection", "reset.selection", class = "btn-link"),
   list(
     name = "Settings",
@@ -44,6 +44,8 @@ page_navbar(
       ),
       input_number("Variable Min", "variable_min", min = -Inf, max = Inf, step = .0001, floating_label = FALSE),
       input_number("Variable Max", "variable_max", min = -Inf, max = Inf, step = .0001, floating_label = FALSE),
+      '<p class="section-heading">Map Options</p>',
+      input_switch("Show Background Shapes", id = "settings.background_shapes"),
       '<p class="section-heading">Plot Options</p>',
       input_select("Plot Type", c("scatter", "bar"), "scatter", id = "plot_type", floating_label = FALSE),
       input_switch("Box Plots", default_on = TRUE, id = "settings.boxplots"),
@@ -197,6 +199,7 @@ page_section(
         zoom = 7,
         height = "430px"
       ),
+      background_shapes = "county",
       tiles = list(
         light = list(url = "https://stamen-tiles-{s}.a.ssl.fastly.net/toner-lite/{z}/{x}/{y}{r}.png"),
         dark = list(url = "https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png")
@@ -285,7 +288,7 @@ page_section(
             rowGroup = list(dataSrc = "features.name"),
             columnDefs = list(list(targets = "features.name", visible = FALSE)),
             buttons = c('copy', 'csv', 'excel', 'print'),
-            dom = "<'row't><'row'<'col'B><'col'f>>"
+            dom = "<'row't><'row'<'col-sm'B><'col'f>>"
           )
         )
       )
@@ -298,4 +301,4 @@ page_section(
 )
 
 # render the site
-site_build('../community_example', variables = c('ID', names(vars)), bundle_data = TRUE)
+site_build('../community_example', variables = c('ID', names(vars)))

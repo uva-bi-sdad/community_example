@@ -27,7 +27,7 @@
 <nav class="navbar navbar-dark navbar-expand-md">
 <div class="container-fluid">
 <span class="navbar-brand"><img alt="site logo" src="icon.svg">
-Virginia Department of Health
+<span>Virginia Department of Health</span>
 </span>
 <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar_menu" aria-controls="narbar_menu" aria-expanded="false" aria-lable="toggle navbar menu">
 <span class="navbar-toggler-icon"></span>
@@ -90,6 +90,13 @@ Virginia Department of Health
 <div class="wrapper text-wrapper">
 <label for="variable_max">Variable Max</label>
 <input type="number" id="variable_max" min="-Inf" max="Inf" step="1e-04" class="form-control auto-input" auto-type="number">
+</div>
+<p class="section-heading">Map Options</p>
+<div class="wrapper switch-wrapper">
+<div class="form-check form-switch">
+<label class="form-check-label" for="settings.background_shapes">Show Background Shapes</label>
+<input auto-type="switch" type="checkbox" autocomplete="off" class="auto-input form-check-input" role="switch" id="settings.background_shapes">
+</div>
 </div>
 <p class="section-heading">Plot Options</p>
 <div class="wrapper select-wrapper">

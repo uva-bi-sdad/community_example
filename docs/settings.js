@@ -3333,7 +3333,7 @@ const site = {
         }
       ],
       "buttons": ["copy", "csv", "excel", "print"],
-      "dom": "<'row't><'row'<'col'B><'col'f>>",
+      "dom": "<'row't><'row'<'col-sm'B><'col'f>>",
       "features": [
         {
           "name": "id",
@@ -3445,7 +3445,8 @@ const site = {
         "height": "430px",
         "subto": [
           "main_plot"
-        ]
+        ],
+        "background_shapes": "county"
       },
       "tiles": {
         "light": {
@@ -3507,6 +3508,7 @@ const site = {
     "theme_dark": false,
     "partial_init": false,
     "palette": "rdylbu7",
-    "hide_url_parameters": false
+    "hide_url_parameters": false,
+    "background_shapes": true
   }
 }

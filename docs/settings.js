@@ -4,16 +4,16 @@ const site = {
   "metadata": {
     "package": "data/datapackage.json",
     "datasets": ["district", "county", "tract"],
-    "variables": ["ID", "2year_colleges_access_scores:norm_2sefca", "drive_times_nearest_2year_colleges:median_drive_time_top5", "3rd_grade_median_read_score:median_read_pass_rate", "daycare_services_access_scores:daycare_norm_3sfca", "daycare_services_access_scores:daycare_cnt", "drive_times_nearest_daycares:median_drive_time_top5", "dei_index:norm_dei", "dentist_access_scores:dent_e2sfca", "dentist_access_scores:dent_cnt", "download_speeds:download", "trade_schools_access_scores:norm_2sefca", "drive_times_nearest_trade_schools:median_drive_time_top5", "have_computer:perc_have_computer", "have_internet:perc_have_internet_access", "health_literacy_estimates:health_literacy_estimate", "no_health_insurance_19_to_64:no_hlth_ins_pct", "obgyn_access_scores:obgyn_e2sfca", "obgyn_access_scores:obgyn_cnt", "pct_pop_broadband:perc_w_broadband", "pct_pop_cable_fiber_dsl:perc_w_cable_fiber_DSL", "pediatrics_access_scores:ped_e2sfca", "pediatrics_access_scores:ped_cnt", "post_hs_education:perc_post_hs_edu", "preventable_hospitalizations:prevent_hosp_rate", "primary_care_access_scores:prim_e2sfca", "primary_care_access_scores:prim_cnt", "time"],
+    "variables": ["2year_colleges_access_scores:norm_2sefca", "drive_times_nearest_2year_colleges:median_drive_time_top5", "3rd_grade_median_read_score:median_read_pass_rate", "daycare_services_access_scores:daycare_norm_3sfca", "daycare_services_access_scores:daycare_cnt", "drive_times_nearest_daycares:median_drive_time_top5", "dei_index:norm_dei", "dentist_access_scores:dent_e2sfca", "dentist_access_scores:dent_cnt", "download_speeds:download", "ems_access_scores:ems_3sfca", "ems_access_scores:ems_cnt", "ems_access_scores:ems_10near_median", "trade_schools_access_scores:norm_2sefca", "drive_times_nearest_trade_schools:median_drive_time_top5", "have_computer:perc_have_computer", "have_internet:perc_have_internet_access", "health_literacy_estimates:health_literacy_estimate", "no_health_insurance_19_to_64:no_hlth_ins_pct", "mental_access_scores:mental_3sfca", "mental_access_scores:mental_cnt", "mental_access_scores:mental_10near_median", "obgyn_access_scores:obgyn_e2sfca", "obgyn_access_scores:obgyn_cnt", "pct_pop_broadband:perc_w_broadband", "pct_pop_cable_fiber_dsl:perc_w_cable_fiber_DSL", "pediatrics_access_scores:ped_e2sfca", "pediatrics_access_scores:ped_cnt", "post_hs_education:perc_post_hs_edu", "preventable_hospitalizations:prevent_hosp_rate", "primary_care_access_scores:prim_e2sfca", "primary_care_access_scores:prim_cnt", "time"],
     "info": {
-      "district": {
-        "bytes": 98182,
+      "tract": {
+        "bytes": 7179346,
         "encoding": "ISO-8859-1",
-        "md5": "513c7645cb3a6603649f9ced26008f60",
-        "sha512": "EBeMVLdVMWVhxXWsBNRTL5DpsQm43LOMw5AWrCtnsbDTsaPSvRwZWT/KEw7lLdy3AtiiXMgDZyYdNzZYQQsAOg==",
+        "md5": "2361eda9f247f0479eaa9a67b35311fd",
+        "sha512": "pNGbrvn2h5PvaVH/DNeJxHmwr46ODFmhIbGSZC6Og+dwYJNyr9NgiUoBjmozykL518bEd4xSwUTWrJzwZLDUDA==",
         "format": "csv",
-        "name": "district",
-        "filename": "health_district.csv",
+        "name": "tract",
+        "filename": "tract.csv",
         "source": [],
         "ids": [
           {
@@ -23,24 +23,14 @@ const site = {
         ],
         "time": "time",
         "profile": "data-resource",
-        "created": "2021-11-29 21:36:30",
+        "created": "2022-01-04 10:48:38",
         "last_modified": "2021-11-29 21:36:30",
-        "rowcount": 245,
+        "rowcount": 13349,
         "schema": {
           "fields": [
             {
-              "name": "ID",
-              "duplicates": 210,
-              "type": "integer",
-              "missing": 0,
-              "mean": 18,
-              "sd": 10.1202,
-              "min": 1,
-              "max": 35
-            },
-            {
               "name": "2year_colleges_access_scores:norm_2sefca",
-              "duplicates": 220,
+              "duplicates": 13348,
               "info": {
                 "category": "Education",
                 "measure_table": "dc_education_training.va_hdcttr_sdad_2019_2year_colleges_access_scores",
@@ -66,16 +56,12 @@ const site = {
                   }
                 ]
               },
-              "type": "float",
-              "missing": 210,
-              "mean": 18.0222,
-              "sd": 22.6205,
-              "min": 0,
-              "max": 100
+              "type": "unknown",
+              "missing": 13349
             },
             {
               "name": "drive_times_nearest_2year_colleges:median_drive_time_top5",
-              "duplicates": 209,
+              "duplicates": 12586,
               "info": {
                 "category": "Education",
                 "measure_table": "dc_education_training.va_hdcttr_osrm_2021_drive_times_nearest_2year_colleges",
@@ -96,15 +82,15 @@ const site = {
                 ]
               },
               "type": "float",
-              "missing": 210,
-              "mean": 52.2886,
-              "sd": 32.3618,
-              "min": 9,
-              "max": 122.8
+              "missing": 11450,
+              "mean": 40.1988,
+              "sd": 26.679,
+              "min": 4.2,
+              "max": 177.8
             },
             {
               "name": "3rd_grade_median_read_score:median_read_pass_rate",
-              "duplicates": 210,
+              "duplicates": 13348,
               "info": {
                 "category": "Education",
                 "measure_table": "dc_education_training.va_hdct_vdoe_2019_2021_3rd_grade_median_read_score",
@@ -124,16 +110,12 @@ const site = {
                   }
                 ]
               },
-              "type": "float",
-              "missing": 175,
-              "mean": 11.1071,
-              "sd": 5.3003,
-              "min": 0,
-              "max": 28
+              "type": "unknown",
+              "missing": 13349
             },
             {
               "name": "daycare_services_access_scores:daycare_norm_3sfca",
-              "duplicates": 209,
+              "duplicates": 11449,
               "info": {
                 "category": "Education",
                 "measure_table": "dc_education_training.va_hdcttr_sdad_2021_daycare_services_access_scores",
@@ -160,15 +142,15 @@ const site = {
                 ]
               },
               "type": "float",
-              "missing": 210,
-              "mean": 40.3427,
-              "sd": 22.6432,
+              "missing": 11449,
+              "mean": 52.4187,
+              "sd": 17.5006,
               "min": 0,
               "max": 100
             },
             {
               "name": "daycare_services_access_scores:daycare_cnt",
-              "duplicates": 209,
+              "duplicates": 12781,
               "info": {
                 "category": "Education",
                 "measure_table": "dc_education_training.va_hdcttr_sdad_2021_daycare_services_access_scores",
@@ -189,15 +171,15 @@ const site = {
                 ]
               },
               "type": "integer",
-              "missing": 210,
-              "mean": 10654.4,
-              "sd": 12153.9074,
-              "min": 1027,
-              "max": 67563
+              "missing": 11442,
+              "mean": 195.5448,
+              "sd": 235.0988,
+              "min": 0,
+              "max": 2273
             },
             {
               "name": "drive_times_nearest_daycares:median_drive_time_top5",
-              "duplicates": 212,
+              "duplicates": 12974,
               "info": {
                 "category": "Education",
                 "measure_table": "dc_education_training.va_hdcttr_osrm_2021_drive_times_nearest_daycares",
@@ -218,15 +200,15 @@ const site = {
                 ]
               },
               "type": "float",
-              "missing": 210,
-              "mean": 13.28,
-              "sd": 12.5682,
-              "min": 1.8,
-              "max": 62.1
+              "missing": 11450,
+              "mean": 7.83,
+              "sd": 8.0243,
+              "min": 0.5,
+              "max": 71.7
             },
             {
               "name": "dei_index:norm_dei",
-              "duplicates": 143,
+              "duplicates": 7748,
               "info": {
                 "category": "Broadband",
                 "measure_table": "dc_digital_communications.va_hdcttr_sdad_2019_2021_dei_index",
@@ -255,15 +237,15 @@ const site = {
                 ]
               },
               "type": "float",
-              "missing": 140,
-              "mean": 51.4114,
-              "sd": 27.409,
+              "missing": 7745,
+              "mean": 70.9817,
+              "sd": 16.8324,
               "min": 0,
               "max": 100
             },
             {
               "name": "dentist_access_scores:dent_e2sfca",
-              "duplicates": 209,
+              "duplicates": 11579,
               "info": {
                 "category": "Health",
                 "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_dentist_access_scores",
@@ -290,15 +272,15 @@ const site = {
                 ]
               },
               "type": "float",
-              "missing": 210,
-              "mean": 0.0003,
-              "sd": 0.0001,
-              "min": 0.0001,
-              "max": 0.0007
+              "missing": 11450,
+              "mean": 0.0004,
+              "sd": 0.0002,
+              "min": 0,
+              "max": 0.0011
             },
             {
               "name": "dentist_access_scores:dent_cnt",
-              "duplicates": 211,
+              "duplicates": 13316,
               "info": {
                 "category": "Health",
                 "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_dentist_access_scores",
@@ -319,15 +301,15 @@ const site = {
                 ]
               },
               "type": "integer",
-              "missing": 210,
-              "mean": 122.8857,
-              "sd": 170.4947,
-              "min": 15,
-              "max": 1000
+              "missing": 12384,
+              "mean": 4.457,
+              "sd": 4.9641,
+              "min": 1,
+              "max": 39
             },
             {
               "name": "download_speeds:download",
-              "duplicates": 139,
+              "duplicates": 7675,
               "info": {
                 "category": "Broadband",
                 "measure_table": "dc_digital_communications.va_hdcttr_ookla_2019_2021_download_speeds",
@@ -348,15 +330,108 @@ const site = {
                 ]
               },
               "type": "float",
-              "missing": 140,
-              "mean": 126.4226,
-              "sd": 38.9209,
-              "min": 27.5995,
-              "max": 208.2953
+              "missing": 7676,
+              "mean": 137.4078,
+              "sd": 49.3387,
+              "min": 5.4356,
+              "max": 347.9637
+            },
+            {
+              "name": "ems_access_scores:ems_3sfca",
+              "duplicates": 11456,
+              "info": {
+                "category": "Health",
+                "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_ems_access_scores",
+                "full_name": "ems_access_scores:ems_3sfca",
+                "measure": "ems_3sfca",
+                "type": "index",
+                "short_name": "Emergency medical services access score",
+                "long_name": "Emergency medical services access score (3-step floating catchment areas)",
+                "short_description": "Index of emergency medical services accessibility based on supply and demand of facilities",
+                "long_description": "Emergency medical services access score based on 3-step floating catchment areas. This method is an aggregation of facilities per population ratios weighted by distance or travel time in each catchment area (area within which a facility is accessible). Weights are defined for the demand for facilities (adult population).",
+                "statement": "The emergency medical services accessibility score for {features.name} is  {value}",
+                "citations": [
+                  "lou04",
+                  "lou09",
+                  "lou03",
+                  "saxon20"
+                ],
+                "source": [
+                  {
+                    "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
+                    "date_accessed": 2021,
+                    "url": "https://hifld-geoplatform.opendata.arcgis.com/"
+                  }
+                ]
+              },
+              "type": "float",
+              "missing": 11450,
+              "mean": 0.0001,
+              "sd": 0.0001,
+              "min": 0,
+              "max": 0.0014
+            },
+            {
+              "name": "ems_access_scores:ems_cnt",
+              "duplicates": 13342,
+              "info": {
+                "category": "Health",
+                "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_ems_access_scores",
+                "full_name": "ems_access_scores:ems_cnt",
+                "measure": "ems_cnt",
+                "type": "count",
+                "short_name": "Emergency medical services access (count)",
+                "long_name": "Access to emergency medical services by count",
+                "short_description": "Count of emergency medical services facilities based on facility locations",
+                "long_description": "Count of emergency medical services facilities based on facility locations. Location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository.",
+                "statement": "There are {value} emergency medical services facilities in {features.name}",
+                "source": [
+                  {
+                    "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
+                    "date_accessed": 2021,
+                    "url": "https://hifld-geoplatform.opendata.arcgis.com/"
+                  }
+                ]
+              },
+              "type": "integer",
+              "missing": 12580,
+              "mean": 1.4538,
+              "sd": 0.7927,
+              "min": 1,
+              "max": 6
+            },
+            {
+              "name": "ems_access_scores:ems_10near_median",
+              "duplicates": 12812,
+              "info": {
+                "category": "Health",
+                "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_ems_access_scores",
+                "full_name": "ems_access_scores:ems_10near_median",
+                "measure": "ems_10near_median",
+                "type": "float",
+                "short_name": "Emergency medical services access (drive time)",
+                "long_name": "Emergency medical services access by median drive time to the ten closest facilities in minutes",
+                "short_description": "Median drive time (minutes) to the ten closest emergency medical services facilities",
+                "long_description": "Median drive time in minutes to the ten closest emergency medical services facilities. Facility location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository. Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
+                "statement": "The median drive time to the ten closest emergency medical service facilities to {features.name} is {value} minutes",
+                "source": [
+                  {
+                    "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
+                    "date_accessed": 2021,
+                    "url": "https://hifld-geoplatform.opendata.arcgis.com/"
+                  }
+                ]
+              },
+              "type": "float",
+              "missing": 11451,
+              "mean": 14.8955,
+              "sd": 8.248,
+              "min": 3.7,
+              "max": 60.75
             },
             {
               "name": "trade_schools_access_scores:norm_2sefca",
-              "duplicates": 227,
+              "duplicates": 13348,
               "info": {
                 "category": "Education",
                 "measure_table": "dc_education_training.va_hdcttr_sdad_2019_trade_schools_access_scores",
@@ -382,16 +457,12 @@ const site = {
                   }
                 ]
               },
-              "type": "float",
-              "missing": 210,
-              "mean": 19.6666,
-              "sd": 28.2957,
-              "min": 0,
-              "max": 100
+              "type": "unknown",
+              "missing": 13349
             },
             {
               "name": "drive_times_nearest_trade_schools:median_drive_time_top5",
-              "duplicates": 209,
+              "duplicates": 12399,
               "info": {
                 "category": "Education",
                 "measure_table": "dc_education_training.va_hdcttr_osrm_2021_drive_times_nearest_trade_schools",
@@ -412,15 +483,15 @@ const site = {
                 ]
               },
               "type": "float",
-              "missing": 210,
-              "mean": 83.0486,
-              "sd": 70.8312,
-              "min": 14,
-              "max": 300.9
+              "missing": 11450,
+              "mean": 61.2898,
+              "sd": 61.2115,
+              "min": 4.8,
+              "max": 343.6
             },
             {
               "name": "have_computer:perc_have_computer",
-              "duplicates": 209,
+              "duplicates": 11574,
               "info": {
                 "category": "Broadband",
                 "measure_table": "dc_digital_communications.va_hdcttr_acs5_2019_have_computer",
@@ -441,15 +512,15 @@ const site = {
                 ]
               },
               "type": "float",
-              "missing": 210,
-              "mean": 88.3058,
-              "sd": 6.6137,
-              "min": 71.9306,
-              "max": 97.4945
+              "missing": 11458,
+              "mean": 90.6652,
+              "sd": 8.3038,
+              "min": 0,
+              "max": 100
             },
             {
               "name": "have_internet:perc_have_internet_access",
-              "duplicates": 209,
+              "duplicates": 11543,
               "info": {
                 "category": "Broadband",
                 "measure_table": "dc_digital_communications.va_hdcttr_acs5_2019_have_internet",
@@ -470,15 +541,15 @@ const site = {
                 ]
               },
               "type": "float",
-              "missing": 210,
-              "mean": 83.4686,
-              "sd": 8.2578,
-              "min": 65.2433,
-              "max": 96.4738
+              "missing": 11458,
+              "mean": 86.5308,
+              "sd": 10.8146,
+              "min": 38.5576,
+              "max": 100
             },
             {
               "name": "health_literacy_estimates:health_literacy_estimate",
-              "duplicates": 240,
+              "duplicates": 13335,
               "info": {
                 "category": "Education",
                 "measure_table": "dc_education_training.va_hdcttr_sdad_2019_health_literacy_estimates",
@@ -507,15 +578,15 @@ const site = {
                 ]
               },
               "type": "float",
-              "missing": 210,
-              "mean": 0.1767,
-              "sd": 0.207,
-              "min": -0.995,
-              "max": 0.2193
+              "missing": 11442,
+              "mean": 0.4329,
+              "sd": 0.8731,
+              "min": -2.995,
+              "max": 3.005
             },
             {
               "name": "no_health_insurance_19_to_64:no_hlth_ins_pct",
-              "duplicates": 77,
+              "duplicates": 11872,
               "info": {
                 "category": "Health",
                 "measure_table": "dc_health_behavior_diet.va_hdcttr_acs5_2015_2019_no_health_insurance_19_to_64",
@@ -536,15 +607,108 @@ const site = {
                 ]
               },
               "type": "float",
-              "missing": 70,
-              "mean": 2.3091,
-              "sd": 2.4521,
-              "min": 0.2,
-              "max": 15.4533
+              "missing": 3979,
+              "mean": 2.7716,
+              "sd": 5.3258,
+              "min": 0,
+              "max": 66.75
+            },
+            {
+              "name": "mental_access_scores:mental_3sfca",
+              "duplicates": 11704,
+              "info": {
+                "category": "Health",
+                "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_mental_access_scores",
+                "full_name": "mental_access_scores:mental_3sfca",
+                "measure": "mental_3sfca",
+                "type": "index",
+                "short_name": "Mental health services access score",
+                "long_name": "Mental health services access score (3-step  floating catchment areas)",
+                "short_description": "Index of mental health services accessibility based on supply and demand of facilities",
+                "long_description": "Mental health services access score based on 3-step floating catchment areas. This method is an aggregation of facilities per population ratios weighted by distance or travel time in each catchment area (area within which a facility is accessible). Weights are defined for the demand for facilities (adult population).",
+                "statement": "The mental health services accessibility score for {features.name} is  {value}",
+                "citations": [
+                  "lou04",
+                  "lou09",
+                  "lou03",
+                  "saxon20"
+                ],
+                "source": [
+                  {
+                    "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
+                    "date_accessed": 2021,
+                    "url": "https://hifld-geoplatform.opendata.arcgis.com/"
+                  }
+                ]
+              },
+              "type": "float",
+              "missing": 11450,
+              "mean": 0,
+              "sd": 0,
+              "min": 0,
+              "max": 0.0003
+            },
+            {
+              "name": "mental_access_scores:mental_cnt",
+              "duplicates": 13344,
+              "info": {
+                "category": "Health",
+                "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_mental_access_scores",
+                "full_name": "mental_access_scores:mental_cnt",
+                "measure": "mental_cnt",
+                "type": "count",
+                "short_name": "Mental health services access (count)",
+                "long_name": "Access to mental health services by count",
+                "short_description": "Count of mental health facilities based on facility locations",
+                "long_description": "Count of mental health facilities based on facility locations. Location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository.",
+                "statement": "There are {value} mental health facilities in {features.name}",
+                "source": [
+                  {
+                    "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
+                    "date_accessed": 2021,
+                    "url": "https://hifld-geoplatform.opendata.arcgis.com/"
+                  }
+                ]
+              },
+              "type": "integer",
+              "missing": 13150,
+              "mean": 1.1859,
+              "sd": 0.493,
+              "min": 1,
+              "max": 4
+            },
+            {
+              "name": "mental_access_scores:mental_10near_median",
+              "duplicates": 12474,
+              "info": {
+                "category": "Health",
+                "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_mental_access_scores",
+                "full_name": "mental_access_scores:mental_10near_median",
+                "measure": "mental_10near_median",
+                "type": "float",
+                "short_name": "Mental health services access (drive time)",
+                "long_name": "Mental health services access by median drive time to the ten closest facilities in minutes",
+                "short_description": "Median drive time (minutes) to the ten closest mental health services facilities",
+                "long_description": "Median drive time in minutes to the ten closest mental health services facilities. Facility location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository. Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
+                "statement": "The median drive time to the ten closest mental health service facilities to {features.name} is {value} minutes",
+                "source": [
+                  {
+                    "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
+                    "date_accessed": 2021,
+                    "url": "https://hifld-geoplatform.opendata.arcgis.com/"
+                  }
+                ]
+              },
+              "type": "float",
+              "missing": 11451,
+              "mean": 26.5859,
+              "sd": 18.8488,
+              "min": 2.8,
+              "max": 179.75
             },
             {
               "name": "obgyn_access_scores:obgyn_e2sfca",
-              "duplicates": 209,
+              "duplicates": 11795,
               "info": {
                 "category": "Health",
                 "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_obgyn_access_scores",
@@ -571,15 +735,15 @@ const site = {
                 ]
               },
               "type": "float",
-              "missing": 210,
-              "mean": 0.0006,
-              "sd": 0.0004,
+              "missing": 11450,
+              "mean": 0.0007,
+              "sd": 0.0005,
               "min": 0,
-              "max": 0.0018
+              "max": 0.0022
             },
             {
               "name": "obgyn_access_scores:obgyn_cnt",
-              "duplicates": 213,
+              "duplicates": 13305,
               "info": {
                 "category": "Health",
                 "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_obgyn_access_scores",
@@ -600,15 +764,15 @@ const site = {
                 ]
               },
               "type": "integer",
-              "missing": 210,
-              "mean": 88,
-              "sd": 106.409,
-              "min": 7,
-              "max": 611
+              "missing": 12876,
+              "mean": 6.5116,
+              "sd": 13.4527,
+              "min": 1,
+              "max": 137
             },
             {
               "name": "pct_pop_broadband:perc_w_broadband",
-              "duplicates": 139,
+              "duplicates": 7841,
               "info": {
                 "category": "Broadband",
                 "measure_table": "dc_digital_communications.va_hdcttr_acs_2017_2019_pct_pop_broadband",
@@ -629,15 +793,15 @@ const site = {
                 ]
               },
               "type": "float",
-              "missing": 140,
-              "mean": 0.7744,
-              "sd": 0.1013,
-              "min": 0.5415,
-              "max": 0.9462
+              "missing": 7729,
+              "mean": 0.8124,
+              "sd": 0.134,
+              "min": 0,
+              "max": 1
             },
             {
               "name": "pct_pop_cable_fiber_dsl:perc_w_cable_fiber_DSL",
-              "duplicates": 139,
+              "duplicates": 7817,
               "info": {
                 "category": "Broadband",
                 "measure_table": "dc_digital_communications.va_hdcttr_acs_2017_2019_pct_pop_cable_fiber_dsl",
@@ -658,15 +822,15 @@ const site = {
                 ]
               },
               "type": "float",
-              "missing": 140,
-              "mean": 0.621,
-              "sd": 0.1498,
-              "min": 0.3044,
-              "max": 0.8797
+              "missing": 7729,
+              "mean": 0.6813,
+              "sd": 0.2062,
+              "min": 0,
+              "max": 1
             },
             {
               "name": "pediatrics_access_scores:ped_e2sfca",
-              "duplicates": 209,
+              "duplicates": 11643,
               "info": {
                 "category": "Health",
                 "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_pediatrics_access_scores",
@@ -693,15 +857,15 @@ const site = {
                 ]
               },
               "type": "float",
-              "missing": 210,
-              "mean": 0.0019,
-              "sd": 0.0013,
-              "min": 0.0005,
-              "max": 0.0055
+              "missing": 11450,
+              "mean": 0.0022,
+              "sd": 0.0018,
+              "min": 0,
+              "max": 0.013
             },
             {
               "name": "pediatrics_access_scores:ped_cnt",
-              "duplicates": 211,
+              "duplicates": 13307,
               "info": {
                 "category": "Health",
                 "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_pediatrics_access_scores",
@@ -722,15 +886,15 @@ const site = {
                 ]
               },
               "type": "integer",
-              "missing": 210,
-              "mean": 112.9143,
-              "sd": 146.6692,
-              "min": 9,
-              "max": 798
+              "missing": 12755,
+              "mean": 6.6532,
+              "sd": 14.8042,
+              "min": 1,
+              "max": 189
             },
             {
               "name": "post_hs_education:perc_post_hs_edu",
-              "duplicates": 209,
+              "duplicates": 11473,
               "info": {
                 "category": "Education",
                 "measure_table": "dc_education_training.va_hdcttr_acs_2015_2019_post_hs_education",
@@ -751,15 +915,15 @@ const site = {
                 ]
               },
               "type": "float",
-              "missing": 210,
-              "mean": 0.605,
-              "sd": 0.1175,
-              "min": 0.4143,
-              "max": 0.8654
+              "missing": 11470,
+              "mean": 0.6479,
+              "sd": 0.1734,
+              "min": 0.1559,
+              "max": 1
             },
             {
               "name": "preventable_hospitalizations:prevent_hosp_rate",
-              "duplicates": 2,
+              "duplicates": 13348,
               "info": {
                 "category": "Health",
                 "measure_table": "dc_health_behavior_diet.va_hdct_chr_2015_2021_preventable_hospitalizations",
@@ -779,16 +943,12 @@ const site = {
                   }
                 ]
               },
-              "type": "float",
-              "missing": 0,
-              "mean": 4915.6413,
-              "sd": 1551.2408,
-              "min": 2106,
-              "max": 15047.25
+              "type": "unknown",
+              "missing": 13349
             },
             {
               "name": "primary_care_access_scores:prim_e2sfca",
-              "duplicates": 209,
+              "duplicates": 11477,
               "info": {
                 "category": "Health",
                 "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_primary_care_access_scores",
@@ -815,15 +975,15 @@ const site = {
                 ]
               },
               "type": "float",
-              "missing": 210,
-              "mean": 0.0023,
-              "sd": 0.0011,
-              "min": 0.0011,
-              "max": 0.0058
+              "missing": 11450,
+              "mean": 0.0024,
+              "sd": 0.0015,
+              "min": 0,
+              "max": 0.0094
             },
             {
               "name": "primary_care_access_scores:prim_cnt",
-              "duplicates": 209,
+              "duplicates": 13244,
               "info": {
                 "category": "Health",
                 "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_primary_care_access_scores",
@@ -844,15 +1004,15 @@ const site = {
                 ]
               },
               "type": "integer",
-              "missing": 210,
-              "mean": 560.4571,
-              "sd": 581.3071,
-              "min": 74,
-              "max": 3360
+              "missing": 12058,
+              "mean": 15.1944,
+              "sd": 41.2479,
+              "min": 1,
+              "max": 847
             },
             {
               "name": "time",
-              "duplicates": 238,
+              "duplicates": 13342,
               "info": {
                 "type": "year",
                 "short_name": "Year",
@@ -861,7 +1021,7 @@ const site = {
               "type": "integer",
               "missing": 0,
               "mean": 2018,
-              "sd": 2.0041,
+              "sd": 2.0001,
               "min": 2015,
               "max": 2021
             }
@@ -1028,13 +1188,13 @@ const site = {
             "doi": "10.1111/jep.13341"
           }
         },
-        "site_file": "district.json"
+        "site_file": "tract.json"
       },
       "county": {
-        "bytes": 361923,
+        "bytes": 527566,
         "encoding": "ISO-8859-1",
-        "md5": "1803b868bf2498033efc668f4464b502",
-        "sha512": "Yfw60t8U7MWbt3nO4PfS8TXiIgOY9Xha+paQhPEgzx8Rt9uFiTTsYzvPvsl/rIvcTALGJMrBZZGXrvo6i6mUcw==",
+        "md5": "3c12ff7a99fd277685ae34535442a84f",
+        "sha512": "4gAxl2nppGGSWQwk58lBnU8Z55tQYMbzsrj71hyIoe2zXqe+9IOsOgFGLjgL0I5wAQRGYKAzP7wQRiSXjgYOKw==",
         "format": "csv",
         "name": "county",
         "filename": "county.csv",
@@ -1047,21 +1207,11 @@ const site = {
         ],
         "time": "time",
         "profile": "data-resource",
-        "created": "2021-11-29 21:36:30",
+        "created": "2022-01-04 10:48:36",
         "last_modified": "2021-11-29 21:36:30",
         "rowcount": 938,
         "schema": {
           "fields": [
-            {
-              "name": "ID",
-              "duplicates": 804,
-              "type": "integer",
-              "missing": 0,
-              "mean": 51265.8657,
-              "sd": 270.8542,
-              "min": 51001,
-              "max": 51840
-            },
             {
               "name": "2year_colleges_access_scores:norm_2sefca",
               "duplicates": 937,
@@ -1375,6 +1525,95 @@ const site = {
               "max": 234.4607
             },
             {
+              "name": "ems_access_scores:ems_3sfca",
+              "duplicates": 804,
+              "info": {
+                "category": "Health",
+                "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_ems_access_scores",
+                "full_name": "ems_access_scores:ems_3sfca",
+                "measure": "ems_3sfca",
+                "type": "index",
+                "short_name": "Emergency medical services access score",
+                "long_name": "Emergency medical services access score (3-step floating catchment areas)",
+                "short_description": "Index of emergency medical services accessibility based on supply and demand of facilities",
+                "long_description": "Emergency medical services access score based on 3-step floating catchment areas. This method is an aggregation of facilities per population ratios weighted by distance or travel time in each catchment area (area within which a facility is accessible). Weights are defined for the demand for facilities (adult population).",
+                "statement": "The emergency medical services accessibility score for {features.name} is  {value}",
+                "citations": [
+                  "lou04",
+                  "lou09",
+                  "lou03",
+                  "saxon20"
+                ],
+                "source": [
+                  {
+                    "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
+                    "date_accessed": 2021,
+                    "url": "https://hifld-geoplatform.opendata.arcgis.com/"
+                  }
+                ]
+              },
+              "type": "float",
+              "missing": 805,
+              "mean": 0.0003,
+              "sd": 0.0002,
+              "min": 0,
+              "max": 0.0012
+            },
+            {
+              "name": "ems_access_scores:ems_cnt",
+              "duplicates": 911,
+              "info": {
+                "category": "Health",
+                "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_ems_access_scores",
+                "full_name": "ems_access_scores:ems_cnt",
+                "measure": "ems_cnt",
+                "type": "count",
+                "short_name": "Emergency medical services access (count)",
+                "long_name": "Access to emergency medical services by count",
+                "short_description": "Count of emergency medical services facilities based on facility locations",
+                "long_description": "Count of emergency medical services facilities based on facility locations. Location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository.",
+                "statement": "There are {value} emergency medical services facilities in {features.name}",
+                "source": [
+                  {
+                    "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
+                    "date_accessed": 2021,
+                    "url": "https://hifld-geoplatform.opendata.arcgis.com/"
+                  }
+                ]
+              },
+              "type": "integer",
+              "missing": 805,
+              "mean": 8.406,
+              "sd": 6.7622,
+              "min": 0,
+              "max": 42
+            },
+            {
+              "name": "ems_access_scores:ems_10near_median",
+              "duplicates": 937,
+              "info": {
+                "category": "Health",
+                "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_ems_access_scores",
+                "full_name": "ems_access_scores:ems_10near_median",
+                "measure": "ems_10near_median",
+                "type": "float",
+                "short_name": "Emergency medical services access (drive time)",
+                "long_name": "Emergency medical services access by median drive time to the ten closest facilities in minutes",
+                "short_description": "Median drive time (minutes) to the ten closest emergency medical services facilities",
+                "long_description": "Median drive time in minutes to the ten closest emergency medical services facilities. Facility location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository. Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
+                "statement": "The median drive time to the ten closest emergency medical service facilities to {features.name} is {value} minutes",
+                "source": [
+                  {
+                    "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
+                    "date_accessed": 2021,
+                    "url": "https://hifld-geoplatform.opendata.arcgis.com/"
+                  }
+                ]
+              },
+              "type": "unknown",
+              "missing": 938
+            },
+            {
               "name": "trade_schools_access_scores:norm_2sefca",
               "duplicates": 937,
               "info": {
@@ -1557,6 +1796,95 @@ const site = {
               "sd": 2.5411,
               "min": 0,
               "max": 21.15
+            },
+            {
+              "name": "mental_access_scores:mental_3sfca",
+              "duplicates": 804,
+              "info": {
+                "category": "Health",
+                "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_mental_access_scores",
+                "full_name": "mental_access_scores:mental_3sfca",
+                "measure": "mental_3sfca",
+                "type": "index",
+                "short_name": "Mental health services access score",
+                "long_name": "Mental health services access score (3-step  floating catchment areas)",
+                "short_description": "Index of mental health services accessibility based on supply and demand of facilities",
+                "long_description": "Mental health services access score based on 3-step floating catchment areas. This method is an aggregation of facilities per population ratios weighted by distance or travel time in each catchment area (area within which a facility is accessible). Weights are defined for the demand for facilities (adult population).",
+                "statement": "The mental health services accessibility score for {features.name} is  {value}",
+                "citations": [
+                  "lou04",
+                  "lou09",
+                  "lou03",
+                  "saxon20"
+                ],
+                "source": [
+                  {
+                    "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
+                    "date_accessed": 2021,
+                    "url": "https://hifld-geoplatform.opendata.arcgis.com/"
+                  }
+                ]
+              },
+              "type": "float",
+              "missing": 805,
+              "mean": 0,
+              "sd": 0,
+              "min": 0,
+              "max": 0.0002
+            },
+            {
+              "name": "mental_access_scores:mental_cnt",
+              "duplicates": 926,
+              "info": {
+                "category": "Health",
+                "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_mental_access_scores",
+                "full_name": "mental_access_scores:mental_cnt",
+                "measure": "mental_cnt",
+                "type": "count",
+                "short_name": "Mental health services access (count)",
+                "long_name": "Access to mental health services by count",
+                "short_description": "Count of mental health facilities based on facility locations",
+                "long_description": "Count of mental health facilities based on facility locations. Location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository.",
+                "statement": "There are {value} mental health facilities in {features.name}",
+                "source": [
+                  {
+                    "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
+                    "date_accessed": 2021,
+                    "url": "https://hifld-geoplatform.opendata.arcgis.com/"
+                  }
+                ]
+              },
+              "type": "integer",
+              "missing": 805,
+              "mean": 1.7744,
+              "sd": 2.4576,
+              "min": 0,
+              "max": 21
+            },
+            {
+              "name": "mental_access_scores:mental_10near_median",
+              "duplicates": 937,
+              "info": {
+                "category": "Health",
+                "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_mental_access_scores",
+                "full_name": "mental_access_scores:mental_10near_median",
+                "measure": "mental_10near_median",
+                "type": "float",
+                "short_name": "Mental health services access (drive time)",
+                "long_name": "Mental health services access by median drive time to the ten closest facilities in minutes",
+                "short_description": "Median drive time (minutes) to the ten closest mental health services facilities",
+                "long_description": "Median drive time in minutes to the ten closest mental health services facilities. Facility location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository. Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
+                "statement": "The median drive time to the ten closest mental health service facilities to {features.name} is {value} minutes",
+                "source": [
+                  {
+                    "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
+                    "date_accessed": 2021,
+                    "url": "https://hifld-geoplatform.opendata.arcgis.com/"
+                  }
+                ]
+              },
+              "type": "unknown",
+              "missing": 938
             },
             {
               "name": "obgyn_access_scores:obgyn_e2sfca",
@@ -2046,14 +2374,14 @@ const site = {
         },
         "site_file": "county.json"
       },
-      "tract": {
-        "bytes": 5001860,
+      "district": {
+        "bytes": 143356,
         "encoding": "ISO-8859-1",
-        "md5": "1fdc4d73a861cfedcb7742c35faf2bf3",
-        "sha512": "Bdd2eqgqVC3wJ98sb4nXAqykGD26aNNi1RDZ84OJZnE1sr56D6Oa0xCmUf0lxfCha4/jgmz8bZqcWMCNzt4O0g==",
+        "md5": "c827d25a633a7743890f3f90f8b0c18c",
+        "sha512": "CQX1Fx2LniySsqXikSHlg8zRIzdIjACYuwzcrb5Fk4aezA8bNLwgve2LDj6UCTdvFW3wc535elOJWL6jmQayDw==",
         "format": "csv",
-        "name": "tract",
-        "filename": "tract.csv",
+        "name": "district",
+        "filename": "health_district.csv",
         "source": [],
         "ids": [
           {
@@ -2063,24 +2391,14 @@ const site = {
         ],
         "time": "time",
         "profile": "data-resource",
-        "created": "2021-11-29 21:36:31",
+        "created": "2022-01-04 10:48:36",
         "last_modified": "2021-11-29 21:36:30",
-        "rowcount": 13349,
+        "rowcount": 245,
         "schema": {
           "fields": [
             {
-              "name": "ID",
-              "duplicates": 11442,
-              "type": "integer",
-              "missing": 0,
-              "mean": 51296485701,
-              "sd": 297021650.5901,
-              "min": 51001090100,
-              "max": 51840000302
-            },
-            {
               "name": "2year_colleges_access_scores:norm_2sefca",
-              "duplicates": 13348,
+              "duplicates": 220,
               "info": {
                 "category": "Education",
                 "measure_table": "dc_education_training.va_hdcttr_sdad_2019_2year_colleges_access_scores",
@@ -2106,12 +2424,16 @@ const site = {
                   }
                 ]
               },
-              "type": "unknown",
-              "missing": 13349
+              "type": "float",
+              "missing": 210,
+              "mean": 18.0222,
+              "sd": 22.6205,
+              "min": 0,
+              "max": 100
             },
             {
               "name": "drive_times_nearest_2year_colleges:median_drive_time_top5",
-              "duplicates": 12586,
+              "duplicates": 209,
               "info": {
                 "category": "Education",
                 "measure_table": "dc_education_training.va_hdcttr_osrm_2021_drive_times_nearest_2year_colleges",
@@ -2132,15 +2454,15 @@ const site = {
                 ]
               },
               "type": "float",
-              "missing": 11450,
-              "mean": 40.1988,
-              "sd": 26.679,
-              "min": 4.2,
-              "max": 177.8
+              "missing": 210,
+              "mean": 52.2886,
+              "sd": 32.3618,
+              "min": 9,
+              "max": 122.8
             },
             {
               "name": "3rd_grade_median_read_score:median_read_pass_rate",
-              "duplicates": 13348,
+              "duplicates": 210,
               "info": {
                 "category": "Education",
                 "measure_table": "dc_education_training.va_hdct_vdoe_2019_2021_3rd_grade_median_read_score",
@@ -2160,12 +2482,16 @@ const site = {
                   }
                 ]
               },
-              "type": "unknown",
-              "missing": 13349
+              "type": "float",
+              "missing": 175,
+              "mean": 11.1071,
+              "sd": 5.3003,
+              "min": 0,
+              "max": 28
             },
             {
               "name": "daycare_services_access_scores:daycare_norm_3sfca",
-              "duplicates": 11449,
+              "duplicates": 209,
               "info": {
                 "category": "Education",
                 "measure_table": "dc_education_training.va_hdcttr_sdad_2021_daycare_services_access_scores",
@@ -2192,15 +2518,15 @@ const site = {
                 ]
               },
               "type": "float",
-              "missing": 11449,
-              "mean": 52.4187,
-              "sd": 17.5006,
+              "missing": 210,
+              "mean": 40.3427,
+              "sd": 22.6432,
               "min": 0,
               "max": 100
             },
             {
               "name": "daycare_services_access_scores:daycare_cnt",
-              "duplicates": 12781,
+              "duplicates": 209,
               "info": {
                 "category": "Education",
                 "measure_table": "dc_education_training.va_hdcttr_sdad_2021_daycare_services_access_scores",
@@ -2221,15 +2547,15 @@ const site = {
                 ]
               },
               "type": "integer",
-              "missing": 11442,
-              "mean": 195.5448,
-              "sd": 235.0988,
-              "min": 0,
-              "max": 2273
+              "missing": 210,
+              "mean": 10654.4,
+              "sd": 12153.9074,
+              "min": 1027,
+              "max": 67563
             },
             {
               "name": "drive_times_nearest_daycares:median_drive_time_top5",
-              "duplicates": 12974,
+              "duplicates": 212,
               "info": {
                 "category": "Education",
                 "measure_table": "dc_education_training.va_hdcttr_osrm_2021_drive_times_nearest_daycares",
@@ -2250,15 +2576,15 @@ const site = {
                 ]
               },
               "type": "float",
-              "missing": 11450,
-              "mean": 7.83,
-              "sd": 8.0243,
-              "min": 0.5,
-              "max": 71.7
+              "missing": 210,
+              "mean": 13.28,
+              "sd": 12.5682,
+              "min": 1.8,
+              "max": 62.1
             },
             {
               "name": "dei_index:norm_dei",
-              "duplicates": 7748,
+              "duplicates": 143,
               "info": {
                 "category": "Broadband",
                 "measure_table": "dc_digital_communications.va_hdcttr_sdad_2019_2021_dei_index",
@@ -2287,15 +2613,15 @@ const site = {
                 ]
               },
               "type": "float",
-              "missing": 7745,
-              "mean": 70.9817,
-              "sd": 16.8324,
+              "missing": 140,
+              "mean": 51.4114,
+              "sd": 27.409,
               "min": 0,
               "max": 100
             },
             {
               "name": "dentist_access_scores:dent_e2sfca",
-              "duplicates": 11579,
+              "duplicates": 209,
               "info": {
                 "category": "Health",
                 "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_dentist_access_scores",
@@ -2322,15 +2648,15 @@ const site = {
                 ]
               },
               "type": "float",
-              "missing": 11450,
-              "mean": 0.0004,
-              "sd": 0.0002,
-              "min": 0,
-              "max": 0.0011
+              "missing": 210,
+              "mean": 0.0003,
+              "sd": 0.0001,
+              "min": 0.0001,
+              "max": 0.0007
             },
             {
               "name": "dentist_access_scores:dent_cnt",
-              "duplicates": 13316,
+              "duplicates": 211,
               "info": {
                 "category": "Health",
                 "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_dentist_access_scores",
@@ -2351,15 +2677,15 @@ const site = {
                 ]
               },
               "type": "integer",
-              "missing": 12384,
-              "mean": 4.457,
-              "sd": 4.9641,
-              "min": 1,
-              "max": 39
+              "missing": 210,
+              "mean": 122.8857,
+              "sd": 170.4947,
+              "min": 15,
+              "max": 1000
             },
             {
               "name": "download_speeds:download",
-              "duplicates": 7675,
+              "duplicates": 139,
               "info": {
                 "category": "Broadband",
                 "measure_table": "dc_digital_communications.va_hdcttr_ookla_2019_2021_download_speeds",
@@ -2380,15 +2706,104 @@ const site = {
                 ]
               },
               "type": "float",
-              "missing": 7676,
-              "mean": 137.4078,
-              "sd": 49.3387,
-              "min": 5.4356,
-              "max": 347.9637
+              "missing": 140,
+              "mean": 126.4226,
+              "sd": 38.9209,
+              "min": 27.5995,
+              "max": 208.2953
+            },
+            {
+              "name": "ems_access_scores:ems_3sfca",
+              "duplicates": 209,
+              "info": {
+                "category": "Health",
+                "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_ems_access_scores",
+                "full_name": "ems_access_scores:ems_3sfca",
+                "measure": "ems_3sfca",
+                "type": "index",
+                "short_name": "Emergency medical services access score",
+                "long_name": "Emergency medical services access score (3-step floating catchment areas)",
+                "short_description": "Index of emergency medical services accessibility based on supply and demand of facilities",
+                "long_description": "Emergency medical services access score based on 3-step floating catchment areas. This method is an aggregation of facilities per population ratios weighted by distance or travel time in each catchment area (area within which a facility is accessible). Weights are defined for the demand for facilities (adult population).",
+                "statement": "The emergency medical services accessibility score for {features.name} is  {value}",
+                "citations": [
+                  "lou04",
+                  "lou09",
+                  "lou03",
+                  "saxon20"
+                ],
+                "source": [
+                  {
+                    "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
+                    "date_accessed": 2021,
+                    "url": "https://hifld-geoplatform.opendata.arcgis.com/"
+                  }
+                ]
+              },
+              "type": "float",
+              "missing": 210,
+              "mean": 0.0002,
+              "sd": 0.0001,
+              "min": 0,
+              "max": 0.0005
+            },
+            {
+              "name": "ems_access_scores:ems_cnt",
+              "duplicates": 219,
+              "info": {
+                "category": "Health",
+                "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_ems_access_scores",
+                "full_name": "ems_access_scores:ems_cnt",
+                "measure": "ems_cnt",
+                "type": "count",
+                "short_name": "Emergency medical services access (count)",
+                "long_name": "Access to emergency medical services by count",
+                "short_description": "Count of emergency medical services facilities based on facility locations",
+                "long_description": "Count of emergency medical services facilities based on facility locations. Location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository.",
+                "statement": "There are {value} emergency medical services facilities in {features.name}",
+                "source": [
+                  {
+                    "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
+                    "date_accessed": 2021,
+                    "url": "https://hifld-geoplatform.opendata.arcgis.com/"
+                  }
+                ]
+              },
+              "type": "integer",
+              "missing": 210,
+              "mean": 31.9429,
+              "sd": 13.584,
+              "min": 8,
+              "max": 58
+            },
+            {
+              "name": "ems_access_scores:ems_10near_median",
+              "duplicates": 244,
+              "info": {
+                "category": "Health",
+                "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_ems_access_scores",
+                "full_name": "ems_access_scores:ems_10near_median",
+                "measure": "ems_10near_median",
+                "type": "float",
+                "short_name": "Emergency medical services access (drive time)",
+                "long_name": "Emergency medical services access by median drive time to the ten closest facilities in minutes",
+                "short_description": "Median drive time (minutes) to the ten closest emergency medical services facilities",
+                "long_description": "Median drive time in minutes to the ten closest emergency medical services facilities. Facility location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository. Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
+                "statement": "The median drive time to the ten closest emergency medical service facilities to {features.name} is {value} minutes",
+                "source": [
+                  {
+                    "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
+                    "date_accessed": 2021,
+                    "url": "https://hifld-geoplatform.opendata.arcgis.com/"
+                  }
+                ]
+              },
+              "type": "unknown",
+              "missing": 245
             },
             {
               "name": "trade_schools_access_scores:norm_2sefca",
-              "duplicates": 13348,
+              "duplicates": 227,
               "info": {
                 "category": "Education",
                 "measure_table": "dc_education_training.va_hdcttr_sdad_2019_trade_schools_access_scores",
@@ -2414,12 +2829,16 @@ const site = {
                   }
                 ]
               },
-              "type": "unknown",
-              "missing": 13349
+              "type": "float",
+              "missing": 210,
+              "mean": 19.6666,
+              "sd": 28.2957,
+              "min": 0,
+              "max": 100
             },
             {
               "name": "drive_times_nearest_trade_schools:median_drive_time_top5",
-              "duplicates": 12399,
+              "duplicates": 209,
               "info": {
                 "category": "Education",
                 "measure_table": "dc_education_training.va_hdcttr_osrm_2021_drive_times_nearest_trade_schools",
@@ -2440,15 +2859,15 @@ const site = {
                 ]
               },
               "type": "float",
-              "missing": 11450,
-              "mean": 61.2898,
-              "sd": 61.2115,
-              "min": 4.8,
-              "max": 343.6
+              "missing": 210,
+              "mean": 83.0486,
+              "sd": 70.8312,
+              "min": 14,
+              "max": 300.9
             },
             {
               "name": "have_computer:perc_have_computer",
-              "duplicates": 11574,
+              "duplicates": 209,
               "info": {
                 "category": "Broadband",
                 "measure_table": "dc_digital_communications.va_hdcttr_acs5_2019_have_computer",
@@ -2469,15 +2888,15 @@ const site = {
                 ]
               },
               "type": "float",
-              "missing": 11458,
-              "mean": 90.6652,
-              "sd": 8.3038,
-              "min": 0,
-              "max": 100
+              "missing": 210,
+              "mean": 88.3058,
+              "sd": 6.6137,
+              "min": 71.9306,
+              "max": 97.4945
             },
             {
               "name": "have_internet:perc_have_internet_access",
-              "duplicates": 11543,
+              "duplicates": 209,
               "info": {
                 "category": "Broadband",
                 "measure_table": "dc_digital_communications.va_hdcttr_acs5_2019_have_internet",
@@ -2498,15 +2917,15 @@ const site = {
                 ]
               },
               "type": "float",
-              "missing": 11458,
-              "mean": 86.5308,
-              "sd": 10.8146,
-              "min": 38.5576,
-              "max": 100
+              "missing": 210,
+              "mean": 83.4686,
+              "sd": 8.2578,
+              "min": 65.2433,
+              "max": 96.4738
             },
             {
               "name": "health_literacy_estimates:health_literacy_estimate",
-              "duplicates": 13335,
+              "duplicates": 240,
               "info": {
                 "category": "Education",
                 "measure_table": "dc_education_training.va_hdcttr_sdad_2019_health_literacy_estimates",
@@ -2535,15 +2954,15 @@ const site = {
                 ]
               },
               "type": "float",
-              "missing": 11442,
-              "mean": 0.4329,
-              "sd": 0.8731,
-              "min": -2.995,
-              "max": 3.005
+              "missing": 210,
+              "mean": 0.1767,
+              "sd": 0.207,
+              "min": -0.995,
+              "max": 0.2193
             },
             {
               "name": "no_health_insurance_19_to_64:no_hlth_ins_pct",
-              "duplicates": 11872,
+              "duplicates": 77,
               "info": {
                 "category": "Health",
                 "measure_table": "dc_health_behavior_diet.va_hdcttr_acs5_2015_2019_no_health_insurance_19_to_64",
@@ -2564,15 +2983,104 @@ const site = {
                 ]
               },
               "type": "float",
-              "missing": 3979,
-              "mean": 2.7716,
-              "sd": 5.3258,
+              "missing": 70,
+              "mean": 2.3091,
+              "sd": 2.4521,
+              "min": 0.2,
+              "max": 15.4533
+            },
+            {
+              "name": "mental_access_scores:mental_3sfca",
+              "duplicates": 209,
+              "info": {
+                "category": "Health",
+                "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_mental_access_scores",
+                "full_name": "mental_access_scores:mental_3sfca",
+                "measure": "mental_3sfca",
+                "type": "index",
+                "short_name": "Mental health services access score",
+                "long_name": "Mental health services access score (3-step  floating catchment areas)",
+                "short_description": "Index of mental health services accessibility based on supply and demand of facilities",
+                "long_description": "Mental health services access score based on 3-step floating catchment areas. This method is an aggregation of facilities per population ratios weighted by distance or travel time in each catchment area (area within which a facility is accessible). Weights are defined for the demand for facilities (adult population).",
+                "statement": "The mental health services accessibility score for {features.name} is  {value}",
+                "citations": [
+                  "lou04",
+                  "lou09",
+                  "lou03",
+                  "saxon20"
+                ],
+                "source": [
+                  {
+                    "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
+                    "date_accessed": 2021,
+                    "url": "https://hifld-geoplatform.opendata.arcgis.com/"
+                  }
+                ]
+              },
+              "type": "float",
+              "missing": 210,
+              "mean": 0,
+              "sd": 0,
               "min": 0,
-              "max": 66.75
+              "max": 0.0001
+            },
+            {
+              "name": "mental_access_scores:mental_cnt",
+              "duplicates": 230,
+              "info": {
+                "category": "Health",
+                "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_mental_access_scores",
+                "full_name": "mental_access_scores:mental_cnt",
+                "measure": "mental_cnt",
+                "type": "count",
+                "short_name": "Mental health services access (count)",
+                "long_name": "Access to mental health services by count",
+                "short_description": "Count of mental health facilities based on facility locations",
+                "long_description": "Count of mental health facilities based on facility locations. Location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository.",
+                "statement": "There are {value} mental health facilities in {features.name}",
+                "source": [
+                  {
+                    "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
+                    "date_accessed": 2021,
+                    "url": "https://hifld-geoplatform.opendata.arcgis.com/"
+                  }
+                ]
+              },
+              "type": "integer",
+              "missing": 210,
+              "mean": 6.7429,
+              "sd": 4.2795,
+              "min": 0,
+              "max": 22
+            },
+            {
+              "name": "mental_access_scores:mental_10near_median",
+              "duplicates": 244,
+              "info": {
+                "category": "Health",
+                "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_mental_access_scores",
+                "full_name": "mental_access_scores:mental_10near_median",
+                "measure": "mental_10near_median",
+                "type": "float",
+                "short_name": "Mental health services access (drive time)",
+                "long_name": "Mental health services access by median drive time to the ten closest facilities in minutes",
+                "short_description": "Median drive time (minutes) to the ten closest mental health services facilities",
+                "long_description": "Median drive time in minutes to the ten closest mental health services facilities. Facility location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository. Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
+                "statement": "The median drive time to the ten closest mental health service facilities to {features.name} is {value} minutes",
+                "source": [
+                  {
+                    "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
+                    "date_accessed": 2021,
+                    "url": "https://hifld-geoplatform.opendata.arcgis.com/"
+                  }
+                ]
+              },
+              "type": "unknown",
+              "missing": 245
             },
             {
               "name": "obgyn_access_scores:obgyn_e2sfca",
-              "duplicates": 11795,
+              "duplicates": 209,
               "info": {
                 "category": "Health",
                 "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_obgyn_access_scores",
@@ -2599,15 +3107,15 @@ const site = {
                 ]
               },
               "type": "float",
-              "missing": 11450,
-              "mean": 0.0007,
-              "sd": 0.0005,
+              "missing": 210,
+              "mean": 0.0006,
+              "sd": 0.0004,
               "min": 0,
-              "max": 0.0022
+              "max": 0.0018
             },
             {
               "name": "obgyn_access_scores:obgyn_cnt",
-              "duplicates": 13305,
+              "duplicates": 213,
               "info": {
                 "category": "Health",
                 "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_obgyn_access_scores",
@@ -2628,15 +3136,15 @@ const site = {
                 ]
               },
               "type": "integer",
-              "missing": 12876,
-              "mean": 6.5116,
-              "sd": 13.4527,
-              "min": 1,
-              "max": 137
+              "missing": 210,
+              "mean": 88,
+              "sd": 106.409,
+              "min": 7,
+              "max": 611
             },
             {
               "name": "pct_pop_broadband:perc_w_broadband",
-              "duplicates": 7841,
+              "duplicates": 139,
               "info": {
                 "category": "Broadband",
                 "measure_table": "dc_digital_communications.va_hdcttr_acs_2017_2019_pct_pop_broadband",
@@ -2657,15 +3165,15 @@ const site = {
                 ]
               },
               "type": "float",
-              "missing": 7729,
-              "mean": 0.8124,
-              "sd": 0.134,
-              "min": 0,
-              "max": 1
+              "missing": 140,
+              "mean": 0.7744,
+              "sd": 0.1013,
+              "min": 0.5415,
+              "max": 0.9462
             },
             {
               "name": "pct_pop_cable_fiber_dsl:perc_w_cable_fiber_DSL",
-              "duplicates": 7817,
+              "duplicates": 139,
               "info": {
                 "category": "Broadband",
                 "measure_table": "dc_digital_communications.va_hdcttr_acs_2017_2019_pct_pop_cable_fiber_dsl",
@@ -2686,15 +3194,15 @@ const site = {
                 ]
               },
               "type": "float",
-              "missing": 7729,
-              "mean": 0.6813,
-              "sd": 0.2062,
-              "min": 0,
-              "max": 1
+              "missing": 140,
+              "mean": 0.621,
+              "sd": 0.1498,
+              "min": 0.3044,
+              "max": 0.8797
             },
             {
               "name": "pediatrics_access_scores:ped_e2sfca",
-              "duplicates": 11643,
+              "duplicates": 209,
               "info": {
                 "category": "Health",
                 "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_pediatrics_access_scores",
@@ -2721,15 +3229,15 @@ const site = {
                 ]
               },
               "type": "float",
-              "missing": 11450,
-              "mean": 0.0022,
-              "sd": 0.0018,
-              "min": 0,
-              "max": 0.013
+              "missing": 210,
+              "mean": 0.0019,
+              "sd": 0.0013,
+              "min": 0.0005,
+              "max": 0.0055
             },
             {
               "name": "pediatrics_access_scores:ped_cnt",
-              "duplicates": 13307,
+              "duplicates": 211,
               "info": {
                 "category": "Health",
                 "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_pediatrics_access_scores",
@@ -2750,15 +3258,15 @@ const site = {
                 ]
               },
               "type": "integer",
-              "missing": 12755,
-              "mean": 6.6532,
-              "sd": 14.8042,
-              "min": 1,
-              "max": 189
+              "missing": 210,
+              "mean": 112.9143,
+              "sd": 146.6692,
+              "min": 9,
+              "max": 798
             },
             {
               "name": "post_hs_education:perc_post_hs_edu",
-              "duplicates": 11473,
+              "duplicates": 209,
               "info": {
                 "category": "Education",
                 "measure_table": "dc_education_training.va_hdcttr_acs_2015_2019_post_hs_education",
@@ -2779,15 +3287,15 @@ const site = {
                 ]
               },
               "type": "float",
-              "missing": 11470,
-              "mean": 0.6479,
-              "sd": 0.1734,
-              "min": 0.1559,
-              "max": 1
+              "missing": 210,
+              "mean": 0.605,
+              "sd": 0.1175,
+              "min": 0.4143,
+              "max": 0.8654
             },
             {
               "name": "preventable_hospitalizations:prevent_hosp_rate",
-              "duplicates": 13348,
+              "duplicates": 2,
               "info": {
                 "category": "Health",
                 "measure_table": "dc_health_behavior_diet.va_hdct_chr_2015_2021_preventable_hospitalizations",
@@ -2807,12 +3315,16 @@ const site = {
                   }
                 ]
               },
-              "type": "unknown",
-              "missing": 13349
+              "type": "float",
+              "missing": 0,
+              "mean": 4915.6413,
+              "sd": 1551.2408,
+              "min": 2106,
+              "max": 15047.25
             },
             {
               "name": "primary_care_access_scores:prim_e2sfca",
-              "duplicates": 11477,
+              "duplicates": 209,
               "info": {
                 "category": "Health",
                 "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_primary_care_access_scores",
@@ -2839,15 +3351,15 @@ const site = {
                 ]
               },
               "type": "float",
-              "missing": 11450,
-              "mean": 0.0024,
-              "sd": 0.0015,
-              "min": 0,
-              "max": 0.0094
+              "missing": 210,
+              "mean": 0.0023,
+              "sd": 0.0011,
+              "min": 0.0011,
+              "max": 0.0058
             },
             {
               "name": "primary_care_access_scores:prim_cnt",
-              "duplicates": 13244,
+              "duplicates": 209,
               "info": {
                 "category": "Health",
                 "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_primary_care_access_scores",
@@ -2868,15 +3380,15 @@ const site = {
                 ]
               },
               "type": "integer",
-              "missing": 12058,
-              "mean": 15.1944,
-              "sd": 41.2479,
-              "min": 1,
-              "max": 847
+              "missing": 210,
+              "mean": 560.4571,
+              "sd": 581.3071,
+              "min": 74,
+              "max": 3360
             },
             {
               "name": "time",
-              "duplicates": 13342,
+              "duplicates": 238,
               "info": {
                 "type": "year",
                 "short_name": "Year",
@@ -2885,7 +3397,7 @@ const site = {
               "type": "integer",
               "missing": 0,
               "mean": 2018,
-              "sd": 2.0001,
+              "sd": 2.0041,
               "min": 2015,
               "max": 2021
             }
@@ -3052,10 +3564,10 @@ const site = {
             "doi": "10.1111/jep.13341"
           }
         },
-        "site_file": "tract.json"
+        "site_file": "district.json"
       }
     },
-    "files": ["district", "county", "tract"]
+    "files": ["health_district.csv", "county.csv", "tract.csv"]
   },
   "rules": [
     {

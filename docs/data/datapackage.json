@@ -9,10 +9,10 @@
   },
   "resources": [
     {
-      "bytes": 98182,
+      "bytes": 143356,
       "encoding": "ISO-8859-1",
-      "md5": "513c7645cb3a6603649f9ced26008f60",
-      "sha512": "EBeMVLdVMWVhxXWsBNRTL5DpsQm43LOMw5AWrCtnsbDTsaPSvRwZWT/KEw7lLdy3AtiiXMgDZyYdNzZYQQsAOg==",
+      "md5": "c827d25a633a7743890f3f90f8b0c18c",
+      "sha512": "CQX1Fx2LniySsqXikSHlg8zRIzdIjACYuwzcrb5Fk4aezA8bNLwgve2LDj6UCTdvFW3wc535elOJWL6jmQayDw==",
       "format": "csv",
       "name": "district",
       "filename": "health_district.csv",
@@ -25,21 +25,11 @@
       ],
       "time": "time",
       "profile": "data-resource",
-      "created": "2021-11-29 21:36:30",
+      "created": "2022-01-04 10:48:36",
       "last_modified": "2021-11-29 21:36:30",
       "rowcount": 245,
       "schema": {
         "fields": [
-          {
-            "name": "ID",
-            "duplicates": 210,
-            "type": "integer",
-            "missing": 0,
-            "mean": 18,
-            "sd": 10.120179,
-            "min": 1,
-            "max": 35
-          },
           {
             "name": "time",
             "duplicates": 238,
@@ -1026,6 +1016,408 @@
             "max": 36.401154
           },
           {
+            "name": "ems_access_scores:ems_fca",
+            "duplicates": 209,
+            "type": "float",
+            "missing": 210,
+            "mean": 0.000359,
+            "sd": 0.000105,
+            "min": 0.000225,
+            "max": 0.000632
+          },
+          {
+            "name": "ems_access_scores:ems_2sfca",
+            "duplicates": 209,
+            "type": "float",
+            "missing": 210,
+            "mean": 0.000172,
+            "sd": 0.000101,
+            "min": 0.000046,
+            "max": 0.000462
+          },
+          {
+            "name": "ems_access_scores:ems_e2sfca",
+            "duplicates": 209,
+            "type": "float",
+            "missing": 210,
+            "mean": 0.000182,
+            "sd": 0.000116,
+            "min": 0.000044,
+            "max": 0.000494
+          },
+          {
+            "name": "ems_access_scores:ems_3sfca",
+            "duplicates": 209,
+            "info": {
+              "category": "Health",
+              "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_ems_access_scores",
+              "full_name": "ems_access_scores:ems_3sfca",
+              "measure": "ems_3sfca",
+              "type": "index",
+              "short_name": "Emergency medical services access score",
+              "long_name": "Emergency medical services access score (3-step floating catchment areas)",
+              "short_description": "Index of emergency medical services accessibility based on supply and demand of facilities",
+              "long_description": "Emergency medical services access score based on 3-step floating catchment areas. This method is an aggregation of facilities per population ratios weighted by distance or travel time in each catchment area (area within which a facility is accessible). Weights are defined for the demand for facilities (adult population).",
+              "statement": "The emergency medical services accessibility score for {features.name} is  {value}",
+              "citations": [
+                "lou04",
+                "lou09",
+                "lou03",
+                "saxon20"
+              ],
+              "source": [
+                {
+                  "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
+                  "date_accessed": 2021,
+                  "url": "https://hifld-geoplatform.opendata.arcgis.com/"
+                }
+              ]
+            },
+            "type": "float",
+            "missing": 210,
+            "mean": 0.000182,
+            "sd": 0.000119,
+            "min": 0.000041,
+            "max": 0.000494
+          },
+          {
+            "name": "ems_access_scores:ems_cnt",
+            "duplicates": 219,
+            "info": {
+              "category": "Health",
+              "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_ems_access_scores",
+              "full_name": "ems_access_scores:ems_cnt",
+              "measure": "ems_cnt",
+              "type": "count",
+              "short_name": "Emergency medical services access (count)",
+              "long_name": "Access to emergency medical services by count",
+              "short_description": "Count of emergency medical services facilities based on facility locations",
+              "long_description": "Count of emergency medical services facilities based on facility locations. Location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository.",
+              "statement": "There are {value} emergency medical services facilities in {features.name}",
+              "source": [
+                {
+                  "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
+                  "date_accessed": 2021,
+                  "url": "https://hifld-geoplatform.opendata.arcgis.com/"
+                }
+              ]
+            },
+            "type": "integer",
+            "missing": 210,
+            "mean": 31.942857,
+            "sd": 13.584037,
+            "min": 8,
+            "max": 58
+          },
+          {
+            "name": "ems_access_scores:ems_pop_cnt",
+            "duplicates": 209,
+            "type": "integer",
+            "missing": 210,
+            "mean": 241421.885714,
+            "sd": 199657.710788,
+            "min": 44558,
+            "max": 1183521
+          },
+          {
+            "name": "ems_access_scores:ems_10near_mean",
+            "duplicates": 244,
+            "type": "unknown",
+            "missing": 245
+          },
+          {
+            "name": "ems_access_scores:ems_10near_median",
+            "duplicates": 244,
+            "info": {
+              "category": "Health",
+              "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_ems_access_scores",
+              "full_name": "ems_access_scores:ems_10near_median",
+              "measure": "ems_10near_median",
+              "type": "float",
+              "short_name": "Emergency medical services access (drive time)",
+              "long_name": "Emergency medical services access by median drive time to the ten closest facilities in minutes",
+              "short_description": "Median drive time (minutes) to the ten closest emergency medical services facilities",
+              "long_description": "Median drive time in minutes to the ten closest emergency medical services facilities. Facility location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository. Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
+              "statement": "The median drive time to the ten closest emergency medical service facilities to {features.name} is {value} minutes",
+              "source": [
+                {
+                  "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
+                  "date_accessed": 2021,
+                  "url": "https://hifld-geoplatform.opendata.arcgis.com/"
+                }
+              ]
+            },
+            "type": "unknown",
+            "missing": 245
+          },
+          {
+            "name": "ems_access_scores:ems_mean10",
+            "duplicates": 209,
+            "type": "float",
+            "missing": 210,
+            "mean": 15.846152,
+            "sd": 6.207963,
+            "min": 6.692261,
+            "max": 29.756502
+          },
+          {
+            "name": "ems_access_scores:ems_median10",
+            "duplicates": 209,
+            "type": "float",
+            "missing": 210,
+            "mean": 16.559871,
+            "sd": 6.416585,
+            "min": 7.044386,
+            "max": 30.835504
+          },
+          {
+            "name": "hospital_access_scores:hos_fca",
+            "duplicates": 209,
+            "type": "float",
+            "missing": 210,
+            "mean": 0.000292,
+            "sd": 0.00009,
+            "min": 0.000161,
+            "max": 0.000442
+          },
+          {
+            "name": "hospital_access_scores:hos_2sfca",
+            "duplicates": 209,
+            "type": "float",
+            "missing": 210,
+            "mean": 0.000016,
+            "sd": 8e-06,
+            "min": 6e-06,
+            "max": 0.000041
+          },
+          {
+            "name": "hospital_access_scores:hos_cnt",
+            "duplicates": 237,
+            "type": "integer",
+            "missing": 210,
+            "mean": 3.2,
+            "sd": 1.694281,
+            "min": 1,
+            "max": 7
+          },
+          {
+            "name": "hospital_access_scores:hos_e2sfca",
+            "duplicates": 209,
+            "type": "float",
+            "missing": 210,
+            "mean": 0.000016,
+            "sd": 9e-06,
+            "min": 4e-06,
+            "max": 0.000044
+          },
+          {
+            "name": "hospital_access_scores:hos_3sfca",
+            "duplicates": 209,
+            "type": "float",
+            "missing": 210,
+            "mean": 0.000016,
+            "sd": 9e-06,
+            "min": 4e-06,
+            "max": 0.000045
+          },
+          {
+            "name": "hospital_access_scores:hos_pop_cnt",
+            "duplicates": 209,
+            "type": "integer",
+            "missing": 210,
+            "mean": 241421.885714,
+            "sd": 199657.710788,
+            "min": 44558,
+            "max": 1183521
+          },
+          {
+            "name": "hospital_access_scores:hos_10near_mean",
+            "duplicates": 244,
+            "type": "unknown",
+            "missing": 245
+          },
+          {
+            "name": "hospital_access_scores:hos_10near_median",
+            "duplicates": 244,
+            "type": "unknown",
+            "missing": 245
+          },
+          {
+            "name": "hospital_access_scores:hos_mean10",
+            "duplicates": 209,
+            "type": "float",
+            "missing": 210,
+            "mean": 45.743592,
+            "sd": 23.278325,
+            "min": 11.383606,
+            "max": 103.046143
+          },
+          {
+            "name": "hospital_access_scores:hos_median10",
+            "duplicates": 209,
+            "type": "float",
+            "missing": 210,
+            "mean": 49.055916,
+            "sd": 25.617672,
+            "min": 11.635358,
+            "max": 110.778416
+          },
+          {
+            "name": "mental_access_scores:mental_fca",
+            "duplicates": 210,
+            "type": "float",
+            "missing": 211,
+            "mean": 0.000295,
+            "sd": 0.000076,
+            "min": 0.000152,
+            "max": 0.000441
+          },
+          {
+            "name": "mental_access_scores:mental_cnt",
+            "duplicates": 230,
+            "info": {
+              "category": "Health",
+              "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_mental_access_scores",
+              "full_name": "mental_access_scores:mental_cnt",
+              "measure": "mental_cnt",
+              "type": "count",
+              "short_name": "Mental health services access (count)",
+              "long_name": "Access to mental health services by count",
+              "short_description": "Count of mental health facilities based on facility locations",
+              "long_description": "Count of mental health facilities based on facility locations. Location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository.",
+              "statement": "There are {value} mental health facilities in {features.name}",
+              "source": [
+                {
+                  "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
+                  "date_accessed": 2021,
+                  "url": "https://hifld-geoplatform.opendata.arcgis.com/"
+                }
+              ]
+            },
+            "type": "integer",
+            "missing": 210,
+            "mean": 6.742857,
+            "sd": 4.279519,
+            "min": 0,
+            "max": 22
+          },
+          {
+            "name": "mental_access_scores:mental_2sfca",
+            "duplicates": 209,
+            "type": "float",
+            "missing": 210,
+            "mean": 0.000031,
+            "sd": 0.000015,
+            "min": 3e-06,
+            "max": 0.000062
+          },
+          {
+            "name": "mental_access_scores:mental_e2sfca",
+            "duplicates": 209,
+            "type": "float",
+            "missing": 210,
+            "mean": 0.000032,
+            "sd": 0.000018,
+            "min": 0,
+            "max": 0.000071
+          },
+          {
+            "name": "mental_access_scores:mental_3sfca",
+            "duplicates": 209,
+            "info": {
+              "category": "Health",
+              "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_mental_access_scores",
+              "full_name": "mental_access_scores:mental_3sfca",
+              "measure": "mental_3sfca",
+              "type": "index",
+              "short_name": "Mental health services access score",
+              "long_name": "Mental health services access score (3-step  floating catchment areas)",
+              "short_description": "Index of mental health services accessibility based on supply and demand of facilities",
+              "long_description": "Mental health services access score based on 3-step floating catchment areas. This method is an aggregation of facilities per population ratios weighted by distance or travel time in each catchment area (area within which a facility is accessible). Weights are defined for the demand for facilities (adult population).",
+              "statement": "The mental health services accessibility score for {features.name} is  {value}",
+              "citations": [
+                "lou04",
+                "lou09",
+                "lou03",
+                "saxon20"
+              ],
+              "source": [
+                {
+                  "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
+                  "date_accessed": 2021,
+                  "url": "https://hifld-geoplatform.opendata.arcgis.com/"
+                }
+              ]
+            },
+            "type": "float",
+            "missing": 210,
+            "mean": 0.000032,
+            "sd": 0.000018,
+            "min": 0,
+            "max": 0.000072
+          },
+          {
+            "name": "mental_access_scores:mental_pop_cnt",
+            "duplicates": 209,
+            "type": "integer",
+            "missing": 210,
+            "mean": 241421.885714,
+            "sd": 199657.710788,
+            "min": 44558,
+            "max": 1183521
+          },
+          {
+            "name": "mental_access_scores:mental_10near_mean",
+            "duplicates": 244,
+            "type": "unknown",
+            "missing": 245
+          },
+          {
+            "name": "mental_access_scores:mental_10near_median",
+            "duplicates": 244,
+            "info": {
+              "category": "Health",
+              "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_mental_access_scores",
+              "full_name": "mental_access_scores:mental_10near_median",
+              "measure": "mental_10near_median",
+              "type": "float",
+              "short_name": "Mental health services access (drive time)",
+              "long_name": "Mental health services access by median drive time to the ten closest facilities in minutes",
+              "short_description": "Median drive time (minutes) to the ten closest mental health services facilities",
+              "long_description": "Median drive time in minutes to the ten closest mental health services facilities. Facility location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository. Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
+              "statement": "The median drive time to the ten closest mental health service facilities to {features.name} is {value} minutes",
+              "source": [
+                {
+                  "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
+                  "date_accessed": 2021,
+                  "url": "https://hifld-geoplatform.opendata.arcgis.com/"
+                }
+              ]
+            },
+            "type": "unknown",
+            "missing": 245
+          },
+          {
+            "name": "mental_access_scores:mental_mean10",
+            "duplicates": 209,
+            "type": "float",
+            "missing": 210,
+            "mean": 31.169796,
+            "sd": 19.940199,
+            "min": 8.85513,
+            "max": 106.921034
+          },
+          {
+            "name": "mental_access_scores:mental_median10",
+            "duplicates": 209,
+            "type": "float",
+            "missing": 210,
+            "mean": 32.377114,
+            "sd": 20.667837,
+            "min": 8.886618,
+            "max": 105.887103
+          },
+          {
             "name": "obgyn_access_scores:obgyn_fca",
             "duplicates": 210,
             "type": "float",
@@ -1408,6 +1800,98 @@
             "sd": 4.970265,
             "min": 2.4757,
             "max": 20.050686
+          },
+          {
+            "name": "substance_access_scores:subs_fca",
+            "duplicates": 209,
+            "type": "float",
+            "missing": 210,
+            "mean": 0.000283,
+            "sd": 0.000112,
+            "min": 0.000145,
+            "max": 0.000792
+          },
+          {
+            "name": "substance_access_scores:subs_2sfca",
+            "duplicates": 209,
+            "type": "float",
+            "missing": 210,
+            "mean": 0.000026,
+            "sd": 8e-06,
+            "min": 0.000011,
+            "max": 0.000045
+          },
+          {
+            "name": "substance_access_scores:subs_cnt",
+            "duplicates": 232,
+            "type": "integer",
+            "missing": 210,
+            "mean": 5.771429,
+            "sd": 3.361422,
+            "min": 0,
+            "max": 19
+          },
+          {
+            "name": "substance_access_scores:subs_e2sfca",
+            "duplicates": 209,
+            "type": "float",
+            "missing": 210,
+            "mean": 0.000027,
+            "sd": 0.000011,
+            "min": 0,
+            "max": 0.000058
+          },
+          {
+            "name": "substance_access_scores:subs_3sfca",
+            "duplicates": 209,
+            "type": "float",
+            "missing": 210,
+            "mean": 0.000027,
+            "sd": 0.000011,
+            "min": 4e-06,
+            "max": 0.000052
+          },
+          {
+            "name": "substance_access_scores:subs_pop_cnt",
+            "duplicates": 209,
+            "type": "integer",
+            "missing": 210,
+            "mean": 241421.885714,
+            "sd": 199657.710788,
+            "min": 44558,
+            "max": 1183521
+          },
+          {
+            "name": "substance_access_scores:subs_10near_mean",
+            "duplicates": 244,
+            "type": "unknown",
+            "missing": 245
+          },
+          {
+            "name": "substance_access_scores:subs_10near_median",
+            "duplicates": 244,
+            "type": "unknown",
+            "missing": 245
+          },
+          {
+            "name": "substance_access_scores:subs_mean10",
+            "duplicates": 209,
+            "type": "float",
+            "missing": 210,
+            "mean": 34.877231,
+            "sd": 22.340377,
+            "min": 8.811351,
+            "max": 91.902306
+          },
+          {
+            "name": "substance_access_scores:subs_median10",
+            "duplicates": 209,
+            "type": "float",
+            "missing": 210,
+            "mean": 36.276371,
+            "sd": 24.444008,
+            "min": 8.513287,
+            "max": 105.668712
           }
         ]
       },
@@ -1574,10 +2058,10 @@
       }
     },
     {
-      "bytes": 361923,
+      "bytes": 527566,
       "encoding": "ISO-8859-1",
-      "md5": "1803b868bf2498033efc668f4464b502",
-      "sha512": "Yfw60t8U7MWbt3nO4PfS8TXiIgOY9Xha+paQhPEgzx8Rt9uFiTTsYzvPvsl/rIvcTALGJMrBZZGXrvo6i6mUcw==",
+      "md5": "3c12ff7a99fd277685ae34535442a84f",
+      "sha512": "4gAxl2nppGGSWQwk58lBnU8Z55tQYMbzsrj71hyIoe2zXqe+9IOsOgFGLjgL0I5wAQRGYKAzP7wQRiSXjgYOKw==",
       "format": "csv",
       "name": "county",
       "filename": "county.csv",
@@ -1590,21 +2074,11 @@
       ],
       "time": "time",
       "profile": "data-resource",
-      "created": "2021-11-29 21:36:30",
+      "created": "2022-01-04 10:48:36",
       "last_modified": "2021-11-29 21:36:30",
       "rowcount": 938,
       "schema": {
         "fields": [
-          {
-            "name": "ID",
-            "duplicates": 804,
-            "type": "integer",
-            "missing": 0,
-            "mean": 51265.865672,
-            "sd": 270.854175,
-            "min": 51001,
-            "max": 51840
-          },
           {
             "name": "time",
             "duplicates": 931,
@@ -2591,6 +3065,408 @@
             "max": 56.25
           },
           {
+            "name": "ems_access_scores:ems_fca",
+            "duplicates": 804,
+            "type": "float",
+            "missing": 805,
+            "mean": 0.000423,
+            "sd": 0.000185,
+            "min": 0.000211,
+            "max": 0.001361
+          },
+          {
+            "name": "ems_access_scores:ems_2sfca",
+            "duplicates": 804,
+            "type": "float",
+            "missing": 805,
+            "mean": 0.000193,
+            "sd": 0.000099,
+            "min": 0.000046,
+            "max": 0.000522
+          },
+          {
+            "name": "ems_access_scores:ems_e2sfca",
+            "duplicates": 804,
+            "type": "float",
+            "missing": 805,
+            "mean": 0.000247,
+            "sd": 0.000165,
+            "min": 0.000044,
+            "max": 0.00114
+          },
+          {
+            "name": "ems_access_scores:ems_3sfca",
+            "duplicates": 804,
+            "info": {
+              "category": "Health",
+              "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_ems_access_scores",
+              "full_name": "ems_access_scores:ems_3sfca",
+              "measure": "ems_3sfca",
+              "type": "index",
+              "short_name": "Emergency medical services access score",
+              "long_name": "Emergency medical services access score (3-step floating catchment areas)",
+              "short_description": "Index of emergency medical services accessibility based on supply and demand of facilities",
+              "long_description": "Emergency medical services access score based on 3-step floating catchment areas. This method is an aggregation of facilities per population ratios weighted by distance or travel time in each catchment area (area within which a facility is accessible). Weights are defined for the demand for facilities (adult population).",
+              "statement": "The emergency medical services accessibility score for {features.name} is  {value}",
+              "citations": [
+                "lou04",
+                "lou09",
+                "lou03",
+                "saxon20"
+              ],
+              "source": [
+                {
+                  "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
+                  "date_accessed": 2021,
+                  "url": "https://hifld-geoplatform.opendata.arcgis.com/"
+                }
+              ]
+            },
+            "type": "float",
+            "missing": 805,
+            "mean": 0.000251,
+            "sd": 0.00016,
+            "min": 0.00004,
+            "max": 0.001215
+          },
+          {
+            "name": "ems_access_scores:ems_cnt",
+            "duplicates": 911,
+            "info": {
+              "category": "Health",
+              "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_ems_access_scores",
+              "full_name": "ems_access_scores:ems_cnt",
+              "measure": "ems_cnt",
+              "type": "count",
+              "short_name": "Emergency medical services access (count)",
+              "long_name": "Access to emergency medical services by count",
+              "short_description": "Count of emergency medical services facilities based on facility locations",
+              "long_description": "Count of emergency medical services facilities based on facility locations. Location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository.",
+              "statement": "There are {value} emergency medical services facilities in {features.name}",
+              "source": [
+                {
+                  "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
+                  "date_accessed": 2021,
+                  "url": "https://hifld-geoplatform.opendata.arcgis.com/"
+                }
+              ]
+            },
+            "type": "integer",
+            "missing": 805,
+            "mean": 8.406015,
+            "sd": 6.762236,
+            "min": 0,
+            "max": 42
+          },
+          {
+            "name": "ems_access_scores:ems_pop_cnt",
+            "duplicates": 804,
+            "type": "integer",
+            "missing": 805,
+            "mean": 63532.075188,
+            "sd": 126066.862009,
+            "min": 2204,
+            "max": 1145862
+          },
+          {
+            "name": "ems_access_scores:ems_10near_mean",
+            "duplicates": 937,
+            "type": "unknown",
+            "missing": 938
+          },
+          {
+            "name": "ems_access_scores:ems_10near_median",
+            "duplicates": 937,
+            "info": {
+              "category": "Health",
+              "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_ems_access_scores",
+              "full_name": "ems_access_scores:ems_10near_median",
+              "measure": "ems_10near_median",
+              "type": "float",
+              "short_name": "Emergency medical services access (drive time)",
+              "long_name": "Emergency medical services access by median drive time to the ten closest facilities in minutes",
+              "short_description": "Median drive time (minutes) to the ten closest emergency medical services facilities",
+              "long_description": "Median drive time in minutes to the ten closest emergency medical services facilities. Facility location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository. Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
+              "statement": "The median drive time to the ten closest emergency medical service facilities to {features.name} is {value} minutes",
+              "source": [
+                {
+                  "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
+                  "date_accessed": 2021,
+                  "url": "https://hifld-geoplatform.opendata.arcgis.com/"
+                }
+              ]
+            },
+            "type": "unknown",
+            "missing": 938
+          },
+          {
+            "name": "ems_access_scores:ems_mean10",
+            "duplicates": 804,
+            "type": "float",
+            "missing": 805,
+            "mean": 19.722233,
+            "sd": 8.06743,
+            "min": 6.610129,
+            "max": 46.704834
+          },
+          {
+            "name": "ems_access_scores:ems_median10",
+            "duplicates": 804,
+            "type": "float",
+            "missing": 805,
+            "mean": 20.777304,
+            "sd": 8.80645,
+            "min": 6.300799,
+            "max": 49.15
+          },
+          {
+            "name": "hospital_access_scores:hos_fca",
+            "duplicates": 838,
+            "type": "float",
+            "missing": 822,
+            "mean": 0.000275,
+            "sd": 0.000096,
+            "min": 0.000098,
+            "max": 0.000517
+          },
+          {
+            "name": "hospital_access_scores:hos_2sfca",
+            "duplicates": 808,
+            "type": "float",
+            "missing": 806,
+            "mean": 0.000017,
+            "sd": 0.000011,
+            "min": 4e-06,
+            "max": 0.000056
+          },
+          {
+            "name": "hospital_access_scores:hos_cnt",
+            "duplicates": 929,
+            "type": "integer",
+            "missing": 805,
+            "mean": 0.842105,
+            "sd": 1.223768,
+            "min": 0,
+            "max": 7
+          },
+          {
+            "name": "hospital_access_scores:hos_e2sfca",
+            "duplicates": 820,
+            "type": "float",
+            "missing": 805,
+            "mean": 0.00002,
+            "sd": 0.000025,
+            "min": 0,
+            "max": 0.000173
+          },
+          {
+            "name": "hospital_access_scores:hos_3sfca",
+            "duplicates": 804,
+            "type": "float",
+            "missing": 805,
+            "mean": 0.00002,
+            "sd": 0.000022,
+            "min": 0,
+            "max": 0.000156
+          },
+          {
+            "name": "hospital_access_scores:hos_pop_cnt",
+            "duplicates": 804,
+            "type": "integer",
+            "missing": 805,
+            "mean": 63532.075188,
+            "sd": 126066.862009,
+            "min": 2204,
+            "max": 1145862
+          },
+          {
+            "name": "hospital_access_scores:hos_10near_mean",
+            "duplicates": 937,
+            "type": "unknown",
+            "missing": 938
+          },
+          {
+            "name": "hospital_access_scores:hos_10near_median",
+            "duplicates": 937,
+            "type": "unknown",
+            "missing": 938
+          },
+          {
+            "name": "hospital_access_scores:hos_mean10",
+            "duplicates": 804,
+            "type": "float",
+            "missing": 805,
+            "mean": 55.309486,
+            "sd": 20.359891,
+            "min": 11.383606,
+            "max": 115.669646
+          },
+          {
+            "name": "hospital_access_scores:hos_median10",
+            "duplicates": 804,
+            "type": "float",
+            "missing": 805,
+            "mean": 59.258326,
+            "sd": 22.390111,
+            "min": 11.635358,
+            "max": 123.970988
+          },
+          {
+            "name": "mental_access_scores:mental_fca",
+            "duplicates": 821,
+            "type": "float",
+            "missing": 816,
+            "mean": 0.000272,
+            "sd": 0.000105,
+            "min": 0,
+            "max": 0.00072
+          },
+          {
+            "name": "mental_access_scores:mental_cnt",
+            "duplicates": 926,
+            "info": {
+              "category": "Health",
+              "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_mental_access_scores",
+              "full_name": "mental_access_scores:mental_cnt",
+              "measure": "mental_cnt",
+              "type": "count",
+              "short_name": "Mental health services access (count)",
+              "long_name": "Access to mental health services by count",
+              "short_description": "Count of mental health facilities based on facility locations",
+              "long_description": "Count of mental health facilities based on facility locations. Location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository.",
+              "statement": "There are {value} mental health facilities in {features.name}",
+              "source": [
+                {
+                  "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
+                  "date_accessed": 2021,
+                  "url": "https://hifld-geoplatform.opendata.arcgis.com/"
+                }
+              ]
+            },
+            "type": "integer",
+            "missing": 805,
+            "mean": 1.774436,
+            "sd": 2.457569,
+            "min": 0,
+            "max": 21
+          },
+          {
+            "name": "mental_access_scores:mental_2sfca",
+            "duplicates": 807,
+            "type": "float",
+            "missing": 806,
+            "mean": 0.000035,
+            "sd": 0.000017,
+            "min": 3e-06,
+            "max": 0.00009
+          },
+          {
+            "name": "mental_access_scores:mental_e2sfca",
+            "duplicates": 815,
+            "type": "float",
+            "missing": 805,
+            "mean": 0.000039,
+            "sd": 0.000035,
+            "min": 0,
+            "max": 0.000169
+          },
+          {
+            "name": "mental_access_scores:mental_3sfca",
+            "duplicates": 804,
+            "info": {
+              "category": "Health",
+              "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_mental_access_scores",
+              "full_name": "mental_access_scores:mental_3sfca",
+              "measure": "mental_3sfca",
+              "type": "index",
+              "short_name": "Mental health services access score",
+              "long_name": "Mental health services access score (3-step  floating catchment areas)",
+              "short_description": "Index of mental health services accessibility based on supply and demand of facilities",
+              "long_description": "Mental health services access score based on 3-step floating catchment areas. This method is an aggregation of facilities per population ratios weighted by distance or travel time in each catchment area (area within which a facility is accessible). Weights are defined for the demand for facilities (adult population).",
+              "statement": "The mental health services accessibility score for {features.name} is  {value}",
+              "citations": [
+                "lou04",
+                "lou09",
+                "lou03",
+                "saxon20"
+              ],
+              "source": [
+                {
+                  "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
+                  "date_accessed": 2021,
+                  "url": "https://hifld-geoplatform.opendata.arcgis.com/"
+                }
+              ]
+            },
+            "type": "float",
+            "missing": 805,
+            "mean": 0.00004,
+            "sd": 0.00003,
+            "min": 0,
+            "max": 0.000159
+          },
+          {
+            "name": "mental_access_scores:mental_pop_cnt",
+            "duplicates": 804,
+            "type": "integer",
+            "missing": 805,
+            "mean": 63532.075188,
+            "sd": 126066.862009,
+            "min": 2204,
+            "max": 1145862
+          },
+          {
+            "name": "mental_access_scores:mental_10near_mean",
+            "duplicates": 937,
+            "type": "unknown",
+            "missing": 938
+          },
+          {
+            "name": "mental_access_scores:mental_10near_median",
+            "duplicates": 937,
+            "info": {
+              "category": "Health",
+              "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_mental_access_scores",
+              "full_name": "mental_access_scores:mental_10near_median",
+              "measure": "mental_10near_median",
+              "type": "float",
+              "short_name": "Mental health services access (drive time)",
+              "long_name": "Mental health services access by median drive time to the ten closest facilities in minutes",
+              "short_description": "Median drive time (minutes) to the ten closest mental health services facilities",
+              "long_description": "Median drive time in minutes to the ten closest mental health services facilities. Facility location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository. Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
+              "statement": "The median drive time to the ten closest mental health service facilities to {features.name} is {value} minutes",
+              "source": [
+                {
+                  "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
+                  "date_accessed": 2021,
+                  "url": "https://hifld-geoplatform.opendata.arcgis.com/"
+                }
+              ]
+            },
+            "type": "unknown",
+            "missing": 938
+          },
+          {
+            "name": "mental_access_scores:mental_mean10",
+            "duplicates": 804,
+            "type": "float",
+            "missing": 805,
+            "mean": 39.223974,
+            "sd": 18.876677,
+            "min": 8.640554,
+            "max": 120.106349
+          },
+          {
+            "name": "mental_access_scores:mental_median10",
+            "duplicates": 804,
+            "type": "float",
+            "missing": 805,
+            "mean": 41.515557,
+            "sd": 20.65341,
+            "min": 5.716266,
+            "max": 119.070988
+          },
+          {
             "name": "obgyn_access_scores:obgyn_fca",
             "duplicates": 831,
             "type": "float",
@@ -2973,6 +3849,98 @@
             "sd": 7.18039,
             "min": 1.4,
             "max": 38.95
+          },
+          {
+            "name": "substance_access_scores:subs_fca",
+            "duplicates": 826,
+            "type": "float",
+            "missing": 820,
+            "mean": 0.000252,
+            "sd": 0.0001,
+            "min": 0,
+            "max": 0.000792
+          },
+          {
+            "name": "substance_access_scores:subs_2sfca",
+            "duplicates": 806,
+            "type": "float",
+            "missing": 805,
+            "mean": 0.000025,
+            "sd": 0.000011,
+            "min": 2e-06,
+            "max": 0.000056
+          },
+          {
+            "name": "substance_access_scores:subs_cnt",
+            "duplicates": 927,
+            "type": "integer",
+            "missing": 805,
+            "mean": 1.518797,
+            "sd": 2.317919,
+            "min": 0,
+            "max": 19
+          },
+          {
+            "name": "substance_access_scores:subs_e2sfca",
+            "duplicates": 819,
+            "type": "float",
+            "missing": 805,
+            "mean": 0.000029,
+            "sd": 0.000028,
+            "min": 0,
+            "max": 0.000191
+          },
+          {
+            "name": "substance_access_scores:subs_3sfca",
+            "duplicates": 804,
+            "type": "float",
+            "missing": 805,
+            "mean": 0.00003,
+            "sd": 0.000024,
+            "min": 0,
+            "max": 0.000142
+          },
+          {
+            "name": "substance_access_scores:subs_pop_cnt",
+            "duplicates": 804,
+            "type": "integer",
+            "missing": 805,
+            "mean": 63532.075188,
+            "sd": 126066.862009,
+            "min": 2204,
+            "max": 1145862
+          },
+          {
+            "name": "substance_access_scores:subs_10near_mean",
+            "duplicates": 937,
+            "type": "unknown",
+            "missing": 938
+          },
+          {
+            "name": "substance_access_scores:subs_10near_median",
+            "duplicates": 937,
+            "type": "unknown",
+            "missing": 938
+          },
+          {
+            "name": "substance_access_scores:subs_mean10",
+            "duplicates": 804,
+            "type": "float",
+            "missing": 805,
+            "mean": 44.687781,
+            "sd": 21.603119,
+            "min": 8.811351,
+            "max": 100.907126
+          },
+          {
+            "name": "substance_access_scores:subs_median10",
+            "duplicates": 804,
+            "type": "float",
+            "missing": 805,
+            "mean": 46.695016,
+            "sd": 23.760258,
+            "min": 5.899679,
+            "max": 118.620988
           }
         ]
       },
@@ -3139,10 +4107,10 @@
       }
     },
     {
-      "bytes": 5001860,
+      "bytes": 7179346,
       "encoding": "ISO-8859-1",
-      "md5": "1fdc4d73a861cfedcb7742c35faf2bf3",
-      "sha512": "Bdd2eqgqVC3wJ98sb4nXAqykGD26aNNi1RDZ84OJZnE1sr56D6Oa0xCmUf0lxfCha4/jgmz8bZqcWMCNzt4O0g==",
+      "md5": "2361eda9f247f0479eaa9a67b35311fd",
+      "sha512": "pNGbrvn2h5PvaVH/DNeJxHmwr46ODFmhIbGSZC6Og+dwYJNyr9NgiUoBjmozykL518bEd4xSwUTWrJzwZLDUDA==",
       "format": "csv",
       "name": "tract",
       "filename": "tract.csv",
@@ -3155,21 +4123,11 @@
       ],
       "time": "time",
       "profile": "data-resource",
-      "created": "2021-11-29 21:36:31",
+      "created": "2022-01-04 10:48:38",
       "last_modified": "2021-11-29 21:36:30",
       "rowcount": 13349,
       "schema": {
         "fields": [
-          {
-            "name": "ID",
-            "duplicates": 11442,
-            "type": "integer",
-            "missing": 0,
-            "mean": 51296485701,
-            "sd": 297021650.590062,
-            "min": 51001090100,
-            "max": 51840000302
-          },
           {
             "name": "time",
             "duplicates": 13342,
@@ -4148,6 +5106,408 @@
             "max": 80.65
           },
           {
+            "name": "ems_access_scores:ems_fca",
+            "duplicates": 11675,
+            "type": "float",
+            "missing": 11454,
+            "mean": 0.000324,
+            "sd": 0.000132,
+            "min": 0.000144,
+            "max": 0.001361
+          },
+          {
+            "name": "ems_access_scores:ems_2sfca",
+            "duplicates": 11798,
+            "type": "float",
+            "missing": 11450,
+            "mean": 0.000136,
+            "sd": 0.000092,
+            "min": 2e-06,
+            "max": 0.000597
+          },
+          {
+            "name": "ems_access_scores:ems_e2sfca",
+            "duplicates": 11470,
+            "type": "float",
+            "missing": 11450,
+            "mean": 0.000139,
+            "sd": 0.000137,
+            "min": 0,
+            "max": 0.001141
+          },
+          {
+            "name": "ems_access_scores:ems_3sfca",
+            "duplicates": 11456,
+            "info": {
+              "category": "Health",
+              "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_ems_access_scores",
+              "full_name": "ems_access_scores:ems_3sfca",
+              "measure": "ems_3sfca",
+              "type": "index",
+              "short_name": "Emergency medical services access score",
+              "long_name": "Emergency medical services access score (3-step floating catchment areas)",
+              "short_description": "Index of emergency medical services accessibility based on supply and demand of facilities",
+              "long_description": "Emergency medical services access score based on 3-step floating catchment areas. This method is an aggregation of facilities per population ratios weighted by distance or travel time in each catchment area (area within which a facility is accessible). Weights are defined for the demand for facilities (adult population).",
+              "statement": "The emergency medical services accessibility score for {features.name} is  {value}",
+              "citations": [
+                "lou04",
+                "lou09",
+                "lou03",
+                "saxon20"
+              ],
+              "source": [
+                {
+                  "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
+                  "date_accessed": 2021,
+                  "url": "https://hifld-geoplatform.opendata.arcgis.com/"
+                }
+              ]
+            },
+            "type": "float",
+            "missing": 11450,
+            "mean": 0.00014,
+            "sd": 0.000132,
+            "min": 0.000012,
+            "max": 0.001356
+          },
+          {
+            "name": "ems_access_scores:ems_cnt",
+            "duplicates": 13342,
+            "info": {
+              "category": "Health",
+              "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_ems_access_scores",
+              "full_name": "ems_access_scores:ems_cnt",
+              "measure": "ems_cnt",
+              "type": "count",
+              "short_name": "Emergency medical services access (count)",
+              "long_name": "Access to emergency medical services by count",
+              "short_description": "Count of emergency medical services facilities based on facility locations",
+              "long_description": "Count of emergency medical services facilities based on facility locations. Location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository.",
+              "statement": "There are {value} emergency medical services facilities in {features.name}",
+              "source": [
+                {
+                  "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
+                  "date_accessed": 2021,
+                  "url": "https://hifld-geoplatform.opendata.arcgis.com/"
+                }
+              ]
+            },
+            "type": "integer",
+            "missing": 12580,
+            "mean": 1.453836,
+            "sd": 0.792717,
+            "min": 1,
+            "max": 6
+          },
+          {
+            "name": "ems_access_scores:ems_pop_cnt",
+            "duplicates": 11710,
+            "type": "integer",
+            "missing": 11450,
+            "mean": 4449.587151,
+            "sd": 2030.424604,
+            "min": 0,
+            "max": 19438
+          },
+          {
+            "name": "ems_access_scores:ems_10near_mean",
+            "duplicates": 12123,
+            "type": "float",
+            "missing": 11451,
+            "mean": 14.241997,
+            "sd": 7.760298,
+            "min": 3.56,
+            "max": 56.02
+          },
+          {
+            "name": "ems_access_scores:ems_10near_median",
+            "duplicates": 12812,
+            "info": {
+              "category": "Health",
+              "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_ems_access_scores",
+              "full_name": "ems_access_scores:ems_10near_median",
+              "measure": "ems_10near_median",
+              "type": "float",
+              "short_name": "Emergency medical services access (drive time)",
+              "long_name": "Emergency medical services access by median drive time to the ten closest facilities in minutes",
+              "short_description": "Median drive time (minutes) to the ten closest emergency medical services facilities",
+              "long_description": "Median drive time in minutes to the ten closest emergency medical services facilities. Facility location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository. Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
+              "statement": "The median drive time to the ten closest emergency medical service facilities to {features.name} is {value} minutes",
+              "source": [
+                {
+                  "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
+                  "date_accessed": 2021,
+                  "url": "https://hifld-geoplatform.opendata.arcgis.com/"
+                }
+              ]
+            },
+            "type": "float",
+            "missing": 11451,
+            "mean": 14.895548,
+            "sd": 8.248019,
+            "min": 3.7,
+            "max": 60.75
+          },
+          {
+            "name": "ems_access_scores:ems_mean10",
+            "duplicates": 13348,
+            "type": "unknown",
+            "missing": 13349
+          },
+          {
+            "name": "ems_access_scores:ems_median10",
+            "duplicates": 13348,
+            "type": "unknown",
+            "missing": 13349
+          },
+          {
+            "name": "hospital_access_scores:hos_fca",
+            "duplicates": 13027,
+            "type": "float",
+            "missing": 11672,
+            "mean": 0.000289,
+            "sd": 0.000108,
+            "min": 0.000098,
+            "max": 0.000588
+          },
+          {
+            "name": "hospital_access_scores:hos_2sfca",
+            "duplicates": 12962,
+            "type": "float",
+            "missing": 11467,
+            "mean": 0.000014,
+            "sd": 9e-06,
+            "min": 1e-06,
+            "max": 0.000068
+          },
+          {
+            "name": "hospital_access_scores:hos_cnt",
+            "duplicates": 13345,
+            "type": "integer",
+            "missing": 13251,
+            "mean": 1.142857,
+            "sd": 0.430775,
+            "min": 1,
+            "max": 3
+          },
+          {
+            "name": "hospital_access_scores:hos_e2sfca",
+            "duplicates": 12499,
+            "type": "float",
+            "missing": 11450,
+            "mean": 0.000014,
+            "sd": 0.000016,
+            "min": 0,
+            "max": 0.000173
+          },
+          {
+            "name": "hospital_access_scores:hos_3sfca",
+            "duplicates": 12143,
+            "type": "float",
+            "missing": 11450,
+            "mean": 0.000013,
+            "sd": 0.000014,
+            "min": 0,
+            "max": 0.000156
+          },
+          {
+            "name": "hospital_access_scores:hos_pop_cnt",
+            "duplicates": 11710,
+            "type": "integer",
+            "missing": 11450,
+            "mean": 4449.587151,
+            "sd": 2030.424604,
+            "min": 0,
+            "max": 19438
+          },
+          {
+            "name": "hospital_access_scores:hos_10near_mean",
+            "duplicates": 11731,
+            "type": "float",
+            "missing": 11451,
+            "mean": 38.799763,
+            "sd": 21.615304,
+            "min": 8.1,
+            "max": 176.34
+          },
+          {
+            "name": "hospital_access_scores:hos_10near_median",
+            "duplicates": 12284,
+            "type": "float",
+            "missing": 11451,
+            "mean": 41.326396,
+            "sd": 24.015262,
+            "min": 8.05,
+            "max": 184.65
+          },
+          {
+            "name": "hospital_access_scores:hos_mean10",
+            "duplicates": 13348,
+            "type": "unknown",
+            "missing": 13349
+          },
+          {
+            "name": "hospital_access_scores:hos_median10",
+            "duplicates": 13348,
+            "type": "unknown",
+            "missing": 13349
+          },
+          {
+            "name": "mental_access_scores:mental_fca",
+            "duplicates": 12714,
+            "type": "float",
+            "missing": 11584,
+            "mean": 0.000302,
+            "sd": 0.000098,
+            "min": 0,
+            "max": 0.00072
+          },
+          {
+            "name": "mental_access_scores:mental_cnt",
+            "duplicates": 13344,
+            "info": {
+              "category": "Health",
+              "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_mental_access_scores",
+              "full_name": "mental_access_scores:mental_cnt",
+              "measure": "mental_cnt",
+              "type": "count",
+              "short_name": "Mental health services access (count)",
+              "long_name": "Access to mental health services by count",
+              "short_description": "Count of mental health facilities based on facility locations",
+              "long_description": "Count of mental health facilities based on facility locations. Location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository.",
+              "statement": "There are {value} mental health facilities in {features.name}",
+              "source": [
+                {
+                  "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
+                  "date_accessed": 2021,
+                  "url": "https://hifld-geoplatform.opendata.arcgis.com/"
+                }
+              ]
+            },
+            "type": "integer",
+            "missing": 13150,
+            "mean": 1.18593,
+            "sd": 0.492984,
+            "min": 1,
+            "max": 4
+          },
+          {
+            "name": "mental_access_scores:mental_2sfca",
+            "duplicates": 12728,
+            "type": "float",
+            "missing": 11465,
+            "mean": 0.000028,
+            "sd": 0.000016,
+            "min": 1e-06,
+            "max": 0.000109
+          },
+          {
+            "name": "mental_access_scores:mental_e2sfca",
+            "duplicates": 11993,
+            "type": "float",
+            "missing": 11450,
+            "mean": 0.000028,
+            "sd": 0.000029,
+            "min": 0,
+            "max": 0.000325
+          },
+          {
+            "name": "mental_access_scores:mental_3sfca",
+            "duplicates": 11704,
+            "info": {
+              "category": "Health",
+              "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_mental_access_scores",
+              "full_name": "mental_access_scores:mental_3sfca",
+              "measure": "mental_3sfca",
+              "type": "index",
+              "short_name": "Mental health services access score",
+              "long_name": "Mental health services access score (3-step  floating catchment areas)",
+              "short_description": "Index of mental health services accessibility based on supply and demand of facilities",
+              "long_description": "Mental health services access score based on 3-step floating catchment areas. This method is an aggregation of facilities per population ratios weighted by distance or travel time in each catchment area (area within which a facility is accessible). Weights are defined for the demand for facilities (adult population).",
+              "statement": "The mental health services accessibility score for {features.name} is  {value}",
+              "citations": [
+                "lou04",
+                "lou09",
+                "lou03",
+                "saxon20"
+              ],
+              "source": [
+                {
+                  "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
+                  "date_accessed": 2021,
+                  "url": "https://hifld-geoplatform.opendata.arcgis.com/"
+                }
+              ]
+            },
+            "type": "float",
+            "missing": 11450,
+            "mean": 0.000028,
+            "sd": 0.000025,
+            "min": 0,
+            "max": 0.00031
+          },
+          {
+            "name": "mental_access_scores:mental_pop_cnt",
+            "duplicates": 11710,
+            "type": "integer",
+            "missing": 11450,
+            "mean": 4449.587151,
+            "sd": 2030.424604,
+            "min": 0,
+            "max": 19438
+          },
+          {
+            "name": "mental_access_scores:mental_10near_mean",
+            "duplicates": 11844,
+            "type": "float",
+            "missing": 11451,
+            "mean": 25.649895,
+            "sd": 17.659988,
+            "min": 5.35,
+            "max": 180.78
+          },
+          {
+            "name": "mental_access_scores:mental_10near_median",
+            "duplicates": 12474,
+            "info": {
+              "category": "Health",
+              "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_mental_access_scores",
+              "full_name": "mental_access_scores:mental_10near_median",
+              "measure": "mental_10near_median",
+              "type": "float",
+              "short_name": "Mental health services access (drive time)",
+              "long_name": "Mental health services access by median drive time to the ten closest facilities in minutes",
+              "short_description": "Median drive time (minutes) to the ten closest mental health services facilities",
+              "long_description": "Median drive time in minutes to the ten closest mental health services facilities. Facility location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository. Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
+              "statement": "The median drive time to the ten closest mental health service facilities to {features.name} is {value} minutes",
+              "source": [
+                {
+                  "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
+                  "date_accessed": 2021,
+                  "url": "https://hifld-geoplatform.opendata.arcgis.com/"
+                }
+              ]
+            },
+            "type": "float",
+            "missing": 11451,
+            "mean": 26.58588,
+            "sd": 18.848798,
+            "min": 2.8,
+            "max": 179.75
+          },
+          {
+            "name": "mental_access_scores:mental_mean10",
+            "duplicates": 13348,
+            "type": "unknown",
+            "missing": 13349
+          },
+          {
+            "name": "mental_access_scores:mental_median10",
+            "duplicates": 13348,
+            "type": "unknown",
+            "missing": 13349
+          },
+          {
             "name": "obgyn_access_scores:obgyn_fca",
             "duplicates": 12267,
             "type": "float",
@@ -4530,6 +5890,98 @@
             "sd": 7.381215,
             "min": 0.3,
             "max": 53.8
+          },
+          {
+            "name": "substance_access_scores:subs_fca",
+            "duplicates": 12721,
+            "type": "float",
+            "missing": 11621,
+            "mean": 0.000275,
+            "sd": 0.000083,
+            "min": 0,
+            "max": 0.000792
+          },
+          {
+            "name": "substance_access_scores:subs_2sfca",
+            "duplicates": 12747,
+            "type": "float",
+            "missing": 11462,
+            "mean": 0.000024,
+            "sd": 9e-06,
+            "min": 1e-06,
+            "max": 0.000072
+          },
+          {
+            "name": "substance_access_scores:subs_cnt",
+            "duplicates": 13345,
+            "type": "integer",
+            "missing": 13172,
+            "mean": 1.141243,
+            "sd": 0.380407,
+            "min": 1,
+            "max": 3
+          },
+          {
+            "name": "substance_access_scores:subs_e2sfca",
+            "duplicates": 12043,
+            "type": "float",
+            "missing": 11450,
+            "mean": 0.000024,
+            "sd": 0.000021,
+            "min": 0,
+            "max": 0.000191
+          },
+          {
+            "name": "substance_access_scores:subs_3sfca",
+            "duplicates": 11759,
+            "type": "float",
+            "missing": 11450,
+            "mean": 0.000024,
+            "sd": 0.000018,
+            "min": 0,
+            "max": 0.000188
+          },
+          {
+            "name": "substance_access_scores:subs_pop_cnt",
+            "duplicates": 11710,
+            "type": "integer",
+            "missing": 11450,
+            "mean": 4449.587151,
+            "sd": 2030.424604,
+            "min": 0,
+            "max": 19438
+          },
+          {
+            "name": "substance_access_scores:subs_10near_mean",
+            "duplicates": 11818,
+            "type": "float",
+            "missing": 11451,
+            "mean": 28.288325,
+            "sd": 20.247889,
+            "min": 6.39,
+            "max": 159.27
+          },
+          {
+            "name": "substance_access_scores:subs_10near_median",
+            "duplicates": 12460,
+            "type": "float",
+            "missing": 11451,
+            "mean": 29.151686,
+            "sd": 21.909248,
+            "min": 3.85,
+            "max": 179.3
+          },
+          {
+            "name": "substance_access_scores:subs_mean10",
+            "duplicates": 13348,
+            "type": "unknown",
+            "missing": 13349
+          },
+          {
+            "name": "substance_access_scores:subs_median10",
+            "duplicates": 13348,
+            "type": "unknown",
+            "missing": 13349
           }
         ]
       },

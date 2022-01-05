@@ -80,13 +80,11 @@ page_menu(
     type = "col",
     wraps = "row form-row",
     input_select(
-      "Health District", options = "levels",
-      variable = "ID", dataset = "district", dataview = "primary_view",
+      "Health District", options = "ids", dataset = "district", dataview = "primary_view",
       id = "selected_district", reset_button = TRUE
     ),
     input_select(
-      "County", options = "levels",
-      variable = "ID", dataset = "county", dataview = "primary_view",
+      "County", options = "ids", dataset = "county", dataview = "primary_view",
       id = "selected_county", reset_button = TRUE
     ),
     conditions = c("", "selected_district")
@@ -301,4 +299,5 @@ page_section(
 )
 
 # render the site
-site_build('../community_example', variables = c('ID', names(vars)))
+vars <- jsonlite::read_json('../community_example/docs/data/measure_info.json')
+site_build('../community_example', variables = names(vars))

@@ -42,8 +42,8 @@ page_navbar(
           "Selected Region are filtered by region selection."
         )
       ),
-      input_number("Variable Min", "variable_min", min = -Inf, max = Inf, step = .0001, floating_label = FALSE),
-      input_number("Variable Max", "variable_max", min = -Inf, max = Inf, step = .0001, floating_label = FALSE),
+      input_number("Variable Min", "variable_min", step = 1, floating_label = FALSE),
+      input_number("Variable Max", "variable_max", step = 1, floating_label = FALSE),
       '<p class="section-heading">Map Options</p>',
       input_switch("Show Background Shapes", id = "settings.background_shapes"),
       '<p class="section-heading">Plot Options</p>',

@@ -10,7 +10,7 @@ const site = {
         "bytes": 7179346,
         "encoding": "ISO-8859-1",
         "md5": "2361eda9f247f0479eaa9a67b35311fd",
-        "sha512": "pNGbrvn2h5PvaVH/DNeJxHmwr46ODFmhIbGSZC6Og+dwYJNyr9NgiUoBjmozykL518bEd4xSwUTWrJzwZLDUDA==",
+        "sha512": "a4d19baef9f68793ef6951ff0cd789c479b0af8e8e0c59a121b192642e8e83e770609372afd360894a018e6a33ca42f9d7c6c4778c52c144d6ac9cf064b0d40c",
         "format": "csv",
         "name": "tract",
         "filename": "tract.csv",
@@ -1194,7 +1194,7 @@ const site = {
         "bytes": 527566,
         "encoding": "ISO-8859-1",
         "md5": "3c12ff7a99fd277685ae34535442a84f",
-        "sha512": "4gAxl2nppGGSWQwk58lBnU8Z55tQYMbzsrj71hyIoe2zXqe+9IOsOgFGLjgL0I5wAQRGYKAzP7wQRiSXjgYOKw==",
+        "sha512": "e200319769e9a46192590c24e7c9419d4f19e79b5060c6f3b2b8fbd61c88a1edb35ea7bef483ac3a01462e380bd08e7001044660a0333fbc104624978e060e2b",
         "format": "csv",
         "name": "county",
         "filename": "county.csv",
@@ -2378,7 +2378,7 @@ const site = {
         "bytes": 143356,
         "encoding": "ISO-8859-1",
         "md5": "c827d25a633a7743890f3f90f8b0c18c",
-        "sha512": "CQX1Fx2LniySsqXikSHlg8zRIzdIjACYuwzcrb5Fk4aezA8bNLwgve2LDj6UCTdvFW3wc535elOJWL6jmQayDw==",
+        "sha512": "0905f5171d8b9e2c92b2a5e29121e583ccd12337488c0098bb0cdcadbe4593869ecc0f1b34bc20bded8b0e3e9409376f156df0739df97a538958bea39906b20f",
         "format": "csv",
         "name": "district",
         "filename": "health_district.csv",
@@ -4000,7 +4000,7 @@ const site = {
     "plotly": {
       "name": "Plotly",
       "url": "https://plotly.com",
-      "version": "2.6.3"
+      "version": "2.8.3"
     },
     "datatables": {
       "name": "DataTables",

@@ -1,6 +1,7 @@
 {
   "title": "Demographics and Health Access demo",
   "theme": "default",
+  "digits": 2,
   "metadata": {
     "package": "data/datapackage.json",
     "datasets": ["district", "county", "tract"],

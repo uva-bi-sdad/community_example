@@ -9,10 +9,10 @@
   },
   "resources": [
     {
-      "bytes": 143356,
+      "bytes": 166541,
       "encoding": "ISO-8859-1",
-      "md5": "c827d25a633a7743890f3f90f8b0c18c",
-      "sha512": "0905f5171d8b9e2c92b2a5e29121e583ccd12337488c0098bb0cdcadbe4593869ecc0f1b34bc20bded8b0e3e9409376f156df0739df97a538958bea39906b20f",
+      "md5": "3c47edf080561beeee7ed7eb8d01d1fb",
+      "sha512": "fd28a4a349d5f09d47cf0e314a8194494b3d37cbf15bf4a5c61ed3abf76ae6382ae608fc6e60d8e67cf683de2ea29c1c8b06fce397322c91f983ea6ac64d1bc4",
       "format": "csv",
       "name": "district",
       "filename": "health_district.csv",
@@ -25,7 +25,7 @@
       ],
       "time": "time",
       "profile": "data-resource",
-      "created": "2022-01-04 10:48:36",
+      "created": "2022-01-12 17:40:13",
       "last_modified": "2021-11-29 21:36:30",
       "rowcount": 245,
       "schema": {
@@ -44,6 +44,171 @@
             "sd": 2.004094,
             "min": 2015,
             "max": 2021
+          },
+          {
+            "name": "community_college_computer_sciences_fca:3sfca_capacity",
+            "duplicates": 244,
+            "info": {
+              "category": "Education",
+              "measure_table": "dc_education_training.va_cttr_nces_2020_community_college_computer_sciences_fca",
+              "full_name": "community_college_computer_sciences_fca:3sfca_capacity",
+              "measure": "3sfca_capacity",
+              "type": "index",
+              "short_name": "Community college computer science program access score",
+              "long_name": "Community college computer science program access score (3-step floating catchment areas)",
+              "short_description": "Index of community college computer science program accessibility based on supply and demand of programs",
+              "long_description": "Community college computer science program access score based on 3-step floating catchment areas. This method is an aggregation of programs per population ratios weighted by distance or travel time in each catchment area (area within which a program is accessible). Weights are defined for the demand for programs (adult population) and the supply is the capacity of programs (number of seats).",
+              "statement": "The community college computer science program accessibility score in {features.name} is {value}",
+              "citations": [
+                "lou04",
+                "lou09",
+                "lou03",
+                "saxon20"
+              ],
+              "source": [
+                {
+                  "name": "National Center for Education Statistics",
+                  "date_accessed": 2021,
+                  "url": "https://nces.ed.gov"
+                }
+              ]
+            },
+            "type": "unknown",
+            "missing": 245
+          },
+          {
+            "name": "community_college_computer_sciences_fca:2sfca30_capacity",
+            "duplicates": 244,
+            "type": "unknown",
+            "missing": 245
+          },
+          {
+            "name": "community_college_computer_sciences_fca:norm_3sfca",
+            "duplicates": 244,
+            "type": "unknown",
+            "missing": 245
+          },
+          {
+            "name": "community_college_computer_sciences_fca:norm_2sfca",
+            "duplicates": 244,
+            "type": "unknown",
+            "missing": 245
+          },
+          {
+            "name": "community_college_computer_sciences_fca:program_capacity",
+            "duplicates": 244,
+            "type": "unknown",
+            "missing": 245
+          },
+          {
+            "name": "community_college_engineering_fca:3sfca_capacity",
+            "duplicates": 244,
+            "info": {
+              "category": "Education",
+              "measure_table": "dc_education_training.va_cttr_nces_2020_community_college_engineering_fca",
+              "full_name": "community_college_engineering_fca:3sfca_capacity",
+              "measure": "3sfca_capacity",
+              "type": "index",
+              "short_name": "Community college engineering program access score",
+              "long_name": "Community college engineering program access score (3-step floating catchment areas)",
+              "short_description": "Index of community college engineering program accessibility based on supply and demand of programs",
+              "long_description": "Community college engineering program access score based on 3-step floating catchment areas. This method is an aggregation of programs per population ratios weighted by distance or travel time in each catchment area (area within which a program is accessible). Weights are defined for the demand for programs (adult population) and the supply is the capacity of programs (number of seats).",
+              "statement": "The community college engineering program accessibility score in {features.name} is {value}",
+              "citations": [
+                "lou04",
+                "lou09",
+                "lou03",
+                "saxon20"
+              ],
+              "source": [
+                {
+                  "name": "National Center for Education Statistics",
+                  "date_accessed": 2021,
+                  "url": "https://nces.ed.gov"
+                }
+              ]
+            },
+            "type": "unknown",
+            "missing": 245
+          },
+          {
+            "name": "community_college_engineering_fca:2sfca30_capacity",
+            "duplicates": 244,
+            "type": "unknown",
+            "missing": 245
+          },
+          {
+            "name": "community_college_engineering_fca:norm_3sfca",
+            "duplicates": 244,
+            "type": "unknown",
+            "missing": 245
+          },
+          {
+            "name": "community_college_engineering_fca:norm_2sfca",
+            "duplicates": 244,
+            "type": "unknown",
+            "missing": 245
+          },
+          {
+            "name": "community_college_engineering_fca:program_capacity",
+            "duplicates": 244,
+            "type": "unknown",
+            "missing": 245
+          },
+          {
+            "name": "community_college_engineering_related_fca:3sfca_capacity",
+            "duplicates": 244,
+            "info": {
+              "category": "Education",
+              "measure_table": "dc_education_training.va_cttr_nces_2020_community_college_engineering_related_fca",
+              "full_name": "community_college_engineering_related_fca:3sfca_capacity",
+              "measure": "3sfca_capacity",
+              "type": "index",
+              "short_name": "Community college engineering-related program access score",
+              "long_name": "Community college engineering-related program access score (3-step floating catchment areas)",
+              "short_description": "Index of community college engineering-related program accessibility based on supply and demand of programs",
+              "long_description": "Community college engineering-related program access score based on 3-step floating catchment areas. This method is an aggregation of programs per population ratios weighted by distance or travel time in each catchment area (area within which a program is accessible). Weights are defined for the demand for programs (adult population) and the supply is the capacity of programs (number of seats).",
+              "statement": "The community college engineering-related program accessibility score in {features.name} is {value}",
+              "citations": [
+                "lou04",
+                "lou09",
+                "lou03",
+                "saxon20"
+              ],
+              "source": [
+                {
+                  "name": "National Center for Education Statistics",
+                  "date_accessed": 2021,
+                  "url": "https://nces.ed.gov"
+                }
+              ]
+            },
+            "type": "unknown",
+            "missing": 245
+          },
+          {
+            "name": "community_college_engineering_related_fca:2sfca30_capacity",
+            "duplicates": 244,
+            "type": "unknown",
+            "missing": 245
+          },
+          {
+            "name": "community_college_engineering_related_fca:norm_3sfca",
+            "duplicates": 244,
+            "type": "unknown",
+            "missing": 245
+          },
+          {
+            "name": "community_college_engineering_related_fca:norm_2sfca",
+            "duplicates": 244,
+            "type": "unknown",
+            "missing": 245
+          },
+          {
+            "name": "community_college_engineering_related_fca:program_capacity",
+            "duplicates": 244,
+            "type": "unknown",
+            "missing": 245
           },
           {
             "name": "preventable_hospitalizations:prevent_hosp_rate",
@@ -492,6 +657,64 @@
             "sd": 70.831214,
             "min": 14,
             "max": 300.9
+          },
+          {
+            "name": "percent_poor_ment_hlth_days_14_and_over:perc_poor_ment_hlth_days_14_and_over",
+            "duplicates": 69,
+            "info": {
+              "category": "Health",
+              "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2015_2019_percent_poor_ment_hlth_days_14_and_over",
+              "full_name": "percent_poor_phys_hlth_days_14_and_over:perc_poor_ment_hlth_days_14_and_over",
+              "measure": "perc_poor_ment_hlth_days_14_and_over",
+              "type": "percent",
+              "short_name": "Poor mental health population",
+              "long_name": "Percent of the population with poor mental health",
+              "short_description": "Percent of the population self-reporting poor mental health",
+              "long_description": "Percent of the population self-reporting poor mental health in over 14 days of the previous month. Based on the Virginia Behavioral Risk Factor Surveillance Survey.",
+              "statement": "{value} percent of the population in {features.name} report poor mental health",
+              "source": [
+                {
+                  "name": "Virginia Behavioral Risk Factor Surveillance System",
+                  "date_accessed": 2021,
+                  "url": "https://www.vdh.virginia.gov/brfss/"
+                }
+              ]
+            },
+            "type": "float",
+            "missing": 70,
+            "mean": 11.048201,
+            "sd": 1.174356,
+            "min": 7.521238,
+            "max": 14.813225
+          },
+          {
+            "name": "percent_poor_phys_hlth_days_14_and_over:perc_poor_phys_hlth_days_14_and_over",
+            "duplicates": 69,
+            "info": {
+              "category": "Health",
+              "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2015_2019_percent_poor_phys_hlth_days_14_and_over",
+              "full_name": "percent_poor_phys_hlth_days_14_and_over:perc_poor_phys_hlth_days_14_and_over",
+              "measure": "perc_poor_phys_hlth_days_14_and_over",
+              "type": "percent",
+              "short_name": "Poor physical health population",
+              "long_name": "Percent of the population with poor physical health",
+              "short_description": "Percent of the population self-reporting poor physical health",
+              "long_description": "Percent of the population self-reporting poor physical health in over 14 days of the previous month. Based on the Virginia Behavioral Risk Factor Surveillance Survey.",
+              "statement": "{value} percent of the population in {features.name} report poor physical health",
+              "source": [
+                {
+                  "name": "Virginia Behavioral Risk Factor Surveillance System",
+                  "date_accessed": 2021,
+                  "url": "https://www.vdh.virginia.gov/brfss/"
+                }
+              ]
+            },
+            "type": "float",
+            "missing": 70,
+            "mean": 11.833136,
+            "sd": 1.657853,
+            "min": 7.186778,
+            "max": 16.728716
           },
           {
             "name": "dei_index:norm_dei",
@@ -1678,6 +1901,138 @@
             "max": 37.155394
           },
           {
+            "name": "perc_income_on_internet:perc_income_avg_nat_package",
+            "duplicates": 209,
+            "info": {
+              "category": "Broadband",
+              "measure_table": "dc_digital_communications.va_hdcttr_sdad_2021_perc_income_on_internet",
+              "full_name": "perc_income_on_internet:perc_income_avg_nat_package",
+              "measure": "perc_income_avg_nat_package",
+              "type": "percent",
+              "short_name": "Percent of income for internet (average)",
+              "long_name": "The national average price for internet as a percent of average income",
+              "short_description": "The national average price for internet ($64) as a percent of average income",
+              "long_description": "The national average price for internet ($64) as a percent of average income.",
+              "statement": "The national average internet package costs {value} percent of the average income in {features.name}",
+              "source": [
+                {
+                  "name": "American Community Survey",
+                  "date_accessed": 2021,
+                  "url": "https://www.census.gov/programs-surveys/acs.html"
+                },
+                {
+                  "name": "Broadband Now",
+                  "date_accessed": 2021,
+                  "url": "https://broadbandnow.com/"
+                }
+              ]
+            },
+            "type": "float",
+            "missing": 210,
+            "mean": 1.361309,
+            "sd": 0.449782,
+            "min": 0.562911,
+            "max": 2.118177
+          },
+          {
+            "name": "perc_income_on_internet:perc_income_med_price_100",
+            "duplicates": 209,
+            "type": "float",
+            "missing": 210,
+            "mean": 1.820525,
+            "sd": 1.153125,
+            "min": 0.43588,
+            "max": 5.125668
+          },
+          {
+            "name": "perc_income_on_internet:perc_income_min_price_25",
+            "duplicates": 209,
+            "info": {
+              "category": "Broadband",
+              "measure_table": "dc_digital_communications.va_hdcttr_sdad_2021_perc_income_on_internet",
+              "full_name": "perc_income_on_internet:perc_income_min_price_25",
+              "measure": "perc_income_min_price_25",
+              "type": "percent",
+              "short_name": "Percent of income for good internet",
+              "long_name": "The minimum price for good internet (25 MB/s upload) as a percent of average income",
+              "short_description": "The minimum price for good internet (25 MB/s upload) as a percent of average income",
+              "long_description": "The minimum price for good internet (25 MB/s upload) as a percent of average income.",
+              "statement": "Good internet costs {value} percent of the average income in {features.name}",
+              "source": [
+                {
+                  "name": "American Community Survey",
+                  "date_accessed": 2021,
+                  "url": "https://www.census.gov/programs-surveys/acs.html"
+                },
+                {
+                  "name": "Broadband Now",
+                  "date_accessed": 2021,
+                  "url": "https://broadbandnow.com/"
+                }
+              ]
+            },
+            "type": "float",
+            "missing": 210,
+            "mean": 0.698765,
+            "sd": 0.247293,
+            "min": 0.295953,
+            "max": 1.2042
+          },
+          {
+            "name": "perc_income_on_internet:perc_income_min_price_100_plus",
+            "duplicates": 209,
+            "type": "float",
+            "missing": 210,
+            "mean": 1.017119,
+            "sd": 0.461873,
+            "min": 0.353256,
+            "max": 2.675938
+          },
+          {
+            "name": "perc_income_on_internet:perc_income_med_price_25",
+            "duplicates": 209,
+            "type": "float",
+            "missing": 210,
+            "mean": 1.745921,
+            "sd": 0.529979,
+            "min": 0.864725,
+            "max": 3.055572
+          },
+          {
+            "name": "perc_income_on_internet:perc_income_min_price_100",
+            "duplicates": 209,
+            "info": {
+              "category": "Broadband",
+              "measure_table": "dc_digital_communications.va_hdcttr_sdad_2021_perc_income_on_internet",
+              "full_name": "perc_income_on_internet:perc_income_min_price_100",
+              "measure": "perc_income_min_price_100",
+              "type": "percent",
+              "short_name": "Percent of income for fast internet",
+              "long_name": "The minimum price for fast internet (100 MB/s upload) as a percent of average income",
+              "short_description": "The minimum price for fast internet (100 MB/s upload) as a percent of average income",
+              "long_description": "The minimum price for fast internet (100 MB/s upload) as a percent of average income.",
+              "statement": "Fast internet costs {value} percent of the average income in {features.name}",
+              "source": [
+                {
+                  "name": "American Community Survey",
+                  "date_accessed": 2021,
+                  "url": "https://www.census.gov/programs-surveys/acs.html"
+                },
+                {
+                  "name": "Broadband Now",
+                  "date_accessed": 2021,
+                  "url": "https://broadbandnow.com/"
+                }
+              ]
+            },
+            "type": "float",
+            "missing": 210,
+            "mean": 1.368519,
+            "sd": 0.944688,
+            "min": 0.367349,
+            "max": 5.080614
+          },
+          {
             "name": "primary_care_access_scores:prim_fca",
             "duplicates": 209,
             "type": "float",
@@ -2058,10 +2413,10 @@
       }
     },
     {
-      "bytes": 527566,
+      "bytes": 619447,
       "encoding": "ISO-8859-1",
-      "md5": "3c12ff7a99fd277685ae34535442a84f",
-      "sha512": "e200319769e9a46192590c24e7c9419d4f19e79b5060c6f3b2b8fbd61c88a1edb35ea7bef483ac3a01462e380bd08e7001044660a0333fbc104624978e060e2b",
+      "md5": "333b8d8d6a871251e5ef71cfd4f5944c",
+      "sha512": "86db271e4a1aedb1acf9bc807b58d4745580573544ce3f7b2cd8fb2e313ff61f29c96669f788c5b5b1d253c25a1d40e461c32839bd822ed3e0047baa784a5429",
       "format": "csv",
       "name": "county",
       "filename": "county.csv",
@@ -2074,7 +2429,7 @@
       ],
       "time": "time",
       "profile": "data-resource",
-      "created": "2022-01-04 10:48:36",
+      "created": "2022-01-12 17:40:12",
       "last_modified": "2021-11-29 21:36:30",
       "rowcount": 938,
       "schema": {
@@ -2093,6 +2448,231 @@
             "sd": 2.001067,
             "min": 2015,
             "max": 2021
+          },
+          {
+            "name": "community_college_computer_sciences_fca:3sfca_capacity",
+            "duplicates": 854,
+            "info": {
+              "category": "Education",
+              "measure_table": "dc_education_training.va_cttr_nces_2020_community_college_computer_sciences_fca",
+              "full_name": "community_college_computer_sciences_fca:3sfca_capacity",
+              "measure": "3sfca_capacity",
+              "type": "index",
+              "short_name": "Community college computer science program access score",
+              "long_name": "Community college computer science program access score (3-step floating catchment areas)",
+              "short_description": "Index of community college computer science program accessibility based on supply and demand of programs",
+              "long_description": "Community college computer science program access score based on 3-step floating catchment areas. This method is an aggregation of programs per population ratios weighted by distance or travel time in each catchment area (area within which a program is accessible). Weights are defined for the demand for programs (adult population) and the supply is the capacity of programs (number of seats).",
+              "statement": "The community college computer science program accessibility score in {features.name} is {value}",
+              "citations": [
+                "lou04",
+                "lou09",
+                "lou03",
+                "saxon20"
+              ],
+              "source": [
+                {
+                  "name": "National Center for Education Statistics",
+                  "date_accessed": 2021,
+                  "url": "https://nces.ed.gov"
+                }
+              ]
+            },
+            "type": "float",
+            "missing": 805,
+            "mean": 0.411286,
+            "sd": 0.763623,
+            "min": 0,
+            "max": 4.686187
+          },
+          {
+            "name": "community_college_computer_sciences_fca:2sfca30_capacity",
+            "duplicates": 901,
+            "type": "float",
+            "missing": 805,
+            "mean": 0.000296,
+            "sd": 0.000633,
+            "min": 0,
+            "max": 0.003674
+          },
+          {
+            "name": "community_college_computer_sciences_fca:norm_3sfca",
+            "duplicates": 854,
+            "type": "float",
+            "missing": 805,
+            "mean": 8.776565,
+            "sd": 16.295201,
+            "min": 0,
+            "max": 100
+          },
+          {
+            "name": "community_college_computer_sciences_fca:norm_2sfca",
+            "duplicates": 901,
+            "type": "float",
+            "missing": 805,
+            "mean": 8.053073,
+            "sd": 17.218681,
+            "min": 0,
+            "max": 100
+          },
+          {
+            "name": "community_college_computer_sciences_fca:program_capacity",
+            "duplicates": 919,
+            "type": "integer",
+            "missing": 912,
+            "mean": 185,
+            "sd": 508.928993,
+            "min": 0,
+            "max": 2068
+          },
+          {
+            "name": "community_college_engineering_fca:3sfca_capacity",
+            "duplicates": 892,
+            "info": {
+              "category": "Education",
+              "measure_table": "dc_education_training.va_cttr_nces_2020_community_college_engineering_fca",
+              "full_name": "community_college_engineering_fca:3sfca_capacity",
+              "measure": "3sfca_capacity",
+              "type": "index",
+              "short_name": "Community college engineering program access score",
+              "long_name": "Community college engineering program access score (3-step floating catchment areas)",
+              "short_description": "Index of community college engineering program accessibility based on supply and demand of programs",
+              "long_description": "Community college engineering program access score based on 3-step floating catchment areas. This method is an aggregation of programs per population ratios weighted by distance or travel time in each catchment area (area within which a program is accessible). Weights are defined for the demand for programs (adult population) and the supply is the capacity of programs (number of seats).",
+              "statement": "The community college engineering program accessibility score in {features.name} is {value}",
+              "citations": [
+                "lou04",
+                "lou09",
+                "lou03",
+                "saxon20"
+              ],
+              "source": [
+                {
+                  "name": "National Center for Education Statistics",
+                  "date_accessed": 2021,
+                  "url": "https://nces.ed.gov"
+                }
+              ]
+            },
+            "type": "float",
+            "missing": 805,
+            "mean": 0.481776,
+            "sd": 0.992555,
+            "min": 0,
+            "max": 6.768082
+          },
+          {
+            "name": "community_college_engineering_fca:2sfca30_capacity",
+            "duplicates": 916,
+            "type": "float",
+            "missing": 805,
+            "mean": 0.000068,
+            "sd": 0.000185,
+            "min": 0,
+            "max": 0.001598
+          },
+          {
+            "name": "community_college_engineering_fca:norm_3sfca",
+            "duplicates": 892,
+            "type": "float",
+            "missing": 805,
+            "mean": 7.118357,
+            "sd": 14.665234,
+            "min": 0,
+            "max": 100
+          },
+          {
+            "name": "community_college_engineering_fca:norm_2sfca",
+            "duplicates": 916,
+            "type": "float",
+            "missing": 805,
+            "mean": 4.227726,
+            "sd": 11.571513,
+            "min": 0,
+            "max": 100
+          },
+          {
+            "name": "community_college_engineering_fca:program_capacity",
+            "duplicates": 925,
+            "type": "integer",
+            "missing": 924,
+            "mean": 69.857143,
+            "sd": 104.623763,
+            "min": 0,
+            "max": 376
+          },
+          {
+            "name": "community_college_engineering_related_fca:3sfca_capacity",
+            "duplicates": 852,
+            "info": {
+              "category": "Education",
+              "measure_table": "dc_education_training.va_cttr_nces_2020_community_college_engineering_related_fca",
+              "full_name": "community_college_engineering_related_fca:3sfca_capacity",
+              "measure": "3sfca_capacity",
+              "type": "index",
+              "short_name": "Community college engineering-related program access score",
+              "long_name": "Community college engineering-related program access score (3-step floating catchment areas)",
+              "short_description": "Index of community college engineering-related program accessibility based on supply and demand of programs",
+              "long_description": "Community college engineering-related program access score based on 3-step floating catchment areas. This method is an aggregation of programs per population ratios weighted by distance or travel time in each catchment area (area within which a program is accessible). Weights are defined for the demand for programs (adult population) and the supply is the capacity of programs (number of seats).",
+              "statement": "The community college engineering-related program accessibility score in {features.name} is {value}",
+              "citations": [
+                "lou04",
+                "lou09",
+                "lou03",
+                "saxon20"
+              ],
+              "source": [
+                {
+                  "name": "National Center for Education Statistics",
+                  "date_accessed": 2021,
+                  "url": "https://nces.ed.gov"
+                }
+              ]
+            },
+            "type": "float",
+            "missing": 805,
+            "mean": 0.932239,
+            "sd": 1.684855,
+            "min": 0,
+            "max": 11.718285
+          },
+          {
+            "name": "community_college_engineering_related_fca:2sfca30_capacity",
+            "duplicates": 899,
+            "type": "float",
+            "missing": 805,
+            "mean": 0.000475,
+            "sd": 0.001049,
+            "min": 0,
+            "max": 0.007536
+          },
+          {
+            "name": "community_college_engineering_related_fca:norm_3sfca",
+            "duplicates": 852,
+            "type": "float",
+            "missing": 805,
+            "mean": 7.955421,
+            "sd": 14.377999,
+            "min": 0,
+            "max": 100
+          },
+          {
+            "name": "community_college_engineering_related_fca:norm_2sfca",
+            "duplicates": 899,
+            "type": "float",
+            "missing": 805,
+            "mean": 6.3058,
+            "sd": 13.91632,
+            "min": 0,
+            "max": 100
+          },
+          {
+            "name": "community_college_engineering_related_fca:program_capacity",
+            "duplicates": 915,
+            "type": "integer",
+            "missing": 915,
+            "mean": 152.086957,
+            "sd": 174.295964,
+            "min": 2,
+            "max": 658
           },
           {
             "name": "preventable_hospitalizations:prevent_hosp_rate",
@@ -2541,6 +3121,64 @@
             "sd": 66.24042,
             "min": 10.1,
             "max": 322.7
+          },
+          {
+            "name": "percent_poor_ment_hlth_days_14_and_over:perc_poor_ment_hlth_days_14_and_over",
+            "duplicates": 272,
+            "info": {
+              "category": "Health",
+              "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2015_2019_percent_poor_ment_hlth_days_14_and_over",
+              "full_name": "percent_poor_phys_hlth_days_14_and_over:perc_poor_ment_hlth_days_14_and_over",
+              "measure": "perc_poor_ment_hlth_days_14_and_over",
+              "type": "percent",
+              "short_name": "Poor mental health population",
+              "long_name": "Percent of the population with poor mental health",
+              "short_description": "Percent of the population self-reporting poor mental health",
+              "long_description": "Percent of the population self-reporting poor mental health in over 14 days of the previous month. Based on the Virginia Behavioral Risk Factor Surveillance Survey.",
+              "statement": "{value} percent of the population in {features.name} report poor mental health",
+              "source": [
+                {
+                  "name": "Virginia Behavioral Risk Factor Surveillance System",
+                  "date_accessed": 2021,
+                  "url": "https://www.vdh.virginia.gov/brfss/"
+                }
+              ]
+            },
+            "type": "float",
+            "missing": 273,
+            "mean": 10.962406,
+            "sd": 2.182188,
+            "min": 5.804278,
+            "max": 25.048169
+          },
+          {
+            "name": "percent_poor_phys_hlth_days_14_and_over:perc_poor_phys_hlth_days_14_and_over",
+            "duplicates": 272,
+            "info": {
+              "category": "Health",
+              "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2015_2019_percent_poor_phys_hlth_days_14_and_over",
+              "full_name": "percent_poor_phys_hlth_days_14_and_over:perc_poor_phys_hlth_days_14_and_over",
+              "measure": "perc_poor_phys_hlth_days_14_and_over",
+              "type": "percent",
+              "short_name": "Poor physical health population",
+              "long_name": "Percent of the population with poor physical health",
+              "short_description": "Percent of the population self-reporting poor physical health",
+              "long_description": "Percent of the population self-reporting poor physical health in over 14 days of the previous month. Based on the Virginia Behavioral Risk Factor Surveillance Survey.",
+              "statement": "{value} percent of the population in {features.name} report poor physical health",
+              "source": [
+                {
+                  "name": "Virginia Behavioral Risk Factor Surveillance System",
+                  "date_accessed": 2021,
+                  "url": "https://www.vdh.virginia.gov/brfss/"
+                }
+              ]
+            },
+            "type": "float",
+            "missing": 273,
+            "mean": 12.1872,
+            "sd": 2.853325,
+            "min": 5.148652,
+            "max": 28.945499
           },
           {
             "name": "dei_index:norm_dei",
@@ -3727,6 +4365,138 @@
             "max": 59.1
           },
           {
+            "name": "perc_income_on_internet:perc_income_avg_nat_package",
+            "duplicates": 804,
+            "info": {
+              "category": "Broadband",
+              "measure_table": "dc_digital_communications.va_hdcttr_sdad_2021_perc_income_on_internet",
+              "full_name": "perc_income_on_internet:perc_income_avg_nat_package",
+              "measure": "perc_income_avg_nat_package",
+              "type": "percent",
+              "short_name": "Percent of income for internet (average)",
+              "long_name": "The national average price for internet as a percent of average income",
+              "short_description": "The national average price for internet ($64) as a percent of average income",
+              "long_description": "The national average price for internet ($64) as a percent of average income.",
+              "statement": "The national average internet package costs {value} percent of the average income in {features.name}",
+              "source": [
+                {
+                  "name": "American Community Survey",
+                  "date_accessed": 2021,
+                  "url": "https://www.census.gov/programs-surveys/acs.html"
+                },
+                {
+                  "name": "Broadband Now",
+                  "date_accessed": 2021,
+                  "url": "https://broadbandnow.com/"
+                }
+              ]
+            },
+            "type": "float",
+            "missing": 805,
+            "mean": 1.448584,
+            "sd": 0.470004,
+            "min": 0.562911,
+            "max": 2.85563
+          },
+          {
+            "name": "perc_income_on_internet:perc_income_med_price_100",
+            "duplicates": 807,
+            "type": "float",
+            "missing": 808,
+            "mean": 1.747501,
+            "sd": 0.965241,
+            "min": 0.43588,
+            "max": 5.125668
+          },
+          {
+            "name": "perc_income_on_internet:perc_income_min_price_25",
+            "duplicates": 807,
+            "info": {
+              "category": "Broadband",
+              "measure_table": "dc_digital_communications.va_hdcttr_sdad_2021_perc_income_on_internet",
+              "full_name": "perc_income_on_internet:perc_income_min_price_25",
+              "measure": "perc_income_min_price_25",
+              "type": "percent",
+              "short_name": "Percent of income for good internet",
+              "long_name": "The minimum price for good internet (25 MB/s upload) as a percent of average income",
+              "short_description": "The minimum price for good internet (25 MB/s upload) as a percent of average income",
+              "long_description": "The minimum price for good internet (25 MB/s upload) as a percent of average income.",
+              "statement": "Good internet costs {value} percent of the average income in {features.name}",
+              "source": [
+                {
+                  "name": "American Community Survey",
+                  "date_accessed": 2021,
+                  "url": "https://www.census.gov/programs-surveys/acs.html"
+                },
+                {
+                  "name": "Broadband Now",
+                  "date_accessed": 2021,
+                  "url": "https://broadbandnow.com/"
+                }
+              ]
+            },
+            "type": "float",
+            "missing": 808,
+            "mean": 0.781152,
+            "sd": 0.29151,
+            "min": 0.209531,
+            "max": 1.481631
+          },
+          {
+            "name": "perc_income_on_internet:perc_income_min_price_100_plus",
+            "duplicates": 807,
+            "type": "float",
+            "missing": 808,
+            "mean": 1.073206,
+            "sd": 0.447779,
+            "min": 0.226393,
+            "max": 3.252475
+          },
+          {
+            "name": "perc_income_on_internet:perc_income_med_price_25",
+            "duplicates": 807,
+            "type": "float",
+            "missing": 808,
+            "mean": 1.832604,
+            "sd": 0.51211,
+            "min": 0.816844,
+            "max": 3.181412
+          },
+          {
+            "name": "perc_income_on_internet:perc_income_min_price_100",
+            "duplicates": 807,
+            "info": {
+              "category": "Broadband",
+              "measure_table": "dc_digital_communications.va_hdcttr_sdad_2021_perc_income_on_internet",
+              "full_name": "perc_income_on_internet:perc_income_min_price_100",
+              "measure": "perc_income_min_price_100",
+              "type": "percent",
+              "short_name": "Percent of income for fast internet",
+              "long_name": "The minimum price for fast internet (100 MB/s upload) as a percent of average income",
+              "short_description": "The minimum price for fast internet (100 MB/s upload) as a percent of average income",
+              "long_description": "The minimum price for fast internet (100 MB/s upload) as a percent of average income.",
+              "statement": "Fast internet costs {value} percent of the average income in {features.name}",
+              "source": [
+                {
+                  "name": "American Community Survey",
+                  "date_accessed": 2021,
+                  "url": "https://www.census.gov/programs-surveys/acs.html"
+                },
+                {
+                  "name": "Broadband Now",
+                  "date_accessed": 2021,
+                  "url": "https://broadbandnow.com/"
+                }
+              ]
+            },
+            "type": "float",
+            "missing": 808,
+            "mean": 1.383119,
+            "sd": 0.803376,
+            "min": 0.260117,
+            "max": 5.080614
+          },
+          {
             "name": "primary_care_access_scores:prim_fca",
             "duplicates": 804,
             "type": "float",
@@ -4107,10 +4877,10 @@
       }
     },
     {
-      "bytes": 7179346,
+      "bytes": 8511824,
       "encoding": "ISO-8859-1",
-      "md5": "2361eda9f247f0479eaa9a67b35311fd",
-      "sha512": "a4d19baef9f68793ef6951ff0cd789c479b0af8e8e0c59a121b192642e8e83e770609372afd360894a018e6a33ca42f9d7c6c4778c52c144d6ac9cf064b0d40c",
+      "md5": "45fa3836d6ed8a99ab6f161a8fa794a4",
+      "sha512": "811ae0a73fba41a64f9588446622909ca11fcae5fe050b9e37a774f09c29644d192692178b684b7aab91e830f78dc90342cbc63db35a52af77d63b1820d2ad87",
       "format": "csv",
       "name": "tract",
       "filename": "tract.csv",
@@ -4123,7 +4893,7 @@
       ],
       "time": "time",
       "profile": "data-resource",
-      "created": "2022-01-04 10:48:38",
+      "created": "2022-01-12 17:40:13",
       "last_modified": "2021-11-29 21:36:30",
       "rowcount": 13349,
       "schema": {
@@ -4142,6 +4912,231 @@
             "sd": 2.000075,
             "min": 2015,
             "max": 2021
+          },
+          {
+            "name": "community_college_computer_sciences_fca:3sfca_capacity",
+            "duplicates": 13057,
+            "info": {
+              "category": "Education",
+              "measure_table": "dc_education_training.va_cttr_nces_2020_community_college_computer_sciences_fca",
+              "full_name": "community_college_computer_sciences_fca:3sfca_capacity",
+              "measure": "3sfca_capacity",
+              "type": "index",
+              "short_name": "Community college computer science program access score",
+              "long_name": "Community college computer science program access score (3-step floating catchment areas)",
+              "short_description": "Index of community college computer science program accessibility based on supply and demand of programs",
+              "long_description": "Community college computer science program access score based on 3-step floating catchment areas. This method is an aggregation of programs per population ratios weighted by distance or travel time in each catchment area (area within which a program is accessible). Weights are defined for the demand for programs (adult population) and the supply is the capacity of programs (number of seats).",
+              "statement": "The community college computer science program accessibility score in {features.name} is {value}",
+              "citations": [
+                "lou04",
+                "lou09",
+                "lou03",
+                "saxon20"
+              ],
+              "source": [
+                {
+                  "name": "National Center for Education Statistics",
+                  "date_accessed": 2021,
+                  "url": "https://nces.ed.gov"
+                }
+              ]
+            },
+            "type": "float",
+            "missing": 11451,
+            "mean": 1.06268,
+            "sd": 1.360826,
+            "min": 0,
+            "max": 6.091677
+          },
+          {
+            "name": "community_college_computer_sciences_fca:2sfca30_capacity",
+            "duplicates": 13229,
+            "type": "float",
+            "missing": 11451,
+            "mean": 0.000761,
+            "sd": 0.001061,
+            "min": 0,
+            "max": 0.004054
+          },
+          {
+            "name": "community_college_computer_sciences_fca:norm_3sfca",
+            "duplicates": 13057,
+            "type": "float",
+            "missing": 11451,
+            "mean": 17.444789,
+            "sd": 22.339108,
+            "min": 0,
+            "max": 100
+          },
+          {
+            "name": "community_college_computer_sciences_fca:norm_2sfca",
+            "duplicates": 13229,
+            "type": "float",
+            "missing": 11451,
+            "mean": 18.776083,
+            "sd": 26.16407,
+            "min": 0,
+            "max": 100
+          },
+          {
+            "name": "community_college_computer_sciences_fca:program_capacity",
+            "duplicates": 13328,
+            "type": "integer",
+            "missing": 13320,
+            "mean": 165.862069,
+            "sd": 479.73443,
+            "min": 0,
+            "max": 2058
+          },
+          {
+            "name": "community_college_engineering_fca:3sfca_capacity",
+            "duplicates": 13257,
+            "info": {
+              "category": "Education",
+              "measure_table": "dc_education_training.va_cttr_nces_2020_community_college_engineering_fca",
+              "full_name": "community_college_engineering_fca:3sfca_capacity",
+              "measure": "3sfca_capacity",
+              "type": "index",
+              "short_name": "Community college engineering program access score",
+              "long_name": "Community college engineering program access score (3-step floating catchment areas)",
+              "short_description": "Index of community college engineering program accessibility based on supply and demand of programs",
+              "long_description": "Community college engineering program access score based on 3-step floating catchment areas. This method is an aggregation of programs per population ratios weighted by distance or travel time in each catchment area (area within which a program is accessible). Weights are defined for the demand for programs (adult population) and the supply is the capacity of programs (number of seats).",
+              "statement": "The community college engineering program accessibility score in {features.name} is {value}",
+              "citations": [
+                "lou04",
+                "lou09",
+                "lou03",
+                "saxon20"
+              ],
+              "source": [
+                {
+                  "name": "National Center for Education Statistics",
+                  "date_accessed": 2021,
+                  "url": "https://nces.ed.gov"
+                }
+              ]
+            },
+            "type": "float",
+            "missing": 11454,
+            "mean": 1.040993,
+            "sd": 1.083832,
+            "min": 0,
+            "max": 8.977752
+          },
+          {
+            "name": "community_college_engineering_fca:2sfca30_capacity",
+            "duplicates": 13308,
+            "type": "float",
+            "missing": 11454,
+            "mean": 0.000152,
+            "sd": 0.000198,
+            "min": 0,
+            "max": 0.002289
+          },
+          {
+            "name": "community_college_engineering_fca:norm_3sfca",
+            "duplicates": 13257,
+            "type": "float",
+            "missing": 11454,
+            "mean": 11.595249,
+            "sd": 12.072415,
+            "min": 0,
+            "max": 100
+          },
+          {
+            "name": "community_college_engineering_fca:norm_2sfca",
+            "duplicates": 13308,
+            "type": "float",
+            "missing": 11454,
+            "mean": 6.634507,
+            "sd": 8.668652,
+            "min": 0,
+            "max": 100
+          },
+          {
+            "name": "community_college_engineering_fca:program_capacity",
+            "duplicates": 13336,
+            "type": "integer",
+            "missing": 13335,
+            "mean": 69.857143,
+            "sd": 104.623763,
+            "min": 0,
+            "max": 376
+          },
+          {
+            "name": "community_college_engineering_related_fca:3sfca_capacity",
+            "duplicates": 13149,
+            "info": {
+              "category": "Education",
+              "measure_table": "dc_education_training.va_cttr_nces_2020_community_college_engineering_related_fca",
+              "full_name": "community_college_engineering_related_fca:3sfca_capacity",
+              "measure": "3sfca_capacity",
+              "type": "index",
+              "short_name": "Community college engineering-related program access score",
+              "long_name": "Community college engineering-related program access score (3-step floating catchment areas)",
+              "short_description": "Index of community college engineering-related program accessibility based on supply and demand of programs",
+              "long_description": "Community college engineering-related program access score based on 3-step floating catchment areas. This method is an aggregation of programs per population ratios weighted by distance or travel time in each catchment area (area within which a program is accessible). Weights are defined for the demand for programs (adult population) and the supply is the capacity of programs (number of seats).",
+              "statement": "The community college engineering-related program accessibility score in {features.name} is {value}",
+              "citations": [
+                "lou04",
+                "lou09",
+                "lou03",
+                "saxon20"
+              ],
+              "source": [
+                {
+                  "name": "National Center for Education Statistics",
+                  "date_accessed": 2021,
+                  "url": "https://nces.ed.gov"
+                }
+              ]
+            },
+            "type": "float",
+            "missing": 11450,
+            "mean": 1.10571,
+            "sd": 1.711374,
+            "min": 0,
+            "max": 14.410786
+          },
+          {
+            "name": "community_college_engineering_related_fca:2sfca30_capacity",
+            "duplicates": 13268,
+            "type": "float",
+            "missing": 11450,
+            "mean": 0.000578,
+            "sd": 0.001002,
+            "min": 0,
+            "max": 0.008246
+          },
+          {
+            "name": "community_college_engineering_related_fca:norm_3sfca",
+            "duplicates": 13149,
+            "type": "float",
+            "missing": 11450,
+            "mean": 7.672794,
+            "sd": 11.875643,
+            "min": 0,
+            "max": 100
+          },
+          {
+            "name": "community_college_engineering_related_fca:norm_2sfca",
+            "duplicates": 13268,
+            "type": "float",
+            "missing": 11450,
+            "mean": 7.012314,
+            "sd": 12.15269,
+            "min": 0,
+            "max": 100
+          },
+          {
+            "name": "community_college_engineering_related_fca:program_capacity",
+            "duplicates": 13325,
+            "type": "integer",
+            "missing": 13325,
+            "mean": 145.75,
+            "sd": 173.26864,
+            "min": 0,
+            "max": 658
           },
           {
             "name": "preventable_hospitalizations:prevent_hosp_rate",
@@ -4582,6 +5577,64 @@
             "sd": 61.2115,
             "min": 4.8,
             "max": 343.6
+          },
+          {
+            "name": "percent_poor_ment_hlth_days_14_and_over:perc_poor_ment_hlth_days_14_and_over",
+            "duplicates": 3982,
+            "info": {
+              "category": "Health",
+              "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2015_2019_percent_poor_ment_hlth_days_14_and_over",
+              "full_name": "percent_poor_phys_hlth_days_14_and_over:perc_poor_ment_hlth_days_14_and_over",
+              "measure": "perc_poor_ment_hlth_days_14_and_over",
+              "type": "percent",
+              "short_name": "Poor mental health population",
+              "long_name": "Percent of the population with poor mental health",
+              "short_description": "Percent of the population self-reporting poor mental health",
+              "long_description": "Percent of the population self-reporting poor mental health in over 14 days of the previous month. Based on the Virginia Behavioral Risk Factor Surveillance Survey.",
+              "statement": "{value} percent of the population in {features.name} report poor mental health",
+              "source": [
+                {
+                  "name": "Virginia Behavioral Risk Factor Surveillance System",
+                  "date_accessed": 2021,
+                  "url": "https://www.vdh.virginia.gov/brfss/"
+                }
+              ]
+            },
+            "type": "float",
+            "missing": 3982,
+            "mean": 11.071789,
+            "sd": 2.920191,
+            "min": 4.251506,
+            "max": 30.963175
+          },
+          {
+            "name": "percent_poor_phys_hlth_days_14_and_over:perc_poor_phys_hlth_days_14_and_over",
+            "duplicates": 3981,
+            "info": {
+              "category": "Health",
+              "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2015_2019_percent_poor_phys_hlth_days_14_and_over",
+              "full_name": "percent_poor_phys_hlth_days_14_and_over:perc_poor_phys_hlth_days_14_and_over",
+              "measure": "perc_poor_phys_hlth_days_14_and_over",
+              "type": "percent",
+              "short_name": "Poor physical health population",
+              "long_name": "Percent of the population with poor physical health",
+              "short_description": "Percent of the population self-reporting poor physical health",
+              "long_description": "Percent of the population self-reporting poor physical health in over 14 days of the previous month. Based on the Virginia Behavioral Risk Factor Surveillance Survey.",
+              "statement": "{value} percent of the population in {features.name} report poor physical health",
+              "source": [
+                {
+                  "name": "Virginia Behavioral Risk Factor Surveillance System",
+                  "date_accessed": 2021,
+                  "url": "https://www.vdh.virginia.gov/brfss/"
+                }
+              ]
+            },
+            "type": "float",
+            "missing": 3982,
+            "mean": 11.662487,
+            "sd": 3.907468,
+            "min": 2.185034,
+            "max": 39.289661
           },
           {
             "name": "dei_index:norm_dei",
@@ -5766,6 +6819,138 @@
             "duplicates": 13348,
             "type": "unknown",
             "missing": 13349
+          },
+          {
+            "name": "perc_income_on_internet:perc_income_avg_nat_package",
+            "duplicates": 11531,
+            "info": {
+              "category": "Broadband",
+              "measure_table": "dc_digital_communications.va_hdcttr_sdad_2021_perc_income_on_internet",
+              "full_name": "perc_income_on_internet:perc_income_avg_nat_package",
+              "measure": "perc_income_avg_nat_package",
+              "type": "percent",
+              "short_name": "Percent of income for internet (average)",
+              "long_name": "The national average price for internet as a percent of average income",
+              "short_description": "The national average price for internet ($64) as a percent of average income",
+              "long_description": "The national average price for internet ($64) as a percent of average income.",
+              "statement": "The national average internet package costs {value} percent of the average income in {features.name}",
+              "source": [
+                {
+                  "name": "American Community Survey",
+                  "date_accessed": 2021,
+                  "url": "https://www.census.gov/programs-surveys/acs.html"
+                },
+                {
+                  "name": "Broadband Now",
+                  "date_accessed": 2021,
+                  "url": "https://broadbandnow.com/"
+                }
+              ]
+            },
+            "type": "float",
+            "missing": 11485,
+            "mean": 1.228956,
+            "sd": 0.910766,
+            "min": 0.307199,
+            "max": 27.988338
+          },
+          {
+            "name": "perc_income_on_internet:perc_income_med_price_100",
+            "duplicates": 11596,
+            "type": "float",
+            "missing": 11580,
+            "mean": 1.655486,
+            "sd": 1.387562,
+            "min": 0.191951,
+            "max": 15.186298
+          },
+          {
+            "name": "perc_income_on_internet:perc_income_min_price_25",
+            "duplicates": 11607,
+            "info": {
+              "category": "Broadband",
+              "measure_table": "dc_digital_communications.va_hdcttr_sdad_2021_perc_income_on_internet",
+              "full_name": "perc_income_on_internet:perc_income_min_price_25",
+              "measure": "perc_income_min_price_25",
+              "type": "percent",
+              "short_name": "Percent of income for good internet",
+              "long_name": "The minimum price for good internet (25 MB/s upload) as a percent of average income",
+              "short_description": "The minimum price for good internet (25 MB/s upload) as a percent of average income",
+              "long_description": "The minimum price for good internet (25 MB/s upload) as a percent of average income.",
+              "statement": "Good internet costs {value} percent of the average income in {features.name}",
+              "source": [
+                {
+                  "name": "American Community Survey",
+                  "date_accessed": 2021,
+                  "url": "https://www.census.gov/programs-surveys/acs.html"
+                },
+                {
+                  "name": "Broadband Now",
+                  "date_accessed": 2021,
+                  "url": "https://broadbandnow.com/"
+                }
+              ]
+            },
+            "type": "float",
+            "missing": 11580,
+            "mean": 0.609709,
+            "sd": 0.360966,
+            "min": 0.143951,
+            "max": 3.352711
+          },
+          {
+            "name": "perc_income_on_internet:perc_income_min_price_100_plus",
+            "duplicates": 11605,
+            "type": "float",
+            "missing": 11580,
+            "mean": 0.860718,
+            "sd": 0.595944,
+            "min": 0.168468,
+            "max": 6.073912
+          },
+          {
+            "name": "perc_income_on_internet:perc_income_med_price_25",
+            "duplicates": 11600,
+            "type": "float",
+            "missing": 11580,
+            "mean": 1.585262,
+            "sd": 0.835577,
+            "min": 0.391329,
+            "max": 9.501397
+          },
+          {
+            "name": "perc_income_on_internet:perc_income_min_price_100",
+            "duplicates": 11597,
+            "info": {
+              "category": "Broadband",
+              "measure_table": "dc_digital_communications.va_hdcttr_sdad_2021_perc_income_on_internet",
+              "full_name": "perc_income_on_internet:perc_income_min_price_100",
+              "measure": "perc_income_min_price_100",
+              "type": "percent",
+              "short_name": "Percent of income for fast internet",
+              "long_name": "The minimum price for fast internet (100 MB/s upload) as a percent of average income",
+              "short_description": "The minimum price for fast internet (100 MB/s upload) as a percent of average income",
+              "long_description": "The minimum price for fast internet (100 MB/s upload) as a percent of average income.",
+              "statement": "Fast internet costs {value} percent of the average income in {features.name}",
+              "source": [
+                {
+                  "name": "American Community Survey",
+                  "date_accessed": 2021,
+                  "url": "https://www.census.gov/programs-surveys/acs.html"
+                },
+                {
+                  "name": "Broadband Now",
+                  "date_accessed": 2021,
+                  "url": "https://broadbandnow.com/"
+                }
+              ]
+            },
+            "type": "float",
+            "missing": 11580,
+            "mean": 1.116287,
+            "sd": 0.976604,
+            "min": 0.168468,
+            "max": 11.115301
           },
           {
             "name": "primary_care_access_scores:prim_fca",

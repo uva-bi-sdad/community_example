@@ -19,10 +19,7 @@ page_navbar(
     backdrop = "false",
     items = list(
       input_switch("Dark Theme", id = "settings.theme_dark"),
-      input_select(
-        "Color Palette", options = "palettes", default = "rdylbu7", id = "settings.palette",
-        floating_label = FALSE
-      ),
+      input_select("Color Palette", options = "palettes", id = "settings.palette", floating_label = FALSE),
       input_switch(
         "Color by Order", id = "settings.color_by_order",
         title = paste(
@@ -31,7 +28,7 @@ page_navbar(
         )
       ),
       input_switch("Hide URL Settings", id = "settings.hide_url_parameters"),
-      input_number("Digits", "settings.digits", min = 0, max = 6, floating_label = FALSE),
+      input_number("Digits", "settings.digits", default = 2, min = 0, max = 6, floating_label = FALSE),
       input_select(
         "Summary Level", options = c("dataset", "filtered", "all"), default = "dataset",
         display = c("All Regions", "Selected Region Types", "Selected Region"), id = "settings.summary_selection",

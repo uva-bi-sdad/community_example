@@ -6,4 +6,4 @@
 *.Rproj
 node-module
 package-lock.json
-
+/docs/dist/

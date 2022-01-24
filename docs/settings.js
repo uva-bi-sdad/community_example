@@ -4,7 +4,7 @@ const site = {
   "metadata": {
     "package": "data/datapackage.json",
     "datasets": ["district", "county", "tract"],
-    "variables": ["2year_colleges_access_scores:norm_2sefca", "drive_times_nearest_2year_colleges:median_drive_time_top5", "3rd_grade_median_read_score:median_read_pass_rate", "daycare_services_access_scores:daycare_norm_3sfca", "daycare_services_access_scores:daycare_cnt", "drive_times_nearest_daycares:median_drive_time_top5", "dei_index:norm_dei", "dentist_access_scores:dent_e2sfca", "dentist_access_scores:dent_cnt", "download_speeds:download", "ems_access_scores:ems_3sfca", "ems_access_scores:ems_cnt", "ems_access_scores:ems_10near_median", "trade_schools_access_scores:norm_2sefca", "drive_times_nearest_trade_schools:median_drive_time_top5", "have_computer:perc_have_computer", "have_internet:perc_have_internet_access", "health_literacy_estimates:health_literacy_estimate", "no_health_insurance_19_to_64:no_hlth_ins_pct", "mental_access_scores:mental_3sfca", "mental_access_scores:mental_cnt", "mental_access_scores:mental_10near_median", "obgyn_access_scores:obgyn_e2sfca", "obgyn_access_scores:obgyn_cnt", "pct_pop_broadband:perc_w_broadband", "pct_pop_cable_fiber_dsl:perc_w_cable_fiber_DSL", "pediatrics_access_scores:ped_e2sfca", "pediatrics_access_scores:ped_cnt", "post_hs_education:perc_post_hs_edu", "preventable_hospitalizations:prevent_hosp_rate", "primary_care_access_scores:prim_e2sfca", "primary_care_access_scores:prim_cnt", "community_college_computer_sciences_fca:3sfca_capacity", "community_college_engineering_fca:3sfca_capacity", "community_college_engineering_related_fca:3sfca_capacity", "percent_poor_phys_hlth_days_14_and_over:perc_poor_phys_hlth_days_14_and_over", "percent_poor_ment_hlth_days_14_and_over:perc_poor_ment_hlth_days_14_and_over", "perc_income_on_internet:perc_income_min_price_100", "perc_income_on_internet:perc_income_min_price_25", "perc_income_on_internet:perc_income_avg_nat_package", "time"],
+    "variables": ["2year_colleges_access_scores:norm_2sefca", "drive_times_nearest_2year_colleges:median_drive_time_top5", "3rd_grade_median_read_score:median_read_pass_rate", "daycare_services_access_scores:daycare_norm_3sfca", "daycare_services_access_scores:daycare_cnt", "drive_times_nearest_daycares:median_drive_time_top5", "dei_index:norm_dei", "dentist_access_scores:dent_e2sfca", "dentist_access_scores:dent_cnt", "download_speeds:download", "ems_access_scores:ems_3sfca", "ems_access_scores:ems_cnt", "ems_access_scores:ems_10near_median", "trade_schools_access_scores:norm_2sefca", "drive_times_nearest_trade_schools:median_drive_time_top5", "have_computer:perc_have_computer", "have_internet:perc_have_internet_access", "health_literacy_estimates:health_literacy_estimate", "hospital_access_scores:hos_3sfca", "hospital_access_scores:hos_cnt", "hospital_access_scores:hos_10near_median", "no_health_insurance_19_to_64:no_hlth_ins_pct", "mental_access_scores:mental_3sfca", "mental_access_scores:mental_cnt", "mental_access_scores:mental_10near_median", "obgyn_access_scores:obgyn_e2sfca", "obgyn_access_scores:obgyn_cnt", "pct_pop_broadband:perc_w_broadband", "pct_pop_cable_fiber_dsl:perc_w_cable_fiber_DSL", "pediatrics_access_scores:ped_e2sfca", "pediatrics_access_scores:ped_cnt", "post_hs_education:perc_post_hs_edu", "preventable_hospitalizations:prevent_hosp_rate", "primary_care_access_scores:prim_e2sfca", "primary_care_access_scores:prim_cnt", "substance_access_scores:subs_3sfca", "substance_access_scores:subs_cnt", "substance_access_scores:subs_10near_median", "community_college_computer_sciences_fca:3sfca_capacity", "community_college_engineering_fca:3sfca_capacity", "community_college_engineering_related_fca:3sfca_capacity", "percent_poor_phys_hlth_days_14_and_over:perc_poor_phys_hlth_days_14_and_over", "percent_poor_ment_hlth_days_14_and_over:perc_poor_ment_hlth_days_14_and_over", "perc_income_on_internet:perc_income_min_price_100", "perc_income_on_internet:perc_income_min_price_25", "perc_income_on_internet:perc_income_avg_nat_package", "time"],
     "info": {
       "tract": {
         "bytes": 8511824,
@@ -585,6 +585,99 @@ const site = {
               "max": 3.005
             },
             {
+              "name": "hospital_access_scores:hos_3sfca",
+              "duplicates": 12143,
+              "info": {
+                "category": "Health",
+                "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_hospital_access_scores",
+                "full_name": "hospital_access_scores:hos_3sfca",
+                "measure": "hospital_3sfca",
+                "type": "index",
+                "short_name": "Hospital access score",
+                "long_name": "Hospital access score (3-step floating catchment areas)",
+                "short_description": "Index of hospital accessibility based on supply and demand of facilities",
+                "long_description": "Hospital access score based on 3-step floating catchment areas. This method is an aggregation of facilities per population ratios weighted by distance or travel time in each catchment area (area within which a facility is accessible). Weights are defined for the demand for facilities (adult population).",
+                "statement": "The hospital accessibility score for {features.name} is  {value}",
+                "citations": [
+                  "lou04",
+                  "lou09",
+                  "lou03",
+                  "saxon20"
+                ],
+                "source": [
+                  {
+                    "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
+                    "date_accessed": 2021,
+                    "url": "https://hifld-geoplatform.opendata.arcgis.com/"
+                  }
+                ]
+              },
+              "type": "float",
+              "missing": 11450,
+              "mean": 0,
+              "sd": 0,
+              "min": 0,
+              "max": 0.0002
+            },
+            {
+              "name": "hospital_access_scores:hos_cnt",
+              "duplicates": 13345,
+              "info": {
+                "category": "Health",
+                "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_hospital_access_scores",
+                "full_name": "hospital_access_scores:hos_cnt",
+                "measure": "hospital_cnt",
+                "type": "count",
+                "short_name": "Hospital access (count)",
+                "long_name": "Access to hospitals by count",
+                "short_description": "Count of hospitals based on facility locations",
+                "long_description": "Count of hospitals based on facility locations. Location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository.",
+                "statement": "There are {value} hospitals in {features.name}",
+                "source": [
+                  {
+                    "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
+                    "date_accessed": 2021,
+                    "url": "https://hifld-geoplatform.opendata.arcgis.com/"
+                  }
+                ]
+              },
+              "type": "integer",
+              "missing": 13251,
+              "mean": 1.1429,
+              "sd": 0.4308,
+              "min": 1,
+              "max": 3
+            },
+            {
+              "name": "hospital_access_scores:hos_10near_median",
+              "duplicates": 12284,
+              "info": {
+                "category": "Health",
+                "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_hospital_access_scores",
+                "full_name": "hospital_access_scores:hos_10near_median",
+                "measure": "hospital_10near_median",
+                "type": "float",
+                "short_name": "Hospital access (drive time)",
+                "long_name": "Hospital access by median drive time to the ten closest facilities in minutes",
+                "short_description": "Median drive time (minutes) to the ten closest hospital s",
+                "long_description": "Median drive time in minutes to the ten closest hospitals. Facility location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository. Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
+                "statement": "The median drive time to the ten closest hospitals to {features.name} is {value} minutes",
+                "source": [
+                  {
+                    "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
+                    "date_accessed": 2021,
+                    "url": "https://hifld-geoplatform.opendata.arcgis.com/"
+                  }
+                ]
+              },
+              "type": "float",
+              "missing": 11451,
+              "mean": 41.3264,
+              "sd": 24.0153,
+              "min": 8.05,
+              "max": 184.65
+            },
+            {
               "name": "no_health_insurance_19_to_64:no_hlth_ins_pct",
               "duplicates": 11872,
               "info": {
@@ -830,7 +923,7 @@ const site = {
             },
             {
               "name": "pediatrics_access_scores:ped_e2sfca",
-              "duplicates": 11642,
+              "duplicates": 11643,
               "info": {
                 "category": "Health",
                 "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_pediatrics_access_scores",
@@ -1009,6 +1102,99 @@ const site = {
               "sd": 41.2479,
               "min": 1,
               "max": 847
+            },
+            {
+              "name": "substance_access_scores:subs_3sfca",
+              "duplicates": 11759,
+              "info": {
+                "category": "Health",
+                "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_substance_access_scores",
+                "full_name": "substance_access_scores:subs_3sfca",
+                "measure": "substance_3sfca",
+                "type": "index",
+                "short_name": "Substance use/behavioral health services access score",
+                "long_name": "Substance use/behavioral health services access score (3-step floating catchment areas)",
+                "short_description": "Index of substance use/behavioral health services accessibility based on supply and demand of facilities",
+                "long_description": "Substance use/behavioral health services access score based on 3-step  floating catchment areas. This method is an aggregation of facilities per population ratios weighted by distance or travel time in each catchment area (area within which a facility is accessible). Weights are defined for the demand for facilities (adult population).",
+                "statement": "The substance use/behavioral health services accessibility score for {features.name} is  {value}",
+                "citations": [
+                  "lou04",
+                  "lou09",
+                  "lou03",
+                  "saxon20"
+                ],
+                "source": [
+                  {
+                    "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
+                    "date_accessed": 2021,
+                    "url": "https://hifld-geoplatform.opendata.arcgis.com/"
+                  }
+                ]
+              },
+              "type": "float",
+              "missing": 11450,
+              "mean": 0,
+              "sd": 0,
+              "min": 0,
+              "max": 0.0002
+            },
+            {
+              "name": "substance_access_scores:subs_cnt",
+              "duplicates": 13345,
+              "info": {
+                "category": "Health",
+                "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_substance_access_scores",
+                "full_name": "substance_access_scores:subs_cnt",
+                "measure": "substance_cnt",
+                "type": "count",
+                "short_name": "Substance use/behavioral health  access (count)",
+                "long_name": "Access to substance use/behavioral health  by count",
+                "short_description": "Count of substance use/behavioral health facilities based on facility locations",
+                "long_description": "Count of substance use/behavioral health facilities based on facility locations. Location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository.",
+                "statement": "There are {value} substance use facilities in {features.name}",
+                "source": [
+                  {
+                    "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
+                    "date_accessed": 2021,
+                    "url": "https://hifld-geoplatform.opendata.arcgis.com/"
+                  }
+                ]
+              },
+              "type": "integer",
+              "missing": 13172,
+              "mean": 1.1412,
+              "sd": 0.3804,
+              "min": 1,
+              "max": 3
+            },
+            {
+              "name": "substance_access_scores:subs_10near_median",
+              "duplicates": 12460,
+              "info": {
+                "category": "Health",
+                "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_substance_access_scores",
+                "full_name": "substance_access_scores:subs_10near_median",
+                "measure": "substance_10near_median",
+                "type": "float",
+                "short_name": "Substance use/behavioral health services access (drive time)",
+                "long_name": "Substance use/behavioral health services access by median drive time to the ten closest facilities in minutes",
+                "short_description": "Median drive time (minutes) to the ten closest substance use/behavioral health services facilities",
+                "long_description": "Median drive time in minutes to the ten closest substance use/behavioral health services facilities. Facility location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository. Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
+                "statement": "The median drive time to the ten closest substance use/behavioral health service facilities to {features.name} is {value} minutes",
+                "source": [
+                  {
+                    "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
+                    "date_accessed": 2021,
+                    "url": "https://hifld-geoplatform.opendata.arcgis.com/"
+                  }
+                ]
+              },
+              "type": "float",
+              "missing": 11451,
+              "mean": 29.1517,
+              "sd": 21.9092,
+              "min": 3.85,
+              "max": 179.3
             },
             {
               "name": "community_college_computer_sciences_fca:3sfca_capacity",
@@ -2034,6 +2220,95 @@ const site = {
               "max": 3.005
             },
             {
+              "name": "hospital_access_scores:hos_3sfca",
+              "duplicates": 804,
+              "info": {
+                "category": "Health",
+                "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_hospital_access_scores",
+                "full_name": "hospital_access_scores:hos_3sfca",
+                "measure": "hospital_3sfca",
+                "type": "index",
+                "short_name": "Hospital access score",
+                "long_name": "Hospital access score (3-step floating catchment areas)",
+                "short_description": "Index of hospital accessibility based on supply and demand of facilities",
+                "long_description": "Hospital access score based on 3-step floating catchment areas. This method is an aggregation of facilities per population ratios weighted by distance or travel time in each catchment area (area within which a facility is accessible). Weights are defined for the demand for facilities (adult population).",
+                "statement": "The hospital accessibility score for {features.name} is  {value}",
+                "citations": [
+                  "lou04",
+                  "lou09",
+                  "lou03",
+                  "saxon20"
+                ],
+                "source": [
+                  {
+                    "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
+                    "date_accessed": 2021,
+                    "url": "https://hifld-geoplatform.opendata.arcgis.com/"
+                  }
+                ]
+              },
+              "type": "float",
+              "missing": 805,
+              "mean": 0,
+              "sd": 0,
+              "min": 0,
+              "max": 0.0002
+            },
+            {
+              "name": "hospital_access_scores:hos_cnt",
+              "duplicates": 929,
+              "info": {
+                "category": "Health",
+                "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_hospital_access_scores",
+                "full_name": "hospital_access_scores:hos_cnt",
+                "measure": "hospital_cnt",
+                "type": "count",
+                "short_name": "Hospital access (count)",
+                "long_name": "Access to hospitals by count",
+                "short_description": "Count of hospitals based on facility locations",
+                "long_description": "Count of hospitals based on facility locations. Location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository.",
+                "statement": "There are {value} hospitals in {features.name}",
+                "source": [
+                  {
+                    "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
+                    "date_accessed": 2021,
+                    "url": "https://hifld-geoplatform.opendata.arcgis.com/"
+                  }
+                ]
+              },
+              "type": "integer",
+              "missing": 805,
+              "mean": 0.8421,
+              "sd": 1.2238,
+              "min": 0,
+              "max": 7
+            },
+            {
+              "name": "hospital_access_scores:hos_10near_median",
+              "duplicates": 937,
+              "info": {
+                "category": "Health",
+                "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_hospital_access_scores",
+                "full_name": "hospital_access_scores:hos_10near_median",
+                "measure": "hospital_10near_median",
+                "type": "float",
+                "short_name": "Hospital access (drive time)",
+                "long_name": "Hospital access by median drive time to the ten closest facilities in minutes",
+                "short_description": "Median drive time (minutes) to the ten closest hospital s",
+                "long_description": "Median drive time in minutes to the ten closest hospitals. Facility location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository. Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
+                "statement": "The median drive time to the ten closest hospitals to {features.name} is {value} minutes",
+                "source": [
+                  {
+                    "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
+                    "date_accessed": 2021,
+                    "url": "https://hifld-geoplatform.opendata.arcgis.com/"
+                  }
+                ]
+              },
+              "type": "unknown",
+              "missing": 938
+            },
+            {
               "name": "no_health_insurance_19_to_64:no_hlth_ins_pct",
               "duplicates": 612,
               "info": {
@@ -2458,6 +2733,95 @@ const site = {
               "sd": 341.3477,
               "min": 1,
               "max": 3152
+            },
+            {
+              "name": "substance_access_scores:subs_3sfca",
+              "duplicates": 804,
+              "info": {
+                "category": "Health",
+                "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_substance_access_scores",
+                "full_name": "substance_access_scores:subs_3sfca",
+                "measure": "substance_3sfca",
+                "type": "index",
+                "short_name": "Substance use/behavioral health services access score",
+                "long_name": "Substance use/behavioral health services access score (3-step floating catchment areas)",
+                "short_description": "Index of substance use/behavioral health services accessibility based on supply and demand of facilities",
+                "long_description": "Substance use/behavioral health services access score based on 3-step  floating catchment areas. This method is an aggregation of facilities per population ratios weighted by distance or travel time in each catchment area (area within which a facility is accessible). Weights are defined for the demand for facilities (adult population).",
+                "statement": "The substance use/behavioral health services accessibility score for {features.name} is  {value}",
+                "citations": [
+                  "lou04",
+                  "lou09",
+                  "lou03",
+                  "saxon20"
+                ],
+                "source": [
+                  {
+                    "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
+                    "date_accessed": 2021,
+                    "url": "https://hifld-geoplatform.opendata.arcgis.com/"
+                  }
+                ]
+              },
+              "type": "float",
+              "missing": 805,
+              "mean": 0,
+              "sd": 0,
+              "min": 0,
+              "max": 0.0001
+            },
+            {
+              "name": "substance_access_scores:subs_cnt",
+              "duplicates": 927,
+              "info": {
+                "category": "Health",
+                "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_substance_access_scores",
+                "full_name": "substance_access_scores:subs_cnt",
+                "measure": "substance_cnt",
+                "type": "count",
+                "short_name": "Substance use/behavioral health  access (count)",
+                "long_name": "Access to substance use/behavioral health  by count",
+                "short_description": "Count of substance use/behavioral health facilities based on facility locations",
+                "long_description": "Count of substance use/behavioral health facilities based on facility locations. Location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository.",
+                "statement": "There are {value} substance use facilities in {features.name}",
+                "source": [
+                  {
+                    "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
+                    "date_accessed": 2021,
+                    "url": "https://hifld-geoplatform.opendata.arcgis.com/"
+                  }
+                ]
+              },
+              "type": "integer",
+              "missing": 805,
+              "mean": 1.5188,
+              "sd": 2.3179,
+              "min": 0,
+              "max": 19
+            },
+            {
+              "name": "substance_access_scores:subs_10near_median",
+              "duplicates": 937,
+              "info": {
+                "category": "Health",
+                "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_substance_access_scores",
+                "full_name": "substance_access_scores:subs_10near_median",
+                "measure": "substance_10near_median",
+                "type": "float",
+                "short_name": "Substance use/behavioral health services access (drive time)",
+                "long_name": "Substance use/behavioral health services access by median drive time to the ten closest facilities in minutes",
+                "short_description": "Median drive time (minutes) to the ten closest substance use/behavioral health services facilities",
+                "long_description": "Median drive time in minutes to the ten closest substance use/behavioral health services facilities. Facility location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository. Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
+                "statement": "The median drive time to the ten closest substance use/behavioral health service facilities to {features.name} is {value} minutes",
+                "source": [
+                  {
+                    "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
+                    "date_accessed": 2021,
+                    "url": "https://hifld-geoplatform.opendata.arcgis.com/"
+                  }
+                ]
+              },
+              "type": "unknown",
+              "missing": 938
             },
             {
               "name": "community_college_computer_sciences_fca:3sfca_capacity",
@@ -3491,6 +3855,95 @@ const site = {
               "max": 0.2193
             },
             {
+              "name": "hospital_access_scores:hos_3sfca",
+              "duplicates": 209,
+              "info": {
+                "category": "Health",
+                "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_hospital_access_scores",
+                "full_name": "hospital_access_scores:hos_3sfca",
+                "measure": "hospital_3sfca",
+                "type": "index",
+                "short_name": "Hospital access score",
+                "long_name": "Hospital access score (3-step floating catchment areas)",
+                "short_description": "Index of hospital accessibility based on supply and demand of facilities",
+                "long_description": "Hospital access score based on 3-step floating catchment areas. This method is an aggregation of facilities per population ratios weighted by distance or travel time in each catchment area (area within which a facility is accessible). Weights are defined for the demand for facilities (adult population).",
+                "statement": "The hospital accessibility score for {features.name} is  {value}",
+                "citations": [
+                  "lou04",
+                  "lou09",
+                  "lou03",
+                  "saxon20"
+                ],
+                "source": [
+                  {
+                    "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
+                    "date_accessed": 2021,
+                    "url": "https://hifld-geoplatform.opendata.arcgis.com/"
+                  }
+                ]
+              },
+              "type": "float",
+              "missing": 210,
+              "mean": 0,
+              "sd": 9e-06,
+              "min": 4e-06,
+              "max": 0
+            },
+            {
+              "name": "hospital_access_scores:hos_cnt",
+              "duplicates": 237,
+              "info": {
+                "category": "Health",
+                "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_hospital_access_scores",
+                "full_name": "hospital_access_scores:hos_cnt",
+                "measure": "hospital_cnt",
+                "type": "count",
+                "short_name": "Hospital access (count)",
+                "long_name": "Access to hospitals by count",
+                "short_description": "Count of hospitals based on facility locations",
+                "long_description": "Count of hospitals based on facility locations. Location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository.",
+                "statement": "There are {value} hospitals in {features.name}",
+                "source": [
+                  {
+                    "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
+                    "date_accessed": 2021,
+                    "url": "https://hifld-geoplatform.opendata.arcgis.com/"
+                  }
+                ]
+              },
+              "type": "integer",
+              "missing": 210,
+              "mean": 3.2,
+              "sd": 1.6943,
+              "min": 1,
+              "max": 7
+            },
+            {
+              "name": "hospital_access_scores:hos_10near_median",
+              "duplicates": 244,
+              "info": {
+                "category": "Health",
+                "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_hospital_access_scores",
+                "full_name": "hospital_access_scores:hos_10near_median",
+                "measure": "hospital_10near_median",
+                "type": "float",
+                "short_name": "Hospital access (drive time)",
+                "long_name": "Hospital access by median drive time to the ten closest facilities in minutes",
+                "short_description": "Median drive time (minutes) to the ten closest hospital s",
+                "long_description": "Median drive time in minutes to the ten closest hospitals. Facility location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository. Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
+                "statement": "The median drive time to the ten closest hospitals to {features.name} is {value} minutes",
+                "source": [
+                  {
+                    "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
+                    "date_accessed": 2021,
+                    "url": "https://hifld-geoplatform.opendata.arcgis.com/"
+                  }
+                ]
+              },
+              "type": "unknown",
+              "missing": 245
+            },
+            {
               "name": "no_health_insurance_19_to_64:no_hlth_ins_pct",
               "duplicates": 77,
               "info": {
@@ -3915,6 +4368,95 @@ const site = {
               "sd": 581.3071,
               "min": 74,
               "max": 3360
+            },
+            {
+              "name": "substance_access_scores:subs_3sfca",
+              "duplicates": 209,
+              "info": {
+                "category": "Health",
+                "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_substance_access_scores",
+                "full_name": "substance_access_scores:subs_3sfca",
+                "measure": "substance_3sfca",
+                "type": "index",
+                "short_name": "Substance use/behavioral health services access score",
+                "long_name": "Substance use/behavioral health services access score (3-step floating catchment areas)",
+                "short_description": "Index of substance use/behavioral health services accessibility based on supply and demand of facilities",
+                "long_description": "Substance use/behavioral health services access score based on 3-step  floating catchment areas. This method is an aggregation of facilities per population ratios weighted by distance or travel time in each catchment area (area within which a facility is accessible). Weights are defined for the demand for facilities (adult population).",
+                "statement": "The substance use/behavioral health services accessibility score for {features.name} is  {value}",
+                "citations": [
+                  "lou04",
+                  "lou09",
+                  "lou03",
+                  "saxon20"
+                ],
+                "source": [
+                  {
+                    "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
+                    "date_accessed": 2021,
+                    "url": "https://hifld-geoplatform.opendata.arcgis.com/"
+                  }
+                ]
+              },
+              "type": "float",
+              "missing": 210,
+              "mean": 0,
+              "sd": 0,
+              "min": 4e-06,
+              "max": 0.0001
+            },
+            {
+              "name": "substance_access_scores:subs_cnt",
+              "duplicates": 232,
+              "info": {
+                "category": "Health",
+                "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_substance_access_scores",
+                "full_name": "substance_access_scores:subs_cnt",
+                "measure": "substance_cnt",
+                "type": "count",
+                "short_name": "Substance use/behavioral health  access (count)",
+                "long_name": "Access to substance use/behavioral health  by count",
+                "short_description": "Count of substance use/behavioral health facilities based on facility locations",
+                "long_description": "Count of substance use/behavioral health facilities based on facility locations. Location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository.",
+                "statement": "There are {value} substance use facilities in {features.name}",
+                "source": [
+                  {
+                    "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
+                    "date_accessed": 2021,
+                    "url": "https://hifld-geoplatform.opendata.arcgis.com/"
+                  }
+                ]
+              },
+              "type": "integer",
+              "missing": 210,
+              "mean": 5.7714,
+              "sd": 3.3614,
+              "min": 0,
+              "max": 19
+            },
+            {
+              "name": "substance_access_scores:subs_10near_median",
+              "duplicates": 244,
+              "info": {
+                "category": "Health",
+                "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_substance_access_scores",
+                "full_name": "substance_access_scores:subs_10near_median",
+                "measure": "substance_10near_median",
+                "type": "float",
+                "short_name": "Substance use/behavioral health services access (drive time)",
+                "long_name": "Substance use/behavioral health services access by median drive time to the ten closest facilities in minutes",
+                "short_description": "Median drive time (minutes) to the ten closest substance use/behavioral health services facilities",
+                "long_description": "Median drive time in minutes to the ten closest substance use/behavioral health services facilities. Facility location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository. Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
+                "statement": "The median drive time to the ten closest substance use/behavioral health service facilities to {features.name} is {value} minutes",
+                "source": [
+                  {
+                    "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
+                    "date_accessed": 2021,
+                    "url": "https://hifld-geoplatform.opendata.arcgis.com/"
+                  }
+                ]
+              },
+              "type": "unknown",
+              "missing": 245
             },
             {
               "name": "community_college_computer_sciences_fca:3sfca_capacity",
@@ -4782,7 +5324,7 @@ const site = {
     },
     "plotly": {
       "name": "Plotly",
-      "url": "https://plotly.com",
+      "url": "https://plotly.com/javascript/getting-started",
       "version": "2.8.3"
     },
     "datatables": {

@@ -10,11 +10,9 @@
     "short_description": "Index of 2-year college accessibility based on supply and demand of providers",
     "long_description": "2-year college access score based on 2-step enhanced floating catchment areas. This method is an aggregation of college capacity per population ratios weighted by distance or travel time in each catchment area (area within which an institution is accessible). Weights are defined for the demand for 2-year college (whole population in an area served by the institution) and supply is the total number of students enrolled in a year (graduate and undergraduate).",
     "statement": "The 2-year college accessibility score for {features.name} is {value}",
-    "citations": [
-      "lou04", "lou09", "lou03", "saxon20"
-    ],
+    "citations": ["lou04", "lou09", "lou03", "saxon20"],
     "source": [
-     {
+      {
         "name": "National Center for Education Statistics",
         "date_accessed": 2021,
         "url": "https://nces.ed.gov"
@@ -33,7 +31,7 @@
     "long_description": "Median drive time in minutes to the five closest 2-year colleges from centroid of selected region. Address data was collected from the National Center for Education Statistics (Dataset for year 2019). Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
     "statement": "The median drive time to the five closest 2-year colleges to {features.name} is {value} minutes",
     "source": [
-     {
+      {
         "name": "National Center for Education Statistics",
         "date_accessed": 2021,
         "url": "https://nces.ed.gov"
@@ -52,7 +50,7 @@
     "long_description": "Median percent of 3rd grade population passing reading test. The median is calculated across schools in the region.",
     "statement": "The median percent of 3rd graders with passing reading scores in {features.name} is {value} percent",
     "source": [
-     {
+      {
         "name": "Virginia Department of Education",
         "date_accessed": 2021,
         "url": "https://www.doe.virginia.gov/statistics_reports/sol-pass-rates/index.shtml"
@@ -70,9 +68,7 @@
     "short_description": "Index of day care accessibility based on supply of and demand for providers",
     "long_description": "Primary care access score based on 2-step enhanced floating catchment areas. This method is an aggregation of day care facilities per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Provider address data was collected from Virginia Department of Social Services day care search tool. The demand for day care services is the population 0-12 years old and the supply is the capacity of day cares (number of seats).",
     "statement": "The daycare accessibility score for {features.name} is {value}",
-    "citations": [
-      "lou04", "lou09", "lou03", "saxon20"
-    ],
+    "citations": ["lou04", "lou09", "lou03", "saxon20"],
     "source": [
       {
         "name": "Virginia Department of Social Services",
@@ -93,7 +89,7 @@
     "long_description": "Count of day care capacity (seats) based on provider locations. Address and capacity data was collected from Virginia Department of Social Services day care search tool.",
     "statement": "There are {value} daycares in {features.name}",
     "source": [
-     {
+      {
         "name": "Virginia Department of Social Services",
         "date_accessed": 2021,
         "url": "https://www.dss.virginia.gov/facility/search/cc.cgi"
@@ -112,7 +108,7 @@
     "long_description": "Median drive time in minutes to the five closest day cares from centroid of selected region. Address data was collected from the Virginia Department of Social Services Child Day Care Facility search (Dataset for year 2019). Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
     "statement": "The median drive time to the five closest day cares to {features.name} is {value} minutes",
     "source": [
-     {
+      {
         "name": "Virginia Department of Social Services",
         "date_accessed": 2021,
         "url": "https://www.dss.virginia.gov/facility/search/cc.cgi"
@@ -130,9 +126,7 @@
     "short_description": "Digital Equity Index captures the relative equity of digital access, with 0 being a score of relative equity and 100 being relative inequity.",
     "long_description": "The Digital Equity Index (DEI) is a composite variable indicating the degree of broadband equity as it relates to adoption, accessibility, and infrastructure. It ranges from 0 to 100, where 100 indicates the most equitable broadband access. The DEI is constructed at the Census tract level and is composed of the following variables: percent of the population under 65 years of age, percent of the population with at least a high school education, percent of the population with income below the poverty level, percent of the population without a disability, the ratio between the share of homes making $75,000 or more per year with internet and the share of homes making less than $35,000 per year without internet, percent of the population with at least one computer, percent of the population with internet access, percent of the population that is low income (less than 30% of HUD Area Median Family Income) and have a housing cost burden over 30%, and average download speeds, upload speeds, and latency from Ookla speed tests.",
     "statement": "The digital equity index for {features.name} is {value}",
-    "citations": [
-      "gallardo20"
-      ],
+    "citations": ["gallardo20"],
     "source": [
       {
         "name": "American Community Survey",
@@ -157,11 +151,9 @@
     "short_description": "Index of dental care accessibility based on supply and demand of providers",
     "long_description": "Dental care access score based on 2-step enhanced floating catchment areas. This method is an aggregation of dentists per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for dentists (population served by dentists). Provider address data was collected from WebMD's online Physician Directory.",
     "statement": "The dental care access score for {features.name} is {value}",
-    "citations": [
-      "lou04", "lou09", "lou03", "saxon20"
-    ],
+    "citations": ["lou04", "lou09", "lou03", "saxon20"],
     "source": [
-     {
+      {
         "name": "SafeGraph Core",
         "date_accessed": 2021,
         "url": "https://www.safegraph.com/products/core"
@@ -180,7 +172,7 @@
     "long_description": "Count of dentists based on provider locations. Address data was collected from WebMD's online Physician Directory.",
     "statement": "There are {value} dentists in {features.name}",
     "source": [
-     {
+      {
         "name": "SafeGraph Core",
         "date_accessed": 2021,
         "url": "https://www.safegraph.com/products/core"
@@ -217,11 +209,9 @@
     "short_description": "Index of emergency medical services accessibility based on supply and demand of facilities",
     "long_description": "Emergency medical services access score based on 3-step floating catchment areas. This method is an aggregation of facilities per population ratios weighted by distance or travel time in each catchment area (area within which a facility is accessible). Weights are defined for the demand for facilities (adult population).",
     "statement": "The emergency medical services accessibility score for {features.name} is  {value}",
-    "citations": [
-      "lou04", "lou09", "lou03", "saxon20"
-    ],
+    "citations": ["lou04", "lou09", "lou03", "saxon20"],
     "source": [
-     {
+      {
         "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
         "date_accessed": 2021,
         "url": "https://hifld-geoplatform.opendata.arcgis.com/"
@@ -240,7 +230,7 @@
     "long_description": "Count of emergency medical services facilities based on facility locations. Location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository.",
     "statement": "There are {value} emergency medical services facilities in {features.name}",
     "source": [
-     {
+      {
         "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
         "date_accessed": 2021,
         "url": "https://hifld-geoplatform.opendata.arcgis.com/"
@@ -259,7 +249,7 @@
     "long_description": "Median drive time in minutes to the ten closest emergency medical services facilities. Facility location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository. Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
     "statement": "The median drive time to the ten closest emergency medical service facilities to {features.name} is {value} minutes",
     "source": [
-     {
+      {
         "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
         "date_accessed": 2021,
         "url": "https://hifld-geoplatform.opendata.arcgis.com/"
@@ -277,11 +267,9 @@
     "short_description": "Index of trade school accessibility based on supply and demand of providers",
     "long_description": "Trade school  access score based on 2-step enhanced floating catchment areas. This method is an aggregation of trade school capacity per population ratios weighted by distance or travel time in each catchment area (area within which an institution is accessible). Weights are defined for the demand for trade schools (whole population in an area served by the institution) and supply is the total number of students enrolled in a year (undergraduate).",
     "statement": "The trade school accessibility score for {features.name} is  {value}",
-    "citations": [
-      "lou04", "lou09", "lou03", "saxon20"
-    ],
+    "citations": ["lou04", "lou09", "lou03", "saxon20"],
     "source": [
-     {
+      {
         "name": "National Center for Education Statistics",
         "date_accessed": 2021,
         "url": "https://nces.ed.gov"
@@ -300,7 +288,7 @@
     "long_description": "Median drive time in minutes to the five closest trade schools from centroid of selected region. Address data was collected from the National Center for Education Statistics (Dataset for year 2019). Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
     "statement": "The median drive time to the five closest trade schools to {features.name} is {value} minutes",
     "source": [
-     {
+      {
         "name": "National Center for Education Statistics",
         "date_accessed": 2021,
         "url": "https://nces.ed.gov"
@@ -356,26 +344,24 @@
     "short_description": "Health literacy estimate captures the adult population's ability to obtain, process, and understand basic health services to make appropriate health decisions",
     "long_description": "The health literacy estimate captures the adult population's ability to obtain, process, and understand basic health services to make appropriate health decisions. Health literacy estimate is based on variables of demographic characteristics, health status, and health care use.",
     "statement": "The health literacy estimate for {features.name} is {value}",
-    "citations": [
-      "stavitz20, liang17"
-      ],
+    "citations": ["stavitz20, liang17"],
     "source": [
-        {
-          "name": "Medical Expenditure Panel Survey",
-          "date_accessed": 2021,
-          "url": "https://www.meps.ahrq.gov/mepsweb/"
-        },
-        {
-          "name": "American Community Survey",
-          "date_accessed": 2021,
-          "url": "https://www.census.gov/programs-surveys/acs.html"
-        }
-      ]
+      {
+        "name": "Medical Expenditure Panel Survey",
+        "date_accessed": 2021,
+        "url": "https://www.meps.ahrq.gov/mepsweb/"
+      },
+      {
+        "name": "American Community Survey",
+        "date_accessed": 2021,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      }
+    ]
   },
-  "hospital_access_scores:hospital_3sfca": {
+  "hospital_access_scores:hos_3sfca": {
     "category": "Health",
     "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_hospital_access_scores",
-    "full_name": "hospital_access_scores:hospital_3sfca",
+    "full_name": "hospital_access_scores:hos_3sfca",
     "measure": "hospital_3sfca",
     "type": "index",
     "short_name": "Hospital access score",
@@ -383,21 +369,19 @@
     "short_description": "Index of hospital accessibility based on supply and demand of facilities",
     "long_description": "Hospital access score based on 3-step floating catchment areas. This method is an aggregation of facilities per population ratios weighted by distance or travel time in each catchment area (area within which a facility is accessible). Weights are defined for the demand for facilities (adult population).",
     "statement": "The hospital accessibility score for {features.name} is  {value}",
-    "citations": [
-      "lou04", "lou09", "lou03", "saxon20"
-    ],
+    "citations": ["lou04", "lou09", "lou03", "saxon20"],
     "source": [
-     {
+      {
         "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
         "date_accessed": 2021,
         "url": "https://hifld-geoplatform.opendata.arcgis.com/"
       }
     ]
   },
-  "hospital_access_scores:hospital_cnt": {
+  "hospital_access_scores:hos_cnt": {
     "category": "Health",
     "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_hospital_access_scores",
-    "full_name": "hospital_access_scores:hospital_cnt",
+    "full_name": "hospital_access_scores:hos_cnt",
     "measure": "hospital_cnt",
     "type": "count",
     "short_name": "Hospital access (count)",
@@ -406,17 +390,17 @@
     "long_description": "Count of hospitals based on facility locations. Location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository.",
     "statement": "There are {value} hospitals in {features.name}",
     "source": [
-     {
+      {
         "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
         "date_accessed": 2021,
         "url": "https://hifld-geoplatform.opendata.arcgis.com/"
       }
     ]
   },
-  "hospital_access_scores:hospital_10near_median": {
+  "hospital_access_scores:hos_10near_median": {
     "category": "Health",
     "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_hospital_access_scores",
-    "full_name": "hospital_access_scores:hospital_10near_median",
+    "full_name": "hospital_access_scores:hos_10near_median",
     "measure": "hospital_10near_median",
     "type": "float",
     "short_name": "Hospital access (drive time)",
@@ -425,7 +409,7 @@
     "long_description": "Median drive time in minutes to the ten closest hospitals. Facility location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository. Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
     "statement": "The median drive time to the ten closest hospitals to {features.name} is {value} minutes",
     "source": [
-     {
+      {
         "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
         "date_accessed": 2021,
         "url": "https://hifld-geoplatform.opendata.arcgis.com/"
@@ -462,11 +446,9 @@
     "short_description": "Index of mental health services accessibility based on supply and demand of facilities",
     "long_description": "Mental health services access score based on 3-step floating catchment areas. This method is an aggregation of facilities per population ratios weighted by distance or travel time in each catchment area (area within which a facility is accessible). Weights are defined for the demand for facilities (adult population).",
     "statement": "The mental health services accessibility score for {features.name} is  {value}",
-    "citations": [
-      "lou04", "lou09", "lou03", "saxon20"
-    ],
+    "citations": ["lou04", "lou09", "lou03", "saxon20"],
     "source": [
-     {
+      {
         "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
         "date_accessed": 2021,
         "url": "https://hifld-geoplatform.opendata.arcgis.com/"
@@ -485,7 +467,7 @@
     "long_description": "Count of mental health facilities based on facility locations. Location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository.",
     "statement": "There are {value} mental health facilities in {features.name}",
     "source": [
-     {
+      {
         "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
         "date_accessed": 2021,
         "url": "https://hifld-geoplatform.opendata.arcgis.com/"
@@ -504,7 +486,7 @@
     "long_description": "Median drive time in minutes to the ten closest mental health services facilities. Facility location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository. Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
     "statement": "The median drive time to the ten closest mental health service facilities to {features.name} is {value} minutes",
     "source": [
-     {
+      {
         "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
         "date_accessed": 2021,
         "url": "https://hifld-geoplatform.opendata.arcgis.com/"
@@ -522,9 +504,7 @@
     "short_description": "Index of OBGYN care accessibility based on supply and demand of providers",
     "long_description": "OBGYN care access score based on 2-step enhanced floating catchment areas. This method is an aggregation of OBGYNs per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for OBGYNs (population served by OBGYNs). Provider address data was collected from WebMD's online physician directory.",
     "statement": "The OBGYN access score for {features.name} is {value}",
-    "citations": [
-      "lou04", "lou09", "lou03", "saxon20"
-    ],
+    "citations": ["lou04", "lou09", "lou03", "saxon20"],
     "source": [
       {
         "name": "WebMD Physician Directory",
@@ -601,9 +581,7 @@
     "short_description": "Index of pediatric care physician accessibility based on supply and demand of providers",
     "long_description": "Pediatric care access score based on 2-step enhanced floating catchment areas. This method is an aggregation of pediatricians per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for pediatricians (population under 16). Provider address data was collected from WebMD's online Physician Directory.",
     "statement": "The pediatric care accessibility score for {features.name} is  {value}",
-    "citations": [
-      "lou04", "lou09", "lou03", "saxon20"
-    ],
+    "citations": ["lou04", "lou09", "lou03", "saxon20"],
     "source": [
       {
         "name": "WebMD Physician Directory",
@@ -662,7 +640,7 @@
     "long_description": "Rate of hospital stays for ambulatory-care sensitive conditions per 100,000 Medicare enrollees. Ambulatory care refers to diagnoses that are usually treatable in outpatient settings. This data is based on Medicare claims and comes from County Health Rankings.",
     "statement": "{value} percent of the hospitalizations in {features.name}  were preventable (due to conditions usually treated in outpatient settings)",
     "source": [
-     {
+      {
         "name": "County Health Rankings",
         "date_accessed": 2021,
         "url": "https://www.countyhealthrankings.org/app/virginia/2021/measure/factors/5/description"
@@ -680,9 +658,7 @@
     "short_description": "Index of primary care physician accessibility based on supply and demand of providers",
     "long_description": "Primary care access score based on 2-step enhanced floating catchment areas. This method is an aggregation of physicians per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for physicians (population served by physicians). Provider address data was collected from WebMD's online Physician Directory.",
     "statement": "The primary care accessibility score for {features.name}  is  {value}",
-    "citations": [
-      "lou04", "lou09", "lou03", "saxon20"
-    ],
+    "citations": ["lou04", "lou09", "lou03", "saxon20"],
     "source": [
       {
         "name": "WebMD Physician Directory",
@@ -709,10 +685,11 @@
         "url": "https://doctor.webmd.com/"
       }
     ]
-  }, "substance_access_scores:substance_3sfca": {
+  },
+  "substance_access_scores:subs_3sfca": {
     "category": "Health",
     "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_substance_access_scores",
-    "full_name": "substance_access_scores:substance_3sfca",
+    "full_name": "substance_access_scores:subs_3sfca",
     "measure": "substance_3sfca",
     "type": "index",
     "short_name": "Substance use/behavioral health services access score",
@@ -720,21 +697,19 @@
     "short_description": "Index of substance use/behavioral health services accessibility based on supply and demand of facilities",
     "long_description": "Substance use/behavioral health services access score based on 3-step  floating catchment areas. This method is an aggregation of facilities per population ratios weighted by distance or travel time in each catchment area (area within which a facility is accessible). Weights are defined for the demand for facilities (adult population).",
     "statement": "The substance use/behavioral health services accessibility score for {features.name} is  {value}",
-    "citations": [
-      "lou04", "lou09", "lou03", "saxon20"
-    ],
+    "citations": ["lou04", "lou09", "lou03", "saxon20"],
     "source": [
-     {
+      {
         "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
         "date_accessed": 2021,
         "url": "https://hifld-geoplatform.opendata.arcgis.com/"
       }
     ]
   },
-  "substance_access_scores:substance_cnt": {
+  "substance_access_scores:subs_cnt": {
     "category": "Health",
     "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_substance_access_scores",
-    "full_name": "substance_access_scores:substance_cnt",
+    "full_name": "substance_access_scores:subs_cnt",
     "measure": "substance_cnt",
     "type": "count",
     "short_name": "Substance use/behavioral health  access (count)",
@@ -743,17 +718,17 @@
     "long_description": "Count of substance use/behavioral health facilities based on facility locations. Location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository.",
     "statement": "There are {value} substance use facilities in {features.name}",
     "source": [
-     {
+      {
         "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
         "date_accessed": 2021,
         "url": "https://hifld-geoplatform.opendata.arcgis.com/"
       }
     ]
   },
-  "substance_access_scores:substance_10near_median": {
+  "substance_access_scores:subs_10near_median": {
     "category": "Health",
     "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_substance_access_scores",
-    "full_name": "substance_access_scores:substance_10near_median",
+    "full_name": "substance_access_scores:subs_10near_median",
     "measure": "substance_10near_median",
     "type": "float",
     "short_name": "Substance use/behavioral health services access (drive time)",
@@ -762,7 +737,7 @@
     "long_description": "Median drive time in minutes to the ten closest substance use/behavioral health services facilities. Facility location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository. Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
     "statement": "The median drive time to the ten closest substance use/behavioral health service facilities to {features.name} is {value} minutes",
     "source": [
-     {
+      {
         "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
         "date_accessed": 2021,
         "url": "https://hifld-geoplatform.opendata.arcgis.com/"
@@ -780,16 +755,14 @@
     "short_description": "Index of community college computer science program accessibility based on supply and demand of programs",
     "long_description": "Community college computer science program access score based on 3-step floating catchment areas. This method is an aggregation of programs per population ratios weighted by distance or travel time in each catchment area (area within which a program is accessible). Weights are defined for the demand for programs (adult population) and the supply is the capacity of programs (number of seats).",
     "statement": "The community college computer science program accessibility score in {features.name} is {value}",
-    "citations": [
-      "lou04", "lou09", "lou03", "saxon20"
-    ],
+    "citations": ["lou04", "lou09", "lou03", "saxon20"],
     "source": [
-     {
+      {
         "name": "National Center for Education Statistics",
         "date_accessed": 2021,
         "url": "https://nces.ed.gov"
-     }
-   ]
+      }
+    ]
   },
   "community_college_engineering_fca:3sfca_capacity": {
     "category": "Education",
@@ -802,16 +775,14 @@
     "short_description": "Index of community college engineering program accessibility based on supply and demand of programs",
     "long_description": "Community college engineering program access score based on 3-step floating catchment areas. This method is an aggregation of programs per population ratios weighted by distance or travel time in each catchment area (area within which a program is accessible). Weights are defined for the demand for programs (adult population) and the supply is the capacity of programs (number of seats).",
     "statement": "The community college engineering program accessibility score in {features.name} is {value}",
-    "citations": [
-      "lou04", "lou09", "lou03", "saxon20"
-    ],
+    "citations": ["lou04", "lou09", "lou03", "saxon20"],
     "source": [
-     {
+      {
         "name": "National Center for Education Statistics",
         "date_accessed": 2021,
         "url": "https://nces.ed.gov"
-     }
-   ]
+      }
+    ]
   },
   "community_college_engineering_related_fca:3sfca_capacity": {
     "category": "Education",
@@ -824,16 +795,14 @@
     "short_description": "Index of community college engineering-related program accessibility based on supply and demand of programs",
     "long_description": "Community college engineering-related program access score based on 3-step floating catchment areas. This method is an aggregation of programs per population ratios weighted by distance or travel time in each catchment area (area within which a program is accessible). Weights are defined for the demand for programs (adult population) and the supply is the capacity of programs (number of seats).",
     "statement": "The community college engineering-related program accessibility score in {features.name} is {value}",
-    "citations": [
-      "lou04", "lou09", "lou03", "saxon20"
-    ],
+    "citations": ["lou04", "lou09", "lou03", "saxon20"],
     "source": [
-     {
+      {
         "name": "National Center for Education Statistics",
         "date_accessed": 2021,
         "url": "https://nces.ed.gov"
-     }
-   ]
+      }
+    ]
   },
   "percent_poor_phys_hlth_days_14_and_over:perc_poor_phys_hlth_days_14_and_over": {
     "category": "Health",
@@ -847,7 +816,7 @@
     "long_description": "Percent of the population self-reporting poor physical health in over 14 days of the previous month. Based on the Virginia Behavioral Risk Factor Surveillance Survey.",
     "statement": "{value} percent of the population in {features.name} report poor physical health",
     "source": [
-     {
+      {
         "name": "Virginia Behavioral Risk Factor Surveillance System",
         "date_accessed": 2021,
         "url": "https://www.vdh.virginia.gov/brfss/"
@@ -866,7 +835,7 @@
     "long_description": "Percent of the population self-reporting poor mental health in over 14 days of the previous month. Based on the Virginia Behavioral Risk Factor Surveillance Survey.",
     "statement": "{value} percent of the population in {features.name} report poor mental health",
     "source": [
-     {
+      {
         "name": "Virginia Behavioral Risk Factor Surveillance System",
         "date_accessed": 2021,
         "url": "https://www.vdh.virginia.gov/brfss/"
@@ -945,170 +914,170 @@
       }
     ]
   },
-    "time": {
+  "time": {
     "type": "year",
     "short_name": "Year",
     "full_name": "time"
   },
   "_references": {
-      "lou04": {
-        "id": "lou04",
-        "author": [
-          {
-            "given": "Wei",
-            "family": "Lou"
-          }
-        ],
-        "year": 2004,
-        "title": "Using a gis-based floating catchment method to assess areas with shortage of physicians",
-        "journal": "Health & Place",
-        "volume": "10",
-        "number": 1,
-        "page": "1-11",
-        "doi": "10.1016/S1353-8292(02)00067-9"
-      },
-      "lou09": {
-        "id": "lou09",
-        "author": [
-          {
-            "given": "Wei",
-            "family": "Lou"
-          },
-          {
-            "given": "Yi",
-            "family": "Qi"
-          }
-        ],
-        "year": 2009,
-        "title": "An enhanced two-step floating catchment area (e2sfca) method for measuring spatial accessibility to primary care physicians",
-        "journal": "Health & Place",
-        "volume": "15",
-        "number": 4,
-        "page": "1100-1107",
-        "doi": "10.1016/j.healthplace.2009.06.002"
-      },
-      "lou03": {
-        "id": "lou03",
-        "author": [
-          {
-            "given": "Wei",
-            "family": "Lou"
-          },
-          {
-            "given": "Fahui",
-            "family": "Wang"
-          }
-        ],
-        "year": 2003,
-        "title": "Measures of spatial accessibility to health care in a gis environment: synthesis and a case study in the Chicago region",
-        "journal": "Environment and Planning B: Planning and Design",
-        "volume": "30",
-        "number": 6,
-        "page": "865-884",
-        "doi": "10.1068/b29120"
-      },
-      "saxon20": {
-        "id": "saxon20",
-        "author": [
-          {
-            "given": "James",
-            "family": "Saxon"
-          },
-          {
-            "given": "Julia",
-            "family": "Koschinsky"
-          },
-          {
-            "given": "Karina",
-            "family": "Acosta"
-          },
-          {
-            "given": "Vidal",
-            "family": "Anguiano"
-          },
-          {
-            "given": "Luc",
-            "family": "Anselin"
-          },
-          {
-            "given": "Sergio",
-            "family": "Rey"
-          }
-        ],
-        "year": 2020,
-        "title": "An Open Software Environment to Make Spatial Access Metrics More Accessible",
-        "journal": "University of Chicago: Center for Spatial Data Science",
-        "volume": "Preprint",
-        "doi": "10.13140/RG.2.2.12396.28807"
-      },
-      "gallardo20": {
-        "id": "gallardo20",
-        "author": [
-          {
-            "given": "Robert",
-            "family": "Gallardo"
-          }
-        ],
-        "year": 2020,
-        "title": "Digital Divide Index",
-        "journal": "Purdue Center for Regional Development",
-        "url": "http://pcrd.purdue.edu/ddi"
-      },
-      "liang17": {
-        "id": "liang17",
-        "author": [
-          {
-            "given": "Lan",
-            "family": "Liang"
-          },
-          {
-            "given": "Cindy",
-            "family": "Branch"
-          }
-        ],
-        "year": 2017,
-        "title": "Health Literacy Universal Precautions Are Still a Distant Dream: Analysis of U.S. Data on Health Literate Practices",
-        "journal": "Health Literacy Research and Practice",
-        "volume": "1",
-        "number": 4,
-        "page": "e216-e230",
-        "doi": "10.3928/24748307-20170929-01"
-      },
-      "savitz20": {
-        "id": "savitz20",
-        "author": [
-          {
-            "given": "Samuel",
-            "family": "Savitz"
-          },
-          {
-            "given": "Stacy",
-            "family": "Bailey"
-          },
-          {
-            "given": "Stacie",
-            "family": "Dusetzina"
-          },
-          {
-            "given": "W.",
-            "family": "Schuyler Jones"
-          },
-          {
-            "given": "Justin",
-            "family": "Trogdon"
-          },
-          {
-            "given": "Sally",
-            "family": "Stearns"
-          }
-        ],
-        "year": 2020,
-        "title": "Treatment selection and medication adherence for stable angina: The role of area-based health literacy",
-        "journal": "Journal of Evaluation in Clinical Practice",
-        "volume": "26",
-        "number": 6,
-        "page": "1711-1721",
-        "doi": "10.1111/jep.13341"
-      }
+    "lou04": {
+      "id": "lou04",
+      "author": [
+        {
+          "given": "Wei",
+          "family": "Lou"
+        }
+      ],
+      "year": 2004,
+      "title": "Using a gis-based floating catchment method to assess areas with shortage of physicians",
+      "journal": "Health & Place",
+      "volume": "10",
+      "number": 1,
+      "page": "1-11",
+      "doi": "10.1016/S1353-8292(02)00067-9"
+    },
+    "lou09": {
+      "id": "lou09",
+      "author": [
+        {
+          "given": "Wei",
+          "family": "Lou"
+        },
+        {
+          "given": "Yi",
+          "family": "Qi"
+        }
+      ],
+      "year": 2009,
+      "title": "An enhanced two-step floating catchment area (e2sfca) method for measuring spatial accessibility to primary care physicians",
+      "journal": "Health & Place",
+      "volume": "15",
+      "number": 4,
+      "page": "1100-1107",
+      "doi": "10.1016/j.healthplace.2009.06.002"
+    },
+    "lou03": {
+      "id": "lou03",
+      "author": [
+        {
+          "given": "Wei",
+          "family": "Lou"
+        },
+        {
+          "given": "Fahui",
+          "family": "Wang"
+        }
+      ],
+      "year": 2003,
+      "title": "Measures of spatial accessibility to health care in a gis environment: synthesis and a case study in the Chicago region",
+      "journal": "Environment and Planning B: Planning and Design",
+      "volume": "30",
+      "number": 6,
+      "page": "865-884",
+      "doi": "10.1068/b29120"
+    },
+    "saxon20": {
+      "id": "saxon20",
+      "author": [
+        {
+          "given": "James",
+          "family": "Saxon"
+        },
+        {
+          "given": "Julia",
+          "family": "Koschinsky"
+        },
+        {
+          "given": "Karina",
+          "family": "Acosta"
+        },
+        {
+          "given": "Vidal",
+          "family": "Anguiano"
+        },
+        {
+          "given": "Luc",
+          "family": "Anselin"
+        },
+        {
+          "given": "Sergio",
+          "family": "Rey"
+        }
+      ],
+      "year": 2020,
+      "title": "An Open Software Environment to Make Spatial Access Metrics More Accessible",
+      "journal": "University of Chicago: Center for Spatial Data Science",
+      "volume": "Preprint",
+      "doi": "10.13140/RG.2.2.12396.28807"
+    },
+    "gallardo20": {
+      "id": "gallardo20",
+      "author": [
+        {
+          "given": "Robert",
+          "family": "Gallardo"
+        }
+      ],
+      "year": 2020,
+      "title": "Digital Divide Index",
+      "journal": "Purdue Center for Regional Development",
+      "url": "http://pcrd.purdue.edu/ddi"
+    },
+    "liang17": {
+      "id": "liang17",
+      "author": [
+        {
+          "given": "Lan",
+          "family": "Liang"
+        },
+        {
+          "given": "Cindy",
+          "family": "Branch"
+        }
+      ],
+      "year": 2017,
+      "title": "Health Literacy Universal Precautions Are Still a Distant Dream: Analysis of U.S. Data on Health Literate Practices",
+      "journal": "Health Literacy Research and Practice",
+      "volume": "1",
+      "number": 4,
+      "page": "e216-e230",
+      "doi": "10.3928/24748307-20170929-01"
+    },
+    "savitz20": {
+      "id": "savitz20",
+      "author": [
+        {
+          "given": "Samuel",
+          "family": "Savitz"
+        },
+        {
+          "given": "Stacy",
+          "family": "Bailey"
+        },
+        {
+          "given": "Stacie",
+          "family": "Dusetzina"
+        },
+        {
+          "given": "W.",
+          "family": "Schuyler Jones"
+        },
+        {
+          "given": "Justin",
+          "family": "Trogdon"
+        },
+        {
+          "given": "Sally",
+          "family": "Stearns"
+        }
+      ],
+      "year": 2020,
+      "title": "Treatment selection and medication adherence for stable angina: The role of area-based health literacy",
+      "journal": "Journal of Evaluation in Clinical Practice",
+      "volume": "26",
+      "number": 6,
+      "page": "1711-1721",
+      "doi": "10.1111/jep.13341"
     }
+  }
 }

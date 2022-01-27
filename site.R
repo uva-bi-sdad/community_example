@@ -46,6 +46,10 @@ page_navbar(
       '<p class="section-heading">Plot Options</p>',
       input_select("Plot Type", c("scatter", "bar"), "scatter", id = "plot_type", floating_label = FALSE),
       input_switch("Box Plots", default_on = TRUE, id = "settings.boxplots"),
+      input_switch(
+        "Use IQR Whiskers", default_on = TRUE, id = "settings.iqr_box",
+        title = "Define the extreme fences of the box plots by 1.5 * interquartile range (true) or min and max (false)"
+      ),
       input_button("Clear Settings", "reset_storage", "clear_storage", class = "btn-danger footer")
     )
   ),
@@ -267,7 +271,8 @@ page_section(
             ),
             data = data.frame(
               type = c("plot_type", "box"), fillcolor = c(NA, "transparent"),
-              hoverinfo = "text", mode = "lines+markers", showlegend = FALSE, name = c(NA, "Summary")
+              hoverinfo = c("text", NA), mode = "lines+markers", showlegend = FALSE,
+              name = c(NA, "Summary"), marker.line.color = "#767676", marker.line.width = 1
             ),
             config = list(modeBarButtonsToRemove = c("select2d", "lasso2d", "sendDataToCloud"))
           )

@@ -1,6 +1,16 @@
 const site = {
-  "digits": 2,
-  "summary_selection": "all",
+  "settings": {
+    "iqr_box": true,
+    "digits": 2,
+    "summary_selection": "all",
+    "color_by_order": false,
+    "boxplots": true,
+    "theme_dark": false,
+    "partial_init": true,
+    "palette": "rdylbu7",
+    "hide_url_parameters": false,
+    "background_shapes": true
+  },
   "metadata": {
     "package": "data/datapackage.json",
     "datasets": ["district", "county", "tract"],
@@ -5239,15 +5249,18 @@ const site = {
           "type": "plot_type",
           "hoverinfo": "text",
           "mode": "lines+markers",
-          "showlegend": false
+          "showlegend": false,
+          "marker.line.color": "#767676",
+          "marker.line.width": 1
         },
         {
           "type": "box",
           "fillcolor": "transparent",
-          "hoverinfo": "text",
           "mode": "lines+markers",
           "showlegend": false,
-          "name": "Summary"
+          "name": "Summary",
+          "marker.line.color": "#767676",
+          "marker.line.width": 1
         }
       ],
       "subto": [
@@ -5332,20 +5345,5 @@ const site = {
       "url": "https://datatables.net",
       "version": "1.11.3"
     }
-  },
-  "color_by_order": false,
-  "boxplots": true,
-  "theme_dark": false,
-  "partial_init": true,
-  "settings": {
-    "digits": 3,
-    "summary_selection": "all",
-    "color_by_order": false,
-    "boxplots": true,
-    "theme_dark": false,
-    "partial_init": false,
-    "palette": "rdylbu7",
-    "hide_url_parameters": false,
-    "background_shapes": true
   }
 }

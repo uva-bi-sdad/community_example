@@ -140,9 +140,26 @@
 </div>
 <div state="open" class="menu-wrapper menu-top" style="top: 0; width: 100%">
 <div class="menu row menu-top">
+<div class="col-1">
+<div class="wrapper checkbox-wrapper">
+<fieldset>
+<legend>Starting Layer</legend>
+<div class="auto-input" role="group" auto-type="radio" id="starting_shapes" default="2" >
+<div class="form-check">
+<input type="radio" autocomplete="off" class="form-check-input" name="starting_shapes_options" id="starting_shapes_option1" value="district">
+<label class="form-check-label" for="starting_shapes_option1">Districts</label>
+</div>
+<div class="form-check">
+<input type="radio" autocomplete="off" class="form-check-input" name="starting_shapes_options" id="starting_shapes_option2" value="county" checked>
+<label class="form-check-label" for="starting_shapes_option2">Counties</label>
+</div>
+</div>
+</fieldset>
+</div>
+</div>
 <div class="col">
 <div class="col">
-<div class="row form-row">
+<div class="row form-row" id="sec31">
 <div class="wrapper select-wrapper">
 <div class="input-group form-floating">
 <select class="auto-input form-select" auto-type="select" id="selected_district" auto-options="ids" default="-1" data-view="primary_view" dataset="district">

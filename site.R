@@ -77,6 +77,10 @@ page_navbar(
 
 # use `input_` functions to add input elements that affect outputs
 page_menu(
+  input_checkbox(
+    "Starting Layer", c("district", "county"), "county", c("Districts", "Counties"),
+    id = "starting_shapes", multi = FALSE
+  ),
   page_section(
     type = "col",
     wraps = "row form-row",
@@ -88,7 +92,7 @@ page_menu(
       "County", options = "ids", dataset = "county", dataview = "primary_view",
       id = "selected_county", reset_button = TRUE
     ),
-    conditions = c("", "selected_district")
+    conditions = c("starting_shapes == district", "starting_shapes == county || selected_county")
   ),
   input_checkbox("Region Types", options = c("rural", "mixed", "urban"), id = "region_type", as.switch = TRUE),
   page_section(
@@ -119,11 +123,12 @@ page_menu(
   ),
   position = "top",
   default_open = TRUE,
-  sizes = c(NA, 1, NA, 4)
+  sizes = c(1, NA, 1, NA, 4)
 )
 
 ## `input_variable` can be used to set up logical controls
 input_variable("shapes", list(
+  "starting_shapes == county && !selected_county" = "county",
   "selected_district && !selected_county" = "county",
   "selected_county" = "tract"
 ), "district")
@@ -168,7 +173,8 @@ page_section(
   type = "col",
   # use `output_` functions to add state and data displays
   output_text(c(
-    "State: Virginia[r selected_district]",
+    "?{starting_shapes == county}State: Virginia[r selected_county]",
+    "?{starting_shapes == district}State: Virginia[r selected_district]",
     "? > Health District: {selected_district}[r selected_county]",
     "? > {selected_county}"
   )),

@@ -4908,9 +4908,29 @@ const site = {
     {
       "condition": [
         {
-          "id": "selected_district",
+          "id": "starting_shapes",
+          "type": "=",
+          "value": "district",
+          "any": false
+        }
+      ],
+      "effects": {
+        "display": "sec31"
+      }
+    },
+    {
+      "condition": [
+        {
+          "id": "starting_shapes",
+          "type": "=",
+          "value": "county",
+          "any": true
+        },
+        {
+          "id": "selected_county",
           "type": "",
-          "value": ""
+          "value": "",
+          "any": true
         }
       ],
       "effects": {
@@ -4925,14 +4945,33 @@ const site = {
         {
           "condition": [
             {
-              "id": "selected_district",
-              "type": "",
-              "value": ""
+              "id": "starting_shapes",
+              "type": "=",
+              "value": "county",
+              "any": false
             },
             {
               "id": "selected_county",
               "type": "!",
-              "value": ""
+              "value": "",
+              "any": false
+            }
+          ],
+          "value": "county"
+        },
+        {
+          "condition": [
+            {
+              "id": "selected_district",
+              "type": "",
+              "value": "",
+              "any": false
+            },
+            {
+              "id": "selected_county",
+              "type": "!",
+              "value": "",
+              "any": false
             }
           ],
           "value": "county"
@@ -4942,7 +4981,8 @@ const site = {
             {
               "id": "selected_county",
               "type": "",
-              "value": ""
+              "value": "",
+              "any": false
             }
           ],
           "value": "tract"
@@ -4958,7 +4998,8 @@ const site = {
             {
               "id": "shapes",
               "type": "=",
-              "value": "county"
+              "value": "county",
+              "any": false
             }
           ],
           "value": "selected_county"
@@ -4974,7 +5015,8 @@ const site = {
             {
               "id": "selected_county",
               "type": "",
-              "value": ""
+              "value": "",
+              "any": false
             }
           ],
           "value": "selected_county"
@@ -5082,6 +5124,34 @@ const site = {
     "text7": {
       "text": [
         {
+          "condition": [
+            {
+              "id": "starting_shapes",
+              "type": "=",
+              "value": "county",
+              "any": false
+            }
+          ],
+          "button": {
+            "b1": {
+              "text": [
+                "Virginia"
+              ],
+              "type": "reset",
+              "target": "selected_county"
+            }
+          },
+          "text": ["State: ", "b1"]
+        },
+        {
+          "condition": [
+            {
+              "id": "starting_shapes",
+              "type": "=",
+              "value": "district",
+              "any": false
+            }
+          ],
           "button": {
             "b1": {
               "text": [
@@ -5098,7 +5168,8 @@ const site = {
             {
               "id": "selected_district",
               "type": "",
-              "value": ""
+              "value": "",
+              "any": false
             }
           ],
           "button": {
@@ -5118,7 +5189,8 @@ const site = {
             {
               "id": "selected_county",
               "type": "",
-              "value": ""
+              "value": "",
+              "any": false
             }
           ],
           "text": [" > ", "selected_county"]
@@ -5134,7 +5206,8 @@ const site = {
               {
                 "id": "default",
                 "type": "",
-                "value": ""
+                "value": "",
+                "any": false
               }
             ]
           },
@@ -5144,7 +5217,8 @@ const site = {
               {
                 "id": "selected_district",
                 "type": "",
-                "value": ""
+                "value": "",
+                "any": false
               }
             ]
           },
@@ -5154,7 +5228,8 @@ const site = {
               {
                 "id": "selected_county",
                 "type": "",
-                "value": ""
+                "value": "",
+                "any": false
               }
             ]
           }

@@ -495,11 +495,11 @@
     "full_name": "drug_overdose_ed_visits:avg_overdose_per_100",
     "measure": "avg_overdose_per_100k",
     "type": "rate",
-    "short_name": "Drug overdose deaths",
-    "long_name": "Death rate per 100,000 residents (All-drug overdose deaths)",
-    "short_description": "Counts of deaths of Virginia residents by utilizing both the underlying cause of death as well as the contributory/multiple causes of death codes.",
-    "long_description": "Counts of deaths of Virginia residents by utilizing both the underlying cause of death as well as the contributory/multiple causes of death codes. The processes in deriving drug overdose-related death counts follows the guidelines set forth by the Centers for Disease Control and Prevention’s (CDC) Opioid Overdose Indicator Support Toolkit, Version 3.0 (March 2018).",
-    "statement": "The drug overdose death rate in {features.name} is {value} per 100,000 residents",
+    "short_name": "ED visits for drug overdose",
+    "long_name": "Emergency department visits for drug overdose rate per 100,000 residents",
+    "short_description": "Average emergency department visits for drug overdose per 100,000 residents.",
+    "long_description": "Average emergency department visits for drug overdose per 100,000 residents.",
+    "statement": "The average emergency department visits for drug overdose rate in {features.name} is {value} per 100,000 residents",
     "sources": [
       {
         "name": "Virginia Department of Health",

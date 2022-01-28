@@ -1,325 +1,325 @@
-geoid,region_type,region_name,year,measure,value,measure_type
-51790,county,"Staunton City, Virginia",2019,median_read_pass_rate,19,median
-51620,county,"Franklin City, Virginia",2021,median_read_pass_rate,3,median
-12,health district,Fairfax,2021,median_read_pass_rate,9,median
-24,health district,Portsmouth,2019,median_read_pass_rate,11,median
-11,health district,Eastern Shore,2021,median_read_pass_rate,4,median
-51840,county,"Winchester City, Virginia",2021,median_read_pass_rate,8,median
-19,health district,New River,2021,median_read_pass_rate,9,median
-51075,county,"Goochland County, Virginia",2019,median_read_pass_rate,20,median
-51610,county,"Falls Church City, Virginia",2021,median_read_pass_rate,27,median
-51003,county,"Albemarle County, Virginia",2019,median_read_pass_rate,17,median
-06,health district,Chesapeake,2019,median_read_pass_rate,16,median
-51683,county,"Manassas City, Virginia",2019,median_read_pass_rate,8,median
-29,health district,Roanoke,2019,median_read_pass_rate,13,median
-51750,county,"Radford City, Virginia",2021,median_read_pass_rate,8,median
-51107,county,"Loudoun County, Virginia",2019,median_read_pass_rate,17,median
-51025,county,"Brunswick County, Virginia",2021,median_read_pass_rate,5,median
-51155,county,"Pulaski County, Virginia",2021,median_read_pass_rate,7,median
-51640,county,"Galax City, Virginia",2021,median_read_pass_rate,2,median
-51570,county,"Colonial Heights City, Virginia",2019,median_read_pass_rate,11,median
-51157,county,"Rappahannock County, Virginia",2021,median_read_pass_rate,18,median
-23,health district,Pittsylvania-Danville,2021,median_read_pass_rate,8,median
-51101,county,"King William County, Virginia",2019,median_read_pass_rate,13,median
-51089,county,"Henry County, Virginia",2019,median_read_pass_rate,11,median
-51013,county,"Arlington County, Virginia",2021,median_read_pass_rate,16.5,median
-51173,county,"Smyth County, Virginia",2021,median_read_pass_rate,4,median
-12,health district,Fairfax,2019,median_read_pass_rate,16,median
-51085,county,"Hanover County, Virginia",2019,median_read_pass_rate,21.5,median
-51063,county,"Floyd County, Virginia",2019,median_read_pass_rate,12.5,median
-51083,county,"Halifax County, Virginia",2021,median_read_pass_rate,4,median
-22,health district,Piedmont,2019,median_read_pass_rate,12,median
-51193,county,"Westmoreland County, Virginia",2019,median_read_pass_rate,16,median
-51169,county,"Scott County, Virginia",2021,median_read_pass_rate,8,median
-08,health district,Chickahominy,2021,median_read_pass_rate,12,median
-51029,county,"Buckingham County, Virginia",2019,median_read_pass_rate,8,median
-21,health district,Peninsula,2021,median_read_pass_rate,5,median
-51063,county,"Floyd County, Virginia",2021,median_read_pass_rate,6,median
-19,health district,New River,2019,median_read_pass_rate,16,median
-06,health district,Chesapeake,2021,median_read_pass_rate,8.5,median
-51059,county,"Fairfax County, Virginia",2019,median_read_pass_rate,16,median
-51053,county,"Dinwiddie County, Virginia",2021,median_read_pass_rate,8,median
-51790,county,"Staunton City, Virginia",2021,median_read_pass_rate,8,median
-51590,county,"Danville City, Virginia",2019,median_read_pass_rate,5,median
-13,health district,Hampton,2021,median_read_pass_rate,4.5,median
-51011,county,"Appomattox County, Virginia",2019,median_read_pass_rate,14,median
-51131,county,"Northampton County, Virginia",2021,median_read_pass_rate,6.5,median
-51139,county,"Page County, Virginia",2021,median_read_pass_rate,2.5,median
-51179,county,"Stafford County, Virginia",2019,median_read_pass_rate,15,median
-22,health district,Piedmont,2021,median_read_pass_rate,6,median
-02,health district,Alleghany,2021,median_read_pass_rate,10,median
-51083,county,"Halifax County, Virginia",2019,median_read_pass_rate,14,median
-51043,county,"Clarke County, Virginia",2021,median_read_pass_rate,7.5,median
-51175,county,"Southampton County, Virginia",2019,median_read_pass_rate,12,median
-51109,county,"Louisa County, Virginia",2019,median_read_pass_rate,16.5,median
-16,health district,Lord Fairfax,2019,median_read_pass_rate,13,median
-51159,county,"Richmond County, Virginia",2019,median_read_pass_rate,20,median
-51099,county,"King George County, Virginia",2019,median_read_pass_rate,17,median
-28,health district,Richmond,2021,median_read_pass_rate,0,median
-51109,county,"Louisa County, Virginia",2021,median_read_pass_rate,7,median
-51019,county,"Bedford County, Virginia",2019,median_read_pass_rate,15.5,median
-51119,county,"Middlesex County, Virginia",2019,median_read_pass_rate,17,median
-10,health district,Cumberland Plateau,2021,median_read_pass_rate,6,median
-04,health district,Central Shenandoah,2019,median_read_pass_rate,15,median
-51025,county,"Brunswick County, Virginia",2019,median_read_pass_rate,8,median
-51177,county,"Spotsylvania County, Virginia",2021,median_read_pass_rate,7,median
-51735,county,"Poquoson City, Virginia",2021,median_read_pass_rate,15,median
-51171,county,"Shenandoah County, Virginia",2019,median_read_pass_rate,15,median
-51067,county,"Franklin County, Virginia",2021,median_read_pass_rate,11,median
-51149,county,"Prince George County, Virginia",2021,median_read_pass_rate,14,median
-51113,county,"Madison County, Virginia",2019,median_read_pass_rate,7,median
-51036,county,"Charles City County, Virginia",2021,median_read_pass_rate,13,median
-51820,county,"Waynesboro City, Virginia",2019,median_read_pass_rate,7,median
-51678,county,"Lexington City, Virginia",2021,median_read_pass_rate,33,median
-51019,county,"Bedford County, Virginia",2021,median_read_pass_rate,9,median
-26,health district,Rappahannock,2021,median_read_pass_rate,7,median
-51540,county,"Charlottesville City, Virginia",2021,median_read_pass_rate,11,median
-17,health district,Loudoun,2021,median_read_pass_rate,8,median
-51195,county,"Wise County, Virginia",2021,median_read_pass_rate,15,median
-51027,county,"Buchanan County, Virginia",2021,median_read_pass_rate,1.5,median
-51127,county,"New Kent County, Virginia",2021,median_read_pass_rate,7.5,median
-51135,county,"Nottoway County, Virginia",2021,median_read_pass_rate,7,median
-51165,county,"Rockingham County, Virginia",2021,median_read_pass_rate,4,median
-51079,county,"Greene County, Virginia",2021,median_read_pass_rate,6,median
-51640,county,"Galax City, Virginia",2019,median_read_pass_rate,18,median
-51181,county,"Surry County, Virginia",2019,median_read_pass_rate,11,median
-51770,county,"Roanoke City, Virginia",2021,median_read_pass_rate,4,median
-51057,county,"Essex County, Virginia",2019,median_read_pass_rate,6,median
-51061,county,"Fauquier County, Virginia",2021,median_read_pass_rate,7,median
-51775,county,"Salem City, Virginia",2019,median_read_pass_rate,24.5,median
-01,health district,Alexandria,2019,median_read_pass_rate,13.5,median
-51740,county,"Portsmouth City, Virginia",2019,median_read_pass_rate,11,median
-51005,county,"Alleghany County, Virginia",2019,median_read_pass_rate,4,median
-17,health district,Loudoun,2019,median_read_pass_rate,17,median
-51103,county,"Lancaster County, Virginia",2021,median_read_pass_rate,3,median
-05,health district,Central Virginia,2021,median_read_pass_rate,8,median
-51031,county,"Campbell County, Virginia",2019,median_read_pass_rate,20,median
-51059,county,"Fairfax County, Virginia",2021,median_read_pass_rate,9,median
-51177,county,"Spotsylvania County, Virginia",2019,median_read_pass_rate,14,median
-14,health district,Henrico,2021,median_read_pass_rate,8,median
-51730,county,"Petersburg City, Virginia",2019,median_read_pass_rate,4,median
-30,health district,Southside,2021,median_read_pass_rate,5.5,median
-51590,county,"Danville City, Virginia",2021,median_read_pass_rate,5,median
-51137,county,"Orange County, Virginia",2021,median_read_pass_rate,5.5,median
-51015,county,"Augusta County, Virginia",2019,median_read_pass_rate,16,median
-51036,county,"Charles City County, Virginia",2019,median_read_pass_rate,16,median
-02,health district,Alleghany,2019,median_read_pass_rate,19.5,median
-51001,county,"Accomack County, Virginia",2019,median_read_pass_rate,11,median
-20,health district,Norfolk,2019,median_read_pass_rate,9,median
-35,health district,Western Tidewater,2021,median_read_pass_rate,5,median
-51099,county,"King George County, Virginia",2021,median_read_pass_rate,8,median
-51193,county,"Westmoreland County, Virginia",2021,median_read_pass_rate,2,median
-51081,county,"Greensville County, Virginia",2021,median_read_pass_rate,8,median
-51035,county,"Carroll County, Virginia",2021,median_read_pass_rate,5,median
-51810,county,"Virginia Beach City, Virginia",2021,median_read_pass_rate,11.5,median
-51023,county,"Botetourt County, Virginia",2019,median_read_pass_rate,17,median
-26,health district,Rappahannock,2019,median_read_pass_rate,14,median
-51041,county,"Chesterfield County, Virginia",2019,median_read_pass_rate,13.5,median
-51678,county,"Lexington City, Virginia",2019,median_read_pass_rate,57,median
-51071,county,"Giles County, Virginia",2021,median_read_pass_rate,12,median
-51720,county,"Norton City, Virginia",2019,median_read_pass_rate,11,median
-51183,county,"Sussex County, Virginia",2019,median_read_pass_rate,14,median
-28,health district,Richmond,2019,median_read_pass_rate,8,median
-51027,county,"Buchanan County, Virginia",2019,median_read_pass_rate,10.5,median
-51195,county,"Wise County, Virginia",2019,median_read_pass_rate,23,median
-51091,county,"Highland County, Virginia",2019,median_read_pass_rate,43,median
-51145,county,"Powhatan County, Virginia",2019,median_read_pass_rate,13,median
-51670,county,"Hopewell City, Virginia",2019,median_read_pass_rate,7,median
-31,health district,Thomas Jefferson,2019,median_read_pass_rate,17.5,median
-51139,county,"Page County, Virginia",2019,median_read_pass_rate,12,median
-51079,county,"Greene County, Virginia",2019,median_read_pass_rate,10.5,median
-51119,county,"Middlesex County, Virginia",2021,median_read_pass_rate,0,median
-51111,county,"Lunenburg County, Virginia",2019,median_read_pass_rate,10.5,median
-25,health district,Prince William,2019,median_read_pass_rate,16,median
-51065,county,"Fluvanna County, Virginia",2019,median_read_pass_rate,17,median
-51001,county,"Accomack County, Virginia",2021,median_read_pass_rate,3.5,median
-51167,county,"Russell County, Virginia",2021,median_read_pass_rate,10,median
-24,health district,Portsmouth,2021,median_read_pass_rate,5,median
-51033,county,"Caroline County, Virginia",2019,median_read_pass_rate,20,median
-51023,county,"Botetourt County, Virginia",2021,median_read_pass_rate,11,median
-51740,county,"Portsmouth City, Virginia",2021,median_read_pass_rate,5,median
-51690,county,"Martinsville City, Virginia",2019,median_read_pass_rate,8.5,median
-51683,county,"Manassas City, Virginia",2021,median_read_pass_rate,2,median
-51800,county,"Suffolk City, Virginia",2021,median_read_pass_rate,5,median
-51650,county,"Hampton City, Virginia",2021,median_read_pass_rate,4.5,median
-51149,county,"Prince George County, Virginia",2019,median_read_pass_rate,15,median
-51179,county,"Stafford County, Virginia",2021,median_read_pass_rate,7,median
-51021,county,"Bland County, Virginia",2021,median_read_pass_rate,5,median
-51127,county,"New Kent County, Virginia",2019,median_read_pass_rate,16.5,median
-51035,county,"Carroll County, Virginia",2019,median_read_pass_rate,15,median
-25,health district,Prince William,2021,median_read_pass_rate,10.5,median
-51680,county,"Lynchburg City, Virginia",2019,median_read_pass_rate,9,median
-51043,county,"Clarke County, Virginia",2019,median_read_pass_rate,10,median
-51187,county,"Warren County, Virginia",2019,median_read_pass_rate,12,median
-08,health district,Chickahominy,2019,median_read_pass_rate,20.5,median
-51107,county,"Loudoun County, Virginia",2021,median_read_pass_rate,8,median
-51165,county,"Rockingham County, Virginia",2019,median_read_pass_rate,12,median
-51007,county,"Amelia County, Virginia",2021,median_read_pass_rate,8,median
-51009,county,"Amherst County, Virginia",2019,median_read_pass_rate,16.5,median
-16,health district,Lord Fairfax,2021,median_read_pass_rate,7,median
-51730,county,"Petersburg City, Virginia",2021,median_read_pass_rate,0,median
-51105,county,"Lee County, Virginia",2021,median_read_pass_rate,3,median
-51117,county,"Mecklenburg County, Virginia",2019,median_read_pass_rate,12,median
-51173,county,"Smyth County, Virginia",2019,median_read_pass_rate,18,median
-51031,county,"Campbell County, Virginia",2021,median_read_pass_rate,9,median
-51580,county,"Covington City, Virginia",2021,median_read_pass_rate,10,median
-51073,county,"Gloucester County, Virginia",2021,median_read_pass_rate,11,median
-15,health district,Lenowisco,2019,median_read_pass_rate,21,median
-51735,county,"Poquoson City, Virginia",2019,median_read_pass_rate,29,median
-51009,county,"Amherst County, Virginia",2021,median_read_pass_rate,5.5,median
-51045,county,"Craig County, Virginia",2019,median_read_pass_rate,7,median
-51087,county,"Henrico County, Virginia",2021,median_read_pass_rate,8,median
-51021,county,"Bland County, Virginia",2019,median_read_pass_rate,21,median
-51685,county,"Manassas Park City, Virginia",2019,median_read_pass_rate,12,median
-05,health district,Central Virginia,2019,median_read_pass_rate,15,median
-15,health district,Lenowisco,2021,median_read_pass_rate,9.5,median
-51710,county,"Norfolk City, Virginia",2019,median_read_pass_rate,9,median
-51760,county,"Richmond City, Virginia",2019,median_read_pass_rate,8,median
-51610,county,"Falls Church City, Virginia",2019,median_read_pass_rate,40,median
-51810,county,"Virginia Beach City, Virginia",2019,median_read_pass_rate,22.5,median
-51033,county,"Caroline County, Virginia",2021,median_read_pass_rate,1,median
-51161,county,"Roanoke County, Virginia",2021,median_read_pass_rate,14,median
-51125,county,"Nelson County, Virginia",2019,median_read_pass_rate,19,median
-51087,county,"Henrico County, Virginia",2019,median_read_pass_rate,16,median
-51143,county,"Pittsylvania County, Virginia",2019,median_read_pass_rate,19.5,median
-51049,county,"Cumberland County, Virginia",2021,median_read_pass_rate,7,median
-31,health district,Thomas Jefferson,2021,median_read_pass_rate,9.5,median
-51710,county,"Norfolk City, Virginia",2021,median_read_pass_rate,3,median
-51197,county,"Wythe County, Virginia",2021,median_read_pass_rate,5.5,median
-51700,county,"Newport News City, Virginia",2019,median_read_pass_rate,8.5,median
-03,health district,Arlington,2021,median_read_pass_rate,16.5,median
-51530,county,"Buena Vista City, Virginia",2019,median_read_pass_rate,15,median
-51510,county,"Alexandria City, Virginia",2019,median_read_pass_rate,13.5,median
-51770,county,"Roanoke City, Virginia",2019,median_read_pass_rate,13,median
-11,health district,Eastern Shore,2019,median_read_pass_rate,9,median
-51820,county,"Waynesboro City, Virginia",2021,median_read_pass_rate,7,median
-51113,county,"Madison County, Virginia",2021,median_read_pass_rate,4,median
-51121,county,"Montgomery County, Virginia",2021,median_read_pass_rate,13,median
-51017,county,"Bath County, Virginia",2019,median_read_pass_rate,24,median
-51037,county,"Charlotte County, Virginia",2019,median_read_pass_rate,22,median
-51191,county,"Washington County, Virginia",2021,median_read_pass_rate,15,median
-34,health district,West Piedmont,2021,median_read_pass_rate,5,median
-51133,county,"Northumberland County, Virginia",2019,median_read_pass_rate,17,median
-51187,county,"Warren County, Virginia",2021,median_read_pass_rate,12,median
-51540,county,"Charlottesville City, Virginia",2019,median_read_pass_rate,23,median
-51015,county,"Augusta County, Virginia",2021,median_read_pass_rate,6,median
-51049,county,"Cumberland County, Virginia",2019,median_read_pass_rate,7,median
-27,health district,Rappahannock Rapidan,2019,median_read_pass_rate,14,median
-51199,county,"York County, Virginia",2019,median_read_pass_rate,26,median
-51775,county,"Salem City, Virginia",2021,median_read_pass_rate,8.5,median
-51197,county,"Wythe County, Virginia",2019,median_read_pass_rate,25.5,median
-23,health district,Pittsylvania-Danville,2019,median_read_pass_rate,14.5,median
-51003,county,"Albemarle County, Virginia",2021,median_read_pass_rate,12,median
-51065,county,"Fluvanna County, Virginia",2021,median_read_pass_rate,11,median
-09,health district,Crater,2021,median_read_pass_rate,6,median
-51181,county,"Surry County, Virginia",2021,median_read_pass_rate,10,median
-51037,county,"Charlotte County, Virginia",2021,median_read_pass_rate,9,median
-51159,county,"Richmond County, Virginia",2021,median_read_pass_rate,10,median
-51115,county,"Mathews County, Virginia",2019,median_read_pass_rate,31,median
-51155,county,"Pulaski County, Virginia",2019,median_read_pass_rate,14,median
-51690,county,"Martinsville City, Virginia",2021,median_read_pass_rate,1,median
-51620,county,"Franklin City, Virginia",2019,median_read_pass_rate,5,median
-51051,county,"Dickenson County, Virginia",2021,median_read_pass_rate,4,median
-51073,county,"Gloucester County, Virginia",2019,median_read_pass_rate,15,median
-35,health district,Western Tidewater,2019,median_read_pass_rate,16,median
-20,health district,Norfolk,2021,median_read_pass_rate,3,median
-51115,county,"Mathews County, Virginia",2021,median_read_pass_rate,15,median
-51520,county,"Bristol City, Virginia",2019,median_read_pass_rate,8.5,median
-29,health district,Roanoke,2021,median_read_pass_rate,4,median
-51075,county,"Goochland County, Virginia",2021,median_read_pass_rate,6,median
-32,health district,Three Rivers,2021,median_read_pass_rate,5.5,median
-34,health district,West Piedmont,2019,median_read_pass_rate,14,median
-51047,county,"Culpeper County, Virginia",2019,median_read_pass_rate,10.5,median
-18,health district,Mount Rogers,2021,median_read_pass_rate,6,median
-51153,county,"Prince William County, Virginia",2019,median_read_pass_rate,16,median
-51161,county,"Roanoke County, Virginia",2019,median_read_pass_rate,23,median
-51007,county,"Amelia County, Virginia",2019,median_read_pass_rate,10,median
-51720,county,"Norton City, Virginia",2021,median_read_pass_rate,9,median
-51091,county,"Highland County, Virginia",2021,median_read_pass_rate,18,median
-51800,county,"Suffolk City, Virginia",2019,median_read_pass_rate,17,median
-51630,county,"Fredericksburg City, Virginia",2019,median_read_pass_rate,10,median
-21,health district,Peninsula,2019,median_read_pass_rate,13,median
-14,health district,Henrico,2019,median_read_pass_rate,16,median
-51077,county,"Grayson County, Virginia",2021,median_read_pass_rate,6,median
-51135,county,"Nottoway County, Virginia",2019,median_read_pass_rate,23.5,median
-51085,county,"Hanover County, Virginia",2021,median_read_pass_rate,15,median
-51145,county,"Powhatan County, Virginia",2021,median_read_pass_rate,9,median
-33,health district,Virginia Beach,2021,median_read_pass_rate,11.5,median
-51750,county,"Radford City, Virginia",2019,median_read_pass_rate,18,median
-51191,county,"Washington County, Virginia",2019,median_read_pass_rate,25,median
-51133,county,"Northumberland County, Virginia",2021,median_read_pass_rate,5,median
-51650,county,"Hampton City, Virginia",2019,median_read_pass_rate,12.5,median
-51147,county,"Prince Edward County, Virginia",2019,median_read_pass_rate,11,median
-51071,county,"Giles County, Virginia",2019,median_read_pass_rate,10,median
-51125,county,"Nelson County, Virginia",2021,median_read_pass_rate,4,median
-51137,county,"Orange County, Virginia",2019,median_read_pass_rate,14.5,median
-51171,county,"Shenandoah County, Virginia",2021,median_read_pass_rate,7,median
-51163,county,"Rockbridge County, Virginia",2019,median_read_pass_rate,16,median
-13,health district,Hampton,2019,median_read_pass_rate,12.5,median
-51005,county,"Alleghany County, Virginia",2021,median_read_pass_rate,7,median
-51147,county,"Prince Edward County, Virginia",2021,median_read_pass_rate,3,median
-30,health district,Southside,2019,median_read_pass_rate,11,median
-51660,county,"Harrisonburg City, Virginia",2021,median_read_pass_rate,3.5,median
-51089,county,"Henry County, Virginia",2021,median_read_pass_rate,2,median
-51157,county,"Rappahannock County, Virginia",2019,median_read_pass_rate,13,median
-27,health district,Rappahannock Rapidan,2021,median_read_pass_rate,6,median
-07,health district,Chesterfield,2021,median_read_pass_rate,9,median
-51045,county,"Craig County, Virginia",2021,median_read_pass_rate,7,median
-10,health district,Cumberland Plateau,2019,median_read_pass_rate,14,median
-51131,county,"Northampton County, Virginia",2019,median_read_pass_rate,8,median
-51580,county,"Covington City, Virginia",2019,median_read_pass_rate,11,median
-03,health district,Arlington,2019,median_read_pass_rate,28,median
-51081,county,"Greensville County, Virginia",2019,median_read_pass_rate,8,median
-51141,county,"Patrick County, Virginia",2021,median_read_pass_rate,11,median
-51111,county,"Lunenburg County, Virginia",2021,median_read_pass_rate,1,median
-51199,county,"York County, Virginia",2021,median_read_pass_rate,21.5,median
-33,health district,Virginia Beach,2019,median_read_pass_rate,22.5,median
-51680,county,"Lynchburg City, Virginia",2021,median_read_pass_rate,6,median
-51047,county,"Culpeper County, Virginia",2021,median_read_pass_rate,2,median
-51167,county,"Russell County, Virginia",2019,median_read_pass_rate,15,median
-51510,county,"Alexandria City, Virginia",2021,median_read_pass_rate,7.5,median
-51103,county,"Lancaster County, Virginia",2019,median_read_pass_rate,9,median
-51700,county,"Newport News City, Virginia",2021,median_read_pass_rate,3.5,median
-51041,county,"Chesterfield County, Virginia",2021,median_read_pass_rate,9,median
-51550,county,"Chesapeake City, Virginia",2019,median_read_pass_rate,16,median
-32,health district,Three Rivers,2019,median_read_pass_rate,16,median
-51670,county,"Hopewell City, Virginia",2021,median_read_pass_rate,4,median
-51169,county,"Scott County, Virginia",2019,median_read_pass_rate,20,median
-04,health district,Central Shenandoah,2021,median_read_pass_rate,5,median
-51143,county,"Pittsylvania County, Virginia",2021,median_read_pass_rate,10.5,median
-18,health district,Mount Rogers,2019,median_read_pass_rate,18,median
-01,health district,Alexandria,2021,median_read_pass_rate,7.5,median
-51011,county,"Appomattox County, Virginia",2021,median_read_pass_rate,9,median
-51051,county,"Dickenson County, Virginia",2019,median_read_pass_rate,17,median
-51069,county,"Frederick County, Virginia",2019,median_read_pass_rate,14,median
-51175,county,"Southampton County, Virginia",2021,median_read_pass_rate,5,median
-51163,county,"Rockbridge County, Virginia",2021,median_read_pass_rate,8,median
-51760,county,"Richmond City, Virginia",2021,median_read_pass_rate,0,median
-07,health district,Chesterfield,2019,median_read_pass_rate,13,median
-51029,county,"Buckingham County, Virginia",2021,median_read_pass_rate,4,median
-51185,county,"Tazewell County, Virginia",2019,median_read_pass_rate,20,median
-51660,county,"Harrisonburg City, Virginia",2019,median_read_pass_rate,12.5,median
-51840,county,"Winchester City, Virginia",2019,median_read_pass_rate,7,median
-51685,county,"Manassas Park City, Virginia",2021,median_read_pass_rate,6,median
-51121,county,"Montgomery County, Virginia",2019,median_read_pass_rate,17.5,median
-51013,county,"Arlington County, Virginia",2019,median_read_pass_rate,28,median
-51153,county,"Prince William County, Virginia",2021,median_read_pass_rate,11,median
-51057,county,"Essex County, Virginia",2021,median_read_pass_rate,3,median
-51570,county,"Colonial Heights City, Virginia",2021,median_read_pass_rate,4,median
-09,health district,Crater,2019,median_read_pass_rate,13,median
-51017,county,"Bath County, Virginia",2021,median_read_pass_rate,6.5,median
-51183,county,"Sussex County, Virginia",2021,median_read_pass_rate,6,median
-51069,county,"Frederick County, Virginia",2021,median_read_pass_rate,7,median
-51550,county,"Chesapeake City, Virginia",2021,median_read_pass_rate,8.5,median
-51520,county,"Bristol City, Virginia",2021,median_read_pass_rate,3.5,median
-51061,county,"Fauquier County, Virginia",2019,median_read_pass_rate,16,median
-51630,county,"Fredericksburg City, Virginia",2021,median_read_pass_rate,4,median
-51067,county,"Franklin County, Virginia",2019,median_read_pass_rate,15,median
-51117,county,"Mecklenburg County, Virginia",2021,median_read_pass_rate,6,median
-51101,county,"King William County, Virginia",2021,median_read_pass_rate,9,median
-51105,county,"Lee County, Virginia",2019,median_read_pass_rate,18,median
-51185,county,"Tazewell County, Virginia",2021,median_read_pass_rate,8,median
-51530,county,"Buena Vista City, Virginia",2021,median_read_pass_rate,3,median
-51077,county,"Grayson County, Virginia",2019,median_read_pass_rate,16,median
-51053,county,"Dinwiddie County, Virginia",2019,median_read_pass_rate,15,median
-51141,county,"Patrick County, Virginia",2019,median_read_pass_rate,27,median
+geoid,region_type,region_name,measure,value,year,measure_type,measure_units
+51179,county,"Stafford County, Virginia",median_read_pass_rate,61,2021,median,percent
+51013,county,"Arlington County, Virginia",median_read_pass_rate,80,2019,median,percent
+51015,county,"Augusta County, Virginia",median_read_pass_rate,64,2019,median,percent
+51145,county,"Powhatan County, Virginia",median_read_pass_rate,70,2021,median,percent
+51107,county,"Loudoun County, Virginia",median_read_pass_rate,78,2019,median,percent
+51143,county,"Pittsylvania County, Virginia",median_read_pass_rate,72.5,2021,median,percent
+51735,county,"Poquoson City, Virginia",median_read_pass_rate,93,2021,median,percent
+51137,county,"Orange County, Virginia",median_read_pass_rate,68.5,2019,median,percent
+51197,county,"Wythe County, Virginia",median_read_pass_rate,67.5,2021,median,percent
+51191,county,"Washington County, Virginia",median_read_pass_rate,71,2021,median,percent
+23,health district,Pittsylvania-Danville,median_read_pass_rate,64.5,2021,median,percent
+51101,county,"King William County, Virginia",median_read_pass_rate,64,2019,median,percent
+21,health district,Peninsula,median_read_pass_rate,53,2021,median,percent
+51047,county,"Culpeper County, Virginia",median_read_pass_rate,47.5,2021,median,percent
+09,health district,Crater,median_read_pass_rate,45.5,2021,median,percent
+51053,county,"Dinwiddie County, Virginia",median_read_pass_rate,56,2021,median,percent
+51036,county,"Charles City County, Virginia",median_read_pass_rate,53,2021,median,percent
+51163,county,"Rockbridge County, Virginia",median_read_pass_rate,71.5,2019,median,percent
+51720,county,"Norton City, Virginia",median_read_pass_rate,73,2021,median,percent
+51025,county,"Brunswick County, Virginia",median_read_pass_rate,39,2021,median,percent
+51810,county,"Virginia Beach City, Virginia",median_read_pass_rate,71.5,2021,median,percent
+51083,county,"Halifax County, Virginia",median_read_pass_rate,72,2019,median,percent
+51003,county,"Albemarle County, Virginia",median_read_pass_rate,72,2021,median,percent
+51141,county,"Patrick County, Virginia",median_read_pass_rate,73,2021,median,percent
+51113,county,"Madison County, Virginia",median_read_pass_rate,63,2019,median,percent
+51173,county,"Smyth County, Virginia",median_read_pass_rate,74,2019,median,percent
+51640,county,"Galax City, Virginia",median_read_pass_rate,74,2019,median,percent
+51081,county,"Greensville County, Virginia",median_read_pass_rate,45,2021,median,percent
+12,health district,Fairfax,median_read_pass_rate,73,2019,median,percent
+51159,county,"Richmond County, Virginia",median_read_pass_rate,54,2021,median,percent
+12,health district,Fairfax,median_read_pass_rate,67,2021,median,percent
+14,health district,Henrico,median_read_pass_rate,52,2021,median,percent
+51133,county,"Northumberland County, Virginia",median_read_pass_rate,53,2021,median,percent
+51089,county,"Henry County, Virginia",median_read_pass_rate,49,2021,median,percent
+51125,county,"Nelson County, Virginia",median_read_pass_rate,59.5,2019,median,percent
+51570,county,"Colonial Heights City, Virginia",median_read_pass_rate,51,2021,median,percent
+51069,county,"Frederick County, Virginia",median_read_pass_rate,68,2019,median,percent
+11,health district,Eastern Shore,median_read_pass_rate,52,2021,median,percent
+10,health district,Cumberland Plateau,median_read_pass_rate,72,2021,median,percent
+51027,county,"Buchanan County, Virginia",median_read_pass_rate,68,2021,median,percent
+51690,county,"Martinsville City, Virginia",median_read_pass_rate,56.5,2019,median,percent
+51700,county,"Newport News City, Virginia",median_read_pass_rate,41,2021,median,percent
+51109,county,"Louisa County, Virginia",median_read_pass_rate,72.5,2019,median,percent
+51133,county,"Northumberland County, Virginia",median_read_pass_rate,81,2019,median,percent
+51019,county,"Bedford County, Virginia",median_read_pass_rate,75.5,2019,median,percent
+51121,county,"Montgomery County, Virginia",median_read_pass_rate,74,2019,median,percent
+51760,county,"Richmond City, Virginia",median_read_pass_rate,24,2021,median,percent
+51029,county,"Buckingham County, Virginia",median_read_pass_rate,42,2021,median,percent
+27,health district,Rappahannock Rapidan,median_read_pass_rate,58,2021,median,percent
+24,health district,Portsmouth,median_read_pass_rate,53,2021,median,percent
+51007,county,"Amelia County, Virginia",median_read_pass_rate,67,2019,median,percent
+51183,county,"Sussex County, Virginia",median_read_pass_rate,38,2021,median,percent
+05,health district,Central Virginia,median_read_pass_rate,71,2019,median,percent
+06,health district,Chesapeake,median_read_pass_rate,75.5,2019,median,percent
+34,health district,West Piedmont,median_read_pass_rate,64,2021,median,percent
+51017,county,"Bath County, Virginia",median_read_pass_rate,41.5,2021,median,percent
+08,health district,Chickahominy,median_read_pass_rate,68,2021,median,percent
+51171,county,"Shenandoah County, Virginia",median_read_pass_rate,58,2021,median,percent
+51015,county,"Augusta County, Virginia",median_read_pass_rate,61,2021,median,percent
+51161,county,"Roanoke County, Virginia",median_read_pass_rate,69.5,2021,median,percent
+51109,county,"Louisa County, Virginia",median_read_pass_rate,70.5,2021,median,percent
+13,health district,Hampton,median_read_pass_rate,66,2019,median,percent
+51191,county,"Washington County, Virginia",median_read_pass_rate,90,2019,median,percent
+05,health district,Central Virginia,median_read_pass_rate,61,2021,median,percent
+51660,county,"Harrisonburg City, Virginia",median_read_pass_rate,33.5,2021,median,percent
+51540,county,"Charlottesville City, Virginia",median_read_pass_rate,58.5,2021,median,percent
+51019,county,"Bedford County, Virginia",median_read_pass_rate,71.5,2021,median,percent
+51165,county,"Rockingham County, Virginia",median_read_pass_rate,67,2019,median,percent
+35,health district,Western Tidewater,median_read_pass_rate,72.5,2019,median,percent
+51115,county,"Mathews County, Virginia",median_read_pass_rate,70,2021,median,percent
+51175,county,"Southampton County, Virginia",median_read_pass_rate,73.5,2019,median,percent
+51111,county,"Lunenburg County, Virginia",median_read_pass_rate,49,2021,median,percent
+51195,county,"Wise County, Virginia",median_read_pass_rate,83,2021,median,percent
+13,health district,Hampton,median_read_pass_rate,61,2021,median,percent
+51087,county,"Henrico County, Virginia",median_read_pass_rate,70,2019,median,percent
+51075,county,"Goochland County, Virginia",median_read_pass_rate,68,2021,median,percent
+51680,county,"Lynchburg City, Virginia",median_read_pass_rate,45,2021,median,percent
+08,health district,Chickahominy,median_read_pass_rate,77,2019,median,percent
+51005,county,"Alleghany County, Virginia",median_read_pass_rate,57,2019,median,percent
+51775,county,"Salem City, Virginia",median_read_pass_rate,81,2019,median,percent
+51510,county,"Alexandria City, Virginia",median_read_pass_rate,62,2019,median,percent
+51153,county,"Prince William County, Virginia",median_read_pass_rate,65,2021,median,percent
+51167,county,"Russell County, Virginia",median_read_pass_rate,74,2021,median,percent
+51099,county,"King George County, Virginia",median_read_pass_rate,76,2019,median,percent
+51171,county,"Shenandoah County, Virginia",median_read_pass_rate,60,2019,median,percent
+18,health district,Mount Rogers,median_read_pass_rate,66,2021,median,percent
+27,health district,Rappahannock Rapidan,median_read_pass_rate,64,2019,median,percent
+51147,county,"Prince Edward County, Virginia",median_read_pass_rate,33,2021,median,percent
+51157,county,"Rappahannock County, Virginia",median_read_pass_rate,78,2021,median,percent
+51181,county,"Surry County, Virginia",median_read_pass_rate,46,2021,median,percent
+51199,county,"York County, Virginia",median_read_pass_rate,85.5,2021,median,percent
+51710,county,"Norfolk City, Virginia",median_read_pass_rate,66,2019,median,percent
+51021,county,"Bland County, Virginia",median_read_pass_rate,81,2019,median,percent
+51177,county,"Spotsylvania County, Virginia",median_read_pass_rate,70,2019,median,percent
+51173,county,"Smyth County, Virginia",median_read_pass_rate,43,2021,median,percent
+51580,county,"Covington City, Virginia",median_read_pass_rate,76,2021,median,percent
+51033,county,"Caroline County, Virginia",median_read_pass_rate,38,2021,median,percent
+51103,county,"Lancaster County, Virginia",median_read_pass_rate,38,2021,median,percent
+18,health district,Mount Rogers,median_read_pass_rate,80,2019,median,percent
+51185,county,"Tazewell County, Virginia",median_read_pass_rate,79.5,2019,median,percent
+51163,county,"Rockbridge County, Virginia",median_read_pass_rate,56,2021,median,percent
+51167,county,"Russell County, Virginia",median_read_pass_rate,76,2019,median,percent
+51041,county,"Chesterfield County, Virginia",median_read_pass_rate,72,2019,median,percent
+51550,county,"Chesapeake City, Virginia",median_read_pass_rate,67.5,2021,median,percent
+51131,county,"Northampton County, Virginia",median_read_pass_rate,58.5,2019,median,percent
+51165,county,"Rockingham County, Virginia",median_read_pass_rate,49,2021,median,percent
+51045,county,"Craig County, Virginia",median_read_pass_rate,46,2021,median,percent
+51775,county,"Salem City, Virginia",median_read_pass_rate,67,2021,median,percent
+51187,county,"Warren County, Virginia",median_read_pass_rate,68,2019,median,percent
+51025,county,"Brunswick County, Virginia",median_read_pass_rate,47,2019,median,percent
+30,health district,Southside,median_read_pass_rate,53.5,2021,median,percent
+51790,county,"Staunton City, Virginia",median_read_pass_rate,62,2021,median,percent
+51530,county,"Buena Vista City, Virginia",median_read_pass_rate,58,2021,median,percent
+51003,county,"Albemarle County, Virginia",median_read_pass_rate,66,2019,median,percent
+51021,county,"Bland County, Virginia",median_read_pass_rate,80,2021,median,percent
+51083,county,"Halifax County, Virginia",median_read_pass_rate,50,2021,median,percent
+51610,county,"Falls Church City, Virginia",median_read_pass_rate,86,2021,median,percent
+51678,county,"Lexington City, Virginia",median_read_pass_rate,90,2021,median,percent
+51175,county,"Southampton County, Virginia",median_read_pass_rate,72,2021,median,percent
+51193,county,"Westmoreland County, Virginia",median_read_pass_rate,69,2019,median,percent
+51570,county,"Colonial Heights City, Virginia",median_read_pass_rate,72,2019,median,percent
+51105,county,"Lee County, Virginia",median_read_pass_rate,77,2019,median,percent
+20,health district,Norfolk,median_read_pass_rate,66,2019,median,percent
+51051,county,"Dickenson County, Virginia",median_read_pass_rate,49,2021,median,percent
+28,health district,Richmond,median_read_pass_rate,52,2019,median,percent
+32,health district,Three Rivers,median_read_pass_rate,73.5,2019,median,percent
+51041,county,"Chesterfield County, Virginia",median_read_pass_rate,58,2021,median,percent
+51530,county,"Buena Vista City, Virginia",median_read_pass_rate,64,2019,median,percent
+51127,county,"New Kent County, Virginia",median_read_pass_rate,76,2019,median,percent
+51079,county,"Greene County, Virginia",median_read_pass_rate,62,2019,median,percent
+19,health district,New River,median_read_pass_rate,62,2021,median,percent
+51053,county,"Dinwiddie County, Virginia",median_read_pass_rate,68,2019,median,percent
+51059,county,"Fairfax County, Virginia",median_read_pass_rate,67,2021,median,percent
+26,health district,Rappahannock,median_read_pass_rate,70,2019,median,percent
+51650,county,"Hampton City, Virginia",median_read_pass_rate,61,2021,median,percent
+51077,county,"Grayson County, Virginia",median_read_pass_rate,80,2021,median,percent
+51720,county,"Norton City, Virginia",median_read_pass_rate,73,2019,median,percent
+51029,county,"Buckingham County, Virginia",median_read_pass_rate,55,2019,median,percent
+51023,county,"Botetourt County, Virginia",median_read_pass_rate,80,2019,median,percent
+51035,county,"Carroll County, Virginia",median_read_pass_rate,71,2019,median,percent
+51113,county,"Madison County, Virginia",median_read_pass_rate,51,2021,median,percent
+51685,county,"Manassas Park City, Virginia",median_read_pass_rate,43,2021,median,percent
+51037,county,"Charlotte County, Virginia",median_read_pass_rate,66,2021,median,percent
+51155,county,"Pulaski County, Virginia",median_read_pass_rate,55,2021,median,percent
+21,health district,Peninsula,median_read_pass_rate,67,2019,median,percent
+51091,county,"Highland County, Virginia",median_read_pass_rate,73,2021,median,percent
+51079,county,"Greene County, Virginia",median_read_pass_rate,53.5,2021,median,percent
+51169,county,"Scott County, Virginia",median_read_pass_rate,86,2019,median,percent
+51137,county,"Orange County, Virginia",median_read_pass_rate,58,2021,median,percent
+51710,county,"Norfolk City, Virginia",median_read_pass_rate,42,2021,median,percent
+51091,county,"Highland County, Virginia",median_read_pass_rate,93,2019,median,percent
+51065,county,"Fluvanna County, Virginia",median_read_pass_rate,65,2019,median,percent
+35,health district,Western Tidewater,median_read_pass_rate,59.5,2021,median,percent
+04,health district,Central Shenandoah,median_read_pass_rate,53,2021,median,percent
+51590,county,"Danville City, Virginia",median_read_pass_rate,47,2019,median,percent
+51155,county,"Pulaski County, Virginia",median_read_pass_rate,64,2019,median,percent
+51105,county,"Lee County, Virginia",median_read_pass_rate,65,2021,median,percent
+51077,county,"Grayson County, Virginia",median_read_pass_rate,80.5,2019,median,percent
+51149,county,"Prince George County, Virginia",median_read_pass_rate,70,2021,median,percent
+51073,county,"Gloucester County, Virginia",median_read_pass_rate,80,2019,median,percent
+02,health district,Alleghany,median_read_pass_rate,78.5,2019,median,percent
+51770,county,"Roanoke City, Virginia",median_read_pass_rate,46,2021,median,percent
+51013,county,"Arlington County, Virginia",median_read_pass_rate,68,2021,median,percent
+07,health district,Chesterfield,median_read_pass_rate,72.5,2019,median,percent
+51131,county,"Northampton County, Virginia",median_read_pass_rate,56.5,2021,median,percent
+51069,county,"Frederick County, Virginia",median_read_pass_rate,54,2021,median,percent
+51683,county,"Manassas City, Virginia",median_read_pass_rate,37,2021,median,percent
+51650,county,"Hampton City, Virginia",median_read_pass_rate,66,2019,median,percent
+51750,county,"Radford City, Virginia",median_read_pass_rate,60,2021,median,percent
+51085,county,"Hanover County, Virginia",median_read_pass_rate,72,2021,median,percent
+51770,county,"Roanoke City, Virginia",median_read_pass_rate,62,2019,median,percent
+51119,county,"Middlesex County, Virginia",median_read_pass_rate,43,2021,median,percent
+51700,county,"Newport News City, Virginia",median_read_pass_rate,53,2019,median,percent
+51730,county,"Petersburg City, Virginia",median_read_pass_rate,49.5,2019,median,percent
+06,health district,Chesapeake,median_read_pass_rate,67.5,2021,median,percent
+51115,county,"Mathews County, Virginia",median_read_pass_rate,72,2019,median,percent
+51111,county,"Lunenburg County, Virginia",median_read_pass_rate,72,2019,median,percent
+31,health district,Thomas Jefferson,median_read_pass_rate,66.5,2019,median,percent
+51071,county,"Giles County, Virginia",median_read_pass_rate,62,2021,median,percent
+10,health district,Cumberland Plateau,median_read_pass_rate,76,2019,median,percent
+51099,county,"King George County, Virginia",median_read_pass_rate,69,2021,median,percent
+51141,county,"Patrick County, Virginia",median_read_pass_rate,87,2019,median,percent
+51057,county,"Essex County, Virginia",median_read_pass_rate,70,2019,median,percent
+51678,county,"Lexington City, Virginia",median_read_pass_rate,96,2019,median,percent
+51520,county,"Bristol City, Virginia",median_read_pass_rate,77.5,2019,median,percent
+51043,county,"Clarke County, Virginia",median_read_pass_rate,60,2019,median,percent
+26,health district,Rappahannock,median_read_pass_rate,61,2021,median,percent
+51680,county,"Lynchburg City, Virginia",median_read_pass_rate,68,2019,median,percent
+51063,county,"Floyd County, Virginia",median_read_pass_rate,68.5,2019,median,percent
+51195,county,"Wise County, Virginia",median_read_pass_rate,86,2019,median,percent
+51007,county,"Amelia County, Virginia",median_read_pass_rate,57,2021,median,percent
+01,health district,Alexandria,median_read_pass_rate,49.5,2021,median,percent
+51121,county,"Montgomery County, Virginia",median_read_pass_rate,69,2021,median,percent
+51067,county,"Franklin County, Virginia",median_read_pass_rate,68.5,2021,median,percent
+51075,county,"Goochland County, Virginia",median_read_pass_rate,78,2019,median,percent
+51179,county,"Stafford County, Virginia",median_read_pass_rate,72,2019,median,percent
+51049,county,"Cumberland County, Virginia",median_read_pass_rate,64,2019,median,percent
+51081,county,"Greensville County, Virginia",median_read_pass_rate,57,2019,median,percent
+28,health district,Richmond,median_read_pass_rate,24,2021,median,percent
+51087,county,"Henrico County, Virginia",median_read_pass_rate,52,2021,median,percent
+51740,county,"Portsmouth City, Virginia",median_read_pass_rate,58,2019,median,percent
+51139,county,"Page County, Virginia",median_read_pass_rate,47,2021,median,percent
+51073,county,"Gloucester County, Virginia",median_read_pass_rate,63,2021,median,percent
+51197,county,"Wythe County, Virginia",median_read_pass_rate,83,2019,median,percent
+31,health district,Thomas Jefferson,median_read_pass_rate,62.5,2021,median,percent
+51065,county,"Fluvanna County, Virginia",median_read_pass_rate,57,2021,median,percent
+51620,county,"Franklin City, Virginia",median_read_pass_rate,32,2021,median,percent
+51143,county,"Pittsylvania County, Virginia",median_read_pass_rate,81,2019,median,percent
+51017,county,"Bath County, Virginia",median_read_pass_rate,80,2019,median,percent
+51820,county,"Waynesboro City, Virginia",median_read_pass_rate,43,2021,median,percent
+16,health district,Lord Fairfax,median_read_pass_rate,54,2021,median,percent
+51199,county,"York County, Virginia",median_read_pass_rate,85.5,2019,median,percent
+04,health district,Central Shenandoah,median_read_pass_rate,65.5,2019,median,percent
+51690,county,"Martinsville City, Virginia",median_read_pass_rate,29.5,2021,median,percent
+22,health district,Piedmont,median_read_pass_rate,67,2019,median,percent
+51005,county,"Alleghany County, Virginia",median_read_pass_rate,55,2021,median,percent
+51630,county,"Fredericksburg City, Virginia",median_read_pass_rate,50,2019,median,percent
+51135,county,"Nottoway County, Virginia",median_read_pass_rate,71,2019,median,percent
+51125,county,"Nelson County, Virginia",median_read_pass_rate,45,2021,median,percent
+51067,county,"Franklin County, Virginia",median_read_pass_rate,74.5,2019,median,percent
+51147,county,"Prince Edward County, Virginia",median_read_pass_rate,52,2019,median,percent
+09,health district,Crater,median_read_pass_rate,64.5,2019,median,percent
+14,health district,Henrico,median_read_pass_rate,70,2019,median,percent
+25,health district,Prince William,median_read_pass_rate,71,2019,median,percent
+51193,county,"Westmoreland County, Virginia",median_read_pass_rate,40.5,2021,median,percent
+51139,county,"Page County, Virginia",median_read_pass_rate,66,2019,median,percent
+51061,county,"Fauquier County, Virginia",median_read_pass_rate,67,2021,median,percent
+51059,county,"Fairfax County, Virginia",median_read_pass_rate,73,2019,median,percent
+51685,county,"Manassas Park City, Virginia",median_read_pass_rate,61,2019,median,percent
+51051,county,"Dickenson County, Virginia",median_read_pass_rate,85,2019,median,percent
+51043,county,"Clarke County, Virginia",median_read_pass_rate,56.5,2021,median,percent
+16,health district,Lord Fairfax,median_read_pass_rate,63,2019,median,percent
+51047,county,"Culpeper County, Virginia",median_read_pass_rate,61.5,2019,median,percent
+17,health district,Loudoun,median_read_pass_rate,78,2019,median,percent
+51009,county,"Amherst County, Virginia",median_read_pass_rate,73.5,2019,median,percent
+51580,county,"Covington City, Virginia",median_read_pass_rate,65,2019,median,percent
+51730,county,"Petersburg City, Virginia",median_read_pass_rate,31.5,2021,median,percent
+51045,county,"Craig County, Virginia",median_read_pass_rate,70,2019,median,percent
+29,health district,Roanoke,median_read_pass_rate,46,2021,median,percent
+51101,county,"King William County, Virginia",median_read_pass_rate,69,2021,median,percent
+51037,county,"Charlotte County, Virginia",median_read_pass_rate,89,2019,median,percent
+51089,county,"Henry County, Virginia",median_read_pass_rate,71,2019,median,percent
+51800,county,"Suffolk City, Virginia",median_read_pass_rate,72,2019,median,percent
+51660,county,"Harrisonburg City, Virginia",median_read_pass_rate,54,2019,median,percent
+51157,county,"Rappahannock County, Virginia",median_read_pass_rate,61,2019,median,percent
+32,health district,Three Rivers,median_read_pass_rate,56,2021,median,percent
+51630,county,"Fredericksburg City, Virginia",median_read_pass_rate,46,2021,median,percent
+25,health district,Prince William,median_read_pass_rate,63.5,2021,median,percent
+51001,county,"Accomack County, Virginia",median_read_pass_rate,55,2019,median,percent
+02,health district,Alleghany,median_read_pass_rate,68.5,2021,median,percent
+51127,county,"New Kent County, Virginia",median_read_pass_rate,68,2021,median,percent
+51011,county,"Appomattox County, Virginia",median_read_pass_rate,63,2021,median,percent
+17,health district,Loudoun,median_read_pass_rate,75,2021,median,percent
+51620,county,"Franklin City, Virginia",median_read_pass_rate,42,2019,median,percent
+51181,county,"Surry County, Virginia",median_read_pass_rate,63,2019,median,percent
+51031,county,"Campbell County, Virginia",median_read_pass_rate,63,2021,median,percent
+51810,county,"Virginia Beach City, Virginia",median_read_pass_rate,80,2019,median,percent
+15,health district,Lenowisco,median_read_pass_rate,70,2021,median,percent
+29,health district,Roanoke,median_read_pass_rate,62,2019,median,percent
+51149,county,"Prince George County, Virginia",median_read_pass_rate,82,2019,median,percent
+33,health district,Virginia Beach,median_read_pass_rate,80,2019,median,percent
+51033,county,"Caroline County, Virginia",median_read_pass_rate,73,2019,median,percent
+51177,county,"Spotsylvania County, Virginia",median_read_pass_rate,63,2021,median,percent
+51063,county,"Floyd County, Virginia",median_read_pass_rate,60,2021,median,percent
+51011,county,"Appomattox County, Virginia",median_read_pass_rate,71,2019,median,percent
+22,health district,Piedmont,median_read_pass_rate,49,2021,median,percent
+23,health district,Pittsylvania-Danville,median_read_pass_rate,75.5,2019,median,percent
+51735,county,"Poquoson City, Virginia",median_read_pass_rate,88,2019,median,percent
+51840,county,"Winchester City, Virginia",median_read_pass_rate,58,2019,median,percent
+51540,county,"Charlottesville City, Virginia",median_read_pass_rate,69,2019,median,percent
+30,health district,Southside,median_read_pass_rate,69,2019,median,percent
+51670,county,"Hopewell City, Virginia",median_read_pass_rate,62,2019,median,percent
+11,health district,Eastern Shore,median_read_pass_rate,55,2019,median,percent
+51185,county,"Tazewell County, Virginia",median_read_pass_rate,74,2021,median,percent
+07,health district,Chesterfield,median_read_pass_rate,59,2021,median,percent
+51107,county,"Loudoun County, Virginia",median_read_pass_rate,75,2021,median,percent
+51683,county,"Manassas City, Virginia",median_read_pass_rate,52,2019,median,percent
+51670,county,"Hopewell City, Virginia",median_read_pass_rate,42,2021,median,percent
+51510,county,"Alexandria City, Virginia",median_read_pass_rate,49.5,2021,median,percent
+51117,county,"Mecklenburg County, Virginia",median_read_pass_rate,67,2019,median,percent
+51161,county,"Roanoke County, Virginia",median_read_pass_rate,78.5,2019,median,percent
+51135,county,"Nottoway County, Virginia",median_read_pass_rate,52.5,2021,median,percent
+19,health district,New River,median_read_pass_rate,71,2019,median,percent
+51840,county,"Winchester City, Virginia",median_read_pass_rate,51.5,2021,median,percent
+51820,county,"Waynesboro City, Virginia",median_read_pass_rate,55,2019,median,percent
+20,health district,Norfolk,median_read_pass_rate,42,2021,median,percent
+51049,county,"Cumberland County, Virginia",median_read_pass_rate,47,2021,median,percent
+51550,county,"Chesapeake City, Virginia",median_read_pass_rate,75.5,2019,median,percent
+51085,county,"Hanover County, Virginia",median_read_pass_rate,79,2019,median,percent
+51145,county,"Powhatan County, Virginia",median_read_pass_rate,73,2019,median,percent
+51183,county,"Sussex County, Virginia",median_read_pass_rate,73,2019,median,percent
+51800,county,"Suffolk City, Virginia",median_read_pass_rate,57,2021,median,percent
+51103,county,"Lancaster County, Virginia",median_read_pass_rate,76,2019,median,percent
+51610,county,"Falls Church City, Virginia",median_read_pass_rate,88,2019,median,percent
+51117,county,"Mecklenburg County, Virginia",median_read_pass_rate,70.5,2021,median,percent
+51590,county,"Danville City, Virginia",median_read_pass_rate,35.5,2021,median,percent
+51057,county,"Essex County, Virginia",median_read_pass_rate,56,2021,median,percent
+51001,county,"Accomack County, Virginia",median_read_pass_rate,49,2021,median,percent
+51169,county,"Scott County, Virginia",median_read_pass_rate,70,2021,median,percent
+34,health district,West Piedmont,median_read_pass_rate,74,2019,median,percent
+51035,county,"Carroll County, Virginia",median_read_pass_rate,70,2021,median,percent
+51187,county,"Warren County, Virginia",median_read_pass_rate,62,2021,median,percent
+51153,county,"Prince William County, Virginia",median_read_pass_rate,73,2019,median,percent
+03,health district,Arlington,median_read_pass_rate,68,2021,median,percent
+51760,county,"Richmond City, Virginia",median_read_pass_rate,52,2019,median,percent
+51790,county,"Staunton City, Virginia",median_read_pass_rate,77,2019,median,percent
+51640,county,"Galax City, Virginia",median_read_pass_rate,56,2021,median,percent
+15,health district,Lenowisco,median_read_pass_rate,81.5,2019,median,percent
+51071,county,"Giles County, Virginia",median_read_pass_rate,67,2019,median,percent
+33,health district,Virginia Beach,median_read_pass_rate,71.5,2021,median,percent
+51027,county,"Buchanan County, Virginia",median_read_pass_rate,65.5,2019,median,percent
+51740,county,"Portsmouth City, Virginia",median_read_pass_rate,53,2021,median,percent
+51031,county,"Campbell County, Virginia",median_read_pass_rate,76,2019,median,percent
+51009,county,"Amherst County, Virginia",median_read_pass_rate,55.5,2021,median,percent
+51036,county,"Charles City County, Virginia",median_read_pass_rate,67,2019,median,percent
+01,health district,Alexandria,median_read_pass_rate,62,2019,median,percent
+51159,county,"Richmond County, Virginia",median_read_pass_rate,78,2019,median,percent
+51119,county,"Middlesex County, Virginia",median_read_pass_rate,63,2019,median,percent
+24,health district,Portsmouth,median_read_pass_rate,58,2019,median,percent
+03,health district,Arlington,median_read_pass_rate,80,2019,median,percent
+51061,county,"Fauquier County, Virginia",median_read_pass_rate,66,2019,median,percent
+51520,county,"Bristol City, Virginia",median_read_pass_rate,52.5,2021,median,percent
+51750,county,"Radford City, Virginia",median_read_pass_rate,73,2019,median,percent
+51023,county,"Botetourt County, Virginia",median_read_pass_rate,77,2021,median,percent

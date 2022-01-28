@@ -78,7 +78,7 @@ page_navbar(
 # use `input_` functions to add input elements that affect outputs
 page_menu(
   input_checkbox(
-    "Starting Layer", c("district", "county"), "county", c("Districts", "Counties"),
+    "Starting Layer", c("district", "county"), 1, c("Districts", "Counties"),
     id = "starting_shapes", multi = FALSE
   ),
   page_section(
@@ -92,7 +92,7 @@ page_menu(
       "County", options = "ids", dataset = "county", dataview = "primary_view",
       id = "selected_county", reset_button = TRUE
     ),
-    conditions = c("starting_shapes == district", "starting_shapes == county || selected_county")
+    conditions = c("starting_shapes == district", "starting_shapes == county || selected_district")
   ),
   input_checkbox("Region Types", options = c("rural", "mixed", "urban"), id = "region_type", as.switch = TRUE),
   page_section(
@@ -100,7 +100,7 @@ page_menu(
     wraps = "row form-row",
     {
       vars <- jsonlite::read_json('../community_example/docs/data/measure_info.json')
-      varcats <- Filter(nchar, unique(vapply(vars, function(v) if(is.null(v$category)) "" else v$category, "")))
+      varcats <- Filter(nchar, unique(vapply(vars, function(v) if (is.null(v$category)) "" else v$category, "")))
       input_select("Variable Category", options = varcats, default = "Health", id = "variable_type")
     },
     input_select(
@@ -179,7 +179,8 @@ page_section(
     "? > {selected_county}"
   )),
   output_text(list(
-    "default" = "Virginia Health Districts",
+    "default" = "Virginia Counties",
+    "starting_shapes == district" = "Virginia Health Districts",
     "selected_district" = "{selected_district} Counties",
     "selected_county" = "{selected_county} Census Tracts"
   ), tag = "h1", class = "text-center"),

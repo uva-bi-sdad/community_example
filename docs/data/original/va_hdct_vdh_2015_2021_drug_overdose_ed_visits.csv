@@ -1,0 +1,1177 @@
+geoid,region_type,region_name,year,measure,value,measure_type,measure_units
+51113,county,"Madison County, Virginia",2015,avg_overdose_per_100k,9.51728338663012,rate per 100k,NA
+51157,county,"Rappahannock County, Virginia",2018,avg_overdose_per_100k,9.1062241041752,rate per 100k,NA
+51580,county,"Covington city, Virginia",2019,avg_overdose_per_100k,17.350183185655,rate per 100k,NA
+27,health district,Rappahannock Rapidan,2019,avg_overdose_per_100k,16.1576991436419,rate per 100k,NA
+51107,county,"Loudoun County, Virginia",2019,avg_overdose_per_100k,7.15936495176849,rate per 100k,NA
+51019,county,"Bedford County, Virginia",2017,avg_overdose_per_100k,11.3287352422434,rate per 100k,NA
+51109,county,"Louisa County, Virginia",2016,avg_overdose_per_100k,26.4880614523026,rate per 100k,NA
+51063,county,"Floyd County, Virginia",2021,avg_overdose_per_100k,0,rate per 100k,NA
+51001,county,"Accomack County, Virginia",2020,avg_overdose_per_100k,14.912172446419,rate per 100k,NA
+51099,county,"King George County, Virginia",2017,avg_overdose_per_100k,17.7405444862918,rate per 100k,NA
+51061,county,"Fauquier County, Virginia",2019,avg_overdose_per_100k,16.4351351999808,rate per 100k,NA
+51115,county,"Mathews County, Virginia",2016,avg_overdose_per_100k,17.0803917103166,rate per 100k,NA
+22,health district,Piedmont,2018,avg_overdose_per_100k,10.2552081807261,rate per 100k,NA
+51185,county,"Tazewell County, Virginia",2018,avg_overdose_per_100k,18.0476132538427,rate per 100k,NA
+51121,county,"Montgomery County, Virginia",2021,avg_overdose_per_100k,17.9819153308672,rate per 100k,NA
+51131,county,"Northampton County, Virginia",2015,avg_overdose_per_100k,13.0261894967777,rate per 100k,NA
+51580,county,"Covington city, Virginia",2020,avg_overdose_per_100k,30.2732776959581,rate per 100k,NA
+51005,county,"Alleghany County, Virginia",2016,avg_overdose_per_100k,14.6039564881037,rate per 100k,NA
+51017,county,"Bath County, Virginia",2015,avg_overdose_per_100k,7.45712155108128,rate per 100k,NA
+51155,county,"Pulaski County, Virginia",2021,avg_overdose_per_100k,30.1231375084492,rate per 100k,NA
+51680,county,"Lynchburg city, Virginia",2016,avg_overdose_per_100k,11.012483585166,rate per 100k,NA
+51083,county,"Halifax County, Virginia",2020,avg_overdose_per_100k,16.3638139898398,rate per 100k,NA
+51153,county,"Prince William County, Virginia",2019,avg_overdose_per_100k,8.84321758792845,rate per 100k,NA
+51159,county,"Richmond County, Virginia",2019,avg_overdose_per_100k,20.5093783793862,rate per 100k,NA
+51051,county,"Dickenson County, Virginia",2019,avg_overdose_per_100k,19.1674559148514,rate per 100k,NA
+51095,county,"James City County, Virginia",2020,avg_overdose_per_100k,18.1071682570433,rate per 100k,NA
+19,health district,New River,2018,avg_overdose_per_100k,11.7946223808197,rate per 100k,NA
+51145,county,"Powhatan County, Virginia",2018,avg_overdose_per_100k,13.4027947740755,rate per 100k,NA
+51191,county,"Washington County, Virginia",2016,avg_overdose_per_100k,8.31296072535851,rate per 100k,NA
+51109,county,"Louisa County, Virginia",2015,avg_overdose_per_100k,17.5808720112518,rate per 100k,NA
+51031,county,"Campbell County, Virginia",2018,avg_overdose_per_100k,4.24165303278192,rate per 100k,NA
+51660,county,"Harrisonburg city, Virginia",2015,avg_overdose_per_100k,15.3154733307405,rate per 100k,NA
+51115,county,"Mathews County, Virginia",2018,avg_overdose_per_100k,0.949234916657174,rate per 100k,NA
+51027,county,"Buchanan County, Virginia",2019,avg_overdose_per_100k,15.4937869914164,rate per 100k,NA
+51087,county,"Henrico County, Virginia",2019,avg_overdose_per_100k,20.204453824055,rate per 100k,NA
+15,health district,Lenowisco,2021,avg_overdose_per_100k,18.3999269149756,rate per 100k,NA
+51540,county,"Charlottesville city, Virginia",2016,avg_overdose_per_100k,18.3150183150183,rate per 100k,NA
+51095,county,"James City County, Virginia",2021,avg_overdose_per_100k,21.7799441562232,rate per 100k,NA
+51001,county,"Accomack County, Virginia",2018,avg_overdose_per_100k,1.02422287089671,rate per 100k,NA
+51011,county,"Appomattox County, Virginia",2017,avg_overdose_per_100k,3.73414938802251,rate per 100k,NA
+51147,county,"Prince Edward County, Virginia",2015,avg_overdose_per_100k,12.3446032299291,rate per 100k,NA
+23,health district,Pittsylvania-Danville,2017,avg_overdose_per_100k,12.6154106601034,rate per 100k,NA
+51003,county,"Albemarle County, Virginia",2020,avg_overdose_per_100k,11.8489707867079,rate per 100k,NA
+51125,county,"Nelson County, Virginia",2016,avg_overdose_per_100k,21.8575559889703,rate per 100k,NA
+51119,county,"Middlesex County, Virginia",2019,avg_overdose_per_100k,24.1907794113057,rate per 100k,NA
+51019,county,"Bedford County, Virginia",2018,avg_overdose_per_100k,10.9010695872983,rate per 100k,NA
+11,health district,Eastern Shore,2020,avg_overdose_per_100k,14.7235372732009,rate per 100k,NA
+12,health district,Fairfax,2021,avg_overdose_per_100k,9.59204579602365,rate per 100k,NA
+51049,county,"Cumberland County, Virginia",2021,avg_overdose_per_100k,15.1026983487716,rate per 100k,NA
+51041,county,"Chesterfield County, Virginia",2017,avg_overdose_per_100k,13.525600804470301,rate per 100k,NA
+51177,county,"Spotsylvania County, Virginia",2017,avg_overdose_per_100k,14.478831657848,rate per 100k,NA
+51193,county,"Westmoreland County, Virginia",2016,avg_overdose_per_100k,20.3691071699257,rate per 100k,NA
+4,health district,Central Shenandoah,2019,avg_overdose_per_100k,13.6825819338644,rate per 100k,NA
+51830,county,"Williamsburg city, Virginia",2016,avg_overdose_per_100k,0,rate per 100k,NA
+10,health district,Cumberland Plateau,2021,avg_overdose_per_100k,22.9803572144772,rate per 100k,NA
+51133,county,"Northumberland County, Virginia",2018,avg_overdose_per_100k,8.14663951120163,rate per 100k,NA
+51033,county,"Caroline County, Virginia",2018,avg_overdose_per_100k,15.3201361303525,rate per 100k,NA
+51195,county,"Wise County, Virginia",2016,avg_overdose_per_100k,36.7430922986479,rate per 100k,NA
+51043,county,"Clarke County, Virginia",2016,avg_overdose_per_100k,10.435508557117,rate per 100k,NA
+51183,county,"Sussex County, Virginia",2020,avg_overdose_per_100k,16.3151493577764,rate per 100k,NA
+30,health district,Southside,2019,avg_overdose_per_100k,11.9642177855767,rate per 100k,NA
+51063,county,"Floyd County, Virginia",2018,avg_overdose_per_100k,8.46292182375965,rate per 100k,NA
+51057,county,"Essex County, Virginia",2021,avg_overdose_per_100k,0,rate per 100k,NA
+51059,county,"Fairfax County, Virginia",2019,avg_overdose_per_100k,7.63055693378249,rate per 100k,NA
+51003,county,"Albemarle County, Virginia",2019,avg_overdose_per_100k,14.0208021611301,rate per 100k,NA
+51550,county,"Chesapeake city, Virginia",2018,avg_overdose_per_100k,15.5298665679411,rate per 100k,NA
+51155,county,"Pulaski County, Virginia",2020,avg_overdose_per_100k,23.7284486976262,rate per 100k,NA
+23,health district,Pittsylvania-Danville,2019,avg_overdose_per_100k,17.0918467007852,rate per 100k,NA
+51036,county,"Charles City County, Virginia",2020,avg_overdose_per_100k,18.0089324304855,rate per 100k,NA
+18,health district,Mount Rogers,2017,avg_overdose_per_100k,14.3250309861439,rate per 100k,NA
+51169,county,"Scott County, Virginia",2020,avg_overdose_per_100k,1.54793969226959,rate per 100k,NA
+3,health district,Arlington,2020,avg_overdose_per_100k,6.94675418173551,rate per 100k,NA
+51700,county,"Newport News city, Virginia",2015,avg_overdose_per_100k,14.3469400809643,rate per 100k,NA
+51021,county,"Bland County, Virginia",2019,avg_overdose_per_100k,10.498687664042,rate per 100k,NA
+12,health district,Fairfax,2016,avg_overdose_per_100k,10.5296998433645,rate per 100k,NA
+51540,county,"Charlottesville city, Virginia",2021,avg_overdose_per_100k,14.5455680718395,rate per 100k,NA
+51187,county,"Warren County, Virginia",2017,avg_overdose_per_100k,27.4066302219625,rate per 100k,NA
+51157,county,"Rappahannock County, Virginia",2019,avg_overdose_per_100k,3.4148340390657,rate per 100k,NA
+6,health district,Chesapeake,2019,avg_overdose_per_100k,16.5698129899014,rate per 100k,NA
+51165,county,"Rockingham County, Virginia",2017,avg_overdose_per_100k,11.7899258396881,rate per 100k,NA
+51157,county,"Rappahannock County, Virginia",2021,avg_overdose_per_100k,0,rate per 100k,NA
+51083,county,"Halifax County, Virginia",2015,avg_overdose_per_100k,1.18623962040332,rate per 100k,NA
+8,health district,Chickahominy,2019,avg_overdose_per_100k,15.3110311476174,rate per 100k,NA
+51790,county,"Staunton city, Virginia",2020,avg_overdose_per_100k,16.5302245671656,rate per 100k,NA
+51820,county,"Waynesboro city, Virginia",2015,avg_overdose_per_100k,1.66360286472413,rate per 100k,NA
+20,health district,Norfolk,2016,avg_overdose_per_100k,19.5486472336114,rate per 100k,NA
+51167,county,"Russell County, Virginia",2018,avg_overdose_per_100k,14.172335600907,rate per 100k,NA
+51840,county,"Winchester city, Virginia",2018,avg_overdose_per_100k,15.7320654453923,rate per 100k,NA
+51149,county,"Prince George County, Virginia",2017,avg_overdose_per_100k,10.123187485439,rate per 100k,NA
+22,health district,Piedmont,2017,avg_overdose_per_100k,10.4993798040767,rate per 100k,NA
+51590,county,"Danville city, Virginia",2020,avg_overdose_per_100k,20.5787633720968,rate per 100k,NA
+51185,county,"Tazewell County, Virginia",2020,avg_overdose_per_100k,24.2728348223392,rate per 100k,NA
+51049,county,"Cumberland County, Virginia",2018,avg_overdose_per_100k,6.79509394217375,rate per 100k,NA
+51011,county,"Appomattox County, Virginia",2016,avg_overdose_per_100k,9.69305331179321,rate per 100k,NA
+25,health district,Prince William,2020,avg_overdose_per_100k,12.208413431279,rate per 100k,NA
+51017,county,"Bath County, Virginia",2019,avg_overdose_per_100k,27.1507253122333,rate per 100k,NA
+3,health district,Arlington,2017,avg_overdose_per_100k,8.05084445201058,rate per 100k,NA
+51650,county,"Hampton city, Virginia",2017,avg_overdose_per_100k,18.6204969028715,rate per 100k,NA
+51007,county,"Amelia County, Virginia",2015,avg_overdose_per_100k,9.68766953421685,rate per 100k,NA
+11,health district,Eastern Shore,2016,avg_overdose_per_100k,8.31743778556537,rate per 100k,NA
+51173,county,"Smyth County, Virginia",2015,avg_overdose_per_100k,21.9786039614448,rate per 100k,NA
+51109,county,"Louisa County, Virginia",2017,avg_overdose_per_100k,25.1264092135148,rate per 100k,NA
+51595,county,"Emporia city, Virginia",2015,avg_overdose_per_100k,2.87670444738508,rate per 100k,NA
+28,health district,Richmond,2020,avg_overdose_per_100k,37.9544517439379,rate per 100k,NA
+51595,county,"Emporia city, Virginia",2021,avg_overdose_per_100k,51.9522039723454,rate per 100k,NA
+51077,county,"Grayson County, Virginia",2015,avg_overdose_per_100k,15.9934862892204,rate per 100k,NA
+51133,county,"Northumberland County, Virginia",2020,avg_overdose_per_100k,6.8604044894487,rate per 100k,NA
+51033,county,"Caroline County, Virginia",2015,avg_overdose_per_100k,13.3404482390608,rate per 100k,NA
+51678,county,"Lexington city, Virginia",2020,avg_overdose_per_100k,15.4555940023068,rate per 100k,NA
+13,health district,Hampton,2016,avg_overdose_per_100k,18.2162814169313,rate per 100k,NA
+51167,county,"Russell County, Virginia",2020,avg_overdose_per_100k,15.5774886595883,rate per 100k,NA
+51025,county,"Brunswick County, Virginia",2020,avg_overdose_per_100k,15.2587890625,rate per 100k,NA
+51171,county,"Shenandoah County, Virginia",2019,avg_overdose_per_100k,21.3996529786003,rate per 100k,NA
+51830,county,"Williamsburg city, Virginia",2020,avg_overdose_per_100k,0,rate per 100k,NA
+33,health district,Virginia Beach,2018,avg_overdose_per_100k,11.3223883579207,rate per 100k,NA
+51157,county,"Rappahannock County, Virginia",2015,avg_overdose_per_100k,14.6832926719075,rate per 100k,NA
+4,health district,Central Shenandoah,2021,avg_overdose_per_100k,15.7296450638823,rate per 100k,NA
+51750,county,"Radford city, Virginia",2018,avg_overdose_per_100k,9.68016727329048,rate per 100k,NA
+51600,county,"Fairfax city, Virginia",2017,avg_overdose_per_100k,9.20272660692736,rate per 100k,NA
+51139,county,"Page County, Virginia",2018,avg_overdose_per_100k,17.2067478544239,rate per 100k,NA
+51670,county,"Hopewell city, Virginia",2017,avg_overdose_per_100k,10.123187485439,rate per 100k,NA
+51119,county,"Middlesex County, Virginia",2016,avg_overdose_per_100k,13.1440588853838,rate per 100k,NA
+51001,county,"Accomack County, Virginia",2016,avg_overdose_per_100k,6.57621837091895,rate per 100k,NA
+51081,county,"Greensville County, Virginia",2018,avg_overdose_per_100k,21.6182221960183,rate per 100k,NA
+51685,county,"Manassas Park city, Virginia",2021,avg_overdose_per_100k,12.3107122944521,rate per 100k,NA
+51700,county,"Newport News city, Virginia",2018,avg_overdose_per_100k,7.01459034792368,rate per 100k,NA
+51159,county,"Richmond County, Virginia",2016,avg_overdose_per_100k,8.54798267608844,rate per 100k,NA
+4,health district,Central Shenandoah,2017,avg_overdose_per_100k,12.0941762918475,rate per 100k,NA
+51760,county,"Richmond city, Virginia",2017,avg_overdose_per_100k,22.4310351394819,rate per 100k,NA
+9,health district,Crater,2020,avg_overdose_per_100k,36.2895346565056,rate per 100k,NA
+20,health district,Norfolk,2019,avg_overdose_per_100k,16.1760719457192,rate per 100k,NA
+51077,county,"Grayson County, Virginia",2019,avg_overdose_per_100k,29.5349184985793,rate per 100k,NA
+51013,county,"Arlington County, Virginia",2019,avg_overdose_per_100k,6.95138992332191,rate per 100k,NA
+51155,county,"Pulaski County, Virginia",2015,avg_overdose_per_100k,15.2918559944075,rate per 100k,NA
+51770,county,"Roanoke city, Virginia",2021,avg_overdose_per_100k,46.1459492699487,rate per 100k,NA
+9,health district,Crater,2018,avg_overdose_per_100k,23.0792681617739,rate per 100k,NA
+51127,county,"New Kent County, Virginia",2015,avg_overdose_per_100k,10.2164247417288,rate per 100k,NA
+51163,county,"Rockbridge County, Virginia",2021,avg_overdose_per_100k,19.5710802062009,rate per 100k,NA
+51680,county,"Lynchburg city, Virginia",2017,avg_overdose_per_100k,9.26786561448325,rate per 100k,NA
+4,health district,Central Shenandoah,2015,avg_overdose_per_100k,8.80710458649087,rate per 100k,NA
+51047,county,"Culpeper County, Virginia",2016,avg_overdose_per_100k,26.1233019853709,rate per 100k,NA
+51037,county,"Charlotte County, Virginia",2021,avg_overdose_per_100k,54.7138047138047,rate per 100k,NA
+51710,county,"Norfolk city, Virginia",2019,avg_overdose_per_100k,16.1760719457192,rate per 100k,NA
+51530,county,"Buena Vista city, Virginia",2021,avg_overdose_per_100k,19.5710802062009,rate per 100k,NA
+51197,county,"Wythe County, Virginia",2017,avg_overdose_per_100k,5.48207649516423,rate per 100k,NA
+9,health district,Crater,2015,avg_overdose_per_100k,5.32910415627491,rate per 100k,NA
+51750,county,"Radford city, Virginia",2015,avg_overdose_per_100k,10.6469892921708,rate per 100k,NA
+51840,county,"Winchester city, Virginia",2017,avg_overdose_per_100k,19.0386131125632,rate per 100k,NA
+51089,county,"Henry County, Virginia",2019,avg_overdose_per_100k,24.3388380535144,rate per 100k,NA
+51141,county,"Patrick County, Virginia",2021,avg_overdose_per_100k,31.2358019082235,rate per 100k,NA
+51165,county,"Rockingham County, Virginia",2019,avg_overdose_per_100k,10.9712738578718,rate per 100k,NA
+51085,county,"Hanover County, Virginia",2015,avg_overdose_per_100k,11.3019526545058,rate per 100k,NA
+51193,county,"Westmoreland County, Virginia",2017,avg_overdose_per_100k,11.7222940925017,rate per 100k,NA
+51115,county,"Mathews County, Virginia",2015,avg_overdose_per_100k,6.58241179568194,rate per 100k,NA
+51041,county,"Chesterfield County, Virginia",2015,avg_overdose_per_100k,10.0186606394404,rate per 100k,NA
+51570,county,"Colonial Heights city, Virginia",2020,avg_overdose_per_100k,20.4245578697323,rate per 100k,NA
+51127,county,"New Kent County, Virginia",2016,avg_overdose_per_100k,14.9745432764301,rate per 100k,NA
+51590,county,"Danville city, Virginia",2016,avg_overdose_per_100k,12.2282827307686,rate per 100k,NA
+33,health district,Virginia Beach,2020,avg_overdose_per_100k,15.7341324051306,rate per 100k,NA
+51163,county,"Rockbridge County, Virginia",2015,avg_overdose_per_100k,9.65943588894409,rate per 100k,NA
+19,health district,New River,2017,avg_overdose_per_100k,12.1589350412311,rate per 100k,NA
+51053,county,"Dinwiddie County, Virginia",2018,avg_overdose_per_100k,12.1124031007752,rate per 100k,NA
+51169,county,"Scott County, Virginia",2017,avg_overdose_per_100k,4.190133412388,rate per 100k,NA
+3,health district,Arlington,2015,avg_overdose_per_100k,5.6364292239037,rate per 100k,NA
+51137,county,"Orange County, Virginia",2015,avg_overdose_per_100k,26.3765248928454,rate per 100k,NA
+51103,county,"Lancaster County, Virginia",2015,avg_overdose_per_100k,2.27998176014592,rate per 100k,NA
+51031,county,"Campbell County, Virginia",2019,avg_overdose_per_100k,4.24165303278192,rate per 100k,NA
+19,health district,New River,2021,avg_overdose_per_100k,20.5514331441874,rate per 100k,NA
+51045,county,"Craig County, Virginia",2017,avg_overdose_per_100k,19.724397693494,rate per 100k,NA
+51181,county,"Surry County, Virginia",2021,avg_overdose_per_100k,0,rate per 100k,NA
+28,health district,Richmond,2019,avg_overdose_per_100k,23.1979045538368,rate per 100k,NA
+51003,county,"Albemarle County, Virginia",2017,avg_overdose_per_100k,17.4699205088444,rate per 100k,NA
+51025,county,"Brunswick County, Virginia",2019,avg_overdose_per_100k,11.2862185011902,rate per 100k,NA
+51085,county,"Hanover County, Virginia",2020,avg_overdose_per_100k,17.484310745158,rate per 100k,NA
+51059,county,"Fairfax County, Virginia",2020,avg_overdose_per_100k,9.20059051826632,rate per 100k,NA
+51570,county,"Colonial Heights city, Virginia",2017,avg_overdose_per_100k,13.525600804470301,rate per 100k,NA
+51103,county,"Lancaster County, Virginia",2019,avg_overdose_per_100k,16.9941910765048,rate per 100k,NA
+51023,county,"Botetourt County, Virginia",2018,avg_overdose_per_100k,10.2936450550333,rate per 100k,NA
+51047,county,"Culpeper County, Virginia",2017,avg_overdose_per_100k,23.1372678111092,rate per 100k,NA
+51027,county,"Buchanan County, Virginia",2015,avg_overdose_per_100k,12.4399953167076,rate per 100k,NA
+51131,county,"Northampton County, Virginia",2019,avg_overdose_per_100k,18.2902808261579,rate per 100k,NA
+51620,county,"Franklin city, Virginia",2018,avg_overdose_per_100k,18.3213762246394,rate per 100k,NA
+51115,county,"Mathews County, Virginia",2021,avg_overdose_per_100k,0,rate per 100k,NA
+15,health district,Lenowisco,2017,avg_overdose_per_100k,18.4355323614499,rate per 100k,NA
+51153,county,"Prince William County, Virginia",2020,avg_overdose_per_100k,12.208413431279,rate per 100k,NA
+51045,county,"Craig County, Virginia",2015,avg_overdose_per_100k,6.39672487686305,rate per 100k,NA
+51770,county,"Roanoke city, Virginia",2019,avg_overdose_per_100k,27.875379583677,rate per 100k,NA
+51117,county,"Mecklenburg County, Virginia",2015,avg_overdose_per_100k,8.84784916830218,rate per 100k,NA
+51510,county,"Alexandria city, Virginia",2020,avg_overdose_per_100k,10.4341867563695,rate per 100k,NA
+51169,county,"Scott County, Virginia",2021,avg_overdose_per_100k,0,rate per 100k,NA
+51530,county,"Buena Vista city, Virginia",2020,avg_overdose_per_100k,15.4555940023068,rate per 100k,NA
+51099,county,"King George County, Virginia",2020,avg_overdose_per_100k,17.8739416745061,rate per 100k,NA
+51087,county,"Henrico County, Virginia",2016,avg_overdose_per_100k,18.2490507941272,rate per 100k,NA
+51035,county,"Carroll County, Virginia",2019,avg_overdose_per_100k,10.6593061352722,rate per 100k,NA
+51113,county,"Madison County, Virginia",2017,avg_overdose_per_100k,21.3879151726797,rate per 100k,NA
+51790,county,"Staunton city, Virginia",2021,avg_overdose_per_100k,19.1321926214714,rate per 100k,NA
+51710,county,"Norfolk city, Virginia",2016,avg_overdose_per_100k,19.5486472336114,rate per 100k,NA
+51111,county,"Lunenburg County, Virginia",2016,avg_overdose_per_100k,8.14796708221299,rate per 100k,NA
+51510,county,"Alexandria city, Virginia",2017,avg_overdose_per_100k,12.588874208284,rate per 100k,NA
+51770,county,"Roanoke city, Virginia",2018,avg_overdose_per_100k,28.2551531474873,rate per 100k,NA
+51035,county,"Carroll County, Virginia",2020,avg_overdose_per_100k,11.8099608584154,rate per 100k,NA
+51041,county,"Chesterfield County, Virginia",2021,avg_overdose_per_100k,25.003391816657,rate per 100k,NA
+51187,county,"Warren County, Virginia",2016,avg_overdose_per_100k,21.7085940492913,rate per 100k,NA
+51730,county,"Petersburg city, Virginia",2021,avg_overdose_per_100k,52.1654065046527,rate per 100k,NA
+51097,county,"King and Queen County, Virginia",2019,avg_overdose_per_100k,22.6093578942358,rate per 100k,NA
+51081,county,"Greensville County, Virginia",2019,avg_overdose_per_100k,24.5661615863845,rate per 100k,NA
+51095,county,"James City County, Virginia",2017,avg_overdose_per_100k,13.372756607596,rate per 100k,NA
+51036,county,"Charles City County, Virginia",2015,avg_overdose_per_100k,4.73484848484848,rate per 100k,NA
+16,health district,Lord Fairfax,2018,avg_overdose_per_100k,16.670701613554,rate per 100k,NA
+51155,county,"Pulaski County, Virginia",2019,avg_overdose_per_100k,27.5470005460644,rate per 100k,NA
+51179,county,"Stafford County, Virginia",2016,avg_overdose_per_100k,16.1054578452629,rate per 100k,NA
+51097,county,"King and Queen County, Virginia",2016,avg_overdose_per_100k,10.47632350887,rate per 100k,NA
+25,health district,Prince William,2021,avg_overdose_per_100k,12.3107122944521,rate per 100k,NA
+51171,county,"Shenandoah County, Virginia",2017,avg_overdose_per_100k,21.0158597687931,rate per 100k,NA
+51660,county,"Harrisonburg city, Virginia",2019,avg_overdose_per_100k,10.9712738578718,rate per 100k,NA
+51135,county,"Nottoway County, Virginia",2019,avg_overdose_per_100k,18.3577383266382,rate per 100k,NA
+35,health district,Western Tidewater,2017,avg_overdose_per_100k,15.1153019240633,rate per 100k,NA
+51036,county,"Charles City County, Virginia",2017,avg_overdose_per_100k,8.32857414810584,rate per 100k,NA
+51029,county,"Buckingham County, Virginia",2018,avg_overdose_per_100k,10.2549077058306,rate per 100k,NA
+51083,county,"Halifax County, Virginia",2019,avg_overdose_per_100k,12.2963863090588,rate per 100k,NA
+51161,county,"Roanoke County, Virginia",2017,avg_overdose_per_100k,33.0046471712396,rate per 100k,NA
+51061,county,"Fauquier County, Virginia",2017,avg_overdose_per_100k,21.4867120784708,rate per 100k,NA
+51181,county,"Surry County, Virginia",2017,avg_overdose_per_100k,NA,rate per 100k,NA
+51640,county,"Galax city, Virginia",2017,avg_overdose_per_100k,37.829540384416,rate per 100k,NA
+51143,county,"Pittsylvania County, Virginia",2017,avg_overdose_per_100k,12.5966003060571,rate per 100k,NA
+51710,county,"Norfolk city, Virginia",2020,avg_overdose_per_100k,24.8556460556002,rate per 100k,NA
+51620,county,"Franklin city, Virginia",2021,avg_overdose_per_100k,32.0337526369248,rate per 100k,NA
+51570,county,"Colonial Heights city, Virginia",2016,avg_overdose_per_100k,12.0054973032009,rate per 100k,NA
+51087,county,"Henrico County, Virginia",2015,avg_overdose_per_100k,13.5320078116591,rate per 100k,NA
+51550,county,"Chesapeake city, Virginia",2021,avg_overdose_per_100k,20.9665012491406,rate per 100k,NA
+51099,county,"King George County, Virginia",2015,avg_overdose_per_100k,9.14494741655235,rate per 100k,NA
+16,health district,Lord Fairfax,2016,avg_overdose_per_100k,19.981776046263,rate per 100k,NA
+51125,county,"Nelson County, Virginia",2021,avg_overdose_per_100k,26.7916945746818,rate per 100k,NA
+51165,county,"Rockingham County, Virginia",2021,avg_overdose_per_100k,12.8429309544274,rate per 100k,NA
+51197,county,"Wythe County, Virginia",2018,avg_overdose_per_100k,10.6756226484777,rate per 100k,NA
+51075,county,"Goochland County, Virginia",2016,avg_overdose_per_100k,10.2935121463443,rate per 100k,NA
+51095,county,"James City County, Virginia",2019,avg_overdose_per_100k,15.888988930671,rate per 100k,NA
+51047,county,"Culpeper County, Virginia",2021,avg_overdose_per_100k,24.9236975783882,rate per 100k,NA
+20,health district,Norfolk,2018,avg_overdose_per_100k,17.8447614727513,rate per 100k,NA
+51530,county,"Buena Vista city, Virginia",2016,avg_overdose_per_100k,15.3250299534676,rate per 100k,NA
+51079,county,"Greene County, Virginia",2015,avg_overdose_per_100k,21.7444247294994,rate per 100k,NA
+26,health district,Rappahannock,2020,avg_overdose_per_100k,17.8946052710853,rate per 100k,NA
+51065,county,"Fluvanna County, Virginia",2018,avg_overdose_per_100k,9.76611724381269,rate per 100k,NA
+51073,county,"Gloucester County, Virginia",2019,avg_overdose_per_100k,21.0053988344238,rate per 100k,NA
+29,health district,Roanoke,2018,avg_overdose_per_100k,39.3975513420208,rate per 100k,NA
+9,health district,Crater,2017,avg_overdose_per_100k,8.90967096477782,rate per 100k,NA
+22,health district,Piedmont,2021,avg_overdose_per_100k,26.6010868444054,rate per 100k,NA
+51035,county,"Carroll County, Virginia",2021,avg_overdose_per_100k,16.7835923601088,rate per 100k,NA
+51087,county,"Henrico County, Virginia",2018,avg_overdose_per_100k,18.3237876819417,rate per 100k,NA
+51540,county,"Charlottesville city, Virginia",2019,avg_overdose_per_100k,14.0208021611301,rate per 100k,NA
+51159,county,"Richmond County, Virginia",2018,avg_overdose_per_100k,4.66122235895141,rate per 100k,NA
+51065,county,"Fluvanna County, Virginia",2015,avg_overdose_per_100k,14.2938822184105,rate per 100k,NA
+51143,county,"Pittsylvania County, Virginia",2018,avg_overdose_per_100k,15.6268312692894,rate per 100k,NA
+51161,county,"Roanoke County, Virginia",2019,avg_overdose_per_100k,27.875379583677,rate per 100k,NA
+51750,county,"Radford city, Virginia",2021,avg_overdose_per_100k,17.9819153308672,rate per 100k,NA
+51045,county,"Craig County, Virginia",2018,avg_overdose_per_100k,13.1700250230475,rate per 100k,NA
+51690,county,"Martinsville city, Virginia",2019,avg_overdose_per_100k,24.3388380535144,rate per 100k,NA
+51077,county,"Grayson County, Virginia",2017,avg_overdose_per_100k,37.829540384416,rate per 100k,NA
+51033,county,"Caroline County, Virginia",2020,avg_overdose_per_100k,29.5181766974306,rate per 100k,NA
+51029,county,"Buckingham County, Virginia",2020,avg_overdose_per_100k,13.2360727101594,rate per 100k,NA
+51073,county,"Gloucester County, Virginia",2021,avg_overdose_per_100k,25.7711256292171,rate per 100k,NA
+51013,county,"Arlington County, Virginia",2016,avg_overdose_per_100k,8.76621024414982,rate per 100k,NA
+51720,county,"Norton city, Virginia",2015,avg_overdose_per_100k,26.7234731352742,rate per 100k,NA
+26,health district,Rappahannock,2015,avg_overdose_per_100k,11.9818213304502,rate per 100k,NA
+51139,county,"Page County, Virginia",2015,avg_overdose_per_100k,20.0202309702436,rate per 100k,NA
+51680,county,"Lynchburg city, Virginia",2019,avg_overdose_per_100k,9.15694384427022,rate per 100k,NA
+51057,county,"Essex County, Virginia",2020,avg_overdose_per_100k,21.3694782794517,rate per 100k,NA
+51031,county,"Campbell County, Virginia",2020,avg_overdose_per_100k,6.51835143312778,rate per 100k,NA
+51067,county,"Franklin County, Virginia",2016,avg_overdose_per_100k,18.281046567622,rate per 100k,NA
+51840,county,"Winchester city, Virginia",2019,avg_overdose_per_100k,15.950566354356,rate per 100k,NA
+51097,county,"King and Queen County, Virginia",2018,avg_overdose_per_100k,11.8996620495978,rate per 100k,NA
+18,health district,Mount Rogers,2018,avg_overdose_per_100k,12.914566396739,rate per 100k,NA
+51550,county,"Chesapeake city, Virginia",2020,avg_overdose_per_100k,22.0840168044599,rate per 100k,NA
+51750,county,"Radford city, Virginia",2017,avg_overdose_per_100k,11.4736877332905,rate per 100k,NA
+51139,county,"Page County, Virginia",2021,avg_overdose_per_100k,25.1025018826876,rate per 100k,NA
+51105,county,"Lee County, Virginia",2018,avg_overdose_per_100k,10.8735303196116,rate per 100k,NA
+51067,county,"Franklin County, Virginia",2017,avg_overdose_per_100k,18.3187870604471,rate per 100k,NA
+20,health district,Norfolk,2015,avg_overdose_per_100k,12.8182754109627,rate per 100k,NA
+51510,county,"Alexandria city, Virginia",2021,avg_overdose_per_100k,10.2449590619799,rate per 100k,NA
+51670,county,"Hopewell city, Virginia",2016,avg_overdose_per_100k,10.0942369117403,rate per 100k,NA
+51685,county,"Manassas Park city, Virginia",2015,avg_overdose_per_100k,6.77518749594962,rate per 100k,NA
+51133,county,"Northumberland County, Virginia",2021,avg_overdose_per_100k,0,rate per 100k,NA
+51069,county,"Frederick County, Virginia",2017,avg_overdose_per_100k,19.0386131125632,rate per 100k,NA
+51840,county,"Winchester city, Virginia",2015,avg_overdose_per_100k,15.2361298419968,rate per 100k,NA
+14,health district,Henrico,2016,avg_overdose_per_100k,18.2490507941272,rate per 100k,NA
+51011,county,"Appomattox County, Virginia",2020,avg_overdose_per_100k,7.89091597752667,rate per 100k,NA
+14,health district,Henrico,2019,avg_overdose_per_100k,20.204453824055,rate per 100k,NA
+25,health district,Prince William,2015,avg_overdose_per_100k,6.77518749594962,rate per 100k,NA
+51089,county,"Henry County, Virginia",2020,avg_overdose_per_100k,31.8429775794117,rate per 100k,NA
+16,health district,Lord Fairfax,2015,avg_overdose_per_100k,14.7645967351831,rate per 100k,NA
+51685,county,"Manassas Park city, Virginia",2018,avg_overdose_per_100k,9.91463816368108,rate per 100k,NA
+51760,county,"Richmond city, Virginia",2019,avg_overdose_per_100k,23.1979045538368,rate per 100k,NA
+11,health district,Eastern Shore,2021,avg_overdose_per_100k,20.6948419368353,rate per 100k,NA
+51071,county,"Giles County, Virginia",2021,avg_overdose_per_100k,43.3612440191388,rate per 100k,NA
+51036,county,"Charles City County, Virginia",2016,avg_overdose_per_100k,17.6778390609532,rate per 100k,NA
+8,health district,Chickahominy,2020,avg_overdose_per_100k,16.5816725588962,rate per 100k,NA
+51197,county,"Wythe County, Virginia",2016,avg_overdose_per_100k,2.29758294274423,rate per 100k,NA
+51685,county,"Manassas Park city, Virginia",2016,avg_overdose_per_100k,10.7619597561229,rate per 100k,NA
+51127,county,"New Kent County, Virginia",2020,avg_overdose_per_100k,15.6312804251708,rate per 100k,NA
+51680,county,"Lynchburg city, Virginia",2015,avg_overdose_per_100k,11.27649977447,rate per 100k,NA
+51640,county,"Galax city, Virginia",2020,avg_overdose_per_100k,26.0723678244309,rate per 100k,NA
+51053,county,"Dinwiddie County, Virginia",2017,avg_overdose_per_100k,2.06864306205366,rate per 100k,NA
+51009,county,"Amherst County, Virginia",2020,avg_overdose_per_100k,11.5791911408661,rate per 100k,NA
+51107,county,"Loudoun County, Virginia",2016,avg_overdose_per_100k,10.0402907149983,rate per 100k,NA
+51595,county,"Emporia city, Virginia",2019,avg_overdose_per_100k,24.5661615863845,rate per 100k,NA
+7,health district,Chesterfield,2019,avg_overdose_per_100k,16.2594330350657,rate per 100k,NA
+18,health district,Mount Rogers,2020,avg_overdose_per_100k,15.5065136218076,rate per 100k,NA
+51101,county,"King William County, Virginia",2015,avg_overdose_per_100k,20.4888643022517,rate per 100k,NA
+51520,county,"Bristol city, Virginia",2019,avg_overdose_per_100k,8.07845230903241,rate per 100k,NA
+51630,county,"Fredericksburg city, Virginia",2016,avg_overdose_per_100k,22.6761376353206,rate per 100k,NA
+21,health district,Peninsula,2021,avg_overdose_per_100k,24.3256127191638,rate per 100k,NA
+51011,county,"Appomattox County, Virginia",2021,avg_overdose_per_100k,35.6147738461861,rate per 100k,NA
+29,health district,Roanoke,2017,avg_overdose_per_100k,45.5742860863207,rate per 100k,NA
+51113,county,"Madison County, Virginia",2019,avg_overdose_per_100k,10.6700810926163,rate per 100k,NA
+51720,county,"Norton city, Virginia",2017,avg_overdose_per_100k,28.3855552892757,rate per 100k,NA
+51071,county,"Giles County, Virginia",2017,avg_overdose_per_100k,19.7953189389784,rate per 100k,NA
+51115,county,"Mathews County, Virginia",2019,avg_overdose_per_100k,18.9846983331435,rate per 100k,NA
+51670,county,"Hopewell city, Virginia",2018,avg_overdose_per_100k,28.7481015404643,rate per 100k,NA
+33,health district,Virginia Beach,2019,avg_overdose_per_100k,12.3769245285113,rate per 100k,NA
+35,health district,Western Tidewater,2019,avg_overdose_per_100k,17.2980170033505,rate per 100k,NA
+51133,county,"Northumberland County, Virginia",2017,avg_overdose_per_100k,12.9047337983446,rate per 100k,NA
+28,health district,Richmond,2015,avg_overdose_per_100k,13.5428157254031,rate per 100k,NA
+51085,county,"Hanover County, Virginia",2017,avg_overdose_per_100k,15.8399116276236,rate per 100k,NA
+51640,county,"Galax city, Virginia",2015,avg_overdose_per_100k,15.9934862892204,rate per 100k,NA
+51167,county,"Russell County, Virginia",2021,avg_overdose_per_100k,23.3205446475589,rate per 100k,NA
+51101,county,"King William County, Virginia",2020,avg_overdose_per_100k,14.7588405454867,rate per 100k,NA
+51165,county,"Rockingham County, Virginia",2020,avg_overdose_per_100k,12.9364193469696,rate per 100k,NA
+51183,county,"Sussex County, Virginia",2021,avg_overdose_per_100k,0,rate per 100k,NA
+51017,county,"Bath County, Virginia",2021,avg_overdose_per_100k,0,rate per 100k,NA
+51161,county,"Roanoke County, Virginia",2021,avg_overdose_per_100k,46.1459492699487,rate per 100k,NA
+51091,county,"Highland County, Virginia",2019,avg_overdose_per_100k,3.76732971669681,rate per 100k,NA
+51059,county,"Fairfax County, Virginia",2016,avg_overdose_per_100k,10.5296998433645,rate per 100k,NA
+51017,county,"Bath County, Virginia",2020,avg_overdose_per_100k,9.70798384591488,rate per 100k,NA
+51079,county,"Greene County, Virginia",2016,avg_overdose_per_100k,27.9627622046702,rate per 100k,NA
+51580,county,"Covington city, Virginia",2021,avg_overdose_per_100k,35.2975781939406,rate per 100k,NA
+51049,county,"Cumberland County, Virginia",2016,avg_overdose_per_100k,8.63378919740296,rate per 100k,NA
+51690,county,"Martinsville city, Virginia",2016,avg_overdose_per_100k,22.0886628653619,rate per 100k,NA
+51740,county,"Portsmouth city, Virginia",2020,avg_overdose_per_100k,40.8600332516133,rate per 100k,NA
+35,health district,Western Tidewater,2018,avg_overdose_per_100k,14.1330801383841,rate per 100k,NA
+51005,county,"Alleghany County, Virginia",2020,avg_overdose_per_100k,30.2732776959581,rate per 100k,NA
+51678,county,"Lexington city, Virginia",2015,avg_overdose_per_100k,9.65943588894409,rate per 100k,NA
+51735,county,"Poquoson city, Virginia",2019,avg_overdose_per_100k,13.8278160347355,rate per 100k,NA
+51195,county,"Wise County, Virginia",2018,avg_overdose_per_100k,22.5373532132386,rate per 100k,NA
+51191,county,"Washington County, Virginia",2020,avg_overdose_per_100k,7.05377800349867,rate per 100k,NA
+51820,county,"Waynesboro city, Virginia",2017,avg_overdose_per_100k,12.1606878660592,rate per 100k,NA
+51035,county,"Carroll County, Virginia",2017,avg_overdose_per_100k,12.9100957110699,rate per 100k,NA
+51081,county,"Greensville County, Virginia",2015,avg_overdose_per_100k,2.87670444738508,rate per 100k,NA
+51099,county,"King George County, Virginia",2021,avg_overdose_per_100k,19.8738013613554,rate per 100k,NA
+51063,county,"Floyd County, Virginia",2019,avg_overdose_per_100k,12.1654501216545,rate per 100k,NA
+51740,county,"Portsmouth city, Virginia",2015,avg_overdose_per_100k,18.9706967703038,rate per 100k,NA
+19,health district,New River,2016,avg_overdose_per_100k,11.3920543610607,rate per 100k,NA
+51113,county,"Madison County, Virginia",2018,avg_overdose_per_100k,16.3189475534132,rate per 100k,NA
+28,health district,Richmond,2017,avg_overdose_per_100k,22.3903825598741,rate per 100k,NA
+51059,county,"Fairfax County, Virginia",2018,avg_overdose_per_100k,9.19597937741956,rate per 100k,NA
+51167,county,"Russell County, Virginia",2017,avg_overdose_per_100k,20.0152524778027,rate per 100k,NA
+51013,county,"Arlington County, Virginia",2018,avg_overdose_per_100k,6.49032834677505,rate per 100k,NA
+51191,county,"Washington County, Virginia",2017,avg_overdose_per_100k,9.1321930892166,rate per 100k,NA
+51103,county,"Lancaster County, Virginia",2021,avg_overdose_per_100k,0,rate per 100k,NA
+31,health district,Thomas Jefferson,2020,avg_overdose_per_100k,14.7379263378181,rate per 100k,NA
+21,health district,Peninsula,2015,avg_overdose_per_100k,11.270257931979,rate per 100k,NA
+51800,county,"Suffolk city, Virginia",2018,avg_overdose_per_100k,14.4988567143559,rate per 100k,NA
+51131,county,"Northampton County, Virginia",2018,avg_overdose_per_100k,0,rate per 100k,NA
+51800,county,"Suffolk city, Virginia",2015,avg_overdose_per_100k,7.7509707618259,rate per 100k,NA
+51153,county,"Prince William County, Virginia",2018,avg_overdose_per_100k,9.91463816368108,rate per 100k,NA
+51125,county,"Nelson County, Virginia",2020,avg_overdose_per_100k,12.9190257931158,rate per 100k,NA
+51005,county,"Alleghany County, Virginia",2018,avg_overdose_per_100k,9.68382317338885,rate per 100k,NA
+51011,county,"Appomattox County, Virginia",2015,avg_overdose_per_100k,11.8939492236495,rate per 100k,NA
+24,health district,Portsmouth,2016,avg_overdose_per_100k,32.1078122594101,rate per 100k,NA
+51710,county,"Norfolk city, Virginia",2018,avg_overdose_per_100k,17.8447614727513,rate per 100k,NA
+51107,county,"Loudoun County, Virginia",2017,avg_overdose_per_100k,9.04353718110613,rate per 100k,NA
+51091,county,"Highland County, Virginia",2018,avg_overdose_per_100k,7.53465943339361,rate per 100k,NA
+22,health district,Piedmont,2019,avg_overdose_per_100k,11.557456838596,rate per 100k,NA
+51670,county,"Hopewell city, Virginia",2020,avg_overdose_per_100k,48.6927927439608,rate per 100k,NA
+51036,county,"Charles City County, Virginia",2019,avg_overdose_per_100k,9.51837045497811,rate per 100k,NA
+51610,county,"Falls Church city, Virginia",2020,avg_overdose_per_100k,9.20059051826632,rate per 100k,NA
+51121,county,"Montgomery County, Virginia",2019,avg_overdose_per_100k,10.0386919871161,rate per 100k,NA
+51735,county,"Poquoson city, Virginia",2016,avg_overdose_per_100k,22.8842473163019,rate per 100k,NA
+51045,county,"Craig County, Virginia",2019,avg_overdose_per_100k,19.7550375345713,rate per 100k,NA
+51047,county,"Culpeper County, Virginia",2020,avg_overdose_per_100k,23.7824357070775,rate per 100k,NA
+31,health district,Thomas Jefferson,2019,avg_overdose_per_100k,15.0112699996305,rate per 100k,NA
+17,health district,Loudoun,2015,avg_overdose_per_100k,8.03097382434973,rate per 100k,NA
+16,health district,Lord Fairfax,2019,avg_overdose_per_100k,17.6971354708641,rate per 100k,NA
+51115,county,"Mathews County, Virginia",2020,avg_overdose_per_100k,17.988335984246,rate per 100k,NA
+51031,county,"Campbell County, Virginia",2016,avg_overdose_per_100k,5.61095744164604,rate per 100k,NA
+51059,county,"Fairfax County, Virginia",2021,avg_overdose_per_100k,9.59204579602365,rate per 100k,NA
+51105,county,"Lee County, Virginia",2020,avg_overdose_per_100k,13.4517083669626,rate per 100k,NA
+51037,county,"Charlotte County, Virginia",2015,avg_overdose_per_100k,7.51304537879409,rate per 100k,NA
+51600,county,"Fairfax city, Virginia",2019,avg_overdose_per_100k,7.63055693378249,rate per 100k,NA
+51640,county,"Galax city, Virginia",2019,avg_overdose_per_100k,29.5349184985793,rate per 100k,NA
+51061,county,"Fauquier County, Virginia",2018,avg_overdose_per_100k,18.4745315386646,rate per 100k,NA
+51079,county,"Greene County, Virginia",2019,avg_overdose_per_100k,22.0953157930519,rate per 100k,NA
+16,health district,Lord Fairfax,2021,avg_overdose_per_100k,19.7475649305498,rate per 100k,NA
+51053,county,"Dinwiddie County, Virginia",2020,avg_overdose_per_100k,12.5603187399956,rate per 100k,NA
+51620,county,"Franklin city, Virginia",2017,avg_overdose_per_100k,17.0303375433331,rate per 100k,NA
+51177,county,"Spotsylvania County, Virginia",2020,avg_overdose_per_100k,16.8233535461891,rate per 100k,NA
+12,health district,Fairfax,2018,avg_overdose_per_100k,9.19597937741956,rate per 100k,NA
+51595,county,"Emporia city, Virginia",2017,avg_overdose_per_100k,19.1558295018237,rate per 100k,NA
+51009,county,"Amherst County, Virginia",2016,avg_overdose_per_100k,7.11282521417507,rate per 100k,NA
+17,health district,Loudoun,2016,avg_overdose_per_100k,10.0402907149983,rate per 100k,NA
+27,health district,Rappahannock Rapidan,2020,avg_overdose_per_100k,22.7198961376177,rate per 100k,NA
+33,health district,Virginia Beach,2021,avg_overdose_per_100k,17.482491580995,rate per 100k,NA
+51003,county,"Albemarle County, Virginia",2016,avg_overdose_per_100k,18.3150183150183,rate per 100k,NA
+51021,county,"Bland County, Virginia",2021,avg_overdose_per_100k,0,rate per 100k,NA
+51830,county,"Williamsburg city, Virginia",2017,avg_overdose_per_100k,NA,rate per 100k,NA
+51079,county,"Greene County, Virginia",2020,avg_overdose_per_100k,25.2793366702058,rate per 100k,NA
+51169,county,"Scott County, Virginia",2018,avg_overdose_per_100k,4.57351932311914,rate per 100k,NA
+51185,county,"Tazewell County, Virginia",2017,avg_overdose_per_100k,11.5332059293603,rate per 100k,NA
+51043,county,"Clarke County, Virginia",2015,avg_overdose_per_100k,11.0236951426118,rate per 100k,NA
+51015,county,"Augusta County, Virginia",2016,avg_overdose_per_100k,2.33682757786447,rate per 100k,NA
+20,health district,Norfolk,2021,avg_overdose_per_100k,31.0800950986827,rate per 100k,NA
+51135,county,"Nottoway County, Virginia",2017,avg_overdose_per_100k,9.70208011251501,rate per 100k,NA
+10,health district,Cumberland Plateau,2015,avg_overdose_per_100k,11.731581417175,rate per 100k,NA
+51163,county,"Rockbridge County, Virginia",2017,avg_overdose_per_100k,13.8574035307252,rate per 100k,NA
+51089,county,"Henry County, Virginia",2017,avg_overdose_per_100k,22.5118191456689,rate per 100k,NA
+51073,county,"Gloucester County, Virginia",2017,avg_overdose_per_100k,8.94268294103217,rate per 100k,NA
+51073,county,"Gloucester County, Virginia",2015,avg_overdose_per_100k,13.910202909476,rate per 100k,NA
+6,health district,Chesapeake,2015,avg_overdose_per_100k,12.4949206200879,rate per 100k,NA
+51155,county,"Pulaski County, Virginia",2018,avg_overdose_per_100k,18.7709649738669,rate per 100k,NA
+51660,county,"Harrisonburg city, Virginia",2020,avg_overdose_per_100k,12.9364193469696,rate per 100k,NA
+51199,county,"York County, Virginia",2019,avg_overdose_per_100k,13.0402476170793,rate per 100k,NA
+51600,county,"Fairfax city, Virginia",2018,avg_overdose_per_100k,9.19597937741956,rate per 100k,NA
+51053,county,"Dinwiddie County, Virginia",2015,avg_overdose_per_100k,1.19680214466944,rate per 100k,NA
+51510,county,"Alexandria city, Virginia",2019,avg_overdose_per_100k,9.52916549504796,rate per 100k,NA
+51047,county,"Culpeper County, Virginia",2019,avg_overdose_per_100k,14.950014950015,rate per 100k,NA
+51181,county,"Surry County, Virginia",2018,avg_overdose_per_100k,10.1936799184506,rate per 100k,NA
+51036,county,"Charles City County, Virginia",2018,avg_overdose_per_100k,9.51837045497811,rate per 100k,NA
+51063,county,"Floyd County, Virginia",2015,avg_overdose_per_100k,8.51915745532767,rate per 100k,NA
+51193,county,"Westmoreland County, Virginia",2019,avg_overdose_per_100k,12.1859767529059,rate per 100k,NA
+51035,county,"Carroll County, Virginia",2018,avg_overdose_per_100k,14.8669269781428,rate per 100k,NA
+7,health district,Chesterfield,2021,avg_overdose_per_100k,24.4274147291475,rate per 100k,NA
+51700,county,"Newport News city, Virginia",2021,avg_overdose_per_100k,31.1836456347546,rate per 100k,NA
+51570,county,"Colonial Heights city, Virginia",2019,avg_overdose_per_100k,15.9551852968817,rate per 100k,NA
+51683,county,"Manassas city, Virginia",2019,avg_overdose_per_100k,8.84321758792845,rate per 100k,NA
+51700,county,"Newport News city, Virginia",2020,avg_overdose_per_100k,30.0441518405309,rate per 100k,NA
+51137,county,"Orange County, Virginia",2017,avg_overdose_per_100k,27.7742256697742,rate per 100k,NA
+51750,county,"Radford city, Virginia",2020,avg_overdose_per_100k,12.5009943972816,rate per 100k,NA
+51047,county,"Culpeper County, Virginia",2015,avg_overdose_per_100k,19.724065382748,rate per 100k,NA
+51091,county,"Highland County, Virginia",2016,avg_overdose_per_100k,3.76052948255114,rate per 100k,NA
+51015,county,"Augusta County, Virginia",2021,avg_overdose_per_100k,19.1321926214714,rate per 100k,NA
+51630,county,"Fredericksburg city, Virginia",2015,avg_overdose_per_100k,14.2257628565332,rate per 100k,NA
+51187,county,"Warren County, Virginia",2019,avg_overdose_per_100k,20.4315479951807,rate per 100k,NA
+51037,county,"Charlotte County, Virginia",2018,avg_overdose_per_100k,15.127760816349,rate per 100k,NA
+31,health district,Thomas Jefferson,2021,avg_overdose_per_100k,17.5639914756095,rate per 100k,NA
+32,health district,Three Rivers,2016,avg_overdose_per_100k,15.0171455598912,rate per 100k,NA
+31,health district,Thomas Jefferson,2017,avg_overdose_per_100k,18.1784830105415,rate per 100k,NA
+23,health district,Pittsylvania-Danville,2018,avg_overdose_per_100k,15.6268312692894,rate per 100k,NA
+51125,county,"Nelson County, Virginia",2017,avg_overdose_per_100k,16.7385678869097,rate per 100k,NA
+51025,county,"Brunswick County, Virginia",2017,avg_overdose_per_100k,20.0074189264661,rate per 100k,NA
+51660,county,"Harrisonburg city, Virginia",2016,avg_overdose_per_100k,14.4303403552624,rate per 100k,NA
+51775,county,"Salem city, Virginia",2015,avg_overdose_per_100k,18.4310406028998,rate per 100k,NA
+51109,county,"Louisa County, Virginia",2018,avg_overdose_per_100k,19.2879717419595,rate per 100k,NA
+15,health district,Lenowisco,2020,avg_overdose_per_100k,14.7416384278138,rate per 100k,NA
+27,health district,Rappahannock Rapidan,2017,avg_overdose_per_100k,22.6865368790089,rate per 100k,NA
+51131,county,"Northampton County, Virginia",2021,avg_overdose_per_100k,51.2382578992314,rate per 100k,NA
+51177,county,"Spotsylvania County, Virginia",2019,avg_overdose_per_100k,11.4633211308472,rate per 100k,NA
+11,health district,Eastern Shore,2018,avg_overdose_per_100k,0.750902960810374,rate per 100k,NA
+33,health district,Virginia Beach,2016,avg_overdose_per_100k,15.1715340777696,rate per 100k,NA
+51063,county,"Floyd County, Virginia",2016,avg_overdose_per_100k,7.41635412031445,rate per 100k,NA
+17,health district,Loudoun,2017,avg_overdose_per_100k,9.02247454448017,rate per 100k,NA
+51001,county,"Accomack County, Virginia",2015,avg_overdose_per_100k,4.80190863231533,rate per 100k,NA
+51179,county,"Stafford County, Virginia",2021,avg_overdose_per_100k,13.5907286520178,rate per 100k,NA
+51740,county,"Portsmouth city, Virginia",2019,avg_overdose_per_100k,34.2772349814603,rate per 100k,NA
+51011,county,"Appomattox County, Virginia",2018,avg_overdose_per_100k,7.44000170057182,rate per 100k,NA
+51690,county,"Martinsville city, Virginia",2015,avg_overdose_per_100k,7.75773484316658,rate per 100k,NA
+17,health district,Loudoun,2019,avg_overdose_per_100k,7.15936495176849,rate per 100k,NA
+51065,county,"Fluvanna County, Virginia",2016,avg_overdose_per_100k,12.0538489843046,rate per 100k,NA
+51700,county,"Newport News city, Virginia",2019,avg_overdose_per_100k,25.5498323930995,rate per 100k,NA
+51059,county,"Fairfax County, Virginia",2017,avg_overdose_per_100k,9.20272660692736,rate per 100k,NA
+51079,county,"Greene County, Virginia",2021,avg_overdose_per_100k,38.20287891129,rate per 100k,NA
+51760,county,"Richmond city, Virginia",2020,avg_overdose_per_100k,37.9544517439379,rate per 100k,NA
+51191,county,"Washington County, Virginia",2019,avg_overdose_per_100k,8.07845230903241,rate per 100k,NA
+51069,county,"Frederick County, Virginia",2016,avg_overdose_per_100k,20.2494855737305,rate per 100k,NA
+51175,county,"Southampton County, Virginia",2020,avg_overdose_per_100k,25.066083310546,rate per 100k,NA
+51810,county,"Virginia Beach city, Virginia",2015,avg_overdose_per_100k,9.07427654271904,rate per 100k,NA
+10,health district,Cumberland Plateau,2019,avg_overdose_per_100k,17.3147323637083,rate per 100k,NA
+51027,county,"Buchanan County, Virginia",2021,avg_overdose_per_100k,37.1357836602552,rate per 100k,NA
+51115,county,"Mathews County, Virginia",2017,avg_overdose_per_100k,4.74552605111781,rate per 100k,NA
+51600,county,"Fairfax city, Virginia",2015,avg_overdose_per_100k,7.8733663294465,rate per 100k,NA
+51117,county,"Mecklenburg County, Virginia",2021,avg_overdose_per_100k,30.8254206969347,rate per 100k,NA
+10,health district,Cumberland Plateau,2020,avg_overdose_per_100k,21.6906796197922,rate per 100k,NA
+51097,county,"King and Queen County, Virginia",2020,avg_overdose_per_100k,23.6675186973398,rate per 100k,NA
+51117,county,"Mecklenburg County, Virginia",2019,avg_overdose_per_100k,11.9489886810489,rate per 100k,NA
+1,health district,Alexandria,2019,avg_overdose_per_100k,9.52916549504796,rate per 100k,NA
+21,health district,Peninsula,2018,avg_overdose_per_100k,7.69630339161556,rate per 100k,NA
+51073,county,"Gloucester County, Virginia",2018,avg_overdose_per_100k,2.90500196646287,rate per 100k,NA
+51137,county,"Orange County, Virginia",2016,avg_overdose_per_100k,30.7226146586741,rate per 100k,NA
+51041,county,"Chesterfield County, Virginia",2019,avg_overdose_per_100k,15.9551852968817,rate per 100k,NA
+51145,county,"Powhatan County, Virginia",2017,avg_overdose_per_100k,13.4044132983661,rate per 100k,NA
+51175,county,"Southampton County, Virginia",2019,avg_overdose_per_100k,24.1070739797886,rate per 100k,NA
+51045,county,"Craig County, Virginia",2016,avg_overdose_per_100k,8.07806643401835,rate per 100k,NA
+30,health district,Southside,2016,avg_overdose_per_100k,8.52338451422796,rate per 100k,NA
+51073,county,"Gloucester County, Virginia",2020,avg_overdose_per_100k,27.6669611859309,rate per 100k,NA
+51125,county,"Nelson County, Virginia",2019,avg_overdose_per_100k,18.9609404626469,rate per 100k,NA
+30,health district,Southside,2018,avg_overdose_per_100k,10.5326019821743,rate per 100k,NA
+22,health district,Piedmont,2016,avg_overdose_per_100k,9.89437350773383,rate per 100k,NA
+51093,county,"Isle of Wight County, Virginia",2018,avg_overdose_per_100k,10.2593565331582,rate per 100k,NA
+8,health district,Chickahominy,2018,avg_overdose_per_100k,12.1322703557245,rate per 100k,NA
+19,health district,New River,2015,avg_overdose_per_100k,11.4628210277657,rate per 100k,NA
+51029,county,"Buckingham County, Virginia",2021,avg_overdose_per_100k,34.9895031490553,rate per 100k,NA
+51179,county,"Stafford County, Virginia",2018,avg_overdose_per_100k,12.6719809431591,rate per 100k,NA
+28,health district,Richmond,2018,avg_overdose_per_100k,21.5094494755512,rate per 100k,NA
+51510,county,"Alexandria city, Virginia",2018,avg_overdose_per_100k,10.3623165765822,rate per 100k,NA
+26,health district,Rappahannock,2019,avg_overdose_per_100k,12.5854255746811,rate per 100k,NA
+16,health district,Lord Fairfax,2020,avg_overdose_per_100k,20.831673090931,rate per 100k,NA
+51105,county,"Lee County, Virginia",2017,avg_overdose_per_100k,13.6673879650144,rate per 100k,NA
+51520,county,"Bristol city, Virginia",2021,avg_overdose_per_100k,10.7393103336481,rate per 100k,NA
+51630,county,"Fredericksburg city, Virginia",2017,avg_overdose_per_100k,27.3318008612355,rate per 100k,NA
+51181,county,"Surry County, Virginia",2015,avg_overdose_per_100k,3.72633775525414,rate per 100k,NA
+51840,county,"Winchester city, Virginia",2020,avg_overdose_per_100k,16.8150685911692,rate per 100k,NA
+27,health district,Rappahannock Rapidan,2015,avg_overdose_per_100k,18.2833556371127,rate per 100k,NA
+51093,county,"Isle of Wight County, Virginia",2021,avg_overdose_per_100k,20.0182474024399,rate per 100k,NA
+51079,county,"Greene County, Virginia",2018,avg_overdose_per_100k,25.0696852267319,rate per 100k,NA
+51550,county,"Chesapeake city, Virginia",2017,avg_overdose_per_100k,18.2491192937604,rate per 100k,NA
+51800,county,"Suffolk city, Virginia",2016,avg_overdose_per_100k,15.9622730276791,rate per 100k,NA
+51193,county,"Westmoreland County, Virginia",2020,avg_overdose_per_100k,14.9560665544962,rate per 100k,NA
+51820,county,"Waynesboro city, Virginia",2018,avg_overdose_per_100k,18.5110806919182,rate per 100k,NA
+51069,county,"Frederick County, Virginia",2015,avg_overdose_per_100k,15.2361298419968,rate per 100k,NA
+51061,county,"Fauquier County, Virginia",2015,avg_overdose_per_100k,15.1444660909346,rate per 100k,NA
+51520,county,"Bristol city, Virginia",2020,avg_overdose_per_100k,7.05377800349867,rate per 100k,NA
+51730,county,"Petersburg city, Virginia",2018,avg_overdose_per_100k,28.7481015404643,rate per 100k,NA
+2,health district,Alleghany,2019,avg_overdose_per_100k,17.2269872660351,rate per 100k,NA
+51037,county,"Charlotte County, Virginia",2017,avg_overdose_per_100k,11.0014409396555,rate per 100k,NA
+51135,county,"Nottoway County, Virginia",2016,avg_overdose_per_100k,13.8933418830822,rate per 100k,NA
+51015,county,"Augusta County, Virginia",2017,avg_overdose_per_100k,12.1606878660592,rate per 100k,NA
+51820,county,"Waynesboro city, Virginia",2020,avg_overdose_per_100k,16.5302245671656,rate per 100k,NA
+51013,county,"Arlington County, Virginia",2020,avg_overdose_per_100k,6.94675418173551,rate per 100k,NA
+51015,county,"Augusta County, Virginia",2015,avg_overdose_per_100k,1.66360286472413,rate per 100k,NA
+51175,county,"Southampton County, Virginia",2017,avg_overdose_per_100k,17.0303375433331,rate per 100k,NA
+5,health district,Central Virginia,2021,avg_overdose_per_100k,28.076459027340402,rate per 100k,NA
+51109,county,"Louisa County, Virginia",2020,avg_overdose_per_100k,24.6977359653416,rate per 100k,NA
+51159,county,"Richmond County, Virginia",2020,avg_overdose_per_100k,19.3626908608099,rate per 100k,NA
+29,health district,Roanoke,2021,avg_overdose_per_100k,58.3892850618691,rate per 100k,NA
+51640,county,"Galax city, Virginia",2016,avg_overdose_per_100k,28.9431191542516,rate per 100k,NA
+51191,county,"Washington County, Virginia",2015,avg_overdose_per_100k,10.3394115132252,rate per 100k,NA
+1,health district,Alexandria,2020,avg_overdose_per_100k,10.4341867563695,rate per 100k,NA
+51177,county,"Spotsylvania County, Virginia",2021,avg_overdose_per_100k,18.7611904383185,rate per 100k,NA
+51550,county,"Chesapeake city, Virginia",2016,avg_overdose_per_100k,17.3363032697319,rate per 100k,NA
+51199,county,"York County, Virginia",2018,avg_overdose_per_100k,5.90501778886609,rate per 100k,NA
+51183,county,"Sussex County, Virginia",2016,avg_overdose_per_100k,9.4170143718127,rate per 100k,NA
+51119,county,"Middlesex County, Virginia",2015,avg_overdose_per_100k,12.5715004085738,rate per 100k,NA
+51730,county,"Petersburg city, Virginia",2020,avg_overdose_per_100k,48.6927927439608,rate per 100k,NA
+51103,county,"Lancaster County, Virginia",2020,avg_overdose_per_100k,16.2292497449689,rate per 100k,NA
+26,health district,Rappahannock,2018,avg_overdose_per_100k,13.362021708146,rate per 100k,NA
+51590,county,"Danville city, Virginia",2021,avg_overdose_per_100k,32.9798513029255,rate per 100k,NA
+51147,county,"Prince Edward County, Virginia",2016,avg_overdose_per_100k,9.72258231786362,rate per 100k,NA
+51660,county,"Harrisonburg city, Virginia",2017,avg_overdose_per_100k,11.7899258396881,rate per 100k,NA
+51053,county,"Dinwiddie County, Virginia",2019,avg_overdose_per_100k,10.6352807714124,rate per 100k,NA
+8,health district,Chickahominy,2021,avg_overdose_per_100k,19.7365208846087,rate per 100k,NA
+51650,county,"Hampton city, Virginia",2018,avg_overdose_per_100k,14.0467863180588,rate per 100k,NA
+51165,county,"Rockingham County, Virginia",2016,avg_overdose_per_100k,14.4303403552624,rate per 100k,NA
+51683,county,"Manassas city, Virginia",2017,avg_overdose_per_100k,10.8580596674309,rate per 100k,NA
+51087,county,"Henrico County, Virginia",2017,avg_overdose_per_100k,19.9335945945073,rate per 100k,NA
+5,health district,Central Virginia,2019,avg_overdose_per_100k,8.19764163100533,rate per 100k,NA
+51187,county,"Warren County, Virginia",2021,avg_overdose_per_100k,24.2754705706603,rate per 100k,NA
+51800,county,"Suffolk city, Virginia",2021,avg_overdose_per_100k,25.0913179214738,rate per 100k,NA
+51049,county,"Cumberland County, Virginia",2015,avg_overdose_per_100k,8.57427032959495,rate per 100k,NA
+26,health district,Rappahannock,2017,avg_overdose_per_100k,16.6054526184994,rate per 100k,NA
+51097,county,"King and Queen County, Virginia",2017,avg_overdose_per_100k,10.6837655851082,rate per 100k,NA
+51735,county,"Poquoson city, Virginia",2021,avg_overdose_per_100k,38.0300437345503,rate per 100k,NA
+51197,county,"Wythe County, Virginia",2019,avg_overdose_per_100k,23.3709576899107,rate per 100k,NA
+27,health district,Rappahannock Rapidan,2018,avg_overdose_per_100k,18.5531719817982,rate per 100k,NA
+51077,county,"Grayson County, Virginia",2021,avg_overdose_per_100k,52.844812400916,rate per 100k,NA
+35,health district,Western Tidewater,2020,avg_overdose_per_100k,19.0259989462524,rate per 100k,NA
+51019,county,"Bedford County, Virginia",2020,avg_overdose_per_100k,11.4290068193074,rate per 100k,NA
+51089,county,"Henry County, Virginia",2018,avg_overdose_per_100k,27.5753856670136,rate per 100k,NA
+51147,county,"Prince Edward County, Virginia",2021,avg_overdose_per_100k,32.3436540654329,rate per 100k,NA
+7,health district,Chesterfield,2018,avg_overdose_per_100k,13.8237229614816,rate per 100k,NA
+51105,county,"Lee County, Virginia",2016,avg_overdose_per_100k,14.1307194948785,rate per 100k,NA
+7,health district,Chesterfield,2015,avg_overdose_per_100k,10.3746765285066,rate per 100k,NA
+51810,county,"Virginia Beach city, Virginia",2019,avg_overdose_per_100k,12.3769245285113,rate per 100k,NA
+51125,county,"Nelson County, Virginia",2015,avg_overdose_per_100k,14.090857851426,rate per 100k,NA
+51019,county,"Bedford County, Virginia",2021,avg_overdose_per_100k,24.0515462612504,rate per 100k,NA
+51121,county,"Montgomery County, Virginia",2016,avg_overdose_per_100k,9.76296104865688,rate per 100k,NA
+51003,county,"Albemarle County, Virginia",2015,avg_overdose_per_100k,17.181002407529,rate per 100k,NA
+17,health district,Loudoun,2020,avg_overdose_per_100k,8.7460571054033,rate per 100k,NA
+51660,county,"Harrisonburg city, Virginia",2018,avg_overdose_per_100k,11.0332584559389,rate per 100k,NA
+51153,county,"Prince William County, Virginia",2021,avg_overdose_per_100k,12.3107122944521,rate per 100k,NA
+51143,county,"Pittsylvania County, Virginia",2015,avg_overdose_per_100k,9.9895150050507,rate per 100k,NA
+20,health district,Norfolk,2020,avg_overdose_per_100k,24.8556460556002,rate per 100k,NA
+51053,county,"Dinwiddie County, Virginia",2021,avg_overdose_per_100k,20.1443385650224,rate per 100k,NA
+51620,county,"Franklin city, Virginia",2020,avg_overdose_per_100k,25.066083310546,rate per 100k,NA
+51015,county,"Augusta County, Virginia",2018,avg_overdose_per_100k,18.5110806919182,rate per 100k,NA
+51750,county,"Radford city, Virginia",2016,avg_overdose_per_100k,9.76296104865688,rate per 100k,NA
+51067,county,"Franklin County, Virginia",2015,avg_overdose_per_100k,12.4413479311816,rate per 100k,NA
+51071,county,"Giles County, Virginia",2018,avg_overdose_per_100k,15.343192571915,rate per 100k,NA
+51021,county,"Bland County, Virginia",2017,avg_overdose_per_100k,NA,rate per 100k,NA
+51027,county,"Buchanan County, Virginia",2020,avg_overdose_per_100k,25.1323374644613,rate per 100k,NA
+51021,county,"Bland County, Virginia",2015,avg_overdose_per_100k,0,rate per 100k,NA
+51199,county,"York County, Virginia",2021,avg_overdose_per_100k,15.1947861745753,rate per 100k,NA
+51760,county,"Richmond city, Virginia",2021,avg_overdose_per_100k,51.159058866188,rate per 100k,NA
+51025,county,"Brunswick County, Virginia",2015,avg_overdose_per_100k,6.48780293049068,rate per 100k,NA
+3,health district,Arlington,2016,avg_overdose_per_100k,8.76621024414982,rate per 100k,NA
+51127,county,"New Kent County, Virginia",2018,avg_overdose_per_100k,18.8328260000615,rate per 100k,NA
+51119,county,"Middlesex County, Virginia",2017,avg_overdose_per_100k,15.5926188818849,rate per 100k,NA
+51037,county,"Charlotte County, Virginia",2016,avg_overdose_per_100k,10.305878473081,rate per 100k,NA
+51111,county,"Lunenburg County, Virginia",2019,avg_overdose_per_100k,8.1732733959951,rate per 100k,NA
+51099,county,"King George County, Virginia",2016,avg_overdose_per_100k,18.2804802955665,rate per 100k,NA
+30,health district,Southside,2020,avg_overdose_per_100k,17.0457812718207,rate per 100k,NA
+51005,county,"Alleghany County, Virginia",2017,avg_overdose_per_100k,10.8679277535054,rate per 100k,NA
+51117,county,"Mecklenburg County, Virginia",2016,avg_overdose_per_100k,9.98100910699642,rate per 100k,NA
+51043,county,"Clarke County, Virginia",2018,avg_overdose_per_100k,7.46714456391876,rate per 100k,NA
+51650,county,"Hampton city, Virginia",2020,avg_overdose_per_100k,20.8468279317713,rate per 100k,NA
+51135,county,"Nottoway County, Virginia",2020,avg_overdose_per_100k,16.2127107652399,rate per 100k,NA
+24,health district,Portsmouth,2015,avg_overdose_per_100k,18.9706967703038,rate per 100k,NA
+51730,county,"Petersburg city, Virginia",2017,avg_overdose_per_100k,10.123187485439,rate per 100k,NA
+51640,county,"Galax city, Virginia",2021,avg_overdose_per_100k,52.844812400916,rate per 100k,NA
+51023,county,"Botetourt County, Virginia",2021,avg_overdose_per_100k,18.6188163087532,rate per 100k,NA
+51530,county,"Buena Vista city, Virginia",2017,avg_overdose_per_100k,13.8574035307252,rate per 100k,NA
+29,health district,Roanoke,2015,avg_overdose_per_100k,23.8579069775202,rate per 100k,NA
+51093,county,"Isle of Wight County, Virginia",2016,avg_overdose_per_100k,14.118118555762,rate per 100k,NA
+51117,county,"Mecklenburg County, Virginia",2020,avg_overdose_per_100k,18.7601957585644,rate per 100k,NA
+51145,county,"Powhatan County, Virginia",2016,avg_overdose_per_100k,13.7702305195186,rate per 100k,NA
+51775,county,"Salem city, Virginia",2020,avg_overdose_per_100k,39.6109927334317,rate per 100k,NA
+51199,county,"York County, Virginia",2020,avg_overdose_per_100k,10.8087924613586,rate per 100k,NA
+51790,county,"Staunton city, Virginia",2019,avg_overdose_per_100k,16.3935769965328,rate per 100k,NA
+7,health district,Chesterfield,2016,avg_overdose_per_100k,12.1357963159097,rate per 100k,NA
+51015,county,"Augusta County, Virginia",2020,avg_overdose_per_100k,16.5302245671656,rate per 100k,NA
+24,health district,Portsmouth,2018,avg_overdose_per_100k,30.4882347135868,rate per 100k,NA
+31,health district,Thomas Jefferson,2018,avg_overdose_per_100k,14.3514339556907,rate per 100k,NA
+5,health district,Central Virginia,2020,avg_overdose_per_100k,10.1891124586898,rate per 100k,NA
+51680,county,"Lynchburg city, Virginia",2018,avg_overdose_per_100k,12.4493281478281,rate per 100k,NA
+51820,county,"Waynesboro city, Virginia",2019,avg_overdose_per_100k,16.3935769965328,rate per 100k,NA
+51053,county,"Dinwiddie County, Virginia",2016,avg_overdose_per_100k,2.66486640136441,rate per 100k,NA
+51147,county,"Prince Edward County, Virginia",2020,avg_overdose_per_100k,11.2563543936093,rate per 100k,NA
+12,health district,Fairfax,2019,avg_overdose_per_100k,7.63055693378249,rate per 100k,NA
+51590,county,"Danville city, Virginia",2019,avg_overdose_per_100k,17.0918467007852,rate per 100k,NA
+24,health district,Portsmouth,2021,avg_overdose_per_100k,66.8564070331057,rate per 100k,NA
+6,health district,Chesapeake,2018,avg_overdose_per_100k,15.5298665679411,rate per 100k,NA
+51147,county,"Prince Edward County, Virginia",2019,avg_overdose_per_100k,9.17646713356532,rate per 100k,NA
+51810,county,"Virginia Beach city, Virginia",2018,avg_overdose_per_100k,11.3223883579207,rate per 100k,NA
+51119,county,"Middlesex County, Virginia",2021,avg_overdose_per_100k,31.5000315000315,rate per 100k,NA
+51600,county,"Fairfax city, Virginia",2020,avg_overdose_per_100k,9.20059051826632,rate per 100k,NA
+51775,county,"Salem city, Virginia",2017,avg_overdose_per_100k,33.0046471712396,rate per 100k,NA
+51036,county,"Charles City County, Virginia",2021,avg_overdose_per_100k,0,rate per 100k,NA
+51175,county,"Southampton County, Virginia",2015,avg_overdose_per_100k,6.89248969259496,rate per 100k,NA
+51031,county,"Campbell County, Virginia",2017,avg_overdose_per_100k,4.24261237343727,rate per 100k,NA
+51029,county,"Buckingham County, Virginia",2016,avg_overdose_per_100k,10.7539496324104,rate per 100k,NA
+51520,county,"Bristol city, Virginia",2018,avg_overdose_per_100k,8.31261034697538,rate per 100k,NA
+26,health district,Rappahannock,2021,avg_overdose_per_100k,17.4491888493177,rate per 100k,NA
+51137,county,"Orange County, Virginia",2020,avg_overdose_per_100k,28.4266637557763,rate per 100k,NA
+34,health district,West Piedmont,2020,avg_overdose_per_100k,24.3846948827235,rate per 100k,NA
+51145,county,"Powhatan County, Virginia",2021,avg_overdose_per_100k,21.9209496829893,rate per 100k,NA
+51141,county,"Patrick County, Virginia",2020,avg_overdose_per_100k,11.3166977875856,rate per 100k,NA
+51005,county,"Alleghany County, Virginia",2019,avg_overdose_per_100k,17.350183185655,rate per 100k,NA
+51041,county,"Chesterfield County, Virginia",2016,avg_overdose_per_100k,12.0054973032009,rate per 100k,NA
+51089,county,"Henry County, Virginia",2021,avg_overdose_per_100k,41.7254255729323,rate per 100k,NA
+51085,county,"Hanover County, Virginia",2021,avg_overdose_per_100k,19.8990817553258,rate per 100k,NA
+51009,county,"Amherst County, Virginia",2017,avg_overdose_per_100k,6.8565414427805,rate per 100k,NA
+25,health district,Prince William,2017,avg_overdose_per_100k,10.8421365725416,rate per 100k,NA
+51610,county,"Falls Church city, Virginia",2018,avg_overdose_per_100k,9.19597937741956,rate per 100k,NA
+51167,county,"Russell County, Virginia",2015,avg_overdose_per_100k,12.8476330476976,rate per 100k,NA
+51161,county,"Roanoke County, Virginia",2018,avg_overdose_per_100k,28.2551531474873,rate per 100k,NA
+51019,county,"Bedford County, Virginia",2019,avg_overdose_per_100k,10.1529569685622,rate per 100k,NA
+51007,county,"Amelia County, Virginia",2016,avg_overdose_per_100k,6.45344484886032,rate per 100k,NA
+51165,county,"Rockingham County, Virginia",2015,avg_overdose_per_100k,15.3154733307405,rate per 100k,NA
+28,health district,Richmond,2016,avg_overdose_per_100k,19.4171857029768,rate per 100k,NA
+51595,county,"Emporia city, Virginia",2016,avg_overdose_per_100k,14.6963729351596,rate per 100k,NA
+2,health district,Alleghany,2018,avg_overdose_per_100k,16.1065328097076,rate per 100k,NA
+51740,county,"Portsmouth city, Virginia",2016,avg_overdose_per_100k,32.1078122594101,rate per 100k,NA
+51710,county,"Norfolk city, Virginia",2021,avg_overdose_per_100k,31.0800950986827,rate per 100k,NA
+51077,county,"Grayson County, Virginia",2020,avg_overdose_per_100k,26.0723678244309,rate per 100k,NA
+51027,county,"Buchanan County, Virginia",2017,avg_overdose_per_100k,16.2336855306269,rate per 100k,NA
+51183,county,"Sussex County, Virginia",2017,avg_overdose_per_100k,NA,rate per 100k,NA
+51169,county,"Scott County, Virginia",2015,avg_overdose_per_100k,3.7663081141342,rate per 100k,NA
+51630,county,"Fredericksburg city, Virginia",2018,avg_overdose_per_100k,19.0996708979784,rate per 100k,NA
+51680,county,"Lynchburg city, Virginia",2021,avg_overdose_per_100k,38.2684797542163,rate per 100k,NA
+20,health district,Norfolk,2017,avg_overdose_per_100k,19.3431765582495,rate per 100k,NA
+51011,county,"Appomattox County, Virginia",2019,avg_overdose_per_100k,7.9714303934698,rate per 100k,NA
+51137,county,"Orange County, Virginia",2018,avg_overdose_per_100k,25.1804211829716,rate per 100k,NA
+2,health district,Alleghany,2020,avg_overdose_per_100k,26.7149403771103,rate per 100k,NA
+51075,county,"Goochland County, Virginia",2015,avg_overdose_per_100k,5.24273880675265,rate per 100k,NA
+51183,county,"Sussex County, Virginia",2018,avg_overdose_per_100k,13.9218617192767,rate per 100k,NA
+51197,county,"Wythe County, Virginia",2015,avg_overdose_per_100k,3.4341838662042,rate per 100k,NA
+51019,county,"Bedford County, Virginia",2016,avg_overdose_per_100k,9.62031811185223,rate per 100k,NA
+51161,county,"Roanoke County, Virginia",2015,avg_overdose_per_100k,18.4310406028998,rate per 100k,NA
+51810,county,"Virginia Beach city, Virginia",2020,avg_overdose_per_100k,15.7341324051306,rate per 100k,NA
+29,health district,Roanoke,2016,avg_overdose_per_100k,36.6245233794903,rate per 100k,NA
+51171,county,"Shenandoah County, Virginia",2015,avg_overdose_per_100k,14.8568341437061,rate per 100k,NA
+51073,county,"Gloucester County, Virginia",2016,avg_overdose_per_100k,14.779384102757,rate per 100k,NA
+23,health district,Pittsylvania-Danville,2016,avg_overdose_per_100k,12.2282827307686,rate per 100k,NA
+51057,county,"Essex County, Virginia",2018,avg_overdose_per_100k,6.04521823237819,rate per 100k,NA
+51580,county,"Covington city, Virginia",2016,avg_overdose_per_100k,14.6039564881037,rate per 100k,NA
+51530,county,"Buena Vista city, Virginia",2015,avg_overdose_per_100k,9.65943588894409,rate per 100k,NA
+51007,county,"Amelia County, Virginia",2019,avg_overdose_per_100k,12.8008192524322,rate per 100k,NA
+10,health district,Cumberland Plateau,2018,avg_overdose_per_100k,16.3572356431346,rate per 100k,NA
+51760,county,"Richmond city, Virginia",2015,avg_overdose_per_100k,13.5428157254031,rate per 100k,NA
+51550,county,"Chesapeake city, Virginia",2019,avg_overdose_per_100k,16.5698129899014,rate per 100k,NA
+51630,county,"Fredericksburg city, Virginia",2021,avg_overdose_per_100k,34.9320055891209,rate per 100k,NA
+51103,county,"Lancaster County, Virginia",2018,avg_overdose_per_100k,13.9043381535039,rate per 100k,NA
+51800,county,"Suffolk city, Virginia",2020,avg_overdose_per_100k,20.6539818318071,rate per 100k,NA
+51021,county,"Bland County, Virginia",2020,avg_overdose_per_100k,14.5664494941469,rate per 100k,NA
+51830,county,"Williamsburg city, Virginia",2018,avg_overdose_per_100k,0.554409775353159,rate per 100k,NA
+51167,county,"Russell County, Virginia",2016,avg_overdose_per_100k,17.9637072220192,rate per 100k,NA
+51600,county,"Fairfax city, Virginia",2021,avg_overdose_per_100k,9.59204579602365,rate per 100k,NA
+51183,county,"Sussex County, Virginia",2015,avg_overdose_per_100k,2.13401621852326,rate per 100k,NA
+51540,county,"Charlottesville city, Virginia",2015,avg_overdose_per_100k,17.181002407529,rate per 100k,NA
+22,health district,Piedmont,2020,avg_overdose_per_100k,13.3705098729802,rate per 100k,NA
+51121,county,"Montgomery County, Virginia",2017,avg_overdose_per_100k,11.4736877332905,rate per 100k,NA
+51141,county,"Patrick County, Virginia",2017,avg_overdose_per_100k,5.65412071347951,rate per 100k,NA
+15,health district,Lenowisco,2019,avg_overdose_per_100k,15.8829201883261,rate per 100k,NA
+15,health district,Lenowisco,2015,avg_overdose_per_100k,15.5573966675872,rate per 100k,NA
+13,health district,Hampton,2019,avg_overdose_per_100k,19.3065961728386,rate per 100k,NA
+12,health district,Fairfax,2017,avg_overdose_per_100k,9.19597937741956,rate per 100k,NA
+51510,county,"Alexandria city, Virginia",2016,avg_overdose_per_100k,10.696788823995,rate per 100k,NA
+51191,county,"Washington County, Virginia",2021,avg_overdose_per_100k,10.7393103336481,rate per 100k,NA
+51139,county,"Page County, Virginia",2019,avg_overdose_per_100k,18.260222212858,rate per 100k,NA
+51149,county,"Prince George County, Virginia",2015,avg_overdose_per_100k,7.54985601346031,rate per 100k,NA
+14,health district,Henrico,2021,avg_overdose_per_100k,31.8402666521572,rate per 100k,NA
+11,health district,Eastern Shore,2015,avg_overdose_per_100k,7.01707735035159,rate per 100k,NA
+51101,county,"King William County, Virginia",2017,avg_overdose_per_100k,22.9773616799506,rate per 100k,NA
+51111,county,"Lunenburg County, Virginia",2015,avg_overdose_per_100k,5.42049489118357,rate per 100k,NA
+51750,county,"Radford city, Virginia",2019,avg_overdose_per_100k,10.0386919871161,rate per 100k,NA
+51800,county,"Suffolk city, Virginia",2017,avg_overdose_per_100k,16.9228773273635,rate per 100k,NA
+51775,county,"Salem city, Virginia",2016,avg_overdose_per_100k,25.5807942589552,rate per 100k,NA
+24,health district,Portsmouth,2020,avg_overdose_per_100k,40.8600332516133,rate per 100k,NA
+18,health district,Mount Rogers,2016,avg_overdose_per_100k,13.3031677397301,rate per 100k,NA
+13,health district,Hampton,2015,avg_overdose_per_100k,9.46594945305134,rate per 100k,NA
+51650,county,"Hampton city, Virginia",2021,avg_overdose_per_100k,23.7900527841796,rate per 100k,NA
+51610,county,"Falls Church city, Virginia",2016,avg_overdose_per_100k,10.5296998433645,rate per 100k,NA
+51109,county,"Louisa County, Virginia",2021,avg_overdose_per_100k,24.2374800114685,rate per 100k,NA
+51081,county,"Greensville County, Virginia",2020,avg_overdose_per_100k,32.3421702093782,rate per 100k,NA
+34,health district,West Piedmont,2021,avg_overdose_per_100k,30.3042859034699,rate per 100k,NA
+34,health district,West Piedmont,2019,avg_overdose_per_100k,20.4603826813693,rate per 100k,NA
+51163,county,"Rockbridge County, Virginia",2018,avg_overdose_per_100k,16.3932912187373,rate per 100k,NA
+51081,county,"Greensville County, Virginia",2021,avg_overdose_per_100k,51.9522039723454,rate per 100k,NA
+26,health district,Rappahannock,2016,avg_overdose_per_100k,16.2357158033792,rate per 100k,NA
+51720,county,"Norton city, Virginia",2019,avg_overdose_per_100k,23.7132151200163,rate per 100k,NA
+51091,county,"Highland County, Virginia",2020,avg_overdose_per_100k,3.77073906485671,rate per 100k,NA
+51181,county,"Surry County, Virginia",2016,avg_overdose_per_100k,12.7343113284434,rate per 100k,NA
+51023,county,"Botetourt County, Virginia",2017,avg_overdose_per_100k,14.5611524850561,rate per 100k,NA
+51051,county,"Dickenson County, Virginia",2017,avg_overdose_per_100k,23.0996859808238,rate per 100k,NA
+51678,county,"Lexington city, Virginia",2021,avg_overdose_per_100k,19.5710802062009,rate per 100k,NA
+51171,county,"Shenandoah County, Virginia",2021,avg_overdose_per_100k,22.6726175919133,rate per 100k,NA
+51141,county,"Patrick County, Virginia",2018,avg_overdose_per_100k,10.8500801962449,rate per 100k,NA
+51099,county,"King George County, Virginia",2018,avg_overdose_per_100k,13.6057004720862,rate per 100k,NA
+51095,county,"James City County, Virginia",2015,avg_overdose_per_100k,10.2533254952356,rate per 100k,NA
+51670,county,"Hopewell city, Virginia",2019,avg_overdose_per_100k,40.5908729297751,rate per 100k,NA
+51029,county,"Buckingham County, Virginia",2019,avg_overdose_per_100k,12.6965523976951,rate per 100k,NA
+51043,county,"Clarke County, Virginia",2021,avg_overdose_per_100k,0,rate per 100k,NA
+35,health district,Western Tidewater,2021,avg_overdose_per_100k,23.1100202033251,rate per 100k,NA
+51181,county,"Surry County, Virginia",2020,avg_overdose_per_100k,9.01040057666564,rate per 100k,NA
+51111,county,"Lunenburg County, Virginia",2020,avg_overdose_per_100k,13.100557118429,rate per 100k,NA
+51143,county,"Pittsylvania County, Virginia",2016,avg_overdose_per_100k,12.2282827307686,rate per 100k,NA
+51013,county,"Arlington County, Virginia",2015,avg_overdose_per_100k,5.6364292239037,rate per 100k,NA
+3,health district,Arlington,2019,avg_overdose_per_100k,6.95138992332191,rate per 100k,NA
+51065,county,"Fluvanna County, Virginia",2021,avg_overdose_per_100k,25.6692335900257,rate per 100k,NA
+16,health district,Lord Fairfax,2017,avg_overdose_per_100k,20.1747344367851,rate per 100k,NA
+51105,county,"Lee County, Virginia",2021,avg_overdose_per_100k,14.9425778081373,rate per 100k,NA
+51105,county,"Lee County, Virginia",2019,avg_overdose_per_100k,11.925807447316,rate per 100k,NA
+34,health district,West Piedmont,2016,avg_overdose_per_100k,18.2409047488755,rate per 100k,NA
+5,health district,Central Virginia,2015,avg_overdose_per_100k,7.6296723728922196,rate per 100k,NA
+51163,county,"Rockbridge County, Virginia",2016,avg_overdose_per_100k,15.3250299534676,rate per 100k,NA
+30,health district,Southside,2021,avg_overdose_per_100k,24.3613406169613,rate per 100k,NA
+51061,county,"Fauquier County, Virginia",2016,avg_overdose_per_100k,19.5456717195848,rate per 100k,NA
+51520,county,"Bristol city, Virginia",2015,avg_overdose_per_100k,10.3394115132252,rate per 100k,NA
+51171,county,"Shenandoah County, Virginia",2018,avg_overdose_per_100k,16.7727009832273,rate per 100k,NA
+27,health district,Rappahannock Rapidan,2016,avg_overdose_per_100k,23.7889973032793,rate per 100k,NA
+51063,county,"Floyd County, Virginia",2017,avg_overdose_per_100k,8.99266140378211,rate per 100k,NA
+51173,county,"Smyth County, Virginia",2016,avg_overdose_per_100k,28.7060288026098,rate per 100k,NA
+51710,county,"Norfolk city, Virginia",2017,avg_overdose_per_100k,19.3396848606671,rate per 100k,NA
+51790,county,"Staunton city, Virginia",2017,avg_overdose_per_100k,12.1606878660592,rate per 100k,NA
+51029,county,"Buckingham County, Virginia",2015,avg_overdose_per_100k,9.78550180053233,rate per 100k,NA
+51007,county,"Amelia County, Virginia",2021,avg_overdose_per_100k,30.4298212248003,rate per 100k,NA
+51017,county,"Bath County, Virginia",2018,avg_overdose_per_100k,15.5147001784191,rate per 100k,NA
+51083,county,"Halifax County, Virginia",2021,avg_overdose_per_100k,26.5400607472502,rate per 100k,NA
+51590,county,"Danville city, Virginia",2015,avg_overdose_per_100k,9.9895150050507,rate per 100k,NA
+51035,county,"Carroll County, Virginia",2015,avg_overdose_per_100k,7.00892656887812,rate per 100k,NA
+51005,county,"Alleghany County, Virginia",2015,avg_overdose_per_100k,12.499023513788,rate per 100k,NA
+51119,county,"Middlesex County, Virginia",2020,avg_overdose_per_100k,21.6671309623301,rate per 100k,NA
+51065,county,"Fluvanna County, Virginia",2019,avg_overdose_per_100k,6.93079288270578,rate per 100k,NA
+6,health district,Chesapeake,2017,avg_overdose_per_100k,18.233727265038,rate per 100k,NA
+51670,county,"Hopewell city, Virginia",2021,avg_overdose_per_100k,52.1654065046527,rate per 100k,NA
+51111,county,"Lunenburg County, Virginia",2017,avg_overdose_per_100k,10.8976978613268,rate per 100k,NA
+51043,county,"Clarke County, Virginia",2017,avg_overdose_per_100k,14.3759576112795,rate per 100k,NA
+51049,county,"Cumberland County, Virginia",2020,avg_overdose_per_100k,8.49559927957318,rate per 100k,NA
+51770,county,"Roanoke city, Virginia",2017,avg_overdose_per_100k,33.0046471712396,rate per 100k,NA
+21,health district,Peninsula,2017,avg_overdose_per_100k,12.295023374841,rate per 100k,NA
+51031,county,"Campbell County, Virginia",2021,avg_overdose_per_100k,18.0174708734425,rate per 100k,NA
+9,health district,Crater,2021,avg_overdose_per_100k,40.4209802087701,rate per 100k,NA
+51161,county,"Roanoke County, Virginia",2016,avg_overdose_per_100k,25.5807942589552,rate per 100k,NA
+21,health district,Peninsula,2020,avg_overdose_per_100k,22.1695170331424,rate per 100k,NA
+51131,county,"Northampton County, Virginia",2017,avg_overdose_per_100k,9.07722134380999,rate per 100k,NA
+51149,county,"Prince George County, Virginia",2021,avg_overdose_per_100k,52.1654065046527,rate per 100k,NA
+51057,county,"Essex County, Virginia",2019,avg_overdose_per_100k,15.8686978599927,rate per 100k,NA
+51013,county,"Arlington County, Virginia",2021,avg_overdose_per_100k,8.11605298985071,rate per 100k,NA
+51570,county,"Colonial Heights city, Virginia",2021,avg_overdose_per_100k,25.003391816657,rate per 100k,NA
+51077,county,"Grayson County, Virginia",2016,avg_overdose_per_100k,28.9431191542516,rate per 100k,NA
+51087,county,"Henrico County, Virginia",2021,avg_overdose_per_100k,31.8402666521572,rate per 100k,NA
+51710,county,"Norfolk city, Virginia",2015,avg_overdose_per_100k,12.8182754109627,rate per 100k,NA
+51740,county,"Portsmouth city, Virginia",2017,avg_overdose_per_100k,31.2680710541567,rate per 100k,NA
+51840,county,"Winchester city, Virginia",2016,avg_overdose_per_100k,20.2494855737305,rate per 100k,NA
+1,health district,Alexandria,2016,avg_overdose_per_100k,10.696788823995,rate per 100k,NA
+51139,county,"Page County, Virginia",2020,avg_overdose_per_100k,17.4097132272037,rate per 100k,NA
+51121,county,"Montgomery County, Virginia",2015,avg_overdose_per_100k,10.6469892921708,rate per 100k,NA
+51091,county,"Highland County, Virginia",2021,avg_overdose_per_100k,0,rate per 100k,NA
+51149,county,"Prince George County, Virginia",2020,avg_overdose_per_100k,48.6927927439608,rate per 100k,NA
+51067,county,"Franklin County, Virginia",2018,avg_overdose_per_100k,18.4545427702483,rate per 100k,NA
+51147,county,"Prince Edward County, Virginia",2017,avg_overdose_per_100k,5.85204983366103,rate per 100k,NA
+51067,county,"Franklin County, Virginia",2020,avg_overdose_per_100k,20.0195746952576,rate per 100k,NA
+51730,county,"Petersburg city, Virginia",2016,avg_overdose_per_100k,10.0942369117403,rate per 100k,NA
+51089,county,"Henry County, Virginia",2015,avg_overdose_per_100k,7.75773484316658,rate per 100k,NA
+51678,county,"Lexington city, Virginia",2016,avg_overdose_per_100k,15.3250299534676,rate per 100k,NA
+51630,county,"Fredericksburg city, Virginia",2020,avg_overdose_per_100k,22.0171104401135,rate per 100k,NA
+51157,county,"Rappahannock County, Virginia",2016,avg_overdose_per_100k,14.6634181555676,rate per 100k,NA
+51085,county,"Hanover County, Virginia",2016,avg_overdose_per_100k,13.8101259355762,rate per 100k,NA
+51135,county,"Nottoway County, Virginia",2021,avg_overdose_per_100k,39.390756302521,rate per 100k,NA
+51600,county,"Fairfax city, Virginia",2016,avg_overdose_per_100k,10.5296998433645,rate per 100k,NA
+51179,county,"Stafford County, Virginia",2015,avg_overdose_per_100k,11.9128938590499,rate per 100k,NA
+51650,county,"Hampton city, Virginia",2016,avg_overdose_per_100k,18.2162814169313,rate per 100k,NA
+51740,county,"Portsmouth city, Virginia",2018,avg_overdose_per_100k,30.4882347135868,rate per 100k,NA
+51760,county,"Richmond city, Virginia",2016,avg_overdose_per_100k,19.4171857029768,rate per 100k,NA
+18,health district,Mount Rogers,2021,avg_overdose_per_100k,21.3609031389847,rate per 100k,NA
+51135,county,"Nottoway County, Virginia",2018,avg_overdose_per_100k,11.8785365642953,rate per 100k,NA
+31,health district,Thomas Jefferson,2016,avg_overdose_per_100k,19.7699472756879,rate per 100k,NA
+4,health district,Central Shenandoah,2020,avg_overdose_per_100k,14.5945700445204,rate per 100k,NA
+19,health district,New River,2020,avg_overdose_per_100k,15.0791451347342,rate per 100k,NA
+51760,county,"Richmond city, Virginia",2018,avg_overdose_per_100k,21.5094494755512,rate per 100k,NA
+51013,county,"Arlington County, Virginia",2017,avg_overdose_per_100k,8.06069499601722,rate per 100k,NA
+51017,county,"Bath County, Virginia",2016,avg_overdose_per_100k,5.58534405719392,rate per 100k,NA
+51065,county,"Fluvanna County, Virginia",2020,avg_overdose_per_100k,11.2011350483516,rate per 100k,NA
+51683,county,"Manassas city, Virginia",2018,avg_overdose_per_100k,9.91463816368108,rate per 100k,NA
+51810,county,"Virginia Beach city, Virginia",2016,avg_overdose_per_100k,15.1715340777696,rate per 100k,NA
+51075,county,"Goochland County, Virginia",2017,avg_overdose_per_100k,4.77554918815664,rate per 100k,NA
+51570,county,"Colonial Heights city, Virginia",2018,avg_overdose_per_100k,13.8570323170895,rate per 100k,NA
+34,health district,West Piedmont,2017,avg_overdose_per_100k,18.655054797719,rate per 100k,NA
+21,health district,Peninsula,2019,avg_overdose_per_100k,19.5862581668978,rate per 100k,NA
+51017,county,"Bath County, Virginia",2017,avg_overdose_per_100k,11.6360251338143,rate per 100k,NA
+51660,county,"Harrisonburg city, Virginia",2021,avg_overdose_per_100k,12.8429309544274,rate per 100k,NA
+51111,county,"Lunenburg County, Virginia",2021,avg_overdose_per_100k,49.1964578550344,rate per 100k,NA
+51530,county,"Buena Vista city, Virginia",2018,avg_overdose_per_100k,16.3932912187373,rate per 100k,NA
+51091,county,"Highland County, Virginia",2015,avg_overdose_per_100k,0,rate per 100k,NA
+14,health district,Henrico,2020,avg_overdose_per_100k,31.9908319944765,rate per 100k,NA
+28,health district,Richmond,2021,avg_overdose_per_100k,51.159058866188,rate per 100k,NA
+51580,county,"Covington city, Virginia",2018,avg_overdose_per_100k,9.68382317338885,rate per 100k,NA
+51057,county,"Essex County, Virginia",2016,avg_overdose_per_100k,11.237975366358,rate per 100k,NA
+7,health district,Chesterfield,2020,avg_overdose_per_100k,20.0550418206607,rate per 100k,NA
+1,health district,Alexandria,2018,avg_overdose_per_100k,10.3623165765822,rate per 100k,NA
+51595,county,"Emporia city, Virginia",2018,avg_overdose_per_100k,21.6182221960183,rate per 100k,NA
+51045,county,"Craig County, Virginia",2020,avg_overdose_per_100k,16.4560294892048,rate per 100k,NA
+51830,county,"Williamsburg city, Virginia",2015,avg_overdose_per_100k,0,rate per 100k,NA
+5,health district,Central Virginia,2017,avg_overdose_per_100k,8.19764163100533,rate per 100k,NA
+51570,county,"Colonial Heights city, Virginia",2015,avg_overdose_per_100k,10.0186606394404,rate per 100k,NA
+33,health district,Virginia Beach,2015,avg_overdose_per_100k,9.07427654271904,rate per 100k,NA
+29,health district,Roanoke,2020,avg_overdose_per_100k,52.3752335201495,rate per 100k,NA
+51540,county,"Charlottesville city, Virginia",2018,avg_overdose_per_100k,12.9505119198224,rate per 100k,NA
+51041,county,"Chesterfield County, Virginia",2020,avg_overdose_per_100k,20.4245578697323,rate per 100k,NA
+51683,county,"Manassas city, Virginia",2021,avg_overdose_per_100k,12.3107122944521,rate per 100k,NA
+24,health district,Portsmouth,2017,avg_overdose_per_100k,31.2812812812813,rate per 100k,NA
+51143,county,"Pittsylvania County, Virginia",2020,avg_overdose_per_100k,20.5787633720968,rate per 100k,NA
+9,health district,Crater,2016,avg_overdose_per_100k,9.31487489159413,rate per 100k,NA
+51001,county,"Accomack County, Virginia",2019,avg_overdose_per_100k,17.9239002406924,rate per 100k,NA
+51067,county,"Franklin County, Virginia",2021,avg_overdose_per_100k,21.6107760449504,rate per 100k,NA
+6,health district,Chesapeake,2016,avg_overdose_per_100k,17.3363032697319,rate per 100k,NA
+6,health district,Chesapeake,2021,avg_overdose_per_100k,20.9665012491406,rate per 100k,NA
+51133,county,"Northumberland County, Virginia",2019,avg_overdose_per_100k,14.9355057705363,rate per 100k,NA
+51131,county,"Northampton County, Virginia",2020,avg_overdose_per_100k,14.2025280499929,rate per 100k,NA
+51199,county,"York County, Virginia",2017,avg_overdose_per_100k,8.36243945233539,rate per 100k,NA
+51093,county,"Isle of Wight County, Virginia",2020,avg_overdose_per_100k,10.8245609287473,rate per 100k,NA
+51630,county,"Fredericksburg city, Virginia",2019,avg_overdose_per_100k,21.7442407146215,rate per 100k,NA
+51133,county,"Northumberland County, Virginia",2015,avg_overdose_per_100k,4.76891214301286,rate per 100k,NA
+51009,county,"Amherst County, Virginia",2021,avg_overdose_per_100k,31.640563202025,rate per 100k,NA
+51620,county,"Franklin city, Virginia",2016,avg_overdose_per_100k,18.333775872751,rate per 100k,NA
+51079,county,"Greene County, Virginia",2017,avg_overdose_per_100k,22.1164614831045,rate per 100k,NA
+32,health district,Three Rivers,2019,avg_overdose_per_100k,17.8144606229634,rate per 100k,NA
+51097,county,"King and Queen County, Virginia",2021,avg_overdose_per_100k,0,rate per 100k,NA
+51121,county,"Montgomery County, Virginia",2020,avg_overdose_per_100k,12.5009943972816,rate per 100k,NA
+51640,county,"Galax city, Virginia",2018,avg_overdose_per_100k,20.5622850306565,rate per 100k,NA
+7,health district,Chesterfield,2017,avg_overdose_per_100k,13.5032347939047,rate per 100k,NA
+51019,county,"Bedford County, Virginia",2015,avg_overdose_per_100k,6.11136843188719,rate per 100k,NA
+51520,county,"Bristol city, Virginia",2017,avg_overdose_per_100k,9.1321930892166,rate per 100k,NA
+51001,county,"Accomack County, Virginia",2021,avg_overdose_per_100k,18.5666542888971,rate per 100k,NA
+51027,county,"Buchanan County, Virginia",2016,avg_overdose_per_100k,17.660143685935,rate per 100k,NA
+51049,county,"Cumberland County, Virginia",2019,avg_overdose_per_100k,6.79509394217375,rate per 100k,NA
+51083,county,"Halifax County, Virginia",2016,avg_overdose_per_100k,5.95374180765127,rate per 100k,NA
+34,health district,West Piedmont,2018,avg_overdose_per_100k,21.7241121999244,rate per 100k,NA
+51023,county,"Botetourt County, Virginia",2020,avg_overdose_per_100k,18.0304714968296,rate per 100k,NA
+51051,county,"Dickenson County, Virginia",2015,avg_overdose_per_100k,22.0531480868894,rate per 100k,NA
+51101,county,"King William County, Virginia",2021,avg_overdose_per_100k,31.101780576938,rate per 100k,NA
+51775,county,"Salem city, Virginia",2021,avg_overdose_per_100k,46.1459492699487,rate per 100k,NA
+51730,county,"Petersburg city, Virginia",2019,avg_overdose_per_100k,40.5908729297751,rate per 100k,NA
+51520,county,"Bristol city, Virginia",2016,avg_overdose_per_100k,8.31296072535851,rate per 100k,NA
+27,health district,Rappahannock Rapidan,2021,avg_overdose_per_100k,22.4659811787723,rate per 100k,NA
+51145,county,"Powhatan County, Virginia",2020,avg_overdose_per_100k,15.4167665901538,rate per 100k,NA
+51700,county,"Newport News city, Virginia",2016,avg_overdose_per_100k,18.8367936202392,rate per 100k,NA
+51119,county,"Middlesex County, Virginia",2018,avg_overdose_per_100k,3.90173861472672,rate per 100k,NA
+51155,county,"Pulaski County, Virginia",2017,avg_overdose_per_100k,12.188396611644,rate per 100k,NA
+51133,county,"Northumberland County, Virginia",2016,avg_overdose_per_100k,9.54562810232913,rate per 100k,NA
+4,health district,Central Shenandoah,2016,avg_overdose_per_100k,9.38254958143716,rate per 100k,NA
+51001,county,"Accomack County, Virginia",2017,avg_overdose_per_100k,5.10549314488553,rate per 100k,NA
+14,health district,Henrico,2017,avg_overdose_per_100k,19.9248953434706,rate per 100k,NA
+51075,county,"Goochland County, Virginia",2021,avg_overdose_per_100k,26.1019660674441,rate per 100k,NA
+51091,county,"Highland County, Virginia",2017,avg_overdose_per_100k,0,rate per 100k,NA
+51083,county,"Halifax County, Virginia",2017,avg_overdose_per_100k,12.2845625426706,rate per 100k,NA
+51081,county,"Greensville County, Virginia",2016,avg_overdose_per_100k,14.6963729351596,rate per 100k,NA
+51169,county,"Scott County, Virginia",2019,avg_overdose_per_100k,4.95464593337907,rate per 100k,NA
+51041,county,"Chesterfield County, Virginia",2018,avg_overdose_per_100k,13.8570323170895,rate per 100k,NA
+51107,county,"Loudoun County, Virginia",2021,avg_overdose_per_100k,8.92031418851203,rate per 100k,NA
+18,health district,Mount Rogers,2019,avg_overdose_per_100k,14.3250309861439,rate per 100k,NA
+22,health district,Piedmont,2015,avg_overdose_per_100k,9.56745379244139,rate per 100k,NA
+51770,county,"Roanoke city, Virginia",2016,avg_overdose_per_100k,25.5807942589552,rate per 100k,NA
+51199,county,"York County, Virginia",2015,avg_overdose_per_100k,6.87923502906477,rate per 100k,NA
+51790,county,"Staunton city, Virginia",2015,avg_overdose_per_100k,1.66360286472413,rate per 100k,NA
+32,health district,Three Rivers,2015,avg_overdose_per_100k,11.8285522325209,rate per 100k,NA
+51820,county,"Waynesboro city, Virginia",2016,avg_overdose_per_100k,2.33682757786447,rate per 100k,NA
+51169,county,"Scott County, Virginia",2016,avg_overdose_per_100k,2.27998176014592,rate per 100k,NA
+51043,county,"Clarke County, Virginia",2019,avg_overdose_per_100k,12.0623104494072,rate per 100k,NA
+51690,county,"Martinsville city, Virginia",2018,avg_overdose_per_100k,27.5753856670136,rate per 100k,NA
+51177,county,"Spotsylvania County, Virginia",2016,avg_overdose_per_100k,13.3196980026766,rate per 100k,NA
+29,health district,Roanoke,2019,avg_overdose_per_100k,40.4826533916951,rate per 100k,NA
+51820,county,"Waynesboro city, Virginia",2021,avg_overdose_per_100k,19.1321926214714,rate per 100k,NA
+51720,county,"Norton city, Virginia",2018,avg_overdose_per_100k,22.5373532132386,rate per 100k,NA
+25,health district,Prince William,2019,avg_overdose_per_100k,8.84321758792845,rate per 100k,NA
+32,health district,Three Rivers,2020,avg_overdose_per_100k,19.5949667415159,rate per 100k,NA
+5,health district,Central Virginia,2018,avg_overdose_per_100k,9.37784684636407,rate per 100k,NA
+51730,county,"Petersburg city, Virginia",2015,avg_overdose_per_100k,7.54985601346031,rate per 100k,NA
+51101,county,"King William County, Virginia",2018,avg_overdose_per_100k,11.9703136222169,rate per 100k,NA
+51720,county,"Norton city, Virginia",2020,avg_overdose_per_100k,22.2328092742576,rate per 100k,NA
+51179,county,"Stafford County, Virginia",2019,avg_overdose_per_100k,11.251355276885601,rate per 100k,NA
+51101,county,"King William County, Virginia",2019,avg_overdose_per_100k,12.4690766898093,rate per 100k,NA
+51043,county,"Clarke County, Virginia",2020,avg_overdose_per_100k,16.0664692786155,rate per 100k,NA
+51678,county,"Lexington city, Virginia",2017,avg_overdose_per_100k,13.8574035307252,rate per 100k,NA
+34,health district,West Piedmont,2015,avg_overdose_per_100k,9.11788894053706,rate per 100k,NA
+51540,county,"Charlottesville city, Virginia",2020,avg_overdose_per_100k,11.8489707867079,rate per 100k,NA
+51023,county,"Botetourt County, Virginia",2016,avg_overdose_per_100k,13.5415726279679,rate per 100k,NA
+51045,county,"Craig County, Virginia",2021,avg_overdose_per_100k,0,rate per 100k,NA
+51085,county,"Hanover County, Virginia",2018,avg_overdose_per_100k,12.1943927821782,rate per 100k,NA
+51685,county,"Manassas Park city, Virginia",2019,avg_overdose_per_100k,8.84321758792845,rate per 100k,NA
+10,health district,Cumberland Plateau,2017,avg_overdose_per_100k,16.3572356431346,rate per 100k,NA
+51690,county,"Martinsville city, Virginia",2017,avg_overdose_per_100k,22.5118191456689,rate per 100k,NA
+51720,county,"Norton city, Virginia",2016,avg_overdose_per_100k,36.7430922986479,rate per 100k,NA
+51179,county,"Stafford County, Virginia",2020,avg_overdose_per_100k,15.6708455588157,rate per 100k,NA
+51195,county,"Wise County, Virginia",2021,avg_overdose_per_100k,28.7421160644253,rate per 100k,NA
+13,health district,Hampton,2021,avg_overdose_per_100k,23.7900527841796,rate per 100k,NA
+51159,county,"Richmond County, Virginia",2021,avg_overdose_per_100k,13.2993461154827,rate per 100k,NA
+51161,county,"Roanoke County, Virginia",2020,avg_overdose_per_100k,39.6109927334317,rate per 100k,NA
+51097,county,"King and Queen County, Virginia",2015,avg_overdose_per_100k,10.4777870913663,rate per 100k,NA
+51113,county,"Madison County, Virginia",2021,avg_overdose_per_100k,9.42613679209713,rate per 100k,NA
+51093,county,"Isle of Wight County, Virginia",2019,avg_overdose_per_100k,13.679142044211,rate per 100k,NA
+51027,county,"Buchanan County, Virginia",2018,avg_overdose_per_100k,13.169718942704,rate per 100k,NA
+51153,county,"Prince William County, Virginia",2017,avg_overdose_per_100k,10.8580596674309,rate per 100k,NA
+8,health district,Chickahominy,2016,avg_overdose_per_100k,13.631465285917299,rate per 100k,NA
+51095,county,"James City County, Virginia",2016,avg_overdose_per_100k,14.6721502428185,rate per 100k,NA
+51185,county,"Tazewell County, Virginia",2015,avg_overdose_per_100k,6.9931700039628,rate per 100k,NA
+35,health district,Western Tidewater,2015,avg_overdose_per_100k,7.72248478670497,rate per 100k,NA
+51145,county,"Powhatan County, Virginia",2015,avg_overdose_per_100k,14.8644952611989,rate per 100k,NA
+51610,county,"Falls Church city, Virginia",2021,avg_overdose_per_100k,9.59204579602365,rate per 100k,NA
+51197,county,"Wythe County, Virginia",2020,avg_overdose_per_100k,25.2138832858037,rate per 100k,NA
+51678,county,"Lexington city, Virginia",2019,avg_overdose_per_100k,13.6225941113451,rate per 100k,NA
+51735,county,"Poquoson city, Virginia",2020,avg_overdose_per_100k,22.5594749794914,rate per 100k,NA
+51107,county,"Loudoun County, Virginia",2018,avg_overdose_per_100k,8.05951902465166,rate per 100k,NA
+51173,county,"Smyth County, Virginia",2019,avg_overdose_per_100k,13.5916840640223,rate per 100k,NA
+51065,county,"Fluvanna County, Virginia",2017,avg_overdose_per_100k,11.0306024284958,rate per 100k,NA
+51610,county,"Falls Church city, Virginia",2015,avg_overdose_per_100k,7.8733663294465,rate per 100k,NA
+51083,county,"Halifax County, Virginia",2018,avg_overdose_per_100k,11.0908582395432,rate per 100k,NA
+51700,county,"Newport News city, Virginia",2017,avg_overdose_per_100k,14.2384147349441,rate per 100k,NA
+23,health district,Pittsylvania-Danville,2015,avg_overdose_per_100k,9.9895150050507,rate per 100k,NA
+51149,county,"Prince George County, Virginia",2016,avg_overdose_per_100k,10.0942369117403,rate per 100k,NA
+51113,county,"Madison County, Virginia",2016,avg_overdose_per_100k,23.5764897792731,rate per 100k,NA
+51069,county,"Frederick County, Virginia",2020,avg_overdose_per_100k,16.8150685911692,rate per 100k,NA
+51131,county,"Northampton County, Virginia",2016,avg_overdose_per_100k,13.043358870857,rate per 100k,NA
+51187,county,"Warren County, Virginia",2020,avg_overdose_per_100k,32.914198101809,rate per 100k,NA
+51025,county,"Brunswick County, Virginia",2021,avg_overdose_per_100k,41.0736656192882,rate per 100k,NA
+51143,county,"Pittsylvania County, Virginia",2019,avg_overdose_per_100k,17.0918467007852,rate per 100k,NA
+51021,county,"Bland County, Virginia",2016,avg_overdose_per_100k,2.55898459491274,rate per 100k,NA
+51107,county,"Loudoun County, Virginia",2020,avg_overdose_per_100k,8.7460571054033,rate per 100k,NA
+51195,county,"Wise County, Virginia",2019,avg_overdose_per_100k,23.7132151200163,rate per 100k,NA
+51139,county,"Page County, Virginia",2016,avg_overdose_per_100k,16.9104591189651,rate per 100k,NA
+51071,county,"Giles County, Virginia",2015,avg_overdose_per_100k,11.9703136222169,rate per 100k,NA
+51580,county,"Covington city, Virginia",2015,avg_overdose_per_100k,12.499023513788,rate per 100k,NA
+4,health district,Central Shenandoah,2018,avg_overdose_per_100k,14.7693857941917,rate per 100k,NA
+51530,county,"Buena Vista city, Virginia",2019,avg_overdose_per_100k,13.6225941113451,rate per 100k,NA
+51103,county,"Lancaster County, Virginia",2016,avg_overdose_per_100k,23.5447806537854,rate per 100k,NA
+51067,county,"Franklin County, Virginia",2019,avg_overdose_per_100k,17.4210883751144,rate per 100k,NA
+51193,county,"Westmoreland County, Virginia",2018,avg_overdose_per_100k,7.49906261717285,rate per 100k,NA
+51139,county,"Page County, Virginia",2017,avg_overdose_per_100k,15.8044016008459,rate per 100k,NA
+51199,county,"York County, Virginia",2016,avg_overdose_per_100k,10.4203444352909,rate per 100k,NA
+51153,county,"Prince William County, Virginia",2015,avg_overdose_per_100k,6.77518749594962,rate per 100k,NA
+1,health district,Alexandria,2017,avg_overdose_per_100k,12.5493381656096,rate per 100k,NA
+51141,county,"Patrick County, Virginia",2016,avg_overdose_per_100k,4.18456731573955,rate per 100k,NA
+51770,county,"Roanoke city, Virginia",2015,avg_overdose_per_100k,18.4310406028998,rate per 100k,NA
+51069,county,"Frederick County, Virginia",2019,avg_overdose_per_100k,15.950566354356,rate per 100k,NA
+51003,county,"Albemarle County, Virginia",2021,avg_overdose_per_100k,14.5455680718395,rate per 100k,NA
+51081,county,"Greensville County, Virginia",2017,avg_overdose_per_100k,19.1558295018237,rate per 100k,NA
+51800,county,"Suffolk city, Virginia",2019,avg_overdose_per_100k,16.807591859954,rate per 100k,NA
+51023,county,"Botetourt County, Virginia",2015,avg_overdose_per_100k,5.99754100818664,rate per 100k,NA
+5,health district,Central Virginia,2016,avg_overdose_per_100k,8.90231280805845,rate per 100k,NA
+51125,county,"Nelson County, Virginia",2018,avg_overdose_per_100k,11.1534943897923,rate per 100k,NA
+51191,county,"Washington County, Virginia",2018,avg_overdose_per_100k,8.31261034697538,rate per 100k,NA
+51770,county,"Roanoke city, Virginia",2020,avg_overdose_per_100k,39.6109927334317,rate per 100k,NA
+51580,county,"Covington city, Virginia",2017,avg_overdose_per_100k,10.8679277535054,rate per 100k,NA
+51071,county,"Giles County, Virginia",2019,avg_overdose_per_100k,18.8077844429926,rate per 100k,NA
+31,health district,Thomas Jefferson,2015,avg_overdose_per_100k,17.0994479610173,rate per 100k,NA
+51195,county,"Wise County, Virginia",2020,avg_overdose_per_100k,22.2328092742576,rate per 100k,NA
+51650,county,"Hampton city, Virginia",2019,avg_overdose_per_100k,19.3065961728386,rate per 100k,NA
+51103,county,"Lancaster County, Virginia",2017,avg_overdose_per_100k,13.8784297986993,rate per 100k,NA
+51193,county,"Westmoreland County, Virginia",2021,avg_overdose_per_100k,33.3055786844296,rate per 100k,NA
+51720,county,"Norton city, Virginia",2021,avg_overdose_per_100k,28.7421160644253,rate per 100k,NA
+51595,county,"Emporia city, Virginia",2020,avg_overdose_per_100k,32.3421702093782,rate per 100k,NA
+51029,county,"Buckingham County, Virginia",2017,avg_overdose_per_100k,11.2330264446046,rate per 100k,NA
+9,health district,Crater,2019,avg_overdose_per_100k,30.003048610306,rate per 100k,NA
+51003,county,"Albemarle County, Virginia",2018,avg_overdose_per_100k,12.9505119198224,rate per 100k,NA
+51735,county,"Poquoson city, Virginia",2017,avg_overdose_per_100k,11.0663953040907,rate per 100k,NA
+51007,county,"Amelia County, Virginia",2017,avg_overdose_per_100k,20.4866143261559,rate per 100k,NA
+51173,county,"Smyth County, Virginia",2020,avg_overdose_per_100k,22.1514833289577,rate per 100k,NA
+51159,county,"Richmond County, Virginia",2015,avg_overdose_per_100k,9.35488699296512,rate per 100k,NA
+51163,county,"Rockbridge County, Virginia",2019,avg_overdose_per_100k,13.6225941113451,rate per 100k,NA
+51177,county,"Spotsylvania County, Virginia",2018,avg_overdose_per_100k,12.4029376169823,rate per 100k,NA
+51021,county,"Bland County, Virginia",2018,avg_overdose_per_100k,7.8740157480315,rate per 100k,NA
+51197,county,"Wythe County, Virginia",2021,avg_overdose_per_100k,32.2479431041696,rate per 100k,NA
+51095,county,"James City County, Virginia",2018,avg_overdose_per_100k,12.358102501633,rate per 100k,NA
+19,health district,New River,2019,avg_overdose_per_100k,14.2992719211482,rate per 100k,NA
+51009,county,"Amherst County, Virginia",2018,avg_overdose_per_100k,7.64913169167141,rate per 100k,NA
+8,health district,Chickahominy,2017,avg_overdose_per_100k,13.9335681377972,rate per 100k,NA
+12,health district,Fairfax,2020,avg_overdose_per_100k,9.20059051826632,rate per 100k,NA
+51069,county,"Frederick County, Virginia",2018,avg_overdose_per_100k,15.7320654453923,rate per 100k,NA
+13,health district,Hampton,2017,avg_overdose_per_100k,18.6259148975142,rate per 100k,NA
+23,health district,Pittsylvania-Danville,2021,avg_overdose_per_100k,32.9798513029255,rate per 100k,NA
+1,health district,Alexandria,2015,avg_overdose_per_100k,7.81702939854473,rate per 100k,NA
+51830,county,"Williamsburg city, Virginia",2021,avg_overdose_per_100k,0,rate per 100k,NA
+51087,county,"Henrico County, Virginia",2020,avg_overdose_per_100k,31.9908319944765,rate per 100k,NA
+2,health district,Alleghany,2015,avg_overdose_per_100k,12.0548514285926,rate per 100k,NA
+14,health district,Henrico,2015,avg_overdose_per_100k,13.5320078116591,rate per 100k,NA
+51033,county,"Caroline County, Virginia",2021,avg_overdose_per_100k,25.6305939788446,rate per 100k,NA
+51510,county,"Alexandria city, Virginia",2015,avg_overdose_per_100k,7.81702939854473,rate per 100k,NA
+30,health district,Southside,2017,avg_overdose_per_100k,13.907124947337,rate per 100k,NA
+51185,county,"Tazewell County, Virginia",2019,avg_overdose_per_100k,20.4809993105406,rate per 100k,NA
+30,health district,Southside,2015,avg_overdose_per_100k,5.12641127086751,rate per 100k,NA
+10,health district,Cumberland Plateau,2016,avg_overdose_per_100k,16.4063525397034,rate per 100k,NA
+51590,county,"Danville city, Virginia",2018,avg_overdose_per_100k,15.6268312692894,rate per 100k,NA
+51185,county,"Tazewell County, Virginia",2016,avg_overdose_per_100k,12.2578094108343,rate per 100k,NA
+25,health district,Prince William,2018,avg_overdose_per_100k,9.91463816368108,rate per 100k,NA
+2,health district,Alleghany,2021,avg_overdose_per_100k,30.9480887842756,rate per 100k,NA
+51117,county,"Mecklenburg County, Virginia",2018,avg_overdose_per_100k,11.6774207564796,rate per 100k,NA
+51179,county,"Stafford County, Virginia",2017,avg_overdose_per_100k,16.0489744906919,rate per 100k,NA
+25,health district,Prince William,2016,avg_overdose_per_100k,10.7619597561229,rate per 100k,NA
+51141,county,"Patrick County, Virginia",2019,avg_overdose_per_100k,16.0392489857534,rate per 100k,NA
+51007,county,"Amelia County, Virginia",2018,avg_overdose_per_100k,14.0809011776754,rate per 100k,NA
+51157,county,"Rappahannock County, Virginia",2017,avg_overdose_per_100k,9.1062241041752,rate per 100k,NA
+51159,county,"Richmond County, Virginia",2017,avg_overdose_per_100k,NA,rate per 100k,NA
+51101,county,"King William County, Virginia",2016,avg_overdose_per_100k,16.3258642504388,rate per 100k,NA
+51023,county,"Botetourt County, Virginia",2019,avg_overdose_per_100k,16.3191933799309,rate per 100k,NA
+51165,county,"Rockingham County, Virginia",2018,avg_overdose_per_100k,11.0332584559389,rate per 100k,NA
+51193,county,"Westmoreland County, Virginia",2015,avg_overdose_per_100k,12.2903549076333,rate per 100k,NA
+11,health district,Eastern Shore,2017,avg_overdose_per_100k,6.19494942668559,rate per 100k,NA
+51167,county,"Russell County, Virginia",2019,avg_overdose_per_100k,12.9399585921325,rate per 100k,NA
+51175,county,"Southampton County, Virginia",2016,avg_overdose_per_100k,18.333775872751,rate per 100k,NA
+51025,county,"Brunswick County, Virginia",2018,avg_overdose_per_100k,7.18213904621193,rate per 100k,NA
+51683,county,"Manassas city, Virginia",2015,avg_overdose_per_100k,6.77518749594962,rate per 100k,NA
+51195,county,"Wise County, Virginia",2015,avg_overdose_per_100k,26.7234731352742,rate per 100k,NA
+8,health district,Chickahominy,2015,avg_overdose_per_100k,9.9730563984514,rate per 100k,NA
+51051,county,"Dickenson County, Virginia",2020,avg_overdose_per_100k,20.6568890725057,rate per 100k,NA
+51149,county,"Prince George County, Virginia",2019,avg_overdose_per_100k,40.5908729297751,rate per 100k,NA
+51105,county,"Lee County, Virginia",2015,avg_overdose_per_100k,6.39937488211678,rate per 100k,NA
+51007,county,"Amelia County, Virginia",2020,avg_overdose_per_100k,19.2115576730961,rate per 100k,NA
+51830,county,"Williamsburg city, Virginia",2019,avg_overdose_per_100k,1.10881955070632,rate per 100k,NA
+6,health district,Chesapeake,2020,avg_overdose_per_100k,22.0840168044599,rate per 100k,NA
+51683,county,"Manassas city, Virginia",2016,avg_overdose_per_100k,10.7619597561229,rate per 100k,NA
+3,health district,Arlington,2018,avg_overdose_per_100k,6.49032834677505,rate per 100k,NA
+51033,county,"Caroline County, Virginia",2019,avg_overdose_per_100k,13.9522668329996,rate per 100k,NA
+13,health district,Hampton,2018,avg_overdose_per_100k,14.0467863180588,rate per 100k,NA
+51171,county,"Shenandoah County, Virginia",2020,avg_overdose_per_100k,23.9480117402733,rate per 100k,NA
+51690,county,"Martinsville city, Virginia",2021,avg_overdose_per_100k,41.7254255729323,rate per 100k,NA
+51183,county,"Sussex County, Virginia",2019,avg_overdose_per_100k,16.120050411794,rate per 100k,NA
+51155,county,"Pulaski County, Virginia",2016,avg_overdose_per_100k,14.3749573624146,rate per 100k,NA
+51047,county,"Culpeper County, Virginia",2018,avg_overdose_per_100k,15.9250159250159,rate per 100k,NA
+17,health district,Loudoun,2018,avg_overdose_per_100k,8.05951902465166,rate per 100k,NA
+51620,county,"Franklin city, Virginia",2015,avg_overdose_per_100k,6.89248969259496,rate per 100k,NA
+51185,county,"Tazewell County, Virginia",2021,avg_overdose_per_100k,28.328611898017,rate per 100k,NA
+51077,county,"Grayson County, Virginia",2018,avg_overdose_per_100k,20.5622850306565,rate per 100k,NA
+51075,county,"Goochland County, Virginia",2019,avg_overdose_per_100k,16.1633972522225,rate per 100k,NA
+51121,county,"Montgomery County, Virginia",2018,avg_overdose_per_100k,9.68016727329048,rate per 100k,NA
+51085,county,"Hanover County, Virginia",2019,avg_overdose_per_100k,15.1839858513574,rate per 100k,NA
+51093,county,"Isle of Wight County, Virginia",2017,avg_overdose_per_100k,9.34604317457192,rate per 100k,NA
+51610,county,"Falls Church city, Virginia",2019,avg_overdose_per_100k,7.63055693378249,rate per 100k,NA
+51840,county,"Winchester city, Virginia",2021,avg_overdose_per_100k,18.8354397791237,rate per 100k,NA
+51173,county,"Smyth County, Virginia",2017,avg_overdose_per_100k,21.1746028337515,rate per 100k,NA
+51157,county,"Rappahannock County, Virginia",2020,avg_overdose_per_100k,9.19286633572348,rate per 100k,NA
+51075,county,"Goochland County, Virginia",2018,avg_overdose_per_100k,6.24494893835868,rate per 100k,NA
+51035,county,"Carroll County, Virginia",2016,avg_overdose_per_100k,10.7231948348064,rate per 100k,NA
+51620,county,"Franklin city, Virginia",2019,avg_overdose_per_100k,24.1070739797886,rate per 100k,NA
+18,health district,Mount Rogers,2015,avg_overdose_per_100k,11.007734129719,rate per 100k,NA
+51187,county,"Warren County, Virginia",2018,avg_overdose_per_100k,22.3272586339088,rate per 100k,NA
+17,health district,Loudoun,2021,avg_overdose_per_100k,8.92031418851203,rate per 100k,NA
+51049,county,"Cumberland County, Virginia",2017,avg_overdose_per_100k,6.79509394217375,rate per 100k,NA
+51051,county,"Dickenson County, Virginia",2018,avg_overdose_per_100k,20.2949533216074,rate per 100k,NA
+51135,county,"Nottoway County, Virginia",2015,avg_overdose_per_100k,10.6339990216721,rate per 100k,NA
+51117,county,"Mecklenburg County, Virginia",2017,avg_overdose_per_100k,12.4848808434775,rate per 100k,NA
+32,health district,Three Rivers,2018,avg_overdose_per_100k,6.60668738335068,rate per 100k,NA
+51173,county,"Smyth County, Virginia",2018,avg_overdose_per_100k,19.3001913709116,rate per 100k,NA
+51790,county,"Staunton city, Virginia",2016,avg_overdose_per_100k,2.33682757786447,rate per 100k,NA
+51093,county,"Isle of Wight County, Virginia",2015,avg_overdose_per_100k,8.26127664261717,rate per 100k,NA
+51181,county,"Surry County, Virginia",2019,avg_overdose_per_100k,2.54841997961264,rate per 100k,NA
+51037,county,"Charlotte County, Virginia",2020,avg_overdose_per_100k,11.8668677053666,rate per 100k,NA
+51147,county,"Prince Edward County, Virginia",2018,avg_overdose_per_100k,7.70823239219486,rate per 100k,NA
+51735,county,"Poquoson city, Virginia",2015,avg_overdose_per_100k,9.67465516764795,rate per 100k,NA
+2,health district,Alleghany,2016,avg_overdose_per_100k,15.4026274741925,rate per 100k,NA
+51061,county,"Fauquier County, Virginia",2020,avg_overdose_per_100k,21.6955547694847,rate per 100k,NA
+51177,county,"Spotsylvania County, Virginia",2015,avg_overdose_per_100k,11.8158012390624,rate per 100k,NA
+51680,county,"Lynchburg city, Virginia",2020,avg_overdose_per_100k,11.3646510646243,rate per 100k,NA
+51071,county,"Giles County, Virginia",2016,avg_overdose_per_100k,20.2685333491527,rate per 100k,NA
+51590,county,"Danville city, Virginia",2017,avg_overdose_per_100k,12.5966003060571,rate per 100k,NA
+33,health district,Virginia Beach,2017,avg_overdose_per_100k,13.505463237389,rate per 100k,NA
+51650,county,"Hampton city, Virginia",2015,avg_overdose_per_100k,9.46594945305134,rate per 100k,NA
+51775,county,"Salem city, Virginia",2019,avg_overdose_per_100k,27.875379583677,rate per 100k,NA
+51540,county,"Charlottesville city, Virginia",2017,avg_overdose_per_100k,17.4699205088444,rate per 100k,NA
+51051,county,"Dickenson County, Virginia",2021,avg_overdose_per_100k,17.4605391814499,rate per 100k,NA
+12,health district,Fairfax,2015,avg_overdose_per_100k,7.8733663294465,rate per 100k,NA
+51690,county,"Martinsville city, Virginia",2020,avg_overdose_per_100k,31.8429775794117,rate per 100k,NA
+51051,county,"Dickenson County, Virginia",2016,avg_overdose_per_100k,23.3832175307322,rate per 100k,NA
+51685,county,"Manassas Park city, Virginia",2020,avg_overdose_per_100k,12.208413431279,rate per 100k,NA
+51195,county,"Wise County, Virginia",2017,avg_overdose_per_100k,28.3855552892757,rate per 100k,NA
+51099,county,"King George County, Virginia",2019,avg_overdose_per_100k,14.2385237498576,rate per 100k,NA
+51031,county,"Campbell County, Virginia",2015,avg_overdose_per_100k,3.93324377639812,rate per 100k,NA
+51113,county,"Madison County, Virginia",2020,avg_overdose_per_100k,15.6700513977686,rate per 100k,NA
+51037,county,"Charlotte County, Virginia",2019,avg_overdose_per_100k,11.6896333580879,rate per 100k,NA
+51175,county,"Southampton County, Virginia",2018,avg_overdose_per_100k,18.3213762246394,rate per 100k,NA
+51149,county,"Prince George County, Virginia",2018,avg_overdose_per_100k,28.7481015404643,rate per 100k,NA
+51033,county,"Caroline County, Virginia",2017,avg_overdose_per_100k,17.7848663570792,rate per 100k,NA
+51009,county,"Amherst County, Virginia",2015,avg_overdose_per_100k,6.52796056067348,rate per 100k,NA
+51137,county,"Orange County, Virginia",2021,avg_overdose_per_100k,32.3877898032442,rate per 100k,NA
+51127,county,"New Kent County, Virginia",2019,avg_overdose_per_100k,16.9111090612797,rate per 100k,NA
+51171,county,"Shenandoah County, Virginia",2016,avg_overdose_per_100k,22.5825130283729,rate per 100k,NA
+51089,county,"Henry County, Virginia",2016,avg_overdose_per_100k,22.0886628653619,rate per 100k,NA
+51005,county,"Alleghany County, Virginia",2021,avg_overdose_per_100k,35.2975781939406,rate per 100k,NA
+51061,county,"Fauquier County, Virginia",2021,avg_overdose_per_100k,20.2808745113089,rate per 100k,NA
+51610,county,"Falls Church city, Virginia",2017,avg_overdose_per_100k,9.20272660692736,rate per 100k,NA
+51107,county,"Loudoun County, Virginia",2015,avg_overdose_per_100k,8.03097382434973,rate per 100k,NA
+51740,county,"Portsmouth city, Virginia",2021,avg_overdose_per_100k,66.8564070331057,rate per 100k,NA
+35,health district,Western Tidewater,2016,avg_overdose_per_100k,15.9296337169583,rate per 100k,NA
+51015,county,"Augusta County, Virginia",2019,avg_overdose_per_100k,16.3935769965328,rate per 100k,NA
+51775,county,"Salem city, Virginia",2018,avg_overdose_per_100k,28.2551531474873,rate per 100k,NA
+51137,county,"Orange County, Virginia",2019,avg_overdose_per_100k,21.9462386457092,rate per 100k,NA
+51143,county,"Pittsylvania County, Virginia",2021,avg_overdose_per_100k,32.9798513029255,rate per 100k,NA
+51141,county,"Patrick County, Virginia",2015,avg_overdose_per_100k,3.69446753486654,rate per 100k,NA
+21,health district,Peninsula,2016,avg_overdose_per_100k,15.650075689457,rate per 100k,NA
+51033,county,"Caroline County, Virginia",2016,avg_overdose_per_100k,21.8150087260035,rate per 100k,NA
+51111,county,"Lunenburg County, Virginia",2018,avg_overdose_per_100k,6.81106116332925,rate per 100k,NA
+51057,county,"Essex County, Virginia",2015,avg_overdose_per_100k,14.9745432764301,rate per 100k,NA
+3,health district,Arlington,2021,avg_overdose_per_100k,8.11605298985071,rate per 100k,NA
+51075,county,"Goochland County, Virginia",2020,avg_overdose_per_100k,12.9065565307176,rate per 100k,NA
+51063,county,"Floyd County, Virginia",2020,avg_overdose_per_100k,7.38630368259998,rate per 100k,NA
+51735,county,"Poquoson city, Virginia",2018,avg_overdose_per_100k,7.60529881910451,rate per 100k,NA
+51670,county,"Hopewell city, Virginia",2015,avg_overdose_per_100k,7.54985601346031,rate per 100k,NA
+51071,county,"Giles County, Virginia",2020,avg_overdose_per_100k,22.7578564078208,rate per 100k,NA
+51127,county,"New Kent County, Virginia",2021,avg_overdose_per_100k,32.4801870858776,rate per 100k,NA
+24,health district,Portsmouth,2019,avg_overdose_per_100k,34.2772349814603,rate per 100k,NA
+11,health district,Eastern Shore,2019,avg_overdose_per_100k,18.021671059449,rate per 100k,NA
+51810,county,"Virginia Beach city, Virginia",2017,avg_overdose_per_100k,13.4995284676955,rate per 100k,NA
+51810,county,"Virginia Beach city, Virginia",2021,avg_overdose_per_100k,17.482491580995,rate per 100k,NA
+51550,county,"Chesapeake city, Virginia",2015,avg_overdose_per_100k,12.4949206200879,rate per 100k,NA
+14,health district,Henrico,2018,avg_overdose_per_100k,18.3237876819417,rate per 100k,NA
+51025,county,"Brunswick County, Virginia",2016,avg_overdose_per_100k,11.2869133370272,rate per 100k,NA
+51685,county,"Manassas Park city, Virginia",2017,avg_overdose_per_100k,10.8580596674309,rate per 100k,NA
+32,health district,Three Rivers,2021,avg_overdose_per_100k,21.025643439607,rate per 100k,NA
+15,health district,Lenowisco,2018,avg_overdose_per_100k,14.9375082723543,rate per 100k,NA
+32,health district,Three Rivers,2017,avg_overdose_per_100k,11.3257498000297,rate per 100k,NA
+51153,county,"Prince William County, Virginia",2016,avg_overdose_per_100k,10.7619597561229,rate per 100k,NA
+2,health district,Alleghany,2017,avg_overdose_per_100k,19.607952985731,rate per 100k,NA
+51678,county,"Lexington city, Virginia",2018,avg_overdose_per_100k,16.3932912187373,rate per 100k,NA
+51109,county,"Louisa County, Virginia",2019,avg_overdose_per_100k,19.7527421453802,rate per 100k,NA
+51127,county,"New Kent County, Virginia",2017,avg_overdose_per_100k,16.1910399886207,rate per 100k,NA
+51059,county,"Fairfax County, Virginia",2015,avg_overdose_per_100k,7.8733663294465,rate per 100k,NA
+51069,county,"Frederick County, Virginia",2021,avg_overdose_per_100k,18.8354397791237,rate per 100k,NA
+51009,county,"Amherst County, Virginia",2019,avg_overdose_per_100k,7.91289485345319,rate per 100k,NA
+15,health district,Lenowisco,2016,avg_overdose_per_100k,22.1410073878096,rate per 100k,NA
+51175,county,"Southampton County, Virginia",2021,avg_overdose_per_100k,32.0337526369248,rate per 100k,NA
+51187,county,"Warren County, Virginia",2015,avg_overdose_per_100k,11.5139574751171,rate per 100k,NA
+13,health district,Hampton,2020,avg_overdose_per_100k,20.8468279317713,rate per 100k,NA
+51790,county,"Staunton city, Virginia",2018,avg_overdose_per_100k,18.5110806919182,rate per 100k,NA
+51145,county,"Powhatan County, Virginia",2019,avg_overdose_per_100k,20.1041921611133,rate per 100k,NA
+23,health district,Pittsylvania-Danville,2020,avg_overdose_per_100k,20.5787633720968,rate per 100k,NA
+51683,county,"Manassas city, Virginia",2020,avg_overdose_per_100k,12.208413431279,rate per 100k,NA
+51057,county,"Essex County, Virginia",2017,avg_overdose_per_100k,5.28956595333092,rate per 100k,NA
+51173,county,"Smyth County, Virginia",2021,avg_overdose_per_100k,33.6927223719677,rate per 100k,NA
+1,health district,Alexandria,2021,avg_overdose_per_100k,10.2449590619799,rate per 100k,NA
+51163,county,"Rockbridge County, Virginia",2020,avg_overdose_per_100k,15.4555940023068,rate per 100k,NA

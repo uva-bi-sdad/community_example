@@ -144,13 +144,13 @@
 <div class="wrapper checkbox-wrapper">
 <fieldset>
 <legend>Starting Layer</legend>
-<div class="auto-input" role="group" auto-type="radio" id="starting_shapes" default="2" >
+<div class="auto-input" role="group" auto-type="radio" id="starting_shapes" default="1" >
 <div class="form-check">
-<input type="radio" autocomplete="off" class="form-check-input" name="starting_shapes_options" id="starting_shapes_option1" value="district">
+<input type="radio" autocomplete="off" class="form-check-input" name="starting_shapes_options" id="starting_shapes_option1" value="district" checked>
 <label class="form-check-label" for="starting_shapes_option1">Districts</label>
 </div>
 <div class="form-check">
-<input type="radio" autocomplete="off" class="form-check-input" name="starting_shapes_options" id="starting_shapes_option2" value="county" checked>
+<input type="radio" autocomplete="off" class="form-check-input" name="starting_shapes_options" id="starting_shapes_option2" value="county">
 <label class="form-check-label" for="starting_shapes_option2">Counties</label>
 </div>
 </div>
@@ -209,8 +209,11 @@
 <div class="input-group form-floating">
 <select class="auto-input form-select" auto-type="select" id="variable_type"  default="Health">
 <option value="Education">Education</option>
+<option value="Employment/Workforce Development">Employment/Workforce Development</option>
 <option value="Broadband">Broadband</option>
 <option value="Health">Health</option>
+<option value="Behavioral Health, Substance Use Disorder and Recovery">Behavioral Health, Substance Use Disorder and Recovery</option>
+<option value="Nutrition and Food Security">Nutrition and Food Security</option>
 </select>
 <label for="variable_type">Variable Category</label>
 </div>

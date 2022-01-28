@@ -1317,5 +1317,23 @@
         "url": "https://nces.ed.gov"
       }
     ]
+  },
+  "earnings_per_job:earnings_per_job": {
+    "category": "Employment/Workforce Development",
+    "measure_table": "earnings_per_job",
+    "full_name": "earnings_per_job:earnings_per_job",
+    "measure": "earnings_per_job",
+    "type": "ratio",
+    "short_name": "Earnings per job",
+    "long_name": "Earnings per job",
+    "short_description": "Earnings per job.",
+    "long_description": "Earnings per job.",
+    "statement": "Earnings per job in {features.name} is ${value}",
+    "sources": [
+      {
+        "name": "Bureau of Economic Analysis",
+        "date_accessed": "2021"
+      }
+    ]
   }
 }

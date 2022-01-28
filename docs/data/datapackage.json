@@ -9,10 +9,10 @@
   },
   "resources": [
     {
-      "bytes": 265724,
+      "bytes": 267020,
       "encoding": "ISO-8859-1",
-      "md5": "5bdbe5e9eec2abf6bd33e63ab4bad06b",
-      "sha512": "e253daf7978929c4c444dd217a43ba9713670ff5b97cb8e139b4e1a5b1932c07a5158199e5b61877a8ecaa08aa87682408bbc96d45a3962a41b618fcf6777ff9",
+      "md5": "742b91e185f9e9969a965aa2166c88a7",
+      "sha512": "b45415fd048b49fdbb51b544eb15d39ba037e18b1db657cc6129ddf52ffa822c570d23b39a2bd6e35d17409d413b9df4a86c2c71ec1354122e3acd34e7099089",
       "format": "csv",
       "name": "district",
       "filename": "health_district.csv",
@@ -25,7 +25,7 @@
       ],
       "time": "time",
       "profile": "data-resource",
-      "created": "2022-01-28 15:50:15",
+      "created": "2022-01-28 18:08:45",
       "last_modified": "2021-11-29 21:36:30",
       "rowcount": 420,
       "schema": {
@@ -44,6 +44,30 @@
             "sd": 3.456169,
             "min": 2010,
             "max": 2021
+          },
+          {
+            "name": "earnings_per_job:earnings_per_job",
+            "duplicates": 419,
+            "info": {
+              "category": "Employment/Workforce Development",
+              "measure_table": "earnings_per_job",
+              "full_name": "earnings_per_job:earnings_per_job",
+              "measure": "earnings_per_job",
+              "type": "ratio",
+              "short_name": "Earnings per job",
+              "long_name": "Earnings per job",
+              "short_description": "Earnings per job.",
+              "long_description": "Earnings per job.",
+              "statement": "Earnings per job in {features.name} is ${value}",
+              "sources": [
+                {
+                  "name": "Bureau of Economic Analysis",
+                  "date_accessed": "2021"
+                }
+              ]
+            },
+            "type": "unknown",
+            "missing": 420
           },
           {
             "name": "community_college_computer_sciences_fca:3sfca_capacity",
@@ -399,11 +423,11 @@
               "full_name": "drug_overdose_ed_visits:avg_overdose_per_100",
               "measure": "avg_overdose_per_100k",
               "type": "rate",
-              "short_name": "Drug overdose deaths",
-              "long_name": "Death rate per 100,000 residents (All-drug overdose deaths)",
-              "short_description": "Counts of deaths of Virginia residents by utilizing both the underlying cause of death as well as the contributory/multiple causes of death codes.",
-              "long_description": "Counts of deaths of Virginia residents by utilizing both the underlying cause of death as well as the contributory/multiple causes of death codes. The processes in deriving drug overdose-related death counts follows the guidelines set forth by the Centers for Disease Control and Prevention’s (CDC) Opioid Overdose Indicator Support Toolkit, Version 3.0 (March 2018).",
-              "statement": "The drug overdose death rate in {features.name} is {value} per 100,000 residents",
+              "short_name": "ED visits for drug overdose",
+              "long_name": "Emergency department visits for drug overdose rate per 100,000 residents",
+              "short_description": "Average emergency department visits for drug overdose per 100,000 residents.",
+              "long_description": "Average emergency department visits for drug overdose per 100,000 residents.",
+              "statement": "The average emergency department visits for drug overdose rate in {features.name} is {value} per 100,000 residents",
               "sources": [
                 {
                   "name": "Virginia Department of Health",
@@ -991,6 +1015,31 @@
           {
             "name": "2year_colleges_access_scores:norm_3sfca",
             "duplicates": 385,
+            "info": {
+              "category": "Education",
+              "measure_table": "dc_education_training.va_hdcttr_sdad_2019_2year_colleges_access_scores",
+              "full_name": "2year_colleges_access_scores:norm_3sfca",
+              "measure": "norm_3sfca",
+              "type": "index",
+              "short_name": "2-year college access score",
+              "long_name": "2 year college access score (3-step floating catchment areas)",
+              "short_description": "Index of 3-year college accessibility based on supply and demand of providers",
+              "long_description": "2-year college access score based on 3-step floating catchment areas. This method is an aggregation of college capacity per population ratios weighted by distance or travel time in each catchment area (area within which an institution is accessible). Weights are defined for the demand for 2-year college (whole population in an area served by the institution) and supply is the total number of students enrolled in a year (graduate and undergraduate).",
+              "statement": "The 2-year college accessibility score for {features.name} is {value}",
+              "citations": [
+                "lou04",
+                "lou09",
+                "lou03",
+                "saxon20"
+              ],
+              "source": [
+                {
+                  "name": "National Center for Education Statistics",
+                  "date_accessed": 2021,
+                  "url": "https://nces.ed.gov"
+                }
+              ]
+            },
             "type": "float",
             "missing": 385,
             "mean": 19.688058,
@@ -1098,6 +1147,31 @@
           {
             "name": "trade_schools_access_scores:norm_3sfca",
             "duplicates": 396,
+            "info": {
+              "category": "Education",
+              "measure_table": "dc_education_training.va_hdcttr_sdad_2019_trade_schools_access_scores",
+              "full_name": "trade_schools_access_scores:norm_3sfca",
+              "measure": "norm_3sfca",
+              "type": "index",
+              "short_name": "Trade school access score",
+              "long_name": "Trade school access score (3-step floating catchment areas)",
+              "short_description": "Index of trade school accessibility based on supply and demand of providers",
+              "long_description": "Trade school access score based on 3-step floating catchment areas. This method is an aggregation of trade school capacity per population ratios weighted by distance or travel time in each catchment area (area within which an institution is accessible). Weights are defined for the demand for trade schools (whole population in an area served by the institution) and supply is the total number of students enrolled in a year (undergraduate).",
+              "statement": "The trade school accessibility score for {features.name} is  {value}",
+              "citations": [
+                "lou04",
+                "lou09",
+                "lou03",
+                "saxon20"
+              ],
+              "source": [
+                {
+                  "name": "National Center for Education Statistics",
+                  "date_accessed": 2021,
+                  "url": "https://nces.ed.gov"
+                }
+              ]
+            },
             "type": "float",
             "missing": 385,
             "mean": 20.488734,
@@ -2719,10 +2793,10 @@
       }
     },
     {
-      "bytes": 986212,
+      "bytes": 1132830,
       "encoding": "ISO-8859-1",
-      "md5": "fe4c16ae30c042e1e56d2fa5df38a91d",
-      "sha512": "7fbe073f627c3a02af7ee82e690142336baf664a137899e980110cee042e245ee8996261dc1cc2e8c67ed567831022edca7103ef3904fb4ca12ebc83e8aaa5fe",
+      "md5": "11f2639ec15db3d3897c2bcae04092a3",
+      "sha512": "d0349c17379457d81a626f67d5d2a7541d5746dd47ec7110351fef96a068d8dae771bd780a5aa5a3d4cd6b8db75d179eecc60f3228ee2126a1ee07162b8ce561",
       "format": "csv",
       "name": "county",
       "filename": "county.csv",
@@ -2735,14 +2809,14 @@
       ],
       "time": "time",
       "profile": "data-resource",
-      "created": "2022-01-28 15:50:12",
+      "created": "2022-01-28 18:08:42",
       "last_modified": "2021-11-29 21:36:30",
-      "rowcount": 1608,
+      "rowcount": 1884,
       "schema": {
         "fields": [
           {
             "name": "time",
-            "duplicates": 1596,
+            "duplicates": 1872,
             "info": {
               "type": "year",
               "short_name": "Year",
@@ -2751,13 +2825,41 @@
             "type": "integer",
             "missing": 0,
             "mean": 2015.5,
-            "sd": 3.453126,
+            "sd": 3.452969,
             "min": 2010,
             "max": 2021
           },
           {
+            "name": "earnings_per_job:earnings_per_job",
+            "duplicates": 1253,
+            "info": {
+              "category": "Employment/Workforce Development",
+              "measure_table": "earnings_per_job",
+              "full_name": "earnings_per_job:earnings_per_job",
+              "measure": "earnings_per_job",
+              "type": "ratio",
+              "short_name": "Earnings per job",
+              "long_name": "Earnings per job",
+              "short_description": "Earnings per job.",
+              "long_description": "Earnings per job.",
+              "statement": "Earnings per job in {features.name} is ${value}",
+              "sources": [
+                {
+                  "name": "Bureau of Economic Analysis",
+                  "date_accessed": "2021"
+                }
+              ]
+            },
+            "type": "float",
+            "missing": 1254,
+            "mean": 46923.239782,
+            "sd": 14536.238833,
+            "min": 23169.88417,
+            "max": 116153.690358
+          },
+          {
             "name": "community_college_computer_sciences_fca:3sfca_capacity",
-            "duplicates": 1524,
+            "duplicates": 1800,
             "info": {
               "category": "Education",
               "measure_table": "dc_education_training.va_cttr_nces_2020_community_college_computer_sciences_fca",
@@ -2784,7 +2886,7 @@
               ]
             },
             "type": "float",
-            "missing": 1475,
+            "missing": 1751,
             "mean": 0.411286,
             "sd": 0.763623,
             "min": 0,
@@ -2792,9 +2894,9 @@
           },
           {
             "name": "community_college_computer_sciences_fca:2sfca30_capacity",
-            "duplicates": 1571,
+            "duplicates": 1847,
             "type": "float",
-            "missing": 1475,
+            "missing": 1751,
             "mean": 0.000296,
             "sd": 0.000633,
             "min": 0,
@@ -2802,9 +2904,9 @@
           },
           {
             "name": "community_college_computer_sciences_fca:norm_3sfca",
-            "duplicates": 1524,
+            "duplicates": 1800,
             "type": "float",
-            "missing": 1475,
+            "missing": 1751,
             "mean": 8.776565,
             "sd": 16.295201,
             "min": 0,
@@ -2812,9 +2914,9 @@
           },
           {
             "name": "community_college_computer_sciences_fca:norm_2sfca",
-            "duplicates": 1571,
+            "duplicates": 1847,
             "type": "float",
-            "missing": 1475,
+            "missing": 1751,
             "mean": 8.053073,
             "sd": 17.218681,
             "min": 0,
@@ -2822,9 +2924,9 @@
           },
           {
             "name": "community_college_computer_sciences_fca:program_capacity",
-            "duplicates": 1589,
+            "duplicates": 1865,
             "type": "integer",
-            "missing": 1582,
+            "missing": 1858,
             "mean": 185,
             "sd": 508.928993,
             "min": 0,
@@ -2832,7 +2934,7 @@
           },
           {
             "name": "community_college_engineering_fca:3sfca_capacity",
-            "duplicates": 1562,
+            "duplicates": 1838,
             "info": {
               "category": "Education",
               "measure_table": "dc_education_training.va_cttr_nces_2020_community_college_engineering_fca",
@@ -2859,7 +2961,7 @@
               ]
             },
             "type": "float",
-            "missing": 1475,
+            "missing": 1751,
             "mean": 0.481776,
             "sd": 0.992555,
             "min": 0,
@@ -2867,9 +2969,9 @@
           },
           {
             "name": "community_college_engineering_fca:2sfca30_capacity",
-            "duplicates": 1586,
+            "duplicates": 1862,
             "type": "float",
-            "missing": 1475,
+            "missing": 1751,
             "mean": 0.000068,
             "sd": 0.000185,
             "min": 0,
@@ -2877,9 +2979,9 @@
           },
           {
             "name": "community_college_engineering_fca:norm_3sfca",
-            "duplicates": 1562,
+            "duplicates": 1838,
             "type": "float",
-            "missing": 1475,
+            "missing": 1751,
             "mean": 7.118357,
             "sd": 14.665234,
             "min": 0,
@@ -2887,9 +2989,9 @@
           },
           {
             "name": "community_college_engineering_fca:norm_2sfca",
-            "duplicates": 1586,
+            "duplicates": 1862,
             "type": "float",
-            "missing": 1475,
+            "missing": 1751,
             "mean": 4.227726,
             "sd": 11.571513,
             "min": 0,
@@ -2897,9 +2999,9 @@
           },
           {
             "name": "community_college_engineering_fca:program_capacity",
-            "duplicates": 1595,
+            "duplicates": 1871,
             "type": "integer",
-            "missing": 1594,
+            "missing": 1870,
             "mean": 69.857143,
             "sd": 104.623763,
             "min": 0,
@@ -2907,7 +3009,7 @@
           },
           {
             "name": "community_college_engineering_related_fca:3sfca_capacity",
-            "duplicates": 1522,
+            "duplicates": 1798,
             "info": {
               "category": "Education",
               "measure_table": "dc_education_training.va_cttr_nces_2020_community_college_engineering_related_fca",
@@ -2934,7 +3036,7 @@
               ]
             },
             "type": "float",
-            "missing": 1475,
+            "missing": 1751,
             "mean": 0.932239,
             "sd": 1.684855,
             "min": 0,
@@ -2942,9 +3044,9 @@
           },
           {
             "name": "community_college_engineering_related_fca:2sfca30_capacity",
-            "duplicates": 1569,
+            "duplicates": 1845,
             "type": "float",
-            "missing": 1475,
+            "missing": 1751,
             "mean": 0.000475,
             "sd": 0.001049,
             "min": 0,
@@ -2952,9 +3054,9 @@
           },
           {
             "name": "community_college_engineering_related_fca:norm_3sfca",
-            "duplicates": 1522,
+            "duplicates": 1798,
             "type": "float",
-            "missing": 1475,
+            "missing": 1751,
             "mean": 7.955421,
             "sd": 14.377999,
             "min": 0,
@@ -2962,9 +3064,9 @@
           },
           {
             "name": "community_college_engineering_related_fca:norm_2sfca",
-            "duplicates": 1569,
+            "duplicates": 1845,
             "type": "float",
-            "missing": 1475,
+            "missing": 1751,
             "mean": 6.3058,
             "sd": 13.91632,
             "min": 0,
@@ -2972,9 +3074,9 @@
           },
           {
             "name": "community_college_engineering_related_fca:program_capacity",
-            "duplicates": 1585,
+            "duplicates": 1861,
             "type": "integer",
-            "missing": 1585,
+            "missing": 1861,
             "mean": 152.086957,
             "sd": 174.295964,
             "min": 2,
@@ -2982,7 +3084,7 @@
           },
           {
             "name": "civilian_employment_rate:employment_rate",
-            "duplicates": 1484,
+            "duplicates": 1760,
             "info": {
               "category": "Employment/Workforce Development",
               "measure_table": "civilian_employment_rate",
@@ -3003,7 +3105,7 @@
               ]
             },
             "type": "float",
-            "missing": 1475,
+            "missing": 1751,
             "mean": 93.804211,
             "sd": 3.615136,
             "min": 74.85,
@@ -3011,7 +3113,7 @@
           },
           {
             "name": "preventable_hospitalizations:prevent_hosp_rate",
-            "duplicates": 783,
+            "duplicates": 1059,
             "info": {
               "category": "Health",
               "measure_table": "dc_health_behavior_diet.va_hdct_chr_2015_2021_preventable_hospitalizations",
@@ -3032,7 +3134,7 @@
               ]
             },
             "type": "integer",
-            "missing": 705,
+            "missing": 981,
             "mean": 5161.067553,
             "sd": 1879.030916,
             "min": 2091,
@@ -3040,7 +3142,7 @@
           },
           {
             "name": "food_insecurity_and_cost:Food_Insecurity_Rate",
-            "duplicates": 1409,
+            "duplicates": 1685,
             "info": {
               "category": "Nutrition and Food Security",
               "measure_table": "food_insecurity_and_cost",
@@ -3061,7 +3163,7 @@
               ]
             },
             "type": "float",
-            "missing": 278,
+            "missing": 554,
             "mean": 12.272331,
             "sd": 4.26264,
             "min": 3.4,
@@ -3069,7 +3171,7 @@
           },
           {
             "name": "food_insecurity_and_cost:Num_Child_Food_Insecure",
-            "duplicates": 1188,
+            "duplicates": 1464,
             "info": {
               "category": "Nutrition and Food Security",
               "measure_table": "food_insecurity_and_cost",
@@ -3090,7 +3192,7 @@
               ]
             },
             "type": "integer",
-            "missing": 278,
+            "missing": 554,
             "mean": 1913.278195,
             "sd": 3241.583848,
             "min": 40,
@@ -3098,7 +3200,7 @@
           },
           {
             "name": "food_insecurity_and_cost:Child_Food_Insecurity_Rate",
-            "duplicates": 1377,
+            "duplicates": 1653,
             "info": {
               "category": "Nutrition and Food Security",
               "measure_table": "Child_Food_Insecurity_Rate",
@@ -3119,7 +3221,7 @@
               ]
             },
             "type": "float",
-            "missing": 278,
+            "missing": 554,
             "mean": 16.785263,
             "sd": 4.715003,
             "min": 1.4,
@@ -3127,7 +3229,7 @@
           },
           {
             "name": "food_insecurity_and_cost:Cost_Per_Meal",
-            "duplicates": 1332,
+            "duplicates": 1608,
             "info": {
               "category": "Nutrition and Food Security",
               "measure_table": "food_insecurity_and_cost",
@@ -3148,7 +3250,7 @@
               ]
             },
             "type": "float",
-            "missing": 411,
+            "missing": 687,
             "mean": 3.040211,
             "sd": 0.285338,
             "min": 2.41,
@@ -3156,9 +3258,9 @@
           },
           {
             "name": "food_insecurity_and_cost:Num_Food_Insecure",
-            "duplicates": 866,
+            "duplicates": 1142,
             "type": "integer",
-            "missing": 278,
+            "missing": 554,
             "mean": 6466.977444,
             "sd": 9930.505965,
             "min": 170,
@@ -3166,18 +3268,18 @@
           },
           {
             "name": "drug_overdose_ed_visits:avg_overdose_per_100k",
-            "duplicates": 887,
+            "duplicates": 1163,
             "info": {
               "category": "Behavioral Health, Substance Use Disorder and Recovery",
               "measure_table": "drug_overdose_ed_visits",
               "full_name": "drug_overdose_ed_visits:avg_overdose_per_100",
               "measure": "avg_overdose_per_100k",
               "type": "rate",
-              "short_name": "Drug overdose deaths",
-              "long_name": "Death rate per 100,000 residents (All-drug overdose deaths)",
-              "short_description": "Counts of deaths of Virginia residents by utilizing both the underlying cause of death as well as the contributory/multiple causes of death codes.",
-              "long_description": "Counts of deaths of Virginia residents by utilizing both the underlying cause of death as well as the contributory/multiple causes of death codes. The processes in deriving drug overdose-related death counts follows the guidelines set forth by the Centers for Disease Control and Prevention’s (CDC) Opioid Overdose Indicator Support Toolkit, Version 3.0 (March 2018).",
-              "statement": "The drug overdose death rate in {features.name} is {value} per 100,000 residents",
+              "short_name": "ED visits for drug overdose",
+              "long_name": "Emergency department visits for drug overdose rate per 100,000 residents",
+              "short_description": "Average emergency department visits for drug overdose per 100,000 residents.",
+              "long_description": "Average emergency department visits for drug overdose per 100,000 residents.",
+              "statement": "The average emergency department visits for drug overdose rate in {features.name} is {value} per 100,000 residents",
               "sources": [
                 {
                   "name": "Virginia Department of Health",
@@ -3187,7 +3289,7 @@
               ]
             },
             "type": "float",
-            "missing": 682,
+            "missing": 958,
             "mean": 16.086624,
             "sd": 9.673749,
             "min": 0,
@@ -3195,7 +3297,7 @@
           },
           {
             "name": "3rd_grade_median_read_score:median_read_pass_rate",
-            "duplicates": 1522,
+            "duplicates": 1798,
             "info": {
               "category": "Education",
               "measure_table": "dc_education_training.va_hdct_vdoe_2019_2021_3rd_grade_median_read_score",
@@ -3216,7 +3318,7 @@
               ]
             },
             "type": "float",
-            "missing": 1354,
+            "missing": 1630,
             "mean": 64.027559,
             "sd": 13.533052,
             "min": 24,
@@ -3224,9 +3326,9 @@
           },
           {
             "name": "post_hs_education:num_post_hs_edu",
-            "duplicates": 1474,
+            "duplicates": 1750,
             "type": "integer",
-            "missing": 1475,
+            "missing": 1751,
             "mean": 28554.654135,
             "sd": 65871.649007,
             "min": 933,
@@ -3234,7 +3336,7 @@
           },
           {
             "name": "post_hs_education:perc_post_hs_edu",
-            "duplicates": 1474,
+            "duplicates": 1750,
             "info": {
               "category": "Education",
               "measure_table": "dc_education_training.va_hdcttr_acs_2015_2019_post_hs_education",
@@ -3255,7 +3357,7 @@
               ]
             },
             "type": "float",
-            "missing": 1475,
+            "missing": 1751,
             "mean": 0.556125,
             "sd": 0.114797,
             "min": 0.350119,
@@ -3263,7 +3365,7 @@
           },
           {
             "name": "no_health_insurance_19_to_64:no_hlth_ins_pct",
-            "duplicates": 1282,
+            "duplicates": 1558,
             "info": {
               "category": "Health",
               "measure_table": "dc_health_behavior_diet.va_hdcttr_acs5_2015_2019_no_health_insurance_19_to_64",
@@ -3284,7 +3386,7 @@
               ]
             },
             "type": "float",
-            "missing": 943,
+            "missing": 1219,
             "mean": 1.844301,
             "sd": 2.541139,
             "min": 0,
@@ -3292,7 +3394,7 @@
           },
           {
             "name": "pct_pop_broadband:perc_w_broadband",
-            "duplicates": 1208,
+            "duplicates": 1484,
             "info": {
               "category": "Broadband",
               "measure_table": "dc_digital_communications.va_hdcttr_acs_2017_2019_pct_pop_broadband",
@@ -3313,7 +3415,7 @@
               ]
             },
             "type": "float",
-            "missing": 1209,
+            "missing": 1485,
             "mean": 0.731099,
             "sd": 0.103811,
             "min": 0.482457,
@@ -3321,7 +3423,7 @@
           },
           {
             "name": "pct_pop_cable_fiber_dsl:perc_w_cable_fiber_DSL",
-            "duplicates": 1208,
+            "duplicates": 1484,
             "info": {
               "category": "Broadband",
               "measure_table": "dc_digital_communications.va_hdcttr_acs_2017_2019_pct_pop_cable_fiber_dsl",
@@ -3342,7 +3444,7 @@
               ]
             },
             "type": "float",
-            "missing": 1209,
+            "missing": 1485,
             "mean": 0.54313,
             "sd": 0.171723,
             "min": 0.100733,
@@ -3350,7 +3452,7 @@
           },
           {
             "name": "have_computer:perc_have_computer",
-            "duplicates": 1474,
+            "duplicates": 1750,
             "info": {
               "category": "Broadband",
               "measure_table": "dc_digital_communications.va_hdcttr_acs5_2019_have_computer",
@@ -3371,7 +3473,7 @@
               ]
             },
             "type": "float",
-            "missing": 1475,
+            "missing": 1751,
             "mean": 85.813769,
             "sd": 6.829957,
             "min": 66.666667,
@@ -3379,7 +3481,7 @@
           },
           {
             "name": "have_internet:perc_have_internet_access",
-            "duplicates": 1474,
+            "duplicates": 1750,
             "info": {
               "category": "Broadband",
               "measure_table": "dc_digital_communications.va_hdcttr_acs5_2019_have_internet",
@@ -3400,7 +3502,7 @@
               ]
             },
             "type": "float",
-            "missing": 1475,
+            "missing": 1751,
             "mean": 79.97137,
             "sd": 8.613711,
             "min": 61.239227,
@@ -3408,7 +3510,7 @@
           },
           {
             "name": "download_speeds:download",
-            "duplicates": 1208,
+            "duplicates": 1484,
             "info": {
               "category": "Broadband",
               "measure_table": "dc_digital_communications.va_hdcttr_ookla_2019_2021_download_speeds",
@@ -3429,7 +3531,7 @@
               ]
             },
             "type": "float",
-            "missing": 1209,
+            "missing": 1485,
             "mean": 111.817553,
             "sd": 49.343852,
             "min": 8.155631,
@@ -3437,7 +3539,7 @@
           },
           {
             "name": "drive_times_nearest_2year_colleges:median_drive_time_top5",
-            "duplicates": 1481,
+            "duplicates": 1757,
             "info": {
               "category": "Education",
               "measure_table": "dc_education_training.va_hdcttr_osrm_2021_drive_times_nearest_2year_colleges",
@@ -3458,7 +3560,7 @@
               ]
             },
             "type": "float",
-            "missing": 1475,
+            "missing": 1751,
             "mean": 58.781579,
             "sd": 25.137181,
             "min": 9,
@@ -3466,9 +3568,9 @@
           },
           {
             "name": "drive_times_nearest_2year_colleges:median_drive_time_top10",
-            "duplicates": 1476,
+            "duplicates": 1752,
             "type": "float",
-            "missing": 1475,
+            "missing": 1751,
             "mean": 82.253383,
             "sd": 33.767494,
             "min": 13.3,
@@ -3476,9 +3578,9 @@
           },
           {
             "name": "drive_times_nearest_2year_colleges:mean_drive_time_top5",
-            "duplicates": 1474,
+            "duplicates": 1750,
             "type": "float",
-            "missing": 1475,
+            "missing": 1751,
             "mean": 57.527845,
             "sd": 23.180778,
             "min": 9.16,
@@ -3486,9 +3588,9 @@
           },
           {
             "name": "drive_times_nearest_2year_colleges:mean_drive_time_top10",
-            "duplicates": 1474,
+            "duplicates": 1750,
             "type": "float",
-            "missing": 1475,
+            "missing": 1751,
             "mean": 79.52609,
             "sd": 31.34532,
             "min": 14.33,
@@ -3496,7 +3598,7 @@
           },
           {
             "name": "drive_times_nearest_daycares:median_drive_time_top5",
-            "duplicates": 1504,
+            "duplicates": 1780,
             "info": {
               "category": "Education",
               "measure_table": "dc_education_training.va_hdcttr_osrm_2021_drive_times_nearest_daycares",
@@ -3517,7 +3619,7 @@
               ]
             },
             "type": "float",
-            "missing": 1475,
+            "missing": 1751,
             "mean": 10.420677,
             "sd": 9.423816,
             "min": 0.9,
@@ -3525,9 +3627,9 @@
           },
           {
             "name": "drive_times_nearest_daycares:median_drive_time_top10",
-            "duplicates": 1489,
+            "duplicates": 1765,
             "type": "float",
-            "missing": 1475,
+            "missing": 1751,
             "mean": 14.601128,
             "sd": 11.41075,
             "min": 1.55,
@@ -3535,9 +3637,9 @@
           },
           {
             "name": "drive_times_nearest_daycares:mean_drive_time_top10",
-            "duplicates": 1475,
+            "duplicates": 1751,
             "type": "float",
-            "missing": 1475,
+            "missing": 1751,
             "mean": 13.976844,
             "sd": 10.100257,
             "min": 1.49,
@@ -3545,9 +3647,9 @@
           },
           {
             "name": "drive_times_nearest_daycares:mean_drive_time_top5",
-            "duplicates": 1481,
+            "duplicates": 1757,
             "type": "float",
-            "missing": 1475,
+            "missing": 1751,
             "mean": 10.118908,
             "sd": 8.197514,
             "min": 1.1,
@@ -3555,9 +3657,9 @@
           },
           {
             "name": "drive_times_nearest_trade_schools:mean_drive_time_top10",
-            "duplicates": 1474,
+            "duplicates": 1750,
             "type": "float",
-            "missing": 1475,
+            "missing": 1751,
             "mean": 123.354983,
             "sd": 78.385799,
             "min": 22.01,
@@ -3565,9 +3667,9 @@
           },
           {
             "name": "drive_times_nearest_trade_schools:median_drive_time_top10",
-            "duplicates": 1474,
+            "duplicates": 1750,
             "type": "float",
-            "missing": 1475,
+            "missing": 1751,
             "mean": 136.454887,
             "sd": 98.268331,
             "min": 15.85,
@@ -3575,9 +3677,9 @@
           },
           {
             "name": "drive_times_nearest_trade_schools:mean_drive_time_top5",
-            "duplicates": 1476,
+            "duplicates": 1752,
             "type": "float",
-            "missing": 1475,
+            "missing": 1751,
             "mean": 95.339248,
             "sd": 60.133238,
             "min": 9.8,
@@ -3585,7 +3687,7 @@
           },
           {
             "name": "drive_times_nearest_trade_schools:median_drive_time_top5",
-            "duplicates": 1476,
+            "duplicates": 1752,
             "info": {
               "category": "Education",
               "measure_table": "dc_education_training.va_hdcttr_osrm_2021_drive_times_nearest_trade_schools",
@@ -3606,7 +3708,7 @@
               ]
             },
             "type": "float",
-            "missing": 1475,
+            "missing": 1751,
             "mean": 99.058647,
             "sd": 66.24042,
             "min": 10.1,
@@ -3614,7 +3716,7 @@
           },
           {
             "name": "percent_poor_ment_hlth_days_14_and_over:perc_poor_ment_hlth_days_14_and_over",
-            "duplicates": 942,
+            "duplicates": 1218,
             "info": {
               "category": "Health",
               "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2015_2019_percent_poor_ment_hlth_days_14_and_over",
@@ -3635,7 +3737,7 @@
               ]
             },
             "type": "float",
-            "missing": 943,
+            "missing": 1219,
             "mean": 10.962406,
             "sd": 2.182188,
             "min": 5.804278,
@@ -3643,7 +3745,7 @@
           },
           {
             "name": "percent_poor_phys_hlth_days_14_and_over:perc_poor_phys_hlth_days_14_and_over",
-            "duplicates": 942,
+            "duplicates": 1218,
             "info": {
               "category": "Health",
               "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2015_2019_percent_poor_phys_hlth_days_14_and_over",
@@ -3664,7 +3766,7 @@
               ]
             },
             "type": "float",
-            "missing": 943,
+            "missing": 1219,
             "mean": 12.1872,
             "sd": 2.853325,
             "min": 5.148652,
@@ -3672,7 +3774,7 @@
           },
           {
             "name": "dei_index:norm_dei",
-            "duplicates": 1212,
+            "duplicates": 1488,
             "info": {
               "category": "Broadband",
               "measure_table": "dc_digital_communications.va_hdcttr_sdad_2019_2021_dei_index",
@@ -3701,7 +3803,7 @@
               ]
             },
             "type": "float",
-            "missing": 1209,
+            "missing": 1485,
             "mean": 46.809144,
             "sd": 23.305838,
             "min": 0,
@@ -3709,7 +3811,7 @@
           },
           {
             "name": "2year_colleges_access_scores:norm_2sefca",
-            "duplicates": 1607,
+            "duplicates": 1883,
             "info": {
               "category": "Education",
               "measure_table": "dc_education_training.va_hdcttr_sdad_2019_2year_colleges_access_scores",
@@ -3736,25 +3838,50 @@
               ]
             },
             "type": "unknown",
-            "missing": 1608
+            "missing": 1884
           },
           {
             "name": "2year_colleges_access_scores:3sfca_tot_enrol",
-            "duplicates": 1607,
+            "duplicates": 1883,
             "type": "unknown",
-            "missing": 1608
+            "missing": 1884
           },
           {
             "name": "2year_colleges_access_scores:2sefca30_tot_enrol",
-            "duplicates": 1607,
+            "duplicates": 1883,
             "type": "unknown",
-            "missing": 1608
+            "missing": 1884
           },
           {
             "name": "2year_colleges_access_scores:norm_3sfca",
-            "duplicates": 1499,
+            "duplicates": 1775,
+            "info": {
+              "category": "Education",
+              "measure_table": "dc_education_training.va_hdcttr_sdad_2019_2year_colleges_access_scores",
+              "full_name": "2year_colleges_access_scores:norm_3sfca",
+              "measure": "norm_3sfca",
+              "type": "index",
+              "short_name": "2-year college access score",
+              "long_name": "2 year college access score (3-step floating catchment areas)",
+              "short_description": "Index of 3-year college accessibility based on supply and demand of providers",
+              "long_description": "2-year college access score based on 3-step floating catchment areas. This method is an aggregation of college capacity per population ratios weighted by distance or travel time in each catchment area (area within which an institution is accessible). Weights are defined for the demand for 2-year college (whole population in an area served by the institution) and supply is the total number of students enrolled in a year (graduate and undergraduate).",
+              "statement": "The 2-year college accessibility score for {features.name} is {value}",
+              "citations": [
+                "lou04",
+                "lou09",
+                "lou03",
+                "saxon20"
+              ],
+              "source": [
+                {
+                  "name": "National Center for Education Statistics",
+                  "date_accessed": 2021,
+                  "url": "https://nces.ed.gov"
+                }
+              ]
+            },
             "type": "float",
-            "missing": 1475,
+            "missing": 1751,
             "mean": 13.09184,
             "sd": 18.324059,
             "min": 0,
@@ -3762,15 +3889,15 @@
           },
           {
             "name": "2year_colleges_access_scores:perc_2sefca",
-            "duplicates": 1607,
+            "duplicates": 1883,
             "type": "unknown",
-            "missing": 1608
+            "missing": 1884
           },
           {
             "name": "2year_colleges_access_scores:perc_3sfca",
-            "duplicates": 1499,
+            "duplicates": 1775,
             "type": "float",
-            "missing": 1475,
+            "missing": 1751,
             "mean": 0.506756,
             "sd": 0.287336,
             "min": 0.06015,
@@ -3778,15 +3905,15 @@
           },
           {
             "name": "2year_colleges_access_scores:capacity",
-            "duplicates": 1607,
+            "duplicates": 1883,
             "type": "unknown",
-            "missing": 1608
+            "missing": 1884
           },
           {
             "name": "2year_colleges_access_scores:2sfca30_capacity",
-            "duplicates": 1558,
+            "duplicates": 1834,
             "type": "float",
-            "missing": 1475,
+            "missing": 1751,
             "mean": 0.015974,
             "sd": 0.029202,
             "min": 0,
@@ -3794,9 +3921,9 @@
           },
           {
             "name": "2year_colleges_access_scores:norm_2sfca",
-            "duplicates": 1558,
+            "duplicates": 1834,
             "type": "float",
-            "missing": 1475,
+            "missing": 1751,
             "mean": 8.450009,
             "sd": 15.447196,
             "min": 0,
@@ -3804,9 +3931,9 @@
           },
           {
             "name": "2year_colleges_access_scores:college_capacity",
-            "duplicates": 1576,
+            "duplicates": 1852,
             "type": "integer",
-            "missing": 1577,
+            "missing": 1853,
             "mean": 5640.322581,
             "sd": 11665.120198,
             "min": 29,
@@ -3814,9 +3941,9 @@
           },
           {
             "name": "2year_colleges_access_scores:perc_2sfca30",
-            "duplicates": 1558,
+            "duplicates": 1834,
             "type": "float",
-            "missing": 1475,
+            "missing": 1751,
             "mean": 0.637571,
             "sd": 0.157372,
             "min": 0.518797,
@@ -3824,9 +3951,9 @@
           },
           {
             "name": "2year_colleges_access_scores:3sfca_capacity",
-            "duplicates": 1499,
+            "duplicates": 1775,
             "type": "float",
-            "missing": 1475,
+            "missing": 1751,
             "mean": 0.953261,
             "sd": 1.334237,
             "min": 0,
@@ -3834,7 +3961,7 @@
           },
           {
             "name": "health_literacy_estimates:health_literacy_estimate",
-            "duplicates": 1602,
+            "duplicates": 1878,
             "info": {
               "category": "Education",
               "measure_table": "dc_education_training.va_hdcttr_sdad_2019_health_literacy_estimates",
@@ -3863,7 +3990,7 @@
               ]
             },
             "type": "float",
-            "missing": 1475,
+            "missing": 1751,
             "mean": 0.316456,
             "sd": 0.676931,
             "min": -0.994982,
@@ -3871,9 +3998,34 @@
           },
           {
             "name": "trade_schools_access_scores:norm_3sfca",
-            "duplicates": 1553,
+            "duplicates": 1829,
+            "info": {
+              "category": "Education",
+              "measure_table": "dc_education_training.va_hdcttr_sdad_2019_trade_schools_access_scores",
+              "full_name": "trade_schools_access_scores:norm_3sfca",
+              "measure": "norm_3sfca",
+              "type": "index",
+              "short_name": "Trade school access score",
+              "long_name": "Trade school access score (3-step floating catchment areas)",
+              "short_description": "Index of trade school accessibility based on supply and demand of providers",
+              "long_description": "Trade school access score based on 3-step floating catchment areas. This method is an aggregation of trade school capacity per population ratios weighted by distance or travel time in each catchment area (area within which an institution is accessible). Weights are defined for the demand for trade schools (whole population in an area served by the institution) and supply is the total number of students enrolled in a year (undergraduate).",
+              "statement": "The trade school accessibility score for {features.name} is  {value}",
+              "citations": [
+                "lou04",
+                "lou09",
+                "lou03",
+                "saxon20"
+              ],
+              "source": [
+                {
+                  "name": "National Center for Education Statistics",
+                  "date_accessed": 2021,
+                  "url": "https://nces.ed.gov"
+                }
+              ]
+            },
             "type": "float",
-            "missing": 1475,
+            "missing": 1751,
             "mean": 9.928473,
             "sd": 18.128594,
             "min": 0,
@@ -3881,9 +4033,9 @@
           },
           {
             "name": "trade_schools_access_scores:college_capacity",
-            "duplicates": 1591,
+            "duplicates": 1867,
             "type": "integer",
-            "missing": 1591,
+            "missing": 1867,
             "mean": 159.882353,
             "sd": 237.542071,
             "min": 3,
@@ -3891,9 +4043,9 @@
           },
           {
             "name": "trade_schools_access_scores:2sfca30_capacity",
-            "duplicates": 1576,
+            "duplicates": 1852,
             "type": "float",
-            "missing": 1475,
+            "missing": 1751,
             "mean": 0.000094,
             "sd": 0.000237,
             "min": 0,
@@ -3901,9 +4053,9 @@
           },
           {
             "name": "trade_schools_access_scores:perc_2sfca30",
-            "duplicates": 1576,
+            "duplicates": 1852,
             "type": "float",
-            "missing": 1475,
+            "missing": 1751,
             "mean": 0.756798,
             "sd": 0.080247,
             "min": 0.714286,
@@ -3911,9 +4063,9 @@
           },
           {
             "name": "trade_schools_access_scores:3sfca_capacity",
-            "duplicates": 1553,
+            "duplicates": 1829,
             "type": "float",
-            "missing": 1475,
+            "missing": 1751,
             "mean": 0.425406,
             "sd": 0.776757,
             "min": 0,
@@ -3921,9 +4073,9 @@
           },
           {
             "name": "trade_schools_access_scores:perc_3sfca",
-            "duplicates": 1553,
+            "duplicates": 1829,
             "type": "float",
-            "missing": 1475,
+            "missing": 1751,
             "mean": 0.571937,
             "sd": 0.214491,
             "min": 0.360902,
@@ -3931,9 +4083,9 @@
           },
           {
             "name": "trade_schools_access_scores:norm_2sfca",
-            "duplicates": 1576,
+            "duplicates": 1852,
             "type": "float",
-            "missing": 1475,
+            "missing": 1751,
             "mean": 7.540552,
             "sd": 18.931064,
             "min": 0,
@@ -3941,19 +4093,19 @@
           },
           {
             "name": "trade_schools_access_scores:capacity",
-            "duplicates": 1607,
+            "duplicates": 1883,
             "type": "unknown",
-            "missing": 1608
+            "missing": 1884
           },
           {
             "name": "trade_schools_access_scores:3sfca_tot_enrol",
-            "duplicates": 1607,
+            "duplicates": 1883,
             "type": "unknown",
-            "missing": 1608
+            "missing": 1884
           },
           {
             "name": "trade_schools_access_scores:norm_2sefca",
-            "duplicates": 1607,
+            "duplicates": 1883,
             "info": {
               "category": "Education",
               "measure_table": "dc_education_training.va_hdcttr_sdad_2019_trade_schools_access_scores",
@@ -3980,25 +4132,25 @@
               ]
             },
             "type": "unknown",
-            "missing": 1608
+            "missing": 1884
           },
           {
             "name": "trade_schools_access_scores:2sefca30_tot_enrol",
-            "duplicates": 1607,
+            "duplicates": 1883,
             "type": "unknown",
-            "missing": 1608
+            "missing": 1884
           },
           {
             "name": "trade_schools_access_scores:perc_2sefca",
-            "duplicates": 1607,
+            "duplicates": 1883,
             "type": "unknown",
-            "missing": 1608
+            "missing": 1884
           },
           {
             "name": "daycare_services_access_scores:daycare_3sfca_capacity",
-            "duplicates": 1474,
+            "duplicates": 1750,
             "type": "float",
-            "missing": 1475,
+            "missing": 1751,
             "mean": 0.780385,
             "sd": 0.353083,
             "min": 0.149469,
@@ -4006,7 +4158,7 @@
           },
           {
             "name": "daycare_services_access_scores:daycare_cnt",
-            "duplicates": 1477,
+            "duplicates": 1753,
             "info": {
               "category": "Education",
               "measure_table": "dc_education_training.va_hdcttr_sdad_2021_daycare_services_access_scores",
@@ -4027,7 +4179,7 @@
               ]
             },
             "type": "integer",
-            "missing": 1475,
+            "missing": 1751,
             "mean": 2803.789474,
             "sd": 7034.229806,
             "min": 19,
@@ -4035,7 +4187,7 @@
           },
           {
             "name": "daycare_services_access_scores:daycare_norm_3sfca",
-            "duplicates": 1474,
+            "duplicates": 1750,
             "info": {
               "category": "Education",
               "measure_table": "dc_education_training.va_hdcttr_sdad_2021_daycare_services_access_scores",
@@ -4062,7 +4214,7 @@
               ]
             },
             "type": "float",
-            "missing": 1475,
+            "missing": 1751,
             "mean": 38.639131,
             "sd": 21.623851,
             "min": 0,
@@ -4070,9 +4222,9 @@
           },
           {
             "name": "dentist_access_scores:dent_fca",
-            "duplicates": 1481,
+            "duplicates": 1757,
             "type": "float",
-            "missing": 1482,
+            "missing": 1758,
             "mean": 0.001314,
             "sd": 0.000787,
             "min": 0.000251,
@@ -4080,7 +4232,7 @@
           },
           {
             "name": "dentist_access_scores:dent_e2sfca",
-            "duplicates": 1480,
+            "duplicates": 1756,
             "info": {
               "category": "Health",
               "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_dentist_access_scores",
@@ -4107,7 +4259,7 @@
               ]
             },
             "type": "float",
-            "missing": 1475,
+            "missing": 1751,
             "mean": 0.000264,
             "sd": 0.000201,
             "min": 0,
@@ -4115,9 +4267,9 @@
           },
           {
             "name": "dentist_access_scores:dent_2sfca",
-            "duplicates": 1475,
+            "duplicates": 1751,
             "type": "float",
-            "missing": 1475,
+            "missing": 1751,
             "mean": 0.000263,
             "sd": 0.000139,
             "min": 0.000033,
@@ -4125,9 +4277,9 @@
           },
           {
             "name": "dentist_access_scores:dent_3sfca",
-            "duplicates": 1474,
+            "duplicates": 1750,
             "type": "float",
-            "missing": 1475,
+            "missing": 1751,
             "mean": 0.000279,
             "sd": 0.000169,
             "min": 1e-06,
@@ -4135,7 +4287,7 @@
           },
           {
             "name": "dentist_access_scores:dent_cnt",
-            "duplicates": 1557,
+            "duplicates": 1833,
             "info": {
               "category": "Health",
               "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_dentist_access_scores",
@@ -4156,7 +4308,7 @@
               ]
             },
             "type": "integer",
-            "missing": 1475,
+            "missing": 1751,
             "mean": 32.338346,
             "sd": 89.689522,
             "min": 0,
@@ -4164,9 +4316,9 @@
           },
           {
             "name": "dentist_access_scores:dent_pop_cnt",
-            "duplicates": 1474,
+            "duplicates": 1750,
             "type": "integer",
-            "missing": 1475,
+            "missing": 1751,
             "mean": 63567.390977,
             "sd": 126063.523638,
             "min": 2204,
@@ -4174,9 +4326,9 @@
           },
           {
             "name": "dentist_access_scores:dent_mean10",
-            "duplicates": 1474,
+            "duplicates": 1750,
             "type": "float",
-            "missing": 1475,
+            "missing": 1751,
             "mean": 18.679654,
             "sd": 12.589516,
             "min": 1.97,
@@ -4184,9 +4336,9 @@
           },
           {
             "name": "dentist_access_scores:dent_median10",
-            "duplicates": 1474,
+            "duplicates": 1750,
             "type": "float",
-            "missing": 1475,
+            "missing": 1751,
             "mean": 19.39291,
             "sd": 13.801992,
             "min": 2.1,
@@ -4194,9 +4346,9 @@
           },
           {
             "name": "ems_access_scores:ems_fca",
-            "duplicates": 1474,
+            "duplicates": 1750,
             "type": "float",
-            "missing": 1475,
+            "missing": 1751,
             "mean": 0.000423,
             "sd": 0.000185,
             "min": 0.000211,
@@ -4204,9 +4356,9 @@
           },
           {
             "name": "ems_access_scores:ems_2sfca",
-            "duplicates": 1474,
+            "duplicates": 1750,
             "type": "float",
-            "missing": 1475,
+            "missing": 1751,
             "mean": 0.000193,
             "sd": 0.000099,
             "min": 0.000046,
@@ -4214,9 +4366,9 @@
           },
           {
             "name": "ems_access_scores:ems_e2sfca",
-            "duplicates": 1474,
+            "duplicates": 1750,
             "type": "float",
-            "missing": 1475,
+            "missing": 1751,
             "mean": 0.000247,
             "sd": 0.000165,
             "min": 0.000044,
@@ -4224,7 +4376,7 @@
           },
           {
             "name": "ems_access_scores:ems_3sfca",
-            "duplicates": 1474,
+            "duplicates": 1750,
             "info": {
               "category": "Health",
               "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_ems_access_scores",
@@ -4251,7 +4403,7 @@
               ]
             },
             "type": "float",
-            "missing": 1475,
+            "missing": 1751,
             "mean": 0.000251,
             "sd": 0.00016,
             "min": 0.00004,
@@ -4259,7 +4411,7 @@
           },
           {
             "name": "ems_access_scores:ems_cnt",
-            "duplicates": 1581,
+            "duplicates": 1857,
             "info": {
               "category": "Health",
               "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_ems_access_scores",
@@ -4280,7 +4432,7 @@
               ]
             },
             "type": "integer",
-            "missing": 1475,
+            "missing": 1751,
             "mean": 8.406015,
             "sd": 6.762236,
             "min": 0,
@@ -4288,9 +4440,9 @@
           },
           {
             "name": "ems_access_scores:ems_pop_cnt",
-            "duplicates": 1474,
+            "duplicates": 1750,
             "type": "integer",
-            "missing": 1475,
+            "missing": 1751,
             "mean": 63532.075188,
             "sd": 126066.862009,
             "min": 2204,
@@ -4298,13 +4450,13 @@
           },
           {
             "name": "ems_access_scores:ems_10near_mean",
-            "duplicates": 1607,
+            "duplicates": 1883,
             "type": "unknown",
-            "missing": 1608
+            "missing": 1884
           },
           {
             "name": "ems_access_scores:ems_10near_median",
-            "duplicates": 1607,
+            "duplicates": 1883,
             "info": {
               "category": "Health",
               "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_ems_access_scores",
@@ -4325,13 +4477,13 @@
               ]
             },
             "type": "unknown",
-            "missing": 1608
+            "missing": 1884
           },
           {
             "name": "ems_access_scores:ems_mean10",
-            "duplicates": 1474,
+            "duplicates": 1750,
             "type": "float",
-            "missing": 1475,
+            "missing": 1751,
             "mean": 19.722233,
             "sd": 8.06743,
             "min": 6.610129,
@@ -4339,9 +4491,9 @@
           },
           {
             "name": "ems_access_scores:ems_median10",
-            "duplicates": 1474,
+            "duplicates": 1750,
             "type": "float",
-            "missing": 1475,
+            "missing": 1751,
             "mean": 20.777304,
             "sd": 8.80645,
             "min": 6.300799,
@@ -4349,9 +4501,9 @@
           },
           {
             "name": "hospital_access_scores:hos_fca",
-            "duplicates": 1508,
+            "duplicates": 1784,
             "type": "float",
-            "missing": 1492,
+            "missing": 1768,
             "mean": 0.000275,
             "sd": 0.000096,
             "min": 0.000098,
@@ -4359,9 +4511,9 @@
           },
           {
             "name": "hospital_access_scores:hos_2sfca",
-            "duplicates": 1478,
+            "duplicates": 1754,
             "type": "float",
-            "missing": 1476,
+            "missing": 1752,
             "mean": 0.000017,
             "sd": 0.000011,
             "min": 4e-06,
@@ -4369,7 +4521,7 @@
           },
           {
             "name": "hospital_access_scores:hos_cnt",
-            "duplicates": 1599,
+            "duplicates": 1875,
             "info": {
               "category": "Health",
               "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_hospital_access_scores",
@@ -4390,7 +4542,7 @@
               ]
             },
             "type": "integer",
-            "missing": 1475,
+            "missing": 1751,
             "mean": 0.842105,
             "sd": 1.223768,
             "min": 0,
@@ -4398,9 +4550,9 @@
           },
           {
             "name": "hospital_access_scores:hos_e2sfca",
-            "duplicates": 1490,
+            "duplicates": 1766,
             "type": "float",
-            "missing": 1475,
+            "missing": 1751,
             "mean": 0.00002,
             "sd": 0.000025,
             "min": 0,
@@ -4408,7 +4560,7 @@
           },
           {
             "name": "hospital_access_scores:hos_3sfca",
-            "duplicates": 1474,
+            "duplicates": 1750,
             "info": {
               "category": "Health",
               "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_hospital_access_scores",
@@ -4435,7 +4587,7 @@
               ]
             },
             "type": "float",
-            "missing": 1475,
+            "missing": 1751,
             "mean": 0.00002,
             "sd": 0.000022,
             "min": 0,
@@ -4443,9 +4595,9 @@
           },
           {
             "name": "hospital_access_scores:hos_pop_cnt",
-            "duplicates": 1474,
+            "duplicates": 1750,
             "type": "integer",
-            "missing": 1475,
+            "missing": 1751,
             "mean": 63532.075188,
             "sd": 126066.862009,
             "min": 2204,
@@ -4453,13 +4605,13 @@
           },
           {
             "name": "hospital_access_scores:hos_10near_mean",
-            "duplicates": 1607,
+            "duplicates": 1883,
             "type": "unknown",
-            "missing": 1608
+            "missing": 1884
           },
           {
             "name": "hospital_access_scores:hos_10near_median",
-            "duplicates": 1607,
+            "duplicates": 1883,
             "info": {
               "category": "Health",
               "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_hospital_access_scores",
@@ -4480,13 +4632,13 @@
               ]
             },
             "type": "unknown",
-            "missing": 1608
+            "missing": 1884
           },
           {
             "name": "hospital_access_scores:hos_mean10",
-            "duplicates": 1474,
+            "duplicates": 1750,
             "type": "float",
-            "missing": 1475,
+            "missing": 1751,
             "mean": 55.309486,
             "sd": 20.359891,
             "min": 11.383606,
@@ -4494,9 +4646,9 @@
           },
           {
             "name": "hospital_access_scores:hos_median10",
-            "duplicates": 1474,
+            "duplicates": 1750,
             "type": "float",
-            "missing": 1475,
+            "missing": 1751,
             "mean": 59.258326,
             "sd": 22.390111,
             "min": 11.635358,
@@ -4504,9 +4656,9 @@
           },
           {
             "name": "mental_access_scores:mental_fca",
-            "duplicates": 1491,
+            "duplicates": 1767,
             "type": "float",
-            "missing": 1486,
+            "missing": 1762,
             "mean": 0.000272,
             "sd": 0.000105,
             "min": 0,
@@ -4514,7 +4666,7 @@
           },
           {
             "name": "mental_access_scores:mental_cnt",
-            "duplicates": 1596,
+            "duplicates": 1872,
             "info": {
               "category": "Health",
               "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_mental_access_scores",
@@ -4535,7 +4687,7 @@
               ]
             },
             "type": "integer",
-            "missing": 1475,
+            "missing": 1751,
             "mean": 1.774436,
             "sd": 2.457569,
             "min": 0,
@@ -4543,9 +4695,9 @@
           },
           {
             "name": "mental_access_scores:mental_2sfca",
-            "duplicates": 1477,
+            "duplicates": 1753,
             "type": "float",
-            "missing": 1476,
+            "missing": 1752,
             "mean": 0.000035,
             "sd": 0.000017,
             "min": 3e-06,
@@ -4553,9 +4705,9 @@
           },
           {
             "name": "mental_access_scores:mental_e2sfca",
-            "duplicates": 1485,
+            "duplicates": 1761,
             "type": "float",
-            "missing": 1475,
+            "missing": 1751,
             "mean": 0.000039,
             "sd": 0.000035,
             "min": 0,
@@ -4563,7 +4715,7 @@
           },
           {
             "name": "mental_access_scores:mental_3sfca",
-            "duplicates": 1474,
+            "duplicates": 1750,
             "info": {
               "category": "Health",
               "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_mental_access_scores",
@@ -4590,7 +4742,7 @@
               ]
             },
             "type": "float",
-            "missing": 1475,
+            "missing": 1751,
             "mean": 0.00004,
             "sd": 0.00003,
             "min": 0,
@@ -4598,9 +4750,9 @@
           },
           {
             "name": "mental_access_scores:mental_pop_cnt",
-            "duplicates": 1474,
+            "duplicates": 1750,
             "type": "integer",
-            "missing": 1475,
+            "missing": 1751,
             "mean": 63532.075188,
             "sd": 126066.862009,
             "min": 2204,
@@ -4608,13 +4760,13 @@
           },
           {
             "name": "mental_access_scores:mental_10near_mean",
-            "duplicates": 1607,
+            "duplicates": 1883,
             "type": "unknown",
-            "missing": 1608
+            "missing": 1884
           },
           {
             "name": "mental_access_scores:mental_10near_median",
-            "duplicates": 1607,
+            "duplicates": 1883,
             "info": {
               "category": "Health",
               "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_mental_access_scores",
@@ -4635,13 +4787,13 @@
               ]
             },
             "type": "unknown",
-            "missing": 1608
+            "missing": 1884
           },
           {
             "name": "mental_access_scores:mental_mean10",
-            "duplicates": 1474,
+            "duplicates": 1750,
             "type": "float",
-            "missing": 1475,
+            "missing": 1751,
             "mean": 39.223974,
             "sd": 18.876677,
             "min": 8.640554,
@@ -4649,9 +4801,9 @@
           },
           {
             "name": "mental_access_scores:mental_median10",
-            "duplicates": 1474,
+            "duplicates": 1750,
             "type": "float",
-            "missing": 1475,
+            "missing": 1751,
             "mean": 41.515557,
             "sd": 20.65341,
             "min": 5.716266,
@@ -4659,9 +4811,9 @@
           },
           {
             "name": "obgyn_access_scores:obgyn_fca",
-            "duplicates": 1501,
+            "duplicates": 1777,
             "type": "float",
-            "missing": 1498,
+            "missing": 1774,
             "mean": 0.00872,
             "sd": 0.010221,
             "min": 0.000481,
@@ -4669,7 +4821,7 @@
           },
           {
             "name": "obgyn_access_scores:obgyn_e2sfca",
-            "duplicates": 1496,
+            "duplicates": 1772,
             "info": {
               "category": "Health",
               "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_obgyn_access_scores",
@@ -4696,7 +4848,7 @@
               ]
             },
             "type": "float",
-            "missing": 1475,
+            "missing": 1751,
             "mean": 0.000407,
             "sd": 0.000444,
             "min": 0,
@@ -4704,9 +4856,9 @@
           },
           {
             "name": "obgyn_access_scores:obgyn_2sfca",
-            "duplicates": 1477,
+            "duplicates": 1753,
             "type": "float",
-            "missing": 1475,
+            "missing": 1751,
             "mean": 0.000461,
             "sd": 0.000285,
             "min": 0.000011,
@@ -4714,7 +4866,7 @@
           },
           {
             "name": "obgyn_access_scores:obgyn_cnt",
-            "duplicates": 1560,
+            "duplicates": 1836,
             "info": {
               "category": "Health",
               "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_obgyn_access_scores",
@@ -4735,7 +4887,7 @@
               ]
             },
             "type": "integer",
-            "missing": 1475,
+            "missing": 1751,
             "mean": 23.157895,
             "sd": 60.387241,
             "min": 0,
@@ -4743,9 +4895,9 @@
           },
           {
             "name": "obgyn_access_scores:obgyn_3sfca",
-            "duplicates": 1474,
+            "duplicates": 1750,
             "type": "float",
-            "missing": 1475,
+            "missing": 1751,
             "mean": 0.000425,
             "sd": 0.000384,
             "min": 2e-06,
@@ -4753,9 +4905,9 @@
           },
           {
             "name": "obgyn_access_scores:obgyn_pop_cnt",
-            "duplicates": 1474,
+            "duplicates": 1750,
             "type": "integer",
-            "missing": 1475,
+            "missing": 1751,
             "mean": 26579.105263,
             "sd": 51587.2742,
             "min": 997,
@@ -4763,9 +4915,9 @@
           },
           {
             "name": "obgyn_access_scores:obgyn_mean10",
-            "duplicates": 1474,
+            "duplicates": 1750,
             "type": "float",
-            "missing": 1475,
+            "missing": 1751,
             "mean": 22.9823,
             "sd": 13.960573,
             "min": 2.51,
@@ -4773,9 +4925,9 @@
           },
           {
             "name": "obgyn_access_scores:obgyn_median10",
-            "duplicates": 1474,
+            "duplicates": 1750,
             "type": "float",
-            "missing": 1475,
+            "missing": 1751,
             "mean": 23.43518,
             "sd": 14.571936,
             "min": 2.4,
@@ -4783,9 +4935,9 @@
           },
           {
             "name": "pediatrics_access_scores:ped_fca",
-            "duplicates": 1484,
+            "duplicates": 1760,
             "type": "float",
-            "missing": 1481,
+            "missing": 1757,
             "mean": 0.019927,
             "sd": 0.029083,
             "min": 0.000718,
@@ -4793,9 +4945,9 @@
           },
           {
             "name": "pediatrics_access_scores:ped_2sfca",
-            "duplicates": 1474,
+            "duplicates": 1750,
             "type": "float",
-            "missing": 1475,
+            "missing": 1751,
             "mean": 0.001629,
             "sd": 0.001102,
             "min": 0.000091,
@@ -4803,7 +4955,7 @@
           },
           {
             "name": "pediatrics_access_scores:ped_e2sfca",
-            "duplicates": 1479,
+            "duplicates": 1755,
             "info": {
               "category": "Health",
               "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_pediatrics_access_scores",
@@ -4830,7 +4982,7 @@
               ]
             },
             "type": "float",
-            "missing": 1475,
+            "missing": 1751,
             "mean": 0.001434,
             "sd": 0.001489,
             "min": 0,
@@ -4838,9 +4990,9 @@
           },
           {
             "name": "pediatrics_access_scores:ped_3sfca",
-            "duplicates": 1474,
+            "duplicates": 1750,
             "type": "float",
-            "missing": 1475,
+            "missing": 1751,
             "mean": 0.001519,
             "sd": 0.001246,
             "min": 4e-06,
@@ -4848,7 +5000,7 @@
           },
           {
             "name": "pediatrics_access_scores:ped_cnt",
-            "duplicates": 1561,
+            "duplicates": 1837,
             "info": {
               "category": "Health",
               "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_pediatrics_access_scores",
@@ -4869,7 +5021,7 @@
               ]
             },
             "type": "integer",
-            "missing": 1475,
+            "missing": 1751,
             "mean": 29.714286,
             "sd": 82.42881,
             "min": 0,
@@ -4877,9 +5029,9 @@
           },
           {
             "name": "pediatrics_access_scores:ped_pop_cnt",
-            "duplicates": 1474,
+            "duplicates": 1750,
             "type": "integer",
-            "missing": 1475,
+            "missing": 1751,
             "mean": 14021.533835,
             "sd": 30269.538074,
             "min": 258,
@@ -4887,21 +5039,21 @@
           },
           {
             "name": "pediatrics_access_scores:ped_10near_mean",
-            "duplicates": 1607,
+            "duplicates": 1883,
             "type": "unknown",
-            "missing": 1608
+            "missing": 1884
           },
           {
             "name": "pediatrics_access_scores:ped_10near_median",
-            "duplicates": 1607,
+            "duplicates": 1883,
             "type": "unknown",
-            "missing": 1608
+            "missing": 1884
           },
           {
             "name": "pediatrics_access_scores:ped_mean10",
-            "duplicates": 1474,
+            "duplicates": 1750,
             "type": "float",
-            "missing": 1475,
+            "missing": 1751,
             "mean": 21.648,
             "sd": 13.467621,
             "min": 2.532503,
@@ -4909,9 +5061,9 @@
           },
           {
             "name": "pediatrics_access_scores:ped_median10",
-            "duplicates": 1474,
+            "duplicates": 1750,
             "type": "float",
-            "missing": 1475,
+            "missing": 1751,
             "mean": 21.916039,
             "sd": 14.243174,
             "min": 2.541884,
@@ -4919,7 +5071,7 @@
           },
           {
             "name": "perc_income_on_internet:perc_income_avg_nat_package",
-            "duplicates": 1474,
+            "duplicates": 1750,
             "info": {
               "category": "Broadband",
               "measure_table": "dc_digital_communications.va_hdcttr_sdad_2021_perc_income_on_internet",
@@ -4945,7 +5097,7 @@
               ]
             },
             "type": "float",
-            "missing": 1475,
+            "missing": 1751,
             "mean": 1.448584,
             "sd": 0.470004,
             "min": 0.562911,
@@ -4953,9 +5105,9 @@
           },
           {
             "name": "perc_income_on_internet:perc_income_med_price_100",
-            "duplicates": 1477,
+            "duplicates": 1753,
             "type": "float",
-            "missing": 1478,
+            "missing": 1754,
             "mean": 1.747501,
             "sd": 0.965241,
             "min": 0.43588,
@@ -4963,7 +5115,7 @@
           },
           {
             "name": "perc_income_on_internet:perc_income_min_price_25",
-            "duplicates": 1477,
+            "duplicates": 1753,
             "info": {
               "category": "Broadband",
               "measure_table": "dc_digital_communications.va_hdcttr_sdad_2021_perc_income_on_internet",
@@ -4989,7 +5141,7 @@
               ]
             },
             "type": "float",
-            "missing": 1478,
+            "missing": 1754,
             "mean": 0.781152,
             "sd": 0.29151,
             "min": 0.209531,
@@ -4997,9 +5149,9 @@
           },
           {
             "name": "perc_income_on_internet:perc_income_min_price_100_plus",
-            "duplicates": 1477,
+            "duplicates": 1753,
             "type": "float",
-            "missing": 1478,
+            "missing": 1754,
             "mean": 1.073206,
             "sd": 0.447779,
             "min": 0.226393,
@@ -5007,9 +5159,9 @@
           },
           {
             "name": "perc_income_on_internet:perc_income_med_price_25",
-            "duplicates": 1477,
+            "duplicates": 1753,
             "type": "float",
-            "missing": 1478,
+            "missing": 1754,
             "mean": 1.832604,
             "sd": 0.51211,
             "min": 0.816844,
@@ -5017,7 +5169,7 @@
           },
           {
             "name": "perc_income_on_internet:perc_income_min_price_100",
-            "duplicates": 1477,
+            "duplicates": 1753,
             "info": {
               "category": "Broadband",
               "measure_table": "dc_digital_communications.va_hdcttr_sdad_2021_perc_income_on_internet",
@@ -5043,7 +5195,7 @@
               ]
             },
             "type": "float",
-            "missing": 1478,
+            "missing": 1754,
             "mean": 1.383119,
             "sd": 0.803376,
             "min": 0.260117,
@@ -5051,9 +5203,9 @@
           },
           {
             "name": "primary_care_access_scores:prim_fca",
-            "duplicates": 1474,
+            "duplicates": 1750,
             "type": "float",
-            "missing": 1475,
+            "missing": 1751,
             "mean": 0.012264,
             "sd": 0.014118,
             "min": 0.000741,
@@ -5061,7 +5213,7 @@
           },
           {
             "name": "primary_care_access_scores:prim_cnt",
-            "duplicates": 1514,
+            "duplicates": 1790,
             "info": {
               "category": "Health",
               "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_primary_care_access_scores",
@@ -5082,7 +5234,7 @@
               ]
             },
             "type": "integer",
-            "missing": 1475,
+            "missing": 1751,
             "mean": 147.488722,
             "sd": 341.347655,
             "min": 1,
@@ -5090,9 +5242,9 @@
           },
           {
             "name": "primary_care_access_scores:prim_2sfca",
-            "duplicates": 1474,
+            "duplicates": 1750,
             "type": "float",
-            "missing": 1475,
+            "missing": 1751,
             "mean": 0.002031,
             "sd": 0.000922,
             "min": 0.000534,
@@ -5100,7 +5252,7 @@
           },
           {
             "name": "primary_care_access_scores:prim_e2sfca",
-            "duplicates": 1474,
+            "duplicates": 1750,
             "info": {
               "category": "Health",
               "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_primary_care_access_scores",
@@ -5127,7 +5279,7 @@
               ]
             },
             "type": "float",
-            "missing": 1475,
+            "missing": 1751,
             "mean": 0.001964,
             "sd": 0.001365,
             "min": 0.000097,
@@ -5135,9 +5287,9 @@
           },
           {
             "name": "primary_care_access_scores:prim_3sfca",
-            "duplicates": 1474,
+            "duplicates": 1750,
             "type": "float",
-            "missing": 1475,
+            "missing": 1751,
             "mean": 0.002048,
             "sd": 0.001021,
             "min": 0.000394,
@@ -5145,9 +5297,9 @@
           },
           {
             "name": "primary_care_access_scores:prim_pop_cnt",
-            "duplicates": 1474,
+            "duplicates": 1750,
             "type": "integer",
-            "missing": 1475,
+            "missing": 1751,
             "mean": 63567.390977,
             "sd": 126063.523638,
             "min": 2204,
@@ -5155,9 +5307,9 @@
           },
           {
             "name": "primary_care_access_scores:prim_mean10",
-            "duplicates": 1474,
+            "duplicates": 1750,
             "type": "float",
-            "missing": 1475,
+            "missing": 1751,
             "mean": 11.831385,
             "sd": 7.022431,
             "min": 1.18,
@@ -5165,9 +5317,9 @@
           },
           {
             "name": "primary_care_access_scores:prim_median10",
-            "duplicates": 1474,
+            "duplicates": 1750,
             "type": "float",
-            "missing": 1475,
+            "missing": 1751,
             "mean": 11.785481,
             "sd": 7.18039,
             "min": 1.4,
@@ -5175,9 +5327,9 @@
           },
           {
             "name": "substance_access_scores:subs_fca",
-            "duplicates": 1496,
+            "duplicates": 1772,
             "type": "float",
-            "missing": 1490,
+            "missing": 1766,
             "mean": 0.000252,
             "sd": 0.0001,
             "min": 0,
@@ -5185,9 +5337,9 @@
           },
           {
             "name": "substance_access_scores:subs_2sfca",
-            "duplicates": 1476,
+            "duplicates": 1752,
             "type": "float",
-            "missing": 1475,
+            "missing": 1751,
             "mean": 0.000025,
             "sd": 0.000011,
             "min": 2e-06,
@@ -5195,7 +5347,7 @@
           },
           {
             "name": "substance_access_scores:subs_cnt",
-            "duplicates": 1597,
+            "duplicates": 1873,
             "info": {
               "category": "Health",
               "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_substance_access_scores",
@@ -5216,7 +5368,7 @@
               ]
             },
             "type": "integer",
-            "missing": 1475,
+            "missing": 1751,
             "mean": 1.518797,
             "sd": 2.317919,
             "min": 0,
@@ -5224,9 +5376,9 @@
           },
           {
             "name": "substance_access_scores:subs_e2sfca",
-            "duplicates": 1489,
+            "duplicates": 1765,
             "type": "float",
-            "missing": 1475,
+            "missing": 1751,
             "mean": 0.000029,
             "sd": 0.000028,
             "min": 0,
@@ -5234,7 +5386,7 @@
           },
           {
             "name": "substance_access_scores:subs_3sfca",
-            "duplicates": 1474,
+            "duplicates": 1750,
             "info": {
               "category": "Health",
               "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_substance_access_scores",
@@ -5261,7 +5413,7 @@
               ]
             },
             "type": "float",
-            "missing": 1475,
+            "missing": 1751,
             "mean": 0.00003,
             "sd": 0.000024,
             "min": 0,
@@ -5269,9 +5421,9 @@
           },
           {
             "name": "substance_access_scores:subs_pop_cnt",
-            "duplicates": 1474,
+            "duplicates": 1750,
             "type": "integer",
-            "missing": 1475,
+            "missing": 1751,
             "mean": 63532.075188,
             "sd": 126066.862009,
             "min": 2204,
@@ -5279,13 +5431,13 @@
           },
           {
             "name": "substance_access_scores:subs_10near_mean",
-            "duplicates": 1607,
+            "duplicates": 1883,
             "type": "unknown",
-            "missing": 1608
+            "missing": 1884
           },
           {
             "name": "substance_access_scores:subs_10near_median",
-            "duplicates": 1607,
+            "duplicates": 1883,
             "info": {
               "category": "Health",
               "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_substance_access_scores",
@@ -5306,13 +5458,13 @@
               ]
             },
             "type": "unknown",
-            "missing": 1608
+            "missing": 1884
           },
           {
             "name": "substance_access_scores:subs_mean10",
-            "duplicates": 1474,
+            "duplicates": 1750,
             "type": "float",
-            "missing": 1475,
+            "missing": 1751,
             "mean": 44.687781,
             "sd": 21.603119,
             "min": 8.811351,
@@ -5320,9 +5472,9 @@
           },
           {
             "name": "substance_access_scores:subs_median10",
-            "duplicates": 1474,
+            "duplicates": 1750,
             "type": "float",
-            "missing": 1475,
+            "missing": 1751,
             "mean": 46.695016,
             "sd": 23.760258,
             "min": 5.899679,
@@ -5493,10 +5645,10 @@
       }
     },
     {
-      "bytes": 13422283,
+      "bytes": 13490971,
       "encoding": "ISO-8859-1",
-      "md5": "eea68e27f957beacbb4e754df8954d9f",
-      "sha512": "c1783e0b541e1957a23c7c6543ea381e0b4ed96173f7fb6ca2fbc5dc4150ce9f1087486a5813db15214cf75a960083090c05d0ffa91644c0ebe70064995bcc56",
+      "md5": "dbbfdd6db17bb87767590a1f7cc36a7e",
+      "sha512": "4a276781a809100d67dc2b77401bafcf30870c9bf3890536256e1ea9ad100434e41e14d1b64213611a75f436a46c9ef22d53333fa453481e5657f75449b508b4",
       "format": "csv",
       "name": "tract",
       "filename": "tract.csv",
@@ -5509,7 +5661,7 @@
       ],
       "time": "time",
       "profile": "data-resource",
-      "created": "2022-01-28 15:50:15",
+      "created": "2022-01-28 18:08:45",
       "last_modified": "2021-11-29 21:36:30",
       "rowcount": 22884,
       "schema": {
@@ -5528,6 +5680,30 @@
             "sd": 3.452128,
             "min": 2010,
             "max": 2021
+          },
+          {
+            "name": "earnings_per_job:earnings_per_job",
+            "duplicates": 22883,
+            "info": {
+              "category": "Employment/Workforce Development",
+              "measure_table": "earnings_per_job",
+              "full_name": "earnings_per_job:earnings_per_job",
+              "measure": "earnings_per_job",
+              "type": "ratio",
+              "short_name": "Earnings per job",
+              "long_name": "Earnings per job",
+              "short_description": "Earnings per job.",
+              "long_description": "Earnings per job.",
+              "statement": "Earnings per job in {features.name} is ${value}",
+              "sources": [
+                {
+                  "name": "Bureau of Economic Analysis",
+                  "date_accessed": "2021"
+                }
+              ]
+            },
+            "type": "unknown",
+            "missing": 22884
           },
           {
             "name": "community_college_computer_sciences_fca:3sfca_capacity",
@@ -5923,11 +6099,11 @@
               "full_name": "drug_overdose_ed_visits:avg_overdose_per_100",
               "measure": "avg_overdose_per_100k",
               "type": "rate",
-              "short_name": "Drug overdose deaths",
-              "long_name": "Death rate per 100,000 residents (All-drug overdose deaths)",
-              "short_description": "Counts of deaths of Virginia residents by utilizing both the underlying cause of death as well as the contributory/multiple causes of death codes.",
-              "long_description": "Counts of deaths of Virginia residents by utilizing both the underlying cause of death as well as the contributory/multiple causes of death codes. The processes in deriving drug overdose-related death counts follows the guidelines set forth by the Centers for Disease Control and Prevention’s (CDC) Opioid Overdose Indicator Support Toolkit, Version 3.0 (March 2018).",
-              "statement": "The drug overdose death rate in {features.name} is {value} per 100,000 residents",
+              "short_name": "ED visits for drug overdose",
+              "long_name": "Emergency department visits for drug overdose rate per 100,000 residents",
+              "short_description": "Average emergency department visits for drug overdose per 100,000 residents.",
+              "long_description": "Average emergency department visits for drug overdose per 100,000 residents.",
+              "statement": "The average emergency department visits for drug overdose rate in {features.name} is {value} per 100,000 residents",
               "sources": [
                 {
                   "name": "Virginia Department of Health",
@@ -6495,6 +6671,31 @@
           {
             "name": "2year_colleges_access_scores:norm_3sfca",
             "duplicates": 22257,
+            "info": {
+              "category": "Education",
+              "measure_table": "dc_education_training.va_hdcttr_sdad_2019_2year_colleges_access_scores",
+              "full_name": "2year_colleges_access_scores:norm_3sfca",
+              "measure": "norm_3sfca",
+              "type": "index",
+              "short_name": "2-year college access score",
+              "long_name": "2 year college access score (3-step floating catchment areas)",
+              "short_description": "Index of 3-year college accessibility based on supply and demand of providers",
+              "long_description": "2-year college access score based on 3-step floating catchment areas. This method is an aggregation of college capacity per population ratios weighted by distance or travel time in each catchment area (area within which an institution is accessible). Weights are defined for the demand for 2-year college (whole population in an area served by the institution) and supply is the total number of students enrolled in a year (graduate and undergraduate).",
+              "statement": "The 2-year college accessibility score for {features.name} is {value}",
+              "citations": [
+                "lou04",
+                "lou09",
+                "lou03",
+                "saxon20"
+              ],
+              "source": [
+                {
+                  "name": "National Center for Education Statistics",
+                  "date_accessed": 2021,
+                  "url": "https://nces.ed.gov"
+                }
+              ]
+            },
             "type": "float",
             "missing": 20984,
             "mean": 11.201958,
@@ -6614,6 +6815,31 @@
           {
             "name": "trade_schools_access_scores:norm_3sfca",
             "duplicates": 22437,
+            "info": {
+              "category": "Education",
+              "measure_table": "dc_education_training.va_hdcttr_sdad_2019_trade_schools_access_scores",
+              "full_name": "trade_schools_access_scores:norm_3sfca",
+              "measure": "norm_3sfca",
+              "type": "index",
+              "short_name": "Trade school access score",
+              "long_name": "Trade school access score (3-step floating catchment areas)",
+              "short_description": "Index of trade school accessibility based on supply and demand of providers",
+              "long_description": "Trade school access score based on 3-step floating catchment areas. This method is an aggregation of trade school capacity per population ratios weighted by distance or travel time in each catchment area (area within which an institution is accessible). Weights are defined for the demand for trade schools (whole population in an area served by the institution) and supply is the total number of students enrolled in a year (undergraduate).",
+              "statement": "The trade school accessibility score for {features.name} is  {value}",
+              "citations": [
+                "lou04",
+                "lou09",
+                "lou03",
+                "saxon20"
+              ],
+              "source": [
+                {
+                  "name": "National Center for Education Statistics",
+                  "date_accessed": 2021,
+                  "url": "https://nces.ed.gov"
+                }
+              ]
+            },
             "type": "float",
             "missing": 20985,
             "mean": 22.114487,

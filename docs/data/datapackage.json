@@ -960,31 +960,6 @@
           {
             "name": "2year_colleges_access_scores:norm_2sefca",
             "duplicates": 395,
-            "info": {
-              "category": "Education",
-              "measure_table": "dc_education_training.va_hdcttr_sdad_2019_2year_colleges_access_scores",
-              "full_name": "2year_colleges_access_scores:norm_2sefca",
-              "measure": "norm_2sefca",
-              "type": "index",
-              "short_name": "2-year college access score",
-              "long_name": "2 year college access score (2-step enhanced floating catchment areas)",
-              "short_description": "Index of 2-year college accessibility based on supply and demand of providers",
-              "long_description": "2-year college access score based on 2-step enhanced floating catchment areas. This method is an aggregation of college capacity per population ratios weighted by distance or travel time in each catchment area (area within which an institution is accessible). Weights are defined for the demand for 2-year college (whole population in an area served by the institution) and supply is the total number of students enrolled in a year (graduate and undergraduate).",
-              "statement": "The 2-year college accessibility score for {features.name} is {value}",
-              "citations": [
-                "lou04",
-                "lou09",
-                "lou03",
-                "saxon20"
-              ],
-              "source": [
-                {
-                  "name": "National Center for Education Statistics",
-                  "date_accessed": 2021,
-                  "url": "https://nces.ed.gov"
-                }
-              ]
-            },
             "type": "float",
             "missing": 385,
             "mean": 18.022223,
@@ -1242,31 +1217,6 @@
           {
             "name": "trade_schools_access_scores:norm_2sefca",
             "duplicates": 402,
-            "info": {
-              "category": "Education",
-              "measure_table": "dc_education_training.va_hdcttr_sdad_2019_trade_schools_access_scores",
-              "full_name": "trade_schools_access_scores:norm_2sefca",
-              "measure": "norm_2sefca",
-              "type": "index",
-              "short_name": "Trade school access score",
-              "long_name": "Trade school access score (2-step enhanced floating catchment areas)",
-              "short_description": "Index of trade school accessibility based on supply and demand of providers",
-              "long_description": "Trade school  access score based on 2-step enhanced floating catchment areas. This method is an aggregation of trade school capacity per population ratios weighted by distance or travel time in each catchment area (area within which an institution is accessible). Weights are defined for the demand for trade schools (whole population in an area served by the institution) and supply is the total number of students enrolled in a year (undergraduate).",
-              "statement": "The trade school accessibility score for {features.name} is {value}",
-              "citations": [
-                "lou04",
-                "lou09",
-                "lou03",
-                "saxon20"
-              ],
-              "source": [
-                {
-                  "name": "National Center for Education Statistics",
-                  "date_accessed": 2021,
-                  "url": "https://nces.ed.gov"
-                }
-              ]
-            },
             "type": "float",
             "missing": 385,
             "mean": 19.666599,
@@ -3812,31 +3762,6 @@
           {
             "name": "2year_colleges_access_scores:norm_2sefca",
             "duplicates": 1883,
-            "info": {
-              "category": "Education",
-              "measure_table": "dc_education_training.va_hdcttr_sdad_2019_2year_colleges_access_scores",
-              "full_name": "2year_colleges_access_scores:norm_2sefca",
-              "measure": "norm_2sefca",
-              "type": "index",
-              "short_name": "2-year college access score",
-              "long_name": "2 year college access score (2-step enhanced floating catchment areas)",
-              "short_description": "Index of 2-year college accessibility based on supply and demand of providers",
-              "long_description": "2-year college access score based on 2-step enhanced floating catchment areas. This method is an aggregation of college capacity per population ratios weighted by distance or travel time in each catchment area (area within which an institution is accessible). Weights are defined for the demand for 2-year college (whole population in an area served by the institution) and supply is the total number of students enrolled in a year (graduate and undergraduate).",
-              "statement": "The 2-year college accessibility score for {features.name} is {value}",
-              "citations": [
-                "lou04",
-                "lou09",
-                "lou03",
-                "saxon20"
-              ],
-              "source": [
-                {
-                  "name": "National Center for Education Statistics",
-                  "date_accessed": 2021,
-                  "url": "https://nces.ed.gov"
-                }
-              ]
-            },
             "type": "unknown",
             "missing": 1884
           },
@@ -4106,31 +4031,6 @@
           {
             "name": "trade_schools_access_scores:norm_2sefca",
             "duplicates": 1883,
-            "info": {
-              "category": "Education",
-              "measure_table": "dc_education_training.va_hdcttr_sdad_2019_trade_schools_access_scores",
-              "full_name": "trade_schools_access_scores:norm_2sefca",
-              "measure": "norm_2sefca",
-              "type": "index",
-              "short_name": "Trade school access score",
-              "long_name": "Trade school access score (2-step enhanced floating catchment areas)",
-              "short_description": "Index of trade school accessibility based on supply and demand of providers",
-              "long_description": "Trade school  access score based on 2-step enhanced floating catchment areas. This method is an aggregation of trade school capacity per population ratios weighted by distance or travel time in each catchment area (area within which an institution is accessible). Weights are defined for the demand for trade schools (whole population in an area served by the institution) and supply is the total number of students enrolled in a year (undergraduate).",
-              "statement": "The trade school accessibility score for {features.name} is {value}",
-              "citations": [
-                "lou04",
-                "lou09",
-                "lou03",
-                "saxon20"
-              ],
-              "source": [
-                {
-                  "name": "National Center for Education Statistics",
-                  "date_accessed": 2021,
-                  "url": "https://nces.ed.gov"
-                }
-              ]
-            },
             "type": "unknown",
             "missing": 1884
           },
@@ -6628,31 +6528,6 @@
           {
             "name": "2year_colleges_access_scores:norm_2sefca",
             "duplicates": 22883,
-            "info": {
-              "category": "Education",
-              "measure_table": "dc_education_training.va_hdcttr_sdad_2019_2year_colleges_access_scores",
-              "full_name": "2year_colleges_access_scores:norm_2sefca",
-              "measure": "norm_2sefca",
-              "type": "index",
-              "short_name": "2-year college access score",
-              "long_name": "2 year college access score (2-step enhanced floating catchment areas)",
-              "short_description": "Index of 2-year college accessibility based on supply and demand of providers",
-              "long_description": "2-year college access score based on 2-step enhanced floating catchment areas. This method is an aggregation of college capacity per population ratios weighted by distance or travel time in each catchment area (area within which an institution is accessible). Weights are defined for the demand for 2-year college (whole population in an area served by the institution) and supply is the total number of students enrolled in a year (graduate and undergraduate).",
-              "statement": "The 2-year college accessibility score for {features.name} is {value}",
-              "citations": [
-                "lou04",
-                "lou09",
-                "lou03",
-                "saxon20"
-              ],
-              "source": [
-                {
-                  "name": "National Center for Education Statistics",
-                  "date_accessed": 2021,
-                  "url": "https://nces.ed.gov"
-                }
-              ]
-            },
             "type": "unknown",
             "missing": 22884
           },
@@ -6922,31 +6797,6 @@
           {
             "name": "trade_schools_access_scores:norm_2sefca",
             "duplicates": 22883,
-            "info": {
-              "category": "Education",
-              "measure_table": "dc_education_training.va_hdcttr_sdad_2019_trade_schools_access_scores",
-              "full_name": "trade_schools_access_scores:norm_2sefca",
-              "measure": "norm_2sefca",
-              "type": "index",
-              "short_name": "Trade school access score",
-              "long_name": "Trade school access score (2-step enhanced floating catchment areas)",
-              "short_description": "Index of trade school accessibility based on supply and demand of providers",
-              "long_description": "Trade school  access score based on 2-step enhanced floating catchment areas. This method is an aggregation of trade school capacity per population ratios weighted by distance or travel time in each catchment area (area within which an institution is accessible). Weights are defined for the demand for trade schools (whole population in an area served by the institution) and supply is the total number of students enrolled in a year (undergraduate).",
-              "statement": "The trade school accessibility score for {features.name} is {value}",
-              "citations": [
-                "lou04",
-                "lou09",
-                "lou03",
-                "saxon20"
-              ],
-              "source": [
-                {
-                  "name": "National Center for Education Statistics",
-                  "date_accessed": 2021,
-                  "url": "https://nces.ed.gov"
-                }
-              ]
-            },
             "type": "unknown",
             "missing": 22884
           },
@@ -7771,7 +7621,7 @@
           },
           {
             "name": "pediatrics_access_scores:ped_e2sfca",
-            "duplicates": 21177,
+            "duplicates": 21178,
             "info": {
               "category": "Health",
               "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_pediatrics_access_scores",

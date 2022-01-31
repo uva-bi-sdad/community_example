@@ -197,7 +197,7 @@ page_section(
     wraps = "col",
     sizes = c(NA, 4),
     output_map(
-      lapply(c("district", "county", "tract"), function(s) list(
+      lapply(c("tract", "county", "district"), function(s) list(
         name = s,
         url = paste0("https://uva-bi-sdad.github.io/community/dist/shapes/VA/", s, ".geojson"),
         id_property = "id"

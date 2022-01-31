@@ -5931,8 +5931,8 @@ const site = {
     "main_map": {
       "shapes": [
         {
-          "name": "district",
-          "url": "https://uva-bi-sdad.github.io/community/dist/shapes/VA/district.geojson",
+          "name": "tract",
+          "url": "https://uva-bi-sdad.github.io/community/dist/shapes/VA/tract.geojson",
           "id_property": "id"
         },
         {
@@ -5941,8 +5941,8 @@ const site = {
           "id_property": "id"
         },
         {
-          "name": "tract",
-          "url": "https://uva-bi-sdad.github.io/community/dist/shapes/VA/tract.geojson",
+          "name": "district",
+          "url": "https://uva-bi-sdad.github.io/community/dist/shapes/VA/district.geojson",
           "id_property": "id"
         }
       ],

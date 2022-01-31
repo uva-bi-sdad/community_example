@@ -1,13 +1,22 @@
-.navbar{background-color: #141E3C; color: #fff}
-.primary{background-color: #ED79F9}
-
-:root{
-  --bs-body-font-family: 'Lato', sans-serif;
+.navbar {
+  background-color: #141e3c;
+  color: #fff;
 }
-.light-theme{
+.primary {
+  background-color: #ed79f9;
+}
+
+:root {
+  --bs-body-font-family: "Lato", sans-serif;
+}
+.light-theme {
   --link: #007eb3;
-  --highlight: #173a64
+  --highlight: #173a64;
 }
 
-#variable_info_pane .info-title{text-align: left}
-.info-body table{margin: .2em 0 .5em 0}
+#variable_info_pane .info-title {
+  text-align: left;
+}
+.info-body table {
+  margin: 0.2em 0 0.5em 0;
+}

@@ -9,11 +9,12 @@ const site = {
     "partial_init": true,
     "palette": "rdylbu7",
     "hide_url_parameters": false,
-    "background_shapes": true
+    "background_shapes": true,
+    "polygon_outline": 2
   },
   "metadata": {
     "package": "data/datapackage.json",
-    "datasets": ["district", "county", "tract"],
+    "datasets": ["tract", "county", "district"],
     "variables": ["2year_colleges_access_scores:norm_3sfca", "3rd_grade_median_read_score:median_read_pass_rate", "civilian_employment_rate:employment_rate", "community_college_computer_sciences_fca:3sfca_capacity", "community_college_engineering_fca:3sfca_capacity", "community_college_engineering_related_fca:3sfca_capacity", "daycare_services_access_scores:daycare_cnt", "daycare_services_access_scores:daycare_norm_3sfca", "dei_index:norm_dei", "dentist_access_scores:dent_cnt", "dentist_access_scores:dent_e2sfca", "download_speeds:download", "drive_times_nearest_2year_colleges:median_drive_time_top5", "drive_times_nearest_daycares:median_drive_time_top5", "drive_times_nearest_trade_schools:median_drive_time_top5", "drug_overdose_ed_visits:avg_overdose_per_100k", "ems_access_scores:ems_10near_median", "ems_access_scores:ems_3sfca", "ems_access_scores:ems_cnt", "food_insecurity_and_cost:Child_Food_Insecurity_Rate", "food_insecurity_and_cost:Cost_Per_Meal", "food_insecurity_and_cost:Food_Insecurity_Rate", "food_insecurity_and_cost:Num_Child_Food_Insecure", "have_computer:perc_have_computer", "have_internet:perc_have_internet_access", "health_literacy_estimates:health_literacy_estimate", "hospital_access_scores:hos_10near_median", "hospital_access_scores:hos_3sfca", "hospital_access_scores:hos_cnt", "mental_access_scores:mental_10near_median", "mental_access_scores:mental_3sfca", "mental_access_scores:mental_cnt", "no_health_insurance_19_to_64:no_hlth_ins_pct", "obgyn_access_scores:obgyn_cnt", "obgyn_access_scores:obgyn_e2sfca", "pct_pop_broadband:perc_w_broadband", "pct_pop_cable_fiber_dsl:perc_w_cable_fiber_DSL", "pediatrics_access_scores:ped_cnt", "pediatrics_access_scores:ped_e2sfca", "perc_income_on_internet:perc_income_avg_nat_package", "perc_income_on_internet:perc_income_min_price_100", "perc_income_on_internet:perc_income_min_price_25", "percent_poor_ment_hlth_days_14_and_over:perc_poor_ment_hlth_days_14_and_over", "percent_poor_phys_hlth_days_14_and_over:perc_poor_phys_hlth_days_14_and_over", "post_hs_education:perc_post_hs_edu", "preventable_hospitalizations:prevent_hosp_rate", "primary_care_access_scores:prim_cnt", "primary_care_access_scores:prim_e2sfca", "substance_access_scores:subs_10near_median", "substance_access_scores:subs_3sfca", "substance_access_scores:subs_cnt", "time", "trade_schools_access_scores:norm_3sfca", "earnings_per_job:earnings_per_job"],
     "info": {
       "tract": {
@@ -112,7 +113,7 @@ const site = {
                 "short_description": "Population self-reported as employed divided by total civilian workforce population.",
                 "long_description": "Population self-reported as employed divided by total civilian workforce population. Based on American Community Survey Table B23025 ACS 2015/2019 5-year estimates.",
                 "statement": "The employment rate in {features.name} is {value}",
-                "sources": [
+                "source": [
                   {
                     "name": "American Community Survey",
                     "date_accessed": "2021",
@@ -527,7 +528,7 @@ const site = {
                 "short_description": "Average emergency department visits for drug overdose per 100,000 residents.",
                 "long_description": "Average emergency department visits for drug overdose per 100,000 residents.",
                 "statement": "The average emergency department visits for drug overdose rate in {features.name} is {value} per 100,000 residents",
-                "sources": [
+                "source": [
                   {
                     "name": "Virginia Department of Health",
                     "date_accessed": "2021",
@@ -645,7 +646,7 @@ const site = {
                 "short_description": "Food insecure children are those children living in households experiencing food insecurity (a lack of access to enough food for an active, healthy life).",
                 "long_description": "Food insecurity refers to USDA’s measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food insecurity refers to USDA’s measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food insecure children are those children living in households experiencing food insecurity.Food-insecure households are not necessarily food insecure all the time. Food insecurity may reflect a household’s need to make trade-offs between important basic needs, such as housing or medical bills, and purchasing nutritionally adequate foods.",
                 "statement": "The childhood food insecurity rate in {features.name} is {value}",
-                "sources": [
+                "source": [
                   {
                     "name": "Feeding America",
                     "date_accessed": "2021",
@@ -670,7 +671,7 @@ const site = {
                 "short_description": "The average weekly dollar amount food-secure individuals report spending on food.",
                 "long_description": "The average weekly dollar amount food-secure individuals report spending on food, as estimated by the Current Population Survey, divided by 21 (assuming three meals a day, seven days a week). This amount has been adjusted to reflect local food prices and relevant taxes.",
                 "statement": "The average meal cost in {features.name} is {value}",
-                "sources": [
+                "source": [
                   {
                     "name": "Feeding America",
                     "date_accessed": "2021",
@@ -695,7 +696,7 @@ const site = {
                 "short_description": "Food insecurity refers to USDA’s measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods.",
                 "long_description": "Food insecurity refers to USDA’s measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food-insecure households are not necessarily food insecure all the time. Food insecurity may reflect a household’s need to make trade-offs between important basic needs, such as housing or medical bills, and purchasing nutritionally adequate foods.",
                 "statement": "The food insecurity rate in {features.name} is {value}",
-                "sources": [
+                "source": [
                   {
                     "name": "Feeding America",
                     "date_accessed": "2021",
@@ -720,7 +721,7 @@ const site = {
                 "short_description": "Food insecure children are those children living in households experiencing food insecurity (a lack of access to enough food for an active, healthy life).",
                 "long_description": "Food insecurity refers to USDA’s measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food insecurity refers to USDA’s measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food insecure children are those children living in households experiencing food insecurity.Food-insecure households are not necessarily food insecure all the time. Food insecurity may reflect a household’s need to make trade-offs between important basic needs, such as housing or medical bills, and purchasing nutritionally adequate foods.",
                 "statement": "The population of food insecure children in {features.name} is {value}",
-                "sources": [
+                "source": [
                   {
                     "name": "Feeding America",
                     "date_accessed": "2021",
@@ -1662,7 +1663,7 @@ const site = {
                 "short_description": "Earnings per job.",
                 "long_description": "Earnings per job.",
                 "statement": "Earnings per job in {features.name} is ${value}",
-                "sources": [
+                "source": [
                   {
                     "name": "Bureau of Economic Analysis",
                     "date_accessed": "2021"
@@ -1937,7 +1938,7 @@ const site = {
                 "short_description": "Population self-reported as employed divided by total civilian workforce population.",
                 "long_description": "Population self-reported as employed divided by total civilian workforce population. Based on American Community Survey Table B23025 ACS 2015/2019 5-year estimates.",
                 "statement": "The employment rate in {features.name} is {value}",
-                "sources": [
+                "source": [
                   {
                     "name": "American Community Survey",
                     "date_accessed": "2021",
@@ -2352,7 +2353,7 @@ const site = {
                 "short_description": "Average emergency department visits for drug overdose per 100,000 residents.",
                 "long_description": "Average emergency department visits for drug overdose per 100,000 residents.",
                 "statement": "The average emergency department visits for drug overdose rate in {features.name} is {value} per 100,000 residents",
-                "sources": [
+                "source": [
                   {
                     "name": "Virginia Department of Health",
                     "date_accessed": "2021",
@@ -2470,7 +2471,7 @@ const site = {
                 "short_description": "Food insecure children are those children living in households experiencing food insecurity (a lack of access to enough food for an active, healthy life).",
                 "long_description": "Food insecurity refers to USDA’s measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food insecurity refers to USDA’s measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food insecure children are those children living in households experiencing food insecurity.Food-insecure households are not necessarily food insecure all the time. Food insecurity may reflect a household’s need to make trade-offs between important basic needs, such as housing or medical bills, and purchasing nutritionally adequate foods.",
                 "statement": "The childhood food insecurity rate in {features.name} is {value}",
-                "sources": [
+                "source": [
                   {
                     "name": "Feeding America",
                     "date_accessed": "2021",
@@ -2499,7 +2500,7 @@ const site = {
                 "short_description": "The average weekly dollar amount food-secure individuals report spending on food.",
                 "long_description": "The average weekly dollar amount food-secure individuals report spending on food, as estimated by the Current Population Survey, divided by 21 (assuming three meals a day, seven days a week). This amount has been adjusted to reflect local food prices and relevant taxes.",
                 "statement": "The average meal cost in {features.name} is {value}",
-                "sources": [
+                "source": [
                   {
                     "name": "Feeding America",
                     "date_accessed": "2021",
@@ -2528,7 +2529,7 @@ const site = {
                 "short_description": "Food insecurity refers to USDA’s measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods.",
                 "long_description": "Food insecurity refers to USDA’s measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food-insecure households are not necessarily food insecure all the time. Food insecurity may reflect a household’s need to make trade-offs between important basic needs, such as housing or medical bills, and purchasing nutritionally adequate foods.",
                 "statement": "The food insecurity rate in {features.name} is {value}",
-                "sources": [
+                "source": [
                   {
                     "name": "Feeding America",
                     "date_accessed": "2021",
@@ -2557,7 +2558,7 @@ const site = {
                 "short_description": "Food insecure children are those children living in households experiencing food insecurity (a lack of access to enough food for an active, healthy life).",
                 "long_description": "Food insecurity refers to USDA’s measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food insecurity refers to USDA’s measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food insecure children are those children living in households experiencing food insecurity.Food-insecure households are not necessarily food insecure all the time. Food insecurity may reflect a household’s need to make trade-offs between important basic needs, such as housing or medical bills, and purchasing nutritionally adequate foods.",
                 "statement": "The population of food insecure children in {features.name} is {value}",
-                "sources": [
+                "source": [
                   {
                     "name": "Feeding America",
                     "date_accessed": "2021",
@@ -3495,7 +3496,7 @@ const site = {
                 "short_description": "Earnings per job.",
                 "long_description": "Earnings per job.",
                 "statement": "Earnings per job in {features.name} is ${value}",
-                "sources": [
+                "source": [
                   {
                     "name": "Bureau of Economic Analysis",
                     "date_accessed": "2021"
@@ -3774,7 +3775,7 @@ const site = {
                 "short_description": "Population self-reported as employed divided by total civilian workforce population.",
                 "long_description": "Population self-reported as employed divided by total civilian workforce population. Based on American Community Survey Table B23025 ACS 2015/2019 5-year estimates.",
                 "statement": "The employment rate in {features.name} is {value}",
-                "sources": [
+                "source": [
                   {
                     "name": "American Community Survey",
                     "date_accessed": "2021",
@@ -4173,7 +4174,7 @@ const site = {
                 "short_description": "Average emergency department visits for drug overdose per 100,000 residents.",
                 "long_description": "Average emergency department visits for drug overdose per 100,000 residents.",
                 "statement": "The average emergency department visits for drug overdose rate in {features.name} is {value} per 100,000 residents",
-                "sources": [
+                "source": [
                   {
                     "name": "Virginia Department of Health",
                     "date_accessed": "2021",
@@ -4291,7 +4292,7 @@ const site = {
                 "short_description": "Food insecure children are those children living in households experiencing food insecurity (a lack of access to enough food for an active, healthy life).",
                 "long_description": "Food insecurity refers to USDA’s measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food insecurity refers to USDA’s measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food insecure children are those children living in households experiencing food insecurity.Food-insecure households are not necessarily food insecure all the time. Food insecurity may reflect a household’s need to make trade-offs between important basic needs, such as housing or medical bills, and purchasing nutritionally adequate foods.",
                 "statement": "The childhood food insecurity rate in {features.name} is {value}",
-                "sources": [
+                "source": [
                   {
                     "name": "Feeding America",
                     "date_accessed": "2021",
@@ -4320,7 +4321,7 @@ const site = {
                 "short_description": "The average weekly dollar amount food-secure individuals report spending on food.",
                 "long_description": "The average weekly dollar amount food-secure individuals report spending on food, as estimated by the Current Population Survey, divided by 21 (assuming three meals a day, seven days a week). This amount has been adjusted to reflect local food prices and relevant taxes.",
                 "statement": "The average meal cost in {features.name} is {value}",
-                "sources": [
+                "source": [
                   {
                     "name": "Feeding America",
                     "date_accessed": "2021",
@@ -4349,7 +4350,7 @@ const site = {
                 "short_description": "Food insecurity refers to USDA’s measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods.",
                 "long_description": "Food insecurity refers to USDA’s measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food-insecure households are not necessarily food insecure all the time. Food insecurity may reflect a household’s need to make trade-offs between important basic needs, such as housing or medical bills, and purchasing nutritionally adequate foods.",
                 "statement": "The food insecurity rate in {features.name} is {value}",
-                "sources": [
+                "source": [
                   {
                     "name": "Feeding America",
                     "date_accessed": "2021",
@@ -4378,7 +4379,7 @@ const site = {
                 "short_description": "Food insecure children are those children living in households experiencing food insecurity (a lack of access to enough food for an active, healthy life).",
                 "long_description": "Food insecurity refers to USDA’s measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food insecurity refers to USDA’s measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food insecure children are those children living in households experiencing food insecurity.Food-insecure households are not necessarily food insecure all the time. Food insecurity may reflect a household’s need to make trade-offs between important basic needs, such as housing or medical bills, and purchasing nutritionally adequate foods.",
                 "statement": "The population of food insecure children in {features.name} is {value}",
-                "sources": [
+                "source": [
                   {
                     "name": "Feeding America",
                     "date_accessed": "2021",
@@ -5316,7 +5317,7 @@ const site = {
                 "short_description": "Earnings per job.",
                 "long_description": "Earnings per job.",
                 "statement": "Earnings per job in {features.name} is ${value}",
-                "sources": [
+                "source": [
                   {
                     "name": "Bureau of Economic Analysis",
                     "date_accessed": "2021"
@@ -5492,7 +5493,7 @@ const site = {
         "site_file": "district.json"
       }
     },
-    "files": ["health_district.csv", "county.csv", "tract.csv"]
+    "files": ["tract.csv", "county.csv", "health_district.csv"]
   },
   "rules": [
     {
@@ -5537,34 +5538,17 @@ const site = {
             {
               "id": "starting_shapes",
               "type": "=",
-              "value": "county",
+              "value": "district",
               "any": false
             },
-            {
-              "id": "selected_county",
-              "type": "!",
-              "value": "",
-              "any": false
-            }
-          ],
-          "value": "county"
-        },
-        {
-          "condition": [
             {
               "id": "selected_district",
-              "type": "",
-              "value": "",
-              "any": false
-            },
-            {
-              "id": "selected_county",
               "type": "!",
               "value": "",
               "any": false
             }
           ],
-          "value": "county"
+          "value": "district"
         },
         {
           "condition": [
@@ -5578,7 +5562,7 @@ const site = {
           "value": "tract"
         }
       ],
-      "default": "district"
+      "default": "county"
     },
     {
       "id": "region_select",
@@ -5681,7 +5665,7 @@ const site = {
       },
       "floating": false,
       "dataview": "primary_view",
-      "subto": ["main_map", "main_plot"],
+      "subto": ["main_map", "main_plot", "rank_table"],
       "variable_info": false
     },
     "info12": {
@@ -5706,7 +5690,7 @@ const site = {
       "default": [],
       "floating": false,
       "dataview": "primary_view",
-      "subto": ["main_map", "main_plot"],
+      "subto": ["main_map", "main_plot", "rank_table"],
       "variable_info": false
     }
   },
@@ -5847,11 +5831,11 @@ const site = {
     "table17": {
       "scrollY": 400,
       "rowGroup": {
-        "dataSrc": "features.name"
+        "dataSrc": "entity.features.name"
       },
       "columnDefs": [
         {
-          "targets": "features.name",
+          "targets": "entity.features.name",
           "visible": false
         }
       ],
@@ -5880,10 +5864,11 @@ const site = {
       "scrollX": 500,
       "scrollCollapse": true
     },
-    "table19": {
+    "rank_table": {
       "info": false,
       "searching": false,
       "variables": "selected_variable",
+      "subto": ["main_map", "main_plot"],
       "single_variable": true,
       "wide": true,
       "paging": false,
@@ -5939,9 +5924,7 @@ const site = {
           "marker.line.width": 1
         }
       ],
-      "subto": [
-        "main_map"
-      ]
+      "subto": ["main_map", "rank_table"]
     }
   },
   "maps": {
@@ -5969,9 +5952,7 @@ const site = {
         "center": [38, -79.5],
         "zoom": 7,
         "height": "430px",
-        "subto": [
-          "main_plot"
-        ],
+        "subto": ["main_plot", "rank_table"],
         "background_shapes": "county"
       },
       "tiles": {

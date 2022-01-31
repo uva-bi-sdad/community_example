@@ -59,7 +59,7 @@
               "short_description": "Earnings per job.",
               "long_description": "Earnings per job.",
               "statement": "Earnings per job in {features.name} is ${value}",
-              "sources": [
+              "source": [
                 {
                   "name": "Bureau of Economic Analysis",
                   "date_accessed": "2021"
@@ -248,7 +248,7 @@
               "short_description": "Population self-reported as employed divided by total civilian workforce population.",
               "long_description": "Population self-reported as employed divided by total civilian workforce population. Based on American Community Survey Table B23025 ACS 2015/2019 5-year estimates.",
               "statement": "The employment rate in {features.name} is {value}",
-              "sources": [
+              "source": [
                 {
                   "name": "American Community Survey",
                   "date_accessed": "2021",
@@ -302,7 +302,7 @@
               "short_description": "Food insecurity refers to USDA’s measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods.",
               "long_description": "Food insecurity refers to USDA’s measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food-insecure households are not necessarily food insecure all the time. Food insecurity may reflect a household’s need to make trade-offs between important basic needs, such as housing or medical bills, and purchasing nutritionally adequate foods.",
               "statement": "The food insecurity rate in {features.name} is {value}",
-              "sources": [
+              "source": [
                 {
                   "name": "Feeding America",
                   "date_accessed": "2021",
@@ -331,7 +331,7 @@
               "short_description": "Food insecure children are those children living in households experiencing food insecurity (a lack of access to enough food for an active, healthy life).",
               "long_description": "Food insecurity refers to USDA’s measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food insecurity refers to USDA’s measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food insecure children are those children living in households experiencing food insecurity.Food-insecure households are not necessarily food insecure all the time. Food insecurity may reflect a household’s need to make trade-offs between important basic needs, such as housing or medical bills, and purchasing nutritionally adequate foods.",
               "statement": "The population of food insecure children in {features.name} is {value}",
-              "sources": [
+              "source": [
                 {
                   "name": "Feeding America",
                   "date_accessed": "2021",
@@ -360,7 +360,7 @@
               "short_description": "Food insecure children are those children living in households experiencing food insecurity (a lack of access to enough food for an active, healthy life).",
               "long_description": "Food insecurity refers to USDA’s measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food insecurity refers to USDA’s measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food insecure children are those children living in households experiencing food insecurity.Food-insecure households are not necessarily food insecure all the time. Food insecurity may reflect a household’s need to make trade-offs between important basic needs, such as housing or medical bills, and purchasing nutritionally adequate foods.",
               "statement": "The childhood food insecurity rate in {features.name} is {value}",
-              "sources": [
+              "source": [
                 {
                   "name": "Feeding America",
                   "date_accessed": "2021",
@@ -389,7 +389,7 @@
               "short_description": "The average weekly dollar amount food-secure individuals report spending on food.",
               "long_description": "The average weekly dollar amount food-secure individuals report spending on food, as estimated by the Current Population Survey, divided by 21 (assuming three meals a day, seven days a week). This amount has been adjusted to reflect local food prices and relevant taxes.",
               "statement": "The average meal cost in {features.name} is {value}",
-              "sources": [
+              "source": [
                 {
                   "name": "Feeding America",
                   "date_accessed": "2021",
@@ -428,7 +428,7 @@
               "short_description": "Average emergency department visits for drug overdose per 100,000 residents.",
               "long_description": "Average emergency department visits for drug overdose per 100,000 residents.",
               "statement": "The average emergency department visits for drug overdose rate in {features.name} is {value} per 100,000 residents",
-              "sources": [
+              "source": [
                 {
                   "name": "Virginia Department of Health",
                   "date_accessed": "2021",
@@ -2793,7 +2793,7 @@
               "short_description": "Earnings per job.",
               "long_description": "Earnings per job.",
               "statement": "Earnings per job in {features.name} is ${value}",
-              "sources": [
+              "source": [
                 {
                   "name": "Bureau of Economic Analysis",
                   "date_accessed": "2021"
@@ -3046,7 +3046,7 @@
               "short_description": "Population self-reported as employed divided by total civilian workforce population.",
               "long_description": "Population self-reported as employed divided by total civilian workforce population. Based on American Community Survey Table B23025 ACS 2015/2019 5-year estimates.",
               "statement": "The employment rate in {features.name} is {value}",
-              "sources": [
+              "source": [
                 {
                   "name": "American Community Survey",
                   "date_accessed": "2021",
@@ -3104,7 +3104,7 @@
               "short_description": "Food insecurity refers to USDA’s measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods.",
               "long_description": "Food insecurity refers to USDA’s measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food-insecure households are not necessarily food insecure all the time. Food insecurity may reflect a household’s need to make trade-offs between important basic needs, such as housing or medical bills, and purchasing nutritionally adequate foods.",
               "statement": "The food insecurity rate in {features.name} is {value}",
-              "sources": [
+              "source": [
                 {
                   "name": "Feeding America",
                   "date_accessed": "2021",
@@ -3133,7 +3133,7 @@
               "short_description": "Food insecure children are those children living in households experiencing food insecurity (a lack of access to enough food for an active, healthy life).",
               "long_description": "Food insecurity refers to USDA’s measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food insecurity refers to USDA’s measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food insecure children are those children living in households experiencing food insecurity.Food-insecure households are not necessarily food insecure all the time. Food insecurity may reflect a household’s need to make trade-offs between important basic needs, such as housing or medical bills, and purchasing nutritionally adequate foods.",
               "statement": "The population of food insecure children in {features.name} is {value}",
-              "sources": [
+              "source": [
                 {
                   "name": "Feeding America",
                   "date_accessed": "2021",
@@ -3162,7 +3162,7 @@
               "short_description": "Food insecure children are those children living in households experiencing food insecurity (a lack of access to enough food for an active, healthy life).",
               "long_description": "Food insecurity refers to USDA’s measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food insecurity refers to USDA’s measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food insecure children are those children living in households experiencing food insecurity.Food-insecure households are not necessarily food insecure all the time. Food insecurity may reflect a household’s need to make trade-offs between important basic needs, such as housing or medical bills, and purchasing nutritionally adequate foods.",
               "statement": "The childhood food insecurity rate in {features.name} is {value}",
-              "sources": [
+              "source": [
                 {
                   "name": "Feeding America",
                   "date_accessed": "2021",
@@ -3191,7 +3191,7 @@
               "short_description": "The average weekly dollar amount food-secure individuals report spending on food.",
               "long_description": "The average weekly dollar amount food-secure individuals report spending on food, as estimated by the Current Population Survey, divided by 21 (assuming three meals a day, seven days a week). This amount has been adjusted to reflect local food prices and relevant taxes.",
               "statement": "The average meal cost in {features.name} is {value}",
-              "sources": [
+              "source": [
                 {
                   "name": "Feeding America",
                   "date_accessed": "2021",
@@ -3230,7 +3230,7 @@
               "short_description": "Average emergency department visits for drug overdose per 100,000 residents.",
               "long_description": "Average emergency department visits for drug overdose per 100,000 residents.",
               "statement": "The average emergency department visits for drug overdose rate in {features.name} is {value} per 100,000 residents",
-              "sources": [
+              "source": [
                 {
                   "name": "Virginia Department of Health",
                   "date_accessed": "2021",
@@ -5595,7 +5595,7 @@
               "short_description": "Earnings per job.",
               "long_description": "Earnings per job.",
               "statement": "Earnings per job in {features.name} is ${value}",
-              "sources": [
+              "source": [
                 {
                   "name": "Bureau of Economic Analysis",
                   "date_accessed": "2021"
@@ -5844,7 +5844,7 @@
               "short_description": "Population self-reported as employed divided by total civilian workforce population.",
               "long_description": "Population self-reported as employed divided by total civilian workforce population. Based on American Community Survey Table B23025 ACS 2015/2019 5-year estimates.",
               "statement": "The employment rate in {features.name} is {value}",
-              "sources": [
+              "source": [
                 {
                   "name": "American Community Survey",
                   "date_accessed": "2021",
@@ -5898,7 +5898,7 @@
               "short_description": "Food insecurity refers to USDA’s measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods.",
               "long_description": "Food insecurity refers to USDA’s measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food-insecure households are not necessarily food insecure all the time. Food insecurity may reflect a household’s need to make trade-offs between important basic needs, such as housing or medical bills, and purchasing nutritionally adequate foods.",
               "statement": "The food insecurity rate in {features.name} is {value}",
-              "sources": [
+              "source": [
                 {
                   "name": "Feeding America",
                   "date_accessed": "2021",
@@ -5923,7 +5923,7 @@
               "short_description": "Food insecure children are those children living in households experiencing food insecurity (a lack of access to enough food for an active, healthy life).",
               "long_description": "Food insecurity refers to USDA’s measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food insecurity refers to USDA’s measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food insecure children are those children living in households experiencing food insecurity.Food-insecure households are not necessarily food insecure all the time. Food insecurity may reflect a household’s need to make trade-offs between important basic needs, such as housing or medical bills, and purchasing nutritionally adequate foods.",
               "statement": "The population of food insecure children in {features.name} is {value}",
-              "sources": [
+              "source": [
                 {
                   "name": "Feeding America",
                   "date_accessed": "2021",
@@ -5948,7 +5948,7 @@
               "short_description": "Food insecure children are those children living in households experiencing food insecurity (a lack of access to enough food for an active, healthy life).",
               "long_description": "Food insecurity refers to USDA’s measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food insecurity refers to USDA’s measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food insecure children are those children living in households experiencing food insecurity.Food-insecure households are not necessarily food insecure all the time. Food insecurity may reflect a household’s need to make trade-offs between important basic needs, such as housing or medical bills, and purchasing nutritionally adequate foods.",
               "statement": "The childhood food insecurity rate in {features.name} is {value}",
-              "sources": [
+              "source": [
                 {
                   "name": "Feeding America",
                   "date_accessed": "2021",
@@ -5973,7 +5973,7 @@
               "short_description": "The average weekly dollar amount food-secure individuals report spending on food.",
               "long_description": "The average weekly dollar amount food-secure individuals report spending on food, as estimated by the Current Population Survey, divided by 21 (assuming three meals a day, seven days a week). This amount has been adjusted to reflect local food prices and relevant taxes.",
               "statement": "The average meal cost in {features.name} is {value}",
-              "sources": [
+              "source": [
                 {
                   "name": "Feeding America",
                   "date_accessed": "2021",
@@ -6004,7 +6004,7 @@
               "short_description": "Average emergency department visits for drug overdose per 100,000 residents.",
               "long_description": "Average emergency department visits for drug overdose per 100,000 residents.",
               "statement": "The average emergency department visits for drug overdose rate in {features.name} is {value} per 100,000 residents",
-              "sources": [
+              "source": [
                 {
                   "name": "Virginia Department of Health",
                   "date_accessed": "2021",

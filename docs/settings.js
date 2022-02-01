@@ -10,7 +10,8 @@ const site = {
     "palette": "rdylbu7",
     "hide_url_parameters": false,
     "background_shapes": true,
-    "polygon_outline": 2
+    "polygon_outline": 2,
+    "color_scale_center": "median"
   },
   "metadata": {
     "package": "data/datapackage.json",

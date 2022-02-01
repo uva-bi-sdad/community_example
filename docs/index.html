@@ -74,6 +74,16 @@
 <input type="number" id="settings.digits" default="2" min="0" max="6" class="form-control auto-input" auto-type="number">
 </div>
 <div class="wrapper select-wrapper">
+<label for="settings.color_scale_center">Color Scale Center</label>
+<div class="input-group">
+<select class="auto-input form-select" auto-type="select" id="settings.color_scale_center"  default="1" title="Determines whether and on what the color scale should be centered.">
+<option value=""selected>None</option>
+<option value="median">Median</option>
+<option value="mean">Mean</option>
+</select>
+</div>
+</div>
+<div class="wrapper select-wrapper">
 <label for="settings.summary_selection">Summary Level</label>
 <div class="input-group">
 <select class="auto-input form-select" auto-type="select" id="settings.summary_selection"  default="dataset" title="Determins which regions are included in summaries for box-plots and color scaling; All-Regions are state-wide, Selected Region Types are filtered by the Region Types input, and Selected Region are filtered by region selection.">

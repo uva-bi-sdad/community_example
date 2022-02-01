@@ -31,6 +31,12 @@ page_navbar(
       input_switch("Hide URL Settings", id = "settings.hide_url_parameters"),
       input_number("Digits", "settings.digits", default = 2, min = 0, max = 6, floating_label = FALSE),
       input_select(
+        "Color Scale Center", options = c("", "median", "mean"), default = 1,
+        display = c("None", "Median", "Mean"), id = "settings.color_scale_center",
+        floating_label = FALSE,
+        title = "Determines whether and on what the color scale should be centered."
+      ),
+      input_select(
         "Summary Level", options = c("dataset", "filtered", "all"), default = "dataset",
         display = c("All Regions", "Selected Region Types", "Selected Region"), id = "settings.summary_selection",
         floating_label = FALSE,

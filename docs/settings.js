@@ -1,6 +1,5 @@
 const site = {
   "settings": {
-    "iqr_box": true,
     "digits": 2,
     "summary_selection": "all",
     "color_by_order": false,
@@ -10,8 +9,11 @@ const site = {
     "palette": "rdylbu7",
     "hide_url_parameters": false,
     "background_shapes": true,
+    "iqr_box": false,
     "polygon_outline": 2,
-    "color_scale_center": "median"
+    "color_scale_center": "median",
+    "table_autoscroll": true,
+    "table_scroll_behavior": "smooth"
   },
   "metadata": {
     "package": "data/datapackage.json",
@@ -645,7 +647,7 @@ const site = {
                 "short_name": "Childhood food insecurity rate",
                 "long_name": "Childhood food insecurity rate",
                 "short_description": "Food insecure children are those children living in households experiencing food insecurity (a lack of access to enough food for an active, healthy life).",
-                "long_description": "Food insecurity refers to USDA’s measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food insecurity refers to USDA’s measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food insecure children are those children living in households experiencing food insecurity.Food-insecure households are not necessarily food insecure all the time. Food insecurity may reflect a household’s need to make trade-offs between important basic needs, such as housing or medical bills, and purchasing nutritionally adequate foods.",
+                "long_description": "Food insecurity refers to USDAâ€™s measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food insecurity refers to USDAâ€™s measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food insecure children are those children living in households experiencing food insecurity.Food-insecure households are not necessarily food insecure all the time. Food insecurity may reflect a householdâ€™s need to make trade-offs between important basic needs, such as housing or medical bills, and purchasing nutritionally adequate foods.",
                 "statement": "The childhood food insecurity rate in {features.name} is {value}",
                 "source": [
                   {
@@ -694,8 +696,8 @@ const site = {
                 "type": "percent",
                 "short_name": "Food insecurity rate",
                 "long_name": "Food insecurity rate",
-                "short_description": "Food insecurity refers to USDA’s measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods.",
-                "long_description": "Food insecurity refers to USDA’s measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food-insecure households are not necessarily food insecure all the time. Food insecurity may reflect a household’s need to make trade-offs between important basic needs, such as housing or medical bills, and purchasing nutritionally adequate foods.",
+                "short_description": "Food insecurity refers to USDAâ€™s measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods.",
+                "long_description": "Food insecurity refers to USDAâ€™s measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food-insecure households are not necessarily food insecure all the time. Food insecurity may reflect a householdâ€™s need to make trade-offs between important basic needs, such as housing or medical bills, and purchasing nutritionally adequate foods.",
                 "statement": "The food insecurity rate in {features.name} is {value}",
                 "source": [
                   {
@@ -720,7 +722,7 @@ const site = {
                 "short_name": "Population of food insecure children",
                 "long_name": "Count of population of food insecure children",
                 "short_description": "Food insecure children are those children living in households experiencing food insecurity (a lack of access to enough food for an active, healthy life).",
-                "long_description": "Food insecurity refers to USDA’s measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food insecurity refers to USDA’s measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food insecure children are those children living in households experiencing food insecurity.Food-insecure households are not necessarily food insecure all the time. Food insecurity may reflect a household’s need to make trade-offs between important basic needs, such as housing or medical bills, and purchasing nutritionally adequate foods.",
+                "long_description": "Food insecurity refers to USDAâ€™s measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food insecurity refers to USDAâ€™s measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food insecure children are those children living in households experiencing food insecurity.Food-insecure households are not necessarily food insecure all the time. Food insecurity may reflect a householdâ€™s need to make trade-offs between important basic needs, such as housing or medical bills, and purchasing nutritionally adequate foods.",
                 "statement": "The population of food insecure children in {features.name} is {value}",
                 "source": [
                   {
@@ -2470,7 +2472,7 @@ const site = {
                 "short_name": "Childhood food insecurity rate",
                 "long_name": "Childhood food insecurity rate",
                 "short_description": "Food insecure children are those children living in households experiencing food insecurity (a lack of access to enough food for an active, healthy life).",
-                "long_description": "Food insecurity refers to USDA’s measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food insecurity refers to USDA’s measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food insecure children are those children living in households experiencing food insecurity.Food-insecure households are not necessarily food insecure all the time. Food insecurity may reflect a household’s need to make trade-offs between important basic needs, such as housing or medical bills, and purchasing nutritionally adequate foods.",
+                "long_description": "Food insecurity refers to USDAâ€™s measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food insecurity refers to USDAâ€™s measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food insecure children are those children living in households experiencing food insecurity.Food-insecure households are not necessarily food insecure all the time. Food insecurity may reflect a householdâ€™s need to make trade-offs between important basic needs, such as housing or medical bills, and purchasing nutritionally adequate foods.",
                 "statement": "The childhood food insecurity rate in {features.name} is {value}",
                 "source": [
                   {
@@ -2527,8 +2529,8 @@ const site = {
                 "type": "percent",
                 "short_name": "Food insecurity rate",
                 "long_name": "Food insecurity rate",
-                "short_description": "Food insecurity refers to USDA’s measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods.",
-                "long_description": "Food insecurity refers to USDA’s measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food-insecure households are not necessarily food insecure all the time. Food insecurity may reflect a household’s need to make trade-offs between important basic needs, such as housing or medical bills, and purchasing nutritionally adequate foods.",
+                "short_description": "Food insecurity refers to USDAâ€™s measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods.",
+                "long_description": "Food insecurity refers to USDAâ€™s measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food-insecure households are not necessarily food insecure all the time. Food insecurity may reflect a householdâ€™s need to make trade-offs between important basic needs, such as housing or medical bills, and purchasing nutritionally adequate foods.",
                 "statement": "The food insecurity rate in {features.name} is {value}",
                 "source": [
                   {
@@ -2557,7 +2559,7 @@ const site = {
                 "short_name": "Population of food insecure children",
                 "long_name": "Count of population of food insecure children",
                 "short_description": "Food insecure children are those children living in households experiencing food insecurity (a lack of access to enough food for an active, healthy life).",
-                "long_description": "Food insecurity refers to USDA’s measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food insecurity refers to USDA’s measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food insecure children are those children living in households experiencing food insecurity.Food-insecure households are not necessarily food insecure all the time. Food insecurity may reflect a household’s need to make trade-offs between important basic needs, such as housing or medical bills, and purchasing nutritionally adequate foods.",
+                "long_description": "Food insecurity refers to USDAâ€™s measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food insecurity refers to USDAâ€™s measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food insecure children are those children living in households experiencing food insecurity.Food-insecure households are not necessarily food insecure all the time. Food insecurity may reflect a householdâ€™s need to make trade-offs between important basic needs, such as housing or medical bills, and purchasing nutritionally adequate foods.",
                 "statement": "The population of food insecure children in {features.name} is {value}",
                 "source": [
                   {
@@ -4291,7 +4293,7 @@ const site = {
                 "short_name": "Childhood food insecurity rate",
                 "long_name": "Childhood food insecurity rate",
                 "short_description": "Food insecure children are those children living in households experiencing food insecurity (a lack of access to enough food for an active, healthy life).",
-                "long_description": "Food insecurity refers to USDA’s measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food insecurity refers to USDA’s measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food insecure children are those children living in households experiencing food insecurity.Food-insecure households are not necessarily food insecure all the time. Food insecurity may reflect a household’s need to make trade-offs between important basic needs, such as housing or medical bills, and purchasing nutritionally adequate foods.",
+                "long_description": "Food insecurity refers to USDAâ€™s measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food insecurity refers to USDAâ€™s measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food insecure children are those children living in households experiencing food insecurity.Food-insecure households are not necessarily food insecure all the time. Food insecurity may reflect a householdâ€™s need to make trade-offs between important basic needs, such as housing or medical bills, and purchasing nutritionally adequate foods.",
                 "statement": "The childhood food insecurity rate in {features.name} is {value}",
                 "source": [
                   {
@@ -4348,8 +4350,8 @@ const site = {
                 "type": "percent",
                 "short_name": "Food insecurity rate",
                 "long_name": "Food insecurity rate",
-                "short_description": "Food insecurity refers to USDA’s measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods.",
-                "long_description": "Food insecurity refers to USDA’s measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food-insecure households are not necessarily food insecure all the time. Food insecurity may reflect a household’s need to make trade-offs between important basic needs, such as housing or medical bills, and purchasing nutritionally adequate foods.",
+                "short_description": "Food insecurity refers to USDAâ€™s measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods.",
+                "long_description": "Food insecurity refers to USDAâ€™s measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food-insecure households are not necessarily food insecure all the time. Food insecurity may reflect a householdâ€™s need to make trade-offs between important basic needs, such as housing or medical bills, and purchasing nutritionally adequate foods.",
                 "statement": "The food insecurity rate in {features.name} is {value}",
                 "source": [
                   {
@@ -4378,7 +4380,7 @@ const site = {
                 "short_name": "Population of food insecure children",
                 "long_name": "Count of population of food insecure children",
                 "short_description": "Food insecure children are those children living in households experiencing food insecurity (a lack of access to enough food for an active, healthy life).",
-                "long_description": "Food insecurity refers to USDA’s measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food insecurity refers to USDA’s measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food insecure children are those children living in households experiencing food insecurity.Food-insecure households are not necessarily food insecure all the time. Food insecurity may reflect a household’s need to make trade-offs between important basic needs, such as housing or medical bills, and purchasing nutritionally adequate foods.",
+                "long_description": "Food insecurity refers to USDAâ€™s measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food insecurity refers to USDAâ€™s measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food insecure children are those children living in households experiencing food insecurity.Food-insecure households are not necessarily food insecure all the time. Food insecurity may reflect a householdâ€™s need to make trade-offs between important basic needs, such as housing or medical bills, and purchasing nutritionally adequate foods.",
                 "statement": "The population of food insecure children in {features.name} is {value}",
                 "source": [
                   {
@@ -5829,7 +5831,7 @@ const site = {
     }
   },
   "tables": {
-    "table17": {
+    "table18": {
       "scrollY": 400,
       "rowGroup": {
         "dataSrc": "entity.features.name"

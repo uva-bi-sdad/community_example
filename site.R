@@ -29,7 +29,7 @@ page_navbar(
         )
       ),
       input_switch("Hide URL Settings", id = "settings.hide_url_parameters"),
-      input_number("Digits", "settings.digits", default = 2, min = 0, max = 6, floating_label = FALSE),
+      input_number("Digits", "settings.digits", default = 1.5, min = 0, max = 6, step = .5, floating_label = FALSE),
       input_select(
         "Color Scale Center", options = c("", "median", "mean"), default = 1,
         display = c("None", "Median", "Mean"), id = "settings.color_scale_center",
@@ -65,7 +65,13 @@ page_navbar(
         "Trace Limit", "settings.trace_limit", default = 40, step = 1, floating_label = FALSE,
         title = "Limit the number of plot traces that can be drawn, split between extremes of the variable."
       ),
-      input_button("Clear Settings", "reset_storage", "clear_storage", class = "btn-danger footer")
+      input_button("Clear Settings", "reset_storage", "clear_storage", class = "btn-danger footer"),
+      '<p class="section-heading">Table Options</p>',
+      input_switch("Autoscroll", default_on = TRUE, id = "settings.table_autoscroll"),
+      input_select(
+        "Scroll Behavior", c("instant", "smooth", "auto"), "auto",
+        id = "settings.table_scroll_behavior", floating_label = FALSE
+      )
     )
   ),
   list(
@@ -270,7 +276,10 @@ page_section(
           variable_info = FALSE
         )
       ),
-      output_legend("settings.palette", "Below", "Region Median", "Above"),
+      output_legend(
+        "settings.palette", "Below", "Above", dataview = "primary_view",
+        subto = c("main_map", "main_plot", "rank_table")
+      ),
       wraps = c("row", "row mb-auto", "row")
     )
   ),

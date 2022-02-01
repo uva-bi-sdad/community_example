@@ -71,7 +71,7 @@
 </div>
 <div class="wrapper text-wrapper">
 <label for="settings.digits">Digits</label>
-<input type="number" id="settings.digits" default="2" min="0" max="6" class="form-control auto-input" auto-type="number">
+<input type="number" id="settings.digits" default="1.5" min="0" max="6" step="0.5" class="form-control auto-input" auto-type="number">
 </div>
 <div class="wrapper select-wrapper">
 <label for="settings.color_scale_center">Color Scale Center</label>
@@ -140,6 +140,23 @@
 </div>
 <div class="wrapper button-wrapper">
 <button type="button" auto-type="button" class="auto-input btn btn-danger footer" id="clear_storage" target="reset_storage">Clear Settings</button>
+</div>
+<p class="section-heading">Table Options</p>
+<div class="wrapper switch-wrapper">
+<div class="form-check form-switch">
+<label class="form-check-label" for="settings.table_autoscroll">Autoscroll</label>
+<input auto-type="switch" type="checkbox" autocomplete="off" class="auto-input form-check-input" role="switch" id="settings.table_autoscroll" checked>
+</div>
+</div>
+<div class="wrapper select-wrapper">
+<label for="settings.table_scroll_behavior">Scroll Behavior</label>
+<div class="input-group">
+<select class="auto-input form-select" auto-type="select" id="settings.table_scroll_behavior"  default="auto">
+<option value="instant">instant</option>
+<option value="smooth">smooth</option>
+<option value="auto">auto</option>
+</select>
+</div>
 </div>
 </div>
 </div>
@@ -296,9 +313,10 @@
 </div>
 </div>
 <div class="row">
-<div palette="settings.palette" class="legend">
+<div id="legend14" auto-type="legend" class="auto-output legend" data-view="primary_view">
+<div class="legend-ticks"></div>
 <div class="legend-scale"></div>
-<div class="legend-text"><span>Below</span><span>Region Median</span><span>Above</span></div>
+<div class="legend-text"><span>Below</span><span></span><span>Above</span></div>
 </div>
 </div>
 </div>
@@ -308,13 +326,13 @@
 <div class="col-7">
 <nav>
 <div class="nav nav-tabs">
-<button type="button" data-bs-toggle="tab" aria-controls="tg161" class="nav-link active" aria-current="page" data-bs-target="#tg161" id="tg161-tab">Plot</button>
-<button type="button" data-bs-toggle="tab" aria-controls="tg162" class="nav-link" data-bs-target="#tg162" id="tg162-tab">Data</button>
+<button type="button" data-bs-toggle="tab" aria-controls="tg171" class="nav-link active" aria-current="page" data-bs-target="#tg171" id="tg171-tab">Plot</button>
+<button type="button" data-bs-toggle="tab" aria-controls="tg172" class="nav-link" data-bs-target="#tg172" id="tg172-tab">Data</button>
 </div>
 </nav>
 <div class="tab-content">
-<div role="tabpanel" aria-labelledby="tg161-tab" class="tab-pane fade show active" id="tg161"><div class="auto-output plotly" data-view="primary_view" click="region_select" x="time" y="selected_variable" id="main_plot" auto-type="plot"></div></div>
-<div role="tabpanel" aria-labelledby="tg162-tab" class="tab-pane fade" id="tg162"><table class="auto-output datatables compact" data-view="primary_view" id="table17" auto-type="table"></table></div>
+<div role="tabpanel" aria-labelledby="tg171-tab" class="tab-pane fade show active" id="tg171"><div class="auto-output plotly" data-view="primary_view" click="region_select" x="time" y="selected_variable" id="main_plot" auto-type="plot"></div></div>
+<div role="tabpanel" aria-labelledby="tg172-tab" class="tab-pane fade" id="tg172"><table class="auto-output datatables compact" data-view="primary_view" id="table18" auto-type="table"></table></div>
 </div>
 </div>
 <div class="col-5">

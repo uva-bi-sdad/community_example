@@ -18,7 +18,7 @@ const site = {
   "metadata": {
     "package": "data/datapackage.json",
     "datasets": ["tract", "county", "district"],
-    "variables": ["2year_colleges_access_scores:norm_3sfca", "3rd_grade_median_read_score:median_read_pass_rate", "civilian_employment_rate:employment_rate", "community_college_computer_sciences_fca:3sfca_capacity", "community_college_engineering_fca:3sfca_capacity", "community_college_engineering_related_fca:3sfca_capacity", "daycare_services_access_scores:daycare_cnt", "daycare_services_access_scores:daycare_norm_3sfca", "dei_index:norm_dei", "dentist_access_scores:dent_cnt", "dentist_access_scores:dent_e2sfca", "download_speeds:download", "drive_times_nearest_2year_colleges:median_drive_time_top5", "drive_times_nearest_daycares:median_drive_time_top5", "drive_times_nearest_trade_schools:median_drive_time_top5", "drug_overdose_ed_visits:avg_overdose_per_100k", "ems_access_scores:ems_10near_median", "ems_access_scores:ems_3sfca", "ems_access_scores:ems_cnt", "food_insecurity_and_cost:Child_Food_Insecurity_Rate", "food_insecurity_and_cost:Cost_Per_Meal", "food_insecurity_and_cost:Food_Insecurity_Rate", "food_insecurity_and_cost:Num_Child_Food_Insecure", "have_computer:perc_have_computer", "have_internet:perc_have_internet_access", "health_literacy_estimates:health_literacy_estimate", "hospital_access_scores:hos_10near_median", "hospital_access_scores:hos_3sfca", "hospital_access_scores:hos_cnt", "mental_access_scores:mental_10near_median", "mental_access_scores:mental_3sfca", "mental_access_scores:mental_cnt", "no_health_insurance_19_to_64:no_hlth_ins_pct", "obgyn_access_scores:obgyn_cnt", "obgyn_access_scores:obgyn_e2sfca", "pct_pop_broadband:perc_w_broadband", "pct_pop_cable_fiber_dsl:perc_w_cable_fiber_DSL", "pediatrics_access_scores:ped_cnt", "pediatrics_access_scores:ped_e2sfca", "perc_income_on_internet:perc_income_avg_nat_package", "perc_income_on_internet:perc_income_min_price_100", "perc_income_on_internet:perc_income_min_price_25", "percent_poor_ment_hlth_days_14_and_over:perc_poor_ment_hlth_days_14_and_over", "percent_poor_phys_hlth_days_14_and_over:perc_poor_phys_hlth_days_14_and_over", "post_hs_education:perc_post_hs_edu", "preventable_hospitalizations:prevent_hosp_rate", "primary_care_access_scores:prim_cnt", "primary_care_access_scores:prim_e2sfca", "substance_access_scores:subs_10near_median", "substance_access_scores:subs_3sfca", "substance_access_scores:subs_cnt", "time", "trade_schools_access_scores:norm_3sfca", "earnings_per_job:earnings_per_job"],
+    "variables": ["time", "2year_colleges_access_scores:norm_3sfca", "3rd_grade_median_read_score:median_read_pass_rate", "civilian_employment_rate:employment_rate", "community_college_computer_sciences_fca:3sfca_capacity", "community_college_engineering_fca:3sfca_capacity", "community_college_engineering_related_fca:3sfca_capacity", "daycare_services_access_scores:daycare_cnt", "daycare_services_access_scores:daycare_norm_3sfca", "dei_index:norm_dei", "dentist_access_scores:dent_cnt", "dentist_access_scores:dent_e2sfca", "download_speeds:download", "drive_times_nearest_2year_colleges:median_drive_time_top5", "drive_times_nearest_daycares:median_drive_time_top5", "drive_times_nearest_trade_schools:median_drive_time_top5", "drug_overdose_ed_visits:avg_overdose_per_100k", "ems_access_scores:ems_10near_median", "ems_access_scores:ems_3sfca", "ems_access_scores:ems_cnt", "food_insecurity_and_cost:Child_Food_Insecurity_Rate", "food_insecurity_and_cost:Cost_Per_Meal", "food_insecurity_and_cost:Food_Insecurity_Rate", "food_insecurity_and_cost:Num_Child_Food_Insecure", "have_computer:perc_have_computer", "have_internet:perc_have_internet_access", "health_literacy_estimates:health_literacy_estimate", "hospital_access_scores:hos_10near_median", "hospital_access_scores:hos_3sfca", "hospital_access_scores:hos_cnt", "mental_access_scores:mental_10near_median", "mental_access_scores:mental_3sfca", "mental_access_scores:mental_cnt", "no_health_insurance_19_to_64:no_hlth_ins_pct", "obgyn_access_scores:obgyn_cnt", "obgyn_access_scores:obgyn_e2sfca", "pct_pop_broadband:perc_w_broadband", "pct_pop_cable_fiber_dsl:perc_w_cable_fiber_DSL", "pediatrics_access_scores:ped_cnt", "pediatrics_access_scores:ped_e2sfca", "perc_income_on_internet:perc_income_avg_nat_package", "perc_income_on_internet:perc_income_min_price_100", "perc_income_on_internet:perc_income_min_price_25", "percent_poor_ment_hlth_days_14_and_over:perc_poor_ment_hlth_days_14_and_over", "percent_poor_phys_hlth_days_14_and_over:perc_poor_phys_hlth_days_14_and_over", "post_hs_education:perc_post_hs_edu", "preventable_hospitalizations:prevent_hosp_rate", "primary_care_access_scores:prim_cnt", "primary_care_access_scores:prim_e2sfca", "substance_access_scores:subs_10near_median", "substance_access_scores:subs_3sfca", "substance_access_scores:subs_cnt", "trade_schools_access_scores:norm_3sfca", "earnings_per_job:earnings_per_job"],
     "info": {
       "tract": {
         "bytes": 13490971,
@@ -37,11 +37,26 @@ const site = {
         ],
         "time": "time",
         "profile": "data-resource",
-        "created": "2022-01-28 18:08:45",
+        "created": "2022-02-02 12:30:44",
         "last_modified": "2021-11-29 21:36:30",
         "rowcount": 22884,
         "schema": {
           "fields": [
+            {
+              "name": "time",
+              "duplicates": 22872,
+              "info": {
+                "type": "year",
+                "short_name": "Year",
+                "full_name": "time"
+              },
+              "type": "integer",
+              "missing": 0,
+              "mean": 2015.5,
+              "sd": 3.4521,
+              "min": 2010,
+              "max": 2021
+            },
             {
               "name": "2year_colleges_access_scores:norm_3sfca",
               "duplicates": 22257,
@@ -62,7 +77,7 @@ const site = {
                   "lou03",
                   "saxon20"
                 ],
-                "source": [
+                "sources": [
                   {
                     "name": "National Center for Education Statistics",
                     "date_accessed": 2021,
@@ -91,7 +106,7 @@ const site = {
                 "short_description": "Median percent of 3rd grade population passing reading test for schools in the region",
                 "long_description": "Median percent of 3rd grade population passing reading test. The median is calculated across schools in the region.",
                 "statement": "The median percent of 3rd graders with passing reading scores in {features.name} is {value}",
-                "source": [
+                "sources": [
                   {
                     "name": "Virginia Department of Education",
                     "date_accessed": 2021,
@@ -116,7 +131,7 @@ const site = {
                 "short_description": "Population self-reported as employed divided by total civilian workforce population.",
                 "long_description": "Population self-reported as employed divided by total civilian workforce population. Based on American Community Survey Table B23025 ACS 2015/2019 5-year estimates.",
                 "statement": "The employment rate in {features.name} is {value}",
-                "source": [
+                "sources": [
                   {
                     "name": "American Community Survey",
                     "date_accessed": "2021",
@@ -151,7 +166,7 @@ const site = {
                   "lou03",
                   "saxon20"
                 ],
-                "source": [
+                "sources": [
                   {
                     "name": "National Center for Education Statistics",
                     "date_accessed": 2021,
@@ -186,7 +201,7 @@ const site = {
                   "lou03",
                   "saxon20"
                 ],
-                "source": [
+                "sources": [
                   {
                     "name": "National Center for Education Statistics",
                     "date_accessed": 2021,
@@ -221,7 +236,7 @@ const site = {
                   "lou03",
                   "saxon20"
                 ],
-                "source": [
+                "sources": [
                   {
                     "name": "National Center for Education Statistics",
                     "date_accessed": 2021,
@@ -250,7 +265,7 @@ const site = {
                 "short_description": "Count of day care capacity (seats) based on provider locations",
                 "long_description": "Count of day care capacity (seats) based on provider locations. Address and capacity data was collected from Virginia Department of Social Services day care search tool.",
                 "statement": "There are {value} daycares in {features.name}",
-                "source": [
+                "sources": [
                   {
                     "name": "Virginia Department of Social Services",
                     "date_accessed": 2021,
@@ -285,7 +300,7 @@ const site = {
                   "lou03",
                   "saxon20"
                 ],
-                "source": [
+                "sources": [
                   {
                     "name": "Virginia Department of Social Services",
                     "date_accessed": 2021,
@@ -317,7 +332,7 @@ const site = {
                 "citations": [
                   "gallardo20"
                 ],
-                "source": [
+                "sources": [
                   {
                     "name": "American Community Survey",
                     "date_accessed": 2021,
@@ -351,7 +366,7 @@ const site = {
                 "short_description": "Count of dentists based on provider locations",
                 "long_description": "Count of dentists based on provider locations. Address data was collected from WebMD's online Physician Directory.",
                 "statement": "There are {value} dentists in {features.name}",
-                "source": [
+                "sources": [
                   {
                     "name": "SafeGraph Core",
                     "date_accessed": 2021,
@@ -386,7 +401,7 @@ const site = {
                   "lou03",
                   "saxon20"
                 ],
-                "source": [
+                "sources": [
                   {
                     "name": "SafeGraph Core",
                     "date_accessed": 2021,
@@ -415,7 +430,7 @@ const site = {
                 "short_description": "Average download speed for internet connection in MB/s",
                 "long_description": "The average download speed for internet users' connections who performed a speed check using Ookla. Speeds are reported in MB/s. A speed of 100 MB/s is considered adequate for school work, video calling etc.",
                 "statement": "The average download speed for internet connections in {features.name} is {value} MB/s",
-                "source": [
+                "sources": [
                   {
                     "name": "Ookla",
                     "date_accessed": 2021,
@@ -444,7 +459,7 @@ const site = {
                 "short_description": "Median drive time (minutes) to the five closest 2-year colleges from centroid of selected region",
                 "long_description": "Median drive time in minutes to the five closest 2-year colleges from centroid of selected region. Address data was collected from the National Center for Education Statistics (Dataset for year 2019). Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
                 "statement": "The median drive time to the five closest 2-year colleges to {features.name} is {value} minutes",
-                "source": [
+                "sources": [
                   {
                     "name": "National Center for Education Statistics",
                     "date_accessed": 2021,
@@ -473,7 +488,7 @@ const site = {
                 "short_description": "Median drive time (minutes) to the five closest day cares from centroid of selected region",
                 "long_description": "Median drive time in minutes to the five closest day cares from centroid of selected region. Address data was collected from the Virginia Department of Social Services Child Day Care Facility search (Dataset for year 2019). Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
                 "statement": "The median drive time to the five closest day cares to {features.name} is {value} minutes",
-                "source": [
+                "sources": [
                   {
                     "name": "Virginia Department of Social Services",
                     "date_accessed": 2021,
@@ -502,7 +517,7 @@ const site = {
                 "short_description": "Mean drive time (minutes) to the five closest trade schools from centroid of selected region",
                 "long_description": "Median drive time in minutes to the five closest trade schools from centroid of selected region. Address data was collected from the National Center for Education Statistics (Dataset for year 2019). Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
                 "statement": "The median drive time to the five closest trade schools to {features.name} is {value} minutes",
-                "source": [
+                "sources": [
                   {
                     "name": "National Center for Education Statistics",
                     "date_accessed": 2021,
@@ -531,7 +546,7 @@ const site = {
                 "short_description": "Average emergency department visits for drug overdose per 100,000 residents.",
                 "long_description": "Average emergency department visits for drug overdose per 100,000 residents.",
                 "statement": "The average emergency department visits for drug overdose rate in {features.name} is {value} per 100,000 residents",
-                "source": [
+                "sources": [
                   {
                     "name": "Virginia Department of Health",
                     "date_accessed": "2021",
@@ -556,7 +571,7 @@ const site = {
                 "short_description": "Median drive time (minutes) to the ten closest emergency medical services facilities",
                 "long_description": "Median drive time in minutes to the ten closest emergency medical services facilities. Facility location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository. Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
                 "statement": "The median drive time to the ten closest emergency medical service facilities to {features.name} is {value} minutes",
-                "source": [
+                "sources": [
                   {
                     "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
                     "date_accessed": 2021,
@@ -591,7 +606,7 @@ const site = {
                   "lou03",
                   "saxon20"
                 ],
-                "source": [
+                "sources": [
                   {
                     "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
                     "date_accessed": 2021,
@@ -620,7 +635,7 @@ const site = {
                 "short_description": "Count of emergency medical services facilities based on facility locations",
                 "long_description": "Count of emergency medical services facilities based on facility locations. Location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository.",
                 "statement": "There are {value} emergency medical services facilities in {features.name}",
-                "source": [
+                "sources": [
                   {
                     "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
                     "date_accessed": 2021,
@@ -647,9 +662,9 @@ const site = {
                 "short_name": "Childhood food insecurity rate",
                 "long_name": "Childhood food insecurity rate",
                 "short_description": "Food insecure children are those children living in households experiencing food insecurity (a lack of access to enough food for an active, healthy life).",
-                "long_description": "Food insecurity refers to USDAâ€™s measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food insecurity refers to USDAâ€™s measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food insecure children are those children living in households experiencing food insecurity.Food-insecure households are not necessarily food insecure all the time. Food insecurity may reflect a householdâ€™s need to make trade-offs between important basic needs, such as housing or medical bills, and purchasing nutritionally adequate foods.",
+                "long_description": "Food insecurity refers to USDA’s measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food insecurity refers to USDA’s measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food insecure children are those children living in households experiencing food insecurity.Food-insecure households are not necessarily food insecure all the time. Food insecurity may reflect a household’s need to make trade-offs between important basic needs, such as housing or medical bills, and purchasing nutritionally adequate foods.",
                 "statement": "The childhood food insecurity rate in {features.name} is {value}",
-                "source": [
+                "sources": [
                   {
                     "name": "Feeding America",
                     "date_accessed": "2021",
@@ -674,7 +689,7 @@ const site = {
                 "short_description": "The average weekly dollar amount food-secure individuals report spending on food.",
                 "long_description": "The average weekly dollar amount food-secure individuals report spending on food, as estimated by the Current Population Survey, divided by 21 (assuming three meals a day, seven days a week). This amount has been adjusted to reflect local food prices and relevant taxes.",
                 "statement": "The average meal cost in {features.name} is {value}",
-                "source": [
+                "sources": [
                   {
                     "name": "Feeding America",
                     "date_accessed": "2021",
@@ -696,10 +711,10 @@ const site = {
                 "type": "percent",
                 "short_name": "Food insecurity rate",
                 "long_name": "Food insecurity rate",
-                "short_description": "Food insecurity refers to USDAâ€™s measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods.",
-                "long_description": "Food insecurity refers to USDAâ€™s measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food-insecure households are not necessarily food insecure all the time. Food insecurity may reflect a householdâ€™s need to make trade-offs between important basic needs, such as housing or medical bills, and purchasing nutritionally adequate foods.",
+                "short_description": "Food insecurity refers to USDA’s measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods.",
+                "long_description": "Food insecurity refers to USDA’s measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food-insecure households are not necessarily food insecure all the time. Food insecurity may reflect a household’s need to make trade-offs between important basic needs, such as housing or medical bills, and purchasing nutritionally adequate foods.",
                 "statement": "The food insecurity rate in {features.name} is {value}",
-                "source": [
+                "sources": [
                   {
                     "name": "Feeding America",
                     "date_accessed": "2021",
@@ -722,9 +737,9 @@ const site = {
                 "short_name": "Population of food insecure children",
                 "long_name": "Count of population of food insecure children",
                 "short_description": "Food insecure children are those children living in households experiencing food insecurity (a lack of access to enough food for an active, healthy life).",
-                "long_description": "Food insecurity refers to USDAâ€™s measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food insecurity refers to USDAâ€™s measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food insecure children are those children living in households experiencing food insecurity.Food-insecure households are not necessarily food insecure all the time. Food insecurity may reflect a householdâ€™s need to make trade-offs between important basic needs, such as housing or medical bills, and purchasing nutritionally adequate foods.",
+                "long_description": "Food insecurity refers to USDA’s measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food insecurity refers to USDA’s measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food insecure children are those children living in households experiencing food insecurity.Food-insecure households are not necessarily food insecure all the time. Food insecurity may reflect a household’s need to make trade-offs between important basic needs, such as housing or medical bills, and purchasing nutritionally adequate foods.",
                 "statement": "The population of food insecure children in {features.name} is {value}",
-                "source": [
+                "sources": [
                   {
                     "name": "Feeding America",
                     "date_accessed": "2021",
@@ -749,7 +764,7 @@ const site = {
                 "short_description": "Percent of the population self-reported to have a computer at home",
                 "long_description": "Percent of the population self-reported to have a computer at home. Based on American Community Survey ACS 2015/2019 5-year estimates.",
                 "statement": "{value} of the population in {features.name} have a computer",
-                "source": [
+                "sources": [
                   {
                     "name": "American Community Survey",
                     "date_accessed": 2021,
@@ -778,7 +793,7 @@ const site = {
                 "short_description": "Percent of the population self-reported to have internet access at home",
                 "long_description": "Percent of the population self-reported to have internet access at home. Based on American Community Survey ACS 2015/2019 5-year estimates.",
                 "statement": "{value} of the population in {features.name} have internet access",
-                "source": [
+                "sources": [
                   {
                     "name": "American Community Survey",
                     "date_accessed": 2021,
@@ -810,7 +825,7 @@ const site = {
                 "citations": [
                   "stavitz20, liang17"
                 ],
-                "source": [
+                "sources": [
                   {
                     "name": "Medical Expenditure Panel Survey",
                     "date_accessed": 2021,
@@ -844,7 +859,7 @@ const site = {
                 "short_description": "Median drive time (minutes) to the ten closest hospital s",
                 "long_description": "Median drive time in minutes to the ten closest hospitals. Facility location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository. Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
                 "statement": "The median drive time to the ten closest hospitals to {features.name} is {value} minutes",
-                "source": [
+                "sources": [
                   {
                     "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
                     "date_accessed": 2021,
@@ -879,7 +894,7 @@ const site = {
                   "lou03",
                   "saxon20"
                 ],
-                "source": [
+                "sources": [
                   {
                     "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
                     "date_accessed": 2021,
@@ -908,7 +923,7 @@ const site = {
                 "short_description": "Count of hospitals based on facility locations",
                 "long_description": "Count of hospitals based on facility locations. Location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository.",
                 "statement": "There are {value} hospitals in {features.name}",
-                "source": [
+                "sources": [
                   {
                     "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
                     "date_accessed": 2021,
@@ -937,7 +952,7 @@ const site = {
                 "short_description": "Median drive time (minutes) to the ten closest mental health services facilities",
                 "long_description": "Median drive time in minutes to the ten closest mental health services facilities. Facility location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository. Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
                 "statement": "The median drive time to the ten closest mental health service facilities to {features.name} is {value} minutes",
-                "source": [
+                "sources": [
                   {
                     "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
                     "date_accessed": 2021,
@@ -972,7 +987,7 @@ const site = {
                   "lou03",
                   "saxon20"
                 ],
-                "source": [
+                "sources": [
                   {
                     "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
                     "date_accessed": 2021,
@@ -1001,7 +1016,7 @@ const site = {
                 "short_description": "Count of mental health facilities based on facility locations",
                 "long_description": "Count of mental health facilities based on facility locations. Location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository.",
                 "statement": "There are {value} mental health facilities in {features.name}",
-                "source": [
+                "sources": [
                   {
                     "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
                     "date_accessed": 2021,
@@ -1030,7 +1045,7 @@ const site = {
                 "short_description": "Percent of the population (ages 16-64) self-reported to not be currently covered by any type of health insurance or health coverage plan",
                 "long_description": "Percent of the population self-reported to not be currently covered by any type of health insurance or health coverage plan. Based on American Community Survey Tables B18135 and C27001I in ACS 2015/2019 5-year estimates.",
                 "statement": "{value} of the population has no health insurance in  {features.name}",
-                "source": [
+                "sources": [
                   {
                     "name": "American Community Survey",
                     "date_accessed": 2021,
@@ -1059,7 +1074,7 @@ const site = {
                 "short_description": "Count of OBGYNs based on provider locations",
                 "long_description": "Count of OBGYN care providers based on provider locations. Address data was collected from WebMD's online Physician Directory.",
                 "statement": "There are {value} OBGYNs in {features.name}",
-                "source": [
+                "sources": [
                   {
                     "name": "WebMD Physician Directory",
                     "date_accessed": 2021,
@@ -1094,7 +1109,7 @@ const site = {
                   "lou03",
                   "saxon20"
                 ],
-                "source": [
+                "sources": [
                   {
                     "name": "WebMD Physician Directory",
                     "date_accessed": 2021,
@@ -1123,7 +1138,7 @@ const site = {
                 "short_description": "Percent of population self-reported to have a broadband internet connection (any type of internet other than a dial-up)",
                 "long_description": "Percent of population self-reported to have a broadband internet connection. Broadband internet is defined as any type of internet other than a dial-up. Based on American Community Survey ACS 2015/2019 5-year estimates.",
                 "statement": "{value} of the population in {features.name} has a broadband connection",
-                "source": [
+                "sources": [
                   {
                     "name": "American Community Survey",
                     "date_accessed": 2021,
@@ -1152,7 +1167,7 @@ const site = {
                 "short_description": "Percent of population self-reported to have a high speed internet service (cable, fiber optic, or DSL)",
                 "long_description": "Percent of population self-reported to have a high speed internet service. A high speed internet service is defined as a cable, fiber optic, or DSL internet connection. Based on American Community Survey ACS 2015/2019 5-year estimates.",
                 "statement": "{value} of the population in {features.name} has a cable fiber or DSL internet connection",
-                "source": [
+                "sources": [
                   {
                     "name": "American Community Survey",
                     "date_accessed": 2021,
@@ -1181,7 +1196,7 @@ const site = {
                 "short_description": "Count of pediatricians based on provider locations",
                 "long_description": "Count of pediatricians based on provider locations. Address data was collected from WebMD's online Physician Directory.",
                 "statement": "There are {value} pediatricians in {features.name}",
-                "source": [
+                "sources": [
                   {
                     "name": "WebMD Physician Directory",
                     "date_accessed": 2021,
@@ -1216,7 +1231,7 @@ const site = {
                   "lou03",
                   "saxon20"
                 ],
-                "source": [
+                "sources": [
                   {
                     "name": "WebMD Physician Directory",
                     "date_accessed": 2021,
@@ -1245,7 +1260,7 @@ const site = {
                 "short_description": "The national average price for internet ($64) as a percent of average income",
                 "long_description": "The national average price for internet ($64) as a percent of average income.",
                 "statement": "The national average internet package costs {value} of the average income in {features.name}",
-                "source": [
+                "sources": [
                   {
                     "name": "American Community Survey",
                     "date_accessed": 2021,
@@ -1279,7 +1294,7 @@ const site = {
                 "short_description": "The minimum price for fast internet (100 MB/s upload) as a percent of average income",
                 "long_description": "The minimum price for fast internet (100 MB/s upload) as a percent of average income.",
                 "statement": "Fast internet costs {value} of the average income in {features.name}",
-                "source": [
+                "sources": [
                   {
                     "name": "American Community Survey",
                     "date_accessed": 2021,
@@ -1313,7 +1328,7 @@ const site = {
                 "short_description": "The minimum price for good internet (25 MB/s upload) as a percent of average income",
                 "long_description": "The minimum price for good internet (25 MB/s upload) as a percent of average income.",
                 "statement": "Good internet costs {value} of the average income in {features.name}",
-                "source": [
+                "sources": [
                   {
                     "name": "American Community Survey",
                     "date_accessed": 2021,
@@ -1347,7 +1362,7 @@ const site = {
                 "short_description": "Percent of the population self-reporting poor mental health",
                 "long_description": "Percent of the population self-reporting poor mental health in over 14 days of the previous month. Based on the Virginia Behavioral Risk Factor Surveillance Survey.",
                 "statement": "{value} of the population in {features.name} report poor mental health",
-                "source": [
+                "sources": [
                   {
                     "name": "Virginia Behavioral Risk Factor Surveillance System",
                     "date_accessed": 2021,
@@ -1376,7 +1391,7 @@ const site = {
                 "short_description": "Percent of the population self-reporting poor physical health",
                 "long_description": "Percent of the population self-reporting poor physical health in over 14 days of the previous month. Based on the Virginia Behavioral Risk Factor Surveillance Survey.",
                 "statement": "{value} of the population in {features.name} report poor physical health",
-                "source": [
+                "sources": [
                   {
                     "name": "Virginia Behavioral Risk Factor Surveillance System",
                     "date_accessed": 2021,
@@ -1405,7 +1420,7 @@ const site = {
                 "short_description": "Percent of the population self-reported to have post-high school level degree",
                 "long_description": "Percent of the population self-reported to have post-high school level degree. Based on American Community Survey Table B15003 in ACS 2015/2019 5-year estimates.",
                 "statement": "{value} of the population in {features.name} have a post-high school education",
-                "source": [
+                "sources": [
                   {
                     "name": "American Community Survey",
                     "date_accessed": 2021,
@@ -1434,7 +1449,7 @@ const site = {
                 "short_description": "Rate of hospital stays for ambulatory-care sensitive conditions per 100,000 Medicare enrollees",
                 "long_description": "Rate of hospital stays for ambulatory-care sensitive conditions per 100,000 Medicare enrollees. Ambulatory care refers to diagnoses that are usually treatable in outpatient settings. This data is based on Medicare claims and comes from County Health Rankings.",
                 "statement": "{value} of the hospitalizations in {features.name}  were preventable (due to conditions usually treated in outpatient settings)",
-                "source": [
+                "sources": [
                   {
                     "name": "County Health Rankings",
                     "date_accessed": 2021,
@@ -1459,7 +1474,7 @@ const site = {
                 "short_description": "Count of primary care physicians based on provider locations",
                 "long_description": "Count of primary care physicians based on provider locations. Address data was collected from WebMD's online Physician Directory.",
                 "statement": "There are {value} primary care physicians in {features.name}",
-                "source": [
+                "sources": [
                   {
                     "name": "WebMD Physician Directory",
                     "date_accessed": 2021,
@@ -1494,7 +1509,7 @@ const site = {
                   "lou03",
                   "saxon20"
                 ],
-                "source": [
+                "sources": [
                   {
                     "name": "WebMD Physician Directory",
                     "date_accessed": 2021,
@@ -1523,7 +1538,7 @@ const site = {
                 "short_description": "Median drive time (minutes) to the ten closest substance use/behavioral health services facilities",
                 "long_description": "Median drive time in minutes to the ten closest substance use/behavioral health services facilities. Facility location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository. Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
                 "statement": "The median drive time to the ten closest substance use/behavioral health service facilities to {features.name} is {value} minutes",
-                "source": [
+                "sources": [
                   {
                     "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
                     "date_accessed": 2021,
@@ -1558,7 +1573,7 @@ const site = {
                   "lou03",
                   "saxon20"
                 ],
-                "source": [
+                "sources": [
                   {
                     "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
                     "date_accessed": 2021,
@@ -1587,7 +1602,7 @@ const site = {
                 "short_description": "Count of substance use/behavioral health facilities based on facility locations",
                 "long_description": "Count of substance use/behavioral health facilities based on facility locations. Location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository.",
                 "statement": "There are {value} substance use facilities in {features.name}",
-                "source": [
+                "sources": [
                   {
                     "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
                     "date_accessed": 2021,
@@ -1601,21 +1616,6 @@ const site = {
               "sd": 0.3804,
               "min": 1,
               "max": 3
-            },
-            {
-              "name": "time",
-              "duplicates": 22872,
-              "info": {
-                "type": "year",
-                "short_name": "Year",
-                "full_name": "time"
-              },
-              "type": "integer",
-              "missing": 0,
-              "mean": 2015.5,
-              "sd": 3.4521,
-              "min": 2010,
-              "max": 2021
             },
             {
               "name": "trade_schools_access_scores:norm_3sfca",
@@ -1637,7 +1637,7 @@ const site = {
                   "lou03",
                   "saxon20"
                 ],
-                "source": [
+                "sources": [
                   {
                     "name": "National Center for Education Statistics",
                     "date_accessed": 2021,
@@ -1661,15 +1661,16 @@ const site = {
                 "full_name": "earnings_per_job:earnings_per_job",
                 "measure": "earnings_per_job",
                 "type": "ratio",
-                "short_name": "Earnings per job",
+                "short_name": "Average of earnings per job",
                 "long_name": "Earnings per job",
                 "short_description": "Earnings per job.",
-                "long_description": "Earnings per job.",
+                "long_description": "Earnings per job is calculated based on the GDP and Personal Income table from the Bureau of Economic Analysis.",
                 "statement": "Earnings per job in {features.name} is ${value}",
-                "source": [
+                "sources": [
                   {
                     "name": "Bureau of Economic Analysis",
-                    "date_accessed": "2021"
+                    "date_accessed": "2021",
+                    "url": "https://apps.bea.gov/iTable/iTable.cfm?reqid=70&step=1&acrdn=6"
                   }
                 ]
               },
@@ -1858,11 +1859,26 @@ const site = {
         ],
         "time": "time",
         "profile": "data-resource",
-        "created": "2022-01-28 18:08:42",
+        "created": "2022-02-02 12:30:41",
         "last_modified": "2021-11-29 21:36:30",
         "rowcount": 1884,
         "schema": {
           "fields": [
+            {
+              "name": "time",
+              "duplicates": 1872,
+              "info": {
+                "type": "year",
+                "short_name": "Year",
+                "full_name": "time"
+              },
+              "type": "integer",
+              "missing": 0,
+              "mean": 2015.5,
+              "sd": 3.453,
+              "min": 2010,
+              "max": 2021
+            },
             {
               "name": "2year_colleges_access_scores:norm_3sfca",
               "duplicates": 1775,
@@ -1883,7 +1899,7 @@ const site = {
                   "lou03",
                   "saxon20"
                 ],
-                "source": [
+                "sources": [
                   {
                     "name": "National Center for Education Statistics",
                     "date_accessed": 2021,
@@ -1912,7 +1928,7 @@ const site = {
                 "short_description": "Median percent of 3rd grade population passing reading test for schools in the region",
                 "long_description": "Median percent of 3rd grade population passing reading test. The median is calculated across schools in the region.",
                 "statement": "The median percent of 3rd graders with passing reading scores in {features.name} is {value}",
-                "source": [
+                "sources": [
                   {
                     "name": "Virginia Department of Education",
                     "date_accessed": 2021,
@@ -1941,7 +1957,7 @@ const site = {
                 "short_description": "Population self-reported as employed divided by total civilian workforce population.",
                 "long_description": "Population self-reported as employed divided by total civilian workforce population. Based on American Community Survey Table B23025 ACS 2015/2019 5-year estimates.",
                 "statement": "The employment rate in {features.name} is {value}",
-                "source": [
+                "sources": [
                   {
                     "name": "American Community Survey",
                     "date_accessed": "2021",
@@ -1976,7 +1992,7 @@ const site = {
                   "lou03",
                   "saxon20"
                 ],
-                "source": [
+                "sources": [
                   {
                     "name": "National Center for Education Statistics",
                     "date_accessed": 2021,
@@ -2011,7 +2027,7 @@ const site = {
                   "lou03",
                   "saxon20"
                 ],
-                "source": [
+                "sources": [
                   {
                     "name": "National Center for Education Statistics",
                     "date_accessed": 2021,
@@ -2046,7 +2062,7 @@ const site = {
                   "lou03",
                   "saxon20"
                 ],
-                "source": [
+                "sources": [
                   {
                     "name": "National Center for Education Statistics",
                     "date_accessed": 2021,
@@ -2075,7 +2091,7 @@ const site = {
                 "short_description": "Count of day care capacity (seats) based on provider locations",
                 "long_description": "Count of day care capacity (seats) based on provider locations. Address and capacity data was collected from Virginia Department of Social Services day care search tool.",
                 "statement": "There are {value} daycares in {features.name}",
-                "source": [
+                "sources": [
                   {
                     "name": "Virginia Department of Social Services",
                     "date_accessed": 2021,
@@ -2110,7 +2126,7 @@ const site = {
                   "lou03",
                   "saxon20"
                 ],
-                "source": [
+                "sources": [
                   {
                     "name": "Virginia Department of Social Services",
                     "date_accessed": 2021,
@@ -2142,7 +2158,7 @@ const site = {
                 "citations": [
                   "gallardo20"
                 ],
-                "source": [
+                "sources": [
                   {
                     "name": "American Community Survey",
                     "date_accessed": 2021,
@@ -2176,7 +2192,7 @@ const site = {
                 "short_description": "Count of dentists based on provider locations",
                 "long_description": "Count of dentists based on provider locations. Address data was collected from WebMD's online Physician Directory.",
                 "statement": "There are {value} dentists in {features.name}",
-                "source": [
+                "sources": [
                   {
                     "name": "SafeGraph Core",
                     "date_accessed": 2021,
@@ -2211,7 +2227,7 @@ const site = {
                   "lou03",
                   "saxon20"
                 ],
-                "source": [
+                "sources": [
                   {
                     "name": "SafeGraph Core",
                     "date_accessed": 2021,
@@ -2240,7 +2256,7 @@ const site = {
                 "short_description": "Average download speed for internet connection in MB/s",
                 "long_description": "The average download speed for internet users' connections who performed a speed check using Ookla. Speeds are reported in MB/s. A speed of 100 MB/s is considered adequate for school work, video calling etc.",
                 "statement": "The average download speed for internet connections in {features.name} is {value} MB/s",
-                "source": [
+                "sources": [
                   {
                     "name": "Ookla",
                     "date_accessed": 2021,
@@ -2269,7 +2285,7 @@ const site = {
                 "short_description": "Median drive time (minutes) to the five closest 2-year colleges from centroid of selected region",
                 "long_description": "Median drive time in minutes to the five closest 2-year colleges from centroid of selected region. Address data was collected from the National Center for Education Statistics (Dataset for year 2019). Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
                 "statement": "The median drive time to the five closest 2-year colleges to {features.name} is {value} minutes",
-                "source": [
+                "sources": [
                   {
                     "name": "National Center for Education Statistics",
                     "date_accessed": 2021,
@@ -2298,7 +2314,7 @@ const site = {
                 "short_description": "Median drive time (minutes) to the five closest day cares from centroid of selected region",
                 "long_description": "Median drive time in minutes to the five closest day cares from centroid of selected region. Address data was collected from the Virginia Department of Social Services Child Day Care Facility search (Dataset for year 2019). Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
                 "statement": "The median drive time to the five closest day cares to {features.name} is {value} minutes",
-                "source": [
+                "sources": [
                   {
                     "name": "Virginia Department of Social Services",
                     "date_accessed": 2021,
@@ -2327,7 +2343,7 @@ const site = {
                 "short_description": "Mean drive time (minutes) to the five closest trade schools from centroid of selected region",
                 "long_description": "Median drive time in minutes to the five closest trade schools from centroid of selected region. Address data was collected from the National Center for Education Statistics (Dataset for year 2019). Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
                 "statement": "The median drive time to the five closest trade schools to {features.name} is {value} minutes",
-                "source": [
+                "sources": [
                   {
                     "name": "National Center for Education Statistics",
                     "date_accessed": 2021,
@@ -2356,7 +2372,7 @@ const site = {
                 "short_description": "Average emergency department visits for drug overdose per 100,000 residents.",
                 "long_description": "Average emergency department visits for drug overdose per 100,000 residents.",
                 "statement": "The average emergency department visits for drug overdose rate in {features.name} is {value} per 100,000 residents",
-                "source": [
+                "sources": [
                   {
                     "name": "Virginia Department of Health",
                     "date_accessed": "2021",
@@ -2385,7 +2401,7 @@ const site = {
                 "short_description": "Median drive time (minutes) to the ten closest emergency medical services facilities",
                 "long_description": "Median drive time in minutes to the ten closest emergency medical services facilities. Facility location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository. Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
                 "statement": "The median drive time to the ten closest emergency medical service facilities to {features.name} is {value} minutes",
-                "source": [
+                "sources": [
                   {
                     "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
                     "date_accessed": 2021,
@@ -2416,7 +2432,7 @@ const site = {
                   "lou03",
                   "saxon20"
                 ],
-                "source": [
+                "sources": [
                   {
                     "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
                     "date_accessed": 2021,
@@ -2445,7 +2461,7 @@ const site = {
                 "short_description": "Count of emergency medical services facilities based on facility locations",
                 "long_description": "Count of emergency medical services facilities based on facility locations. Location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository.",
                 "statement": "There are {value} emergency medical services facilities in {features.name}",
-                "source": [
+                "sources": [
                   {
                     "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
                     "date_accessed": 2021,
@@ -2472,9 +2488,9 @@ const site = {
                 "short_name": "Childhood food insecurity rate",
                 "long_name": "Childhood food insecurity rate",
                 "short_description": "Food insecure children are those children living in households experiencing food insecurity (a lack of access to enough food for an active, healthy life).",
-                "long_description": "Food insecurity refers to USDAâ€™s measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food insecurity refers to USDAâ€™s measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food insecure children are those children living in households experiencing food insecurity.Food-insecure households are not necessarily food insecure all the time. Food insecurity may reflect a householdâ€™s need to make trade-offs between important basic needs, such as housing or medical bills, and purchasing nutritionally adequate foods.",
+                "long_description": "Food insecurity refers to USDA’s measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food insecurity refers to USDA’s measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food insecure children are those children living in households experiencing food insecurity.Food-insecure households are not necessarily food insecure all the time. Food insecurity may reflect a household’s need to make trade-offs between important basic needs, such as housing or medical bills, and purchasing nutritionally adequate foods.",
                 "statement": "The childhood food insecurity rate in {features.name} is {value}",
-                "source": [
+                "sources": [
                   {
                     "name": "Feeding America",
                     "date_accessed": "2021",
@@ -2503,7 +2519,7 @@ const site = {
                 "short_description": "The average weekly dollar amount food-secure individuals report spending on food.",
                 "long_description": "The average weekly dollar amount food-secure individuals report spending on food, as estimated by the Current Population Survey, divided by 21 (assuming three meals a day, seven days a week). This amount has been adjusted to reflect local food prices and relevant taxes.",
                 "statement": "The average meal cost in {features.name} is {value}",
-                "source": [
+                "sources": [
                   {
                     "name": "Feeding America",
                     "date_accessed": "2021",
@@ -2529,10 +2545,10 @@ const site = {
                 "type": "percent",
                 "short_name": "Food insecurity rate",
                 "long_name": "Food insecurity rate",
-                "short_description": "Food insecurity refers to USDAâ€™s measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods.",
-                "long_description": "Food insecurity refers to USDAâ€™s measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food-insecure households are not necessarily food insecure all the time. Food insecurity may reflect a householdâ€™s need to make trade-offs between important basic needs, such as housing or medical bills, and purchasing nutritionally adequate foods.",
+                "short_description": "Food insecurity refers to USDA’s measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods.",
+                "long_description": "Food insecurity refers to USDA’s measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food-insecure households are not necessarily food insecure all the time. Food insecurity may reflect a household’s need to make trade-offs between important basic needs, such as housing or medical bills, and purchasing nutritionally adequate foods.",
                 "statement": "The food insecurity rate in {features.name} is {value}",
-                "source": [
+                "sources": [
                   {
                     "name": "Feeding America",
                     "date_accessed": "2021",
@@ -2559,9 +2575,9 @@ const site = {
                 "short_name": "Population of food insecure children",
                 "long_name": "Count of population of food insecure children",
                 "short_description": "Food insecure children are those children living in households experiencing food insecurity (a lack of access to enough food for an active, healthy life).",
-                "long_description": "Food insecurity refers to USDAâ€™s measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food insecurity refers to USDAâ€™s measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food insecure children are those children living in households experiencing food insecurity.Food-insecure households are not necessarily food insecure all the time. Food insecurity may reflect a householdâ€™s need to make trade-offs between important basic needs, such as housing or medical bills, and purchasing nutritionally adequate foods.",
+                "long_description": "Food insecurity refers to USDA’s measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food insecurity refers to USDA’s measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food insecure children are those children living in households experiencing food insecurity.Food-insecure households are not necessarily food insecure all the time. Food insecurity may reflect a household’s need to make trade-offs between important basic needs, such as housing or medical bills, and purchasing nutritionally adequate foods.",
                 "statement": "The population of food insecure children in {features.name} is {value}",
-                "source": [
+                "sources": [
                   {
                     "name": "Feeding America",
                     "date_accessed": "2021",
@@ -2590,7 +2606,7 @@ const site = {
                 "short_description": "Percent of the population self-reported to have a computer at home",
                 "long_description": "Percent of the population self-reported to have a computer at home. Based on American Community Survey ACS 2015/2019 5-year estimates.",
                 "statement": "{value} of the population in {features.name} have a computer",
-                "source": [
+                "sources": [
                   {
                     "name": "American Community Survey",
                     "date_accessed": 2021,
@@ -2619,7 +2635,7 @@ const site = {
                 "short_description": "Percent of the population self-reported to have internet access at home",
                 "long_description": "Percent of the population self-reported to have internet access at home. Based on American Community Survey ACS 2015/2019 5-year estimates.",
                 "statement": "{value} of the population in {features.name} have internet access",
-                "source": [
+                "sources": [
                   {
                     "name": "American Community Survey",
                     "date_accessed": 2021,
@@ -2651,7 +2667,7 @@ const site = {
                 "citations": [
                   "stavitz20, liang17"
                 ],
-                "source": [
+                "sources": [
                   {
                     "name": "Medical Expenditure Panel Survey",
                     "date_accessed": 2021,
@@ -2685,7 +2701,7 @@ const site = {
                 "short_description": "Median drive time (minutes) to the ten closest hospital s",
                 "long_description": "Median drive time in minutes to the ten closest hospitals. Facility location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository. Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
                 "statement": "The median drive time to the ten closest hospitals to {features.name} is {value} minutes",
-                "source": [
+                "sources": [
                   {
                     "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
                     "date_accessed": 2021,
@@ -2716,7 +2732,7 @@ const site = {
                   "lou03",
                   "saxon20"
                 ],
-                "source": [
+                "sources": [
                   {
                     "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
                     "date_accessed": 2021,
@@ -2745,7 +2761,7 @@ const site = {
                 "short_description": "Count of hospitals based on facility locations",
                 "long_description": "Count of hospitals based on facility locations. Location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository.",
                 "statement": "There are {value} hospitals in {features.name}",
-                "source": [
+                "sources": [
                   {
                     "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
                     "date_accessed": 2021,
@@ -2774,7 +2790,7 @@ const site = {
                 "short_description": "Median drive time (minutes) to the ten closest mental health services facilities",
                 "long_description": "Median drive time in minutes to the ten closest mental health services facilities. Facility location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository. Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
                 "statement": "The median drive time to the ten closest mental health service facilities to {features.name} is {value} minutes",
-                "source": [
+                "sources": [
                   {
                     "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
                     "date_accessed": 2021,
@@ -2805,7 +2821,7 @@ const site = {
                   "lou03",
                   "saxon20"
                 ],
-                "source": [
+                "sources": [
                   {
                     "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
                     "date_accessed": 2021,
@@ -2834,7 +2850,7 @@ const site = {
                 "short_description": "Count of mental health facilities based on facility locations",
                 "long_description": "Count of mental health facilities based on facility locations. Location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository.",
                 "statement": "There are {value} mental health facilities in {features.name}",
-                "source": [
+                "sources": [
                   {
                     "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
                     "date_accessed": 2021,
@@ -2863,7 +2879,7 @@ const site = {
                 "short_description": "Percent of the population (ages 16-64) self-reported to not be currently covered by any type of health insurance or health coverage plan",
                 "long_description": "Percent of the population self-reported to not be currently covered by any type of health insurance or health coverage plan. Based on American Community Survey Tables B18135 and C27001I in ACS 2015/2019 5-year estimates.",
                 "statement": "{value} of the population has no health insurance in  {features.name}",
-                "source": [
+                "sources": [
                   {
                     "name": "American Community Survey",
                     "date_accessed": 2021,
@@ -2892,7 +2908,7 @@ const site = {
                 "short_description": "Count of OBGYNs based on provider locations",
                 "long_description": "Count of OBGYN care providers based on provider locations. Address data was collected from WebMD's online Physician Directory.",
                 "statement": "There are {value} OBGYNs in {features.name}",
-                "source": [
+                "sources": [
                   {
                     "name": "WebMD Physician Directory",
                     "date_accessed": 2021,
@@ -2927,7 +2943,7 @@ const site = {
                   "lou03",
                   "saxon20"
                 ],
-                "source": [
+                "sources": [
                   {
                     "name": "WebMD Physician Directory",
                     "date_accessed": 2021,
@@ -2956,7 +2972,7 @@ const site = {
                 "short_description": "Percent of population self-reported to have a broadband internet connection (any type of internet other than a dial-up)",
                 "long_description": "Percent of population self-reported to have a broadband internet connection. Broadband internet is defined as any type of internet other than a dial-up. Based on American Community Survey ACS 2015/2019 5-year estimates.",
                 "statement": "{value} of the population in {features.name} has a broadband connection",
-                "source": [
+                "sources": [
                   {
                     "name": "American Community Survey",
                     "date_accessed": 2021,
@@ -2985,7 +3001,7 @@ const site = {
                 "short_description": "Percent of population self-reported to have a high speed internet service (cable, fiber optic, or DSL)",
                 "long_description": "Percent of population self-reported to have a high speed internet service. A high speed internet service is defined as a cable, fiber optic, or DSL internet connection. Based on American Community Survey ACS 2015/2019 5-year estimates.",
                 "statement": "{value} of the population in {features.name} has a cable fiber or DSL internet connection",
-                "source": [
+                "sources": [
                   {
                     "name": "American Community Survey",
                     "date_accessed": 2021,
@@ -3014,7 +3030,7 @@ const site = {
                 "short_description": "Count of pediatricians based on provider locations",
                 "long_description": "Count of pediatricians based on provider locations. Address data was collected from WebMD's online Physician Directory.",
                 "statement": "There are {value} pediatricians in {features.name}",
-                "source": [
+                "sources": [
                   {
                     "name": "WebMD Physician Directory",
                     "date_accessed": 2021,
@@ -3049,7 +3065,7 @@ const site = {
                   "lou03",
                   "saxon20"
                 ],
-                "source": [
+                "sources": [
                   {
                     "name": "WebMD Physician Directory",
                     "date_accessed": 2021,
@@ -3078,7 +3094,7 @@ const site = {
                 "short_description": "The national average price for internet ($64) as a percent of average income",
                 "long_description": "The national average price for internet ($64) as a percent of average income.",
                 "statement": "The national average internet package costs {value} of the average income in {features.name}",
-                "source": [
+                "sources": [
                   {
                     "name": "American Community Survey",
                     "date_accessed": 2021,
@@ -3112,7 +3128,7 @@ const site = {
                 "short_description": "The minimum price for fast internet (100 MB/s upload) as a percent of average income",
                 "long_description": "The minimum price for fast internet (100 MB/s upload) as a percent of average income.",
                 "statement": "Fast internet costs {value} of the average income in {features.name}",
-                "source": [
+                "sources": [
                   {
                     "name": "American Community Survey",
                     "date_accessed": 2021,
@@ -3146,7 +3162,7 @@ const site = {
                 "short_description": "The minimum price for good internet (25 MB/s upload) as a percent of average income",
                 "long_description": "The minimum price for good internet (25 MB/s upload) as a percent of average income.",
                 "statement": "Good internet costs {value} of the average income in {features.name}",
-                "source": [
+                "sources": [
                   {
                     "name": "American Community Survey",
                     "date_accessed": 2021,
@@ -3180,7 +3196,7 @@ const site = {
                 "short_description": "Percent of the population self-reporting poor mental health",
                 "long_description": "Percent of the population self-reporting poor mental health in over 14 days of the previous month. Based on the Virginia Behavioral Risk Factor Surveillance Survey.",
                 "statement": "{value} of the population in {features.name} report poor mental health",
-                "source": [
+                "sources": [
                   {
                     "name": "Virginia Behavioral Risk Factor Surveillance System",
                     "date_accessed": 2021,
@@ -3209,7 +3225,7 @@ const site = {
                 "short_description": "Percent of the population self-reporting poor physical health",
                 "long_description": "Percent of the population self-reporting poor physical health in over 14 days of the previous month. Based on the Virginia Behavioral Risk Factor Surveillance Survey.",
                 "statement": "{value} of the population in {features.name} report poor physical health",
-                "source": [
+                "sources": [
                   {
                     "name": "Virginia Behavioral Risk Factor Surveillance System",
                     "date_accessed": 2021,
@@ -3238,7 +3254,7 @@ const site = {
                 "short_description": "Percent of the population self-reported to have post-high school level degree",
                 "long_description": "Percent of the population self-reported to have post-high school level degree. Based on American Community Survey Table B15003 in ACS 2015/2019 5-year estimates.",
                 "statement": "{value} of the population in {features.name} have a post-high school education",
-                "source": [
+                "sources": [
                   {
                     "name": "American Community Survey",
                     "date_accessed": 2021,
@@ -3267,7 +3283,7 @@ const site = {
                 "short_description": "Rate of hospital stays for ambulatory-care sensitive conditions per 100,000 Medicare enrollees",
                 "long_description": "Rate of hospital stays for ambulatory-care sensitive conditions per 100,000 Medicare enrollees. Ambulatory care refers to diagnoses that are usually treatable in outpatient settings. This data is based on Medicare claims and comes from County Health Rankings.",
                 "statement": "{value} of the hospitalizations in {features.name}  were preventable (due to conditions usually treated in outpatient settings)",
-                "source": [
+                "sources": [
                   {
                     "name": "County Health Rankings",
                     "date_accessed": 2021,
@@ -3296,7 +3312,7 @@ const site = {
                 "short_description": "Count of primary care physicians based on provider locations",
                 "long_description": "Count of primary care physicians based on provider locations. Address data was collected from WebMD's online Physician Directory.",
                 "statement": "There are {value} primary care physicians in {features.name}",
-                "source": [
+                "sources": [
                   {
                     "name": "WebMD Physician Directory",
                     "date_accessed": 2021,
@@ -3331,7 +3347,7 @@ const site = {
                   "lou03",
                   "saxon20"
                 ],
-                "source": [
+                "sources": [
                   {
                     "name": "WebMD Physician Directory",
                     "date_accessed": 2021,
@@ -3360,7 +3376,7 @@ const site = {
                 "short_description": "Median drive time (minutes) to the ten closest substance use/behavioral health services facilities",
                 "long_description": "Median drive time in minutes to the ten closest substance use/behavioral health services facilities. Facility location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository. Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
                 "statement": "The median drive time to the ten closest substance use/behavioral health service facilities to {features.name} is {value} minutes",
-                "source": [
+                "sources": [
                   {
                     "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
                     "date_accessed": 2021,
@@ -3391,7 +3407,7 @@ const site = {
                   "lou03",
                   "saxon20"
                 ],
-                "source": [
+                "sources": [
                   {
                     "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
                     "date_accessed": 2021,
@@ -3420,7 +3436,7 @@ const site = {
                 "short_description": "Count of substance use/behavioral health facilities based on facility locations",
                 "long_description": "Count of substance use/behavioral health facilities based on facility locations. Location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository.",
                 "statement": "There are {value} substance use facilities in {features.name}",
-                "source": [
+                "sources": [
                   {
                     "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
                     "date_accessed": 2021,
@@ -3434,21 +3450,6 @@ const site = {
               "sd": 2.3179,
               "min": 0,
               "max": 19
-            },
-            {
-              "name": "time",
-              "duplicates": 1872,
-              "info": {
-                "type": "year",
-                "short_name": "Year",
-                "full_name": "time"
-              },
-              "type": "integer",
-              "missing": 0,
-              "mean": 2015.5,
-              "sd": 3.453,
-              "min": 2010,
-              "max": 2021
             },
             {
               "name": "trade_schools_access_scores:norm_3sfca",
@@ -3470,7 +3471,7 @@ const site = {
                   "lou03",
                   "saxon20"
                 ],
-                "source": [
+                "sources": [
                   {
                     "name": "National Center for Education Statistics",
                     "date_accessed": 2021,
@@ -3494,15 +3495,16 @@ const site = {
                 "full_name": "earnings_per_job:earnings_per_job",
                 "measure": "earnings_per_job",
                 "type": "ratio",
-                "short_name": "Earnings per job",
+                "short_name": "Average of earnings per job",
                 "long_name": "Earnings per job",
                 "short_description": "Earnings per job.",
-                "long_description": "Earnings per job.",
+                "long_description": "Earnings per job is calculated based on the GDP and Personal Income table from the Bureau of Economic Analysis.",
                 "statement": "Earnings per job in {features.name} is ${value}",
-                "source": [
+                "sources": [
                   {
                     "name": "Bureau of Economic Analysis",
-                    "date_accessed": "2021"
+                    "date_accessed": "2021",
+                    "url": "https://apps.bea.gov/iTable/iTable.cfm?reqid=70&step=1&acrdn=6"
                   }
                 ]
               },
@@ -3695,11 +3697,26 @@ const site = {
         ],
         "time": "time",
         "profile": "data-resource",
-        "created": "2022-01-28 18:08:45",
+        "created": "2022-02-02 12:30:44",
         "last_modified": "2021-11-29 21:36:30",
         "rowcount": 420,
         "schema": {
           "fields": [
+            {
+              "name": "time",
+              "duplicates": 408,
+              "info": {
+                "type": "year",
+                "short_name": "Year",
+                "full_name": "time"
+              },
+              "type": "integer",
+              "missing": 0,
+              "mean": 2015.5,
+              "sd": 3.4562,
+              "min": 2010,
+              "max": 2021
+            },
             {
               "name": "2year_colleges_access_scores:norm_3sfca",
               "duplicates": 385,
@@ -3720,7 +3737,7 @@ const site = {
                   "lou03",
                   "saxon20"
                 ],
-                "source": [
+                "sources": [
                   {
                     "name": "National Center for Education Statistics",
                     "date_accessed": 2021,
@@ -3749,7 +3766,7 @@ const site = {
                 "short_description": "Median percent of 3rd grade population passing reading test for schools in the region",
                 "long_description": "Median percent of 3rd grade population passing reading test. The median is calculated across schools in the region.",
                 "statement": "The median percent of 3rd graders with passing reading scores in {features.name} is {value}",
-                "source": [
+                "sources": [
                   {
                     "name": "Virginia Department of Education",
                     "date_accessed": 2021,
@@ -3778,7 +3795,7 @@ const site = {
                 "short_description": "Population self-reported as employed divided by total civilian workforce population.",
                 "long_description": "Population self-reported as employed divided by total civilian workforce population. Based on American Community Survey Table B23025 ACS 2015/2019 5-year estimates.",
                 "statement": "The employment rate in {features.name} is {value}",
-                "source": [
+                "sources": [
                   {
                     "name": "American Community Survey",
                     "date_accessed": "2021",
@@ -3809,7 +3826,7 @@ const site = {
                   "lou03",
                   "saxon20"
                 ],
-                "source": [
+                "sources": [
                   {
                     "name": "National Center for Education Statistics",
                     "date_accessed": 2021,
@@ -3840,7 +3857,7 @@ const site = {
                   "lou03",
                   "saxon20"
                 ],
-                "source": [
+                "sources": [
                   {
                     "name": "National Center for Education Statistics",
                     "date_accessed": 2021,
@@ -3871,7 +3888,7 @@ const site = {
                   "lou03",
                   "saxon20"
                 ],
-                "source": [
+                "sources": [
                   {
                     "name": "National Center for Education Statistics",
                     "date_accessed": 2021,
@@ -3896,7 +3913,7 @@ const site = {
                 "short_description": "Count of day care capacity (seats) based on provider locations",
                 "long_description": "Count of day care capacity (seats) based on provider locations. Address and capacity data was collected from Virginia Department of Social Services day care search tool.",
                 "statement": "There are {value} daycares in {features.name}",
-                "source": [
+                "sources": [
                   {
                     "name": "Virginia Department of Social Services",
                     "date_accessed": 2021,
@@ -3931,7 +3948,7 @@ const site = {
                   "lou03",
                   "saxon20"
                 ],
-                "source": [
+                "sources": [
                   {
                     "name": "Virginia Department of Social Services",
                     "date_accessed": 2021,
@@ -3963,7 +3980,7 @@ const site = {
                 "citations": [
                   "gallardo20"
                 ],
-                "source": [
+                "sources": [
                   {
                     "name": "American Community Survey",
                     "date_accessed": 2021,
@@ -3997,7 +4014,7 @@ const site = {
                 "short_description": "Count of dentists based on provider locations",
                 "long_description": "Count of dentists based on provider locations. Address data was collected from WebMD's online Physician Directory.",
                 "statement": "There are {value} dentists in {features.name}",
-                "source": [
+                "sources": [
                   {
                     "name": "SafeGraph Core",
                     "date_accessed": 2021,
@@ -4032,7 +4049,7 @@ const site = {
                   "lou03",
                   "saxon20"
                 ],
-                "source": [
+                "sources": [
                   {
                     "name": "SafeGraph Core",
                     "date_accessed": 2021,
@@ -4061,7 +4078,7 @@ const site = {
                 "short_description": "Average download speed for internet connection in MB/s",
                 "long_description": "The average download speed for internet users' connections who performed a speed check using Ookla. Speeds are reported in MB/s. A speed of 100 MB/s is considered adequate for school work, video calling etc.",
                 "statement": "The average download speed for internet connections in {features.name} is {value} MB/s",
-                "source": [
+                "sources": [
                   {
                     "name": "Ookla",
                     "date_accessed": 2021,
@@ -4090,7 +4107,7 @@ const site = {
                 "short_description": "Median drive time (minutes) to the five closest 2-year colleges from centroid of selected region",
                 "long_description": "Median drive time in minutes to the five closest 2-year colleges from centroid of selected region. Address data was collected from the National Center for Education Statistics (Dataset for year 2019). Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
                 "statement": "The median drive time to the five closest 2-year colleges to {features.name} is {value} minutes",
-                "source": [
+                "sources": [
                   {
                     "name": "National Center for Education Statistics",
                     "date_accessed": 2021,
@@ -4119,7 +4136,7 @@ const site = {
                 "short_description": "Median drive time (minutes) to the five closest day cares from centroid of selected region",
                 "long_description": "Median drive time in minutes to the five closest day cares from centroid of selected region. Address data was collected from the Virginia Department of Social Services Child Day Care Facility search (Dataset for year 2019). Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
                 "statement": "The median drive time to the five closest day cares to {features.name} is {value} minutes",
-                "source": [
+                "sources": [
                   {
                     "name": "Virginia Department of Social Services",
                     "date_accessed": 2021,
@@ -4148,7 +4165,7 @@ const site = {
                 "short_description": "Mean drive time (minutes) to the five closest trade schools from centroid of selected region",
                 "long_description": "Median drive time in minutes to the five closest trade schools from centroid of selected region. Address data was collected from the National Center for Education Statistics (Dataset for year 2019). Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
                 "statement": "The median drive time to the five closest trade schools to {features.name} is {value} minutes",
-                "source": [
+                "sources": [
                   {
                     "name": "National Center for Education Statistics",
                     "date_accessed": 2021,
@@ -4177,7 +4194,7 @@ const site = {
                 "short_description": "Average emergency department visits for drug overdose per 100,000 residents.",
                 "long_description": "Average emergency department visits for drug overdose per 100,000 residents.",
                 "statement": "The average emergency department visits for drug overdose rate in {features.name} is {value} per 100,000 residents",
-                "source": [
+                "sources": [
                   {
                     "name": "Virginia Department of Health",
                     "date_accessed": "2021",
@@ -4206,7 +4223,7 @@ const site = {
                 "short_description": "Median drive time (minutes) to the ten closest emergency medical services facilities",
                 "long_description": "Median drive time in minutes to the ten closest emergency medical services facilities. Facility location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository. Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
                 "statement": "The median drive time to the ten closest emergency medical service facilities to {features.name} is {value} minutes",
-                "source": [
+                "sources": [
                   {
                     "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
                     "date_accessed": 2021,
@@ -4237,7 +4254,7 @@ const site = {
                   "lou03",
                   "saxon20"
                 ],
-                "source": [
+                "sources": [
                   {
                     "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
                     "date_accessed": 2021,
@@ -4266,7 +4283,7 @@ const site = {
                 "short_description": "Count of emergency medical services facilities based on facility locations",
                 "long_description": "Count of emergency medical services facilities based on facility locations. Location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository.",
                 "statement": "There are {value} emergency medical services facilities in {features.name}",
-                "source": [
+                "sources": [
                   {
                     "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
                     "date_accessed": 2021,
@@ -4293,9 +4310,9 @@ const site = {
                 "short_name": "Childhood food insecurity rate",
                 "long_name": "Childhood food insecurity rate",
                 "short_description": "Food insecure children are those children living in households experiencing food insecurity (a lack of access to enough food for an active, healthy life).",
-                "long_description": "Food insecurity refers to USDAâ€™s measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food insecurity refers to USDAâ€™s measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food insecure children are those children living in households experiencing food insecurity.Food-insecure households are not necessarily food insecure all the time. Food insecurity may reflect a householdâ€™s need to make trade-offs between important basic needs, such as housing or medical bills, and purchasing nutritionally adequate foods.",
+                "long_description": "Food insecurity refers to USDA’s measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food insecurity refers to USDA’s measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food insecure children are those children living in households experiencing food insecurity.Food-insecure households are not necessarily food insecure all the time. Food insecurity may reflect a household’s need to make trade-offs between important basic needs, such as housing or medical bills, and purchasing nutritionally adequate foods.",
                 "statement": "The childhood food insecurity rate in {features.name} is {value}",
-                "source": [
+                "sources": [
                   {
                     "name": "Feeding America",
                     "date_accessed": "2021",
@@ -4324,7 +4341,7 @@ const site = {
                 "short_description": "The average weekly dollar amount food-secure individuals report spending on food.",
                 "long_description": "The average weekly dollar amount food-secure individuals report spending on food, as estimated by the Current Population Survey, divided by 21 (assuming three meals a day, seven days a week). This amount has been adjusted to reflect local food prices and relevant taxes.",
                 "statement": "The average meal cost in {features.name} is {value}",
-                "source": [
+                "sources": [
                   {
                     "name": "Feeding America",
                     "date_accessed": "2021",
@@ -4350,10 +4367,10 @@ const site = {
                 "type": "percent",
                 "short_name": "Food insecurity rate",
                 "long_name": "Food insecurity rate",
-                "short_description": "Food insecurity refers to USDAâ€™s measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods.",
-                "long_description": "Food insecurity refers to USDAâ€™s measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food-insecure households are not necessarily food insecure all the time. Food insecurity may reflect a householdâ€™s need to make trade-offs between important basic needs, such as housing or medical bills, and purchasing nutritionally adequate foods.",
+                "short_description": "Food insecurity refers to USDA’s measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods.",
+                "long_description": "Food insecurity refers to USDA’s measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food-insecure households are not necessarily food insecure all the time. Food insecurity may reflect a household’s need to make trade-offs between important basic needs, such as housing or medical bills, and purchasing nutritionally adequate foods.",
                 "statement": "The food insecurity rate in {features.name} is {value}",
-                "source": [
+                "sources": [
                   {
                     "name": "Feeding America",
                     "date_accessed": "2021",
@@ -4380,9 +4397,9 @@ const site = {
                 "short_name": "Population of food insecure children",
                 "long_name": "Count of population of food insecure children",
                 "short_description": "Food insecure children are those children living in households experiencing food insecurity (a lack of access to enough food for an active, healthy life).",
-                "long_description": "Food insecurity refers to USDAâ€™s measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food insecurity refers to USDAâ€™s measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food insecure children are those children living in households experiencing food insecurity.Food-insecure households are not necessarily food insecure all the time. Food insecurity may reflect a householdâ€™s need to make trade-offs between important basic needs, such as housing or medical bills, and purchasing nutritionally adequate foods.",
+                "long_description": "Food insecurity refers to USDA’s measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food insecurity refers to USDA’s measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food insecure children are those children living in households experiencing food insecurity.Food-insecure households are not necessarily food insecure all the time. Food insecurity may reflect a household’s need to make trade-offs between important basic needs, such as housing or medical bills, and purchasing nutritionally adequate foods.",
                 "statement": "The population of food insecure children in {features.name} is {value}",
-                "source": [
+                "sources": [
                   {
                     "name": "Feeding America",
                     "date_accessed": "2021",
@@ -4411,7 +4428,7 @@ const site = {
                 "short_description": "Percent of the population self-reported to have a computer at home",
                 "long_description": "Percent of the population self-reported to have a computer at home. Based on American Community Survey ACS 2015/2019 5-year estimates.",
                 "statement": "{value} of the population in {features.name} have a computer",
-                "source": [
+                "sources": [
                   {
                     "name": "American Community Survey",
                     "date_accessed": 2021,
@@ -4440,7 +4457,7 @@ const site = {
                 "short_description": "Percent of the population self-reported to have internet access at home",
                 "long_description": "Percent of the population self-reported to have internet access at home. Based on American Community Survey ACS 2015/2019 5-year estimates.",
                 "statement": "{value} of the population in {features.name} have internet access",
-                "source": [
+                "sources": [
                   {
                     "name": "American Community Survey",
                     "date_accessed": 2021,
@@ -4472,7 +4489,7 @@ const site = {
                 "citations": [
                   "stavitz20, liang17"
                 ],
-                "source": [
+                "sources": [
                   {
                     "name": "Medical Expenditure Panel Survey",
                     "date_accessed": 2021,
@@ -4506,7 +4523,7 @@ const site = {
                 "short_description": "Median drive time (minutes) to the ten closest hospital s",
                 "long_description": "Median drive time in minutes to the ten closest hospitals. Facility location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository. Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
                 "statement": "The median drive time to the ten closest hospitals to {features.name} is {value} minutes",
-                "source": [
+                "sources": [
                   {
                     "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
                     "date_accessed": 2021,
@@ -4537,7 +4554,7 @@ const site = {
                   "lou03",
                   "saxon20"
                 ],
-                "source": [
+                "sources": [
                   {
                     "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
                     "date_accessed": 2021,
@@ -4566,7 +4583,7 @@ const site = {
                 "short_description": "Count of hospitals based on facility locations",
                 "long_description": "Count of hospitals based on facility locations. Location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository.",
                 "statement": "There are {value} hospitals in {features.name}",
-                "source": [
+                "sources": [
                   {
                     "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
                     "date_accessed": 2021,
@@ -4595,7 +4612,7 @@ const site = {
                 "short_description": "Median drive time (minutes) to the ten closest mental health services facilities",
                 "long_description": "Median drive time in minutes to the ten closest mental health services facilities. Facility location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository. Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
                 "statement": "The median drive time to the ten closest mental health service facilities to {features.name} is {value} minutes",
-                "source": [
+                "sources": [
                   {
                     "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
                     "date_accessed": 2021,
@@ -4626,7 +4643,7 @@ const site = {
                   "lou03",
                   "saxon20"
                 ],
-                "source": [
+                "sources": [
                   {
                     "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
                     "date_accessed": 2021,
@@ -4655,7 +4672,7 @@ const site = {
                 "short_description": "Count of mental health facilities based on facility locations",
                 "long_description": "Count of mental health facilities based on facility locations. Location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository.",
                 "statement": "There are {value} mental health facilities in {features.name}",
-                "source": [
+                "sources": [
                   {
                     "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
                     "date_accessed": 2021,
@@ -4684,7 +4701,7 @@ const site = {
                 "short_description": "Percent of the population (ages 16-64) self-reported to not be currently covered by any type of health insurance or health coverage plan",
                 "long_description": "Percent of the population self-reported to not be currently covered by any type of health insurance or health coverage plan. Based on American Community Survey Tables B18135 and C27001I in ACS 2015/2019 5-year estimates.",
                 "statement": "{value} of the population has no health insurance in  {features.name}",
-                "source": [
+                "sources": [
                   {
                     "name": "American Community Survey",
                     "date_accessed": 2021,
@@ -4713,7 +4730,7 @@ const site = {
                 "short_description": "Count of OBGYNs based on provider locations",
                 "long_description": "Count of OBGYN care providers based on provider locations. Address data was collected from WebMD's online Physician Directory.",
                 "statement": "There are {value} OBGYNs in {features.name}",
-                "source": [
+                "sources": [
                   {
                     "name": "WebMD Physician Directory",
                     "date_accessed": 2021,
@@ -4748,7 +4765,7 @@ const site = {
                   "lou03",
                   "saxon20"
                 ],
-                "source": [
+                "sources": [
                   {
                     "name": "WebMD Physician Directory",
                     "date_accessed": 2021,
@@ -4777,7 +4794,7 @@ const site = {
                 "short_description": "Percent of population self-reported to have a broadband internet connection (any type of internet other than a dial-up)",
                 "long_description": "Percent of population self-reported to have a broadband internet connection. Broadband internet is defined as any type of internet other than a dial-up. Based on American Community Survey ACS 2015/2019 5-year estimates.",
                 "statement": "{value} of the population in {features.name} has a broadband connection",
-                "source": [
+                "sources": [
                   {
                     "name": "American Community Survey",
                     "date_accessed": 2021,
@@ -4806,7 +4823,7 @@ const site = {
                 "short_description": "Percent of population self-reported to have a high speed internet service (cable, fiber optic, or DSL)",
                 "long_description": "Percent of population self-reported to have a high speed internet service. A high speed internet service is defined as a cable, fiber optic, or DSL internet connection. Based on American Community Survey ACS 2015/2019 5-year estimates.",
                 "statement": "{value} of the population in {features.name} has a cable fiber or DSL internet connection",
-                "source": [
+                "sources": [
                   {
                     "name": "American Community Survey",
                     "date_accessed": 2021,
@@ -4835,7 +4852,7 @@ const site = {
                 "short_description": "Count of pediatricians based on provider locations",
                 "long_description": "Count of pediatricians based on provider locations. Address data was collected from WebMD's online Physician Directory.",
                 "statement": "There are {value} pediatricians in {features.name}",
-                "source": [
+                "sources": [
                   {
                     "name": "WebMD Physician Directory",
                     "date_accessed": 2021,
@@ -4870,7 +4887,7 @@ const site = {
                   "lou03",
                   "saxon20"
                 ],
-                "source": [
+                "sources": [
                   {
                     "name": "WebMD Physician Directory",
                     "date_accessed": 2021,
@@ -4899,7 +4916,7 @@ const site = {
                 "short_description": "The national average price for internet ($64) as a percent of average income",
                 "long_description": "The national average price for internet ($64) as a percent of average income.",
                 "statement": "The national average internet package costs {value} of the average income in {features.name}",
-                "source": [
+                "sources": [
                   {
                     "name": "American Community Survey",
                     "date_accessed": 2021,
@@ -4933,7 +4950,7 @@ const site = {
                 "short_description": "The minimum price for fast internet (100 MB/s upload) as a percent of average income",
                 "long_description": "The minimum price for fast internet (100 MB/s upload) as a percent of average income.",
                 "statement": "Fast internet costs {value} of the average income in {features.name}",
-                "source": [
+                "sources": [
                   {
                     "name": "American Community Survey",
                     "date_accessed": 2021,
@@ -4967,7 +4984,7 @@ const site = {
                 "short_description": "The minimum price for good internet (25 MB/s upload) as a percent of average income",
                 "long_description": "The minimum price for good internet (25 MB/s upload) as a percent of average income.",
                 "statement": "Good internet costs {value} of the average income in {features.name}",
-                "source": [
+                "sources": [
                   {
                     "name": "American Community Survey",
                     "date_accessed": 2021,
@@ -5001,7 +5018,7 @@ const site = {
                 "short_description": "Percent of the population self-reporting poor mental health",
                 "long_description": "Percent of the population self-reporting poor mental health in over 14 days of the previous month. Based on the Virginia Behavioral Risk Factor Surveillance Survey.",
                 "statement": "{value} of the population in {features.name} report poor mental health",
-                "source": [
+                "sources": [
                   {
                     "name": "Virginia Behavioral Risk Factor Surveillance System",
                     "date_accessed": 2021,
@@ -5030,7 +5047,7 @@ const site = {
                 "short_description": "Percent of the population self-reporting poor physical health",
                 "long_description": "Percent of the population self-reporting poor physical health in over 14 days of the previous month. Based on the Virginia Behavioral Risk Factor Surveillance Survey.",
                 "statement": "{value} of the population in {features.name} report poor physical health",
-                "source": [
+                "sources": [
                   {
                     "name": "Virginia Behavioral Risk Factor Surveillance System",
                     "date_accessed": 2021,
@@ -5059,7 +5076,7 @@ const site = {
                 "short_description": "Percent of the population self-reported to have post-high school level degree",
                 "long_description": "Percent of the population self-reported to have post-high school level degree. Based on American Community Survey Table B15003 in ACS 2015/2019 5-year estimates.",
                 "statement": "{value} of the population in {features.name} have a post-high school education",
-                "source": [
+                "sources": [
                   {
                     "name": "American Community Survey",
                     "date_accessed": 2021,
@@ -5088,7 +5105,7 @@ const site = {
                 "short_description": "Rate of hospital stays for ambulatory-care sensitive conditions per 100,000 Medicare enrollees",
                 "long_description": "Rate of hospital stays for ambulatory-care sensitive conditions per 100,000 Medicare enrollees. Ambulatory care refers to diagnoses that are usually treatable in outpatient settings. This data is based on Medicare claims and comes from County Health Rankings.",
                 "statement": "{value} of the hospitalizations in {features.name}  were preventable (due to conditions usually treated in outpatient settings)",
-                "source": [
+                "sources": [
                   {
                     "name": "County Health Rankings",
                     "date_accessed": 2021,
@@ -5117,7 +5134,7 @@ const site = {
                 "short_description": "Count of primary care physicians based on provider locations",
                 "long_description": "Count of primary care physicians based on provider locations. Address data was collected from WebMD's online Physician Directory.",
                 "statement": "There are {value} primary care physicians in {features.name}",
-                "source": [
+                "sources": [
                   {
                     "name": "WebMD Physician Directory",
                     "date_accessed": 2021,
@@ -5152,7 +5169,7 @@ const site = {
                   "lou03",
                   "saxon20"
                 ],
-                "source": [
+                "sources": [
                   {
                     "name": "WebMD Physician Directory",
                     "date_accessed": 2021,
@@ -5181,7 +5198,7 @@ const site = {
                 "short_description": "Median drive time (minutes) to the ten closest substance use/behavioral health services facilities",
                 "long_description": "Median drive time in minutes to the ten closest substance use/behavioral health services facilities. Facility location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository. Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
                 "statement": "The median drive time to the ten closest substance use/behavioral health service facilities to {features.name} is {value} minutes",
-                "source": [
+                "sources": [
                   {
                     "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
                     "date_accessed": 2021,
@@ -5212,7 +5229,7 @@ const site = {
                   "lou03",
                   "saxon20"
                 ],
-                "source": [
+                "sources": [
                   {
                     "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
                     "date_accessed": 2021,
@@ -5241,7 +5258,7 @@ const site = {
                 "short_description": "Count of substance use/behavioral health facilities based on facility locations",
                 "long_description": "Count of substance use/behavioral health facilities based on facility locations. Location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository.",
                 "statement": "There are {value} substance use facilities in {features.name}",
-                "source": [
+                "sources": [
                   {
                     "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
                     "date_accessed": 2021,
@@ -5255,21 +5272,6 @@ const site = {
               "sd": 3.3614,
               "min": 0,
               "max": 19
-            },
-            {
-              "name": "time",
-              "duplicates": 408,
-              "info": {
-                "type": "year",
-                "short_name": "Year",
-                "full_name": "time"
-              },
-              "type": "integer",
-              "missing": 0,
-              "mean": 2015.5,
-              "sd": 3.4562,
-              "min": 2010,
-              "max": 2021
             },
             {
               "name": "trade_schools_access_scores:norm_3sfca",
@@ -5291,7 +5293,7 @@ const site = {
                   "lou03",
                   "saxon20"
                 ],
-                "source": [
+                "sources": [
                   {
                     "name": "National Center for Education Statistics",
                     "date_accessed": 2021,
@@ -5315,15 +5317,16 @@ const site = {
                 "full_name": "earnings_per_job:earnings_per_job",
                 "measure": "earnings_per_job",
                 "type": "ratio",
-                "short_name": "Earnings per job",
+                "short_name": "Average of earnings per job",
                 "long_name": "Earnings per job",
                 "short_description": "Earnings per job.",
-                "long_description": "Earnings per job.",
+                "long_description": "Earnings per job is calculated based on the GDP and Personal Income table from the Bureau of Economic Analysis.",
                 "statement": "Earnings per job in {features.name} is ${value}",
-                "source": [
+                "sources": [
                   {
                     "name": "Bureau of Economic Analysis",
-                    "date_accessed": "2021"
+                    "date_accessed": "2021",
+                    "url": "https://apps.bea.gov/iTable/iTable.cfm?reqid=70&step=1&acrdn=6"
                   }
                 ]
               },
@@ -5650,7 +5653,7 @@ const site = {
         },
         {
           "name": "",
-          "value": "variables.source",
+          "value": "variables.sources",
           "style": "table"
         }
       ],
@@ -6003,7 +6006,7 @@ const site = {
     "datatables": {
       "name": "DataTables",
       "url": "https://datatables.net",
-      "version": "1.11.3"
+      "version": "1.11.4"
     }
   }
 }

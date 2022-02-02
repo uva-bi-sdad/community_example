@@ -29,7 +29,7 @@ page_navbar(
         )
       ),
       input_switch("Hide URL Settings", id = "settings.hide_url_parameters"),
-      input_number("Digits", "settings.digits", default = 1.5, min = 0, max = 6, step = .5, floating_label = FALSE),
+      input_number("Digits", "settings.digits", default = 2, min = 0, max = 6, floating_label = FALSE),
       input_select(
         "Color Scale Center", options = c("", "median", "mean"), default = 1,
         display = c("None", "Median", "Mean"), id = "settings.color_scale_center",
@@ -46,12 +46,12 @@ page_navbar(
           "Selected Region are filtered by region selection."
         )
       ),
-      input_number("Variable Min", "variable_min", step = 1, floating_label = FALSE),
-      input_number("Variable Max", "variable_max", step = 1, floating_label = FALSE),
+      input_number("Variable Min", "variable_min", floating_label = FALSE),
+      input_number("Variable Max", "variable_max", floating_label = FALSE),
       '<p class="section-heading">Map Options</p>',
       input_switch("Show Background Shapes", id = "settings.background_shapes"),
       input_number(
-        "Outline Weight", "settings.polygon_outline", default = 2, step = 1, floating_label = FALSE,
+        "Outline Weight", "settings.polygon_outline", default = 1.5, step = .5, floating_label = FALSE,
         title = "Thickness of the outline around region shapes."
       ),
       '<p class="section-heading">Plot Options</p>',
@@ -62,7 +62,7 @@ page_navbar(
         title = "Define the extreme fences of the box plots by 1.5 * interquartile range (true) or min and max (false)"
       ),
       input_number(
-        "Trace Limit", "settings.trace_limit", default = 40, step = 1, floating_label = FALSE,
+        "Trace Limit", "settings.trace_limit", default = 20, floating_label = FALSE,
         title = "Limit the number of plot traces that can be drawn, split between extremes of the variable."
       ),
       input_button("Clear Settings", "reset_storage", "clear_storage", class = "btn-danger footer"),
@@ -252,7 +252,7 @@ page_section(
       ## use `output_info` to display information about selected and hovered-over entities
       output_info(
         title = "variables.short_name",
-        body = c(Year = "data.time", "variables.source"),
+        body = c(Year = "data.time", "variables.sources"),
         dataview = "primary_view",
         id = "variable_info_pane",
       ),

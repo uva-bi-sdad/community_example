@@ -278,7 +278,7 @@ page_section(
       ),
       output_legend(
         "settings.palette", "Below", "Above", dataview = "primary_view",
-        subto = c("main_map", "main_plot", "rank_table")
+        subto = c("main_map", "main_plot")
       ),
       wraps = c("row", "row mb-auto", "row")
     )
@@ -325,7 +325,8 @@ page_section(
     ),
     output_table("selected_variable", dataview = "primary_view", options = list(
       info = FALSE,
-      searching = FALSE
+      searching = FALSE,
+      scrollY = 455
     ), id = "rank_table", click = "region_select", subto = c("main_map", "main_plot"))
   )
 )

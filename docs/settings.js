@@ -5873,12 +5873,12 @@ const site = {
     "rank_table": {
       "info": false,
       "searching": false,
+      "scrollY": 455,
       "variables": "selected_variable",
       "subto": ["main_map", "main_plot"],
       "single_variable": true,
       "wide": true,
       "paging": false,
-      "scrollY": 500,
       "scrollX": 500,
       "scrollCollapse": true
     }
@@ -6007,6 +6007,12 @@ const site = {
       "name": "DataTables",
       "url": "https://datatables.net",
       "version": "1.11.4"
+    }
+  },
+  "legends": {
+    "legend14": {
+      "palette": "settings.palette",
+      "subto": ["main_map", "main_plot"]
     }
   }
 }

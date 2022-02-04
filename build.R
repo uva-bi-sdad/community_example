@@ -1,6 +1,7 @@
 library(community)
 
 data_reformat_sdad("../community_example/docs/data/original", out = "../community_example/docs/data")
+
 data_add(
   c(
     district = "health_district.csv",

@@ -9,10 +9,10 @@
   },
   "resources": [
     {
-      "bytes": 266599,
+      "bytes": 267020,
       "encoding": "ISO-8859-1",
-      "md5": "d38ca12613845132f6a0443d6c2efaaf",
-      "sha512": "6e1880dd714e1f0025984cd82a5f55ebc870d8c27b6fb239a03e6807a1bc8becf5e03152a17fe301b5d49ab5ea62c09dbe9aec8085cfe721c3003907fb7dcc04",
+      "md5": "742b91e185f9e9969a965aa2166c88a7",
+      "sha512": "b45415fd048b49fdbb51b544eb15d39ba037e18b1db657cc6129ddf52ffa822c570d23b39a2bd6e35d17409d413b9df4a86c2c71ec1354122e3acd34e7099089",
       "format": "csv",
       "name": "district",
       "filename": "health_district.csv",
@@ -25,8 +25,8 @@
       ],
       "time": "time",
       "profile": "data-resource",
-      "created": "2022-02-01 10:11:57",
-      "last_modified": "2022-02-01 10:11:57",
+      "created": "2022-02-04 02:23:49",
+      "last_modified": "2021-11-29 21:36:30",
       "rowcount": 420,
       "schema": {
         "fields": [
@@ -3121,10 +3121,10 @@
       }
     },
     {
-      "bytes": 1130945,
+      "bytes": 1132830,
       "encoding": "ISO-8859-1",
-      "md5": "7dae25576a8806c287df073776932a0d",
-      "sha512": "f7366af1458cd6ad8b7f0416cb2ddd6d18a1f1ad1803888f5d429ed568339424d697e774d668a530abd4afd974be0ed3013bd379a0338d91f58424bf7cc67de6",
+      "md5": "11f2639ec15db3d3897c2bcae04092a3",
+      "sha512": "d0349c17379457d81a626f67d5d2a7541d5746dd47ec7110351fef96a068d8dae771bd780a5aa5a3d4cd6b8db75d179eecc60f3228ee2126a1ee07162b8ce561",
       "format": "csv",
       "name": "county",
       "filename": "county.csv",
@@ -3137,8 +3137,8 @@
       ],
       "time": "time",
       "profile": "data-resource",
-      "created": "2022-02-01 10:11:57",
-      "last_modified": "2022-02-01 10:11:57",
+      "created": "2022-02-04 02:23:46",
+      "last_modified": "2021-11-29 21:36:30",
       "rowcount": 1884,
       "schema": {
         "fields": [
@@ -6301,10 +6301,10 @@
       }
     },
     {
-      "bytes": 13468086,
+      "bytes": 13490971,
       "encoding": "ISO-8859-1",
-      "md5": "00a88e5908f970abbfab3b3b33005858",
-      "sha512": "021718367544657c162c3ad4376ad64735a7e166699e516f1bd69fd626fa3a53235d5f2c2d5d2b209b23833c8da3d9392e90f8813e1cbf327a3d27340b7637e5",
+      "md5": "dbbfdd6db17bb87767590a1f7cc36a7e",
+      "sha512": "4a276781a809100d67dc2b77401bafcf30870c9bf3890536256e1ea9ad100434e41e14d1b64213611a75f436a46c9ef22d53333fa453481e5657f75449b508b4",
       "format": "csv",
       "name": "tract",
       "filename": "tract.csv",
@@ -6317,8 +6317,8 @@
       ],
       "time": "time",
       "profile": "data-resource",
-      "created": "2022-02-01 10:11:57",
-      "last_modified": "2022-02-01 10:11:57",
+      "created": "2022-02-04 02:23:49",
+      "last_modified": "2021-11-29 21:36:30",
       "rowcount": 22884,
       "schema": {
         "fields": [
@@ -8675,7 +8675,7 @@
           },
           {
             "name": "pediatrics_access_scores:ped_e2sfca",
-            "duplicates": 21178,
+            "duplicates": 21177,
             "info": {
               "type": "index",
               "short_name": "Pediatric care access score",

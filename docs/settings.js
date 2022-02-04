@@ -21,10 +21,10 @@ const site = {
     "variables": ["time", "2year_colleges_access_scores:norm_3sfca", "3rd_grade_median_read_score:median_read_pass_rate", "civilian_employment_rate:employment_rate", "community_college_computer_sciences_fca:3sfca_capacity", "community_college_engineering_fca:3sfca_capacity", "community_college_engineering_related_fca:3sfca_capacity", "daycare_services_access_scores:daycare_cnt", "daycare_services_access_scores:daycare_norm_3sfca", "dei_index:norm_dei", "dentist_access_scores:dent_cnt", "dentist_access_scores:dent_e2sfca", "download_speeds:download", "drive_times_nearest_2year_colleges:median_drive_time_top5", "drive_times_nearest_daycares:median_drive_time_top5", "drive_times_nearest_trade_schools:median_drive_time_top5", "drug_overdose_ed_visits:avg_overdose_per_100k", "ems_access_scores:ems_10near_median", "ems_access_scores:ems_3sfca", "ems_access_scores:ems_cnt", "food_insecurity_and_cost:Child_Food_Insecurity_Rate", "food_insecurity_and_cost:Cost_Per_Meal", "food_insecurity_and_cost:Food_Insecurity_Rate", "food_insecurity_and_cost:Num_Child_Food_Insecure", "have_computer:perc_have_computer", "have_internet:perc_have_internet_access", "health_literacy_estimates:health_literacy_estimate", "hospital_access_scores:hos_10near_median", "hospital_access_scores:hos_3sfca", "hospital_access_scores:hos_cnt", "mental_access_scores:mental_10near_median", "mental_access_scores:mental_3sfca", "mental_access_scores:mental_cnt", "no_health_insurance_19_to_64:no_hlth_ins_pct", "obgyn_access_scores:obgyn_cnt", "obgyn_access_scores:obgyn_e2sfca", "pct_pop_broadband:perc_w_broadband", "pct_pop_cable_fiber_dsl:perc_w_cable_fiber_DSL", "pediatrics_access_scores:ped_cnt", "pediatrics_access_scores:ped_e2sfca", "perc_income_on_internet:perc_income_avg_nat_package", "perc_income_on_internet:perc_income_min_price_100", "perc_income_on_internet:perc_income_min_price_25", "percent_poor_ment_hlth_days_14_and_over:perc_poor_ment_hlth_days_14_and_over", "percent_poor_phys_hlth_days_14_and_over:perc_poor_phys_hlth_days_14_and_over", "post_hs_education:perc_post_hs_edu", "preventable_hospitalizations:prevent_hosp_rate", "primary_care_access_scores:prim_cnt", "primary_care_access_scores:prim_e2sfca", "substance_access_scores:subs_10near_median", "substance_access_scores:subs_3sfca", "substance_access_scores:subs_cnt", "trade_schools_access_scores:norm_3sfca", "earnings_per_job:earnings_per_job"],
     "info": {
       "tract": {
-        "bytes": 13468086,
+        "bytes": 13490971,
         "encoding": "ISO-8859-1",
-        "md5": "00a88e5908f970abbfab3b3b33005858",
-        "sha512": "021718367544657c162c3ad4376ad64735a7e166699e516f1bd69fd626fa3a53235d5f2c2d5d2b209b23833c8da3d9392e90f8813e1cbf327a3d27340b7637e5",
+        "md5": "dbbfdd6db17bb87767590a1f7cc36a7e",
+        "sha512": "4a276781a809100d67dc2b77401bafcf30870c9bf3890536256e1ea9ad100434e41e14d1b64213611a75f436a46c9ef22d53333fa453481e5657f75449b508b4",
         "format": "csv",
         "name": "tract",
         "filename": "tract.csv",
@@ -37,8 +37,8 @@ const site = {
         ],
         "time": "time",
         "profile": "data-resource",
-        "created": "2022-02-01 10:11:57",
-        "last_modified": "2022-02-01 10:11:57",
+        "created": "2022-02-04 02:23:49",
+        "last_modified": "2021-11-29 21:36:30",
         "rowcount": 22884,
         "schema": {
           "fields": [
@@ -1237,7 +1237,7 @@ const site = {
             },
             {
               "name": "pediatrics_access_scores:ped_e2sfca",
-              "duplicates": 21178,
+              "duplicates": 21177,
               "info": {
                 "type": "index",
                 "short_name": "Pediatric care access score",
@@ -1878,10 +1878,10 @@ const site = {
         "site_file": "tract.json"
       },
       "county": {
-        "bytes": 1130945,
+        "bytes": 1132830,
         "encoding": "ISO-8859-1",
-        "md5": "7dae25576a8806c287df073776932a0d",
-        "sha512": "f7366af1458cd6ad8b7f0416cb2ddd6d18a1f1ad1803888f5d429ed568339424d697e774d668a530abd4afd974be0ed3013bd379a0338d91f58424bf7cc67de6",
+        "md5": "11f2639ec15db3d3897c2bcae04092a3",
+        "sha512": "d0349c17379457d81a626f67d5d2a7541d5746dd47ec7110351fef96a068d8dae771bd780a5aa5a3d4cd6b8db75d179eecc60f3228ee2126a1ee07162b8ce561",
         "format": "csv",
         "name": "county",
         "filename": "county.csv",
@@ -1894,8 +1894,8 @@ const site = {
         ],
         "time": "time",
         "profile": "data-resource",
-        "created": "2022-02-01 10:11:57",
-        "last_modified": "2022-02-01 10:11:57",
+        "created": "2022-02-04 02:23:46",
+        "last_modified": "2021-11-29 21:36:30",
         "rowcount": 1884,
         "schema": {
           "fields": [
@@ -3751,10 +3751,10 @@ const site = {
         "site_file": "county.json"
       },
       "district": {
-        "bytes": 266599,
+        "bytes": 267020,
         "encoding": "ISO-8859-1",
-        "md5": "d38ca12613845132f6a0443d6c2efaaf",
-        "sha512": "6e1880dd714e1f0025984cd82a5f55ebc870d8c27b6fb239a03e6807a1bc8becf5e03152a17fe301b5d49ab5ea62c09dbe9aec8085cfe721c3003907fb7dcc04",
+        "md5": "742b91e185f9e9969a965aa2166c88a7",
+        "sha512": "b45415fd048b49fdbb51b544eb15d39ba037e18b1db657cc6129ddf52ffa822c570d23b39a2bd6e35d17409d413b9df4a86c2c71ec1354122e3acd34e7099089",
         "format": "csv",
         "name": "district",
         "filename": "health_district.csv",
@@ -3767,8 +3767,8 @@ const site = {
         ],
         "time": "time",
         "profile": "data-resource",
-        "created": "2022-02-01 10:11:57",
-        "last_modified": "2022-02-01 10:11:57",
+        "created": "2022-02-04 02:23:49",
+        "last_modified": "2021-11-29 21:36:30",
         "rowcount": 420,
         "schema": {
           "fields": [

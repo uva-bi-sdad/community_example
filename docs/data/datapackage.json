@@ -1246,7 +1246,7 @@
                   "url": "https://www.census.gov/programs-surveys/acs.html"
                 }
               ],
-              "citations": "stavitz20, liang17"
+              "citations": ["savitz20", "liang17"]
             },
             "type": "float",
             "missing": 385,
@@ -4426,7 +4426,7 @@
                   "url": "https://www.census.gov/programs-surveys/acs.html"
                 }
               ],
-              "citations": "stavitz20, liang17"
+              "citations": ["savitz20", "liang17"]
             },
             "type": "float",
             "missing": 1751,
@@ -7570,7 +7570,7 @@
                   "url": "https://www.census.gov/programs-surveys/acs.html"
                 }
               ],
-              "citations": "stavitz20, liang17"
+              "citations": ["savitz20", "liang17"]
             },
             "type": "float",
             "missing": 20977,
@@ -8675,7 +8675,7 @@
           },
           {
             "name": "pediatrics_access_scores:ped_e2sfca",
-            "duplicates": 21177,
+            "duplicates": 21178,
             "info": {
               "type": "index",
               "short_name": "Pediatric care access score",

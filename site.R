@@ -22,7 +22,7 @@ page_navbar(
       input_switch("Dark Theme", id = "settings.theme_dark"),
       input_select("Color Palette", options = "palettes", id = "settings.palette", floating_label = FALSE),
       input_switch(
-        "Color by Order", id = "settings.color_by_order",
+        "Color by Rank", id = "settings.color_by_order",
         title = paste(
           "Switch from coloring by value to coloring by sorted index.",
           "This may help differentiate regions with similar values."
@@ -136,15 +136,13 @@ page_menu(
       type = "row",
       wraps = "col",
       input_number("First Year", "min_year", default = "min", max = "max_year", dataview = "primary_view"),
-      input_number("Selected Year", min = "min_year", max = "max_year", default = "max", id = "selected_year"),
       input_number("Last Year", "max_year", default = "max", min = "min_year", dataview = "primary_view"),
-      breakpoints = "md",
-      sizes = c(3, NA, 3)
+      breakpoints = "md"
     )
   ),
   position = "top",
   default_open = TRUE,
-  sizes = c(1, NA, 1, NA, 4)
+  sizes = c(1, NA, 1, NA, 2)
 )
 
 ## `input_variable` can be used to set up logical controls
@@ -197,7 +195,7 @@ page_section(
     "?{starting_shapes == district}State: Virginia[r selected_district]",
     "? > Health District: {selected_district}[r selected_county]",
     "? > {selected_county}"
-  )),
+  ), class = "compact"),
   output_text(list(
     "default" = "Virginia Counties",
     "starting_shapes == district" = "Virginia Health Districts",
@@ -205,9 +203,16 @@ page_section(
     "selected_county" = "{selected_county} Census Tracts"
   ), tag = "h1", class = "text-center"),
   page_section(
+    type = "container-xsm",
+    input_number(
+      "Selected Year", min = "min_year", max = "max_year", default = "max",
+      id = "selected_year", buttons = TRUE
+    )
+  ),
+  page_section(
     type = "row",
     wraps = "col",
-    sizes = c(NA, 4),
+    sizes = c(NA, 5),
     output_map(
       lapply(c("tract", "county", "district"), function(s) list(
         name = s,
@@ -252,7 +257,7 @@ page_section(
       ## use `output_info` to display information about selected and hovered-over entities
       output_info(
         title = "variables.short_name",
-        body = c(Year = "data.time", "variables.sources"),
+        body = "variables.sources",
         dataview = "primary_view",
         id = "variable_info_pane",
       ),
@@ -314,7 +319,7 @@ page_section(
           dataview = "primary_view", wide = FALSE, filters = list(category = "variable_type"),
           features = c(ID = "id", Name = "name", Type = "type"),
           options = list(
-            scrollY = 400,
+            scrollY = 380,
             rowGroup = list(dataSrc = "entity.features.name"),
             columnDefs = list(list(targets = "entity.features.name", visible = FALSE)),
             buttons = c('copy', 'csv', 'excel', 'print'),
@@ -326,7 +331,8 @@ page_section(
     output_table("selected_variable", dataview = "primary_view", options = list(
       info = FALSE,
       searching = FALSE,
-      scrollY = 455
+      scrollY = 455,
+      dom = "<'row't>"
     ), id = "rank_table", click = "region_select", subto = c("main_map", "main_plot"))
   )
 )

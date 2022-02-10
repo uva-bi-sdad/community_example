@@ -5761,11 +5761,6 @@
       "title": "variables.short_name",
       "body": [
         {
-          "name": "Year",
-          "value": "data.time",
-          "style": "table"
-        },
-        {
           "name": "",
           "value": "variables.sources",
           "style": "table"
@@ -5776,7 +5771,7 @@
       "dataview": "primary_view",
       "variable_info": false
     },
-    "info11": {
+    "info12": {
       "title": "features.name",
       "body": [],
       "default": {
@@ -5788,7 +5783,7 @@
       "subto": ["main_map", "main_plot", "rank_table"],
       "variable_info": false
     },
-    "info12": {
+    "info13": {
       "title": "",
       "body": [
         {
@@ -5948,8 +5943,8 @@
     }
   },
   "tables": {
-    "table18": {
-      "scrollY": 400,
+    "table19": {
+      "scrollY": 380,
       "rowGroup": {
         "dataSrc": "entity.features.name"
       },
@@ -5980,21 +5975,26 @@
       },
       "single_variable": false,
       "wide": false,
-      "paging": false,
+      "paging": true,
       "scrollX": 500,
-      "scrollCollapse": true
+      "scrollCollapse": true,
+      "scroller": true,
+      "deferRender": true
     },
     "rank_table": {
       "info": false,
       "searching": false,
       "scrollY": 455,
+      "dom": "<'row't>",
       "variables": "selected_variable",
       "subto": ["main_map", "main_plot"],
       "single_variable": true,
       "wide": true,
-      "paging": false,
+      "paging": true,
       "scrollX": 500,
-      "scrollCollapse": true
+      "scrollCollapse": true,
+      "scroller": true,
+      "deferRender": true
     }
   },
   "plots": {
@@ -6087,7 +6087,7 @@
     "_raw": []
   },
   "legends": {
-    "legend14": {
+    "legend15": {
       "palette": "settings.palette",
       "subto": ["main_map", "main_plot"]
     }

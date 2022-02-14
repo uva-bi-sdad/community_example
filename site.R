@@ -13,7 +13,7 @@ page_head(
 page_navbar(
   title = "Virginia Department of Health",
   logo = "icon.svg",
-  input_button("Reset", "reset_selection", "reset.selection", class = "btn-link"),
+  input_button("Reset", "reset_selection", "reset.selection", class = "btn-link", note = "Reset the menu inputs to their defaults."),
   list(
     name = "Settings",
     backdrop = "false",
@@ -23,25 +23,26 @@ page_navbar(
       input_select("Color Palette", options = "palettes", id = "settings.palette", floating_label = FALSE),
       input_switch(
         "Color by Rank", id = "settings.color_by_order",
-        title = paste(
+        note = paste(
           "Switch from coloring by value to coloring by sorted index.",
           "This may help differentiate regions with similar values."
         )
       ),
       input_switch("Hide URL Settings", id = "settings.hide_url_parameters"),
+      input_switch("Hide Tooltips", id = "settings.hide_tooltips"),
       input_number("Digits", "settings.digits", default = 2, min = 0, max = 6, floating_label = FALSE),
       input_select(
         "Color Scale Center", options = c("", "median", "mean"), default = 1,
         display = c("None", "Median", "Mean"), id = "settings.color_scale_center",
         floating_label = FALSE,
-        title = "Determines whether and on what the color scale should be centered."
+        note = "Determines whether and on what the color scale should be centered."
       ),
       input_select(
         "Summary Level", options = c("dataset", "filtered", "all"), default = "dataset",
         display = c("All Regions", "Selected Region Types", "Selected Region"), id = "settings.summary_selection",
         floating_label = FALSE,
-        title = paste(
-          "Determins which regions are included in summaries for box-plots and color scaling;",
+        note = paste(
+          "Determines which regions are included in summaries for box-plots and color scaling;",
           "All-Regions are state-wide, Selected Region Types are filtered by the Region Types input, and",
           "Selected Region are filtered by region selection."
         )
@@ -52,26 +53,26 @@ page_navbar(
       input_switch("Show Background Shapes", id = "settings.background_shapes"),
       input_number(
         "Outline Weight", "settings.polygon_outline", default = 1.5, step = .5, floating_label = FALSE,
-        title = "Thickness of the outline around region shapes."
+        note = "Thickness of the outline around region shapes."
       ),
       '<p class="section-heading">Plot Options</p>',
       input_select("Plot Type", c("scatter", "bar"), "scatter", id = "plot_type", floating_label = FALSE),
       input_switch("Box Plots", default_on = TRUE, id = "settings.boxplots"),
       input_switch(
         "Use IQR Whiskers", default_on = TRUE, id = "settings.iqr_box",
-        title = "Define the extreme fences of the box plots by 1.5 * interquartile range (true) or min and max (false)"
+        note = "Define the extreme fences of the box plots by 1.5 * interquartile range (true) or min and max (false)."
       ),
       input_number(
         "Trace Limit", "settings.trace_limit", default = 20, floating_label = FALSE,
-        title = "Limit the number of plot traces that can be drawn, split between extremes of the variable."
+        note = "Limit the number of plot traces that can be drawn, split between extremes of the variable."
       ),
-      input_button("Clear Settings", "reset_storage", "clear_storage", class = "btn-danger footer"),
       '<p class="section-heading">Table Options</p>',
       input_switch("Autoscroll", default_on = TRUE, id = "settings.table_autoscroll"),
       input_select(
         "Scroll Behavior", c("instant", "smooth", "auto"), "auto",
         id = "settings.table_scroll_behavior", floating_label = FALSE
-      )
+      ),
+      input_button("Clear Settings", "reset_storage", "clear_storage", class = "btn-danger footer")
     )
   ),
   list(
@@ -99,35 +100,50 @@ page_navbar(
 # use `input_` functions to add input elements that affect outputs
 page_menu(
   input_checkbox(
-    "Starting Layer", c("district", "county"), 1, c("Districts", "Counties"),
-    id = "starting_shapes", multi = FALSE
+    "Starting Layer", c("district", "county", "tract"), 1, c("Districts", "Counties", "Census Tracts"),
+    id = "starting_shapes", multi = FALSE, note = "Which geographies to show at the state level."
   ),
   page_section(
     type = "col",
     wraps = "row form-row",
     input_select(
       "Health District", options = "ids", dataset = "district", dataview = "primary_view",
-      id = "selected_district", reset_button = TRUE
+      id = "selected_district", reset_button = TRUE, note = paste(
+        "Health districts are sets of counties defined by the Virginia Department of Health."
+      )
     ),
     input_select(
       "County", options = "ids", dataset = "county", dataview = "primary_view",
       id = "selected_county", reset_button = TRUE
     ),
-    conditions = c("starting_shapes == district", "starting_shapes == county || selected_district")
+    conditions = c("starting_shapes == district", "starting_shapes != district || selected_district")
   ),
-  input_checkbox("Region Types", options = c("rural", "mixed", "urban"), id = "region_type", as.switch = TRUE),
+  input_checkbox(
+    "Region Types", options = c("rural", "mixed", "urban"), id = "region_type", as.switch = TRUE,
+    note = paste(
+      "Which region types to include. Types are defined at the county level, so only health districts",
+      "have mixed types, and all tracts are of the same type as their county."
+    )
+  ),
   page_section(
     type = "col",
     wraps = "row form-row",
     {
       vars <- jsonlite::read_json('../community_example/docs/data/measure_info.json')
       varcats <- Filter(nchar, unique(vapply(vars, function(v) if (is.null(v$category)) "" else v$category, "")))
-      input_select("Variable Category", options = varcats, default = "Health", id = "variable_type")
+      input_select(
+        "Variable Category", options = varcats, default = "Health", id = "variable_type",
+        note = "Determines which variables are selectable and show up in the Data table."
+      )
     },
     input_select(
       "Variable", options = "variables",
       default = "no_health_insurance_19_to_64:no_hlth_ins_pct", depends = "shapes",
-      id = "selected_variable", filters = list(category = "variable_type")
+      id = "selected_variable", filters = list(category = "variable_type"),
+      note = paste(
+        "Determines which variable is shown on the plot's y-axis, in the rank table,",
+        "and info fields, and used to color map polygons and plot elements."
+      )
     )
   ),
   page_section(
@@ -135,20 +151,32 @@ page_menu(
     page_section(
       type = "row",
       wraps = "col",
-      input_number("First Year", "min_year", default = "min", max = "max_year", dataview = "primary_view"),
-      input_number("Last Year", "max_year", default = "max", min = "min_year", dataview = "primary_view"),
+      input_number(
+        "First Year", "min_year", default = "min", max = "max_year", dataview = "primary_view",
+        note = paste(
+          "First year to display in the plot and rank table, between the variable's first",
+          "available year and the specified last year."
+        )
+      ),
+      input_number(
+        "Last Year", "max_year", default = "max", min = "min_year", dataview = "primary_view",
+        note = paste(
+          "Last year to display in the plot and rank table, between the specified first year",
+          "and variable's last available year."
+        )
+      ),
       breakpoints = "md"
     )
   ),
   position = "top",
   default_open = TRUE,
-  sizes = c(1, NA, 1, NA, 2)
+  sizes = c(1, NA, 1, NA, 3)
 )
 
 ## `input_variable` can be used to set up logical controls
 input_variable("shapes", list(
   "starting_shapes == district && !selected_district" = "district",
-  "selected_county" = "tract"
+  "starting_shapes == tract || selected_county" = "tract"
 ), "county")
 
 input_variable("region_select", list(
@@ -191,14 +219,14 @@ page_section(
   type = "col",
   # use `output_` functions to add state and data displays
   output_text(c(
-    "?{starting_shapes == county}State: Virginia[r selected_county]",
+    "?{starting_shapes != district}State: Virginia[r selected_county]",
     "?{starting_shapes == district}State: Virginia[r selected_district]",
     "? > Health District: {selected_district}[r selected_county]",
     "? > {selected_county}"
   ), class = "compact"),
   output_text(list(
     "default" = "Virginia Counties",
-    "starting_shapes == district" = "Virginia Health Districts",
+    "starting_shapes == district" = "Virginia (Health Districts)[note: Sets of counties defined by the Virginia Department of Health.]",
     "selected_district" = "{selected_district} Counties",
     "selected_county" = "{selected_county} Census Tracts"
   ), tag = "h1", class = "text-center"),
@@ -206,7 +234,9 @@ page_section(
     type = "container-xsm",
     input_number(
       "Selected Year", min = "min_year", max = "max_year", default = "max",
-      id = "selected_year", buttons = TRUE
+      id = "selected_year", buttons = TRUE, note = paste(
+        "Year of the selected variable to color the map shapes and plot elements by, and to show on hover."
+      )
     )
   ),
   page_section(

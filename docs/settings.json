@@ -13,7 +13,9 @@
     "polygon_outline": 1.5,
     "color_scale_center": "median",
     "table_autoscroll": true,
-    "table_scroll_behavior": "smooth"
+    "table_scroll_behavior": "smooth",
+    "hide_tooltip_icon": false,
+    "hide_tooltips": false
   },
   "metadata": {
     "package": "data/datapackage.json",
@@ -5633,8 +5635,8 @@
       "condition": [
         {
           "id": "starting_shapes",
-          "type": "=",
-          "value": "county",
+          "type": "!=",
+          "value": "district",
           "any": true
         },
         {
@@ -5673,10 +5675,16 @@
         {
           "condition": [
             {
+              "id": "starting_shapes",
+              "type": "=",
+              "value": "tract",
+              "any": true
+            },
+            {
               "id": "selected_county",
               "type": "",
               "value": "",
-              "any": false
+              "any": true
             }
           ],
           "value": "tract"
@@ -5816,8 +5824,8 @@
           "condition": [
             {
               "id": "starting_shapes",
-              "type": "=",
-              "value": "county",
+              "type": "!=",
+              "value": "district",
               "any": false
             }
           ],
@@ -5901,7 +5909,16 @@
             ]
           },
           {
-            "text": "Virginia Health Districts",
+            "button": {
+              "b1": {
+                "text": [
+                  "Health Districts"
+                ],
+                "type": "note",
+                "target": "Sets of counties defined by the Virginia Department of Health."
+              }
+            },
+            "text": ["Virginia ", "b1"],
             "condition": [
               {
                 "id": "starting_shapes",
@@ -5942,7 +5959,7 @@
       "category": "variable_type"
     }
   },
-  "tables": {
+  "datatable": {
     "table19": {
       "scrollY": 380,
       "rowGroup": {
@@ -5997,7 +6014,7 @@
       "deferRender": true
     }
   },
-  "plots": {
+  "plotly": {
     "main_plot": {
       "layout": {
         "showlegend": false,
@@ -6047,7 +6064,7 @@
       "subto": ["main_map", "rank_table"]
     }
   },
-  "maps": {
+  "map": {
     "main_map": {
       "shapes": [
         {

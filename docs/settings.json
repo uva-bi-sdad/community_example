@@ -5909,6 +5909,17 @@
             ]
           },
           {
+            "text": "Virginia Census Tracts",
+            "condition": [
+              {
+                "id": "starting_shapes",
+                "type": "=",
+                "value": "tract",
+                "any": false
+              }
+            ]
+          },
+          {
             "button": {
               "b1": {
                 "text": [
@@ -6106,7 +6117,10 @@
   "legends": {
     "legend15": {
       "palette": "settings.palette",
-      "subto": ["main_map", "main_plot"]
+      "subto": [
+        "main_map",
+        "main_plot"
+      ]
     }
   },
   "credits": {
@@ -6144,6 +6158,12 @@
       "name": "DataTables",
       "url": "https://datatables.net",
       "version": "1.11.4"
+    }
+  },
+  "legend": {
+    "legend15": {
+      "palette": "settings.palette",
+      "subto": ["main_map", "main_plot"]
     }
   }
 }

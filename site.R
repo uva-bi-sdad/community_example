@@ -226,6 +226,7 @@ page_section(
   ), class = "compact"),
   output_text(list(
     "default" = "Virginia Counties",
+    "starting_shapes == tract" = "Virginia Census Tracts",
     "starting_shapes == district" = "Virginia (Health Districts)[note: Sets of counties defined by the Virginia Department of Health.]",
     "selected_district" = "{selected_district} Counties",
     "selected_county" = "{selected_county} Census Tracts"

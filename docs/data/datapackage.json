@@ -51,16 +51,16 @@
             "name": "earnings_per_job:earnings_per_job",
             "duplicates": 419,
             "info": {
-              "type": "ratio",
-              "short_name": "Average of earnings per job",
+              "type": "dollar",
+              "short_name": "Earnings per job",
               "full_name": "earnings_per_job:earnings_per_job",
               "category": "Employment/Workforce Development",
               "measure_table": "earnings_per_job",
               "measure": "earnings_per_job",
               "long_name": "Earnings per job",
-              "short_description": "Earnings per job.",
+              "short_description": "Average of earnings per job.",
               "long_description": "Earnings per job is calculated based on the GDP and Personal Income table from the Bureau of Economic Analysis.",
-              "statement": "Earnings per job in {features.name} is ${value}",
+              "statement": "Earnings per job in {features.name} is {value}.",
               "sources": [
                 {
                   "name": "Bureau of Economic Analysis",
@@ -86,7 +86,7 @@
               "long_name": "Community college computer science program access score (3-step floating catchment areas)",
               "short_description": "Index of community college computer science program accessibility based on supply and demand of programs",
               "long_description": "Community college computer science program access score based on 3-step floating catchment areas. This method is an aggregation of programs per population ratios weighted by distance or travel time in each catchment area (area within which a program is accessible). Weights are defined for the demand for programs (adult population) and the supply is the capacity of programs (number of seats).",
-              "statement": "The community college computer science program accessibility score in {features.name} is {value}",
+              "statement": "The community college computer science program accessibility score in {features.name} is {value}.",
               "sources": [
                 {
                   "name": "National Center for Education Statistics",
@@ -152,7 +152,7 @@
               "long_name": "Community college engineering program access score (3-step floating catchment areas)",
               "short_description": "Index of community college engineering program accessibility based on supply and demand of programs",
               "long_description": "Community college engineering program access score based on 3-step floating catchment areas. This method is an aggregation of programs per population ratios weighted by distance or travel time in each catchment area (area within which a program is accessible). Weights are defined for the demand for programs (adult population) and the supply is the capacity of programs (number of seats).",
-              "statement": "The community college engineering program accessibility score in {features.name} is {value}",
+              "statement": "The community college engineering program accessibility score in {features.name} is {value}.",
               "sources": [
                 {
                   "name": "National Center for Education Statistics",
@@ -218,7 +218,7 @@
               "long_name": "Community college engineering-related program access score (3-step floating catchment areas)",
               "short_description": "Index of community college engineering-related program accessibility based on supply and demand of programs",
               "long_description": "Community college engineering-related program access score based on 3-step floating catchment areas. This method is an aggregation of programs per population ratios weighted by distance or travel time in each catchment area (area within which a program is accessible). Weights are defined for the demand for programs (adult population) and the supply is the capacity of programs (number of seats).",
-              "statement": "The community college engineering-related program accessibility score in {features.name} is {value}",
+              "statement": "The community college engineering-related program accessibility score in {features.name} is {value}.",
               "sources": [
                 {
                   "name": "National Center for Education Statistics",
@@ -284,7 +284,7 @@
               "long_name": "Civilian employment rate",
               "short_description": "Population self-reported as employed divided by total civilian workforce population.",
               "long_description": "Population self-reported as employed divided by total civilian workforce population. Based on American Community Survey Table B23025 ACS 2015/2019 5-year estimates.",
-              "statement": "The employment rate in {features.name} is {value}",
+              "statement": "The employment rate in {features.name} is {value}.",
               "sources": [
                 {
                   "name": "American Community Survey",
@@ -310,7 +310,7 @@
               "long_name": "Preventable hospital stays per 100,000 Medicare enrollees",
               "short_description": "Rate of hospital stays for ambulatory-care sensitive conditions per 100,000 Medicare enrollees",
               "long_description": "Rate of hospital stays for ambulatory-care sensitive conditions per 100,000 Medicare enrollees. Ambulatory care refers to diagnoses that are usually treatable in outpatient settings. This data is based on Medicare claims and comes from County Health Rankings.",
-              "statement": "{value} of the hospitalizations in {features.name}  were preventable (due to conditions usually treated in outpatient settings)",
+              "statement": "{value} of the hospitalizations in {features.name} were preventable (due to conditions usually treated in outpatient settings).",
               "sources": [
                 {
                   "name": "County Health Rankings",
@@ -340,7 +340,7 @@
               "long_name": "Food insecurity rate",
               "short_description": "Food insecurity refers to USDA's measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods.",
               "long_description": "Food insecurity refers to USDA's measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food-insecure households are not necessarily food insecure all the time. Food insecurity may reflect a household's need to make trade-offs between important basic needs, such as housing or medical bills, and purchasing nutritionally adequate foods.",
-              "statement": "The food insecurity rate in {features.name} is {value}",
+              "statement": "The food insecurity rate in {features.name} is {value}.",
               "sources": [
                 {
                   "name": "Feeding America",
@@ -370,7 +370,7 @@
               "long_name": "Count of population of food insecure children",
               "short_description": "Food insecure children are those children living in households experiencing food insecurity (a lack of access to enough food for an active, healthy life).",
               "long_description": "Food insecurity refers to USDA's measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food insecurity refers to USDA's measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food insecure children are those children living in households experiencing food insecurity. Food-insecure households are not necessarily food insecure all the time. Food insecurity may reflect a household's need to make trade-offs between important basic needs, such as housing or medical bills, and purchasing nutritionally adequate foods.",
-              "statement": "The population of food insecure children in {features.name} is {value}",
+              "statement": "The population of food insecure children in {features.name} is {value}.",
               "sources": [
                 {
                   "name": "Feeding America",
@@ -400,7 +400,7 @@
               "long_name": "Childhood food insecurity rate",
               "short_description": "Food insecure children are those children living in households experiencing food insecurity (a lack of access to enough food for an active, healthy life).",
               "long_description": "Food insecurity refers to USDA's measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food insecurity refers to USDA's measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food insecure children are those children living in households experiencing food insecurity. Food-insecure households are not necessarily food insecure all the time. Food insecurity may reflect a household's need to make trade-offs between important basic needs, such as housing or medical bills, and purchasing nutritionally adequate foods.",
-              "statement": "The childhood food insecurity rate in {features.name} is {value}",
+              "statement": "The childhood food insecurity rate in {features.name} is {value}.",
               "sources": [
                 {
                   "name": "Feeding America",
@@ -421,7 +421,7 @@
             "name": "food_insecurity_and_cost:Cost_Per_Meal",
             "duplicates": 127,
             "info": {
-              "type": "float",
+              "type": "dollar",
               "short_name": "Average meal cost",
               "full_name": "food_insecurity_and_cost:Cost_Per_Meal",
               "category": "Nutrition and Food Security",
@@ -430,7 +430,7 @@
               "long_name": "Average meal cost",
               "short_description": "The average weekly dollar amount food-secure individuals report spending on food.",
               "long_description": "The average weekly dollar amount food-secure individuals report spending on food, as estimated by the Current Population Survey, divided by 21 (assuming three meals a day, seven days a week). This amount has been adjusted to reflect local food prices and relevant taxes.",
-              "statement": "The average meal cost in {features.name} is {value}",
+              "statement": "The average meal cost in {features.name} is {value}.",
               "sources": [
                 {
                   "name": "Feeding America",
@@ -474,7 +474,7 @@
               "long_name": "Emergency department visits for drug overdose rate per 100,000 residents",
               "short_description": "Average emergency department visits for drug overdose per 100,000 residents.",
               "long_description": "Average emergency department visits for drug overdose per 100,000 residents.",
-              "statement": "The average emergency department visits for drug overdose rate in {features.name} is {value} per 100,000 residents",
+              "statement": "The average emergency department visits for drug overdose rate in {features.name} is {value} per 100,000 residents.",
               "sources": [
                 {
                   "name": "Virginia Department of Health",
@@ -495,7 +495,7 @@
             "name": "3rd_grade_median_read_score:median_read_pass_rate",
             "duplicates": 373,
             "info": {
-              "type": "rate",
+              "type": "percent",
               "short_name": "3rd grade population passing reading",
               "full_name": "3rd_grade_median_read_score:median_read_pass_rate",
               "category": "Education",
@@ -504,7 +504,7 @@
               "long_name": "Median percent of 3rd grade population passing reading test",
               "short_description": "Median percent of 3rd grade population passing reading test for schools in the region",
               "long_description": "Median percent of 3rd grade population passing reading test. The median is calculated across schools in the region.",
-              "statement": "The median percent of 3rd graders with passing reading scores in {features.name} is {value}",
+              "statement": "On average {value} of 3rd graders pass reading in {features.name}.",
               "sources": [
                 {
                   "name": "Virginia Department of Education",
@@ -548,7 +548,7 @@
               "long_name": "Percent  of population with post-high school education",
               "short_description": "Percent of the population self-reported to have post-high school level degree",
               "long_description": "Percent of the population self-reported to have post-high school level degree. Based on American Community Survey Table B15003 in ACS 2015/2019 5-year estimates.",
-              "statement": "{value} of the population in {features.name} have a post-high school education",
+              "statement": "{value} of the population in {features.name} has a post-high school education.",
               "sources": [
                 {
                   "name": "American Community Survey",
@@ -578,7 +578,7 @@
               "long_name": "Percent of population without health insurance",
               "short_description": "Percent of the population (ages 16-64) self-reported to not be currently covered by any type of health insurance or health coverage plan",
               "long_description": "Percent of the population self-reported to not be currently covered by any type of health insurance or health coverage plan. Based on American Community Survey Tables B18135 and C27001I in ACS 2015/2019 5-year estimates.",
-              "statement": "{value} of the population has no health insurance in  {features.name}",
+              "statement": "{value} of the population has no health insurance in {features.name}.",
               "sources": [
                 {
                   "name": "American Community Survey",
@@ -608,7 +608,7 @@
               "long_name": "Percent of population with broadband",
               "short_description": "Percent of population self-reported to have a broadband internet connection (any type of internet other than a dial-up)",
               "long_description": "Percent of population self-reported to have a broadband internet connection. Broadband internet is defined as any type of internet other than a dial-up. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-              "statement": "{value} of the population in {features.name} has a broadband connection",
+              "statement": "{value} of the population in {features.name} has a broadband connection.",
               "sources": [
                 {
                   "name": "American Community Survey",
@@ -638,7 +638,7 @@
               "long_name": "Percent of population with a high speed internet service (cable, fiber optic, or DSL)",
               "short_description": "Percent of population self-reported to have a high speed internet service (cable, fiber optic, or DSL)",
               "long_description": "Percent of population self-reported to have a high speed internet service. A high speed internet service is defined as a cable, fiber optic, or DSL internet connection. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-              "statement": "{value} of the population in {features.name} has a cable fiber or DSL internet connection",
+              "statement": "{value} of the population in {features.name} has a cable fiber or DSL internet connection.",
               "sources": [
                 {
                   "name": "American Community Survey",
@@ -668,7 +668,7 @@
               "long_name": "Percent of population with a computer",
               "short_description": "Percent of the population self-reported to have a computer at home",
               "long_description": "Percent of the population self-reported to have a computer at home. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-              "statement": "{value} of the population in {features.name} have a computer",
+              "statement": "{value} of the population in {features.name} have a computer.",
               "sources": [
                 {
                   "name": "American Community Survey",
@@ -698,7 +698,7 @@
               "long_name": "Percent of population with internet access",
               "short_description": "Percent of the population self-reported to have internet access at home",
               "long_description": "Percent of the population self-reported to have internet access at home. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-              "statement": "{value} of the population in {features.name} have internet access",
+              "statement": "{value} of the population in {features.name} have internet access.",
               "sources": [
                 {
                   "name": "American Community Survey",
@@ -719,7 +719,7 @@
             "name": "download_speeds:download",
             "duplicates": 314,
             "info": {
-              "type": "float",
+              "type": "internet speed",
               "short_name": "Average download speed",
               "full_name": "download_speeds:download",
               "category": "Broadband",
@@ -728,7 +728,7 @@
               "long_name": "Average download speed (MB/s)",
               "short_description": "Average download speed for internet connection in MB/s",
               "long_description": "The average download speed for internet users' connections who performed a speed check using Ookla. Speeds are reported in MB/s. A speed of 100 MB/s is considered adequate for school work, video calling etc.",
-              "statement": "The average download speed for internet connections in {features.name} is {value} MB/s",
+              "statement": "The average download speed for internet connections in {features.name} is {value}.",
               "sources": [
                 {
                   "name": "Ookla",
@@ -749,7 +749,7 @@
             "name": "drive_times_nearest_2year_colleges:median_drive_time_top5",
             "duplicates": 384,
             "info": {
-              "type": "float",
+              "type": "drive time",
               "short_name": "2-year college access (drive time)",
               "full_name": "drive_times_nearest_2year_colleges:median_drive_time_top5",
               "category": "Education",
@@ -758,7 +758,7 @@
               "long_name": "2-year college access by median drive time to the five closest colleges in minutes",
               "short_description": "Median drive time (minutes) to the five closest 2-year colleges from centroid of selected region",
               "long_description": "Median drive time in minutes to the five closest 2-year colleges from centroid of selected region. Address data was collected from the National Center for Education Statistics (Dataset for year 2019). Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
-              "statement": "The median drive time to the five closest 2-year colleges to {features.name} is {value} minutes",
+              "statement": "The median drive time to the five closest 2-year colleges to {features.name} is {value}.",
               "sources": [
                 {
                   "name": "National Center for Education Statistics",
@@ -821,7 +821,7 @@
             "name": "drive_times_nearest_daycares:median_drive_time_top5",
             "duplicates": 387,
             "info": {
-              "type": "float",
+              "type": "drive time",
               "short_name": "Day care access (drive time)",
               "full_name": "drive_times_nearest_daycares:median_drive_time_top5",
               "category": "Education",
@@ -830,7 +830,7 @@
               "long_name": "Day care access by median drive time to the five closest day cares in minutes",
               "short_description": "Median drive time (minutes) to the five closest day cares from centroid of selected region",
               "long_description": "Median drive time in minutes to the five closest day cares from centroid of selected region. Address data was collected from the Virginia Department of Social Services Child Day Care Facility search (Dataset for year 2019). Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
-              "statement": "The median drive time to the five closest day cares to {features.name} is {value} minutes",
+              "statement": "The median drive time to the five closest day cares to {features.name} is {value}.",
               "sources": [
                 {
                   "name": "Virginia Department of Social Services",
@@ -935,7 +935,7 @@
             "name": "drive_times_nearest_trade_schools:median_drive_time_top5",
             "duplicates": 384,
             "info": {
-              "type": "float",
+              "type": "drive time",
               "short_name": "Trade school access (drive time)",
               "full_name": "drive_times_nearest_trade_schools:median_drive_time_top5",
               "category": "Education",
@@ -944,7 +944,7 @@
               "long_name": "Trade school access by median drive time to the five closest schools in minutes",
               "short_description": "Mean drive time (minutes) to the five closest trade schools from centroid of selected region",
               "long_description": "Median drive time in minutes to the five closest trade schools from centroid of selected region. Address data was collected from the National Center for Education Statistics (Dataset for year 2019). Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
-              "statement": "The median drive time to the five closest trade schools to {features.name} is {value} minutes",
+              "statement": "The median drive time to the five closest trade schools to {features.name} is {value}.",
               "sources": [
                 {
                   "name": "National Center for Education Statistics",
@@ -974,7 +974,7 @@
               "long_name": "Percent of the population with poor mental health",
               "short_description": "Percent of the population self-reporting poor mental health",
               "long_description": "Percent of the population self-reporting poor mental health in over 14 days of the previous month. Based on the Virginia Behavioral Risk Factor Surveillance Survey.",
-              "statement": "{value} of the population in {features.name} report poor mental health",
+              "statement": "{value} of the population in {features.name} reports poor mental health.",
               "sources": [
                 {
                   "name": "Virginia Behavioral Risk Factor Surveillance System",
@@ -1004,7 +1004,7 @@
               "long_name": "Percent of the population with poor physical health",
               "short_description": "Percent of the population self-reporting poor physical health",
               "long_description": "Percent of the population self-reporting poor physical health in over 14 days of the previous month. Based on the Virginia Behavioral Risk Factor Surveillance Survey.",
-              "statement": "{value} of the population in {features.name} report poor physical health",
+              "statement": "{value} of the population in {features.name} reports poor physical health.",
               "sources": [
                 {
                   "name": "Virginia Behavioral Risk Factor Surveillance System",
@@ -1034,7 +1034,7 @@
               "long_name": "Digital Equity Index",
               "short_description": "Digital Equity Index captures the relative equity of digital access, with 0 being a score of relative equity and 100 being relative inequity.",
               "long_description": "The Digital Equity Index (DEI) is a composite variable indicating the degree of broadband equity as it relates to adoption, accessibility, and infrastructure. It ranges from 0 to 100, where 100 indicates the most equitable broadband access. The DEI is constructed at the Census tract level and is composed of the following variables: percent of the population under 65 years of age, percent of the population with at least a high school education, percent of the population with income below the poverty level, percent of the population without a disability, the ratio between the share of homes making $75,000 or more per year with internet and the share of homes making less than $35,000 per year without internet, percent of the population with at least one computer, percent of the population with internet access, percent of the population that is low income (less than 30% of HUD Area Median Family Income) and have a housing cost burden over 30%, and average download speeds, upload speeds, and latency from Ookla speed tests.",
-              "statement": "The digital equity index for {features.name} is {value}",
+              "statement": "The Digital Equity Index for {features.name} is {value}.",
               "sources": [
                 {
                   "name": "American Community Survey",
@@ -1111,7 +1111,7 @@
               "long_name": "2 year college access score (3-step floating catchment areas)",
               "short_description": "Index of 3-year college accessibility based on supply and demand of providers",
               "long_description": "2-year college access score based on 3-step floating catchment areas. This method is an aggregation of college capacity per population ratios weighted by distance or travel time in each catchment area (area within which an institution is accessible). Weights are defined for the demand for 2-year college (whole population in an area served by the institution) and supply is the total number of students enrolled in a year (graduate and undergraduate).",
-              "statement": "The 2-year college accessibility score for {features.name} is {value}",
+              "statement": "The 2-year college accessibility score for {features.name} is {value}.",
               "sources": [
                 {
                   "name": "National Center for Education Statistics",
@@ -1233,7 +1233,7 @@
               "long_name": "Health literacy estimate",
               "short_description": "Health literacy estimate captures the adult population's ability to obtain, process, and understand basic health services to make appropriate health decisions",
               "long_description": "The health literacy estimate captures the adult population's ability to obtain, process, and understand basic health services to make appropriate health decisions. Health literacy estimate is based on variables of demographic characteristics, health status, and health care use.",
-              "statement": "The health literacy estimate for {features.name} is {value}",
+              "statement": "The health literacy estimate for {features.name} is {value}.",
               "sources": [
                 {
                   "name": "Medical Expenditure Panel Survey",
@@ -1268,7 +1268,7 @@
               "long_name": "Trade school access score (3-step floating catchment areas)",
               "short_description": "Index of trade school accessibility based on supply and demand of providers",
               "long_description": "Trade school access score based on 3-step floating catchment areas. This method is an aggregation of trade school capacity per population ratios weighted by distance or travel time in each catchment area (area within which an institution is accessible). Weights are defined for the demand for trade schools (whole population in an area served by the institution) and supply is the total number of students enrolled in a year (undergraduate).",
-              "statement": "The trade school accessibility score for {features.name} is  {value}",
+              "statement": "The trade school accessibility score for {features.name} is {value}.",
               "sources": [
                 {
                   "name": "National Center for Education Statistics",
@@ -1446,7 +1446,7 @@
               "long_name": "Access to day care by count",
               "short_description": "Count of day care capacity (seats) based on provider locations",
               "long_description": "Count of day care capacity (seats) based on provider locations. Address and capacity data was collected from Virginia Department of Social Services day care search tool.",
-              "statement": "There are {value} daycares in {features.name}",
+              "statement": "There are {value} daycares in {features.name}.",
               "sources": [
                 {
                   "name": "Virginia Department of Social Services",
@@ -1475,8 +1475,8 @@
               "measure": "daycare_norm_3sefca",
               "long_name": "Day care access score (3-step floating catchment area)",
               "short_description": "Index of day care accessibility based on supply of and demand for providers",
-              "long_description": "Primary care access score based on 2-step enhanced floating catchment areas. This method is an aggregation of day care facilities per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Provider address data was collected from Virginia Department of Social Services day care search tool. The demand for day care services is the population 0-12 years old and the supply is the capacity of day cares (number of seats).",
-              "statement": "The daycare accessibility score for {features.name} is {value}",
+              "long_description": "Day care access score based on 2-step enhanced floating catchment areas. This method is an aggregation of day care facilities per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Provider address data was collected from Virginia Department of Social Services day care search tool. The demand for day care services is the population 0-12 years old and the supply is the capacity of day cares (number of seats).",
+              "statement": "The daycare accessibility score for {features.name} is {value}.",
               "sources": [
                 {
                   "name": "Virginia Department of Social Services",
@@ -1520,7 +1520,7 @@
               "long_name": "Dental care access score (2 step-enhanced floating catchment areas)",
               "short_description": "Index of dental care accessibility based on supply and demand of providers",
               "long_description": "Dental care access score based on 2-step enhanced floating catchment areas. This method is an aggregation of dentists per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for dentists (population served by dentists). Provider address data was collected from WebMD's online Physician Directory.",
-              "statement": "The dental care access score for {features.name} is {value}",
+              "statement": "The dental care access score for {features.name} is {value}.",
               "sources": [
                 {
                   "name": "SafeGraph Core",
@@ -1578,7 +1578,7 @@
               "long_name": "Dental care access by count",
               "short_description": "Count of dentists based on provider locations",
               "long_description": "Count of dentists based on provider locations. Address data was collected from WebMD's online Physician Directory.",
-              "statement": "There are {value} dentists in {features.name}",
+              "statement": "There are {value} dentists in {features.name}.",
               "sources": [
                 {
                   "name": "SafeGraph Core",
@@ -1692,7 +1692,7 @@
               "long_name": "Emergency medical services access score (3-step floating catchment areas)",
               "short_description": "Index of emergency medical services accessibility based on supply and demand of facilities",
               "long_description": "Emergency medical services access score based on 3-step floating catchment areas. This method is an aggregation of facilities per population ratios weighted by distance or travel time in each catchment area (area within which a facility is accessible). Weights are defined for the demand for facilities (adult population).",
-              "statement": "The emergency medical services accessibility score for {features.name} is {value}",
+              "statement": "The emergency medical services accessibility score for {features.name} is {value}.",
               "sources": [
                 {
                   "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
@@ -1722,7 +1722,7 @@
               "long_name": "Access to emergency medical services by count",
               "short_description": "Count of emergency medical services facilities based on facility locations",
               "long_description": "Count of emergency medical services facilities based on facility locations. Location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository.",
-              "statement": "There are {value} emergency medical services facilities in {features.name}",
+              "statement": "There are {value} emergency medical services facilities in {features.name}.",
               "sources": [
                 {
                   "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
@@ -1767,7 +1767,7 @@
             "name": "ems_access_scores:ems_10near_median",
             "duplicates": 419,
             "info": {
-              "type": "float",
+              "type": "drive time",
               "short_name": "Emergency medical services access (drive time)",
               "full_name": "ems_access_scores:ems_10near_median",
               "category": "Health",
@@ -1776,7 +1776,7 @@
               "long_name": "Emergency medical services access by median drive time to the ten closest facilities in minutes",
               "short_description": "Median drive time (minutes) to the ten closest emergency medical services facilities",
               "long_description": "Median drive time in minutes to the ten closest emergency medical services facilities. Facility location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository. Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
-              "statement": "The median drive time to the ten closest emergency medical service facilities to {features.name} is {value} minutes",
+              "statement": "The median drive time to the ten closest emergency medical service facilities to {features.name} is {value}.",
               "sources": [
                 {
                   "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
@@ -1858,7 +1858,7 @@
               "long_name": "Access to hospitals by count",
               "short_description": "Count of hospitals based on facility locations",
               "long_description": "Count of hospitals based on facility locations. Location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository.",
-              "statement": "There are {value} hospitals in {features.name}",
+              "statement": "There are {value} hospitals in {features.name}.",
               "sources": [
                 {
                   "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
@@ -1902,7 +1902,7 @@
               "long_name": "Hospital access score (3-step floating catchment areas)",
               "short_description": "Index of hospital accessibility based on supply and demand of facilities",
               "long_description": "Hospital access score based on 3-step floating catchment areas. This method is an aggregation of facilities per population ratios weighted by distance or travel time in each catchment area (area within which a facility is accessible). Weights are defined for the demand for facilities (adult population).",
-              "statement": "The hospital accessibility score for {features.name} is  {value}",
+              "statement": "The hospital accessibility score for {features.name} is {value}.",
               "sources": [
                 {
                   "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
@@ -1947,16 +1947,16 @@
             "name": "hospital_access_scores:hos_10near_median",
             "duplicates": 419,
             "info": {
-              "type": "float",
+              "type": "drive time",
               "short_name": "Hospital access (drive time)",
               "full_name": "hospital_access_scores:hos_10near_median",
               "category": "Health",
               "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_hospital_access_scores",
               "measure": "hospital_10near_median",
               "long_name": "Hospital access by median drive time to the ten closest facilities in minutes",
-              "short_description": "Median drive time (minutes) to the ten closest hospital s",
+              "short_description": "Median drive time (minutes) to the ten closest hospitals",
               "long_description": "Median drive time in minutes to the ten closest hospitals. Facility location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository. Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
-              "statement": "The median drive time to the ten closest hospitals to {features.name} is {value} minutes",
+              "statement": "The median drive time to the ten closest hospitals to {features.name} is {value}.",
               "sources": [
                 {
                   "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
@@ -2024,7 +2024,7 @@
               "long_name": "Access to mental health services by count",
               "short_description": "Count of mental health facilities based on facility locations",
               "long_description": "Count of mental health facilities based on facility locations. Location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository.",
-              "statement": "There are {value} mental health facilities in {features.name}",
+              "statement": "There are {value} mental health facilities in {features.name}.",
               "sources": [
                 {
                   "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
@@ -2082,7 +2082,7 @@
               "long_name": "Mental health services access score (3-step  floating catchment areas)",
               "short_description": "Index of mental health services accessibility based on supply and demand of facilities",
               "long_description": "Mental health services access score based on 3-step floating catchment areas. This method is an aggregation of facilities per population ratios weighted by distance or travel time in each catchment area (area within which a facility is accessible). Weights are defined for the demand for facilities (adult population).",
-              "statement": "The mental health services accessibility score for {features.name} is {value}",
+              "statement": "The mental health services accessibility score for {features.name} is {value}.",
               "sources": [
                 {
                   "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
@@ -2127,7 +2127,7 @@
             "name": "mental_access_scores:mental_10near_median",
             "duplicates": 419,
             "info": {
-              "type": "float",
+              "type": "drive time",
               "short_name": "Mental health services access (drive time)",
               "full_name": "mental_access_scores:mental_10near_median",
               "category": "Health",
@@ -2136,7 +2136,7 @@
               "long_name": "Mental health services access by median drive time to the ten closest facilities in minutes",
               "short_description": "Median drive time (minutes) to the ten closest mental health services facilities",
               "long_description": "Median drive time in minutes to the ten closest mental health services facilities. Facility location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository. Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
-              "statement": "The median drive time to the ten closest mental health service facilities to {features.name} is {value} minutes",
+              "statement": "The median drive time to the ten closest mental health service facilities to {features.name} is {value}.",
               "sources": [
                 {
                   "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
@@ -2204,7 +2204,7 @@
               "long_name": "OBGYN care access score (2 step-enhanced floating catchment areas)",
               "short_description": "Index of OBGYN care accessibility based on supply and demand of providers",
               "long_description": "OBGYN care access score based on 2-step enhanced floating catchment areas. This method is an aggregation of OBGYNs per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for OBGYNs (population served by OBGYNs). Provider address data was collected from WebMD's online physician directory.",
-              "statement": "The OBGYN access score for {features.name} is {value}",
+              "statement": "The OBGYN access score for {features.name} is {value}.",
               "sources": [
                 {
                   "name": "WebMD Physician Directory",
@@ -2248,7 +2248,7 @@
               "long_name": "OBGYN care access by count",
               "short_description": "Count of OBGYNs based on provider locations",
               "long_description": "Count of OBGYN care providers based on provider locations. Address data was collected from WebMD's online Physician Directory.",
-              "statement": "There are {value} OBGYNs in {features.name}",
+              "statement": "There are {value} OBGYNs in {features.name}.",
               "sources": [
                 {
                   "name": "WebMD Physician Directory",
@@ -2362,7 +2362,7 @@
               "long_name": "Pediatric care access score (2-step enhanced floating catchment areas)",
               "short_description": "Index of pediatric care physician accessibility based on supply and demand of providers",
               "long_description": "Pediatric care access score based on 2-step enhanced floating catchment areas. This method is an aggregation of pediatricians per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for pediatricians (population under 16). Provider address data was collected from WebMD's online Physician Directory.",
-              "statement": "The pediatric care accessibility score for {features.name} is {value}",
+              "statement": "The pediatric care accessibility score for {features.name} is {value}.",
               "sources": [
                 {
                   "name": "WebMD Physician Directory",
@@ -2406,7 +2406,7 @@
               "long_name": "Pediatric care access by count",
               "short_description": "Count of pediatricians based on provider locations",
               "long_description": "Count of pediatricians based on provider locations. Address data was collected from WebMD's online Physician Directory.",
-              "statement": "There are {value} pediatricians in {features.name}",
+              "statement": "There are {value} pediatricians in {features.name}.",
               "sources": [
                 {
                   "name": "WebMD Physician Directory",
@@ -2498,7 +2498,7 @@
               "long_name": "The national average price for internet as a percent of average income",
               "short_description": "The national average price for internet ($64) as a percent of average income",
               "long_description": "The national average price for internet ($64) as a percent of average income.",
-              "statement": "The national average internet package costs {value} of the average income in {features.name}",
+              "statement": "The national average internet package costs {value} of the average income in {features.name}.",
               "sources": [
                 {
                   "name": "American Community Survey",
@@ -2547,7 +2547,7 @@
               "long_name": "The minimum price for good internet (25 MB/s upload) as a percent of average income",
               "short_description": "The minimum price for good internet (25 MB/s upload) as a percent of average income",
               "long_description": "The minimum price for good internet (25 MB/s upload) as a percent of average income.",
-              "statement": "Good internet costs {value} of the average income in {features.name}",
+              "statement": "Good internet costs {value} of the average income in {features.name}.",
               "sources": [
                 {
                   "name": "American Community Survey",
@@ -2610,7 +2610,7 @@
               "long_name": "The minimum price for fast internet (100 MB/s upload) as a percent of average income",
               "short_description": "The minimum price for fast internet (100 MB/s upload) as a percent of average income",
               "long_description": "The minimum price for fast internet (100 MB/s upload) as a percent of average income.",
-              "statement": "Fast internet costs {value} of the average income in {features.name}",
+              "statement": "Fast internet costs {value} of the average income in {features.name}.",
               "sources": [
                 {
                   "name": "American Community Survey",
@@ -2659,7 +2659,7 @@
               "long_name": "Primary care access by count",
               "short_description": "Count of primary care physicians based on provider locations",
               "long_description": "Count of primary care physicians based on provider locations. Address data was collected from WebMD's online Physician Directory.",
-              "statement": "There are {value} primary care physicians in {features.name}",
+              "statement": "There are {value} primary care physicians in {features.name}.",
               "sources": [
                 {
                   "name": "WebMD Physician Directory",
@@ -2703,7 +2703,7 @@
               "long_name": "Primary care access score (2-step enhanced floating catchment areas)",
               "short_description": "Index of primary care physician accessibility based on supply and demand of providers",
               "long_description": "Primary care access score based on 2-step enhanced floating catchment areas. This method is an aggregation of physicians per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for physicians (population served by physicians). Provider address data was collected from WebMD's online Physician Directory.",
-              "statement": "The primary care accessibility score for {features.name} is {value}",
+              "statement": "The primary care accessibility score for {features.name} is {value}.",
               "sources": [
                 {
                   "name": "WebMD Physician Directory",
@@ -2817,7 +2817,7 @@
               "long_name": "Access to substance use/behavioral health  by count",
               "short_description": "Count of substance use/behavioral health facilities based on facility locations",
               "long_description": "Count of substance use/behavioral health facilities based on facility locations. Location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository.",
-              "statement": "There are {value} substance use facilities in {features.name}",
+              "statement": "There are {value} substance use facilities in {features.name}.",
               "sources": [
                 {
                   "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
@@ -2861,7 +2861,7 @@
               "long_name": "Substance use/behavioral health services access score (3-step floating catchment areas)",
               "short_description": "Index of substance use/behavioral health services accessibility based on supply and demand of facilities",
               "long_description": "Substance use/behavioral health services access score based on 3-step  floating catchment areas. This method is an aggregation of facilities per population ratios weighted by distance or travel time in each catchment area (area within which a facility is accessible). Weights are defined for the demand for facilities (adult population).",
-              "statement": "The substance use/behavioral health services accessibility score for {features.name} is {value}",
+              "statement": "The substance use/behavioral health services accessibility score for {features.name} is {value}.",
               "sources": [
                 {
                   "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
@@ -2906,7 +2906,7 @@
             "name": "substance_access_scores:subs_10near_median",
             "duplicates": 419,
             "info": {
-              "type": "float",
+              "type": "drive time",
               "short_name": "Substance use/behavioral health services access (drive time)",
               "full_name": "substance_access_scores:subs_10near_median",
               "category": "Health",
@@ -2915,7 +2915,7 @@
               "long_name": "Substance use/behavioral health services access by median drive time to the ten closest facilities in minutes",
               "short_description": "Median drive time (minutes) to the ten closest substance use/behavioral health services facilities",
               "long_description": "Median drive time in minutes to the ten closest substance use/behavioral health services facilities. Facility location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository. Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
-              "statement": "The median drive time to the ten closest substance use/behavioral health service facilities to {features.name} is {value} minutes",
+              "statement": "The median drive time to the ten closest substance use/behavioral health service facilities to {features.name} is {value}.",
               "sources": [
                 {
                   "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
@@ -3163,16 +3163,16 @@
             "name": "earnings_per_job:earnings_per_job",
             "duplicates": 1253,
             "info": {
-              "type": "ratio",
-              "short_name": "Average of earnings per job",
+              "type": "dollar",
+              "short_name": "Earnings per job",
               "full_name": "earnings_per_job:earnings_per_job",
               "category": "Employment/Workforce Development",
               "measure_table": "earnings_per_job",
               "measure": "earnings_per_job",
               "long_name": "Earnings per job",
-              "short_description": "Earnings per job.",
+              "short_description": "Average of earnings per job.",
               "long_description": "Earnings per job is calculated based on the GDP and Personal Income table from the Bureau of Economic Analysis.",
-              "statement": "Earnings per job in {features.name} is ${value}",
+              "statement": "Earnings per job in {features.name} is {value}.",
               "sources": [
                 {
                   "name": "Bureau of Economic Analysis",
@@ -3202,7 +3202,7 @@
               "long_name": "Community college computer science program access score (3-step floating catchment areas)",
               "short_description": "Index of community college computer science program accessibility based on supply and demand of programs",
               "long_description": "Community college computer science program access score based on 3-step floating catchment areas. This method is an aggregation of programs per population ratios weighted by distance or travel time in each catchment area (area within which a program is accessible). Weights are defined for the demand for programs (adult population) and the supply is the capacity of programs (number of seats).",
-              "statement": "The community college computer science program accessibility score in {features.name} is {value}",
+              "statement": "The community college computer science program accessibility score in {features.name} is {value}.",
               "sources": [
                 {
                   "name": "National Center for Education Statistics",
@@ -3288,7 +3288,7 @@
               "long_name": "Community college engineering program access score (3-step floating catchment areas)",
               "short_description": "Index of community college engineering program accessibility based on supply and demand of programs",
               "long_description": "Community college engineering program access score based on 3-step floating catchment areas. This method is an aggregation of programs per population ratios weighted by distance or travel time in each catchment area (area within which a program is accessible). Weights are defined for the demand for programs (adult population) and the supply is the capacity of programs (number of seats).",
-              "statement": "The community college engineering program accessibility score in {features.name} is {value}",
+              "statement": "The community college engineering program accessibility score in {features.name} is {value}.",
               "sources": [
                 {
                   "name": "National Center for Education Statistics",
@@ -3374,7 +3374,7 @@
               "long_name": "Community college engineering-related program access score (3-step floating catchment areas)",
               "short_description": "Index of community college engineering-related program accessibility based on supply and demand of programs",
               "long_description": "Community college engineering-related program access score based on 3-step floating catchment areas. This method is an aggregation of programs per population ratios weighted by distance or travel time in each catchment area (area within which a program is accessible). Weights are defined for the demand for programs (adult population) and the supply is the capacity of programs (number of seats).",
-              "statement": "The community college engineering-related program accessibility score in {features.name} is {value}",
+              "statement": "The community college engineering-related program accessibility score in {features.name} is {value}.",
               "sources": [
                 {
                   "name": "National Center for Education Statistics",
@@ -3460,7 +3460,7 @@
               "long_name": "Civilian employment rate",
               "short_description": "Population self-reported as employed divided by total civilian workforce population.",
               "long_description": "Population self-reported as employed divided by total civilian workforce population. Based on American Community Survey Table B23025 ACS 2015/2019 5-year estimates.",
-              "statement": "The employment rate in {features.name} is {value}",
+              "statement": "The employment rate in {features.name} is {value}.",
               "sources": [
                 {
                   "name": "American Community Survey",
@@ -3490,7 +3490,7 @@
               "long_name": "Preventable hospital stays per 100,000 Medicare enrollees",
               "short_description": "Rate of hospital stays for ambulatory-care sensitive conditions per 100,000 Medicare enrollees",
               "long_description": "Rate of hospital stays for ambulatory-care sensitive conditions per 100,000 Medicare enrollees. Ambulatory care refers to diagnoses that are usually treatable in outpatient settings. This data is based on Medicare claims and comes from County Health Rankings.",
-              "statement": "{value} of the hospitalizations in {features.name}  were preventable (due to conditions usually treated in outpatient settings)",
+              "statement": "{value} of the hospitalizations in {features.name} were preventable (due to conditions usually treated in outpatient settings).",
               "sources": [
                 {
                   "name": "County Health Rankings",
@@ -3520,7 +3520,7 @@
               "long_name": "Food insecurity rate",
               "short_description": "Food insecurity refers to USDA's measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods.",
               "long_description": "Food insecurity refers to USDA's measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food-insecure households are not necessarily food insecure all the time. Food insecurity may reflect a household's need to make trade-offs between important basic needs, such as housing or medical bills, and purchasing nutritionally adequate foods.",
-              "statement": "The food insecurity rate in {features.name} is {value}",
+              "statement": "The food insecurity rate in {features.name} is {value}.",
               "sources": [
                 {
                   "name": "Feeding America",
@@ -3550,7 +3550,7 @@
               "long_name": "Count of population of food insecure children",
               "short_description": "Food insecure children are those children living in households experiencing food insecurity (a lack of access to enough food for an active, healthy life).",
               "long_description": "Food insecurity refers to USDA's measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food insecurity refers to USDA's measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food insecure children are those children living in households experiencing food insecurity. Food-insecure households are not necessarily food insecure all the time. Food insecurity may reflect a household's need to make trade-offs between important basic needs, such as housing or medical bills, and purchasing nutritionally adequate foods.",
-              "statement": "The population of food insecure children in {features.name} is {value}",
+              "statement": "The population of food insecure children in {features.name} is {value}.",
               "sources": [
                 {
                   "name": "Feeding America",
@@ -3580,7 +3580,7 @@
               "long_name": "Childhood food insecurity rate",
               "short_description": "Food insecure children are those children living in households experiencing food insecurity (a lack of access to enough food for an active, healthy life).",
               "long_description": "Food insecurity refers to USDA's measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food insecurity refers to USDA's measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food insecure children are those children living in households experiencing food insecurity. Food-insecure households are not necessarily food insecure all the time. Food insecurity may reflect a household's need to make trade-offs between important basic needs, such as housing or medical bills, and purchasing nutritionally adequate foods.",
-              "statement": "The childhood food insecurity rate in {features.name} is {value}",
+              "statement": "The childhood food insecurity rate in {features.name} is {value}.",
               "sources": [
                 {
                   "name": "Feeding America",
@@ -3601,7 +3601,7 @@
             "name": "food_insecurity_and_cost:Cost_Per_Meal",
             "duplicates": 1608,
             "info": {
-              "type": "float",
+              "type": "dollar",
               "short_name": "Average meal cost",
               "full_name": "food_insecurity_and_cost:Cost_Per_Meal",
               "category": "Nutrition and Food Security",
@@ -3610,7 +3610,7 @@
               "long_name": "Average meal cost",
               "short_description": "The average weekly dollar amount food-secure individuals report spending on food.",
               "long_description": "The average weekly dollar amount food-secure individuals report spending on food, as estimated by the Current Population Survey, divided by 21 (assuming three meals a day, seven days a week). This amount has been adjusted to reflect local food prices and relevant taxes.",
-              "statement": "The average meal cost in {features.name} is {value}",
+              "statement": "The average meal cost in {features.name} is {value}.",
               "sources": [
                 {
                   "name": "Feeding America",
@@ -3654,7 +3654,7 @@
               "long_name": "Emergency department visits for drug overdose rate per 100,000 residents",
               "short_description": "Average emergency department visits for drug overdose per 100,000 residents.",
               "long_description": "Average emergency department visits for drug overdose per 100,000 residents.",
-              "statement": "The average emergency department visits for drug overdose rate in {features.name} is {value} per 100,000 residents",
+              "statement": "The average emergency department visits for drug overdose rate in {features.name} is {value} per 100,000 residents.",
               "sources": [
                 {
                   "name": "Virginia Department of Health",
@@ -3675,7 +3675,7 @@
             "name": "3rd_grade_median_read_score:median_read_pass_rate",
             "duplicates": 1798,
             "info": {
-              "type": "rate",
+              "type": "percent",
               "short_name": "3rd grade population passing reading",
               "full_name": "3rd_grade_median_read_score:median_read_pass_rate",
               "category": "Education",
@@ -3684,7 +3684,7 @@
               "long_name": "Median percent of 3rd grade population passing reading test",
               "short_description": "Median percent of 3rd grade population passing reading test for schools in the region",
               "long_description": "Median percent of 3rd grade population passing reading test. The median is calculated across schools in the region.",
-              "statement": "The median percent of 3rd graders with passing reading scores in {features.name} is {value}",
+              "statement": "On average {value} of 3rd graders pass reading in {features.name}.",
               "sources": [
                 {
                   "name": "Virginia Department of Education",
@@ -3728,7 +3728,7 @@
               "long_name": "Percent  of population with post-high school education",
               "short_description": "Percent of the population self-reported to have post-high school level degree",
               "long_description": "Percent of the population self-reported to have post-high school level degree. Based on American Community Survey Table B15003 in ACS 2015/2019 5-year estimates.",
-              "statement": "{value} of the population in {features.name} have a post-high school education",
+              "statement": "{value} of the population in {features.name} has a post-high school education.",
               "sources": [
                 {
                   "name": "American Community Survey",
@@ -3758,7 +3758,7 @@
               "long_name": "Percent of population without health insurance",
               "short_description": "Percent of the population (ages 16-64) self-reported to not be currently covered by any type of health insurance or health coverage plan",
               "long_description": "Percent of the population self-reported to not be currently covered by any type of health insurance or health coverage plan. Based on American Community Survey Tables B18135 and C27001I in ACS 2015/2019 5-year estimates.",
-              "statement": "{value} of the population has no health insurance in  {features.name}",
+              "statement": "{value} of the population has no health insurance in {features.name}.",
               "sources": [
                 {
                   "name": "American Community Survey",
@@ -3788,7 +3788,7 @@
               "long_name": "Percent of population with broadband",
               "short_description": "Percent of population self-reported to have a broadband internet connection (any type of internet other than a dial-up)",
               "long_description": "Percent of population self-reported to have a broadband internet connection. Broadband internet is defined as any type of internet other than a dial-up. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-              "statement": "{value} of the population in {features.name} has a broadband connection",
+              "statement": "{value} of the population in {features.name} has a broadband connection.",
               "sources": [
                 {
                   "name": "American Community Survey",
@@ -3818,7 +3818,7 @@
               "long_name": "Percent of population with a high speed internet service (cable, fiber optic, or DSL)",
               "short_description": "Percent of population self-reported to have a high speed internet service (cable, fiber optic, or DSL)",
               "long_description": "Percent of population self-reported to have a high speed internet service. A high speed internet service is defined as a cable, fiber optic, or DSL internet connection. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-              "statement": "{value} of the population in {features.name} has a cable fiber or DSL internet connection",
+              "statement": "{value} of the population in {features.name} has a cable fiber or DSL internet connection.",
               "sources": [
                 {
                   "name": "American Community Survey",
@@ -3848,7 +3848,7 @@
               "long_name": "Percent of population with a computer",
               "short_description": "Percent of the population self-reported to have a computer at home",
               "long_description": "Percent of the population self-reported to have a computer at home. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-              "statement": "{value} of the population in {features.name} have a computer",
+              "statement": "{value} of the population in {features.name} have a computer.",
               "sources": [
                 {
                   "name": "American Community Survey",
@@ -3878,7 +3878,7 @@
               "long_name": "Percent of population with internet access",
               "short_description": "Percent of the population self-reported to have internet access at home",
               "long_description": "Percent of the population self-reported to have internet access at home. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-              "statement": "{value} of the population in {features.name} have internet access",
+              "statement": "{value} of the population in {features.name} have internet access.",
               "sources": [
                 {
                   "name": "American Community Survey",
@@ -3899,7 +3899,7 @@
             "name": "download_speeds:download",
             "duplicates": 1484,
             "info": {
-              "type": "float",
+              "type": "internet speed",
               "short_name": "Average download speed",
               "full_name": "download_speeds:download",
               "category": "Broadband",
@@ -3908,7 +3908,7 @@
               "long_name": "Average download speed (MB/s)",
               "short_description": "Average download speed for internet connection in MB/s",
               "long_description": "The average download speed for internet users' connections who performed a speed check using Ookla. Speeds are reported in MB/s. A speed of 100 MB/s is considered adequate for school work, video calling etc.",
-              "statement": "The average download speed for internet connections in {features.name} is {value} MB/s",
+              "statement": "The average download speed for internet connections in {features.name} is {value}.",
               "sources": [
                 {
                   "name": "Ookla",
@@ -3929,7 +3929,7 @@
             "name": "drive_times_nearest_2year_colleges:median_drive_time_top5",
             "duplicates": 1757,
             "info": {
-              "type": "float",
+              "type": "drive time",
               "short_name": "2-year college access (drive time)",
               "full_name": "drive_times_nearest_2year_colleges:median_drive_time_top5",
               "category": "Education",
@@ -3938,7 +3938,7 @@
               "long_name": "2-year college access by median drive time to the five closest colleges in minutes",
               "short_description": "Median drive time (minutes) to the five closest 2-year colleges from centroid of selected region",
               "long_description": "Median drive time in minutes to the five closest 2-year colleges from centroid of selected region. Address data was collected from the National Center for Education Statistics (Dataset for year 2019). Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
-              "statement": "The median drive time to the five closest 2-year colleges to {features.name} is {value} minutes",
+              "statement": "The median drive time to the five closest 2-year colleges to {features.name} is {value}.",
               "sources": [
                 {
                   "name": "National Center for Education Statistics",
@@ -4001,7 +4001,7 @@
             "name": "drive_times_nearest_daycares:median_drive_time_top5",
             "duplicates": 1780,
             "info": {
-              "type": "float",
+              "type": "drive time",
               "short_name": "Day care access (drive time)",
               "full_name": "drive_times_nearest_daycares:median_drive_time_top5",
               "category": "Education",
@@ -4010,7 +4010,7 @@
               "long_name": "Day care access by median drive time to the five closest day cares in minutes",
               "short_description": "Median drive time (minutes) to the five closest day cares from centroid of selected region",
               "long_description": "Median drive time in minutes to the five closest day cares from centroid of selected region. Address data was collected from the Virginia Department of Social Services Child Day Care Facility search (Dataset for year 2019). Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
-              "statement": "The median drive time to the five closest day cares to {features.name} is {value} minutes",
+              "statement": "The median drive time to the five closest day cares to {features.name} is {value}.",
               "sources": [
                 {
                   "name": "Virginia Department of Social Services",
@@ -4115,7 +4115,7 @@
             "name": "drive_times_nearest_trade_schools:median_drive_time_top5",
             "duplicates": 1752,
             "info": {
-              "type": "float",
+              "type": "drive time",
               "short_name": "Trade school access (drive time)",
               "full_name": "drive_times_nearest_trade_schools:median_drive_time_top5",
               "category": "Education",
@@ -4124,7 +4124,7 @@
               "long_name": "Trade school access by median drive time to the five closest schools in minutes",
               "short_description": "Mean drive time (minutes) to the five closest trade schools from centroid of selected region",
               "long_description": "Median drive time in minutes to the five closest trade schools from centroid of selected region. Address data was collected from the National Center for Education Statistics (Dataset for year 2019). Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
-              "statement": "The median drive time to the five closest trade schools to {features.name} is {value} minutes",
+              "statement": "The median drive time to the five closest trade schools to {features.name} is {value}.",
               "sources": [
                 {
                   "name": "National Center for Education Statistics",
@@ -4154,7 +4154,7 @@
               "long_name": "Percent of the population with poor mental health",
               "short_description": "Percent of the population self-reporting poor mental health",
               "long_description": "Percent of the population self-reporting poor mental health in over 14 days of the previous month. Based on the Virginia Behavioral Risk Factor Surveillance Survey.",
-              "statement": "{value} of the population in {features.name} report poor mental health",
+              "statement": "{value} of the population in {features.name} reports poor mental health.",
               "sources": [
                 {
                   "name": "Virginia Behavioral Risk Factor Surveillance System",
@@ -4184,7 +4184,7 @@
               "long_name": "Percent of the population with poor physical health",
               "short_description": "Percent of the population self-reporting poor physical health",
               "long_description": "Percent of the population self-reporting poor physical health in over 14 days of the previous month. Based on the Virginia Behavioral Risk Factor Surveillance Survey.",
-              "statement": "{value} of the population in {features.name} report poor physical health",
+              "statement": "{value} of the population in {features.name} reports poor physical health.",
               "sources": [
                 {
                   "name": "Virginia Behavioral Risk Factor Surveillance System",
@@ -4214,7 +4214,7 @@
               "long_name": "Digital Equity Index",
               "short_description": "Digital Equity Index captures the relative equity of digital access, with 0 being a score of relative equity and 100 being relative inequity.",
               "long_description": "The Digital Equity Index (DEI) is a composite variable indicating the degree of broadband equity as it relates to adoption, accessibility, and infrastructure. It ranges from 0 to 100, where 100 indicates the most equitable broadband access. The DEI is constructed at the Census tract level and is composed of the following variables: percent of the population under 65 years of age, percent of the population with at least a high school education, percent of the population with income below the poverty level, percent of the population without a disability, the ratio between the share of homes making $75,000 or more per year with internet and the share of homes making less than $35,000 per year without internet, percent of the population with at least one computer, percent of the population with internet access, percent of the population that is low income (less than 30% of HUD Area Median Family Income) and have a housing cost burden over 30%, and average download speeds, upload speeds, and latency from Ookla speed tests.",
-              "statement": "The digital equity index for {features.name} is {value}",
+              "statement": "The Digital Equity Index for {features.name} is {value}.",
               "sources": [
                 {
                   "name": "American Community Survey",
@@ -4279,7 +4279,7 @@
               "long_name": "2 year college access score (3-step floating catchment areas)",
               "short_description": "Index of 3-year college accessibility based on supply and demand of providers",
               "long_description": "2-year college access score based on 3-step floating catchment areas. This method is an aggregation of college capacity per population ratios weighted by distance or travel time in each catchment area (area within which an institution is accessible). Weights are defined for the demand for 2-year college (whole population in an area served by the institution) and supply is the total number of students enrolled in a year (graduate and undergraduate).",
-              "statement": "The 2-year college accessibility score for {features.name} is {value}",
+              "statement": "The 2-year college accessibility score for {features.name} is {value}.",
               "sources": [
                 {
                   "name": "National Center for Education Statistics",
@@ -4413,7 +4413,7 @@
               "long_name": "Health literacy estimate",
               "short_description": "Health literacy estimate captures the adult population's ability to obtain, process, and understand basic health services to make appropriate health decisions",
               "long_description": "The health literacy estimate captures the adult population's ability to obtain, process, and understand basic health services to make appropriate health decisions. Health literacy estimate is based on variables of demographic characteristics, health status, and health care use.",
-              "statement": "The health literacy estimate for {features.name} is {value}",
+              "statement": "The health literacy estimate for {features.name} is {value}.",
               "sources": [
                 {
                   "name": "Medical Expenditure Panel Survey",
@@ -4448,7 +4448,7 @@
               "long_name": "Trade school access score (3-step floating catchment areas)",
               "short_description": "Index of trade school accessibility based on supply and demand of providers",
               "long_description": "Trade school access score based on 3-step floating catchment areas. This method is an aggregation of trade school capacity per population ratios weighted by distance or travel time in each catchment area (area within which an institution is accessible). Weights are defined for the demand for trade schools (whole population in an area served by the institution) and supply is the total number of students enrolled in a year (undergraduate).",
-              "statement": "The trade school accessibility score for {features.name} is  {value}",
+              "statement": "The trade school accessibility score for {features.name} is {value}.",
               "sources": [
                 {
                   "name": "National Center for Education Statistics",
@@ -4626,7 +4626,7 @@
               "long_name": "Access to day care by count",
               "short_description": "Count of day care capacity (seats) based on provider locations",
               "long_description": "Count of day care capacity (seats) based on provider locations. Address and capacity data was collected from Virginia Department of Social Services day care search tool.",
-              "statement": "There are {value} daycares in {features.name}",
+              "statement": "There are {value} daycares in {features.name}.",
               "sources": [
                 {
                   "name": "Virginia Department of Social Services",
@@ -4655,8 +4655,8 @@
               "measure": "daycare_norm_3sefca",
               "long_name": "Day care access score (3-step floating catchment area)",
               "short_description": "Index of day care accessibility based on supply of and demand for providers",
-              "long_description": "Primary care access score based on 2-step enhanced floating catchment areas. This method is an aggregation of day care facilities per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Provider address data was collected from Virginia Department of Social Services day care search tool. The demand for day care services is the population 0-12 years old and the supply is the capacity of day cares (number of seats).",
-              "statement": "The daycare accessibility score for {features.name} is {value}",
+              "long_description": "Day care access score based on 2-step enhanced floating catchment areas. This method is an aggregation of day care facilities per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Provider address data was collected from Virginia Department of Social Services day care search tool. The demand for day care services is the population 0-12 years old and the supply is the capacity of day cares (number of seats).",
+              "statement": "The daycare accessibility score for {features.name} is {value}.",
               "sources": [
                 {
                   "name": "Virginia Department of Social Services",
@@ -4700,7 +4700,7 @@
               "long_name": "Dental care access score (2 step-enhanced floating catchment areas)",
               "short_description": "Index of dental care accessibility based on supply and demand of providers",
               "long_description": "Dental care access score based on 2-step enhanced floating catchment areas. This method is an aggregation of dentists per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for dentists (population served by dentists). Provider address data was collected from WebMD's online Physician Directory.",
-              "statement": "The dental care access score for {features.name} is {value}",
+              "statement": "The dental care access score for {features.name} is {value}.",
               "sources": [
                 {
                   "name": "SafeGraph Core",
@@ -4758,7 +4758,7 @@
               "long_name": "Dental care access by count",
               "short_description": "Count of dentists based on provider locations",
               "long_description": "Count of dentists based on provider locations. Address data was collected from WebMD's online Physician Directory.",
-              "statement": "There are {value} dentists in {features.name}",
+              "statement": "There are {value} dentists in {features.name}.",
               "sources": [
                 {
                   "name": "SafeGraph Core",
@@ -4872,7 +4872,7 @@
               "long_name": "Emergency medical services access score (3-step floating catchment areas)",
               "short_description": "Index of emergency medical services accessibility based on supply and demand of facilities",
               "long_description": "Emergency medical services access score based on 3-step floating catchment areas. This method is an aggregation of facilities per population ratios weighted by distance or travel time in each catchment area (area within which a facility is accessible). Weights are defined for the demand for facilities (adult population).",
-              "statement": "The emergency medical services accessibility score for {features.name} is {value}",
+              "statement": "The emergency medical services accessibility score for {features.name} is {value}.",
               "sources": [
                 {
                   "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
@@ -4902,7 +4902,7 @@
               "long_name": "Access to emergency medical services by count",
               "short_description": "Count of emergency medical services facilities based on facility locations",
               "long_description": "Count of emergency medical services facilities based on facility locations. Location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository.",
-              "statement": "There are {value} emergency medical services facilities in {features.name}",
+              "statement": "There are {value} emergency medical services facilities in {features.name}.",
               "sources": [
                 {
                   "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
@@ -4947,7 +4947,7 @@
             "name": "ems_access_scores:ems_10near_median",
             "duplicates": 1883,
             "info": {
-              "type": "float",
+              "type": "drive time",
               "short_name": "Emergency medical services access (drive time)",
               "full_name": "ems_access_scores:ems_10near_median",
               "category": "Health",
@@ -4956,7 +4956,7 @@
               "long_name": "Emergency medical services access by median drive time to the ten closest facilities in minutes",
               "short_description": "Median drive time (minutes) to the ten closest emergency medical services facilities",
               "long_description": "Median drive time in minutes to the ten closest emergency medical services facilities. Facility location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository. Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
-              "statement": "The median drive time to the ten closest emergency medical service facilities to {features.name} is {value} minutes",
+              "statement": "The median drive time to the ten closest emergency medical service facilities to {features.name} is {value}.",
               "sources": [
                 {
                   "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
@@ -5038,7 +5038,7 @@
               "long_name": "Access to hospitals by count",
               "short_description": "Count of hospitals based on facility locations",
               "long_description": "Count of hospitals based on facility locations. Location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository.",
-              "statement": "There are {value} hospitals in {features.name}",
+              "statement": "There are {value} hospitals in {features.name}.",
               "sources": [
                 {
                   "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
@@ -5082,7 +5082,7 @@
               "long_name": "Hospital access score (3-step floating catchment areas)",
               "short_description": "Index of hospital accessibility based on supply and demand of facilities",
               "long_description": "Hospital access score based on 3-step floating catchment areas. This method is an aggregation of facilities per population ratios weighted by distance or travel time in each catchment area (area within which a facility is accessible). Weights are defined for the demand for facilities (adult population).",
-              "statement": "The hospital accessibility score for {features.name} is  {value}",
+              "statement": "The hospital accessibility score for {features.name} is {value}.",
               "sources": [
                 {
                   "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
@@ -5127,16 +5127,16 @@
             "name": "hospital_access_scores:hos_10near_median",
             "duplicates": 1883,
             "info": {
-              "type": "float",
+              "type": "drive time",
               "short_name": "Hospital access (drive time)",
               "full_name": "hospital_access_scores:hos_10near_median",
               "category": "Health",
               "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_hospital_access_scores",
               "measure": "hospital_10near_median",
               "long_name": "Hospital access by median drive time to the ten closest facilities in minutes",
-              "short_description": "Median drive time (minutes) to the ten closest hospital s",
+              "short_description": "Median drive time (minutes) to the ten closest hospitals",
               "long_description": "Median drive time in minutes to the ten closest hospitals. Facility location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository. Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
-              "statement": "The median drive time to the ten closest hospitals to {features.name} is {value} minutes",
+              "statement": "The median drive time to the ten closest hospitals to {features.name} is {value}.",
               "sources": [
                 {
                   "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
@@ -5204,7 +5204,7 @@
               "long_name": "Access to mental health services by count",
               "short_description": "Count of mental health facilities based on facility locations",
               "long_description": "Count of mental health facilities based on facility locations. Location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository.",
-              "statement": "There are {value} mental health facilities in {features.name}",
+              "statement": "There are {value} mental health facilities in {features.name}.",
               "sources": [
                 {
                   "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
@@ -5262,7 +5262,7 @@
               "long_name": "Mental health services access score (3-step  floating catchment areas)",
               "short_description": "Index of mental health services accessibility based on supply and demand of facilities",
               "long_description": "Mental health services access score based on 3-step floating catchment areas. This method is an aggregation of facilities per population ratios weighted by distance or travel time in each catchment area (area within which a facility is accessible). Weights are defined for the demand for facilities (adult population).",
-              "statement": "The mental health services accessibility score for {features.name} is {value}",
+              "statement": "The mental health services accessibility score for {features.name} is {value}.",
               "sources": [
                 {
                   "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
@@ -5307,7 +5307,7 @@
             "name": "mental_access_scores:mental_10near_median",
             "duplicates": 1883,
             "info": {
-              "type": "float",
+              "type": "drive time",
               "short_name": "Mental health services access (drive time)",
               "full_name": "mental_access_scores:mental_10near_median",
               "category": "Health",
@@ -5316,7 +5316,7 @@
               "long_name": "Mental health services access by median drive time to the ten closest facilities in minutes",
               "short_description": "Median drive time (minutes) to the ten closest mental health services facilities",
               "long_description": "Median drive time in minutes to the ten closest mental health services facilities. Facility location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository. Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
-              "statement": "The median drive time to the ten closest mental health service facilities to {features.name} is {value} minutes",
+              "statement": "The median drive time to the ten closest mental health service facilities to {features.name} is {value}.",
               "sources": [
                 {
                   "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
@@ -5384,7 +5384,7 @@
               "long_name": "OBGYN care access score (2 step-enhanced floating catchment areas)",
               "short_description": "Index of OBGYN care accessibility based on supply and demand of providers",
               "long_description": "OBGYN care access score based on 2-step enhanced floating catchment areas. This method is an aggregation of OBGYNs per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for OBGYNs (population served by OBGYNs). Provider address data was collected from WebMD's online physician directory.",
-              "statement": "The OBGYN access score for {features.name} is {value}",
+              "statement": "The OBGYN access score for {features.name} is {value}.",
               "sources": [
                 {
                   "name": "WebMD Physician Directory",
@@ -5428,7 +5428,7 @@
               "long_name": "OBGYN care access by count",
               "short_description": "Count of OBGYNs based on provider locations",
               "long_description": "Count of OBGYN care providers based on provider locations. Address data was collected from WebMD's online Physician Directory.",
-              "statement": "There are {value} OBGYNs in {features.name}",
+              "statement": "There are {value} OBGYNs in {features.name}.",
               "sources": [
                 {
                   "name": "WebMD Physician Directory",
@@ -5542,7 +5542,7 @@
               "long_name": "Pediatric care access score (2-step enhanced floating catchment areas)",
               "short_description": "Index of pediatric care physician accessibility based on supply and demand of providers",
               "long_description": "Pediatric care access score based on 2-step enhanced floating catchment areas. This method is an aggregation of pediatricians per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for pediatricians (population under 16). Provider address data was collected from WebMD's online Physician Directory.",
-              "statement": "The pediatric care accessibility score for {features.name} is {value}",
+              "statement": "The pediatric care accessibility score for {features.name} is {value}.",
               "sources": [
                 {
                   "name": "WebMD Physician Directory",
@@ -5586,7 +5586,7 @@
               "long_name": "Pediatric care access by count",
               "short_description": "Count of pediatricians based on provider locations",
               "long_description": "Count of pediatricians based on provider locations. Address data was collected from WebMD's online Physician Directory.",
-              "statement": "There are {value} pediatricians in {features.name}",
+              "statement": "There are {value} pediatricians in {features.name}.",
               "sources": [
                 {
                   "name": "WebMD Physician Directory",
@@ -5678,7 +5678,7 @@
               "long_name": "The national average price for internet as a percent of average income",
               "short_description": "The national average price for internet ($64) as a percent of average income",
               "long_description": "The national average price for internet ($64) as a percent of average income.",
-              "statement": "The national average internet package costs {value} of the average income in {features.name}",
+              "statement": "The national average internet package costs {value} of the average income in {features.name}.",
               "sources": [
                 {
                   "name": "American Community Survey",
@@ -5727,7 +5727,7 @@
               "long_name": "The minimum price for good internet (25 MB/s upload) as a percent of average income",
               "short_description": "The minimum price for good internet (25 MB/s upload) as a percent of average income",
               "long_description": "The minimum price for good internet (25 MB/s upload) as a percent of average income.",
-              "statement": "Good internet costs {value} of the average income in {features.name}",
+              "statement": "Good internet costs {value} of the average income in {features.name}.",
               "sources": [
                 {
                   "name": "American Community Survey",
@@ -5790,7 +5790,7 @@
               "long_name": "The minimum price for fast internet (100 MB/s upload) as a percent of average income",
               "short_description": "The minimum price for fast internet (100 MB/s upload) as a percent of average income",
               "long_description": "The minimum price for fast internet (100 MB/s upload) as a percent of average income.",
-              "statement": "Fast internet costs {value} of the average income in {features.name}",
+              "statement": "Fast internet costs {value} of the average income in {features.name}.",
               "sources": [
                 {
                   "name": "American Community Survey",
@@ -5839,7 +5839,7 @@
               "long_name": "Primary care access by count",
               "short_description": "Count of primary care physicians based on provider locations",
               "long_description": "Count of primary care physicians based on provider locations. Address data was collected from WebMD's online Physician Directory.",
-              "statement": "There are {value} primary care physicians in {features.name}",
+              "statement": "There are {value} primary care physicians in {features.name}.",
               "sources": [
                 {
                   "name": "WebMD Physician Directory",
@@ -5883,7 +5883,7 @@
               "long_name": "Primary care access score (2-step enhanced floating catchment areas)",
               "short_description": "Index of primary care physician accessibility based on supply and demand of providers",
               "long_description": "Primary care access score based on 2-step enhanced floating catchment areas. This method is an aggregation of physicians per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for physicians (population served by physicians). Provider address data was collected from WebMD's online Physician Directory.",
-              "statement": "The primary care accessibility score for {features.name} is {value}",
+              "statement": "The primary care accessibility score for {features.name} is {value}.",
               "sources": [
                 {
                   "name": "WebMD Physician Directory",
@@ -5997,7 +5997,7 @@
               "long_name": "Access to substance use/behavioral health  by count",
               "short_description": "Count of substance use/behavioral health facilities based on facility locations",
               "long_description": "Count of substance use/behavioral health facilities based on facility locations. Location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository.",
-              "statement": "There are {value} substance use facilities in {features.name}",
+              "statement": "There are {value} substance use facilities in {features.name}.",
               "sources": [
                 {
                   "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
@@ -6041,7 +6041,7 @@
               "long_name": "Substance use/behavioral health services access score (3-step floating catchment areas)",
               "short_description": "Index of substance use/behavioral health services accessibility based on supply and demand of facilities",
               "long_description": "Substance use/behavioral health services access score based on 3-step  floating catchment areas. This method is an aggregation of facilities per population ratios weighted by distance or travel time in each catchment area (area within which a facility is accessible). Weights are defined for the demand for facilities (adult population).",
-              "statement": "The substance use/behavioral health services accessibility score for {features.name} is {value}",
+              "statement": "The substance use/behavioral health services accessibility score for {features.name} is {value}.",
               "sources": [
                 {
                   "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
@@ -6086,7 +6086,7 @@
             "name": "substance_access_scores:subs_10near_median",
             "duplicates": 1883,
             "info": {
-              "type": "float",
+              "type": "drive time",
               "short_name": "Substance use/behavioral health services access (drive time)",
               "full_name": "substance_access_scores:subs_10near_median",
               "category": "Health",
@@ -6095,7 +6095,7 @@
               "long_name": "Substance use/behavioral health services access by median drive time to the ten closest facilities in minutes",
               "short_description": "Median drive time (minutes) to the ten closest substance use/behavioral health services facilities",
               "long_description": "Median drive time in minutes to the ten closest substance use/behavioral health services facilities. Facility location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository. Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
-              "statement": "The median drive time to the ten closest substance use/behavioral health service facilities to {features.name} is {value} minutes",
+              "statement": "The median drive time to the ten closest substance use/behavioral health service facilities to {features.name} is {value}.",
               "sources": [
                 {
                   "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
@@ -6343,16 +6343,16 @@
             "name": "earnings_per_job:earnings_per_job",
             "duplicates": 22883,
             "info": {
-              "type": "ratio",
-              "short_name": "Average of earnings per job",
+              "type": "dollar",
+              "short_name": "Earnings per job",
               "full_name": "earnings_per_job:earnings_per_job",
               "category": "Employment/Workforce Development",
               "measure_table": "earnings_per_job",
               "measure": "earnings_per_job",
               "long_name": "Earnings per job",
-              "short_description": "Earnings per job.",
+              "short_description": "Average of earnings per job.",
               "long_description": "Earnings per job is calculated based on the GDP and Personal Income table from the Bureau of Economic Analysis.",
-              "statement": "Earnings per job in {features.name} is ${value}",
+              "statement": "Earnings per job in {features.name} is {value}.",
               "sources": [
                 {
                   "name": "Bureau of Economic Analysis",
@@ -6378,7 +6378,7 @@
               "long_name": "Community college computer science program access score (3-step floating catchment areas)",
               "short_description": "Index of community college computer science program accessibility based on supply and demand of programs",
               "long_description": "Community college computer science program access score based on 3-step floating catchment areas. This method is an aggregation of programs per population ratios weighted by distance or travel time in each catchment area (area within which a program is accessible). Weights are defined for the demand for programs (adult population) and the supply is the capacity of programs (number of seats).",
-              "statement": "The community college computer science program accessibility score in {features.name} is {value}",
+              "statement": "The community college computer science program accessibility score in {features.name} is {value}.",
               "sources": [
                 {
                   "name": "National Center for Education Statistics",
@@ -6464,7 +6464,7 @@
               "long_name": "Community college engineering program access score (3-step floating catchment areas)",
               "short_description": "Index of community college engineering program accessibility based on supply and demand of programs",
               "long_description": "Community college engineering program access score based on 3-step floating catchment areas. This method is an aggregation of programs per population ratios weighted by distance or travel time in each catchment area (area within which a program is accessible). Weights are defined for the demand for programs (adult population) and the supply is the capacity of programs (number of seats).",
-              "statement": "The community college engineering program accessibility score in {features.name} is {value}",
+              "statement": "The community college engineering program accessibility score in {features.name} is {value}.",
               "sources": [
                 {
                   "name": "National Center for Education Statistics",
@@ -6550,7 +6550,7 @@
               "long_name": "Community college engineering-related program access score (3-step floating catchment areas)",
               "short_description": "Index of community college engineering-related program accessibility based on supply and demand of programs",
               "long_description": "Community college engineering-related program access score based on 3-step floating catchment areas. This method is an aggregation of programs per population ratios weighted by distance or travel time in each catchment area (area within which a program is accessible). Weights are defined for the demand for programs (adult population) and the supply is the capacity of programs (number of seats).",
-              "statement": "The community college engineering-related program accessibility score in {features.name} is {value}",
+              "statement": "The community college engineering-related program accessibility score in {features.name} is {value}.",
               "sources": [
                 {
                   "name": "National Center for Education Statistics",
@@ -6636,7 +6636,7 @@
               "long_name": "Civilian employment rate",
               "short_description": "Population self-reported as employed divided by total civilian workforce population.",
               "long_description": "Population self-reported as employed divided by total civilian workforce population. Based on American Community Survey Table B23025 ACS 2015/2019 5-year estimates.",
-              "statement": "The employment rate in {features.name} is {value}",
+              "statement": "The employment rate in {features.name} is {value}.",
               "sources": [
                 {
                   "name": "American Community Survey",
@@ -6666,7 +6666,7 @@
               "long_name": "Preventable hospital stays per 100,000 Medicare enrollees",
               "short_description": "Rate of hospital stays for ambulatory-care sensitive conditions per 100,000 Medicare enrollees",
               "long_description": "Rate of hospital stays for ambulatory-care sensitive conditions per 100,000 Medicare enrollees. Ambulatory care refers to diagnoses that are usually treatable in outpatient settings. This data is based on Medicare claims and comes from County Health Rankings.",
-              "statement": "{value} of the hospitalizations in {features.name}  were preventable (due to conditions usually treated in outpatient settings)",
+              "statement": "{value} of the hospitalizations in {features.name} were preventable (due to conditions usually treated in outpatient settings).",
               "sources": [
                 {
                   "name": "County Health Rankings",
@@ -6692,7 +6692,7 @@
               "long_name": "Food insecurity rate",
               "short_description": "Food insecurity refers to USDA's measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods.",
               "long_description": "Food insecurity refers to USDA's measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food-insecure households are not necessarily food insecure all the time. Food insecurity may reflect a household's need to make trade-offs between important basic needs, such as housing or medical bills, and purchasing nutritionally adequate foods.",
-              "statement": "The food insecurity rate in {features.name} is {value}",
+              "statement": "The food insecurity rate in {features.name} is {value}.",
               "sources": [
                 {
                   "name": "Feeding America",
@@ -6718,7 +6718,7 @@
               "long_name": "Count of population of food insecure children",
               "short_description": "Food insecure children are those children living in households experiencing food insecurity (a lack of access to enough food for an active, healthy life).",
               "long_description": "Food insecurity refers to USDA's measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food insecurity refers to USDA's measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food insecure children are those children living in households experiencing food insecurity. Food-insecure households are not necessarily food insecure all the time. Food insecurity may reflect a household's need to make trade-offs between important basic needs, such as housing or medical bills, and purchasing nutritionally adequate foods.",
-              "statement": "The population of food insecure children in {features.name} is {value}",
+              "statement": "The population of food insecure children in {features.name} is {value}.",
               "sources": [
                 {
                   "name": "Feeding America",
@@ -6744,7 +6744,7 @@
               "long_name": "Childhood food insecurity rate",
               "short_description": "Food insecure children are those children living in households experiencing food insecurity (a lack of access to enough food for an active, healthy life).",
               "long_description": "Food insecurity refers to USDA's measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food insecurity refers to USDA's measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food insecure children are those children living in households experiencing food insecurity. Food-insecure households are not necessarily food insecure all the time. Food insecurity may reflect a household's need to make trade-offs between important basic needs, such as housing or medical bills, and purchasing nutritionally adequate foods.",
-              "statement": "The childhood food insecurity rate in {features.name} is {value}",
+              "statement": "The childhood food insecurity rate in {features.name} is {value}.",
               "sources": [
                 {
                   "name": "Feeding America",
@@ -6761,7 +6761,7 @@
             "name": "food_insecurity_and_cost:Cost_Per_Meal",
             "duplicates": 22883,
             "info": {
-              "type": "float",
+              "type": "dollar",
               "short_name": "Average meal cost",
               "full_name": "food_insecurity_and_cost:Cost_Per_Meal",
               "category": "Nutrition and Food Security",
@@ -6770,7 +6770,7 @@
               "long_name": "Average meal cost",
               "short_description": "The average weekly dollar amount food-secure individuals report spending on food.",
               "long_description": "The average weekly dollar amount food-secure individuals report spending on food, as estimated by the Current Population Survey, divided by 21 (assuming three meals a day, seven days a week). This amount has been adjusted to reflect local food prices and relevant taxes.",
-              "statement": "The average meal cost in {features.name} is {value}",
+              "statement": "The average meal cost in {features.name} is {value}.",
               "sources": [
                 {
                   "name": "Feeding America",
@@ -6806,7 +6806,7 @@
               "long_name": "Emergency department visits for drug overdose rate per 100,000 residents",
               "short_description": "Average emergency department visits for drug overdose per 100,000 residents.",
               "long_description": "Average emergency department visits for drug overdose per 100,000 residents.",
-              "statement": "The average emergency department visits for drug overdose rate in {features.name} is {value} per 100,000 residents",
+              "statement": "The average emergency department visits for drug overdose rate in {features.name} is {value} per 100,000 residents.",
               "sources": [
                 {
                   "name": "Virginia Department of Health",
@@ -6823,7 +6823,7 @@
             "name": "3rd_grade_median_read_score:median_read_pass_rate",
             "duplicates": 22883,
             "info": {
-              "type": "rate",
+              "type": "percent",
               "short_name": "3rd grade population passing reading",
               "full_name": "3rd_grade_median_read_score:median_read_pass_rate",
               "category": "Education",
@@ -6832,7 +6832,7 @@
               "long_name": "Median percent of 3rd grade population passing reading test",
               "short_description": "Median percent of 3rd grade population passing reading test for schools in the region",
               "long_description": "Median percent of 3rd grade population passing reading test. The median is calculated across schools in the region.",
-              "statement": "The median percent of 3rd graders with passing reading scores in {features.name} is {value}",
+              "statement": "On average {value} of 3rd graders pass reading in {features.name}.",
               "sources": [
                 {
                   "name": "Virginia Department of Education",
@@ -6872,7 +6872,7 @@
               "long_name": "Percent  of population with post-high school education",
               "short_description": "Percent of the population self-reported to have post-high school level degree",
               "long_description": "Percent of the population self-reported to have post-high school level degree. Based on American Community Survey Table B15003 in ACS 2015/2019 5-year estimates.",
-              "statement": "{value} of the population in {features.name} have a post-high school education",
+              "statement": "{value} of the population in {features.name} has a post-high school education.",
               "sources": [
                 {
                   "name": "American Community Survey",
@@ -6902,7 +6902,7 @@
               "long_name": "Percent of population without health insurance",
               "short_description": "Percent of the population (ages 16-64) self-reported to not be currently covered by any type of health insurance or health coverage plan",
               "long_description": "Percent of the population self-reported to not be currently covered by any type of health insurance or health coverage plan. Based on American Community Survey Tables B18135 and C27001I in ACS 2015/2019 5-year estimates.",
-              "statement": "{value} of the population has no health insurance in  {features.name}",
+              "statement": "{value} of the population has no health insurance in {features.name}.",
               "sources": [
                 {
                   "name": "American Community Survey",
@@ -6932,7 +6932,7 @@
               "long_name": "Percent of population with broadband",
               "short_description": "Percent of population self-reported to have a broadband internet connection (any type of internet other than a dial-up)",
               "long_description": "Percent of population self-reported to have a broadband internet connection. Broadband internet is defined as any type of internet other than a dial-up. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-              "statement": "{value} of the population in {features.name} has a broadband connection",
+              "statement": "{value} of the population in {features.name} has a broadband connection.",
               "sources": [
                 {
                   "name": "American Community Survey",
@@ -6962,7 +6962,7 @@
               "long_name": "Percent of population with a high speed internet service (cable, fiber optic, or DSL)",
               "short_description": "Percent of population self-reported to have a high speed internet service (cable, fiber optic, or DSL)",
               "long_description": "Percent of population self-reported to have a high speed internet service. A high speed internet service is defined as a cable, fiber optic, or DSL internet connection. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-              "statement": "{value} of the population in {features.name} has a cable fiber or DSL internet connection",
+              "statement": "{value} of the population in {features.name} has a cable fiber or DSL internet connection.",
               "sources": [
                 {
                   "name": "American Community Survey",
@@ -6992,7 +6992,7 @@
               "long_name": "Percent of population with a computer",
               "short_description": "Percent of the population self-reported to have a computer at home",
               "long_description": "Percent of the population self-reported to have a computer at home. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-              "statement": "{value} of the population in {features.name} have a computer",
+              "statement": "{value} of the population in {features.name} have a computer.",
               "sources": [
                 {
                   "name": "American Community Survey",
@@ -7022,7 +7022,7 @@
               "long_name": "Percent of population with internet access",
               "short_description": "Percent of the population self-reported to have internet access at home",
               "long_description": "Percent of the population self-reported to have internet access at home. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-              "statement": "{value} of the population in {features.name} have internet access",
+              "statement": "{value} of the population in {features.name} have internet access.",
               "sources": [
                 {
                   "name": "American Community Survey",
@@ -7043,7 +7043,7 @@
             "name": "download_speeds:download",
             "duplicates": 17210,
             "info": {
-              "type": "float",
+              "type": "internet speed",
               "short_name": "Average download speed",
               "full_name": "download_speeds:download",
               "category": "Broadband",
@@ -7052,7 +7052,7 @@
               "long_name": "Average download speed (MB/s)",
               "short_description": "Average download speed for internet connection in MB/s",
               "long_description": "The average download speed for internet users' connections who performed a speed check using Ookla. Speeds are reported in MB/s. A speed of 100 MB/s is considered adequate for school work, video calling etc.",
-              "statement": "The average download speed for internet connections in {features.name} is {value} MB/s",
+              "statement": "The average download speed for internet connections in {features.name} is {value}.",
               "sources": [
                 {
                   "name": "Ookla",
@@ -7073,7 +7073,7 @@
             "name": "drive_times_nearest_2year_colleges:median_drive_time_top5",
             "duplicates": 22121,
             "info": {
-              "type": "float",
+              "type": "drive time",
               "short_name": "2-year college access (drive time)",
               "full_name": "drive_times_nearest_2year_colleges:median_drive_time_top5",
               "category": "Education",
@@ -7082,7 +7082,7 @@
               "long_name": "2-year college access by median drive time to the five closest colleges in minutes",
               "short_description": "Median drive time (minutes) to the five closest 2-year colleges from centroid of selected region",
               "long_description": "Median drive time in minutes to the five closest 2-year colleges from centroid of selected region. Address data was collected from the National Center for Education Statistics (Dataset for year 2019). Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
-              "statement": "The median drive time to the five closest 2-year colleges to {features.name} is {value} minutes",
+              "statement": "The median drive time to the five closest 2-year colleges to {features.name} is {value}.",
               "sources": [
                 {
                   "name": "National Center for Education Statistics",
@@ -7145,7 +7145,7 @@
             "name": "drive_times_nearest_daycares:median_drive_time_top5",
             "duplicates": 22509,
             "info": {
-              "type": "float",
+              "type": "drive time",
               "short_name": "Day care access (drive time)",
               "full_name": "drive_times_nearest_daycares:median_drive_time_top5",
               "category": "Education",
@@ -7154,7 +7154,7 @@
               "long_name": "Day care access by median drive time to the five closest day cares in minutes",
               "short_description": "Median drive time (minutes) to the five closest day cares from centroid of selected region",
               "long_description": "Median drive time in minutes to the five closest day cares from centroid of selected region. Address data was collected from the Virginia Department of Social Services Child Day Care Facility search (Dataset for year 2019). Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
-              "statement": "The median drive time to the five closest day cares to {features.name} is {value} minutes",
+              "statement": "The median drive time to the five closest day cares to {features.name} is {value}.",
               "sources": [
                 {
                   "name": "Virginia Department of Social Services",
@@ -7259,7 +7259,7 @@
             "name": "drive_times_nearest_trade_schools:median_drive_time_top5",
             "duplicates": 21934,
             "info": {
-              "type": "float",
+              "type": "drive time",
               "short_name": "Trade school access (drive time)",
               "full_name": "drive_times_nearest_trade_schools:median_drive_time_top5",
               "category": "Education",
@@ -7268,7 +7268,7 @@
               "long_name": "Trade school access by median drive time to the five closest schools in minutes",
               "short_description": "Mean drive time (minutes) to the five closest trade schools from centroid of selected region",
               "long_description": "Median drive time in minutes to the five closest trade schools from centroid of selected region. Address data was collected from the National Center for Education Statistics (Dataset for year 2019). Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
-              "statement": "The median drive time to the five closest trade schools to {features.name} is {value} minutes",
+              "statement": "The median drive time to the five closest trade schools to {features.name} is {value}.",
               "sources": [
                 {
                   "name": "National Center for Education Statistics",
@@ -7298,7 +7298,7 @@
               "long_name": "Percent of the population with poor mental health",
               "short_description": "Percent of the population self-reporting poor mental health",
               "long_description": "Percent of the population self-reporting poor mental health in over 14 days of the previous month. Based on the Virginia Behavioral Risk Factor Surveillance Survey.",
-              "statement": "{value} of the population in {features.name} report poor mental health",
+              "statement": "{value} of the population in {features.name} reports poor mental health.",
               "sources": [
                 {
                   "name": "Virginia Behavioral Risk Factor Surveillance System",
@@ -7328,7 +7328,7 @@
               "long_name": "Percent of the population with poor physical health",
               "short_description": "Percent of the population self-reporting poor physical health",
               "long_description": "Percent of the population self-reporting poor physical health in over 14 days of the previous month. Based on the Virginia Behavioral Risk Factor Surveillance Survey.",
-              "statement": "{value} of the population in {features.name} report poor physical health",
+              "statement": "{value} of the population in {features.name} reports poor physical health.",
               "sources": [
                 {
                   "name": "Virginia Behavioral Risk Factor Surveillance System",
@@ -7358,7 +7358,7 @@
               "long_name": "Digital Equity Index",
               "short_description": "Digital Equity Index captures the relative equity of digital access, with 0 being a score of relative equity and 100 being relative inequity.",
               "long_description": "The Digital Equity Index (DEI) is a composite variable indicating the degree of broadband equity as it relates to adoption, accessibility, and infrastructure. It ranges from 0 to 100, where 100 indicates the most equitable broadband access. The DEI is constructed at the Census tract level and is composed of the following variables: percent of the population under 65 years of age, percent of the population with at least a high school education, percent of the population with income below the poverty level, percent of the population without a disability, the ratio between the share of homes making $75,000 or more per year with internet and the share of homes making less than $35,000 per year without internet, percent of the population with at least one computer, percent of the population with internet access, percent of the population that is low income (less than 30% of HUD Area Median Family Income) and have a housing cost burden over 30%, and average download speeds, upload speeds, and latency from Ookla speed tests.",
-              "statement": "The digital equity index for {features.name} is {value}",
+              "statement": "The Digital Equity Index for {features.name} is {value}.",
               "sources": [
                 {
                   "name": "American Community Survey",
@@ -7423,7 +7423,7 @@
               "long_name": "2 year college access score (3-step floating catchment areas)",
               "short_description": "Index of 3-year college accessibility based on supply and demand of providers",
               "long_description": "2-year college access score based on 3-step floating catchment areas. This method is an aggregation of college capacity per population ratios weighted by distance or travel time in each catchment area (area within which an institution is accessible). Weights are defined for the demand for 2-year college (whole population in an area served by the institution) and supply is the total number of students enrolled in a year (graduate and undergraduate).",
-              "statement": "The 2-year college accessibility score for {features.name} is {value}",
+              "statement": "The 2-year college accessibility score for {features.name} is {value}.",
               "sources": [
                 {
                   "name": "National Center for Education Statistics",
@@ -7557,7 +7557,7 @@
               "long_name": "Health literacy estimate",
               "short_description": "Health literacy estimate captures the adult population's ability to obtain, process, and understand basic health services to make appropriate health decisions",
               "long_description": "The health literacy estimate captures the adult population's ability to obtain, process, and understand basic health services to make appropriate health decisions. Health literacy estimate is based on variables of demographic characteristics, health status, and health care use.",
-              "statement": "The health literacy estimate for {features.name} is {value}",
+              "statement": "The health literacy estimate for {features.name} is {value}.",
               "sources": [
                 {
                   "name": "Medical Expenditure Panel Survey",
@@ -7592,7 +7592,7 @@
               "long_name": "Trade school access score (3-step floating catchment areas)",
               "short_description": "Index of trade school accessibility based on supply and demand of providers",
               "long_description": "Trade school access score based on 3-step floating catchment areas. This method is an aggregation of trade school capacity per population ratios weighted by distance or travel time in each catchment area (area within which an institution is accessible). Weights are defined for the demand for trade schools (whole population in an area served by the institution) and supply is the total number of students enrolled in a year (undergraduate).",
-              "statement": "The trade school accessibility score for {features.name} is  {value}",
+              "statement": "The trade school accessibility score for {features.name} is {value}.",
               "sources": [
                 {
                   "name": "National Center for Education Statistics",
@@ -7770,7 +7770,7 @@
               "long_name": "Access to day care by count",
               "short_description": "Count of day care capacity (seats) based on provider locations",
               "long_description": "Count of day care capacity (seats) based on provider locations. Address and capacity data was collected from Virginia Department of Social Services day care search tool.",
-              "statement": "There are {value} daycares in {features.name}",
+              "statement": "There are {value} daycares in {features.name}.",
               "sources": [
                 {
                   "name": "Virginia Department of Social Services",
@@ -7799,8 +7799,8 @@
               "measure": "daycare_norm_3sefca",
               "long_name": "Day care access score (3-step floating catchment area)",
               "short_description": "Index of day care accessibility based on supply of and demand for providers",
-              "long_description": "Primary care access score based on 2-step enhanced floating catchment areas. This method is an aggregation of day care facilities per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Provider address data was collected from Virginia Department of Social Services day care search tool. The demand for day care services is the population 0-12 years old and the supply is the capacity of day cares (number of seats).",
-              "statement": "The daycare accessibility score for {features.name} is {value}",
+              "long_description": "Day care access score based on 2-step enhanced floating catchment areas. This method is an aggregation of day care facilities per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Provider address data was collected from Virginia Department of Social Services day care search tool. The demand for day care services is the population 0-12 years old and the supply is the capacity of day cares (number of seats).",
+              "statement": "The daycare accessibility score for {features.name} is {value}.",
               "sources": [
                 {
                   "name": "Virginia Department of Social Services",
@@ -7844,7 +7844,7 @@
               "long_name": "Dental care access score (2 step-enhanced floating catchment areas)",
               "short_description": "Index of dental care accessibility based on supply and demand of providers",
               "long_description": "Dental care access score based on 2-step enhanced floating catchment areas. This method is an aggregation of dentists per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for dentists (population served by dentists). Provider address data was collected from WebMD's online Physician Directory.",
-              "statement": "The dental care access score for {features.name} is {value}",
+              "statement": "The dental care access score for {features.name} is {value}.",
               "sources": [
                 {
                   "name": "SafeGraph Core",
@@ -7902,7 +7902,7 @@
               "long_name": "Dental care access by count",
               "short_description": "Count of dentists based on provider locations",
               "long_description": "Count of dentists based on provider locations. Address data was collected from WebMD's online Physician Directory.",
-              "statement": "There are {value} dentists in {features.name}",
+              "statement": "There are {value} dentists in {features.name}.",
               "sources": [
                 {
                   "name": "SafeGraph Core",
@@ -8016,7 +8016,7 @@
               "long_name": "Emergency medical services access score (3-step floating catchment areas)",
               "short_description": "Index of emergency medical services accessibility based on supply and demand of facilities",
               "long_description": "Emergency medical services access score based on 3-step floating catchment areas. This method is an aggregation of facilities per population ratios weighted by distance or travel time in each catchment area (area within which a facility is accessible). Weights are defined for the demand for facilities (adult population).",
-              "statement": "The emergency medical services accessibility score for {features.name} is {value}",
+              "statement": "The emergency medical services accessibility score for {features.name} is {value}.",
               "sources": [
                 {
                   "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
@@ -8046,7 +8046,7 @@
               "long_name": "Access to emergency medical services by count",
               "short_description": "Count of emergency medical services facilities based on facility locations",
               "long_description": "Count of emergency medical services facilities based on facility locations. Location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository.",
-              "statement": "There are {value} emergency medical services facilities in {features.name}",
+              "statement": "There are {value} emergency medical services facilities in {features.name}.",
               "sources": [
                 {
                   "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
@@ -8095,7 +8095,7 @@
             "name": "ems_access_scores:ems_10near_median",
             "duplicates": 22347,
             "info": {
-              "type": "float",
+              "type": "drive time",
               "short_name": "Emergency medical services access (drive time)",
               "full_name": "ems_access_scores:ems_10near_median",
               "category": "Health",
@@ -8104,7 +8104,7 @@
               "long_name": "Emergency medical services access by median drive time to the ten closest facilities in minutes",
               "short_description": "Median drive time (minutes) to the ten closest emergency medical services facilities",
               "long_description": "Median drive time in minutes to the ten closest emergency medical services facilities. Facility location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository. Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
-              "statement": "The median drive time to the ten closest emergency medical service facilities to {features.name} is {value} minutes",
+              "statement": "The median drive time to the ten closest emergency medical service facilities to {features.name} is {value}.",
               "sources": [
                 {
                   "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
@@ -8182,7 +8182,7 @@
               "long_name": "Access to hospitals by count",
               "short_description": "Count of hospitals based on facility locations",
               "long_description": "Count of hospitals based on facility locations. Location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository.",
-              "statement": "There are {value} hospitals in {features.name}",
+              "statement": "There are {value} hospitals in {features.name}.",
               "sources": [
                 {
                   "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
@@ -8226,7 +8226,7 @@
               "long_name": "Hospital access score (3-step floating catchment areas)",
               "short_description": "Index of hospital accessibility based on supply and demand of facilities",
               "long_description": "Hospital access score based on 3-step floating catchment areas. This method is an aggregation of facilities per population ratios weighted by distance or travel time in each catchment area (area within which a facility is accessible). Weights are defined for the demand for facilities (adult population).",
-              "statement": "The hospital accessibility score for {features.name} is  {value}",
+              "statement": "The hospital accessibility score for {features.name} is {value}.",
               "sources": [
                 {
                   "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
@@ -8275,16 +8275,16 @@
             "name": "hospital_access_scores:hos_10near_median",
             "duplicates": 21819,
             "info": {
-              "type": "float",
+              "type": "drive time",
               "short_name": "Hospital access (drive time)",
               "full_name": "hospital_access_scores:hos_10near_median",
               "category": "Health",
               "measure_table": "dc_health_behavior_diet.va_hdcttr_sdad_2021_hospital_access_scores",
               "measure": "hospital_10near_median",
               "long_name": "Hospital access by median drive time to the ten closest facilities in minutes",
-              "short_description": "Median drive time (minutes) to the ten closest hospital s",
+              "short_description": "Median drive time (minutes) to the ten closest hospitals",
               "long_description": "Median drive time in minutes to the ten closest hospitals. Facility location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository. Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
-              "statement": "The median drive time to the ten closest hospitals to {features.name} is {value} minutes",
+              "statement": "The median drive time to the ten closest hospitals to {features.name} is {value}.",
               "sources": [
                 {
                   "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
@@ -8348,7 +8348,7 @@
               "long_name": "Access to mental health services by count",
               "short_description": "Count of mental health facilities based on facility locations",
               "long_description": "Count of mental health facilities based on facility locations. Location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository.",
-              "statement": "There are {value} mental health facilities in {features.name}",
+              "statement": "There are {value} mental health facilities in {features.name}.",
               "sources": [
                 {
                   "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
@@ -8406,7 +8406,7 @@
               "long_name": "Mental health services access score (3-step  floating catchment areas)",
               "short_description": "Index of mental health services accessibility based on supply and demand of facilities",
               "long_description": "Mental health services access score based on 3-step floating catchment areas. This method is an aggregation of facilities per population ratios weighted by distance or travel time in each catchment area (area within which a facility is accessible). Weights are defined for the demand for facilities (adult population).",
-              "statement": "The mental health services accessibility score for {features.name} is {value}",
+              "statement": "The mental health services accessibility score for {features.name} is {value}.",
               "sources": [
                 {
                   "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
@@ -8455,7 +8455,7 @@
             "name": "mental_access_scores:mental_10near_median",
             "duplicates": 22009,
             "info": {
-              "type": "float",
+              "type": "drive time",
               "short_name": "Mental health services access (drive time)",
               "full_name": "mental_access_scores:mental_10near_median",
               "category": "Health",
@@ -8464,7 +8464,7 @@
               "long_name": "Mental health services access by median drive time to the ten closest facilities in minutes",
               "short_description": "Median drive time (minutes) to the ten closest mental health services facilities",
               "long_description": "Median drive time in minutes to the ten closest mental health services facilities. Facility location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository. Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
-              "statement": "The median drive time to the ten closest mental health service facilities to {features.name} is {value} minutes",
+              "statement": "The median drive time to the ten closest mental health service facilities to {features.name} is {value}.",
               "sources": [
                 {
                   "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
@@ -8528,7 +8528,7 @@
               "long_name": "OBGYN care access score (2 step-enhanced floating catchment areas)",
               "short_description": "Index of OBGYN care accessibility based on supply and demand of providers",
               "long_description": "OBGYN care access score based on 2-step enhanced floating catchment areas. This method is an aggregation of OBGYNs per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for OBGYNs (population served by OBGYNs). Provider address data was collected from WebMD's online physician directory.",
-              "statement": "The OBGYN access score for {features.name} is {value}",
+              "statement": "The OBGYN access score for {features.name} is {value}.",
               "sources": [
                 {
                   "name": "WebMD Physician Directory",
@@ -8572,7 +8572,7 @@
               "long_name": "OBGYN care access by count",
               "short_description": "Count of OBGYNs based on provider locations",
               "long_description": "Count of OBGYN care providers based on provider locations. Address data was collected from WebMD's online Physician Directory.",
-              "statement": "There are {value} OBGYNs in {features.name}",
+              "statement": "There are {value} OBGYNs in {features.name}.",
               "sources": [
                 {
                   "name": "WebMD Physician Directory",
@@ -8686,7 +8686,7 @@
               "long_name": "Pediatric care access score (2-step enhanced floating catchment areas)",
               "short_description": "Index of pediatric care physician accessibility based on supply and demand of providers",
               "long_description": "Pediatric care access score based on 2-step enhanced floating catchment areas. This method is an aggregation of pediatricians per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for pediatricians (population under 16). Provider address data was collected from WebMD's online Physician Directory.",
-              "statement": "The pediatric care accessibility score for {features.name} is {value}",
+              "statement": "The pediatric care accessibility score for {features.name} is {value}.",
               "sources": [
                 {
                   "name": "WebMD Physician Directory",
@@ -8730,7 +8730,7 @@
               "long_name": "Pediatric care access by count",
               "short_description": "Count of pediatricians based on provider locations",
               "long_description": "Count of pediatricians based on provider locations. Address data was collected from WebMD's online Physician Directory.",
-              "statement": "There are {value} pediatricians in {features.name}",
+              "statement": "There are {value} pediatricians in {features.name}.",
               "sources": [
                 {
                   "name": "WebMD Physician Directory",
@@ -8822,7 +8822,7 @@
               "long_name": "The national average price for internet as a percent of average income",
               "short_description": "The national average price for internet ($64) as a percent of average income",
               "long_description": "The national average price for internet ($64) as a percent of average income.",
-              "statement": "The national average internet package costs {value} of the average income in {features.name}",
+              "statement": "The national average internet package costs {value} of the average income in {features.name}.",
               "sources": [
                 {
                   "name": "American Community Survey",
@@ -8871,7 +8871,7 @@
               "long_name": "The minimum price for good internet (25 MB/s upload) as a percent of average income",
               "short_description": "The minimum price for good internet (25 MB/s upload) as a percent of average income",
               "long_description": "The minimum price for good internet (25 MB/s upload) as a percent of average income.",
-              "statement": "Good internet costs {value} of the average income in {features.name}",
+              "statement": "Good internet costs {value} of the average income in {features.name}.",
               "sources": [
                 {
                   "name": "American Community Survey",
@@ -8934,7 +8934,7 @@
               "long_name": "The minimum price for fast internet (100 MB/s upload) as a percent of average income",
               "short_description": "The minimum price for fast internet (100 MB/s upload) as a percent of average income",
               "long_description": "The minimum price for fast internet (100 MB/s upload) as a percent of average income.",
-              "statement": "Fast internet costs {value} of the average income in {features.name}",
+              "statement": "Fast internet costs {value} of the average income in {features.name}.",
               "sources": [
                 {
                   "name": "American Community Survey",
@@ -8980,7 +8980,7 @@
               "long_name": "Primary care access by count",
               "short_description": "Count of primary care physicians based on provider locations",
               "long_description": "Count of primary care physicians based on provider locations. Address data was collected from WebMD's online Physician Directory.",
-              "statement": "There are {value} primary care physicians in {features.name}",
+              "statement": "There are {value} primary care physicians in {features.name}.",
               "sources": [
                 {
                   "name": "WebMD Physician Directory",
@@ -9024,7 +9024,7 @@
               "long_name": "Primary care access score (2-step enhanced floating catchment areas)",
               "short_description": "Index of primary care physician accessibility based on supply and demand of providers",
               "long_description": "Primary care access score based on 2-step enhanced floating catchment areas. This method is an aggregation of physicians per population ratios weighted by distance or travel time in each catchment area (area within which a provider is accessible). Weights are defined for the demand for physicians (population served by physicians). Provider address data was collected from WebMD's online Physician Directory.",
-              "statement": "The primary care accessibility score for {features.name} is {value}",
+              "statement": "The primary care accessibility score for {features.name} is {value}.",
               "sources": [
                 {
                   "name": "WebMD Physician Directory",
@@ -9138,7 +9138,7 @@
               "long_name": "Access to substance use/behavioral health  by count",
               "short_description": "Count of substance use/behavioral health facilities based on facility locations",
               "long_description": "Count of substance use/behavioral health facilities based on facility locations. Location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository.",
-              "statement": "There are {value} substance use facilities in {features.name}",
+              "statement": "There are {value} substance use facilities in {features.name}.",
               "sources": [
                 {
                   "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
@@ -9182,7 +9182,7 @@
               "long_name": "Substance use/behavioral health services access score (3-step floating catchment areas)",
               "short_description": "Index of substance use/behavioral health services accessibility based on supply and demand of facilities",
               "long_description": "Substance use/behavioral health services access score based on 3-step  floating catchment areas. This method is an aggregation of facilities per population ratios weighted by distance or travel time in each catchment area (area within which a facility is accessible). Weights are defined for the demand for facilities (adult population).",
-              "statement": "The substance use/behavioral health services accessibility score for {features.name} is {value}",
+              "statement": "The substance use/behavioral health services accessibility score for {features.name} is {value}.",
               "sources": [
                 {
                   "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",
@@ -9231,7 +9231,7 @@
             "name": "substance_access_scores:subs_10near_median",
             "duplicates": 21995,
             "info": {
-              "type": "float",
+              "type": "drive time",
               "short_name": "Substance use/behavioral health services access (drive time)",
               "full_name": "substance_access_scores:subs_10near_median",
               "category": "Health",
@@ -9240,7 +9240,7 @@
               "long_name": "Substance use/behavioral health services access by median drive time to the ten closest facilities in minutes",
               "short_description": "Median drive time (minutes) to the ten closest substance use/behavioral health services facilities",
               "long_description": "Median drive time in minutes to the ten closest substance use/behavioral health services facilities. Facility location data was collected from the Homeland Infrastructure Foundation-Level Data (HIFLD) repository. Drive times were computed using Open Source Routing Machine (Using roads for year 2021).",
-              "statement": "The median drive time to the ten closest substance use/behavioral health service facilities to {features.name} is {value} minutes",
+              "statement": "The median drive time to the ten closest substance use/behavioral health service facilities to {features.name} is {value}.",
               "sources": [
                 {
                   "name": "Homeland Infrastructure Foundation-Level Data (HIFLD)",

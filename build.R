@@ -1,5 +1,19 @@
 library(community)
 
+ids <- unlist(lapply(c("tract", "county", "district"), function(s) list(
+  vapply(jsonlite::read_json(paste0(
+    "https://uva-bi-sdad.github.io/community/dist/shapes/VA/", s, ".geojson"
+  ))$features, function(d) d$properties$id, "")
+)), use.names = FALSE)
+
+## trim and save files
+for (f in list.files("../community_example/docs/data/original", full.names = TRUE)) {
+  d <- read.csv(f)
+  cids <- trimws(format(d$geoid, scientific = FALSE))
+  nd <- d[cids %in% ids, colnames(d) != 'X']
+  if (!identical(d, nd)) write.csv(nd, f, row.names = FALSE)
+}
+
 data_reformat_sdad("../community_example/docs/data/original", out = "../community_example/docs/data")
 
 data_add(

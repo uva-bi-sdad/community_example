@@ -14,19 +14,18 @@
     "color_scale_center": "median",
     "table_autoscroll": true,
     "table_scroll_behavior": "smooth",
-    "hide_tooltip_icon": false,
     "hide_tooltips": false
   },
   "metadata": {
     "package": "data/datapackage.json",
     "datasets": ["tract", "county", "district"],
-    "variables": ["time", "2year_colleges_access_scores:norm_3sfca", "3rd_grade_median_read_score:median_read_pass_rate", "civilian_employment_rate:employment_rate", "community_college_computer_sciences_fca:3sfca_capacity", "community_college_engineering_fca:3sfca_capacity", "community_college_engineering_related_fca:3sfca_capacity", "daycare_services_access_scores:daycare_cnt", "daycare_services_access_scores:daycare_norm_3sfca", "dei_index:norm_dei", "dentist_access_scores:dent_cnt", "dentist_access_scores:dent_e2sfca", "download_speeds:download", "drive_times_nearest_2year_colleges:median_drive_time_top5", "drive_times_nearest_daycares:median_drive_time_top5", "drive_times_nearest_trade_schools:median_drive_time_top5", "drug_overdose_ed_visits:avg_overdose_per_100k", "ems_access_scores:ems_10near_median", "ems_access_scores:ems_3sfca", "ems_access_scores:ems_cnt", "food_insecurity_and_cost:Child_Food_Insecurity_Rate", "food_insecurity_and_cost:Cost_Per_Meal", "food_insecurity_and_cost:Food_Insecurity_Rate", "food_insecurity_and_cost:Num_Child_Food_Insecure", "have_computer:perc_have_computer", "have_internet:perc_have_internet_access", "health_literacy_estimates:health_literacy_estimate", "hospital_access_scores:hos_10near_median", "hospital_access_scores:hos_3sfca", "hospital_access_scores:hos_cnt", "mental_access_scores:mental_10near_median", "mental_access_scores:mental_3sfca", "mental_access_scores:mental_cnt", "no_health_insurance_19_to_64:no_hlth_ins_pct", "obgyn_access_scores:obgyn_cnt", "obgyn_access_scores:obgyn_e2sfca", "pct_pop_broadband:perc_w_broadband", "pct_pop_cable_fiber_dsl:perc_w_cable_fiber_DSL", "pediatrics_access_scores:ped_cnt", "pediatrics_access_scores:ped_e2sfca", "perc_income_on_internet:perc_income_avg_nat_package", "perc_income_on_internet:perc_income_min_price_100", "perc_income_on_internet:perc_income_min_price_25", "percent_poor_ment_hlth_days_14_and_over:perc_poor_ment_hlth_days_14_and_over", "percent_poor_phys_hlth_days_14_and_over:perc_poor_phys_hlth_days_14_and_over", "post_hs_education:perc_post_hs_edu", "preventable_hospitalizations:prevent_hosp_rate", "primary_care_access_scores:prim_cnt", "primary_care_access_scores:prim_e2sfca", "substance_access_scores:subs_10near_median", "substance_access_scores:subs_3sfca", "substance_access_scores:subs_cnt", "trade_schools_access_scores:norm_3sfca", "earnings_per_job:earnings_per_job"],
+    "variables": ["time", "2year_colleges_access_scores:norm_3sfca", "3rd_grade_median_read_score:median_read_pass_rate", "civilian_employment_rate:employment_rate", "community_college_computer_sciences_fca:3sfca_capacity", "community_college_engineering_fca:3sfca_capacity", "community_college_engineering_related_fca:3sfca_capacity", "daycare_services_access_scores:daycare_cnt", "daycare_services_access_scores:daycare_norm_3sfca", "dei_index:norm_dei", "dentist_access_scores:dent_cnt", "dentist_access_scores:dent_e2sfca", "download_speeds:download", "drive_times_nearest_2year_colleges:median_drive_time_top5", "drive_times_nearest_daycares:median_drive_time_top5", "drive_times_nearest_trade_schools:median_drive_time_top5", "drug_overdose_ed_visits:avg_overdose_per_100k", "ems_access_scores:ems_10near_median", "ems_access_scores:ems_3sfca", "ems_access_scores:ems_cnt", "food_insecurity_and_cost:Child_Food_Insecurity_Rate", "food_insecurity_and_cost:Cost_Per_Meal", "food_insecurity_and_cost:Food_Insecurity_Rate", "food_insecurity_and_cost:Num_Child_Food_Insecure", "health_literacy_estimates:health_literacy_estimate", "hospital_access_scores:hos_10near_median", "hospital_access_scores:hos_3sfca", "hospital_access_scores:hos_cnt", "mental_access_scores:mental_10near_median", "mental_access_scores:mental_3sfca", "mental_access_scores:mental_cnt", "no_health_insurance_19_to_64:no_hlth_ins_pct", "obgyn_access_scores:obgyn_cnt", "obgyn_access_scores:obgyn_e2sfca", "pediatrics_access_scores:ped_cnt", "pediatrics_access_scores:ped_e2sfca", "perc_income_on_internet:perc_income_avg_nat_package", "perc_income_on_internet:perc_income_min_price_100", "perc_income_on_internet:perc_income_min_price_25", "percent_poor_ment_hlth_days_14_and_over:perc_poor_ment_hlth_days_14_and_over", "percent_poor_phys_hlth_days_14_and_over:perc_poor_phys_hlth_days_14_and_over", "post_hs_education:perc_post_hs_edu", "preventable_hospitalizations:prevent_hosp_rate", "primary_care_access_scores:prim_cnt", "primary_care_access_scores:prim_e2sfca", "substance_access_scores:subs_10near_median", "substance_access_scores:subs_3sfca", "substance_access_scores:subs_cnt", "trade_schools_access_scores:norm_3sfca", "earnings_per_job:earnings_per_job", "broadband_withoutint_compdev:perc_hh_with_broadband", "broadband_withoutint_compdev:perc_hh_with_cable_fiber_dsl", "broadband_withoutint_compdev:perc_hh_without_compdev", "broadband_withoutint_compdev:perc_hh_without_internet"],
     "info": {
       "tract": {
-        "bytes": 13490971,
+        "bytes": 14102160,
         "encoding": "ISO-8859-1",
-        "md5": "dbbfdd6db17bb87767590a1f7cc36a7e",
-        "sha512": "4a276781a809100d67dc2b77401bafcf30870c9bf3890536256e1ea9ad100434e41e14d1b64213611a75f436a46c9ef22d53333fa453481e5657f75449b508b4",
+        "md5": "4828c00fbbe5a1c57e71ad5cca646938",
+        "sha512": "50224d7e3fbc085c6c51fc0bc41277485aed7442d708c44c73a306676c5570998146d4746ff4f788d96b6f7356f3b30120516594ebd0ce3357bb04fc894bdcaf",
         "format": "csv",
         "name": "tract",
         "filename": "tract.csv",
@@ -39,7 +38,7 @@
         ],
         "time": "time",
         "profile": "data-resource",
-        "created": "2022-02-04 02:23:49",
+        "created": "2022-02-16 17:23:32",
         "last_modified": "2021-11-29 21:36:30",
         "rowcount": 22884,
         "schema": {
@@ -127,15 +126,15 @@
               "duplicates": 21874,
               "info": {
                 "type": "percent",
-                "short_name": "Employment rate",
+                "short_name": "Employed population",
                 "full_name": "civilian_employment_rate:employment_rate",
                 "category": "Employment/Workforce Development",
                 "measure_table": "civilian_employment_rate",
                 "measure": "employment_rate",
-                "long_name": "Civilian employment rate",
+                "long_name": "Civilian employed population",
                 "short_description": "Population self-reported as employed divided by total civilian workforce population.",
                 "long_description": "Population self-reported as employed divided by total civilian workforce population. Based on American Community Survey Table B23025 ACS 2015/2019 5-year estimates.",
-                "statement": "The employment rate in {features.name} is {value}.",
+                "statement": "{value} of the population in {features.name} is employed.",
                 "sources": [
                   {
                     "name": "American Community Survey",
@@ -555,7 +554,7 @@
                 "long_name": "Emergency department visits for drug overdose rate per 100,000 residents",
                 "short_description": "Average emergency department visits for drug overdose per 100,000 residents.",
                 "long_description": "Average emergency department visits for drug overdose per 100,000 residents.",
-                "statement": "The average emergency department visits for drug overdose rate in {features.name} is {value} per 100,000 residents.",
+                "statement": "The average emergency department visits for drug overdose rate in {features.name} is {value}.",
                 "sources": [
                   {
                     "name": "Virginia Department of Health",
@@ -676,7 +675,7 @@
                 "long_name": "Childhood food insecurity rate",
                 "short_description": "Food insecure children are those children living in households experiencing food insecurity (a lack of access to enough food for an active, healthy life).",
                 "long_description": "Food insecurity refers to USDA's measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food insecurity refers to USDA's measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food insecure children are those children living in households experiencing food insecurity. Food-insecure households are not necessarily food insecure all the time. Food insecurity may reflect a household's need to make trade-offs between important basic needs, such as housing or medical bills, and purchasing nutritionally adequate foods.",
-                "statement": "The childhood food insecurity rate in {features.name} is {value}.",
+                "statement": "{value} of the population of children in {features.name} are food insecure.",
                 "sources": [
                   {
                     "name": "Feeding America",
@@ -728,7 +727,7 @@
                 "long_name": "Food insecurity rate",
                 "short_description": "Food insecurity refers to USDA's measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods.",
                 "long_description": "Food insecurity refers to USDA's measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food-insecure households are not necessarily food insecure all the time. Food insecurity may reflect a household's need to make trade-offs between important basic needs, such as housing or medical bills, and purchasing nutritionally adequate foods.",
-                "statement": "The food insecurity rate in {features.name} is {value}.",
+                "statement": "{value} of the population in {features.name} are food insecure.",
                 "sources": [
                   {
                     "name": "Feeding America",
@@ -766,66 +765,6 @@
               },
               "type": "unknown",
               "missing": 22884
-            },
-            {
-              "name": "have_computer:perc_have_computer",
-              "duplicates": 21109,
-              "info": {
-                "type": "percent",
-                "short_name": "Population with a computer",
-                "full_name": "have_computer:perc_have_computer",
-                "category": "Broadband",
-                "measure_table": "dc_digital_communications.va_hdcttr_acs5_2019_have_computer",
-                "measure": "perc_have_computer",
-                "long_name": "Percent of population with a computer",
-                "short_description": "Percent of the population self-reported to have a computer at home",
-                "long_description": "Percent of the population self-reported to have a computer at home. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-                "statement": "{value} of the population in {features.name} have a computer.",
-                "sources": [
-                  {
-                    "name": "American Community Survey",
-                    "date_accessed": 2021,
-                    "url": "https://www.census.gov/programs-surveys/acs.html"
-                  }
-                ],
-                "citations": {}
-              },
-              "type": "float",
-              "missing": 20993,
-              "mean": 90.6652,
-              "sd": 8.3038,
-              "min": 0,
-              "max": 100
-            },
-            {
-              "name": "have_internet:perc_have_internet_access",
-              "duplicates": 21078,
-              "info": {
-                "type": "percent",
-                "short_name": "Population with internet access",
-                "full_name": "have_internet:perc_have_internet_access",
-                "category": "Broadband",
-                "measure_table": "dc_digital_communications.va_hdcttr_acs5_2019_have_internet",
-                "measure": "perc_have_internet_access",
-                "long_name": "Percent of population with internet access",
-                "short_description": "Percent of the population self-reported to have internet access at home",
-                "long_description": "Percent of the population self-reported to have internet access at home. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-                "statement": "{value} of the population in {features.name} have internet access.",
-                "sources": [
-                  {
-                    "name": "American Community Survey",
-                    "date_accessed": 2021,
-                    "url": "https://www.census.gov/programs-surveys/acs.html"
-                  }
-                ],
-                "citations": {}
-              },
-              "type": "float",
-              "missing": 20993,
-              "mean": 86.5308,
-              "sd": 10.8146,
-              "min": 38.5576,
-              "max": 100
             },
             {
               "name": "health_literacy_estimates:health_literacy_estimate",
@@ -1151,66 +1090,6 @@
               "max": 0.0022
             },
             {
-              "name": "pct_pop_broadband:perc_w_broadband",
-              "duplicates": 17376,
-              "info": {
-                "type": "percent",
-                "short_name": "Population with broadband",
-                "full_name": "pct_pop_broadband:perc_w_broadband",
-                "category": "Broadband",
-                "measure_table": "dc_digital_communications.va_hdcttr_acs_2017_2019_pct_pop_broadband",
-                "measure": "perc_w_broadband",
-                "long_name": "Percent of population with broadband",
-                "short_description": "Percent of population self-reported to have a broadband internet connection (any type of internet other than a dial-up)",
-                "long_description": "Percent of population self-reported to have a broadband internet connection. Broadband internet is defined as any type of internet other than a dial-up. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-                "statement": "{value} of the population in {features.name} has a broadband connection.",
-                "sources": [
-                  {
-                    "name": "American Community Survey",
-                    "date_accessed": 2021,
-                    "url": "https://www.census.gov/programs-surveys/acs.html"
-                  }
-                ],
-                "citations": {}
-              },
-              "type": "float",
-              "missing": 17264,
-              "mean": 0.8124,
-              "sd": 0.134,
-              "min": 0,
-              "max": 1
-            },
-            {
-              "name": "pct_pop_cable_fiber_dsl:perc_w_cable_fiber_DSL",
-              "duplicates": 17352,
-              "info": {
-                "type": "percent",
-                "short_name": "Population with cable, fiber optic, or DSL",
-                "full_name": "pct_pop_cable_fiber_dsl:perc_w_cable_fiber_DSL",
-                "category": "Broadband",
-                "measure_table": "dc_digital_communications.va_hdcttr_acs_2017_2019_pct_pop_cable_fiber_dsl",
-                "measure": "perc_w_cable_fiber_DSL",
-                "long_name": "Percent of population with a high speed internet service (cable, fiber optic, or DSL)",
-                "short_description": "Percent of population self-reported to have a high speed internet service (cable, fiber optic, or DSL)",
-                "long_description": "Percent of population self-reported to have a high speed internet service. A high speed internet service is defined as a cable, fiber optic, or DSL internet connection. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-                "statement": "{value} of the population in {features.name} has a cable fiber or DSL internet connection.",
-                "sources": [
-                  {
-                    "name": "American Community Survey",
-                    "date_accessed": 2021,
-                    "url": "https://www.census.gov/programs-surveys/acs.html"
-                  }
-                ],
-                "citations": {}
-              },
-              "type": "float",
-              "missing": 17264,
-              "mean": 0.6813,
-              "sd": 0.2062,
-              "min": 0,
-              "max": 1
-            },
-            {
               "name": "pediatrics_access_scores:ped_cnt",
               "duplicates": 22842,
               "info": {
@@ -1465,10 +1344,10 @@
               },
               "type": "float",
               "missing": 21005,
-              "mean": 0.6479,
-              "sd": 0.1734,
-              "min": 0.1559,
-              "max": 1
+              "mean": 64.7933,
+              "sd": 17.3377,
+              "min": 15.5943,
+              "max": 100
             },
             {
               "name": "preventable_hospitalizations:prevent_hosp_rate",
@@ -1483,7 +1362,7 @@
                 "long_name": "Preventable hospital stays per 100,000 Medicare enrollees",
                 "short_description": "Rate of hospital stays for ambulatory-care sensitive conditions per 100,000 Medicare enrollees",
                 "long_description": "Rate of hospital stays for ambulatory-care sensitive conditions per 100,000 Medicare enrollees. Ambulatory care refers to diagnoses that are usually treatable in outpatient settings. This data is based on Medicare claims and comes from County Health Rankings.",
-                "statement": "{value} of the hospitalizations in {features.name} were preventable (due to conditions usually treated in outpatient settings).",
+                "statement": "The rate of preventable (due to conditions usually treated in outpatient settings) hospitalizations in {features.name} is {value}.",
                 "sources": [
                   {
                     "name": "County Health Rankings",
@@ -1716,6 +1595,122 @@
               },
               "type": "unknown",
               "missing": 22884
+            },
+            {
+              "name": "broadband_withoutint_compdev:perc_hh_with_broadband",
+              "duplicates": 21372,
+              "info": {
+                "type": "percent",
+                "short_name": "Households with broadband",
+                "full_name": "broadband_withoutint_compdev:perc_hh_with_broadband",
+                "category": "Broadband",
+                "measure_table": "dc_digital_communications.dcmdva_ct_acs_2017_2019_broadband_withoutint_compdev ",
+                "measure": "perc_hh_with_broadband",
+                "long_name": "Percent of households with broadband",
+                "short_description": "Percent of households self-reported to have a broadband internet connection (any type of internet other than a dial-up)",
+                "long_description": "Percent of households self-reported to have a broadband internet connection. Broadband internet is defined as any type of internet other than a dial-up. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+                "statement": "{value} of the households in {features.name} has a broadband connection.",
+                "sources": [
+                  {
+                    "name": "American Community Survey",
+                    "date_accessed": 2021,
+                    "url": "https://www.census.gov/programs-surveys/acs.html"
+                  }
+                ],
+                "citations": {}
+              },
+              "type": "float",
+              "missing": 21345,
+              "mean": 92.6385,
+              "sd": 5.9649,
+              "min": 58.9532,
+              "max": 100
+            },
+            {
+              "name": "broadband_withoutint_compdev:perc_hh_with_cable_fiber_dsl",
+              "duplicates": 22883,
+              "info": {
+                "type": "percent",
+                "short_name": "Households with cable, fiber optic, or DSL",
+                "full_name": "broadband_withoutint_compdev:perc_hh_with_cable_fiber_dsl",
+                "category": "Broadband",
+                "measure_table": "dc_digital_communications.dcmdva_ct_acs_2017_2019_broadband_withoutint_compdev",
+                "measure": "perc_hh_with_cable_fiber_dsl",
+                "long_name": "Percent of households with a high speed internet service (cable, fiber optic, or DSL)",
+                "short_description": "Percent of households self-reported to have a high speed internet service (cable, fiber optic, or DSL)",
+                "long_description": "Percent of households self-reported to have a high speed internet service. A high speed internet service is defined as a cable, fiber optic, or DSL internet connection. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+                "statement": "{value} of the households in {features.name} has a cable fiber or DSL internet connection.",
+                "sources": [
+                  {
+                    "name": "American Community Survey",
+                    "date_accessed": 2021,
+                    "url": "https://www.census.gov/programs-surveys/acs.html"
+                  }
+                ],
+                "citations": {}
+              },
+              "type": "unknown",
+              "missing": 22884
+            },
+            {
+              "name": "broadband_withoutint_compdev:perc_hh_without_compdev",
+              "duplicates": 21515,
+              "info": {
+                "type": "percent",
+                "short_name": "Households without a computer",
+                "full_name": "broadband_withoutint_compdev:perc_hh_without_compdev",
+                "category": "Broadband",
+                "measure_table": "dc_digital_communications.dcmdva_ct_acs_2017_2019_broadband_withoutint_compdev",
+                "measure": "perc_hh_without_compdev",
+                "long_name": "Percent of households without a computer",
+                "short_description": "Percent of the households self-reported to not have a computer or device at home",
+                "long_description": "Percent of the households self-reported to not have a computer or device at home. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+                "statement": "{value} of the households in {features.name} have a computer or device.",
+                "sources": [
+                  {
+                    "name": "American Community Survey",
+                    "date_accessed": 2021,
+                    "url": "https://www.census.gov/programs-surveys/acs.html"
+                  }
+                ],
+                "citations": {}
+              },
+              "type": "float",
+              "missing": 21345,
+              "mean": 3.5551,
+              "sd": 3.725,
+              "min": 0,
+              "max": 28.8567
+            },
+            {
+              "name": "broadband_withoutint_compdev:perc_hh_without_internet",
+              "duplicates": 21442,
+              "info": {
+                "type": "percent",
+                "short_name": "Households without internet access",
+                "full_name": "broadband_withoutint_compdev:perc_hh_without_internet",
+                "category": "Broadband",
+                "measure_table": "dc_digital_communications.dcmdva_ct_acs_2017_2019_broadband_withoutint_compdev",
+                "measure": "perc_hh_without_internet",
+                "long_name": "Percent of households without internet access",
+                "short_description": "Percent of households self-reported to not have internet access at home",
+                "long_description": "Percent of households self-reported to not have internet access at home. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+                "statement": "{value} of the households in {features.name} have not internet access.",
+                "sources": [
+                  {
+                    "name": "American Community Survey",
+                    "date_accessed": 2021,
+                    "url": "https://www.census.gov/programs-surveys/acs.html"
+                  }
+                ],
+                "citations": {}
+              },
+              "type": "float",
+              "missing": 21345,
+              "mean": 5.2349,
+              "sd": 4.922,
+              "min": 0,
+              "max": 38.6364
             }
           ]
         },
@@ -1883,10 +1878,10 @@
         "site_file": "tract.json"
       },
       "county": {
-        "bytes": 1132830,
+        "bytes": 1032470,
         "encoding": "ISO-8859-1",
-        "md5": "11f2639ec15db3d3897c2bcae04092a3",
-        "sha512": "d0349c17379457d81a626f67d5d2a7541d5746dd47ec7110351fef96a068d8dae771bd780a5aa5a3d4cd6b8db75d179eecc60f3228ee2126a1ee07162b8ce561",
+        "md5": "97f87a64414513056dbf39ee5a63b188",
+        "sha512": "2c7f685bea4459bf153b92d0e0f43c82d714d072e3994b9e575e9af5abb142ba21109e59623be14f46c9dd31bfb5253afcecd354520de95b5a3c769caa503fac",
         "format": "csv",
         "name": "county",
         "filename": "county.csv",
@@ -1899,14 +1894,14 @@
         ],
         "time": "time",
         "profile": "data-resource",
-        "created": "2022-02-04 02:23:46",
+        "created": "2022-02-16 17:23:28",
         "last_modified": "2021-11-29 21:36:30",
-        "rowcount": 1884,
+        "rowcount": 1596,
         "schema": {
           "fields": [
             {
               "name": "time",
-              "duplicates": 1872,
+              "duplicates": 1584,
               "info": {
                 "type": "year",
                 "short_name": "Year",
@@ -1917,13 +1912,13 @@
               "type": "integer",
               "missing": 0,
               "mean": 2015.5,
-              "sd": 3.453,
+              "sd": 3.4531,
               "min": 2010,
               "max": 2021
             },
             {
               "name": "2year_colleges_access_scores:norm_3sfca",
-              "duplicates": 1775,
+              "duplicates": 1487,
               "info": {
                 "type": "index",
                 "short_name": "2-year college access score",
@@ -1950,7 +1945,7 @@
                 ]
               },
               "type": "float",
-              "missing": 1751,
+              "missing": 1463,
               "mean": 13.0918,
               "sd": 18.3241,
               "min": 0,
@@ -1958,7 +1953,7 @@
             },
             {
               "name": "3rd_grade_median_read_score:median_read_pass_rate",
-              "duplicates": 1798,
+              "duplicates": 1510,
               "info": {
                 "type": "percent",
                 "short_name": "3rd grade population passing reading",
@@ -1980,7 +1975,7 @@
                 "citations": {}
               },
               "type": "float",
-              "missing": 1630,
+              "missing": 1342,
               "mean": 64.0276,
               "sd": 13.5331,
               "min": 24,
@@ -1988,18 +1983,18 @@
             },
             {
               "name": "civilian_employment_rate:employment_rate",
-              "duplicates": 1760,
+              "duplicates": 1472,
               "info": {
                 "type": "percent",
-                "short_name": "Employment rate",
+                "short_name": "Employed population",
                 "full_name": "civilian_employment_rate:employment_rate",
                 "category": "Employment/Workforce Development",
                 "measure_table": "civilian_employment_rate",
                 "measure": "employment_rate",
-                "long_name": "Civilian employment rate",
+                "long_name": "Civilian employed population",
                 "short_description": "Population self-reported as employed divided by total civilian workforce population.",
                 "long_description": "Population self-reported as employed divided by total civilian workforce population. Based on American Community Survey Table B23025 ACS 2015/2019 5-year estimates.",
-                "statement": "The employment rate in {features.name} is {value}.",
+                "statement": "{value} of the population in {features.name} is employed.",
                 "sources": [
                   {
                     "name": "American Community Survey",
@@ -2010,7 +2005,7 @@
                 "citations": {}
               },
               "type": "float",
-              "missing": 1751,
+              "missing": 1463,
               "mean": 93.8042,
               "sd": 3.6151,
               "min": 74.85,
@@ -2018,7 +2013,7 @@
             },
             {
               "name": "community_college_computer_sciences_fca:3sfca_capacity",
-              "duplicates": 1800,
+              "duplicates": 1512,
               "info": {
                 "type": "index",
                 "short_name": "Community college computer science program access score",
@@ -2045,7 +2040,7 @@
                 ]
               },
               "type": "float",
-              "missing": 1751,
+              "missing": 1463,
               "mean": 0.4113,
               "sd": 0.7636,
               "min": 0,
@@ -2053,7 +2048,7 @@
             },
             {
               "name": "community_college_engineering_fca:3sfca_capacity",
-              "duplicates": 1838,
+              "duplicates": 1550,
               "info": {
                 "type": "index",
                 "short_name": "Community college engineering program access score",
@@ -2080,7 +2075,7 @@
                 ]
               },
               "type": "float",
-              "missing": 1751,
+              "missing": 1463,
               "mean": 0.4818,
               "sd": 0.9926,
               "min": 0,
@@ -2088,7 +2083,7 @@
             },
             {
               "name": "community_college_engineering_related_fca:3sfca_capacity",
-              "duplicates": 1798,
+              "duplicates": 1510,
               "info": {
                 "type": "index",
                 "short_name": "Community college engineering-related program access score",
@@ -2115,7 +2110,7 @@
                 ]
               },
               "type": "float",
-              "missing": 1751,
+              "missing": 1463,
               "mean": 0.9322,
               "sd": 1.6849,
               "min": 0,
@@ -2123,7 +2118,7 @@
             },
             {
               "name": "daycare_services_access_scores:daycare_cnt",
-              "duplicates": 1753,
+              "duplicates": 1465,
               "info": {
                 "type": "count",
                 "short_name": "Day care access (count)",
@@ -2145,7 +2140,7 @@
                 "citations": {}
               },
               "type": "integer",
-              "missing": 1751,
+              "missing": 1463,
               "mean": 2803.7895,
               "sd": 7034.2298,
               "min": 19,
@@ -2153,7 +2148,7 @@
             },
             {
               "name": "daycare_services_access_scores:daycare_norm_3sfca",
-              "duplicates": 1750,
+              "duplicates": 1462,
               "info": {
                 "type": "index",
                 "short_name": "Day care access score",
@@ -2180,7 +2175,7 @@
                 ]
               },
               "type": "float",
-              "missing": 1751,
+              "missing": 1463,
               "mean": 38.6391,
               "sd": 21.6239,
               "min": 0,
@@ -2188,7 +2183,7 @@
             },
             {
               "name": "dei_index:norm_dei",
-              "duplicates": 1488,
+              "duplicates": 1200,
               "info": {
                 "type": "index",
                 "short_name": "Digital Equity Index",
@@ -2215,7 +2210,7 @@
                 "citations": "gallardo20"
               },
               "type": "float",
-              "missing": 1485,
+              "missing": 1197,
               "mean": 46.8091,
               "sd": 23.3058,
               "min": 0,
@@ -2223,7 +2218,7 @@
             },
             {
               "name": "dentist_access_scores:dent_cnt",
-              "duplicates": 1833,
+              "duplicates": 1545,
               "info": {
                 "type": "count",
                 "short_name": "Dental care access (count)",
@@ -2245,7 +2240,7 @@
                 "citations": {}
               },
               "type": "integer",
-              "missing": 1751,
+              "missing": 1463,
               "mean": 32.3383,
               "sd": 89.6895,
               "min": 0,
@@ -2253,7 +2248,7 @@
             },
             {
               "name": "dentist_access_scores:dent_e2sfca",
-              "duplicates": 1756,
+              "duplicates": 1468,
               "info": {
                 "type": "index",
                 "short_name": "Dental care access score",
@@ -2280,7 +2275,7 @@
                 ]
               },
               "type": "float",
-              "missing": 1751,
+              "missing": 1463,
               "mean": 0.0003,
               "sd": 0.0002,
               "min": 0,
@@ -2288,7 +2283,7 @@
             },
             {
               "name": "download_speeds:download",
-              "duplicates": 1484,
+              "duplicates": 1196,
               "info": {
                 "type": "internet speed",
                 "short_name": "Average download speed",
@@ -2310,7 +2305,7 @@
                 "citations": {}
               },
               "type": "float",
-              "missing": 1485,
+              "missing": 1197,
               "mean": 111.8176,
               "sd": 49.3439,
               "min": 8.1556,
@@ -2318,7 +2313,7 @@
             },
             {
               "name": "drive_times_nearest_2year_colleges:median_drive_time_top5",
-              "duplicates": 1757,
+              "duplicates": 1469,
               "info": {
                 "type": "drive time",
                 "short_name": "2-year college access (drive time)",
@@ -2340,7 +2335,7 @@
                 "citations": {}
               },
               "type": "float",
-              "missing": 1751,
+              "missing": 1463,
               "mean": 58.7816,
               "sd": 25.1372,
               "min": 9,
@@ -2348,7 +2343,7 @@
             },
             {
               "name": "drive_times_nearest_daycares:median_drive_time_top5",
-              "duplicates": 1780,
+              "duplicates": 1492,
               "info": {
                 "type": "drive time",
                 "short_name": "Day care access (drive time)",
@@ -2370,7 +2365,7 @@
                 "citations": {}
               },
               "type": "float",
-              "missing": 1751,
+              "missing": 1463,
               "mean": 10.4207,
               "sd": 9.4238,
               "min": 0.9,
@@ -2378,7 +2373,7 @@
             },
             {
               "name": "drive_times_nearest_trade_schools:median_drive_time_top5",
-              "duplicates": 1752,
+              "duplicates": 1464,
               "info": {
                 "type": "drive time",
                 "short_name": "Trade school access (drive time)",
@@ -2400,7 +2395,7 @@
                 "citations": {}
               },
               "type": "float",
-              "missing": 1751,
+              "missing": 1463,
               "mean": 99.0586,
               "sd": 66.2404,
               "min": 10.1,
@@ -2408,7 +2403,7 @@
             },
             {
               "name": "drug_overdose_ed_visits:avg_overdose_per_100k",
-              "duplicates": 1163,
+              "duplicates": 875,
               "info": {
                 "type": "rate",
                 "short_name": "ED visits for drug overdose",
@@ -2419,7 +2414,7 @@
                 "long_name": "Emergency department visits for drug overdose rate per 100,000 residents",
                 "short_description": "Average emergency department visits for drug overdose per 100,000 residents.",
                 "long_description": "Average emergency department visits for drug overdose per 100,000 residents.",
-                "statement": "The average emergency department visits for drug overdose rate in {features.name} is {value} per 100,000 residents.",
+                "statement": "The average emergency department visits for drug overdose rate in {features.name} is {value}.",
                 "sources": [
                   {
                     "name": "Virginia Department of Health",
@@ -2430,7 +2425,7 @@
                 "citations": {}
               },
               "type": "float",
-              "missing": 958,
+              "missing": 670,
               "mean": 16.0866,
               "sd": 9.6737,
               "min": 0,
@@ -2438,7 +2433,7 @@
             },
             {
               "name": "ems_access_scores:ems_10near_median",
-              "duplicates": 1883,
+              "duplicates": 1595,
               "info": {
                 "type": "drive time",
                 "short_name": "Emergency medical services access (drive time)",
@@ -2460,11 +2455,11 @@
                 "citations": {}
               },
               "type": "unknown",
-              "missing": 1884
+              "missing": 1596
             },
             {
               "name": "ems_access_scores:ems_3sfca",
-              "duplicates": 1750,
+              "duplicates": 1462,
               "info": {
                 "type": "index",
                 "short_name": "Emergency medical services access score",
@@ -2491,7 +2486,7 @@
                 ]
               },
               "type": "float",
-              "missing": 1751,
+              "missing": 1463,
               "mean": 0.0003,
               "sd": 0.0002,
               "min": 0,
@@ -2499,7 +2494,7 @@
             },
             {
               "name": "ems_access_scores:ems_cnt",
-              "duplicates": 1857,
+              "duplicates": 1569,
               "info": {
                 "type": "count",
                 "short_name": "Emergency medical services access (count)",
@@ -2521,7 +2516,7 @@
                 "citations": {}
               },
               "type": "integer",
-              "missing": 1751,
+              "missing": 1463,
               "mean": 8.406,
               "sd": 6.7622,
               "min": 0,
@@ -2529,7 +2524,7 @@
             },
             {
               "name": "food_insecurity_and_cost:Child_Food_Insecurity_Rate",
-              "duplicates": 1653,
+              "duplicates": 1365,
               "info": {
                 "type": "percent",
                 "short_name": "Childhood food insecurity rate",
@@ -2540,7 +2535,7 @@
                 "long_name": "Childhood food insecurity rate",
                 "short_description": "Food insecure children are those children living in households experiencing food insecurity (a lack of access to enough food for an active, healthy life).",
                 "long_description": "Food insecurity refers to USDA's measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food insecurity refers to USDA's measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food insecure children are those children living in households experiencing food insecurity. Food-insecure households are not necessarily food insecure all the time. Food insecurity may reflect a household's need to make trade-offs between important basic needs, such as housing or medical bills, and purchasing nutritionally adequate foods.",
-                "statement": "The childhood food insecurity rate in {features.name} is {value}.",
+                "statement": "{value} of the population of children in {features.name} are food insecure.",
                 "sources": [
                   {
                     "name": "Feeding America",
@@ -2551,7 +2546,7 @@
                 "citations": {}
               },
               "type": "float",
-              "missing": 554,
+              "missing": 266,
               "mean": 16.7853,
               "sd": 4.715,
               "min": 1.4,
@@ -2559,7 +2554,7 @@
             },
             {
               "name": "food_insecurity_and_cost:Cost_Per_Meal",
-              "duplicates": 1608,
+              "duplicates": 1320,
               "info": {
                 "type": "dollar",
                 "short_name": "Average meal cost",
@@ -2581,7 +2576,7 @@
                 "citations": {}
               },
               "type": "float",
-              "missing": 687,
+              "missing": 399,
               "mean": 3.0402,
               "sd": 0.2853,
               "min": 2.41,
@@ -2589,7 +2584,7 @@
             },
             {
               "name": "food_insecurity_and_cost:Food_Insecurity_Rate",
-              "duplicates": 1685,
+              "duplicates": 1397,
               "info": {
                 "type": "percent",
                 "short_name": "Food insecurity rate",
@@ -2600,7 +2595,7 @@
                 "long_name": "Food insecurity rate",
                 "short_description": "Food insecurity refers to USDA's measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods.",
                 "long_description": "Food insecurity refers to USDA's measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food-insecure households are not necessarily food insecure all the time. Food insecurity may reflect a household's need to make trade-offs between important basic needs, such as housing or medical bills, and purchasing nutritionally adequate foods.",
-                "statement": "The food insecurity rate in {features.name} is {value}.",
+                "statement": "{value} of the population in {features.name} are food insecure.",
                 "sources": [
                   {
                     "name": "Feeding America",
@@ -2611,7 +2606,7 @@
                 "citations": {}
               },
               "type": "float",
-              "missing": 554,
+              "missing": 266,
               "mean": 12.2723,
               "sd": 4.2626,
               "min": 3.4,
@@ -2619,7 +2614,7 @@
             },
             {
               "name": "food_insecurity_and_cost:Num_Child_Food_Insecure",
-              "duplicates": 1464,
+              "duplicates": 1176,
               "info": {
                 "type": "count",
                 "short_name": "Population of food insecure children",
@@ -2641,75 +2636,15 @@
                 "citations": {}
               },
               "type": "integer",
-              "missing": 554,
+              "missing": 266,
               "mean": 1913.2782,
               "sd": 3241.5838,
               "min": 40,
               "max": 32280
             },
             {
-              "name": "have_computer:perc_have_computer",
-              "duplicates": 1750,
-              "info": {
-                "type": "percent",
-                "short_name": "Population with a computer",
-                "full_name": "have_computer:perc_have_computer",
-                "category": "Broadband",
-                "measure_table": "dc_digital_communications.va_hdcttr_acs5_2019_have_computer",
-                "measure": "perc_have_computer",
-                "long_name": "Percent of population with a computer",
-                "short_description": "Percent of the population self-reported to have a computer at home",
-                "long_description": "Percent of the population self-reported to have a computer at home. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-                "statement": "{value} of the population in {features.name} have a computer.",
-                "sources": [
-                  {
-                    "name": "American Community Survey",
-                    "date_accessed": 2021,
-                    "url": "https://www.census.gov/programs-surveys/acs.html"
-                  }
-                ],
-                "citations": {}
-              },
-              "type": "float",
-              "missing": 1751,
-              "mean": 85.8138,
-              "sd": 6.83,
-              "min": 66.6667,
-              "max": 98.2511
-            },
-            {
-              "name": "have_internet:perc_have_internet_access",
-              "duplicates": 1750,
-              "info": {
-                "type": "percent",
-                "short_name": "Population with internet access",
-                "full_name": "have_internet:perc_have_internet_access",
-                "category": "Broadband",
-                "measure_table": "dc_digital_communications.va_hdcttr_acs5_2019_have_internet",
-                "measure": "perc_have_internet_access",
-                "long_name": "Percent of population with internet access",
-                "short_description": "Percent of the population self-reported to have internet access at home",
-                "long_description": "Percent of the population self-reported to have internet access at home. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-                "statement": "{value} of the population in {features.name} have internet access.",
-                "sources": [
-                  {
-                    "name": "American Community Survey",
-                    "date_accessed": 2021,
-                    "url": "https://www.census.gov/programs-surveys/acs.html"
-                  }
-                ],
-                "citations": {}
-              },
-              "type": "float",
-              "missing": 1751,
-              "mean": 79.9714,
-              "sd": 8.6137,
-              "min": 61.2392,
-              "max": 97.3068
-            },
-            {
               "name": "health_literacy_estimates:health_literacy_estimate",
-              "duplicates": 1878,
+              "duplicates": 1590,
               "info": {
                 "type": "index",
                 "short_name": "Health literacy estimate",
@@ -2739,7 +2674,7 @@
                 ]
               },
               "type": "float",
-              "missing": 1751,
+              "missing": 1463,
               "mean": 0.3165,
               "sd": 0.6769,
               "min": -0.995,
@@ -2747,7 +2682,7 @@
             },
             {
               "name": "hospital_access_scores:hos_10near_median",
-              "duplicates": 1883,
+              "duplicates": 1595,
               "info": {
                 "type": "drive time",
                 "short_name": "Hospital access (drive time)",
@@ -2769,11 +2704,11 @@
                 "citations": {}
               },
               "type": "unknown",
-              "missing": 1884
+              "missing": 1596
             },
             {
               "name": "hospital_access_scores:hos_3sfca",
-              "duplicates": 1750,
+              "duplicates": 1462,
               "info": {
                 "type": "index",
                 "short_name": "Hospital access score",
@@ -2800,7 +2735,7 @@
                 ]
               },
               "type": "float",
-              "missing": 1751,
+              "missing": 1463,
               "mean": 0,
               "sd": 0,
               "min": 0,
@@ -2808,7 +2743,7 @@
             },
             {
               "name": "hospital_access_scores:hos_cnt",
-              "duplicates": 1875,
+              "duplicates": 1587,
               "info": {
                 "type": "count",
                 "short_name": "Hospital access (count)",
@@ -2830,7 +2765,7 @@
                 "citations": {}
               },
               "type": "integer",
-              "missing": 1751,
+              "missing": 1463,
               "mean": 0.8421,
               "sd": 1.2238,
               "min": 0,
@@ -2838,7 +2773,7 @@
             },
             {
               "name": "mental_access_scores:mental_10near_median",
-              "duplicates": 1883,
+              "duplicates": 1595,
               "info": {
                 "type": "drive time",
                 "short_name": "Mental health services access (drive time)",
@@ -2860,11 +2795,11 @@
                 "citations": {}
               },
               "type": "unknown",
-              "missing": 1884
+              "missing": 1596
             },
             {
               "name": "mental_access_scores:mental_3sfca",
-              "duplicates": 1750,
+              "duplicates": 1462,
               "info": {
                 "type": "index",
                 "short_name": "Mental health services access score",
@@ -2891,7 +2826,7 @@
                 ]
               },
               "type": "float",
-              "missing": 1751,
+              "missing": 1463,
               "mean": 0,
               "sd": 0,
               "min": 0,
@@ -2899,7 +2834,7 @@
             },
             {
               "name": "mental_access_scores:mental_cnt",
-              "duplicates": 1872,
+              "duplicates": 1584,
               "info": {
                 "type": "count",
                 "short_name": "Mental health services access (count)",
@@ -2921,7 +2856,7 @@
                 "citations": {}
               },
               "type": "integer",
-              "missing": 1751,
+              "missing": 1463,
               "mean": 1.7744,
               "sd": 2.4576,
               "min": 0,
@@ -2929,7 +2864,7 @@
             },
             {
               "name": "no_health_insurance_19_to_64:no_hlth_ins_pct",
-              "duplicates": 1558,
+              "duplicates": 1270,
               "info": {
                 "type": "percent",
                 "short_name": "Uninsured population",
@@ -2951,7 +2886,7 @@
                 "citations": {}
               },
               "type": "float",
-              "missing": 1219,
+              "missing": 931,
               "mean": 1.8443,
               "sd": 2.5411,
               "min": 0,
@@ -2959,7 +2894,7 @@
             },
             {
               "name": "obgyn_access_scores:obgyn_cnt",
-              "duplicates": 1836,
+              "duplicates": 1548,
               "info": {
                 "type": "count",
                 "short_name": "OBGYN care access (count)",
@@ -2981,7 +2916,7 @@
                 "citations": {}
               },
               "type": "integer",
-              "missing": 1751,
+              "missing": 1463,
               "mean": 23.1579,
               "sd": 60.3872,
               "min": 0,
@@ -2989,7 +2924,7 @@
             },
             {
               "name": "obgyn_access_scores:obgyn_e2sfca",
-              "duplicates": 1772,
+              "duplicates": 1484,
               "info": {
                 "type": "index",
                 "short_name": "OBGYN care access score",
@@ -3016,75 +2951,15 @@
                 ]
               },
               "type": "float",
-              "missing": 1751,
+              "missing": 1463,
               "mean": 0.0004,
               "sd": 0.0004,
               "min": 0,
               "max": 0.0022
             },
             {
-              "name": "pct_pop_broadband:perc_w_broadband",
-              "duplicates": 1484,
-              "info": {
-                "type": "percent",
-                "short_name": "Population with broadband",
-                "full_name": "pct_pop_broadband:perc_w_broadband",
-                "category": "Broadband",
-                "measure_table": "dc_digital_communications.va_hdcttr_acs_2017_2019_pct_pop_broadband",
-                "measure": "perc_w_broadband",
-                "long_name": "Percent of population with broadband",
-                "short_description": "Percent of population self-reported to have a broadband internet connection (any type of internet other than a dial-up)",
-                "long_description": "Percent of population self-reported to have a broadband internet connection. Broadband internet is defined as any type of internet other than a dial-up. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-                "statement": "{value} of the population in {features.name} has a broadband connection.",
-                "sources": [
-                  {
-                    "name": "American Community Survey",
-                    "date_accessed": 2021,
-                    "url": "https://www.census.gov/programs-surveys/acs.html"
-                  }
-                ],
-                "citations": {}
-              },
-              "type": "float",
-              "missing": 1485,
-              "mean": 0.7311,
-              "sd": 0.1038,
-              "min": 0.4825,
-              "max": 0.9542
-            },
-            {
-              "name": "pct_pop_cable_fiber_dsl:perc_w_cable_fiber_DSL",
-              "duplicates": 1484,
-              "info": {
-                "type": "percent",
-                "short_name": "Population with cable, fiber optic, or DSL",
-                "full_name": "pct_pop_cable_fiber_dsl:perc_w_cable_fiber_DSL",
-                "category": "Broadband",
-                "measure_table": "dc_digital_communications.va_hdcttr_acs_2017_2019_pct_pop_cable_fiber_dsl",
-                "measure": "perc_w_cable_fiber_DSL",
-                "long_name": "Percent of population with a high speed internet service (cable, fiber optic, or DSL)",
-                "short_description": "Percent of population self-reported to have a high speed internet service (cable, fiber optic, or DSL)",
-                "long_description": "Percent of population self-reported to have a high speed internet service. A high speed internet service is defined as a cable, fiber optic, or DSL internet connection. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-                "statement": "{value} of the population in {features.name} has a cable fiber or DSL internet connection.",
-                "sources": [
-                  {
-                    "name": "American Community Survey",
-                    "date_accessed": 2021,
-                    "url": "https://www.census.gov/programs-surveys/acs.html"
-                  }
-                ],
-                "citations": {}
-              },
-              "type": "float",
-              "missing": 1485,
-              "mean": 0.5431,
-              "sd": 0.1717,
-              "min": 0.1007,
-              "max": 0.8975
-            },
-            {
               "name": "pediatrics_access_scores:ped_cnt",
-              "duplicates": 1837,
+              "duplicates": 1549,
               "info": {
                 "type": "count",
                 "short_name": "Pediatric care access (count)",
@@ -3106,7 +2981,7 @@
                 "citations": {}
               },
               "type": "integer",
-              "missing": 1751,
+              "missing": 1463,
               "mean": 29.7143,
               "sd": 82.4288,
               "min": 0,
@@ -3114,7 +2989,7 @@
             },
             {
               "name": "pediatrics_access_scores:ped_e2sfca",
-              "duplicates": 1755,
+              "duplicates": 1467,
               "info": {
                 "type": "index",
                 "short_name": "Pediatric care access score",
@@ -3141,7 +3016,7 @@
                 ]
               },
               "type": "float",
-              "missing": 1751,
+              "missing": 1463,
               "mean": 0.0014,
               "sd": 0.0015,
               "min": 0,
@@ -3149,7 +3024,7 @@
             },
             {
               "name": "perc_income_on_internet:perc_income_avg_nat_package",
-              "duplicates": 1750,
+              "duplicates": 1462,
               "info": {
                 "type": "percent",
                 "short_name": "Percent of income for internet (average)",
@@ -3176,7 +3051,7 @@
                 "citations": {}
               },
               "type": "float",
-              "missing": 1751,
+              "missing": 1463,
               "mean": 1.4486,
               "sd": 0.47,
               "min": 0.5629,
@@ -3184,7 +3059,7 @@
             },
             {
               "name": "perc_income_on_internet:perc_income_min_price_100",
-              "duplicates": 1753,
+              "duplicates": 1465,
               "info": {
                 "type": "percent",
                 "short_name": "Percent of income for fast internet",
@@ -3211,7 +3086,7 @@
                 "citations": {}
               },
               "type": "float",
-              "missing": 1754,
+              "missing": 1466,
               "mean": 1.3831,
               "sd": 0.8034,
               "min": 0.2601,
@@ -3219,7 +3094,7 @@
             },
             {
               "name": "perc_income_on_internet:perc_income_min_price_25",
-              "duplicates": 1753,
+              "duplicates": 1465,
               "info": {
                 "type": "percent",
                 "short_name": "Percent of income for good internet",
@@ -3246,7 +3121,7 @@
                 "citations": {}
               },
               "type": "float",
-              "missing": 1754,
+              "missing": 1466,
               "mean": 0.7812,
               "sd": 0.2915,
               "min": 0.2095,
@@ -3254,7 +3129,7 @@
             },
             {
               "name": "percent_poor_ment_hlth_days_14_and_over:perc_poor_ment_hlth_days_14_and_over",
-              "duplicates": 1218,
+              "duplicates": 930,
               "info": {
                 "type": "percent",
                 "short_name": "Poor mental health population",
@@ -3276,7 +3151,7 @@
                 "citations": {}
               },
               "type": "float",
-              "missing": 1219,
+              "missing": 931,
               "mean": 10.9624,
               "sd": 2.1822,
               "min": 5.8043,
@@ -3284,7 +3159,7 @@
             },
             {
               "name": "percent_poor_phys_hlth_days_14_and_over:perc_poor_phys_hlth_days_14_and_over",
-              "duplicates": 1218,
+              "duplicates": 930,
               "info": {
                 "type": "percent",
                 "short_name": "Poor physical health population",
@@ -3306,7 +3181,7 @@
                 "citations": {}
               },
               "type": "float",
-              "missing": 1219,
+              "missing": 931,
               "mean": 12.1872,
               "sd": 2.8533,
               "min": 5.1487,
@@ -3314,7 +3189,7 @@
             },
             {
               "name": "post_hs_education:perc_post_hs_edu",
-              "duplicates": 1750,
+              "duplicates": 1462,
               "info": {
                 "type": "percent",
                 "short_name": "Population with post-high school education",
@@ -3336,15 +3211,15 @@
                 "citations": {}
               },
               "type": "float",
-              "missing": 1751,
-              "mean": 0.5561,
-              "sd": 0.1148,
-              "min": 0.3501,
-              "max": 0.9162
+              "missing": 1463,
+              "mean": 55.6125,
+              "sd": 11.4797,
+              "min": 35.0119,
+              "max": 91.618
             },
             {
               "name": "preventable_hospitalizations:prevent_hosp_rate",
-              "duplicates": 1059,
+              "duplicates": 773,
               "info": {
                 "type": "rate",
                 "short_name": "Preventable hospitalizations per 100,000",
@@ -3355,7 +3230,7 @@
                 "long_name": "Preventable hospital stays per 100,000 Medicare enrollees",
                 "short_description": "Rate of hospital stays for ambulatory-care sensitive conditions per 100,000 Medicare enrollees",
                 "long_description": "Rate of hospital stays for ambulatory-care sensitive conditions per 100,000 Medicare enrollees. Ambulatory care refers to diagnoses that are usually treatable in outpatient settings. This data is based on Medicare claims and comes from County Health Rankings.",
-                "statement": "{value} of the hospitalizations in {features.name} were preventable (due to conditions usually treated in outpatient settings).",
+                "statement": "The rate of preventable (due to conditions usually treated in outpatient settings) hospitalizations in {features.name} is {value}.",
                 "sources": [
                   {
                     "name": "County Health Rankings",
@@ -3366,15 +3241,15 @@
                 "citations": {}
               },
               "type": "integer",
-              "missing": 981,
-              "mean": 5161.0676,
-              "sd": 1879.0309,
+              "missing": 695,
+              "mean": 5159.8357,
+              "sd": 1880.8151,
               "min": 2091,
               "max": 18247
             },
             {
               "name": "primary_care_access_scores:prim_cnt",
-              "duplicates": 1790,
+              "duplicates": 1502,
               "info": {
                 "type": "count",
                 "short_name": "Primary care access (count)",
@@ -3396,7 +3271,7 @@
                 "citations": {}
               },
               "type": "integer",
-              "missing": 1751,
+              "missing": 1463,
               "mean": 147.4887,
               "sd": 341.3477,
               "min": 1,
@@ -3404,7 +3279,7 @@
             },
             {
               "name": "primary_care_access_scores:prim_e2sfca",
-              "duplicates": 1750,
+              "duplicates": 1462,
               "info": {
                 "type": "index",
                 "short_name": "Primary care access score",
@@ -3431,7 +3306,7 @@
                 ]
               },
               "type": "float",
-              "missing": 1751,
+              "missing": 1463,
               "mean": 0.002,
               "sd": 0.0014,
               "min": 0.0001,
@@ -3439,7 +3314,7 @@
             },
             {
               "name": "substance_access_scores:subs_10near_median",
-              "duplicates": 1883,
+              "duplicates": 1595,
               "info": {
                 "type": "drive time",
                 "short_name": "Substance use/behavioral health services access (drive time)",
@@ -3461,11 +3336,11 @@
                 "citations": {}
               },
               "type": "unknown",
-              "missing": 1884
+              "missing": 1596
             },
             {
               "name": "substance_access_scores:subs_3sfca",
-              "duplicates": 1750,
+              "duplicates": 1462,
               "info": {
                 "type": "index",
                 "short_name": "Substance use/behavioral health services access score",
@@ -3492,7 +3367,7 @@
                 ]
               },
               "type": "float",
-              "missing": 1751,
+              "missing": 1463,
               "mean": 0,
               "sd": 0,
               "min": 0,
@@ -3500,7 +3375,7 @@
             },
             {
               "name": "substance_access_scores:subs_cnt",
-              "duplicates": 1873,
+              "duplicates": 1585,
               "info": {
                 "type": "count",
                 "short_name": "Substance use/behavioral health  access (count)",
@@ -3522,7 +3397,7 @@
                 "citations": {}
               },
               "type": "integer",
-              "missing": 1751,
+              "missing": 1463,
               "mean": 1.5188,
               "sd": 2.3179,
               "min": 0,
@@ -3530,7 +3405,7 @@
             },
             {
               "name": "trade_schools_access_scores:norm_3sfca",
-              "duplicates": 1829,
+              "duplicates": 1541,
               "info": {
                 "type": "index",
                 "short_name": "Trade school access score",
@@ -3557,7 +3432,7 @@
                 ]
               },
               "type": "float",
-              "missing": 1751,
+              "missing": 1463,
               "mean": 9.9285,
               "sd": 18.1286,
               "min": 0,
@@ -3565,7 +3440,7 @@
             },
             {
               "name": "earnings_per_job:earnings_per_job",
-              "duplicates": 1253,
+              "duplicates": 1103,
               "info": {
                 "type": "dollar",
                 "short_name": "Earnings per job",
@@ -3587,11 +3462,131 @@
                 "citations": {}
               },
               "type": "float",
-              "missing": 1254,
-              "mean": 46923.2398,
-              "sd": 14536.2388,
+              "missing": 1104,
+              "mean": 46255.4608,
+              "sd": 15246.1732,
               "min": 23169.8842,
               "max": 116153.6904
+            },
+            {
+              "name": "broadband_withoutint_compdev:perc_hh_with_broadband",
+              "duplicates": 1568,
+              "info": {
+                "type": "percent",
+                "short_name": "Households with broadband",
+                "full_name": "broadband_withoutint_compdev:perc_hh_with_broadband",
+                "category": "Broadband",
+                "measure_table": "dc_digital_communications.dcmdva_ct_acs_2017_2019_broadband_withoutint_compdev ",
+                "measure": "perc_hh_with_broadband",
+                "long_name": "Percent of households with broadband",
+                "short_description": "Percent of households self-reported to have a broadband internet connection (any type of internet other than a dial-up)",
+                "long_description": "Percent of households self-reported to have a broadband internet connection. Broadband internet is defined as any type of internet other than a dial-up. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+                "statement": "{value} of the households in {features.name} has a broadband connection.",
+                "sources": [
+                  {
+                    "name": "American Community Survey",
+                    "date_accessed": 2021,
+                    "url": "https://www.census.gov/programs-surveys/acs.html"
+                  }
+                ],
+                "citations": {}
+              },
+              "type": "float",
+              "missing": 1569,
+              "mean": 91.5491,
+              "sd": 2.3594,
+              "min": 86.9378,
+              "max": 95.418
+            },
+            {
+              "name": "broadband_withoutint_compdev:perc_hh_with_cable_fiber_dsl",
+              "duplicates": 1568,
+              "info": {
+                "type": "percent",
+                "short_name": "Households with cable, fiber optic, or DSL",
+                "full_name": "broadband_withoutint_compdev:perc_hh_with_cable_fiber_dsl",
+                "category": "Broadband",
+                "measure_table": "dc_digital_communications.dcmdva_ct_acs_2017_2019_broadband_withoutint_compdev",
+                "measure": "perc_hh_with_cable_fiber_dsl",
+                "long_name": "Percent of households with a high speed internet service (cable, fiber optic, or DSL)",
+                "short_description": "Percent of households self-reported to have a high speed internet service (cable, fiber optic, or DSL)",
+                "long_description": "Percent of households self-reported to have a high speed internet service. A high speed internet service is defined as a cable, fiber optic, or DSL internet connection. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+                "statement": "{value} of the households in {features.name} has a cable fiber or DSL internet connection.",
+                "sources": [
+                  {
+                    "name": "American Community Survey",
+                    "date_accessed": 2021,
+                    "url": "https://www.census.gov/programs-surveys/acs.html"
+                  }
+                ],
+                "citations": {}
+              },
+              "type": "float",
+              "missing": 1569,
+              "mean": 84.0547,
+              "sd": 3.6076,
+              "min": 75.5104,
+              "max": 89.7517
+            },
+            {
+              "name": "broadband_withoutint_compdev:perc_hh_without_compdev",
+              "duplicates": 1568,
+              "info": {
+                "type": "percent",
+                "short_name": "Households without a computer",
+                "full_name": "broadband_withoutint_compdev:perc_hh_without_compdev",
+                "category": "Broadband",
+                "measure_table": "dc_digital_communications.dcmdva_ct_acs_2017_2019_broadband_withoutint_compdev",
+                "measure": "perc_hh_without_compdev",
+                "long_name": "Percent of households without a computer",
+                "short_description": "Percent of the households self-reported to not have a computer or device at home",
+                "long_description": "Percent of the households self-reported to not have a computer or device at home. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+                "statement": "{value} of the households in {features.name} have a computer or device.",
+                "sources": [
+                  {
+                    "name": "American Community Survey",
+                    "date_accessed": 2021,
+                    "url": "https://www.census.gov/programs-surveys/acs.html"
+                  }
+                ],
+                "citations": {}
+              },
+              "type": "float",
+              "missing": 1569,
+              "mean": 3.9385,
+              "sd": 1.62,
+              "min": 1.7489,
+              "max": 7.9143
+            },
+            {
+              "name": "broadband_withoutint_compdev:perc_hh_without_internet",
+              "duplicates": 1568,
+              "info": {
+                "type": "percent",
+                "short_name": "Households without internet access",
+                "full_name": "broadband_withoutint_compdev:perc_hh_without_internet",
+                "category": "Broadband",
+                "measure_table": "dc_digital_communications.dcmdva_ct_acs_2017_2019_broadband_withoutint_compdev",
+                "measure": "perc_hh_without_internet",
+                "long_name": "Percent of households without internet access",
+                "short_description": "Percent of households self-reported to not have internet access at home",
+                "long_description": "Percent of households self-reported to not have internet access at home. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+                "statement": "{value} of the households in {features.name} have not internet access.",
+                "sources": [
+                  {
+                    "name": "American Community Survey",
+                    "date_accessed": 2021,
+                    "url": "https://www.census.gov/programs-surveys/acs.html"
+                  }
+                ],
+                "citations": {}
+              },
+              "type": "float",
+              "missing": 1569,
+              "mean": 5.789,
+              "sd": 1.9848,
+              "min": 2.6932,
+              "max": 9.7289
             }
           ]
         },
@@ -3759,10 +3754,10 @@
         "site_file": "county.json"
       },
       "district": {
-        "bytes": 267020,
+        "bytes": 277511,
         "encoding": "ISO-8859-1",
-        "md5": "742b91e185f9e9969a965aa2166c88a7",
-        "sha512": "b45415fd048b49fdbb51b544eb15d39ba037e18b1db657cc6129ddf52ffa822c570d23b39a2bd6e35d17409d413b9df4a86c2c71ec1354122e3acd34e7099089",
+        "md5": "8bcec3392499ddc7f2f1b57119914ebe",
+        "sha512": "644bcf6605bb4871319afd16e27ec53c98fda9e8ca1a962a889e106c72133df26374461ec87130dd6102d5c281903255e8d40ddd0c2efdee838fa647b7adef6d",
         "format": "csv",
         "name": "district",
         "filename": "health_district.csv",
@@ -3775,7 +3770,7 @@
         ],
         "time": "time",
         "profile": "data-resource",
-        "created": "2022-02-04 02:23:49",
+        "created": "2022-02-16 17:23:32",
         "last_modified": "2021-11-29 21:36:30",
         "rowcount": 420,
         "schema": {
@@ -3867,15 +3862,15 @@
               "duplicates": 419,
               "info": {
                 "type": "percent",
-                "short_name": "Employment rate",
+                "short_name": "Employed population",
                 "full_name": "civilian_employment_rate:employment_rate",
                 "category": "Employment/Workforce Development",
                 "measure_table": "civilian_employment_rate",
                 "measure": "employment_rate",
-                "long_name": "Civilian employment rate",
+                "long_name": "Civilian employed population",
                 "short_description": "Population self-reported as employed divided by total civilian workforce population.",
                 "long_description": "Population self-reported as employed divided by total civilian workforce population. Based on American Community Survey Table B23025 ACS 2015/2019 5-year estimates.",
-                "statement": "The employment rate in {features.name} is {value}.",
+                "statement": "{value} of the population in {features.name} is employed.",
                 "sources": [
                   {
                     "name": "American Community Survey",
@@ -4279,7 +4274,7 @@
                 "long_name": "Emergency department visits for drug overdose rate per 100,000 residents",
                 "short_description": "Average emergency department visits for drug overdose per 100,000 residents.",
                 "long_description": "Average emergency department visits for drug overdose per 100,000 residents.",
-                "statement": "The average emergency department visits for drug overdose rate in {features.name} is {value} per 100,000 residents.",
+                "statement": "The average emergency department visits for drug overdose rate in {features.name} is {value}.",
                 "sources": [
                   {
                     "name": "Virginia Department of Health",
@@ -4400,7 +4395,7 @@
                 "long_name": "Childhood food insecurity rate",
                 "short_description": "Food insecure children are those children living in households experiencing food insecurity (a lack of access to enough food for an active, healthy life).",
                 "long_description": "Food insecurity refers to USDA's measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food insecurity refers to USDA's measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food insecure children are those children living in households experiencing food insecurity. Food-insecure households are not necessarily food insecure all the time. Food insecurity may reflect a household's need to make trade-offs between important basic needs, such as housing or medical bills, and purchasing nutritionally adequate foods.",
-                "statement": "The childhood food insecurity rate in {features.name} is {value}.",
+                "statement": "{value} of the population of children in {features.name} are food insecure.",
                 "sources": [
                   {
                     "name": "Feeding America",
@@ -4460,7 +4455,7 @@
                 "long_name": "Food insecurity rate",
                 "short_description": "Food insecurity refers to USDA's measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods.",
                 "long_description": "Food insecurity refers to USDA's measure of lack of access, at times, to enough food for an active, healthy life for all household members and limited or uncertain availability of nutritionally adequate foods. Food-insecure households are not necessarily food insecure all the time. Food insecurity may reflect a household's need to make trade-offs between important basic needs, such as housing or medical bills, and purchasing nutritionally adequate foods.",
-                "statement": "The food insecurity rate in {features.name} is {value}.",
+                "statement": "{value} of the population in {features.name} are food insecure.",
                 "sources": [
                   {
                     "name": "Feeding America",
@@ -4506,66 +4501,6 @@
               "sd": 4752.492,
               "min": 1130,
               "max": 33320
-            },
-            {
-              "name": "have_computer:perc_have_computer",
-              "duplicates": 384,
-              "info": {
-                "type": "percent",
-                "short_name": "Population with a computer",
-                "full_name": "have_computer:perc_have_computer",
-                "category": "Broadband",
-                "measure_table": "dc_digital_communications.va_hdcttr_acs5_2019_have_computer",
-                "measure": "perc_have_computer",
-                "long_name": "Percent of population with a computer",
-                "short_description": "Percent of the population self-reported to have a computer at home",
-                "long_description": "Percent of the population self-reported to have a computer at home. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-                "statement": "{value} of the population in {features.name} have a computer.",
-                "sources": [
-                  {
-                    "name": "American Community Survey",
-                    "date_accessed": 2021,
-                    "url": "https://www.census.gov/programs-surveys/acs.html"
-                  }
-                ],
-                "citations": {}
-              },
-              "type": "float",
-              "missing": 385,
-              "mean": 88.3058,
-              "sd": 6.6137,
-              "min": 71.9306,
-              "max": 97.4945
-            },
-            {
-              "name": "have_internet:perc_have_internet_access",
-              "duplicates": 384,
-              "info": {
-                "type": "percent",
-                "short_name": "Population with internet access",
-                "full_name": "have_internet:perc_have_internet_access",
-                "category": "Broadband",
-                "measure_table": "dc_digital_communications.va_hdcttr_acs5_2019_have_internet",
-                "measure": "perc_have_internet_access",
-                "long_name": "Percent of population with internet access",
-                "short_description": "Percent of the population self-reported to have internet access at home",
-                "long_description": "Percent of the population self-reported to have internet access at home. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-                "statement": "{value} of the population in {features.name} have internet access.",
-                "sources": [
-                  {
-                    "name": "American Community Survey",
-                    "date_accessed": 2021,
-                    "url": "https://www.census.gov/programs-surveys/acs.html"
-                  }
-                ],
-                "citations": {}
-              },
-              "type": "float",
-              "missing": 385,
-              "mean": 83.4686,
-              "sd": 8.2578,
-              "min": 65.2433,
-              "max": 96.4738
             },
             {
               "name": "health_literacy_estimates:health_literacy_estimate",
@@ -4883,66 +4818,6 @@
               "max": 0.0018
             },
             {
-              "name": "pct_pop_broadband:perc_w_broadband",
-              "duplicates": 314,
-              "info": {
-                "type": "percent",
-                "short_name": "Population with broadband",
-                "full_name": "pct_pop_broadband:perc_w_broadband",
-                "category": "Broadband",
-                "measure_table": "dc_digital_communications.va_hdcttr_acs_2017_2019_pct_pop_broadband",
-                "measure": "perc_w_broadband",
-                "long_name": "Percent of population with broadband",
-                "short_description": "Percent of population self-reported to have a broadband internet connection (any type of internet other than a dial-up)",
-                "long_description": "Percent of population self-reported to have a broadband internet connection. Broadband internet is defined as any type of internet other than a dial-up. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-                "statement": "{value} of the population in {features.name} has a broadband connection.",
-                "sources": [
-                  {
-                    "name": "American Community Survey",
-                    "date_accessed": 2021,
-                    "url": "https://www.census.gov/programs-surveys/acs.html"
-                  }
-                ],
-                "citations": {}
-              },
-              "type": "float",
-              "missing": 315,
-              "mean": 0.7744,
-              "sd": 0.1013,
-              "min": 0.5415,
-              "max": 0.9462
-            },
-            {
-              "name": "pct_pop_cable_fiber_dsl:perc_w_cable_fiber_DSL",
-              "duplicates": 314,
-              "info": {
-                "type": "percent",
-                "short_name": "Population with cable, fiber optic, or DSL",
-                "full_name": "pct_pop_cable_fiber_dsl:perc_w_cable_fiber_DSL",
-                "category": "Broadband",
-                "measure_table": "dc_digital_communications.va_hdcttr_acs_2017_2019_pct_pop_cable_fiber_dsl",
-                "measure": "perc_w_cable_fiber_DSL",
-                "long_name": "Percent of population with a high speed internet service (cable, fiber optic, or DSL)",
-                "short_description": "Percent of population self-reported to have a high speed internet service (cable, fiber optic, or DSL)",
-                "long_description": "Percent of population self-reported to have a high speed internet service. A high speed internet service is defined as a cable, fiber optic, or DSL internet connection. Based on American Community Survey ACS 2015/2019 5-year estimates.",
-                "statement": "{value} of the population in {features.name} has a cable fiber or DSL internet connection.",
-                "sources": [
-                  {
-                    "name": "American Community Survey",
-                    "date_accessed": 2021,
-                    "url": "https://www.census.gov/programs-surveys/acs.html"
-                  }
-                ],
-                "citations": {}
-              },
-              "type": "float",
-              "missing": 315,
-              "mean": 0.621,
-              "sd": 0.1498,
-              "min": 0.3044,
-              "max": 0.8797
-            },
-            {
               "name": "pediatrics_access_scores:ped_cnt",
               "duplicates": 386,
               "info": {
@@ -5197,10 +5072,10 @@
               },
               "type": "float",
               "missing": 385,
-              "mean": 0.605,
-              "sd": 0.1175,
-              "min": 0.4143,
-              "max": 0.8654
+              "mean": 60.4963,
+              "sd": 11.7451,
+              "min": 41.4343,
+              "max": 86.5411
             },
             {
               "name": "preventable_hospitalizations:prevent_hosp_rate",
@@ -5215,7 +5090,7 @@
                 "long_name": "Preventable hospital stays per 100,000 Medicare enrollees",
                 "short_description": "Rate of hospital stays for ambulatory-care sensitive conditions per 100,000 Medicare enrollees",
                 "long_description": "Rate of hospital stays for ambulatory-care sensitive conditions per 100,000 Medicare enrollees. Ambulatory care refers to diagnoses that are usually treatable in outpatient settings. This data is based on Medicare claims and comes from County Health Rankings.",
-                "statement": "{value} of the hospitalizations in {features.name} were preventable (due to conditions usually treated in outpatient settings).",
+                "statement": "The rate of preventable (due to conditions usually treated in outpatient settings) hospitalizations in {features.name} is {value}.",
                 "sources": [
                   {
                     "name": "County Health Rankings",
@@ -5442,6 +5317,110 @@
                     "name": "Bureau of Economic Analysis",
                     "date_accessed": "2021",
                     "url": "https://apps.bea.gov/iTable/iTable.cfm?reqid=70&step=1&acrdn=6"
+                  }
+                ],
+                "citations": {}
+              },
+              "type": "unknown",
+              "missing": 420
+            },
+            {
+              "name": "broadband_withoutint_compdev:perc_hh_with_broadband",
+              "duplicates": 419,
+              "info": {
+                "type": "percent",
+                "short_name": "Households with broadband",
+                "full_name": "broadband_withoutint_compdev:perc_hh_with_broadband",
+                "category": "Broadband",
+                "measure_table": "dc_digital_communications.dcmdva_ct_acs_2017_2019_broadband_withoutint_compdev ",
+                "measure": "perc_hh_with_broadband",
+                "long_name": "Percent of households with broadband",
+                "short_description": "Percent of households self-reported to have a broadband internet connection (any type of internet other than a dial-up)",
+                "long_description": "Percent of households self-reported to have a broadband internet connection. Broadband internet is defined as any type of internet other than a dial-up. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+                "statement": "{value} of the households in {features.name} has a broadband connection.",
+                "sources": [
+                  {
+                    "name": "American Community Survey",
+                    "date_accessed": 2021,
+                    "url": "https://www.census.gov/programs-surveys/acs.html"
+                  }
+                ],
+                "citations": {}
+              },
+              "type": "unknown",
+              "missing": 420
+            },
+            {
+              "name": "broadband_withoutint_compdev:perc_hh_with_cable_fiber_dsl",
+              "duplicates": 419,
+              "info": {
+                "type": "percent",
+                "short_name": "Households with cable, fiber optic, or DSL",
+                "full_name": "broadband_withoutint_compdev:perc_hh_with_cable_fiber_dsl",
+                "category": "Broadband",
+                "measure_table": "dc_digital_communications.dcmdva_ct_acs_2017_2019_broadband_withoutint_compdev",
+                "measure": "perc_hh_with_cable_fiber_dsl",
+                "long_name": "Percent of households with a high speed internet service (cable, fiber optic, or DSL)",
+                "short_description": "Percent of households self-reported to have a high speed internet service (cable, fiber optic, or DSL)",
+                "long_description": "Percent of households self-reported to have a high speed internet service. A high speed internet service is defined as a cable, fiber optic, or DSL internet connection. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+                "statement": "{value} of the households in {features.name} has a cable fiber or DSL internet connection.",
+                "sources": [
+                  {
+                    "name": "American Community Survey",
+                    "date_accessed": 2021,
+                    "url": "https://www.census.gov/programs-surveys/acs.html"
+                  }
+                ],
+                "citations": {}
+              },
+              "type": "unknown",
+              "missing": 420
+            },
+            {
+              "name": "broadband_withoutint_compdev:perc_hh_without_compdev",
+              "duplicates": 419,
+              "info": {
+                "type": "percent",
+                "short_name": "Households without a computer",
+                "full_name": "broadband_withoutint_compdev:perc_hh_without_compdev",
+                "category": "Broadband",
+                "measure_table": "dc_digital_communications.dcmdva_ct_acs_2017_2019_broadband_withoutint_compdev",
+                "measure": "perc_hh_without_compdev",
+                "long_name": "Percent of households without a computer",
+                "short_description": "Percent of the households self-reported to not have a computer or device at home",
+                "long_description": "Percent of the households self-reported to not have a computer or device at home. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+                "statement": "{value} of the households in {features.name} have a computer or device.",
+                "sources": [
+                  {
+                    "name": "American Community Survey",
+                    "date_accessed": 2021,
+                    "url": "https://www.census.gov/programs-surveys/acs.html"
+                  }
+                ],
+                "citations": {}
+              },
+              "type": "unknown",
+              "missing": 420
+            },
+            {
+              "name": "broadband_withoutint_compdev:perc_hh_without_internet",
+              "duplicates": 419,
+              "info": {
+                "type": "percent",
+                "short_name": "Households without internet access",
+                "full_name": "broadband_withoutint_compdev:perc_hh_without_internet",
+                "category": "Broadband",
+                "measure_table": "dc_digital_communications.dcmdva_ct_acs_2017_2019_broadband_withoutint_compdev",
+                "measure": "perc_hh_without_internet",
+                "long_name": "Percent of households without internet access",
+                "short_description": "Percent of households self-reported to not have internet access at home",
+                "long_description": "Percent of households self-reported to not have internet access at home. Based on American Community Survey ACS 2015/2019 5-year estimates.",
+                "statement": "{value} of the households in {features.name} have not internet access.",
+                "sources": [
+                  {
+                    "name": "American Community Survey",
+                    "date_accessed": 2021,
+                    "url": "https://www.census.gov/programs-surveys/acs.html"
                   }
                 ],
                 "citations": {}
@@ -6114,13 +6093,10 @@
     },
     "_raw": []
   },
-  "legends": {
+  "legend": {
     "legend15": {
       "palette": "settings.palette",
-      "subto": [
-        "main_map",
-        "main_plot"
-      ]
+      "subto": ["main_map", "main_plot"]
     }
   },
   "credits": {
@@ -6158,12 +6134,6 @@
       "name": "DataTables",
       "url": "https://datatables.net",
       "version": "1.11.4"
-    }
-  },
-  "legend": {
-    "legend15": {
-      "palette": "settings.palette",
-      "subto": ["main_map", "main_plot"]
     }
   }
 }

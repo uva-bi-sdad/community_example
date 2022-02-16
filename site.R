@@ -4,8 +4,8 @@ library(community)
 
 ## `page_head` adds to the page's meta data, and can be a place to import script and style sheets
 page_head(
-  title = "Virginia Department of Health Dashboard",
-  description = "Example of a dashboard made with the community package.",
+  title = "Virginia Department of Health Dashboard Data Commons",
+  description = "Virginia Department of Health Dashboard Data Commons.",
   icon = "icon.svg"
 )
 
@@ -312,10 +312,7 @@ page_section(
           variable_info = FALSE
         )
       ),
-      output_legend(
-        "settings.palette", "Below", "Above", dataview = "primary_view",
-        subto = c("main_map", "main_plot")
-      ),
+      output_legend("settings.palette", dataview = "primary_view", subto = c("main_map", "main_plot")),
       wraps = c("row", "row mb-auto", "row")
     )
   ),

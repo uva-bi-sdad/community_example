@@ -9,10 +9,10 @@
   },
   "resources": [
     {
-      "bytes": 277511,
+      "bytes": 284522,
       "encoding": "ISO-8859-1",
-      "md5": "8bcec3392499ddc7f2f1b57119914ebe",
-      "sha512": "644bcf6605bb4871319afd16e27ec53c98fda9e8ca1a962a889e106c72133df26374461ec87130dd6102d5c281903255e8d40ddd0c2efdee838fa647b7adef6d",
+      "md5": "95c6d7788d302e974bafb69df647e8f4",
+      "sha512": "ce0a22e84724d1d292d5c4ac46cee7c8c877d901e70cef12fdc445463cd1cbc60d161529cd5ad648bd3376d5d20249f657e0ce2af99d893463c6e4b08d31ab25",
       "format": "csv",
       "name": "district",
       "filename": "health_district.csv",
@@ -25,7 +25,7 @@
       ],
       "time": "time",
       "profile": "data-resource",
-      "created": "2022-02-16 17:23:32",
+      "created": "2022-02-17 01:53:31",
       "last_modified": "2021-11-29 21:36:30",
       "rowcount": 420,
       "schema": {
@@ -523,47 +523,63 @@
           },
           {
             "name": "broadband_withoutint_compdev:num_hh_with_broadband",
-            "duplicates": 419,
+            "duplicates": 314,
             "info": {
               "sources": {},
               "citations": {}
             },
-            "type": "unknown",
-            "missing": 420
+            "type": "integer",
+            "missing": 315,
+            "mean": 73287.4476,
+            "sd": 63842.2814,
+            "min": 11578,
+            "max": 385685
           },
           {
             "name": "broadband_withoutint_compdev:num_hh_with_cable_fiber_dsl",
-            "duplicates": 419,
+            "duplicates": 314,
             "info": {
               "sources": {},
               "citations": {}
             },
-            "type": "unknown",
-            "missing": 420
+            "type": "integer",
+            "missing": 315,
+            "mean": 61851.5619,
+            "sd": 61629.2639,
+            "min": 8615,
+            "max": 361181
           },
           {
             "name": "broadband_withoutint_compdev:num_hh_without_internet",
-            "duplicates": 419,
+            "duplicates": 314,
             "info": {
               "sources": {},
               "citations": {}
             },
-            "type": "unknown",
-            "missing": 420
+            "type": "integer",
+            "missing": 315,
+            "mean": 12750.3048,
+            "sd": 5021.9845,
+            "min": 4536,
+            "max": 27333
           },
           {
             "name": "broadband_withoutint_compdev:num_hh_without_compdev",
-            "duplicates": 419,
+            "duplicates": 314,
             "info": {
               "sources": {},
               "citations": {}
             },
-            "type": "unknown",
-            "missing": 420
+            "type": "integer",
+            "missing": 315,
+            "mean": 9064.419,
+            "sd": 3773.7588,
+            "min": 3036,
+            "max": 20938
           },
           {
             "name": "broadband_withoutint_compdev:perc_hh_with_broadband",
-            "duplicates": 419,
+            "duplicates": 314,
             "info": {
               "type": "percent",
               "short_name": "Households with broadband",
@@ -584,12 +600,16 @@
               ],
               "citations": {}
             },
-            "type": "unknown",
-            "missing": 420
+            "type": "float",
+            "missing": 315,
+            "mean": 77.4409,
+            "sd": 10.1325,
+            "min": 54.1467,
+            "max": 94.6151
           },
           {
             "name": "broadband_withoutint_compdev:perc_hh_with_cable_fiber_dsl",
-            "duplicates": 419,
+            "duplicates": 314,
             "info": {
               "type": "percent",
               "short_name": "Households with cable, fiber optic, or DSL",
@@ -610,12 +630,16 @@
               ],
               "citations": {}
             },
-            "type": "unknown",
-            "missing": 420
+            "type": "float",
+            "missing": 315,
+            "mean": 62.1007,
+            "sd": 14.9794,
+            "min": 30.4352,
+            "max": 87.9704
           },
           {
             "name": "broadband_withoutint_compdev:perc_hh_without_internet",
-            "duplicates": 419,
+            "duplicates": 314,
             "info": {
               "type": "percent",
               "short_name": "Households without internet access",
@@ -636,12 +660,16 @@
               ],
               "citations": {}
             },
-            "type": "unknown",
-            "missing": 420
+            "type": "float",
+            "missing": 315,
+            "mean": 18.2278,
+            "sd": 8.8223,
+            "min": 3.5262,
+            "max": 38.5563
           },
           {
             "name": "broadband_withoutint_compdev:perc_hh_without_compdev",
-            "duplicates": 419,
+            "duplicates": 314,
             "info": {
               "type": "percent",
               "short_name": "Households without a computer",
@@ -662,8 +690,12 @@
               ],
               "citations": {}
             },
-            "type": "unknown",
-            "missing": 420
+            "type": "float",
+            "missing": 315,
+            "mean": 13.1947,
+            "sd": 7.1752,
+            "min": 2.5055,
+            "max": 31.0274
           },
           {
             "name": "post_hs_education:num_post_hs_edu",
@@ -3201,10 +3233,10 @@
       }
     },
     {
-      "bytes": 1032470,
+      "bytes": 1056168,
       "encoding": "ISO-8859-1",
-      "md5": "97f87a64414513056dbf39ee5a63b188",
-      "sha512": "2c7f685bea4459bf153b92d0e0f43c82d714d072e3994b9e575e9af5abb142ba21109e59623be14f46c9dd31bfb5253afcecd354520de95b5a3c769caa503fac",
+      "md5": "1a78d630aea4be168511636291654f1f",
+      "sha512": "eb7dd0294213e52b4fd05e74296de8def4ddcb6f3d6e5e3068d9ccf6e267cc1c7dadd947c6cb154471771b1eca1371e4f653e07a1de6901589ff4cbc45d2238c",
       "format": "csv",
       "name": "county",
       "filename": "county.csv",
@@ -3217,7 +3249,7 @@
       ],
       "time": "time",
       "profile": "data-resource",
-      "created": "2022-02-16 17:23:28",
+      "created": "2022-02-17 01:53:28",
       "last_modified": "2021-11-29 21:36:30",
       "rowcount": 1596,
       "schema": {
@@ -3783,63 +3815,63 @@
           },
           {
             "name": "broadband_withoutint_compdev:num_hh_with_broadband",
-            "duplicates": 1568,
+            "duplicates": 1198,
             "info": {
               "sources": {},
               "citations": {}
             },
             "type": "integer",
-            "missing": 1569,
-            "mean": 88993.5926,
-            "sd": 111394.2308,
-            "min": 4157,
+            "missing": 1197,
+            "mean": 19286.1704,
+            "sd": 40178.8583,
+            "min": 760,
             "max": 372354
           },
           {
             "name": "broadband_withoutint_compdev:num_hh_with_cable_fiber_dsl",
-            "duplicates": 1568,
+            "duplicates": 1203,
             "info": {
               "sources": {},
               "citations": {}
             },
             "type": "integer",
-            "missing": 1569,
-            "mean": 82637.5185,
-            "sd": 104974.9597,
-            "min": 3788,
+            "missing": 1197,
+            "mean": 16276.7268,
+            "sd": 37473.316,
+            "min": 275,
             "max": 348759
           },
           {
             "name": "broadband_withoutint_compdev:num_hh_without_internet",
-            "duplicates": 1568,
+            "duplicates": 1207,
             "info": {
               "sources": {},
               "citations": {}
             },
             "type": "integer",
-            "missing": 1569,
-            "mean": 5154.7037,
-            "sd": 5955.3503,
+            "missing": 1197,
+            "mean": 3355.3434,
+            "sd": 3465.0994,
             "min": 164,
             "max": 22408
           },
           {
             "name": "broadband_withoutint_compdev:num_hh_without_compdev",
-            "duplicates": 1568,
+            "duplicates": 1212,
             "info": {
               "sources": {},
               "citations": {}
             },
             "type": "integer",
-            "missing": 1569,
-            "mean": 3489.4444,
-            "sd": 3995.8838,
+            "missing": 1197,
+            "mean": 2385.3734,
+            "sd": 2366.0942,
             "min": 101,
             "max": 14848
           },
           {
             "name": "broadband_withoutint_compdev:perc_hh_with_broadband",
-            "duplicates": 1568,
+            "duplicates": 1196,
             "info": {
               "type": "percent",
               "short_name": "Households with broadband",
@@ -3861,15 +3893,15 @@
               "citations": {}
             },
             "type": "float",
-            "missing": 1569,
-            "mean": 91.5491,
-            "sd": 2.3594,
-            "min": 86.9378,
+            "missing": 1197,
+            "mean": 73.1099,
+            "sd": 10.3811,
+            "min": 48.2457,
             "max": 95.418
           },
           {
             "name": "broadband_withoutint_compdev:perc_hh_with_cable_fiber_dsl",
-            "duplicates": 1568,
+            "duplicates": 1196,
             "info": {
               "type": "percent",
               "short_name": "Households with cable, fiber optic, or DSL",
@@ -3891,15 +3923,15 @@
               "citations": {}
             },
             "type": "float",
-            "missing": 1569,
-            "mean": 84.0547,
-            "sd": 3.6076,
-            "min": 75.5104,
+            "missing": 1197,
+            "mean": 54.313,
+            "sd": 17.1723,
+            "min": 10.0733,
             "max": 89.7517
           },
           {
             "name": "broadband_withoutint_compdev:perc_hh_without_internet",
-            "duplicates": 1568,
+            "duplicates": 1196,
             "info": {
               "type": "percent",
               "short_name": "Households without internet access",
@@ -3921,15 +3953,15 @@
               "citations": {}
             },
             "type": "float",
-            "missing": 1569,
-            "mean": 5.789,
-            "sd": 1.9848,
+            "missing": 1197,
+            "mean": 22.0161,
+            "sd": 9.2136,
             "min": 2.6932,
-            "max": 9.7289
+            "max": 43.4009
           },
           {
             "name": "broadband_withoutint_compdev:perc_hh_without_compdev",
-            "duplicates": 1568,
+            "duplicates": 1196,
             "info": {
               "type": "percent",
               "short_name": "Households without a computer",
@@ -3951,11 +3983,11 @@
               "citations": {}
             },
             "type": "float",
-            "missing": 1569,
-            "mean": 3.9385,
-            "sd": 1.62,
+            "missing": 1197,
+            "mean": 16.0661,
+            "sd": 7.569,
             "min": 1.7489,
-            "max": 7.9143
+            "max": 35.4552
           },
           {
             "name": "post_hs_education:num_post_hs_edu",
@@ -6493,10 +6525,10 @@
       }
     },
     {
-      "bytes": 14102160,
+      "bytes": 14281443,
       "encoding": "ISO-8859-1",
-      "md5": "4828c00fbbe5a1c57e71ad5cca646938",
-      "sha512": "50224d7e3fbc085c6c51fc0bc41277485aed7442d708c44c73a306676c5570998146d4746ff4f788d96b6f7356f3b30120516594ebd0ce3357bb04fc894bdcaf",
+      "md5": "e16faa3a5fef5682100f8024a13051ee",
+      "sha512": "68ef026e7747d83dfafdb1eaa18e6d806934944c1e969df4e3c64c375993c1694df758805b5463ab81e9bce1969428ddfa495e24ac57729bd636d1e79b30da24",
       "format": "csv",
       "name": "tract",
       "filename": "tract.csv",
@@ -6509,7 +6541,7 @@
       ],
       "time": "time",
       "profile": "data-resource",
-      "created": "2022-02-16 17:23:32",
+      "created": "2022-02-17 01:53:31",
       "last_modified": "2021-11-29 21:36:30",
       "rowcount": 22884,
       "schema": {
@@ -7039,16 +7071,16 @@
           },
           {
             "name": "broadband_withoutint_compdev:num_hh_with_broadband",
-            "duplicates": 21815,
+            "duplicates": 20680,
             "info": {
               "sources": {},
               "citations": {}
             },
             "type": "integer",
-            "missing": 21345,
-            "mean": 1561.2547,
-            "sd": 624.403,
-            "min": 41,
+            "missing": 17163,
+            "mean": 1345.0764,
+            "sd": 670.6461,
+            "min": 0,
             "max": 5477
           },
           {
@@ -7063,35 +7095,35 @@
           },
           {
             "name": "broadband_withoutint_compdev:num_hh_without_internet",
-            "duplicates": 22578,
+            "duplicates": 22077,
             "info": {
               "sources": {},
               "citations": {}
             },
             "type": "integer",
-            "missing": 21345,
-            "mean": 90.4334,
-            "sd": 102.107,
+            "missing": 17163,
+            "mean": 234.0119,
+            "sd": 202.4737,
             "min": 0,
-            "max": 883
+            "max": 1163
           },
           {
             "name": "broadband_withoutint_compdev:num_hh_without_compdev",
-            "duplicates": 22640,
+            "duplicates": 22232,
             "info": {
               "sources": {},
               "citations": {}
             },
             "type": "integer",
-            "missing": 21345,
-            "mean": 61.2118,
-            "sd": 74.5255,
+            "missing": 17163,
+            "mean": 166.3632,
+            "sd": 155.5351,
             "min": 0,
-            "max": 668
+            "max": 985
           },
           {
             "name": "broadband_withoutint_compdev:perc_hh_with_broadband",
-            "duplicates": 21372,
+            "duplicates": 17376,
             "info": {
               "type": "percent",
               "short_name": "Households with broadband",
@@ -7113,10 +7145,10 @@
               "citations": {}
             },
             "type": "float",
-            "missing": 21345,
-            "mean": 92.6385,
-            "sd": 5.9649,
-            "min": 58.9532,
+            "missing": 17264,
+            "mean": 81.2353,
+            "sd": 13.4042,
+            "min": 0,
             "max": 100
           },
           {
@@ -7147,7 +7179,7 @@
           },
           {
             "name": "broadband_withoutint_compdev:perc_hh_without_internet",
-            "duplicates": 21442,
+            "duplicates": 17462,
             "info": {
               "type": "percent",
               "short_name": "Households without internet access",
@@ -7169,15 +7201,15 @@
               "citations": {}
             },
             "type": "float",
-            "missing": 21345,
-            "mean": 5.2349,
-            "sd": 4.922,
+            "missing": 17264,
+            "mean": 14.9338,
+            "sd": 11.7216,
             "min": 0,
-            "max": 38.6364
+            "max": 69.3844
           },
           {
             "name": "broadband_withoutint_compdev:perc_hh_without_compdev",
-            "duplicates": 21515,
+            "duplicates": 17582,
             "info": {
               "type": "percent",
               "short_name": "Households without a computer",
@@ -7199,11 +7231,11 @@
               "citations": {}
             },
             "type": "float",
-            "missing": 21345,
-            "mean": 3.5551,
-            "sd": 3.725,
+            "missing": 17264,
+            "mean": 10.5758,
+            "sd": 9.088,
             "min": 0,
-            "max": 28.8567
+            "max": 100
           },
           {
             "name": "post_hs_education:num_post_hs_edu",

@@ -4,14 +4,14 @@ library(community)
 
 ## `page_head` adds to the page's meta data, and can be a place to import script and style sheets
 page_head(
-  title = "Virginia Department of Health Dashboard Data Commons",
-  description = "Virginia Department of Health Dashboard Data Commons.",
+  title = "Virginia Department of Health Data Commons",
+  description = "Virginia Department of Health Data Commons.",
   icon = "icon.svg"
 )
 
 ## `page_header` adds to the top bar (navbar) of the page
 page_navbar(
-  title = "Virginia Department of Health",
+  title = "Virginia Department of Health Data Commons",
   logo = "icon.svg",
   input_button("Reset", "reset_selection", "reset.selection", class = "btn-link", note = "Reset the menu inputs to their defaults."),
   list(
@@ -32,7 +32,7 @@ page_navbar(
       input_switch("Hide Tooltips", id = "settings.hide_tooltips"),
       input_number("Digits", "settings.digits", default = 2, min = 0, max = 6, floating_label = FALSE),
       input_select(
-        "Color Scale Center", options = c("none", "median", "mean"), default = 1,
+        "Color Scale Center", options = c("none", "median", "mean"), default = "none",
         display = c("None", "Median", "Mean"), id = "settings.color_scale_center",
         floating_label = FALSE,
         note = "Determines whether and on what the color scale should be centered."
@@ -253,7 +253,7 @@ page_section(
       dataview = "primary_view",
       click = "region_select",
       id = "main_map",
-      subto = c("main_plot", "rank_table"),
+      subto = c("main_plot", "rank_table", "main_legend"),
       options = list(
         attributionControl = FALSE,
         scrollWheelZoom = FALSE,
@@ -312,7 +312,10 @@ page_section(
           variable_info = FALSE
         )
       ),
-      output_legend("settings.palette", dataview = "primary_view", subto = c("main_map", "main_plot")),
+      output_legend(
+        "settings.palette", dataview = "primary_view", click = "region_select",
+        subto = c("main_map", "main_plot", "rank_table"), id = "main_legend"
+      ),
       wraps = c("row", "row mb-auto", "row")
     )
   ),
@@ -325,7 +328,7 @@ page_section(
         name = "Plot",
         output_plot(
           x = "time", y = "selected_variable", dataview = "primary_view",
-          click = "region_select", subto = c("main_map", "rank_table"), id = "main_plot",
+          click = "region_select", subto = c("main_map", "rank_table", "main_legend"), id = "main_plot",
           options = list(
             layout = list(
               showlegend = FALSE,
@@ -361,10 +364,10 @@ page_section(
       searching = FALSE,
       scrollY = 455,
       dom = "<'row't>"
-    ), id = "rank_table", click = "region_select", subto = c("main_map", "main_plot"))
+    ), id = "rank_table", click = "region_select", subto = c("main_map", "main_plot", "main_legend"))
   )
 )
 
 # render the site
 vars <- jsonlite::read_json('../community_example/docs/data/measure_info.json')
-site_build('../community_example', variables = names(vars))
+site_build('../community_example', variables = names(vars), version = "dev")

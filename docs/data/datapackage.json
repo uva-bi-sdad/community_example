@@ -9,10 +9,10 @@
   },
   "resources": [
     {
-      "bytes": 283777,
+      "bytes": 282850,
       "encoding": "ISO-8859-1",
-      "md5": "b29748c18eefdc64e727d4a098756890",
-      "sha512": "b117ebe509cd526246609791d39d742d7f2b4c3a1e5d4241540e228374b35936db4fa85a8b91ffaa582223b8f0fe869ddb4af158f286a6647b33fdd82c1060d1",
+      "md5": "d2b8354e1c1f2a7cb1f997752da54448",
+      "sha512": "56a299d6f18a3994450cf368502b68d91ebe175225946fbe2123000601990adf3ee20168fb99a2da58e4b45eaf7e8c900955eed378ea58d8f7b3b7664ca1a178",
       "format": "csv",
       "name": "district",
       "filename": "health_district.csv",
@@ -25,8 +25,8 @@
       ],
       "time": "time",
       "profile": "data-resource",
-      "created": "2022-02-23 20:43:45",
-      "last_modified": "2022-02-23 20:43:45",
+      "created": "2022-02-23 21:40:57",
+      "last_modified": "2022-02-23 21:40:57",
       "rowcount": 420,
       "schema": {
         "fields": [
@@ -1758,10 +1758,10 @@
             },
             "type": "float",
             "missing": 385,
-            "mean": 0.0004,
-            "sd": 0.0001,
-            "min": 0.0002,
-            "max": 0.0006
+            "mean": 0.3589,
+            "sd": 0.1045,
+            "min": 0.2255,
+            "max": 0.6316
           },
           {
             "name": "ems_access_scores:ems_2sfca",
@@ -1772,10 +1772,10 @@
             },
             "type": "float",
             "missing": 385,
-            "mean": 0.0002,
-            "sd": 0.0001,
-            "min": 0,
-            "max": 0.0005
+            "mean": 0.172,
+            "sd": 0.1014,
+            "min": 0.0464,
+            "max": 0.4624
           },
           {
             "name": "ems_access_scores:ems_e2sfca",
@@ -1786,10 +1786,10 @@
             },
             "type": "float",
             "missing": 385,
-            "mean": 0.0002,
-            "sd": 0.0001,
-            "min": 0,
-            "max": 0.0005
+            "mean": 0.1822,
+            "sd": 0.1164,
+            "min": 0.0444,
+            "max": 0.4937
           },
           {
             "name": "ems_access_scores:ems_3sfca",
@@ -1816,10 +1816,10 @@
             },
             "type": "float",
             "missing": 385,
-            "mean": 0.0002,
-            "sd": 0.0001,
-            "min": 0,
-            "max": 0.0005
+            "mean": 0.1825,
+            "sd": 0.1186,
+            "min": 0.041,
+            "max": 0.4935
           },
           {
             "name": "ems_access_scores:ems_cnt",
@@ -1846,10 +1846,10 @@
             },
             "type": "integer",
             "missing": 385,
-            "mean": 31.9429,
-            "sd": 13.584,
-            "min": 8,
-            "max": 58
+            "mean": 31942.8571,
+            "sd": 13584.0366,
+            "min": 8000,
+            "max": 58000
           },
           {
             "name": "ems_access_scores:ems_pop_cnt",
@@ -1860,10 +1860,10 @@
             },
             "type": "integer",
             "missing": 385,
-            "mean": 241421.8857,
-            "sd": 199657.7108,
-            "min": 44558,
-            "max": 1183521
+            "mean": 241421885.7143,
+            "sd": 199657710.7876,
+            "min": 44558000,
+            "max": 1183521000
           },
           {
             "name": "ems_access_scores:ems_10near_mean",
@@ -1910,10 +1910,10 @@
             },
             "type": "float",
             "missing": 385,
-            "mean": 15.8462,
-            "sd": 6.208,
-            "min": 6.6923,
-            "max": 29.7565
+            "mean": 15846.1519,
+            "sd": 6207.9631,
+            "min": 6692.2611,
+            "max": 29756.5022
           },
           {
             "name": "ems_access_scores:ems_median10",
@@ -1924,10 +1924,10 @@
             },
             "type": "float",
             "missing": 385,
-            "mean": 16.5599,
-            "sd": 6.4166,
-            "min": 7.0444,
-            "max": 30.8355
+            "mean": 16559.8706,
+            "sd": 6416.5854,
+            "min": 7044.3856,
+            "max": 30835.5036
           },
           {
             "name": "hospital_access_scores:hos_fca",
@@ -1938,10 +1938,10 @@
             },
             "type": "float",
             "missing": 385,
-            "mean": 0.0003,
-            "sd": 0.0001,
-            "min": 0.0002,
-            "max": 0.0004
+            "mean": 0.2915,
+            "sd": 0.0903,
+            "min": 0.1614,
+            "max": 0.4424
           },
           {
             "name": "hospital_access_scores:hos_2sfca",
@@ -1952,10 +1952,10 @@
             },
             "type": "float",
             "missing": 385,
-            "mean": 0,
-            "sd": 8e-06,
-            "min": 6e-06,
-            "max": 0
+            "mean": 0.016,
+            "sd": 0.0083,
+            "min": 0.0057,
+            "max": 0.041
           },
           {
             "name": "hospital_access_scores:hos_cnt",
@@ -1982,10 +1982,10 @@
             },
             "type": "integer",
             "missing": 385,
-            "mean": 3.2,
-            "sd": 1.6943,
-            "min": 1,
-            "max": 7
+            "mean": 3200,
+            "sd": 1694.281,
+            "min": 1000,
+            "max": 7000
           },
           {
             "name": "hospital_access_scores:hos_e2sfca",
@@ -1996,10 +1996,10 @@
             },
             "type": "float",
             "missing": 385,
-            "mean": 0,
-            "sd": 9e-06,
-            "min": 4e-06,
-            "max": 0
+            "mean": 0.0162,
+            "sd": 0.0087,
+            "min": 0.0041,
+            "max": 0.0439
           },
           {
             "name": "hospital_access_scores:hos_3sfca",
@@ -2026,10 +2026,10 @@
             },
             "type": "float",
             "missing": 385,
-            "mean": 0,
-            "sd": 9e-06,
-            "min": 4e-06,
-            "max": 0
+            "mean": 0.0161,
+            "sd": 0.0086,
+            "min": 0.0042,
+            "max": 0.0446
           },
           {
             "name": "hospital_access_scores:hos_pop_cnt",
@@ -2040,10 +2040,10 @@
             },
             "type": "integer",
             "missing": 385,
-            "mean": 241421.8857,
-            "sd": 199657.7108,
-            "min": 44558,
-            "max": 1183521
+            "mean": 241421885.7143,
+            "sd": 199657710.7876,
+            "min": 44558000,
+            "max": 1183521000
           },
           {
             "name": "hospital_access_scores:hos_10near_mean",
@@ -2090,10 +2090,10 @@
             },
             "type": "float",
             "missing": 385,
-            "mean": 45.7436,
-            "sd": 23.2783,
-            "min": 11.3836,
-            "max": 103.0461
+            "mean": 45743.5916,
+            "sd": 23278.3253,
+            "min": 11383.6057,
+            "max": 103046.1428
           },
           {
             "name": "hospital_access_scores:hos_median10",
@@ -2104,10 +2104,10 @@
             },
             "type": "float",
             "missing": 385,
-            "mean": 49.0559,
-            "sd": 25.6177,
-            "min": 11.6354,
-            "max": 110.7784
+            "mean": 49055.9156,
+            "sd": 25617.6721,
+            "min": 11635.3582,
+            "max": 110778.4158
           },
           {
             "name": "mental_access_scores:mental_fca",
@@ -2298,10 +2298,10 @@
             },
             "type": "float",
             "missing": 386,
-            "mean": 0.0138,
-            "sd": 0.013,
-            "min": 0.0013,
-            "max": 0.0508
+            "mean": 13.7948,
+            "sd": 12.9824,
+            "min": 1.2886,
+            "max": 50.7648
           },
           {
             "name": "obgyn_access_scores:obgyn_e2sfca",
@@ -2328,10 +2328,10 @@
             },
             "type": "float",
             "missing": 385,
-            "mean": 0.0006,
-            "sd": 0.0004,
+            "mean": 0.5939,
+            "sd": 0.3984,
             "min": 0,
-            "max": 0.0018
+            "max": 1.7704
           },
           {
             "name": "obgyn_access_scores:obgyn_2sfca",
@@ -2342,10 +2342,10 @@
             },
             "type": "float",
             "missing": 385,
-            "mean": 0.0006,
-            "sd": 0.0002,
-            "min": 0.0001,
-            "max": 0.0009
+            "mean": 0.5881,
+            "sd": 0.2423,
+            "min": 0.0823,
+            "max": 0.9085
           },
           {
             "name": "obgyn_access_scores:obgyn_cnt",
@@ -2372,10 +2372,10 @@
             },
             "type": "integer",
             "missing": 385,
-            "mean": 88,
-            "sd": 106.409,
-            "min": 7,
-            "max": 611
+            "mean": 88000,
+            "sd": 106409.0332,
+            "min": 7000,
+            "max": 611000
           },
           {
             "name": "obgyn_access_scores:obgyn_3sfca",
@@ -2386,10 +2386,10 @@
             },
             "type": "float",
             "missing": 385,
-            "mean": 0.0006,
-            "sd": 0.0003,
-            "min": 0,
-            "max": 0.0016
+            "mean": 0.5872,
+            "sd": 0.3344,
+            "min": 0.0333,
+            "max": 1.5769
           },
           {
             "name": "obgyn_access_scores:obgyn_pop_cnt",
@@ -2400,10 +2400,10 @@
             },
             "type": "integer",
             "missing": 385,
-            "mean": 101000.6,
-            "sd": 80944.5204,
-            "min": 19201,
-            "max": 483847
+            "mean": 101000600,
+            "sd": 80944520.3571,
+            "min": 19201000,
+            "max": 483847000
           },
           {
             "name": "obgyn_access_scores:obgyn_mean10",
@@ -2414,10 +2414,10 @@
             },
             "type": "float",
             "missing": 385,
-            "mean": 16.3627,
-            "sd": 9.739,
-            "min": 3.7483,
-            "max": 42.401
+            "mean": 16362.7317,
+            "sd": 9739.0485,
+            "min": 3748.2985,
+            "max": 42400.9881
           },
           {
             "name": "obgyn_access_scores:obgyn_median10",
@@ -2428,10 +2428,10 @@
             },
             "type": "float",
             "missing": 385,
-            "mean": 16.5775,
-            "sd": 9.5137,
-            "min": 3.6954,
-            "max": 39.0019
+            "mean": 16577.5392,
+            "sd": 9513.7266,
+            "min": 3695.4088,
+            "max": 39001.8765
           },
           {
             "name": "pediatrics_access_scores:ped_fca",
@@ -2442,10 +2442,10 @@
             },
             "type": "float",
             "missing": 385,
-            "mean": 0.0351,
-            "sd": 0.0335,
-            "min": 0.0027,
-            "max": 0.1058
+            "mean": 35.0535,
+            "sd": 33.4823,
+            "min": 2.7198,
+            "max": 105.79
           },
           {
             "name": "pediatrics_access_scores:ped_2sfca",
@@ -2456,10 +2456,10 @@
             },
             "type": "float",
             "missing": 385,
-            "mean": 0.0019,
-            "sd": 0.0009,
-            "min": 0.0005,
-            "max": 0.004
+            "mean": 1.8961,
+            "sd": 0.8824,
+            "min": 0.4827,
+            "max": 3.9992
           },
           {
             "name": "pediatrics_access_scores:ped_e2sfca",
@@ -2486,10 +2486,10 @@
             },
             "type": "float",
             "missing": 385,
-            "mean": 0.0019,
-            "sd": 0.0013,
-            "min": 0.0005,
-            "max": 0.0055
+            "mean": 1.934,
+            "sd": 1.2693,
+            "min": 0.5342,
+            "max": 5.487
           },
           {
             "name": "pediatrics_access_scores:ped_3sfca",
@@ -2500,10 +2500,10 @@
             },
             "type": "float",
             "missing": 385,
-            "mean": 0.0019,
-            "sd": 0.0011,
-            "min": 0.0005,
-            "max": 0.0053
+            "mean": 1.9018,
+            "sd": 1.0518,
+            "min": 0.5311,
+            "max": 5.2935
           },
           {
             "name": "pediatrics_access_scores:ped_cnt",
@@ -2530,10 +2530,10 @@
             },
             "type": "integer",
             "missing": 385,
-            "mean": 112.9143,
-            "sd": 146.6692,
-            "min": 9,
-            "max": 798
+            "mean": 112914.2857,
+            "sd": 146669.1698,
+            "min": 9000,
+            "max": 798000
           },
           {
             "name": "pediatrics_access_scores:ped_pop_cnt",
@@ -2544,10 +2544,10 @@
             },
             "type": "integer",
             "missing": 385,
-            "mean": 53281.8286,
-            "sd": 49671.1418,
-            "min": 9278,
-            "max": 278988
+            "mean": 53281828.5714,
+            "sd": 49671141.8286,
+            "min": 9278000,
+            "max": 278988000
           },
           {
             "name": "pediatrics_access_scores:ped_10near_mean",
@@ -2578,10 +2578,10 @@
             },
             "type": "float",
             "missing": 385,
-            "mean": 15.3859,
-            "sd": 9.612,
-            "min": 3.8009,
-            "max": 37.2618
+            "mean": 15385.8824,
+            "sd": 9611.9666,
+            "min": 3800.8538,
+            "max": 37261.8311
           },
           {
             "name": "pediatrics_access_scores:ped_median10",
@@ -2592,10 +2592,10 @@
             },
             "type": "float",
             "missing": 385,
-            "mean": 15.5239,
-            "sd": 9.6212,
-            "min": 3.9078,
-            "max": 37.1554
+            "mean": 15523.8791,
+            "sd": 9621.1892,
+            "min": 3907.7694,
+            "max": 37155.3941
           },
           {
             "name": "perc_income_on_internet:perc_income_avg_nat_package",
@@ -2753,10 +2753,10 @@
             },
             "type": "float",
             "missing": 385,
-            "mean": 0.0201,
-            "sd": 0.017,
-            "min": 0.0034,
-            "max": 0.0671
+            "mean": 20.0974,
+            "sd": 16.9681,
+            "min": 3.3934,
+            "max": 67.0923
           },
           {
             "name": "primary_care_access_scores:prim_cnt",
@@ -2783,10 +2783,10 @@
             },
             "type": "integer",
             "missing": 385,
-            "mean": 560.4571,
-            "sd": 581.3071,
-            "min": 74,
-            "max": 3360
+            "mean": 560457.1429,
+            "sd": 581307.1145,
+            "min": 74000,
+            "max": 3360000
           },
           {
             "name": "primary_care_access_scores:prim_2sfca",
@@ -2797,10 +2797,10 @@
             },
             "type": "float",
             "missing": 385,
-            "mean": 0.0023,
-            "sd": 0.0007,
-            "min": 0.0011,
-            "max": 0.0035
+            "mean": 2.2573,
+            "sd": 0.6567,
+            "min": 1.1068,
+            "max": 3.521
           },
           {
             "name": "primary_care_access_scores:prim_e2sfca",
@@ -2827,10 +2827,10 @@
             },
             "type": "float",
             "missing": 385,
-            "mean": 0.0023,
-            "sd": 0.0011,
-            "min": 0.0011,
-            "max": 0.0058
+            "mean": 2.2971,
+            "sd": 1.0887,
+            "min": 1.1266,
+            "max": 5.8141
           },
           {
             "name": "primary_care_access_scores:prim_3sfca",
@@ -2841,10 +2841,10 @@
             },
             "type": "float",
             "missing": 385,
-            "mean": 0.0023,
-            "sd": 0.0008,
-            "min": 0.0014,
-            "max": 0.005
+            "mean": 2.2799,
+            "sd": 0.8427,
+            "min": 1.3637,
+            "max": 5.0115
           },
           {
             "name": "primary_care_access_scores:prim_pop_cnt",
@@ -2855,10 +2855,10 @@
             },
             "type": "integer",
             "missing": 385,
-            "mean": 241556.0857,
-            "sd": 199619.7931,
-            "min": 44558,
-            "max": 1183521
+            "mean": 241556085.7143,
+            "sd": 199619793.1232,
+            "min": 44558000,
+            "max": 1183521000
           },
           {
             "name": "primary_care_access_scores:prim_mean10",
@@ -2869,10 +2869,10 @@
             },
             "type": "float",
             "missing": 385,
-            "mean": 9.3548,
-            "sd": 4.9605,
-            "min": 2.4048,
-            "max": 19.9982
+            "mean": 9354.7831,
+            "sd": 4960.5402,
+            "min": 2404.766,
+            "max": 19998.1656
           },
           {
             "name": "primary_care_access_scores:prim_median10",
@@ -2883,10 +2883,10 @@
             },
             "type": "float",
             "missing": 385,
-            "mean": 9.4641,
-            "sd": 4.9703,
-            "min": 2.4757,
-            "max": 20.0507
+            "mean": 9464.0731,
+            "sd": 4970.2654,
+            "min": 2475.7003,
+            "max": 20050.6862
           },
           {
             "name": "substance_access_scores:subs_fca",
@@ -3233,10 +3233,10 @@
       }
     },
     {
-      "bytes": 1053460,
+      "bytes": 1049624,
       "encoding": "ISO-8859-1",
-      "md5": "5959cc4a8c74ac31d86320793628a857",
-      "sha512": "dc90aa0087b47d94e043ab6c537d49159e3f03db122d15d127c28decf6f896c41e97e5b5ef262523224c4f6d90d4b2e669d16ecc0b8fb38bfff7afe2e06d93b6",
+      "md5": "b8d741ae2fbb4dd3115f7c176f242416",
+      "sha512": "965a6beab559558b8eafbab1a9d49fbf0d22c9a4046cc2ffc2b77c2b88fa035430301768004c5b109b0adf6373fd916638dadb37dbc8647c4e0881625596a009",
       "format": "csv",
       "name": "county",
       "filename": "county.csv",
@@ -3249,8 +3249,8 @@
       ],
       "time": "time",
       "profile": "data-resource",
-      "created": "2022-02-23 20:43:43",
-      "last_modified": "2022-02-23 20:43:43",
+      "created": "2022-02-23 21:40:54",
+      "last_modified": "2022-02-23 21:40:54",
       "rowcount": 1596,
       "schema": {
         "fields": [
@@ -5050,10 +5050,10 @@
             },
             "type": "float",
             "missing": 1463,
-            "mean": 0.0004,
-            "sd": 0.0002,
-            "min": 0.0002,
-            "max": 0.0014
+            "mean": 0.4234,
+            "sd": 0.1852,
+            "min": 0.2105,
+            "max": 1.3612
           },
           {
             "name": "ems_access_scores:ems_2sfca",
@@ -5064,10 +5064,10 @@
             },
             "type": "float",
             "missing": 1463,
-            "mean": 0.0002,
-            "sd": 0.0001,
-            "min": 0,
-            "max": 0.0005
+            "mean": 0.1926,
+            "sd": 0.0995,
+            "min": 0.0464,
+            "max": 0.5225
           },
           {
             "name": "ems_access_scores:ems_e2sfca",
@@ -5078,10 +5078,10 @@
             },
             "type": "float",
             "missing": 1463,
-            "mean": 0.0002,
-            "sd": 0.0002,
-            "min": 0,
-            "max": 0.0011
+            "mean": 0.247,
+            "sd": 0.1653,
+            "min": 0.0443,
+            "max": 1.1403
           },
           {
             "name": "ems_access_scores:ems_3sfca",
@@ -5108,10 +5108,10 @@
             },
             "type": "float",
             "missing": 1463,
-            "mean": 0.0003,
-            "sd": 0.0002,
-            "min": 0,
-            "max": 0.0012
+            "mean": 0.2514,
+            "sd": 0.1597,
+            "min": 0.04,
+            "max": 1.215
           },
           {
             "name": "ems_access_scores:ems_cnt",
@@ -5138,10 +5138,10 @@
             },
             "type": "integer",
             "missing": 1463,
-            "mean": 8.406,
-            "sd": 6.7622,
+            "mean": 8406.015,
+            "sd": 6762.2365,
             "min": 0,
-            "max": 42
+            "max": 42000
           },
           {
             "name": "ems_access_scores:ems_pop_cnt",
@@ -5152,10 +5152,10 @@
             },
             "type": "integer",
             "missing": 1463,
-            "mean": 63532.0752,
-            "sd": 126066.862,
-            "min": 2204,
-            "max": 1145862
+            "mean": 63532075.188,
+            "sd": 126066862.0092,
+            "min": 2204000,
+            "max": 1145862000
           },
           {
             "name": "ems_access_scores:ems_10near_mean",
@@ -5202,10 +5202,10 @@
             },
             "type": "float",
             "missing": 1463,
-            "mean": 19.7222,
-            "sd": 8.0674,
-            "min": 6.6101,
-            "max": 46.7048
+            "mean": 19722.2332,
+            "sd": 8067.4296,
+            "min": 6610.129,
+            "max": 46704.8341
           },
           {
             "name": "ems_access_scores:ems_median10",
@@ -5216,10 +5216,10 @@
             },
             "type": "float",
             "missing": 1463,
-            "mean": 20.7773,
-            "sd": 8.8064,
-            "min": 6.3008,
-            "max": 49.15
+            "mean": 20777.3038,
+            "sd": 8806.4495,
+            "min": 6300.7986,
+            "max": 49150
           },
           {
             "name": "hospital_access_scores:hos_fca",
@@ -5230,10 +5230,10 @@
             },
             "type": "float",
             "missing": 1480,
-            "mean": 0.0003,
-            "sd": 0.0001,
-            "min": 0.0001,
-            "max": 0.0005
+            "mean": 0.2749,
+            "sd": 0.0958,
+            "min": 0.098,
+            "max": 0.5173
           },
           {
             "name": "hospital_access_scores:hos_2sfca",
@@ -5244,10 +5244,10 @@
             },
             "type": "float",
             "missing": 1464,
-            "mean": 0,
-            "sd": 0,
-            "min": 4e-06,
-            "max": 0.0001
+            "mean": 0.0174,
+            "sd": 0.0107,
+            "min": 0.0039,
+            "max": 0.0559
           },
           {
             "name": "hospital_access_scores:hos_cnt",
@@ -5274,10 +5274,10 @@
             },
             "type": "integer",
             "missing": 1463,
-            "mean": 0.8421,
-            "sd": 1.2238,
+            "mean": 842.1053,
+            "sd": 1223.7678,
             "min": 0,
-            "max": 7
+            "max": 7000
           },
           {
             "name": "hospital_access_scores:hos_e2sfca",
@@ -5288,10 +5288,10 @@
             },
             "type": "float",
             "missing": 1463,
-            "mean": 0,
-            "sd": 0,
+            "mean": 0.0201,
+            "sd": 0.025,
             "min": 0,
-            "max": 0.0002
+            "max": 0.1732
           },
           {
             "name": "hospital_access_scores:hos_3sfca",
@@ -5318,10 +5318,10 @@
             },
             "type": "float",
             "missing": 1463,
-            "mean": 0,
-            "sd": 0,
+            "mean": 0.0201,
+            "sd": 0.0216,
             "min": 0,
-            "max": 0.0002
+            "max": 0.1559
           },
           {
             "name": "hospital_access_scores:hos_pop_cnt",
@@ -5332,10 +5332,10 @@
             },
             "type": "integer",
             "missing": 1463,
-            "mean": 63532.0752,
-            "sd": 126066.862,
-            "min": 2204,
-            "max": 1145862
+            "mean": 63532075.188,
+            "sd": 126066862.0092,
+            "min": 2204000,
+            "max": 1145862000
           },
           {
             "name": "hospital_access_scores:hos_10near_mean",
@@ -5382,10 +5382,10 @@
             },
             "type": "float",
             "missing": 1463,
-            "mean": 55.3095,
-            "sd": 20.3599,
-            "min": 11.3836,
-            "max": 115.6696
+            "mean": 55309.4865,
+            "sd": 20359.8911,
+            "min": 11383.6057,
+            "max": 115669.6456
           },
           {
             "name": "hospital_access_scores:hos_median10",
@@ -5396,10 +5396,10 @@
             },
             "type": "float",
             "missing": 1463,
-            "mean": 59.2583,
-            "sd": 22.3901,
-            "min": 11.6354,
-            "max": 123.971
+            "mean": 59258.3264,
+            "sd": 22390.1113,
+            "min": 11635.3582,
+            "max": 123970.9883
           },
           {
             "name": "mental_access_scores:mental_fca",
@@ -5590,10 +5590,10 @@
             },
             "type": "float",
             "missing": 1486,
-            "mean": 0.0087,
-            "sd": 0.0102,
-            "min": 0.0005,
-            "max": 0.0531
+            "mean": 8.72,
+            "sd": 10.2214,
+            "min": 0.4805,
+            "max": 53.1368
           },
           {
             "name": "obgyn_access_scores:obgyn_e2sfca",
@@ -5620,10 +5620,10 @@
             },
             "type": "float",
             "missing": 1463,
-            "mean": 0.0004,
-            "sd": 0.0004,
+            "mean": 0.4074,
+            "sd": 0.4438,
             "min": 0,
-            "max": 0.0022
+            "max": 2.2022
           },
           {
             "name": "obgyn_access_scores:obgyn_2sfca",
@@ -5634,10 +5634,10 @@
             },
             "type": "float",
             "missing": 1463,
-            "mean": 0.0005,
-            "sd": 0.0003,
-            "min": 0,
-            "max": 0.0011
+            "mean": 0.461,
+            "sd": 0.285,
+            "min": 0.0114,
+            "max": 1.0636
           },
           {
             "name": "obgyn_access_scores:obgyn_cnt",
@@ -5664,10 +5664,10 @@
             },
             "type": "integer",
             "missing": 1463,
-            "mean": 23.1579,
-            "sd": 60.3872,
+            "mean": 23157.8947,
+            "sd": 60387.2405,
             "min": 0,
-            "max": 562
+            "max": 562000
           },
           {
             "name": "obgyn_access_scores:obgyn_3sfca",
@@ -5678,10 +5678,10 @@
             },
             "type": "float",
             "missing": 1463,
-            "mean": 0.0004,
-            "sd": 0.0004,
-            "min": 2e-06,
-            "max": 0.0019
+            "mean": 0.4251,
+            "sd": 0.384,
+            "min": 0.0019,
+            "max": 1.932
           },
           {
             "name": "obgyn_access_scores:obgyn_pop_cnt",
@@ -5692,10 +5692,10 @@
             },
             "type": "integer",
             "missing": 1463,
-            "mean": 26579.1053,
-            "sd": 51587.2742,
-            "min": 997,
-            "max": 468177
+            "mean": 26579105.2632,
+            "sd": 51587274.1998,
+            "min": 997000,
+            "max": 468177000
           },
           {
             "name": "obgyn_access_scores:obgyn_mean10",
@@ -5706,10 +5706,10 @@
             },
             "type": "float",
             "missing": 1463,
-            "mean": 22.9823,
-            "sd": 13.9606,
-            "min": 2.51,
-            "max": 65.28
+            "mean": 22982.2996,
+            "sd": 13960.5733,
+            "min": 2510,
+            "max": 65280
           },
           {
             "name": "obgyn_access_scores:obgyn_median10",
@@ -5720,10 +5720,10 @@
             },
             "type": "float",
             "missing": 1463,
-            "mean": 23.4352,
-            "sd": 14.5719,
-            "min": 2.4,
-            "max": 67.2
+            "mean": 23435.1802,
+            "sd": 14571.9363,
+            "min": 2400,
+            "max": 67200
           },
           {
             "name": "pediatrics_access_scores:ped_fca",
@@ -5734,10 +5734,10 @@
             },
             "type": "float",
             "missing": 1469,
-            "mean": 0.0199,
-            "sd": 0.0291,
-            "min": 0.0007,
-            "max": 0.1459
+            "mean": 19.9273,
+            "sd": 29.0828,
+            "min": 0.7179,
+            "max": 145.9233
           },
           {
             "name": "pediatrics_access_scores:ped_2sfca",
@@ -5748,10 +5748,10 @@
             },
             "type": "float",
             "missing": 1463,
-            "mean": 0.0016,
-            "sd": 0.0011,
-            "min": 0.0001,
-            "max": 0.0052
+            "mean": 1.6292,
+            "sd": 1.1021,
+            "min": 0.0906,
+            "max": 5.1837
           },
           {
             "name": "pediatrics_access_scores:ped_e2sfca",
@@ -5778,10 +5778,10 @@
             },
             "type": "float",
             "missing": 1463,
-            "mean": 0.0014,
-            "sd": 0.0015,
+            "mean": 1.4341,
+            "sd": 1.4887,
             "min": 0,
-            "max": 0.0126
+            "max": 12.6059
           },
           {
             "name": "pediatrics_access_scores:ped_3sfca",
@@ -5792,10 +5792,10 @@
             },
             "type": "float",
             "missing": 1463,
-            "mean": 0.0015,
-            "sd": 0.0012,
-            "min": 4e-06,
-            "max": 0.0106
+            "mean": 1.5191,
+            "sd": 1.2457,
+            "min": 0.0044,
+            "max": 10.624
           },
           {
             "name": "pediatrics_access_scores:ped_cnt",
@@ -5822,10 +5822,10 @@
             },
             "type": "integer",
             "missing": 1463,
-            "mean": 29.7143,
-            "sd": 82.4288,
+            "mean": 29714.2857,
+            "sd": 82428.8096,
             "min": 0,
-            "max": 753
+            "max": 753000
           },
           {
             "name": "pediatrics_access_scores:ped_pop_cnt",
@@ -5836,10 +5836,10 @@
             },
             "type": "integer",
             "missing": 1463,
-            "mean": 14021.5338,
-            "sd": 30269.5381,
-            "min": 258,
-            "max": 270215
+            "mean": 14021533.8346,
+            "sd": 30269538.0741,
+            "min": 258000,
+            "max": 270215000
           },
           {
             "name": "pediatrics_access_scores:ped_10near_mean",
@@ -5870,10 +5870,10 @@
             },
             "type": "float",
             "missing": 1463,
-            "mean": 21.648,
-            "sd": 13.4676,
-            "min": 2.5325,
-            "max": 61.24
+            "mean": 21648.0005,
+            "sd": 13467.6214,
+            "min": 2532.5028,
+            "max": 61240
           },
           {
             "name": "pediatrics_access_scores:ped_median10",
@@ -5884,10 +5884,10 @@
             },
             "type": "float",
             "missing": 1463,
-            "mean": 21.916,
-            "sd": 14.2432,
-            "min": 2.5419,
-            "max": 59.1
+            "mean": 21916.0393,
+            "sd": 14243.1742,
+            "min": 2541.8842,
+            "max": 59100
           },
           {
             "name": "perc_income_on_internet:perc_income_avg_nat_package",
@@ -6045,10 +6045,10 @@
             },
             "type": "float",
             "missing": 1463,
-            "mean": 0.0123,
-            "sd": 0.0141,
-            "min": 0.0007,
-            "max": 0.0671
+            "mean": 12.2635,
+            "sd": 14.1185,
+            "min": 0.7411,
+            "max": 67.0923
           },
           {
             "name": "primary_care_access_scores:prim_cnt",
@@ -6075,10 +6075,10 @@
             },
             "type": "integer",
             "missing": 1463,
-            "mean": 147.4887,
-            "sd": 341.3477,
-            "min": 1,
-            "max": 3152
+            "mean": 147488.7218,
+            "sd": 341347.6548,
+            "min": 1000,
+            "max": 3152000
           },
           {
             "name": "primary_care_access_scores:prim_2sfca",
@@ -6089,10 +6089,10 @@
             },
             "type": "float",
             "missing": 1463,
-            "mean": 0.002,
-            "sd": 0.0009,
-            "min": 0.0005,
-            "max": 0.0046
+            "mean": 2.031,
+            "sd": 0.9221,
+            "min": 0.5336,
+            "max": 4.6042
           },
           {
             "name": "primary_care_access_scores:prim_e2sfca",
@@ -6119,10 +6119,10 @@
             },
             "type": "float",
             "missing": 1463,
-            "mean": 0.002,
-            "sd": 0.0014,
-            "min": 0.0001,
-            "max": 0.0091
+            "mean": 1.9639,
+            "sd": 1.3648,
+            "min": 0.0966,
+            "max": 9.1415
           },
           {
             "name": "primary_care_access_scores:prim_3sfca",
@@ -6133,10 +6133,10 @@
             },
             "type": "float",
             "missing": 1463,
-            "mean": 0.002,
-            "sd": 0.001,
-            "min": 0.0004,
-            "max": 0.0078
+            "mean": 2.0484,
+            "sd": 1.021,
+            "min": 0.3936,
+            "max": 7.8048
           },
           {
             "name": "primary_care_access_scores:prim_pop_cnt",
@@ -6147,10 +6147,10 @@
             },
             "type": "integer",
             "missing": 1463,
-            "mean": 63567.391,
-            "sd": 126063.5236,
-            "min": 2204,
-            "max": 1145862
+            "mean": 63567390.9774,
+            "sd": 126063523.6382,
+            "min": 2204000,
+            "max": 1145862000
           },
           {
             "name": "primary_care_access_scores:prim_mean10",
@@ -6161,10 +6161,10 @@
             },
             "type": "float",
             "missing": 1463,
-            "mean": 11.8314,
-            "sd": 7.0224,
-            "min": 1.18,
-            "max": 37.9744
+            "mean": 11831.3849,
+            "sd": 7022.4315,
+            "min": 1180,
+            "max": 37974.3557
           },
           {
             "name": "primary_care_access_scores:prim_median10",
@@ -6175,10 +6175,10 @@
             },
             "type": "float",
             "missing": 1463,
-            "mean": 11.7855,
-            "sd": 7.1804,
-            "min": 1.4,
-            "max": 38.95
+            "mean": 11785.4805,
+            "sd": 7180.3903,
+            "min": 1400,
+            "max": 38950
           },
           {
             "name": "substance_access_scores:subs_fca",
@@ -6525,10 +6525,10 @@
       }
     },
     {
-      "bytes": 14241444,
+      "bytes": 14187289,
       "encoding": "ISO-8859-1",
-      "md5": "b551b45b5fb0f5ff1299d936b6637b33",
-      "sha512": "e81c22de706b6569adcbe01a1b6551e821f084fafb2c722e7d7ee55fcd558fc898bcad951b01c63e28a71490c76f1cad510f8181fd71b7752efd5154bea3a9de",
+      "md5": "a87b492919dec2da37bc4c5b1f7e139c",
+      "sha512": "76012f53e96335a590442f4c05822fbdc683c75e419d0bfa80822898491c7a3eac735cca0954f57dd8db75b81edfbe84b6538854770ca7681d67a6e409972900",
       "format": "csv",
       "name": "tract",
       "filename": "tract.csv",
@@ -6541,8 +6541,8 @@
       ],
       "time": "time",
       "profile": "data-resource",
-      "created": "2022-02-23 20:43:45",
-      "last_modified": "2022-02-23 20:43:45",
+      "created": "2022-02-23 21:40:56",
+      "last_modified": "2022-02-23 21:40:56",
       "rowcount": 22884,
       "schema": {
         "fields": [
@@ -8298,10 +8298,10 @@
             },
             "type": "float",
             "missing": 20989,
-            "mean": 0.0003,
-            "sd": 0.0001,
-            "min": 0.0001,
-            "max": 0.0014
+            "mean": 0.3238,
+            "sd": 0.1324,
+            "min": 0.144,
+            "max": 1.3612
           },
           {
             "name": "ems_access_scores:ems_2sfca",
@@ -8312,10 +8312,10 @@
             },
             "type": "float",
             "missing": 20985,
-            "mean": 0.0001,
-            "sd": 0.0001,
-            "min": 2e-06,
-            "max": 0.0006
+            "mean": 0.136,
+            "sd": 0.0915,
+            "min": 0.0018,
+            "max": 0.5973
           },
           {
             "name": "ems_access_scores:ems_e2sfca",
@@ -8326,10 +8326,10 @@
             },
             "type": "float",
             "missing": 20985,
-            "mean": 0.0001,
-            "sd": 0.0001,
+            "mean": 0.139,
+            "sd": 0.1369,
             "min": 0,
-            "max": 0.0011
+            "max": 1.1407
           },
           {
             "name": "ems_access_scores:ems_3sfca",
@@ -8356,10 +8356,10 @@
             },
             "type": "float",
             "missing": 20985,
-            "mean": 0.0001,
-            "sd": 0.0001,
-            "min": 0,
-            "max": 0.0014
+            "mean": 0.1398,
+            "sd": 0.1324,
+            "min": 0.0116,
+            "max": 1.3559
           },
           {
             "name": "ems_access_scores:ems_cnt",
@@ -8386,10 +8386,10 @@
             },
             "type": "integer",
             "missing": 22115,
-            "mean": 1.4538,
-            "sd": 0.7927,
-            "min": 1,
-            "max": 6
+            "mean": 1453.8362,
+            "sd": 792.7168,
+            "min": 1000,
+            "max": 6000
           },
           {
             "name": "ems_access_scores:ems_pop_cnt",
@@ -8400,10 +8400,10 @@
             },
             "type": "integer",
             "missing": 20985,
-            "mean": 4449.5872,
-            "sd": 2030.4246,
+            "mean": 4449587.1511,
+            "sd": 2030424.6043,
             "min": 0,
-            "max": 19438
+            "max": 19438000
           },
           {
             "name": "ems_access_scores:ems_10near_mean",
@@ -8412,12 +8412,12 @@
               "sources": {},
               "citations": {}
             },
-            "type": "float",
+            "type": "integer",
             "missing": 20986,
-            "mean": 14.242,
-            "sd": 7.7603,
-            "min": 3.56,
-            "max": 56.02
+            "mean": 14241.9968,
+            "sd": 7760.2981,
+            "min": 3560,
+            "max": 56020
           },
           {
             "name": "ems_access_scores:ems_10near_median",
@@ -8442,12 +8442,12 @@
               ],
               "citations": {}
             },
-            "type": "float",
+            "type": "integer",
             "missing": 20986,
-            "mean": 14.8955,
-            "sd": 8.248,
-            "min": 3.7,
-            "max": 60.75
+            "mean": 14895.5479,
+            "sd": 8248.0192,
+            "min": 3700,
+            "max": 60750
           },
           {
             "name": "ems_access_scores:ems_mean10",
@@ -8478,10 +8478,10 @@
             },
             "type": "float",
             "missing": 21207,
-            "mean": 0.0003,
-            "sd": 0.0001,
-            "min": 0.0001,
-            "max": 0.0006
+            "mean": 0.2894,
+            "sd": 0.1079,
+            "min": 0.098,
+            "max": 0.5884
           },
           {
             "name": "hospital_access_scores:hos_2sfca",
@@ -8492,10 +8492,10 @@
             },
             "type": "float",
             "missing": 21002,
-            "mean": 0,
-            "sd": 9e-06,
-            "min": 1e-06,
-            "max": 0.0001
+            "mean": 0.0136,
+            "sd": 0.0085,
+            "min": 0.0011,
+            "max": 0.0683
           },
           {
             "name": "hospital_access_scores:hos_cnt",
@@ -8522,10 +8522,10 @@
             },
             "type": "integer",
             "missing": 22786,
-            "mean": 1.1429,
-            "sd": 0.4308,
-            "min": 1,
-            "max": 3
+            "mean": 1142.8571,
+            "sd": 430.7749,
+            "min": 1000,
+            "max": 3000
           },
           {
             "name": "hospital_access_scores:hos_e2sfca",
@@ -8536,10 +8536,10 @@
             },
             "type": "float",
             "missing": 20985,
-            "mean": 0,
-            "sd": 0,
+            "mean": 0.0136,
+            "sd": 0.016,
             "min": 0,
-            "max": 0.0002
+            "max": 0.1732
           },
           {
             "name": "hospital_access_scores:hos_3sfca",
@@ -8566,10 +8566,10 @@
             },
             "type": "float",
             "missing": 20985,
-            "mean": 0,
-            "sd": 0,
+            "mean": 0.0135,
+            "sd": 0.0138,
             "min": 0,
-            "max": 0.0002
+            "max": 0.1559
           },
           {
             "name": "hospital_access_scores:hos_pop_cnt",
@@ -8580,10 +8580,10 @@
             },
             "type": "integer",
             "missing": 20985,
-            "mean": 4449.5872,
-            "sd": 2030.4246,
+            "mean": 4449587.1511,
+            "sd": 2030424.6043,
             "min": 0,
-            "max": 19438
+            "max": 19438000
           },
           {
             "name": "hospital_access_scores:hos_10near_mean",
@@ -8592,12 +8592,12 @@
               "sources": {},
               "citations": {}
             },
-            "type": "float",
+            "type": "integer",
             "missing": 20986,
-            "mean": 38.7998,
-            "sd": 21.6153,
-            "min": 8.1,
-            "max": 176.34
+            "mean": 38799.7629,
+            "sd": 21615.3043,
+            "min": 8100,
+            "max": 176340
           },
           {
             "name": "hospital_access_scores:hos_10near_median",
@@ -8622,12 +8622,12 @@
               ],
               "citations": {}
             },
-            "type": "float",
+            "type": "integer",
             "missing": 20986,
-            "mean": 41.3264,
-            "sd": 24.0153,
-            "min": 8.05,
-            "max": 184.65
+            "mean": 41326.3962,
+            "sd": 24015.2625,
+            "min": 8050,
+            "max": 184650
           },
           {
             "name": "hospital_access_scores:hos_mean10",
@@ -8838,10 +8838,10 @@
             },
             "type": "float",
             "missing": 21173,
-            "mean": 0.0162,
-            "sd": 0.0144,
-            "min": 0.0003,
-            "max": 0.1012
+            "mean": 16.1644,
+            "sd": 14.3871,
+            "min": 0.3451,
+            "max": 101.2418
           },
           {
             "name": "obgyn_access_scores:obgyn_e2sfca",
@@ -8868,10 +8868,10 @@
             },
             "type": "float",
             "missing": 20985,
-            "mean": 0.0007,
-            "sd": 0.0005,
+            "mean": 0.655,
+            "sd": 0.4849,
             "min": 0,
-            "max": 0.0022
+            "max": 2.2206
           },
           {
             "name": "obgyn_access_scores:obgyn_2sfca",
@@ -8882,10 +8882,10 @@
             },
             "type": "float",
             "missing": 20988,
-            "mean": 0.0006,
-            "sd": 0.0003,
+            "mean": 0.6345,
+            "sd": 0.261,
             "min": 0,
-            "max": 0.0012
+            "max": 1.2318
           },
           {
             "name": "obgyn_access_scores:obgyn_cnt",
@@ -8912,10 +8912,10 @@
             },
             "type": "integer",
             "missing": 22411,
-            "mean": 6.5116,
-            "sd": 13.4527,
-            "min": 1,
-            "max": 137
+            "mean": 6511.6279,
+            "sd": 13452.6938,
+            "min": 1000,
+            "max": 137000
           },
           {
             "name": "obgyn_access_scores:obgyn_3sfca",
@@ -8926,10 +8926,10 @@
             },
             "type": "float",
             "missing": 20985,
-            "mean": 0.0006,
-            "sd": 0.0004,
+            "mean": 0.6441,
+            "sd": 0.3982,
             "min": 0,
-            "max": 0.002
+            "max": 1.9736
           },
           {
             "name": "obgyn_access_scores:obgyn_pop_cnt",
@@ -8940,10 +8940,10 @@
             },
             "type": "integer",
             "missing": 20985,
-            "mean": 1861.5171,
-            "sd": 832.6913,
+            "mean": 1861517.1143,
+            "sd": 832691.3455,
             "min": 0,
-            "max": 6877
+            "max": 6877000
           },
           {
             "name": "obgyn_access_scores:obgyn_mean10",
@@ -8952,12 +8952,12 @@
               "sources": {},
               "citations": {}
             },
-            "type": "float",
+            "type": "integer",
             "missing": 20986,
-            "mean": 13.5033,
-            "sd": 12.0266,
-            "min": 0.8,
-            "max": 68.7
+            "mean": 13503.2877,
+            "sd": 12026.5993,
+            "min": 800,
+            "max": 68700
           },
           {
             "name": "obgyn_access_scores:obgyn_median10",
@@ -8966,12 +8966,12 @@
               "sources": {},
               "citations": {}
             },
-            "type": "float",
+            "type": "integer",
             "missing": 20986,
-            "mean": 13.739,
-            "sd": 12.4084,
-            "min": 0.6,
-            "max": 73
+            "mean": 13739.0411,
+            "sd": 12408.4443,
+            "min": 600,
+            "max": 73000
           },
           {
             "name": "pediatrics_access_scores:ped_fca",
@@ -8982,10 +8982,10 @@
             },
             "type": "float",
             "missing": 21103,
-            "mean": 0.0407,
-            "sd": 0.0423,
-            "min": 0.0006,
-            "max": 0.3184
+            "mean": 40.6522,
+            "sd": 42.2602,
+            "min": 0.5834,
+            "max": 318.4145
           },
           {
             "name": "pediatrics_access_scores:ped_2sfca",
@@ -8996,10 +8996,10 @@
             },
             "type": "float",
             "missing": 20985,
-            "mean": 0.0021,
-            "sd": 0.0009,
+            "mean": 2.0651,
+            "sd": 0.932,
             "min": 0,
-            "max": 0.0053
+            "max": 5.2596
           },
           {
             "name": "pediatrics_access_scores:ped_e2sfca",
@@ -9026,10 +9026,10 @@
             },
             "type": "float",
             "missing": 20985,
-            "mean": 0.0022,
-            "sd": 0.0018,
+            "mean": 2.211,
+            "sd": 1.826,
             "min": 0,
-            "max": 0.013
+            "max": 13.0275
           },
           {
             "name": "pediatrics_access_scores:ped_3sfca",
@@ -9040,10 +9040,10 @@
             },
             "type": "float",
             "missing": 20985,
-            "mean": 0.0021,
-            "sd": 0.0014,
+            "mean": 2.1198,
+            "sd": 1.435,
             "min": 0,
-            "max": 0.0108
+            "max": 10.8012
           },
           {
             "name": "pediatrics_access_scores:ped_cnt",
@@ -9070,10 +9070,10 @@
             },
             "type": "integer",
             "missing": 22290,
-            "mean": 6.6532,
-            "sd": 14.8042,
-            "min": 1,
-            "max": 189
+            "mean": 6653.1987,
+            "sd": 14804.2061,
+            "min": 1000,
+            "max": 189000
           },
           {
             "name": "pediatrics_access_scores:ped_pop_cnt",
@@ -9084,10 +9084,10 @@
             },
             "type": "integer",
             "missing": 20985,
-            "mean": 982.0242,
-            "sd": 600.1336,
+            "mean": 982024.2233,
+            "sd": 600133.6411,
             "min": 0,
-            "max": 6703
+            "max": 6703000
           },
           {
             "name": "pediatrics_access_scores:ped_10near_mean",
@@ -9096,12 +9096,12 @@
               "sources": {},
               "citations": {}
             },
-            "type": "float",
+            "type": "integer",
             "missing": 20985,
-            "mean": 12.4464,
-            "sd": 11.7273,
+            "mean": 12446.4244,
+            "sd": 11727.2993,
             "min": 0,
-            "max": 68.52
+            "max": 68520
           },
           {
             "name": "pediatrics_access_scores:ped_10near_median",
@@ -9110,12 +9110,12 @@
               "sources": {},
               "citations": {}
             },
-            "type": "float",
+            "type": "integer",
             "missing": 20985,
-            "mean": 12.5509,
-            "sd": 12.0486,
+            "mean": 12550.8952,
+            "sd": 12048.6449,
             "min": 0,
-            "max": 72.15
+            "max": 72150
           },
           {
             "name": "pediatrics_access_scores:ped_mean10",
@@ -9293,7 +9293,7 @@
             },
             "type": "float",
             "missing": 21003,
-            "min": 0.0002
+            "min": 0.2014
           },
           {
             "name": "primary_care_access_scores:prim_cnt",
@@ -9320,10 +9320,10 @@
             },
             "type": "integer",
             "missing": 21593,
-            "mean": 15.1944,
-            "sd": 41.2479,
-            "min": 1,
-            "max": 847
+            "mean": 15194.4229,
+            "sd": 41247.863,
+            "min": 1000,
+            "max": 847000
           },
           {
             "name": "primary_care_access_scores:prim_2sfca",
@@ -9334,10 +9334,10 @@
             },
             "type": "float",
             "missing": 20985,
-            "mean": 0.0023,
-            "sd": 0.0008,
+            "mean": 2.2955,
+            "sd": 0.7609,
             "min": 0,
-            "max": 0.0048
+            "max": 4.8015
           },
           {
             "name": "primary_care_access_scores:prim_e2sfca",
@@ -9364,10 +9364,10 @@
             },
             "type": "float",
             "missing": 20985,
-            "mean": 0.0024,
-            "sd": 0.0015,
+            "mean": 2.3768,
+            "sd": 1.5215,
             "min": 0,
-            "max": 0.0094
+            "max": 9.4304
           },
           {
             "name": "primary_care_access_scores:prim_3sfca",
@@ -9378,10 +9378,10 @@
             },
             "type": "float",
             "missing": 20985,
-            "mean": 0.0023,
-            "sd": 0.0011,
+            "mean": 2.3283,
+            "sd": 1.1394,
             "min": 0,
-            "max": 0.008
+            "max": 7.967
           },
           {
             "name": "primary_care_access_scores:prim_pop_cnt",
@@ -9392,10 +9392,10 @@
             },
             "type": "integer",
             "missing": 20977,
-            "mean": 4433.3838,
-            "sd": 2043.9675,
+            "mean": 4433383.849,
+            "sd": 2043967.5028,
             "min": 0,
-            "max": 19438
+            "max": 19438000
           },
           {
             "name": "primary_care_access_scores:prim_mean10",
@@ -9404,12 +9404,12 @@
               "sources": {},
               "citations": {}
             },
-            "type": "float",
+            "type": "integer",
             "missing": 20985,
-            "mean": 7.9107,
-            "sd": 7.244,
-            "min": 0.3,
-            "max": 53.5
+            "mean": 7910.6635,
+            "sd": 7244.0336,
+            "min": 300,
+            "max": 53500
           },
           {
             "name": "primary_care_access_scores:prim_median10",
@@ -9418,12 +9418,12 @@
               "sources": {},
               "citations": {}
             },
-            "type": "float",
+            "type": "integer",
             "missing": 20985,
-            "mean": 8.0206,
-            "sd": 7.3812,
-            "min": 0.3,
-            "max": 53.8
+            "mean": 8020.5635,
+            "sd": 7381.2146,
+            "min": 300,
+            "max": 53800
           },
           {
             "name": "substance_access_scores:subs_fca",

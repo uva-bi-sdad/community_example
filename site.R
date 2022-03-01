@@ -50,7 +50,8 @@ page_navbar(
       input_number("Variable Min", "variable_min", floating_label = FALSE),
       input_number("Variable Max", "variable_max", floating_label = FALSE),
       '<p class="section-heading">Map Options</p>',
-      input_switch("Show Background Shapes", id = "settings.background_shapes"),
+      input_switch("Show Background Shapes", default_on = TRUE, id = "settings.background_shapes"),
+      input_switch("Zoom Animations", default_on = TRUE, id = "settings.map_zoom_animation"),
       input_number(
         "Outline Weight", "settings.polygon_outline", default = 1.5, step = .5, floating_label = FALSE,
         note = "Thickness of the outline around region shapes."
@@ -259,7 +260,8 @@ page_section(
         scrollWheelZoom = FALSE,
         center = c(38, -79.5),
         zoom = 7,
-        height = "430px"
+        height = "430px",
+        zoomAnimation = "settings.map_zoom_animation"
       ),
       background_shapes = "county",
       tiles = list(

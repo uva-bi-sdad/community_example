@@ -51,7 +51,11 @@ page_navbar(
       input_number("Variable Max", "variable_max", floating_label = FALSE),
       '<p class="section-heading">Map Options</p>',
       input_switch("Show Background Shapes", default_on = TRUE, id = "settings.background_shapes"),
-      input_switch("Zoom Animations", default_on = TRUE, id = "settings.map_zoom_animation"),
+      input_select(
+        "Animations", c("fly", "zoom", "none"), "fly",
+        note = "Fly animates the whole move to different regions; Zoom only animates changes in zoom level.",
+        id = "settings.map_animations", floating_label = FALSE
+      ),
       input_number(
         "Outline Weight", "settings.polygon_outline", default = 1.5, step = .5, floating_label = FALSE,
         note = "Thickness of the outline around region shapes."
@@ -355,7 +359,7 @@ page_section(
             scrollY = 380,
             rowGroup = list(dataSrc = "entity.features.name"),
             columnDefs = list(list(targets = "entity.features.name", visible = FALSE)),
-            buttons = c('copy', 'csv', 'excel', 'print'),
+            buttons = c('copy', 'csv'),
             dom = "<'row't><'row'<'col-sm'B><'col'f>>"
           )
         )
@@ -372,4 +376,7 @@ page_section(
 
 # render the site
 vars <- jsonlite::read_json('../community_example/docs/data/measure_info.json')
-site_build('../community_example', variables = names(vars), version = "dev")
+site_build(
+  '../community_example', variables = names(vars), version = "dev",
+  options = list(palette = "orrd7")
+)

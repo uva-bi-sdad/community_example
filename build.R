@@ -18,9 +18,9 @@ data_reformat_sdad("../community_example/docs/data/original", out = "../communit
 
 data_add(
   c(
-    district = "health_district.csv",
-    county = "county.csv",
-    tract = "tract.csv"
+    district = "health_district.csv.xz",
+    county = "county.csv.xz",
+    tract = "tract.csv.xz"
   ),
   rep(list(list(
     ids = list(

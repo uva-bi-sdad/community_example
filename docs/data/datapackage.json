@@ -9,13 +9,13 @@
   },
   "resources": [
     {
-      "bytes": 283271,
+      "bytes": 43224,
       "encoding": "ISO-8859-1",
-      "md5": "a41723730a159c3ed398630870202610",
-      "sha512": "3d1ffde41ca2df95ae7f92b700a249d32d003cc6d93f876493649d062524134a8cb76742935eac7761e152f0d6ff05d43092c1648ac010d8ec9dce49afa89825",
+      "md5": "aec1cf5e6e56013d5cddd20f708684bf",
+      "sha512": "8fb7b4f259346565cb661f788eefb227683e913a5997fc0e6615df6418a78f1e88183ab4919a3604b0a82a22091bbd34c35a3a58f06dceaff93d1d949116ba0f",
       "format": "csv",
       "name": "district",
-      "filename": "health_district.csv",
+      "filename": "health_district.csv.xz",
       "source": [],
       "ids": [
         {
@@ -25,8 +25,8 @@
       ],
       "time": "time",
       "profile": "data-resource",
-      "created": "2022-02-24 03:14:30",
-      "last_modified": "2022-02-24 03:14:30",
+      "created": "2022-03-07 04:50:19",
+      "last_modified": "2022-03-07 04:45:42",
       "row_count": 420,
       "entity_count": 35,
       "schema": {
@@ -3399,13 +3399,13 @@
       }
     },
     {
-      "bytes": 1051221,
+      "bytes": 152820,
       "encoding": "ISO-8859-1",
-      "md5": "efe78d0f5040ce638d56ab2aed321268",
-      "sha512": "192f9ab1ec5722d272a1ac45cab961b0f3cb533742cba8b672ded1f7e87cf2500ee1a3184f1ea36f4ebbd5d45f5b8eda8c029907e1df342475aa2e8befd01398",
+      "md5": "f8b5f30570b6f60f3cd40c670ee84752",
+      "sha512": "b23f736618bac8e4b56337f62925beed300b83714c6de66b021ad37d7dd09947cb4ab17dbde2311ad945a512f5f4a17ca86f981f2a4b8f1075aa58706af25f6f",
       "format": "csv",
       "name": "county",
-      "filename": "county.csv",
+      "filename": "county.csv.xz",
       "source": [],
       "ids": [
         {
@@ -3415,8 +3415,8 @@
       ],
       "time": "time",
       "profile": "data-resource",
-      "created": "2022-02-24 03:14:30",
-      "last_modified": "2022-02-24 03:14:30",
+      "created": "2022-03-07 04:50:16",
+      "last_modified": "2022-03-07 04:45:38",
       "row_count": 1596,
       "entity_count": 133,
       "schema": {
@@ -6857,13 +6857,13 @@
       }
     },
     {
-      "bytes": 14210174,
+      "bytes": 958272,
       "encoding": "ISO-8859-1",
-      "md5": "2191b406caaed92db10bdfa0f5f989f0",
-      "sha512": "a8bafb31edc0144f39da78f1eab7a0ca2bd7d314f39b89a7822500f9ad7c6e14035180305a6933a7166c60d0bce93e578b8fd3c3b7fef7aca036473983ec65ac",
+      "md5": "4e3a1f3f5cedd93bfa489b0231348618",
+      "sha512": "fa9ef5479f172a449d90c686f1f9e4f58499918c6f37b510ac0744d9dec0e4152b542e6f98298e4e42a061eaa24edf9df2c89bdd000277e9df2dd979f044787a",
       "format": "csv",
       "name": "tract",
-      "filename": "tract.csv",
+      "filename": "tract.csv.xz",
       "source": [],
       "ids": [
         {
@@ -6873,8 +6873,8 @@
       ],
       "time": "time",
       "profile": "data-resource",
-      "created": "2022-02-24 03:14:30",
-      "last_modified": "2022-02-24 03:14:30",
+      "created": "2022-03-07 04:50:19",
+      "last_modified": "2022-03-07 04:45:38",
       "row_count": 22884,
       "entity_count": 1907,
       "schema": {
@@ -6926,7 +6926,7 @@
           },
           {
             "name": "community_college_computer_sciences_fca:3sfca_capacity",
-            "duplicates": 22592,
+            "duplicates": 22575,
             "info": {
               "type": "index",
               "short_name": "Community college computer science program access score",
@@ -6972,7 +6972,7 @@
           },
           {
             "name": "community_college_computer_sciences_fca:norm_3sfca",
-            "duplicates": 22592,
+            "duplicates": 22574,
             "info": {
               "sources": {},
               "citations": {}
@@ -6987,7 +6987,7 @@
           },
           {
             "name": "community_college_computer_sciences_fca:norm_2sfca",
-            "duplicates": 22764,
+            "duplicates": 22751,
             "info": {
               "sources": {},
               "citations": {}
@@ -7017,7 +7017,7 @@
           },
           {
             "name": "community_college_engineering_fca:3sfca_capacity",
-            "duplicates": 22792,
+            "duplicates": 22779,
             "info": {
               "type": "index",
               "short_name": "Community college engineering program access score",
@@ -7063,7 +7063,7 @@
           },
           {
             "name": "community_college_engineering_fca:norm_3sfca",
-            "duplicates": 22792,
+            "duplicates": 22777,
             "info": {
               "sources": {},
               "citations": {}
@@ -7078,7 +7078,7 @@
           },
           {
             "name": "community_college_engineering_fca:norm_2sfca",
-            "duplicates": 22843,
+            "duplicates": 22835,
             "info": {
               "sources": {},
               "citations": {}
@@ -7108,7 +7108,7 @@
           },
           {
             "name": "community_college_engineering_related_fca:3sfca_capacity",
-            "duplicates": 22684,
+            "duplicates": 22661,
             "info": {
               "type": "index",
               "short_name": "Community college engineering-related program access score",
@@ -7154,7 +7154,7 @@
           },
           {
             "name": "community_college_engineering_related_fca:norm_3sfca",
-            "duplicates": 22684,
+            "duplicates": 22661,
             "info": {
               "sources": {},
               "citations": {}
@@ -7169,7 +7169,7 @@
           },
           {
             "name": "community_college_engineering_related_fca:norm_2sfca",
-            "duplicates": 22803,
+            "duplicates": 22791,
             "info": {
               "sources": {},
               "citations": {}
@@ -7486,7 +7486,7 @@
           },
           {
             "name": "broadband_withoutint_compdev:perc_hh_with_broadband",
-            "duplicates": 17376,
+            "duplicates": 17369,
             "info": {
               "type": "percent",
               "short_name": "Households with broadband",
@@ -7544,7 +7544,7 @@
           },
           {
             "name": "broadband_withoutint_compdev:perc_hh_without_internet",
-            "duplicates": 17462,
+            "duplicates": 17449,
             "info": {
               "type": "percent",
               "short_name": "Households without internet access",
@@ -7575,7 +7575,7 @@
           },
           {
             "name": "broadband_withoutint_compdev:perc_hh_without_compdev",
-            "duplicates": 17582,
+            "duplicates": 17567,
             "info": {
               "type": "percent",
               "short_name": "Households without a computer",
@@ -7683,7 +7683,7 @@
           },
           {
             "name": "pct_pop_broadband:perc_w_broadband",
-            "duplicates": 17376,
+            "duplicates": 17369,
             "info": {
               "sources": {},
               "citations": {}
@@ -7698,7 +7698,7 @@
           },
           {
             "name": "pct_pop_cable_fiber_dsl:perc_w_cable_fiber_DSL",
-            "duplicates": 17352,
+            "duplicates": 17343,
             "info": {
               "sources": {},
               "citations": {}
@@ -7713,7 +7713,7 @@
           },
           {
             "name": "have_computer:perc_have_computer",
-            "duplicates": 21109,
+            "duplicates": 21105,
             "info": {
               "sources": {},
               "citations": {}
@@ -7728,7 +7728,7 @@
           },
           {
             "name": "have_internet:perc_have_internet_access",
-            "duplicates": 21078,
+            "duplicates": 21074,
             "info": {
               "sources": {},
               "citations": {}
@@ -7743,7 +7743,7 @@
           },
           {
             "name": "download_speeds:download",
-            "duplicates": 17210,
+            "duplicates": 17222,
             "info": {
               "type": "internet speed",
               "short_name": "Average download speed",
@@ -7896,7 +7896,7 @@
           },
           {
             "name": "drive_times_nearest_daycares:mean_drive_time_top10",
-            "duplicates": 21605,
+            "duplicates": 21597,
             "info": {
               "sources": {},
               "citations": {}
@@ -7911,7 +7911,7 @@
           },
           {
             "name": "drive_times_nearest_daycares:mean_drive_time_top5",
-            "duplicates": 21981,
+            "duplicates": 21979,
             "info": {
               "sources": {},
               "citations": {}
@@ -8002,7 +8002,7 @@
           },
           {
             "name": "percent_poor_ment_hlth_days_14_and_over:perc_poor_ment_hlth_days_14_and_over",
-            "duplicates": 13517,
+            "duplicates": 13542,
             "info": {
               "type": "percent",
               "short_name": "Poor mental health population",
@@ -8033,7 +8033,7 @@
           },
           {
             "name": "percent_poor_phys_hlth_days_14_and_over:perc_poor_phys_hlth_days_14_and_over",
-            "duplicates": 13516,
+            "duplicates": 13538,
             "info": {
               "type": "percent",
               "short_name": "Poor physical health population",
@@ -8064,7 +8064,7 @@
           },
           {
             "name": "dei_index:norm_dei",
-            "duplicates": 17283,
+            "duplicates": 17284,
             "info": {
               "type": "index",
               "short_name": "Digital Equity Index",
@@ -8133,7 +8133,7 @@
           },
           {
             "name": "2year_colleges_access_scores:norm_3sfca",
-            "duplicates": 22257,
+            "duplicates": 22227,
             "info": {
               "type": "index",
               "short_name": "2-year college access score",
@@ -8175,7 +8175,7 @@
           },
           {
             "name": "2year_colleges_access_scores:perc_3sfca",
-            "duplicates": 22257,
+            "duplicates": 22227,
             "info": {
               "sources": {},
               "citations": {}
@@ -8201,7 +8201,7 @@
           },
           {
             "name": "2year_colleges_access_scores:2sfca30_capacity",
-            "duplicates": 22496,
+            "duplicates": 22477,
             "info": {
               "sources": {},
               "citations": {}
@@ -8216,7 +8216,7 @@
           },
           {
             "name": "2year_colleges_access_scores:norm_2sfca",
-            "duplicates": 22494,
+            "duplicates": 22472,
             "info": {
               "sources": {},
               "citations": {}
@@ -8246,7 +8246,7 @@
           },
           {
             "name": "2year_colleges_access_scores:perc_2sfca30",
-            "duplicates": 22494,
+            "duplicates": 22472,
             "info": {
               "sources": {},
               "citations": {}
@@ -8261,7 +8261,7 @@
           },
           {
             "name": "2year_colleges_access_scores:3sfca_capacity",
-            "duplicates": 22257,
+            "duplicates": 22229,
             "info": {
               "sources": {},
               "citations": {}
@@ -8276,7 +8276,7 @@
           },
           {
             "name": "health_literacy_estimates:health_literacy_estimate",
-            "duplicates": 22870,
+            "duplicates": 22863,
             "info": {
               "type": "index",
               "short_name": "Health literacy estimate",
@@ -8312,7 +8312,7 @@
           },
           {
             "name": "trade_schools_access_scores:norm_3sfca",
-            "duplicates": 22437,
+            "duplicates": 22422,
             "info": {
               "type": "index",
               "short_name": "Trade school access score",
@@ -8358,7 +8358,7 @@
           },
           {
             "name": "trade_schools_access_scores:2sfca30_capacity",
-            "duplicates": 22541,
+            "duplicates": 22531,
             "info": {
               "sources": {},
               "citations": {}
@@ -8373,7 +8373,7 @@
           },
           {
             "name": "trade_schools_access_scores:perc_2sfca30",
-            "duplicates": 22541,
+            "duplicates": 22530,
             "info": {
               "sources": {},
               "citations": {}
@@ -8388,7 +8388,7 @@
           },
           {
             "name": "trade_schools_access_scores:3sfca_capacity",
-            "duplicates": 22437,
+            "duplicates": 22422,
             "info": {
               "sources": {},
               "citations": {}
@@ -8403,7 +8403,7 @@
           },
           {
             "name": "trade_schools_access_scores:perc_3sfca",
-            "duplicates": 22437,
+            "duplicates": 22421,
             "info": {
               "sources": {},
               "citations": {}
@@ -8418,7 +8418,7 @@
           },
           {
             "name": "trade_schools_access_scores:norm_2sfca",
-            "duplicates": 22541,
+            "duplicates": 22531,
             "info": {
               "sources": {},
               "citations": {}
@@ -8488,7 +8488,7 @@
           },
           {
             "name": "daycare_services_access_scores:daycare_3sfca_capacity",
-            "duplicates": 20984,
+            "duplicates": 20985,
             "info": {
               "sources": {},
               "citations": {}
@@ -8565,7 +8565,7 @@
           },
           {
             "name": "dentist_access_scores:dent_fca",
-            "duplicates": 21383,
+            "duplicates": 21376,
             "info": {
               "sources": {},
               "citations": {}
@@ -8580,7 +8580,7 @@
           },
           {
             "name": "dentist_access_scores:dent_e2sfca",
-            "duplicates": 21114,
+            "duplicates": 21111,
             "info": {
               "type": "index",
               "short_name": "Dental care access score",
@@ -8611,7 +8611,7 @@
           },
           {
             "name": "dentist_access_scores:dent_2sfca",
-            "duplicates": 21590,
+            "duplicates": 21571,
             "info": {
               "sources": {},
               "citations": {}
@@ -8717,7 +8717,7 @@
           },
           {
             "name": "ems_access_scores:ems_fca",
-            "duplicates": 21210,
+            "duplicates": 21204,
             "info": {
               "sources": {},
               "citations": {}
@@ -8732,7 +8732,7 @@
           },
           {
             "name": "ems_access_scores:ems_2sfca",
-            "duplicates": 21333,
+            "duplicates": 21328,
             "info": {
               "sources": {},
               "citations": {}
@@ -8907,7 +8907,7 @@
           },
           {
             "name": "hospital_access_scores:hos_fca",
-            "duplicates": 22562,
+            "duplicates": 22549,
             "info": {
               "sources": {},
               "citations": {}
@@ -8922,7 +8922,7 @@
           },
           {
             "name": "hospital_access_scores:hos_2sfca",
-            "duplicates": 22497,
+            "duplicates": 22481,
             "info": {
               "sources": {},
               "citations": {}
@@ -8968,7 +8968,7 @@
           },
           {
             "name": "hospital_access_scores:hos_e2sfca",
-            "duplicates": 22034,
+            "duplicates": 22018,
             "info": {
               "sources": {},
               "citations": {}
@@ -8983,7 +8983,7 @@
           },
           {
             "name": "hospital_access_scores:hos_3sfca",
-            "duplicates": 21678,
+            "duplicates": 21658,
             "info": {
               "type": "index",
               "short_name": "Hospital access score",
@@ -9097,7 +9097,7 @@
           },
           {
             "name": "mental_access_scores:mental_fca",
-            "duplicates": 22249,
+            "duplicates": 22234,
             "info": {
               "sources": {},
               "citations": {}
@@ -9143,7 +9143,7 @@
           },
           {
             "name": "mental_access_scores:mental_2sfca",
-            "duplicates": 22263,
+            "duplicates": 22251,
             "info": {
               "sources": {},
               "citations": {}
@@ -9158,7 +9158,7 @@
           },
           {
             "name": "mental_access_scores:mental_e2sfca",
-            "duplicates": 21528,
+            "duplicates": 21524,
             "info": {
               "sources": {},
               "citations": {}
@@ -9173,7 +9173,7 @@
           },
           {
             "name": "mental_access_scores:mental_3sfca",
-            "duplicates": 21239,
+            "duplicates": 21234,
             "info": {
               "type": "index",
               "short_name": "Mental health services access score",
@@ -9287,7 +9287,7 @@
           },
           {
             "name": "obgyn_access_scores:obgyn_fca",
-            "duplicates": 21802,
+            "duplicates": 21787,
             "info": {
               "sources": {},
               "citations": {}
@@ -9302,7 +9302,7 @@
           },
           {
             "name": "obgyn_access_scores:obgyn_e2sfca",
-            "duplicates": 21330,
+            "duplicates": 21327,
             "info": {
               "type": "index",
               "short_name": "OBGYN care access score",
@@ -9333,7 +9333,7 @@
           },
           {
             "name": "obgyn_access_scores:obgyn_2sfca",
-            "duplicates": 22105,
+            "duplicates": 22083,
             "info": {
               "sources": {},
               "citations": {}
@@ -9379,7 +9379,7 @@
           },
           {
             "name": "obgyn_access_scores:obgyn_3sfca",
-            "duplicates": 21033,
+            "duplicates": 21032,
             "info": {
               "sources": {},
               "citations": {}
@@ -9439,7 +9439,7 @@
           },
           {
             "name": "pediatrics_access_scores:ped_fca",
-            "duplicates": 21513,
+            "duplicates": 21502,
             "info": {
               "sources": {},
               "citations": {}
@@ -9454,7 +9454,7 @@
           },
           {
             "name": "pediatrics_access_scores:ped_2sfca",
-            "duplicates": 21774,
+            "duplicates": 21754,
             "info": {
               "sources": {},
               "citations": {}
@@ -9469,7 +9469,7 @@
           },
           {
             "name": "pediatrics_access_scores:ped_e2sfca",
-            "duplicates": 21178,
+            "duplicates": 21177,
             "info": {
               "type": "index",
               "short_name": "Pediatric care access score",
@@ -9613,7 +9613,7 @@
           },
           {
             "name": "perc_income_on_internet:perc_income_avg_nat_package",
-            "duplicates": 21066,
+            "duplicates": 21060,
             "info": {
               "type": "percent",
               "short_name": "Percent of income for internet (average)",
@@ -9649,7 +9649,7 @@
           },
           {
             "name": "perc_income_on_internet:perc_income_med_price_100",
-            "duplicates": 21131,
+            "duplicates": 21129,
             "info": {
               "sources": {},
               "citations": {}
@@ -9664,7 +9664,7 @@
           },
           {
             "name": "perc_income_on_internet:perc_income_min_price_25",
-            "duplicates": 21142,
+            "duplicates": 21140,
             "info": {
               "type": "percent",
               "short_name": "Percent of income for good internet",
@@ -9700,7 +9700,7 @@
           },
           {
             "name": "perc_income_on_internet:perc_income_min_price_100_plus",
-            "duplicates": 21140,
+            "duplicates": 21139,
             "info": {
               "sources": {},
               "citations": {}
@@ -9715,7 +9715,7 @@
           },
           {
             "name": "perc_income_on_internet:perc_income_med_price_25",
-            "duplicates": 21135,
+            "duplicates": 21134,
             "info": {
               "sources": {},
               "citations": {}
@@ -9730,7 +9730,7 @@
           },
           {
             "name": "perc_income_on_internet:perc_income_min_price_100",
-            "duplicates": 21132,
+            "duplicates": 21131,
             "info": {
               "type": "percent",
               "short_name": "Percent of income for fast internet",
@@ -9766,7 +9766,7 @@
           },
           {
             "name": "primary_care_access_scores:prim_fca",
-            "duplicates": 21098,
+            "duplicates": 21096,
             "info": {
               "sources": {},
               "citations": {}
@@ -9809,7 +9809,7 @@
           },
           {
             "name": "primary_care_access_scores:prim_2sfca",
-            "duplicates": 21172,
+            "duplicates": 21163,
             "info": {
               "sources": {},
               "citations": {}
@@ -9824,7 +9824,7 @@
           },
           {
             "name": "primary_care_access_scores:prim_e2sfca",
-            "duplicates": 21012,
+            "duplicates": 21013,
             "info": {
               "type": "index",
               "short_name": "Primary care access score",
@@ -9915,7 +9915,7 @@
           },
           {
             "name": "substance_access_scores:subs_fca",
-            "duplicates": 22256,
+            "duplicates": 22241,
             "info": {
               "sources": {},
               "citations": {}
@@ -9930,7 +9930,7 @@
           },
           {
             "name": "substance_access_scores:subs_2sfca",
-            "duplicates": 22282,
+            "duplicates": 22263,
             "info": {
               "sources": {},
               "citations": {}
@@ -9976,7 +9976,7 @@
           },
           {
             "name": "substance_access_scores:subs_e2sfca",
-            "duplicates": 21578,
+            "duplicates": 21573,
             "info": {
               "sources": {},
               "citations": {}
@@ -9991,7 +9991,7 @@
           },
           {
             "name": "substance_access_scores:subs_3sfca",
-            "duplicates": 21294,
+            "duplicates": 21283,
             "info": {
               "type": "index",
               "short_name": "Substance use/behavioral health services access score",

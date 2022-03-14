@@ -143,7 +143,7 @@ page_menu(
     },
     input_select(
       "Variable", options = "variables",
-      default = "no_health_insurance_19_to_64:no_hlth_ins_pct", depends = "shapes",
+      default = "no_health_insurance_19_to_64:hlth_ins_pct", depends = "shapes",
       id = "selected_variable", filters = list(category = "variable_type"),
       note = paste(
         "Determines which variable is shown on the plot's y-axis, in the rank table,",

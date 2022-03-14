@@ -1,20 +1,32 @@
 library(community)
 
-ids <- unlist(lapply(c("tract", "county", "district"), function(s) list(
-  vapply(jsonlite::read_json(paste0(
-    "https://uva-bi-sdad.github.io/community/dist/shapes/VA/", s, ".geojson"
-  ))$features, function(d) d$properties$id, "")
-)), use.names = FALSE)
+ids <- unlist(lapply(
+  jsonlite::read_json("https://uva-bi-sdad.github.io/community/dist/shapes/VA/virginia_2010.json")[-1], names
+), use.names = FALSE)
 
 ## trim and save files
 for (f in list.files("../community_example/docs/data/original", full.names = TRUE)) {
-  d <- read.csv(f)
-  cids <- trimws(format(d$geoid, scientific = FALSE))
-  nd <- d[cids %in% ids, colnames(d) != 'X']
-  if (!identical(d, nd)) write.csv(nd, f, row.names = FALSE)
+  d <- read.csv(gzfile(f))
+  su <- grep("^\\d+$", d$geoid)
+  d[su, "geoid"] <- trimws(format(d[su, "geoid"], scientific = FALSE))
+  nd <- d[d$geoid %in% ids, colnames(d) != 'X']
+  uncompressed <- grepl("\\.csv$", f)
+  if (!nrow(nd)) {
+    unlink(f)
+  } else if (uncompressed || !identical(d, nd)) {
+    if (uncompressed) unlink(f)
+    write.csv(nd, xzfile(sub("\\.csv$", ".csv.xz", f)), row.names = FALSE)
+  }
 }
 
-data_reformat_sdad("../community_example/docs/data/original", out = "../community_example/docs/data")
+meta <- jsonlite::read_json("../community_example/docs/data/measure_info.json")
+data_reformat_sdad(
+  "../community_example/docs/data/original",
+  out = "../community_example/docs/data",
+  variables = names(meta),
+  ids = ids,
+  entity_info = NULL
+)
 
 data_add(
   c(
@@ -35,5 +47,4 @@ data_add(
   refresh = TRUE
 )
 
-meta <- jsonlite::read_json("../community_example/docs/data/measure_info.json")
-site_build("../community_example", variables = names(meta), version = "dev")
+site_build("../community_example", variables = names(meta), version = "local", serve = TRUE)

@@ -23,9 +23,9 @@
     "variables": ["2year_colleges_access_scores:norm_3sfca", "3rd_grade_median_read_score:median_read_pass_rate", "civilian_employment_rate:employment_rate", "community_college_computer_sciences_fca:3sfca_capacity", "community_college_engineering_fca:3sfca_capacity", "community_college_engineering_related_fca:3sfca_capacity", "daycare_services_access_scores:daycare_cnt", "daycare_services_access_scores:daycare_norm_3sfca", "dei_index:norm_dei", "dentist_access_scores:dent_cnt", "dentist_access_scores:dent_e2sfca", "download_speeds:download", "drive_times_nearest_2year_colleges:median_drive_time_top5", "drive_times_nearest_daycares:median_drive_time_top5", "drive_times_nearest_trade_schools:median_drive_time_top5", "drug_overdose_ed_visits:avg_overdose_per_100k", "ems_access_scores:ems_10near_median", "ems_access_scores:ems_3sfca", "ems_access_scores:ems_cnt", "food_insecurity_and_cost:Child_Food_Insecurity_Rate", "food_insecurity_and_cost:Cost_Per_Meal", "food_insecurity_and_cost:Food_Insecurity_Rate", "food_insecurity_and_cost:Num_Child_Food_Insecure", "health_literacy_estimates:health_literacy_estimate", "hospital_access_scores:hos_10near_median", "hospital_access_scores:hos_3sfca", "hospital_access_scores:hos_cnt", "mental_access_scores:mental_10near_median", "mental_access_scores:mental_3sfca", "mental_access_scores:mental_cnt", "no_health_insurance_19_to_64:hlth_ins_pct", "obgyn_access_scores:obgyn_cnt", "obgyn_access_scores:obgyn_e2sfca", "pediatrics_access_scores:ped_cnt", "pediatrics_access_scores:ped_e2sfca", "perc_income_on_internet:perc_income_avg_nat_package", "perc_income_on_internet:perc_income_min_price_100", "perc_income_on_internet:perc_income_min_price_25", "percent_poor_ment_hlth_days_14_and_over:perc_poor_ment_hlth_days_14_and_over", "percent_poor_phys_hlth_days_14_and_over:perc_poor_phys_hlth_days_14_and_over", "post_hs_education:perc_post_hs_edu", "preventable_hospitalizations:prevent_hosp_rate", "primary_care_access_scores:prim_cnt", "primary_care_access_scores:prim_e2sfca", "substance_access_scores:subs_10near_median", "substance_access_scores:subs_3sfca", "substance_access_scores:subs_cnt", "trade_schools_access_scores:norm_3sfca", "earnings_per_job:earnings_per_job", "broadband_withoutint_compdev:perc_hh_with_broadband", "broadband_withoutint_compdev:perc_hh_with_cable_fiber_dsl", "broadband_withoutint_compdev:perc_hh_without_compdev", "broadband_withoutint_compdev:perc_hh_without_internet"],
     "info": {
       "tract": {
-        "bytes": 827836,
+        "bytes": 879036,
         "encoding": "ISO-8859-1",
-        "md5": "d22e58749cd3fe4033cf2e7951433e55",
+        "md5": "87a47efa91c263f297b4efdc753efc84",
         "format": "csv",
         "name": "tract",
         "filename": "tract.csv.xz",
@@ -38,8 +38,8 @@
         ],
         "time": "time",
         "profile": "data-resource",
-        "created": "2022-03-14 05:59:02",
-        "last_modified": "2022-03-14 05:12:26",
+        "created": "2022-03-14 16:19:31",
+        "last_modified": "2022-03-14 16:19:31",
         "row_count": 22884,
         "entity_count": 1907,
         "schema": {
@@ -1121,7 +1121,7 @@
             },
             {
               "name": "no_health_insurance_19_to_64:hlth_ins_pct",
-              "duplicates": 21407,
+              "duplicates": 13696,
               "info": {
                 "type": "percent",
                 "short_name": "Insured population",
@@ -1131,7 +1131,7 @@
                 "measure": "hlth_ins_pct",
                 "long_name": "Percent of population with health insurance",
                 "short_description": "Percent of the population (ages 19-64) self-reported to be currently covered by any type of health insurance or health coverage plan",
-                "long_description": "Percent of the population self-reported to be currently covered by any type of health insurance or health coverage plan. Based on American Community Survey Tables B27010 in ACS 2015/2019 5-year estimates.",
+                "long_description": "Percent of the population self-reported to be currently covered by any type of health insurance or health coverage plan. Based on American Community Survey Table B27010 in ACS 2015/2019 5-year estimates.",
                 "statement": "{value} of the population has health insurance in {features.name}.",
                 "sources": [
                   {
@@ -1148,9 +1148,9 @@
               ],
               "type": "float",
               "missing": 13514,
-              "mean": 97.2284,
-              "sd": 5.3258,
-              "min": 33.25,
+              "mean": 86.0428,
+              "sd": 8.6158,
+              "min": 29.4533,
               "max": 100
             },
             {
@@ -2092,13 +2092,13 @@
             "doi": "10.1111/jep.13341"
           }
         },
-        "sha512": "573e46d96828776677affc7c379504cd468aeeefc2a64cab8a075ff8e9edbd00b78530ead9923e09fa6b9e9947ab3931713cd8292185fd6e60cb5f60ef060ce4",
+        "sha512": "49353138996f2f589c06052b2805b566e210d3e6ff10c31243cd124c37060238866260c4f812f689d2abf50356b734cf36d9392c2eba39515de31e8014c13fed",
         "site_file": "tract.json"
       },
       "county": {
-        "bytes": 90476,
+        "bytes": 94344,
         "encoding": "ISO-8859-1",
-        "md5": "325d6bbbd1674bfa968ca1605b05fc16",
+        "md5": "fdb231ad24f340c19f5e5fc864630d43",
         "format": "csv",
         "name": "county",
         "filename": "county.csv.xz",
@@ -2111,8 +2111,8 @@
         ],
         "time": "time",
         "profile": "data-resource",
-        "created": "2022-03-14 05:59:00",
-        "last_modified": "2022-03-14 05:12:26",
+        "created": "2022-03-14 16:19:29",
+        "last_modified": "2022-03-14 16:19:29",
         "row_count": 1596,
         "entity_count": 133,
         "schema": {
@@ -2741,8 +2741,8 @@
                 "citations": {}
               },
               "time_range": [
-                11,
-                11
+                -1,
+                -1
               ],
               "type": "unknown",
               "missing": 1596
@@ -3022,8 +3022,8 @@
                 "citations": {}
               },
               "time_range": [
-                11,
-                11
+                -1,
+                -1
               ],
               "type": "unknown",
               "missing": 1596
@@ -3125,8 +3125,8 @@
                 "citations": {}
               },
               "time_range": [
-                11,
-                11
+                -1,
+                -1
               ],
               "type": "unknown",
               "missing": 1596
@@ -3206,7 +3206,7 @@
             },
             {
               "name": "no_health_insurance_19_to_64:hlth_ins_pct",
-              "duplicates": 1270,
+              "duplicates": 930,
               "info": {
                 "type": "percent",
                 "short_name": "Insured population",
@@ -3216,7 +3216,7 @@
                 "measure": "hlth_ins_pct",
                 "long_name": "Percent of population with health insurance",
                 "short_description": "Percent of the population (ages 19-64) self-reported to be currently covered by any type of health insurance or health coverage plan",
-                "long_description": "Percent of the population self-reported to be currently covered by any type of health insurance or health coverage plan. Based on American Community Survey Tables B27010 in ACS 2015/2019 5-year estimates.",
+                "long_description": "Percent of the population self-reported to be currently covered by any type of health insurance or health coverage plan. Based on American Community Survey Table B27010 in ACS 2015/2019 5-year estimates.",
                 "statement": "{value} of the population has health insurance in {features.name}.",
                 "sources": [
                   {
@@ -3233,10 +3233,10 @@
               ],
               "type": "float",
               "missing": 931,
-              "mean": 98.1557,
-              "sd": 2.5411,
-              "min": 78.85,
-              "max": 100
+              "mean": 84.3503,
+              "sd": 4.8821,
+              "min": 67.7416,
+              "max": 96.7825
             },
             {
               "name": "obgyn_access_scores:obgyn_cnt",
@@ -3734,8 +3734,8 @@
                 "citations": {}
               },
               "time_range": [
-                11,
-                11
+                -1,
+                -1
               ],
               "type": "unknown",
               "missing": 1596
@@ -4185,13 +4185,13 @@
             "doi": "10.1111/jep.13341"
           }
         },
-        "sha512": "403f6b3e97f8b0028614d23ddf24c88ac93e1d07b334d833e505c8c5aab9a22a34dbf6d65587fc2559ecda067734087cf3a2b7f3ad662650c023a2aace0d0534",
+        "sha512": "014ac485ff7653490698e8548e7c9437c501e7a113a7ed667de4c729feba4b535a2f3b2405867cac0a6160d56472b4db59ef2fd9e8fae88dc7b33df5ad166197",
         "site_file": "county.json"
       },
       "district": {
-        "bytes": 24648,
+        "bytes": 25544,
         "encoding": "ISO-8859-1",
-        "md5": "6af19b5af8d4f73757e891d858528c0e",
+        "md5": "867ca895b417ad0710d18a2acd2810f1",
         "format": "csv",
         "name": "district",
         "filename": "health_district.csv.xz",
@@ -4204,8 +4204,8 @@
         ],
         "time": "time",
         "profile": "data-resource",
-        "created": "2022-03-14 05:59:02",
-        "last_modified": "2022-03-14 05:12:31",
+        "created": "2022-03-14 16:19:31",
+        "last_modified": "2022-03-14 16:19:31",
         "row_count": 420,
         "entity_count": 35,
         "schema": {
@@ -4328,8 +4328,8 @@
                 "citations": {}
               },
               "time_range": [
-                9,
-                9
+                -1,
+                -1
               ],
               "type": "unknown",
               "missing": 420
@@ -4363,8 +4363,8 @@
                 ]
               },
               "time_range": [
-                10,
-                10
+                -1,
+                -1
               ],
               "type": "unknown",
               "missing": 420
@@ -4398,8 +4398,8 @@
                 ]
               },
               "time_range": [
-                10,
-                10
+                -1,
+                -1
               ],
               "type": "unknown",
               "missing": 420
@@ -4433,8 +4433,8 @@
                 ]
               },
               "time_range": [
-                10,
-                10
+                -1,
+                -1
               ],
               "type": "unknown",
               "missing": 420
@@ -4464,7 +4464,7 @@
               },
               "time_range": [
                 9,
-                11
+                9
               ],
               "type": "integer",
               "missing": 385,
@@ -4503,7 +4503,7 @@
               },
               "time_range": [
                 9,
-                11
+                9
               ],
               "type": "float",
               "missing": 385,
@@ -4818,8 +4818,8 @@
                 "citations": {}
               },
               "time_range": [
-                11,
-                11
+                -1,
+                -1
               ],
               "type": "unknown",
               "missing": 420
@@ -5099,8 +5099,8 @@
                 "citations": {}
               },
               "time_range": [
-                11,
-                11
+                -1,
+                -1
               ],
               "type": "unknown",
               "missing": 420
@@ -5202,8 +5202,8 @@
                 "citations": {}
               },
               "time_range": [
-                11,
-                11
+                -1,
+                -1
               ],
               "type": "unknown",
               "missing": 420
@@ -5283,7 +5283,7 @@
             },
             {
               "name": "no_health_insurance_19_to_64:hlth_ins_pct",
-              "duplicates": 252,
+              "duplicates": 244,
               "info": {
                 "type": "percent",
                 "short_name": "Insured population",
@@ -5293,7 +5293,7 @@
                 "measure": "hlth_ins_pct",
                 "long_name": "Percent of population with health insurance",
                 "short_description": "Percent of the population (ages 19-64) self-reported to be currently covered by any type of health insurance or health coverage plan",
-                "long_description": "Percent of the population self-reported to be currently covered by any type of health insurance or health coverage plan. Based on American Community Survey Tables B27010 in ACS 2015/2019 5-year estimates.",
+                "long_description": "Percent of the population self-reported to be currently covered by any type of health insurance or health coverage plan. Based on American Community Survey Table B27010 in ACS 2015/2019 5-year estimates.",
                 "statement": "{value} of the population has health insurance in {features.name}.",
                 "sources": [
                   {
@@ -5310,10 +5310,10 @@
               ],
               "type": "float",
               "missing": 245,
-              "mean": 97.6909,
-              "sd": 2.4521,
-              "min": 84.5467,
-              "max": 99.8
+              "mean": 84.5807,
+              "sd": 4.1918,
+              "min": 71.2386,
+              "max": 92.7933
             },
             {
               "name": "obgyn_access_scores:obgyn_cnt",
@@ -5704,8 +5704,8 @@
                 "citations": {}
               },
               "time_range": [
-                5,
-                11
+                -1,
+                -1
               ],
               "type": "unknown",
               "missing": 420
@@ -5807,8 +5807,8 @@
                 "citations": {}
               },
               "time_range": [
-                11,
-                11
+                -1,
+                -1
               ],
               "type": "unknown",
               "missing": 420
@@ -5842,8 +5842,8 @@
                 ]
               },
               "time_range": [
-                11,
-                11
+                -1,
+                -1
               ],
               "type": "unknown",
               "missing": 420
@@ -5872,8 +5872,8 @@
                 "citations": {}
               },
               "time_range": [
-                11,
-                11
+                -1,
+                -1
               ],
               "type": "unknown",
               "missing": 420
@@ -5941,8 +5941,8 @@
                 "citations": {}
               },
               "time_range": [
-                5,
-                10
+                -1,
+                -1
               ],
               "type": "unknown",
               "missing": 420
@@ -6246,7 +6246,7 @@
             "doi": "10.1111/jep.13341"
           }
         },
-        "sha512": "de616a3080ea28a2c5e83d090e58eeca40e1ab7be5e64aaff2a7c736c0c374be21a07ebf785a11536de72ffdaa09d41bc43a9c9ec130dcb2390520f465b74007",
+        "sha512": "2d74afe563713ea59757b323785ef04fbe967ade9a4a3c102a7204c37eb88774e9baa31347a90a0e781d54b5fcd961f2acdba98167e025fcf9b89c90f384313b",
         "site_file": "district.json"
       }
     },

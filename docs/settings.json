@@ -38,8 +38,8 @@
         ],
         "time": "time",
         "profile": "data-resource",
-        "created": "2022-03-14 16:19:31",
-        "last_modified": "2022-03-14 16:19:31",
+        "created": "2022-03-16 12:46:29",
+        "last_modified": "2022-03-16 12:31:38",
         "row_count": 22884,
         "entity_count": 1907,
         "schema": {
@@ -2111,8 +2111,8 @@
         ],
         "time": "time",
         "profile": "data-resource",
-        "created": "2022-03-14 16:19:29",
-        "last_modified": "2022-03-14 16:19:29",
+        "created": "2022-03-16 12:46:27",
+        "last_modified": "2022-03-16 12:31:38",
         "row_count": 1596,
         "entity_count": 133,
         "schema": {
@@ -2127,10 +2127,7 @@
                 "sources": {},
                 "citations": {}
               },
-              "time_range": [
-                0,
-                11
-              ],
+              "time_range": [0, 11],
               "type": "integer",
               "missing": 0,
               "mean": 2015.5,
@@ -2166,10 +2163,7 @@
                   "saxon20"
                 ]
               },
-              "time_range": [
-                9,
-                9
-              ],
+              "time_range": [9, 9],
               "type": "float",
               "missing": 1463,
               "mean": 13.0918,
@@ -2200,10 +2194,7 @@
                 ],
                 "citations": {}
               },
-              "time_range": [
-                9,
-                11
-              ],
+              "time_range": [9, 11],
               "type": "float",
               "missing": 1342,
               "mean": 64.0276,
@@ -2234,10 +2225,7 @@
                 ],
                 "citations": {}
               },
-              "time_range": [
-                9,
-                9
-              ],
+              "time_range": [9, 9],
               "type": "float",
               "missing": 1463,
               "mean": 93.8042,
@@ -2273,10 +2261,7 @@
                   "saxon20"
                 ]
               },
-              "time_range": [
-                10,
-                10
-              ],
+              "time_range": [10, 10],
               "type": "float",
               "missing": 1463,
               "mean": 411.2862,
@@ -2312,10 +2297,7 @@
                   "saxon20"
                 ]
               },
-              "time_range": [
-                10,
-                10
-              ],
+              "time_range": [10, 10],
               "type": "float",
               "missing": 1463,
               "mean": 481.7762,
@@ -2351,10 +2333,7 @@
                   "saxon20"
                 ]
               },
-              "time_range": [
-                10,
-                10
-              ],
+              "time_range": [10, 10],
               "type": "float",
               "missing": 1463,
               "mean": 932.2389,
@@ -2385,10 +2364,7 @@
                 ],
                 "citations": {}
               },
-              "time_range": [
-                11,
-                11
-              ],
+              "time_range": [11, 11],
               "type": "integer",
               "missing": 1463,
               "mean": 2803.7895,
@@ -2424,10 +2400,7 @@
                   "saxon20"
                 ]
               },
-              "time_range": [
-                11,
-                11
-              ],
+              "time_range": [11, 11],
               "type": "float",
               "missing": 1463,
               "mean": 38.6391,
@@ -2463,10 +2436,7 @@
                 ],
                 "citations": "gallardo20"
               },
-              "time_range": [
-                9,
-                11
-              ],
+              "time_range": [9, 11],
               "type": "float",
               "missing": 1197,
               "mean": 46.8091,
@@ -2497,10 +2467,7 @@
                 ],
                 "citations": {}
               },
-              "time_range": [
-                11,
-                11
-              ],
+              "time_range": [11, 11],
               "type": "integer",
               "missing": 1463,
               "mean": 32338.3459,
@@ -2536,10 +2503,7 @@
                   "saxon20"
                 ]
               },
-              "time_range": [
-                11,
-                11
-              ],
+              "time_range": [11, 11],
               "type": "float",
               "missing": 1463,
               "mean": 0.2645,
@@ -2570,10 +2534,7 @@
                 ],
                 "citations": {}
               },
-              "time_range": [
-                9,
-                11
-              ],
+              "time_range": [9, 11],
               "type": "float",
               "missing": 1197,
               "mean": 111.8176,
@@ -2604,10 +2565,7 @@
                 ],
                 "citations": {}
               },
-              "time_range": [
-                11,
-                11
-              ],
+              "time_range": [11, 11],
               "type": "float",
               "missing": 1463,
               "mean": 58.7816,
@@ -2638,10 +2596,7 @@
                 ],
                 "citations": {}
               },
-              "time_range": [
-                11,
-                11
-              ],
+              "time_range": [11, 11],
               "type": "float",
               "missing": 1463,
               "mean": 10.4207,
@@ -2672,10 +2627,7 @@
                 ],
                 "citations": {}
               },
-              "time_range": [
-                11,
-                11
-              ],
+              "time_range": [11, 11],
               "type": "float",
               "missing": 1463,
               "mean": 99.0586,
@@ -2706,10 +2658,7 @@
                 ],
                 "citations": {}
               },
-              "time_range": [
-                5,
-                11
-              ],
+              "time_range": [5, 11],
               "type": "float",
               "missing": 670,
               "mean": 16.0866,
@@ -2740,10 +2689,7 @@
                 ],
                 "citations": {}
               },
-              "time_range": [
-                -1,
-                -1
-              ],
+              "time_range": [11, 11],
               "type": "unknown",
               "missing": 1596
             },
@@ -2775,10 +2721,7 @@
                   "saxon20"
                 ]
               },
-              "time_range": [
-                11,
-                11
-              ],
+              "time_range": [11, 11],
               "type": "float",
               "missing": 1463,
               "mean": 0.2514,
@@ -2809,10 +2752,7 @@
                 ],
                 "citations": {}
               },
-              "time_range": [
-                11,
-                11
-              ],
+              "time_range": [11, 11],
               "type": "integer",
               "missing": 1463,
               "mean": 8406.015,
@@ -2843,10 +2783,7 @@
                 ],
                 "citations": {}
               },
-              "time_range": [
-                0,
-                9
-              ],
+              "time_range": [0, 9],
               "type": "float",
               "missing": 266,
               "mean": 16.7853,
@@ -2877,10 +2814,7 @@
                 ],
                 "citations": {}
               },
-              "time_range": [
-                1,
-                9
-              ],
+              "time_range": [1, 9],
               "type": "float",
               "missing": 399,
               "mean": 3.0402,
@@ -2911,10 +2845,7 @@
                 ],
                 "citations": {}
               },
-              "time_range": [
-                0,
-                9
-              ],
+              "time_range": [0, 9],
               "type": "float",
               "missing": 266,
               "mean": 12.2723,
@@ -2945,10 +2876,7 @@
                 ],
                 "citations": {}
               },
-              "time_range": [
-                0,
-                9
-              ],
+              "time_range": [0, 9],
               "type": "integer",
               "missing": 266,
               "mean": 1913.2782,
@@ -2987,10 +2915,7 @@
                   "liang17"
                 ]
               },
-              "time_range": [
-                9,
-                9
-              ],
+              "time_range": [9, 9],
               "type": "float",
               "missing": 1463,
               "mean": 0.3165,
@@ -3021,10 +2946,7 @@
                 ],
                 "citations": {}
               },
-              "time_range": [
-                -1,
-                -1
-              ],
+              "time_range": [11, 11],
               "type": "unknown",
               "missing": 1596
             },
@@ -3056,10 +2978,7 @@
                   "saxon20"
                 ]
               },
-              "time_range": [
-                11,
-                11
-              ],
+              "time_range": [11, 11],
               "type": "float",
               "missing": 1463,
               "mean": 0.0201,
@@ -3090,10 +3009,7 @@
                 ],
                 "citations": {}
               },
-              "time_range": [
-                11,
-                11
-              ],
+              "time_range": [11, 11],
               "type": "integer",
               "missing": 1463,
               "mean": 842.1053,
@@ -3124,10 +3040,7 @@
                 ],
                 "citations": {}
               },
-              "time_range": [
-                -1,
-                -1
-              ],
+              "time_range": [11, 11],
               "type": "unknown",
               "missing": 1596
             },
@@ -3159,10 +3072,7 @@
                   "saxon20"
                 ]
               },
-              "time_range": [
-                11,
-                11
-              ],
+              "time_range": [11, 11],
               "type": "float",
               "missing": 1463,
               "mean": 0,
@@ -3193,10 +3103,7 @@
                 ],
                 "citations": {}
               },
-              "time_range": [
-                11,
-                11
-              ],
+              "time_range": [11, 11],
               "type": "integer",
               "missing": 1463,
               "mean": 1.7744,
@@ -3227,10 +3134,7 @@
                 ],
                 "citations": {}
               },
-              "time_range": [
-                5,
-                9
-              ],
+              "time_range": [5, 9],
               "type": "float",
               "missing": 931,
               "mean": 84.3503,
@@ -3261,10 +3165,7 @@
                 ],
                 "citations": {}
               },
-              "time_range": [
-                11,
-                11
-              ],
+              "time_range": [11, 11],
               "type": "integer",
               "missing": 1463,
               "mean": 23157.8947,
@@ -3300,10 +3201,7 @@
                   "saxon20"
                 ]
               },
-              "time_range": [
-                11,
-                11
-              ],
+              "time_range": [11, 11],
               "type": "float",
               "missing": 1463,
               "mean": 0.4074,
@@ -3334,10 +3232,7 @@
                 ],
                 "citations": {}
               },
-              "time_range": [
-                11,
-                11
-              ],
+              "time_range": [11, 11],
               "type": "integer",
               "missing": 1463,
               "mean": 29714.2857,
@@ -3373,10 +3268,7 @@
                   "saxon20"
                 ]
               },
-              "time_range": [
-                11,
-                11
-              ],
+              "time_range": [11, 11],
               "type": "float",
               "missing": 1463,
               "mean": 1.4341,
@@ -3412,10 +3304,7 @@
                 ],
                 "citations": {}
               },
-              "time_range": [
-                10,
-                11
-              ],
+              "time_range": [10, 11],
               "type": "float",
               "missing": 1330,
               "mean": 1.4312,
@@ -3451,10 +3340,7 @@
                 ],
                 "citations": {}
               },
-              "time_range": [
-                10,
-                10
-              ],
+              "time_range": [10, 10],
               "type": "float",
               "missing": 1466,
               "mean": 1.3831,
@@ -3490,10 +3376,7 @@
                 ],
                 "citations": {}
               },
-              "time_range": [
-                10,
-                10
-              ],
+              "time_range": [10, 10],
               "type": "float",
               "missing": 1466,
               "mean": 0.7812,
@@ -3524,10 +3407,7 @@
                 ],
                 "citations": {}
               },
-              "time_range": [
-                5,
-                9
-              ],
+              "time_range": [5, 9],
               "type": "float",
               "missing": 931,
               "mean": 10.9624,
@@ -3558,10 +3438,7 @@
                 ],
                 "citations": {}
               },
-              "time_range": [
-                5,
-                9
-              ],
+              "time_range": [5, 9],
               "type": "float",
               "missing": 931,
               "mean": 12.1872,
@@ -3592,10 +3469,7 @@
                 ],
                 "citations": {}
               },
-              "time_range": [
-                0,
-                9
-              ],
+              "time_range": [0, 9],
               "type": "float",
               "missing": 266,
               "mean": 52.4375,
@@ -3626,10 +3500,7 @@
                 ],
                 "citations": {}
               },
-              "time_range": [
-                5,
-                11
-              ],
+              "time_range": [5, 11],
               "type": "integer",
               "missing": 695,
               "mean": 5159.8357,
@@ -3660,10 +3531,7 @@
                 ],
                 "citations": {}
               },
-              "time_range": [
-                11,
-                11
-              ],
+              "time_range": [11, 11],
               "type": "integer",
               "missing": 1463,
               "mean": 147488.7218,
@@ -3699,10 +3567,7 @@
                   "saxon20"
                 ]
               },
-              "time_range": [
-                11,
-                11
-              ],
+              "time_range": [11, 11],
               "type": "float",
               "missing": 1463,
               "mean": 1.9639,
@@ -3733,10 +3598,7 @@
                 ],
                 "citations": {}
               },
-              "time_range": [
-                -1,
-                -1
-              ],
+              "time_range": [11, 11],
               "type": "unknown",
               "missing": 1596
             },
@@ -3768,10 +3630,7 @@
                   "saxon20"
                 ]
               },
-              "time_range": [
-                11,
-                11
-              ],
+              "time_range": [11, 11],
               "type": "float",
               "missing": 1463,
               "mean": 0,
@@ -3802,10 +3661,7 @@
                 ],
                 "citations": {}
               },
-              "time_range": [
-                11,
-                11
-              ],
+              "time_range": [11, 11],
               "type": "integer",
               "missing": 1463,
               "mean": 1.5188,
@@ -3841,10 +3697,7 @@
                   "saxon20"
                 ]
               },
-              "time_range": [
-                9,
-                9
-              ],
+              "time_range": [9, 9],
               "type": "float",
               "missing": 1463,
               "mean": 9.9285,
@@ -3875,10 +3728,7 @@
                 ],
                 "citations": {}
               },
-              "time_range": [
-                5,
-                10
-              ],
+              "time_range": [5, 10],
               "type": "float",
               "missing": 1104,
               "mean": 46255.4608,
@@ -3909,10 +3759,7 @@
                 ],
                 "citations": {}
               },
-              "time_range": [
-                7,
-                9
-              ],
+              "time_range": [7, 9],
               "type": "float",
               "missing": 1197,
               "mean": 73.1099,
@@ -3943,10 +3790,7 @@
                 ],
                 "citations": {}
               },
-              "time_range": [
-                7,
-                9
-              ],
+              "time_range": [7, 9],
               "type": "float",
               "missing": 1197,
               "mean": 54.313,
@@ -3977,10 +3821,7 @@
                 ],
                 "citations": {}
               },
-              "time_range": [
-                7,
-                9
-              ],
+              "time_range": [7, 9],
               "type": "float",
               "missing": 1197,
               "mean": 16.0661,
@@ -4011,10 +3852,7 @@
                 ],
                 "citations": {}
               },
-              "time_range": [
-                7,
-                9
-              ],
+              "time_range": [7, 9],
               "type": "float",
               "missing": 1197,
               "mean": 22.0161,
@@ -4204,8 +4042,8 @@
         ],
         "time": "time",
         "profile": "data-resource",
-        "created": "2022-03-14 16:19:31",
-        "last_modified": "2022-03-14 16:19:31",
+        "created": "2022-03-16 12:46:29",
+        "last_modified": "2022-03-16 12:31:38",
         "row_count": 420,
         "entity_count": 35,
         "schema": {
@@ -4220,10 +4058,7 @@
                 "sources": {},
                 "citations": {}
               },
-              "time_range": [
-                0,
-                11
-              ],
+              "time_range": [0, 11],
               "type": "integer",
               "missing": 0,
               "mean": 2015.5,
@@ -4259,10 +4094,7 @@
                   "saxon20"
                 ]
               },
-              "time_range": [
-                9,
-                9
-              ],
+              "time_range": [9, 9],
               "type": "float",
               "missing": 385,
               "mean": 19.6881,
@@ -4293,10 +4125,7 @@
                 ],
                 "citations": {}
               },
-              "time_range": [
-                9,
-                11
-              ],
+              "time_range": [9, 11],
               "type": "float",
               "missing": 350,
               "mean": 64.2857,
@@ -4327,10 +4156,7 @@
                 ],
                 "citations": {}
               },
-              "time_range": [
-                -1,
-                -1
-              ],
+              "time_range": [9, 9],
               "type": "unknown",
               "missing": 420
             },
@@ -4362,10 +4188,7 @@
                   "saxon20"
                 ]
               },
-              "time_range": [
-                -1,
-                -1
-              ],
+              "time_range": [10, 10],
               "type": "unknown",
               "missing": 420
             },
@@ -4397,10 +4220,7 @@
                   "saxon20"
                 ]
               },
-              "time_range": [
-                -1,
-                -1
-              ],
+              "time_range": [10, 10],
               "type": "unknown",
               "missing": 420
             },
@@ -4432,10 +4252,7 @@
                   "saxon20"
                 ]
               },
-              "time_range": [
-                -1,
-                -1
-              ],
+              "time_range": [10, 10],
               "type": "unknown",
               "missing": 420
             },
@@ -4462,10 +4279,7 @@
                 ],
                 "citations": {}
               },
-              "time_range": [
-                9,
-                9
-              ],
+              "time_range": [9, 11],
               "type": "integer",
               "missing": 385,
               "mean": 10654.4,
@@ -4501,10 +4315,7 @@
                   "saxon20"
                 ]
               },
-              "time_range": [
-                9,
-                9
-              ],
+              "time_range": [9, 11],
               "type": "float",
               "missing": 385,
               "mean": 40.3427,
@@ -4540,10 +4351,7 @@
                 ],
                 "citations": "gallardo20"
               },
-              "time_range": [
-                9,
-                11
-              ],
+              "time_range": [9, 11],
               "type": "float",
               "missing": 315,
               "mean": 51.4114,
@@ -4574,10 +4382,7 @@
                 ],
                 "citations": {}
               },
-              "time_range": [
-                11,
-                11
-              ],
+              "time_range": [11, 11],
               "type": "integer",
               "missing": 385,
               "mean": 122885.7143,
@@ -4613,10 +4418,7 @@
                   "saxon20"
                 ]
               },
-              "time_range": [
-                11,
-                11
-              ],
+              "time_range": [11, 11],
               "type": "float",
               "missing": 385,
               "mean": 0.3308,
@@ -4647,10 +4449,7 @@
                 ],
                 "citations": {}
               },
-              "time_range": [
-                9,
-                11
-              ],
+              "time_range": [9, 11],
               "type": "float",
               "missing": 315,
               "mean": 126.4226,
@@ -4681,10 +4480,7 @@
                 ],
                 "citations": {}
               },
-              "time_range": [
-                11,
-                11
-              ],
+              "time_range": [11, 11],
               "type": "float",
               "missing": 385,
               "mean": 52.2886,
@@ -4715,10 +4511,7 @@
                 ],
                 "citations": {}
               },
-              "time_range": [
-                11,
-                11
-              ],
+              "time_range": [11, 11],
               "type": "float",
               "missing": 385,
               "mean": 13.28,
@@ -4749,10 +4542,7 @@
                 ],
                 "citations": {}
               },
-              "time_range": [
-                11,
-                11
-              ],
+              "time_range": [11, 11],
               "type": "float",
               "missing": 385,
               "mean": 83.0486,
@@ -4783,10 +4573,7 @@
                 ],
                 "citations": {}
               },
-              "time_range": [
-                5,
-                11
-              ],
+              "time_range": [5, 11],
               "type": "float",
               "missing": 175,
               "mean": 16.9805,
@@ -4817,10 +4604,7 @@
                 ],
                 "citations": {}
               },
-              "time_range": [
-                -1,
-                -1
-              ],
+              "time_range": [11, 11],
               "type": "unknown",
               "missing": 420
             },
@@ -4852,10 +4636,7 @@
                   "saxon20"
                 ]
               },
-              "time_range": [
-                11,
-                11
-              ],
+              "time_range": [11, 11],
               "type": "float",
               "missing": 385,
               "mean": 0.1825,
@@ -4886,10 +4667,7 @@
                 ],
                 "citations": {}
               },
-              "time_range": [
-                11,
-                11
-              ],
+              "time_range": [11, 11],
               "type": "integer",
               "missing": 385,
               "mean": 31942.8571,
@@ -4920,10 +4698,7 @@
                 ],
                 "citations": {}
               },
-              "time_range": [
-                0,
-                9
-              ],
+              "time_range": [0, 9],
               "type": "float",
               "missing": 70,
               "mean": 15.8235,
@@ -4954,10 +4729,7 @@
                 ],
                 "citations": {}
               },
-              "time_range": [
-                1,
-                9
-              ],
+              "time_range": [1, 9],
               "type": "float",
               "missing": 105,
               "mean": 3.0877,
@@ -4988,10 +4760,7 @@
                 ],
                 "citations": {}
               },
-              "time_range": [
-                0,
-                9
-              ],
+              "time_range": [0, 9],
               "type": "float",
               "missing": 70,
               "mean": 12.1414,
@@ -5022,10 +4791,7 @@
                 ],
                 "citations": {}
               },
-              "time_range": [
-                0,
-                9
-              ],
+              "time_range": [0, 9],
               "type": "integer",
               "missing": 70,
               "mean": 7270.4571,
@@ -5064,10 +4830,7 @@
                   "liang17"
                 ]
               },
-              "time_range": [
-                9,
-                9
-              ],
+              "time_range": [9, 9],
               "type": "float",
               "missing": 385,
               "mean": 0.1767,
@@ -5098,10 +4861,7 @@
                 ],
                 "citations": {}
               },
-              "time_range": [
-                -1,
-                -1
-              ],
+              "time_range": [11, 11],
               "type": "unknown",
               "missing": 420
             },
@@ -5133,10 +4893,7 @@
                   "saxon20"
                 ]
               },
-              "time_range": [
-                11,
-                11
-              ],
+              "time_range": [11, 11],
               "type": "float",
               "missing": 385,
               "mean": 0.0161,
@@ -5167,10 +4924,7 @@
                 ],
                 "citations": {}
               },
-              "time_range": [
-                11,
-                11
-              ],
+              "time_range": [11, 11],
               "type": "integer",
               "missing": 385,
               "mean": 3200,
@@ -5201,10 +4955,7 @@
                 ],
                 "citations": {}
               },
-              "time_range": [
-                -1,
-                -1
-              ],
+              "time_range": [11, 11],
               "type": "unknown",
               "missing": 420
             },
@@ -5236,10 +4987,7 @@
                   "saxon20"
                 ]
               },
-              "time_range": [
-                11,
-                11
-              ],
+              "time_range": [11, 11],
               "type": "float",
               "missing": 385,
               "mean": 0,
@@ -5270,10 +5018,7 @@
                 ],
                 "citations": {}
               },
-              "time_range": [
-                11,
-                11
-              ],
+              "time_range": [11, 11],
               "type": "integer",
               "missing": 385,
               "mean": 6.7429,
@@ -5304,10 +5049,7 @@
                 ],
                 "citations": {}
               },
-              "time_range": [
-                5,
-                9
-              ],
+              "time_range": [5, 9],
               "type": "float",
               "missing": 245,
               "mean": 84.5807,
@@ -5338,10 +5080,7 @@
                 ],
                 "citations": {}
               },
-              "time_range": [
-                11,
-                11
-              ],
+              "time_range": [11, 11],
               "type": "integer",
               "missing": 385,
               "mean": 88000,
@@ -5377,10 +5116,7 @@
                   "saxon20"
                 ]
               },
-              "time_range": [
-                11,
-                11
-              ],
+              "time_range": [11, 11],
               "type": "float",
               "missing": 385,
               "mean": 0.5939,
@@ -5411,10 +5147,7 @@
                 ],
                 "citations": {}
               },
-              "time_range": [
-                11,
-                11
-              ],
+              "time_range": [11, 11],
               "type": "integer",
               "missing": 385,
               "mean": 112914.2857,
@@ -5450,10 +5183,7 @@
                   "saxon20"
                 ]
               },
-              "time_range": [
-                11,
-                11
-              ],
+              "time_range": [11, 11],
               "type": "float",
               "missing": 385,
               "mean": 1.934,
@@ -5489,10 +5219,7 @@
                 ],
                 "citations": {}
               },
-              "time_range": [
-                10,
-                11
-              ],
+              "time_range": [10, 11],
               "type": "float",
               "missing": 350,
               "mean": 1.3153,
@@ -5528,10 +5255,7 @@
                 ],
                 "citations": {}
               },
-              "time_range": [
-                10,
-                11
-              ],
+              "time_range": [10, 11],
               "type": "float",
               "missing": 350,
               "mean": 1.3141,
@@ -5567,10 +5291,7 @@
                 ],
                 "citations": {}
               },
-              "time_range": [
-                10,
-                11
-              ],
+              "time_range": [10, 11],
               "type": "float",
               "missing": 350,
               "mean": 0.6579,
@@ -5601,10 +5322,7 @@
                 ],
                 "citations": {}
               },
-              "time_range": [
-                5,
-                9
-              ],
+              "time_range": [5, 9],
               "type": "float",
               "missing": 245,
               "mean": 11.0482,
@@ -5635,10 +5353,7 @@
                 ],
                 "citations": {}
               },
-              "time_range": [
-                5,
-                9
-              ],
+              "time_range": [5, 9],
               "type": "float",
               "missing": 245,
               "mean": 11.8331,
@@ -5669,10 +5384,7 @@
                 ],
                 "citations": {}
               },
-              "time_range": [
-                0,
-                9
-              ],
+              "time_range": [0, 9],
               "type": "float",
               "missing": 70,
               "mean": 57.7926,
@@ -5703,10 +5415,7 @@
                 ],
                 "citations": {}
               },
-              "time_range": [
-                -1,
-                -1
-              ],
+              "time_range": [5, 11],
               "type": "unknown",
               "missing": 420
             },
@@ -5733,10 +5442,7 @@
                 ],
                 "citations": {}
               },
-              "time_range": [
-                11,
-                11
-              ],
+              "time_range": [11, 11],
               "type": "integer",
               "missing": 385,
               "mean": 560457.1429,
@@ -5772,10 +5478,7 @@
                   "saxon20"
                 ]
               },
-              "time_range": [
-                11,
-                11
-              ],
+              "time_range": [11, 11],
               "type": "float",
               "missing": 385,
               "mean": 2.2971,
@@ -5806,10 +5509,7 @@
                 ],
                 "citations": {}
               },
-              "time_range": [
-                -1,
-                -1
-              ],
+              "time_range": [11, 11],
               "type": "unknown",
               "missing": 420
             },
@@ -5841,10 +5541,7 @@
                   "saxon20"
                 ]
               },
-              "time_range": [
-                -1,
-                -1
-              ],
+              "time_range": [11, 11],
               "type": "unknown",
               "missing": 420
             },
@@ -5871,10 +5568,7 @@
                 ],
                 "citations": {}
               },
-              "time_range": [
-                -1,
-                -1
-              ],
+              "time_range": [11, 11],
               "type": "unknown",
               "missing": 420
             },
@@ -5906,10 +5600,7 @@
                   "saxon20"
                 ]
               },
-              "time_range": [
-                9,
-                9
-              ],
+              "time_range": [9, 9],
               "type": "float",
               "missing": 385,
               "mean": 20.4887,
@@ -5940,10 +5631,7 @@
                 ],
                 "citations": {}
               },
-              "time_range": [
-                -1,
-                -1
-              ],
+              "time_range": [5, 10],
               "type": "unknown",
               "missing": 420
             },
@@ -5970,10 +5658,7 @@
                 ],
                 "citations": {}
               },
-              "time_range": [
-                7,
-                9
-              ],
+              "time_range": [7, 9],
               "type": "float",
               "missing": 315,
               "mean": 77.4409,
@@ -6004,10 +5689,7 @@
                 ],
                 "citations": {}
               },
-              "time_range": [
-                7,
-                9
-              ],
+              "time_range": [7, 9],
               "type": "float",
               "missing": 315,
               "mean": 62.1007,
@@ -6038,10 +5720,7 @@
                 ],
                 "citations": {}
               },
-              "time_range": [
-                7,
-                9
-              ],
+              "time_range": [7, 9],
               "type": "float",
               "missing": 315,
               "mean": 13.1947,
@@ -6072,10 +5751,7 @@
                 ],
                 "citations": {}
               },
-              "time_range": [
-                7,
-                9
-              ],
+              "time_range": [7, 9],
               "type": "float",
               "missing": 315,
               "mean": 18.2278,

@@ -47,4 +47,4 @@ data_add(
   refresh = TRUE
 )
 
-site_build("../community_example", variables = names(meta), version = "dev", serve = TRUE)
+site_build("../community_example", version = "dev", serve = TRUE)

@@ -1,9 +1,6 @@
 'use strict'
-const DataHandler = require('../docs/data_handler.js').
-  data = new DataHandler(require('../docs/settings.json'))
-module.export.handler = async function(event){
+const DataHandler = require('../data_handler.min.js'),
+  data = new DataHandler(require('../settings.json'))
+module.exports.handler = async function (event) {
   return data.export(event.queryStringParameters)
 }
-
-
-

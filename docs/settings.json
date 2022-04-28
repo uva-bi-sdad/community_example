@@ -6772,7 +6772,6 @@
       "effects": "export",
       "dataview": "primary_view",
       "query": {
-        "table_format": "tall",
         "include": "selected_variable",
         "features": {
           "geoid": "id",
@@ -6785,7 +6784,6 @@
       "effects": "export",
       "dataview": {},
       "query": {
-        "table_format": "tall",
         "features": {
           "geoid": "id",
           "name": "name",

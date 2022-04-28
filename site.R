@@ -176,12 +176,12 @@ page_menu(
   page_section(
     input_button(
       "Download Selection", "export", dataview = "primary_view", query = list(
-        table_format = "tall", include = "selected_variable",
+        include = "selected_variable",
         features = list(geoid = "id", name = "name", region_type = "type")
       ), class = "btn-full"
     ),
     input_button("Download All", "export", query = list(
-      table_format = "tall", features = list(geoid = "id", name = "name", region_type = "type")
+      features = list(geoid = "id", name = "name", region_type = "type")
     ), class = "btn-full")
   ),
   position = "top",

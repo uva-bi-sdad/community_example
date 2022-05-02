@@ -14,8 +14,8 @@ for (f in list.files("../community_example/docs/data/original", full.names = TRU
   if (!nrow(nd)) {
     unlink(f)
   } else if (uncompressed || !identical(d, nd)) {
-    if (uncompressed) unlink(f)
-    write.csv(nd, xzfile(sub("\\.csv$", ".csv.xz", f)), row.names = FALSE)
+    unlink(f)
+    write.csv(nd, xzfile(sub("\\.csv(?:\\.[gbx]z2?)?$", ".csv.xz", f)), row.names = FALSE)
   }
 }
 
@@ -47,4 +47,4 @@ data_add(
   refresh = TRUE
 )
 
-site_build("../community_example", version = "dev", serve = TRUE)
+site_build("../community_example", version = "local", serve = TRUE)

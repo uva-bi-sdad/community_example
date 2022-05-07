@@ -91,6 +91,9 @@ page_navbar(
           "[Virginia Department of Health](https://www.vdh.virginia.gov)."
         ),
         "View its source on [GitHub](https://github.com/uva-bi-sdad/community_example).",
+        input_button("Download All Data", "export", query = list(
+          features = list(geoid = "id", name = "name", region_type = "type")
+        ), class = "btn-full"),
         "Credits",
         paste(
           "Built in [R](https://www.r-project.org) with the",
@@ -173,20 +176,9 @@ page_menu(
       breakpoints = "md"
     )
   ),
-  page_section(
-    input_button(
-      "Download Selection", "export", dataview = "primary_view", query = list(
-        include = "selected_variable",
-        features = list(geoid = "id", name = "name", region_type = "type")
-      ), class = "btn-full"
-    ),
-    input_button("Download All", "export", query = list(
-      features = list(geoid = "id", name = "name", region_type = "type")
-    ), class = "btn-full")
-  ),
   position = "top",
   default_open = TRUE,
-  sizes = c(1, NA, 1, NA, 3, 1)
+  sizes = c(1, NA, 1, NA, 3)
 )
 
 ## `input_variable` can be used to set up logical controls
@@ -308,6 +300,12 @@ page_section(
         body = "variables.sources",
         dataview = "primary_view",
         id = "variable_info_pane",
+      ),
+      input_button(
+        "Download", "export", dataview = "primary_view", query = list(
+          include = "selected_variable",
+          features = list(geoid = "id", name = "name", region_type = "type")
+        ), class = "btn-full"
       ),
       page_section(
         wraps = "row",

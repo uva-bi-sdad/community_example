@@ -253,11 +253,29 @@ page_section(
     wraps = "col",
     sizes = c(NA, 5),
     output_map(
-      lapply(c("tract", "county", "district"), function(s) list(
-        name = s,
-        url = paste0("https://uva-bi-sdad.github.io/community/dist/shapes/VA/", s, ".geojson"),
-        id_property = "id"
-      )),
+      list(
+        list(
+          name = "tract",
+          url = paste0(
+            "https://raw.githubusercontent.com/uva-bi-sdad/dc.geographies/main/data/",
+            "va_geo_census_cb_2010_census_tracts/distribution/va_geo_census_cb_2010_census_tracts.geojson"
+          )
+        ),
+        list(
+          name = "county",
+          url = paste0(
+            "https://raw.githubusercontent.com/uva-bi-sdad/dc.geographies/main/data/",
+            "va_geo_census_cb_2010_counties/distribution/va_geo_census_cb_2010_counties.geojson"
+          )
+        ),
+        list(
+          name = "district",
+          url = paste0(
+            "https://raw.githubusercontent.com/uva-bi-sdad/dc.geographies/main/data/",
+            "va_geo_vhd_2020_health_districts/distribution/va_geo_vhd_2020_health_districts.geojson"
+          )
+        )
+      ),
       dataview = "primary_view",
       click = "region_select",
       id = "main_map",
@@ -297,15 +315,26 @@ page_section(
       ## use `output_info` to display information about selected and hovered-over entities
       output_info(
         title = "variables.short_name",
-        body = "variables.sources",
         dataview = "primary_view",
         id = "variable_info_pane",
       ),
-      input_button(
-        "Download", "export", dataview = "primary_view", query = list(
-          include = "selected_variable",
-          features = list(geoid = "id", name = "name", region_type = "type")
-        ), class = "btn-full"
+      page_section(
+        wraps = "col", sizes = c(8, NA),
+        output_info(body = "variables.sources", dataview = "primary_view"),
+        page_section(
+          input_button(
+            "Download", "export", dataview = "primary_view", query = list(
+              include = "selected_variable",
+              features = list(geoid = "id", name = "name", region_type = "type")
+            ), class = "btn-full"
+          ),
+          input_button(
+            "Copy API link", "copy", dataview = "primary_view", query = list(
+              include = "selected_variable", dataset = "shapes",
+              features = list(geoid = "id", name = "name", region_type = "type")
+            ), class = "btn-full"
+          )
+        )
       ),
       page_section(
         wraps = "row",
@@ -323,21 +352,29 @@ page_section(
           ),
           row_style = c("table", "stack"),
           dataview = "primary_view",
-          subto = c("main_map", "main_plot", "rank_table"),
+          subto = c("main_map", "main_plot", "rank_table", "main_legend"),
           variable_info = FALSE
         )
       ),
-      output_legend(
-        "settings.palette", dataview = "primary_view", click = "region_select",
-        subto = c("main_map", "main_plot", "rank_table"), id = "main_legend"
-      ),
-      wraps = c("row", "row mb-auto", "row")
+      wraps = "row"
     )
   ),
   page_section(
     type = "row",
     wraps = "col",
-    sizes = c(7, 5),
+    sizes = c(5, 7),
+    page_section(
+      output_legend(
+        "settings.palette", dataview = "primary_view", click = "region_select",
+        subto = c("main_map", "main_plot", "rank_table"), id = "main_legend"
+      ),
+      output_table("selected_variable", dataview = "primary_view", options = list(
+        info = FALSE,
+        searching = FALSE,
+        scrollY = 300,
+        dom = "<'row't>"
+      ), id = "rank_table", click = "region_select", subto = c("main_map", "main_plot", "main_legend"))
+    ),
     output_plot(
       x = "time", y = "selected_variable", dataview = "primary_view",
       click = "region_select", subto = c("main_map", "rank_table", "main_legend"), id = "main_plot",
@@ -353,18 +390,6 @@ page_section(
         ),
         config = list(modeBarButtonsToRemove = c("select2d", "lasso2d", "sendDataToCloud"))
       )
-    ),
-    output_table("selected_variable", dataview = "primary_view", options = list(
-      info = FALSE,
-      searching = FALSE,
-      scrollY = 400,
-      dom = "<'row't>"
-    ), id = "rank_table", click = "region_select", subto = c("main_map", "main_plot", "main_legend"))
+    )
   )
-)
-
-# render the site
-site_build(
-  '../community_example', version = "local", serve = TRUE,
-  options = list(palette = "vik")
 )

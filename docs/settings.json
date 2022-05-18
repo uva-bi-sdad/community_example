@@ -15,7 +15,8 @@
     "table_autoscroll": true,
     "table_scroll_behavior": "smooth",
     "hide_tooltips": false,
-    "map_animations": "all"
+    "map_animations": "all",
+    "trace_limit": 20
   },
   "metadata": {
     "package": "data/datapackage.json",
@@ -6413,6 +6414,14 @@
   "info": {
     "variable_info_pane": {
       "title": "variables.short_name",
+      "body": [],
+      "default": [],
+      "floating": false,
+      "dataview": "primary_view",
+      "variable_info": false
+    },
+    "info12": {
+      "title": "",
       "body": [
         {
           "name": "",
@@ -6425,7 +6434,7 @@
       "dataview": "primary_view",
       "variable_info": false
     },
-    "info12": {
+    "info15": {
       "title": "features.name",
       "body": [],
       "default": {
@@ -6437,7 +6446,7 @@
       "subto": ["main_map", "main_plot", "rank_table"],
       "variable_info": false
     },
-    "info13": {
+    "info16": {
       "title": "",
       "body": [
         {
@@ -6459,7 +6468,7 @@
       "default": [],
       "floating": false,
       "dataview": "primary_view",
-      "subto": ["main_map", "main_plot", "rank_table"],
+      "subto": ["main_map", "main_plot", "rank_table", "main_legend"],
       "variable_info": false
     }
   },
@@ -6620,7 +6629,7 @@
     "rank_table": {
       "info": false,
       "searching": false,
-      "scrollY": 400,
+      "scrollY": 300,
       "dom": "<'row't>",
       "variables": "selected_variable",
       "subto": ["main_map", "main_plot", "main_legend"],
@@ -6687,18 +6696,18 @@
       "shapes": [
         {
           "name": "tract",
-          "url": "https://uva-bi-sdad.github.io/community/dist/shapes/VA/tract.geojson",
-          "id_property": "id"
+          "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.geographies/main/data/va_geo_census_cb_2010_census_tracts/distribution/va_geo_census_cb_2010_census_tracts.geojson",
+          "id_property": "geoid"
         },
         {
           "name": "county",
-          "url": "https://uva-bi-sdad.github.io/community/dist/shapes/VA/county.geojson",
-          "id_property": "id"
+          "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.geographies/main/data/va_geo_census_cb_2010_counties/distribution/va_geo_census_cb_2010_counties.geojson",
+          "id_property": "geoid"
         },
         {
           "name": "district",
-          "url": "https://uva-bi-sdad.github.io/community/dist/shapes/VA/district.geojson",
-          "id_property": "id"
+          "url": "https://raw.githubusercontent.com/uva-bi-sdad/dc.geographies/main/data/va_geo_vhd_2020_health_districts/distribution/va_geo_vhd_2020_health_districts.geojson",
+          "id_property": "geoid"
         }
       ],
       "options": {
@@ -6764,15 +6773,15 @@
       "name": "OpenStreetMap",
       "url": "https://www.openstreetmap.org/copyright"
     },
-    "plotly": {
-      "name": "Plotly",
-      "url": "https://plotly.com/javascript/getting-started",
-      "version": "2.11.1"
-    },
     "datatables": {
       "name": "DataTables",
       "url": "https://datatables.net",
       "version": "1.11.5"
+    },
+    "plotly": {
+      "name": "Plotly",
+      "url": "https://plotly.com/javascript/getting-started",
+      "version": "2.11.1"
     }
   },
   "button": {
@@ -6785,7 +6794,8 @@
           "name": "name",
           "region_type": "type"
         }
-      }
+      },
+      "api": false
     },
     "Download": {
       "effects": "export",
@@ -6797,7 +6807,23 @@
           "name": "name",
           "region_type": "type"
         }
-      }
+      },
+      "api": false
+    },
+    "CopyAPIlink": {
+      "effects": "copy",
+      "dataview": "primary_view",
+      "query": {
+        "include": "selected_variable",
+        "dataset": "shapes",
+        "features": {
+          "geoid": "id",
+          "name": "name",
+          "region_type": "type"
+        }
+      },
+      "api": false
     }
-  }
+  },
+  "endpoint": "https://community-example.netlify.app/api"
 }

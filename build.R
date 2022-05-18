@@ -47,4 +47,7 @@ data_add(
   refresh = TRUE
 )
 
-site_build("../community_example", version = "dev", serve = TRUE)
+site_build(
+  "../community_example", version = "dev", serve = TRUE,
+  endpoint = "https://community-example.netlify.app/api"
+)

@@ -49,5 +49,5 @@ data_add(
 
 site_build(
   "../community_example", version = "dev", serve = TRUE,
-  endpoint = "https://community-example.netlify.app/api"
+  endpoint = "https://vdh-data-commons.netlify.app/api"
 )

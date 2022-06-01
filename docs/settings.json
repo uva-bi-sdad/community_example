@@ -7019,35 +7019,12 @@
       "y": "selected_variable",
       "x": "selected_year",
       "time_agg": "selected_year",
-      "time_filters": [
-        {
-          "variable": "time",
-          "type": ">=",
-          "value": "min_year"
-        },
-        {
-          "variable": "time",
-          "type": "<=",
-          "value": "max_year"
-        }
-      ],
+      "time_filters": [],
       "dataset": "shapes",
       "ids": "selected_region",
       "features": {
         "type": "region_type"
-      },
-      "variables": [
-        {
-          "variable": "selected_variable",
-          "type": "<=",
-          "value": "variable_min"
-        },
-        {
-          "variable": "selected_variable",
-          "type": ">=",
-          "value": "variable_max"
-        }
-      ]
+      }
     }
   },
   "info": {
@@ -7059,7 +7036,7 @@
       "dataview": "primary_view",
       "variable_info": false
     },
-    "info12": {
+    "info10": {
       "title": "",
       "body": [
         {
@@ -7073,7 +7050,7 @@
       "dataview": "primary_view",
       "variable_info": false
     },
-    "info15": {
+    "info13": {
       "title": "features.name",
       "body": [],
       "default": {
@@ -7085,7 +7062,7 @@
       "subto": ["main_map", "main_plot", "rank_table"],
       "variable_info": false
     },
-    "info16": {
+    "info14": {
       "title": "",
       "body": [
         {
@@ -7112,7 +7089,7 @@
     }
   },
   "text": {
-    "text7": {
+    "text5": {
       "text": [
         {
           "condition": [
@@ -7188,7 +7165,7 @@
         }
       ]
     },
-    "text8": {
+    "text6": {
       "text": [
         [
           {
@@ -7415,12 +7392,12 @@
     "datatables": {
       "name": "DataTables",
       "url": "https://datatables.net",
-      "version": "1.11.5"
+      "version": "1.12.1"
     },
     "plotly": {
       "name": "Plotly",
       "url": "https://plotly.com/javascript/getting-started",
-      "version": "2.11.1"
+      "version": "2.12.1"
     }
   },
   "button": {

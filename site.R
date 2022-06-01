@@ -14,6 +14,7 @@ page_navbar(
   title = "Virginia Department of Health Data Commons",
   logo = "icon.svg",
   input_button("Reset", "reset_selection", "reset.selection", class = "btn-link", note = "Reset the menu inputs to their defaults."),
+  input_button("Filter", "filter", "open.filter", class = "btn-link"),
   list(
     name = "Settings",
     backdrop = "false",
@@ -47,8 +48,6 @@ page_navbar(
           "Selected Region are filtered by region selection."
         )
       ),
-      input_number("Variable Min", "variable_min", floating_label = FALSE),
-      input_number("Variable Max", "variable_max", floating_label = FALSE),
       '<p class="section-heading">Map Options</p>',
       input_switch("Show Background Shapes", default_on = TRUE, id = "settings.background_shapes"),
       input_select(
@@ -154,31 +153,9 @@ page_menu(
       )
     )
   ),
-  page_section(
-    type = "col",
-    page_section(
-      type = "row",
-      wraps = "col",
-      input_number(
-        "First Year", "min_year", default = "min", max = "max_year", dataview = "primary_view",
-        note = paste(
-          "First year to display in the plot and rank table, between the variable's first",
-          "available year and the specified last year."
-        )
-      ),
-      input_number(
-        "Last Year", "max_year", default = "max", min = "min_year", dataview = "primary_view",
-        note = paste(
-          "Last year to display in the plot and rank table, between the specified first year",
-          "and variable's last available year."
-        )
-      ),
-      breakpoints = "md"
-    )
-  ),
   position = "top",
   default_open = TRUE,
-  sizes = c(1, NA, 1, NA, 3)
+  sizes = c(1, NA, 1, NA)
 )
 
 ## `input_variable` can be used to set up logical controls
@@ -203,23 +180,7 @@ input_dataview(
   dataset = "shapes",
   ids = "selected_region",
   features = c(type = "region_type"),
-  variables = list(
-    list(variable = "selected_variable", type = "<=", value = "variable_min"),
-    list(variable = "selected_variable", type = ">=", value = "variable_max")
-  ),
   time_agg = "selected_year",
-  time_filters = list(
-    list(
-      variable = "time",
-      type = ">=",
-      value = "min_year"
-    ),
-    list(
-      variable = "time",
-      type = "<=",
-      value = "max_year"
-    )
-  )
 )
 
 # use `page_section` to build the page's layout
@@ -242,7 +203,7 @@ page_section(
   page_section(
     type = "container-xsm",
     input_number(
-      "Selected Year", min = "min_year", max = "max_year", default = "max",
+      "Selected Year", min = "filter.time_min", max = "filter.time_max", default = "max",
       id = "selected_year", buttons = TRUE, note = paste(
         "Year of the selected variable to color the map shapes and plot elements by, and to show on hover."
       )

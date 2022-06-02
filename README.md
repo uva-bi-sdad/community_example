@@ -1,40 +1,29 @@
 # Community Example
 
-This site was generated with these commands:
+This site was generated from the [Social Data Commons](https://github.com/uva-bi-sdad/social_data_commons)'s
+[community_example](https://github.com/uva-bi-sdad/social_data_commons/blob/main/views/community_example/view.json) view.
+
+To recompile from source repositories, clone that repository, and run this (assuming this repository is in the same directory):
 ```R
 # remotes::install_github("uva-bi-sdad/community")
 library(community)
 
-# run from where you want the site files, or set `dir`
-init_site('Virginia Department of Health Dashboard', with_data = TRUE)
+# clone/pull the data repositories
+datacommons_refresh("../social_data_commons")
 
-# reformat original files, and output to the current working directory
-# (in this case, the original files were moved to a subdirectory of the output directory first)
-data_reformat_sdad("docs/data/original", out = "docs/data")
-
-# then run
-data_add(
-  c(
-    district = "health_district.csv",
-    county = "county.csv",
-    tract = "tract.csv"
-  ),
-  rep(list(list(
-    ids = list(
-      variable = 'ID',
-      map = 'https://uva-bi-sdad.github.io/community/dist/shapes/VA/virginia_2010.json'
-    ),
-    time = 'time',
-    variables = 'measure_info.json'
-  )), 3),
-  dir = 'docs/data',
-  refresh = TRUE
+# rebuild the view
+datacommons_view(
+  "../social_data_commons", "community_example", entity_info = NULL, prefer_repo = TRUE,
+  measure_info = list(
+    "_references" = jsonlite::read_json("../social_data_commons/views/community_example/references.json")
+  )
 )
+```
 
-# specify variables if you want to only include a subset
-meta <- jsonlite::read_json('docs/data/measure_info.json')
-
-# edit site.R, and add some styling to docs/style.css, then run
-# (add `bundle_data = TRUE` or run `npm start` from a console to run locally)
-site_build(variables = c('ID', names(meta)))
+To run the site locally, run this:
+```R
+site_build(
+  "../community_example", version = "dev", serve = TRUE,
+  endpoint = "https://vdh-data-commons.netlify.app/api"
+)
 ```

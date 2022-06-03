@@ -80,6 +80,11 @@
     "repository": "uva-bi-sdad/dc.broadbandnow.broadband.prices",
     "files": [
       {
+        "location": "data",
+        "date": "2022-06-02T15:42:49Z",
+        "size": 94172,
+        "sha": "54c93cc55454803e54b408bfd4fbbd7e647732b1",
+        "md5": "10c66feb66a0587f94ce6146c91ead39",
         "baseurl": "https://github.com/uva-bi-sdad/dc.broadbandnow.broadband.prices"
       }
     ]
@@ -127,10 +132,10 @@
     "files": [
       {
         "location": "data",
-        "date": "2022-04-12T02:11:15Z",
-        "size": 11992,
-        "sha": "a868de16f6395b06a30ea555d255db9bc6afcb9f",
-        "md5": "94f3cba884057acc9d6a0f77e411bf24",
+        "date": "2022-06-02T07:33:38Z",
+        "size": 53704,
+        "sha": "6e066c42e4ce4c82d3edb24271491c5338e2e3d1",
+        "md5": "8b2c59e0c4d6fbc308cbe3a7ad88a43a",
         "baseurl": "https://github.com/uva-bi-sdad/dc.food.insecurity"
       }
     ]
@@ -152,6 +157,11 @@
     "repository": "uva-bi-sdad/dc.hifld.facilityaccess",
     "files": [
       {
+        "location": "data",
+        "date": "2022-06-02T14:15:51Z",
+        "size": 106168,
+        "sha": "1bb7e7e2a4e3709633299a79dac564983b717e1a",
+        "md5": "5c154d05806561663fc9cddbd21062c3",
         "baseurl": "https://github.com/uva-bi-sdad/dc.hifld.facilityaccess"
       },
       {

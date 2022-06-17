@@ -13,7 +13,7 @@ data_add(
     ),
     time = "time",
     variables = "measure_info.json"
-  )), 3), 
+  )), 3),
   dir = "../community_example/docs/data",
   clean = TRUE,
   refresh = TRUE

@@ -39,8 +39,8 @@ page_navbar(
         note = "Determines whether and on what the color scale should be centered."
       ),
       input_select(
-        "Summary Level", options = c("dataset", "filtered", "all"), default = "dataset",
-        display = c("All Regions", "Selected Region Types", "Selected Region"), id = "settings.summary_selection",
+        "Summary Level", options = c("dataset", "filtered", "ids", "all"), default = "dataset",
+        display = c("All Regions", "Selected Region Types", "Selected Super-Region", "Showing Regions"), id = "settings.summary_selection",
         floating_label = FALSE,
         note = paste(
           "Determines which regions are included in summaries for box-plots and color scaling;",
@@ -49,6 +49,7 @@ page_navbar(
         )
       ),
       '<p class="section-heading">Map Options</p>',
+      input_switch("Show Overlay", default_on = TRUE, id = "settings.map_overlay"),
       input_switch("Show Background Shapes", default_on = TRUE, id = "settings.background_shapes"),
       input_select(
         "Animations", c("fly", "zoom", "none"), "fly",
@@ -58,6 +59,10 @@ page_navbar(
       input_number(
         "Outline Weight", "settings.polygon_outline", default = 1.5, step = .5, floating_label = FALSE,
         note = "Thickness of the outline around region shapes."
+      ),
+      input_number(
+        "Overlay Circle Size", "settings.circle_radius", default = 2500, step = 100, floating_label = FALSE,
+        note = "Radius of the circles that are parts of overlays."
       ),
       '<p class="section-heading">Plot Options</p>',
       input_select("Plot Type", c("scatter", "bar"), "scatter", id = "plot_type", floating_label = FALSE),
@@ -217,6 +222,7 @@ page_section(
       list(
         list(
           name = "tract",
+          time = 2010,
           url = paste0(
             "https://raw.githubusercontent.com/uva-bi-sdad/dc.geographies/main/data/",
             "va_geo_census_cb_2010_census_tracts/distribution/va_geo_census_cb_2010_census_tracts.geojson"
@@ -224,9 +230,26 @@ page_section(
         ),
         list(
           name = "county",
+          time = 2010,
           url = paste0(
             "https://raw.githubusercontent.com/uva-bi-sdad/dc.geographies/main/data/",
             "va_geo_census_cb_2010_counties/distribution/va_geo_census_cb_2010_counties.geojson"
+          )
+        ),
+        list(
+          name = "tract",
+          time = 2020,
+          url = paste0(
+            "https://raw.githubusercontent.com/uva-bi-sdad/dc.geographies/main/data/",
+            "va_geo_census_cb_2020_census_tracts/distribution/va_geo_census_cb_2020_census_tracts.geojson"
+          )
+        ),
+        list(
+          name = "county",
+          time = 2020,
+          url = paste0(
+            "https://raw.githubusercontent.com/uva-bi-sdad/dc.geographies/main/data/",
+            "va_geo_census_cb_2020_counties/distribution/va_geo_census_cb_2020_counties.geojson"
           )
         ),
         list(
@@ -237,6 +260,44 @@ page_section(
           )
         )
       ),
+      overlays = {
+        layers <- lapply(2013:2020, function(year) list(
+          url = paste0("https://uva-bi-sdad.github.io/dc.education/points_", year, ".geojson"),
+          time = year
+        ))
+        c(
+          list(
+            list(
+              variable = "nces:schools_2year_per_100k",
+              source = layers,
+              filter = list(feature = "ICLEVEL", operator = "=", value = 2)
+            ),
+            list(
+              variable = "nces:schools_under2year_per_100k",
+              source = layers,
+              filter = list(feature = "ICLEVEL", operator = "=", value = 3)
+            ),
+            list(
+              variable = "nces:schools_2year_min_drivetime",
+              source = layers,
+              filter = list(feature = "ICLEVEL", operator = "=", value = 2)
+            ),
+            list(
+              variable = "nces:schools_under2year_min_drivetime",
+              source = layers,
+              filter = list(feature = "ICLEVEL", operator = "=", value = 3)
+            )
+          ),
+          lapply(c("biomedical", "computer", "engineering", "physical", "science"), function(p) list(
+            variable = paste0("nces:schools_2year_with_", p, "_program_per_100k"),
+            source = layers,
+            filter = list(
+              list(feature = "ICLEVEL", operator = "=", value = 2),
+              list(feature = p, operator = "=", value = 1)
+            )
+          ))
+        )
+      },
       dataview = "primary_view",
       click = "region_select",
       id = "main_map",

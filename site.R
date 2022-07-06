@@ -61,7 +61,7 @@ page_navbar(
         note = "Thickness of the outline around region shapes."
       ),
       input_number(
-        "Overlay Circle Size", "settings.circle_radius", default = 2500, step = 100, floating_label = FALSE,
+        "Overlay Circle Size", "settings.circle_radius", default = 5, step = 1, floating_label = FALSE,
         note = "Radius of the circles that are parts of overlays."
       ),
       '<p class="section-heading">Plot Options</p>',
@@ -125,7 +125,7 @@ page_menu(
       )
     ),
     input_select(
-      "County", options = "ids", dataset = "county", dataview = "primary_view",
+      "County", options = "ids", subset = "full_filter", dataset = "county", dataview = "primary_view",
       id = "selected_county", reset_button = TRUE
     ),
     conditions = c("starting_shapes == district", "starting_shapes != district || selected_district")
@@ -359,7 +359,6 @@ page_section(
         )
       ),
       page_section(
-        wraps = "row",
         output_info(
           title = "features.name",
           default = c(title = "Virginia", body = "Hover over or select a region for more information."),
@@ -377,8 +376,7 @@ page_section(
           subto = c("main_map", "main_plot", "rank_table", "main_legend"),
           variable_info = FALSE
         )
-      ),
-      wraps = "row"
+      )
     )
   ),
   page_section(

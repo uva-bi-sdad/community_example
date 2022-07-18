@@ -51,6 +51,14 @@
 "hospital_access_scores:hos_3sfca",1,133,0,1891
 "hospital_access_scores:hos_cnt",1,133,0,97
 "ID",0,1742,455,31889
+"kotelchuck_apncu_index:adequate",1,781,0,0
+"kotelchuck_apncu_index:adequate_pc",1,781,0,0
+"kotelchuck_apncu_index:adequateplus",1,781,0,0
+"kotelchuck_apncu_index:adequateplus_pc",1,781,0,0
+"kotelchuck_apncu_index:inadequate",1,781,0,0
+"kotelchuck_apncu_index:inadequate_pc",1,781,0,0
+"kotelchuck_apncu_index:intermediate",1,781,0,0
+"kotelchuck_apncu_index:intermediate_pc",1,781,0,0
 "mental_access_scores:mental_10near_median",1,0,0,1890
 "mental_access_scores:mental_3sfca",1,133,35,1891
 "mental_access_scores:mental_cnt",1,133,35,198

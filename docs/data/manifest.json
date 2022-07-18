@@ -330,5 +330,9 @@
         "baseurl": "https://github.com/uva-bi-sdad/dc.webmd.primcare"
       }
     ]
+  },
+  "uva_bi_sdad/temp_health": {
+    "repository": "uva_bi_sdad/temp_health",
+    "files": [{}]
   }
 }

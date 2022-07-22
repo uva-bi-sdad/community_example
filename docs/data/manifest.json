@@ -1,4 +1,30 @@
 {
+  "uva-bi-sdad/dc.acs.broadband": {
+    "repository": "uva-bi-sdad/dc.acs.broadband",
+    "files": [
+      {
+        "location": "data",
+        "date": "2022-03-29T12:20:25Z",
+        "size": 288344,
+        "sha": "658f0364453a39c8dc8769486ec6c87ca1db60d9",
+        "md5": "fe5a034ba486676a25c50b90ee7c65c1",
+        "baseurl": "https://github.com/uva-bi-sdad/dc.acs.broadband"
+      }
+    ]
+  },
+  "uva-bi-sdad/dc.acs.demographics": {
+    "repository": "uva-bi-sdad/dc.acs.demographics",
+    "files": [
+      {
+        "location": "data",
+        "date": "2022-06-08T10:58:04Z",
+        "size": 8879076,
+        "sha": "f724dba94e07262291bbed8ebc59b9dbca5eeed5",
+        "md5": "83734acabf1cf4cbd9c7febef81cfef3",
+        "baseurl": "https://github.com/uva-bi-sdad/dc.acs.demographics"
+      }
+    ]
+  },
   "uva-bi-sdad/dc.acs.education": {
     "repository": "uva-bi-sdad/dc.acs.education",
     "files": [
@@ -11,27 +37,258 @@
       }
     ]
   },
+  "uva-bi-sdad/dc.acs.employment": {
+    "repository": "uva-bi-sdad/dc.acs.employment",
+    "files": [
+      {
+        "location": "data",
+        "date": "2022-03-29T12:20:43Z",
+        "size": 178072,
+        "sha": "5bc46a8f7643af16e7fe251ab9a3fa9b4b60ce3c",
+        "md5": "35fcb3181e983499603d5c160ce32a74",
+        "baseurl": "https://github.com/uva-bi-sdad/dc.acs.employment"
+      }
+    ]
+  },
+  "uva-bi-sdad/dc.acs.health": {
+    "repository": "uva-bi-sdad/dc.acs.health",
+    "files": [
+      {
+        "location": "data",
+        "date": "2022-03-29T12:20:22Z",
+        "size": 202628,
+        "sha": "8588f273fcfbc71e3510b71bd2a389b74e0a2284",
+        "md5": "9848772e50179691fb5367dbb10c6465",
+        "baseurl": "https://github.com/uva-bi-sdad/dc.acs.health"
+      }
+    ]
+  },
+  "uva-bi-sdad/dc.bea.employment": {
+    "repository": "uva-bi-sdad/dc.bea.employment",
+    "files": [
+      {
+        "location": "data",
+        "date": "2022-03-29T12:20:52Z",
+        "size": 12548,
+        "sha": "c7b9cc9d8bbbc03251da488648eae4ca584826ad",
+        "md5": "715c5be2c01baf9e201e52c28a6a0b5b",
+        "baseurl": "https://github.com/uva-bi-sdad/dc.bea.employment"
+      }
+    ]
+  },
+  "uva-bi-sdad/dc.broadbandnow.broadband.prices": {
+    "repository": "uva-bi-sdad/dc.broadbandnow.broadband.prices",
+    "files": [
+      {
+        "location": "data",
+        "date": "2022-06-08T10:57:45Z",
+        "size": 94172,
+        "sha": "54c93cc55454803e54b408bfd4fbbd7e647732b1",
+        "md5": "10c66feb66a0587f94ce6146c91ead39",
+        "baseurl": "https://github.com/uva-bi-sdad/dc.broadbandnow.broadband.prices"
+      }
+    ]
+  },
+  "uva-bi-sdad/dc.chr.preventable.hospitalizations": {
+    "repository": "uva-bi-sdad/dc.chr.preventable.hospitalizations",
+    "files": [
+      {
+        "location": "data",
+        "date": "2022-05-18T10:24:54Z",
+        "size": 6204,
+        "sha": "ac22e681105eeb8ff48db642d81c9eb35d0b9e03",
+        "md5": "6a5361df7664cef2aa52d4a2c88b475e",
+        "baseurl": "https://github.com/uva-bi-sdad/dc.chr.preventable.hospitalizations"
+      }
+    ]
+  },
+  "uva-bi-sdad/dc.dss.daycare": {
+    "repository": "uva-bi-sdad/dc.dss.daycare",
+    "files": [
+      {
+        "location": "data",
+        "date": "2022-05-18T10:25:07Z",
+        "size": 210620,
+        "sha": "3687a7f7147ae7b148a7208ee8edffc4e03dbda8",
+        "md5": "115bf6bc8584535ac0ff81758bf611e4",
+        "baseurl": "https://github.com/uva-bi-sdad/dc.dss.daycare"
+      }
+    ]
+  },
+  "uva-bi-sdad/dc.education": {
+    "repository": "uva-bi-sdad/dc.education",
+    "files": [
+      {
+        "location": "data/distribution/",
+        "date": "2022-07-22T12:26:47Z",
+        "size": 6916980,
+        "sha": "a1dfdae419a1c4f4191ea27dbe6f0bd11249e3ad",
+        "md5": "1fecfe33bbc7bde613504584431b4e40"
+      }
+    ]
+  },
+  "uva-bi-sdad/dc.food.insecurity": {
+    "repository": "uva-bi-sdad/dc.food.insecurity",
+    "files": [
+      {
+        "location": "data",
+        "date": "2022-06-08T10:58:02Z",
+        "size": 53704,
+        "sha": "6e066c42e4ce4c82d3edb24271491c5338e2e3d1",
+        "md5": "8b2c59e0c4d6fbc308cbe3a7ad88a43a",
+        "baseurl": "https://github.com/uva-bi-sdad/dc.food.insecurity"
+      }
+    ]
+  },
+  "uva-bi-sdad/dc.hifld.ems": {
+    "repository": "uva-bi-sdad/dc.hifld.ems",
+    "files": [
+      {
+        "location": "data",
+        "date": "2022-03-29T12:20:13Z",
+        "size": 423784,
+        "sha": "05f3a58a54f4378ab533b228bb6856d27a282ce6",
+        "md5": "3c01808dd857cf16c90c8321ae206718",
+        "baseurl": "https://github.com/uva-bi-sdad/dc.hifld.ems"
+      }
+    ]
+  },
+  "uva-bi-sdad/dc.hifld.facilityaccess": {
+    "repository": "uva-bi-sdad/dc.hifld.facilityaccess",
+    "files": [
+      {
+        "location": "data",
+        "date": "2022-06-08T10:57:41Z",
+        "size": 106168,
+        "sha": "1bb7e7e2a4e3709633299a79dac564983b717e1a",
+        "md5": "5c154d05806561663fc9cddbd21062c3",
+        "baseurl": "https://github.com/uva-bi-sdad/dc.hifld.facilityaccess"
+      },
+      {
+        "location": "data",
+        "date": "2022-03-29T12:20:16Z",
+        "size": 102540,
+        "sha": "a03d2695af0aa0e1f757362d2f1bd93a5069f0bc",
+        "md5": "6e0b85fd5ae790c70fd75e93fa6b27ff",
+        "baseurl": "https://github.com/uva-bi-sdad/dc.hifld.facilityaccess"
+      }
+    ]
+  },
+  "uva-bi-sdad/dc.hifld.hosp": {
+    "repository": "uva-bi-sdad/dc.hifld.hosp",
+    "files": [
+      {
+        "baseurl": "https://github.com/uva-bi-sdad/dc.hifld.hosp"
+      }
+    ]
+  },
+  "uva-bi-sdad/dc.meps.acs.health.literacy": {
+    "repository": "uva-bi-sdad/dc.meps.acs.health.literacy",
+    "files": [
+      {
+        "location": "data",
+        "date": "2022-03-29T12:20:40Z",
+        "size": 13800,
+        "sha": "9c1df77e4de79ba601acb07deaeca42a9acf8798",
+        "md5": "14a42ebf428eed059434b60fcc567e75",
+        "baseurl": "https://github.com/uva-bi-sdad/dc.meps.acs.health.literacy"
+      }
+    ]
+  },
+  "uva-bi-sdad/dc.ookla.broadband": {
+    "repository": "uva-bi-sdad/dc.ookla.broadband",
+    "files": [
+      {
+        "location": "data",
+        "date": "2022-03-29T12:20:28Z",
+        "size": 3320496,
+        "sha": "0221c8235743af2a641752275250413686ea2127",
+        "md5": "822a31ea38e56e6c177dbbd095798c26",
+        "baseurl": "https://github.com/uva-bi-sdad/dc.ookla.broadband"
+      }
+    ]
+  },
+  "uva-bi-sdad/dc.sdad.dei": {
+    "repository": "uva-bi-sdad/dc.sdad.dei",
+    "files": [
+      {
+        "location": "data",
+        "date": "2022-03-29T12:20:23Z",
+        "size": 1129004,
+        "sha": "f4140a96ac2c10d6fe9d9f9b7e37eec71e14e9c6",
+        "md5": "b7eafd7ce4ef2872eae0cd1ce80026d7",
+        "baseurl": "https://github.com/uva-bi-sdad/dc.sdad.dei"
+      }
+    ]
+  },
+  "uva-bi-sdad/dc.sdad.health.outcomes": {
+    "repository": "uva-bi-sdad/dc.sdad.health.outcomes",
+    "files": [
+      {
+        "location": "data",
+        "date": "2022-03-29T12:20:20Z",
+        "size": 171304,
+        "sha": "bf6e02673d627c61df5cc507ecb8a6eb413bb302",
+        "md5": "12541f8a6e55d3940f320bf4b0dfabf8",
+        "baseurl": "https://github.com/uva-bi-sdad/dc.sdad.health.outcomes"
+      }
+    ]
+  },
+  "uva-bi-sdad/dc.vdh.drug.overdose": {
+    "repository": "uva-bi-sdad/dc.vdh.drug.overdose",
+    "files": [
+      {
+        "location": "data",
+        "date": "2022-03-29T12:20:18Z",
+        "size": 11300,
+        "sha": "8d0c5854f0823f7f92cec9da89e3be1597092cf5",
+        "md5": "836e3952e4ac1192019eb43bc103c255",
+        "baseurl": "https://github.com/uva-bi-sdad/dc.vdh.drug.overdose"
+      }
+    ]
+  },
+  "uva-bi-sdad/dc.vdoe.reading.scores": {
+    "repository": "uva-bi-sdad/dc.vdoe.reading.scores",
+    "files": [
+      {
+        "location": "data",
+        "date": "2022-03-29T12:20:44Z",
+        "size": 7328,
+        "sha": "d4f2778ed488a27970c132b726c90f0f3c11a9c7",
+        "md5": "7dfe6fd85bf3e26b68d93f2863a8f367",
+        "baseurl": "https://github.com/uva-bi-sdad/dc.vdoe.reading.scores"
+      }
+    ]
+  },
+  "uva-bi-sdad/dc.webmd.dental": {
+    "repository": "uva-bi-sdad/dc.webmd.dental",
+    "files": [
+      {
+        "location": "data",
+        "date": "2022-03-29T12:20:04Z",
+        "size": 428224,
+        "sha": "806b2e04f3057052ce69b879a2397c4f081c8c5a",
+        "md5": "cab8a5830904f36d21e9a65b2210461a",
+        "baseurl": "https://github.com/uva-bi-sdad/dc.webmd.dental"
+      }
+    ]
+  },
+  "uva-bi-sdad/dc.webmd.obgyn": {
+    "repository": "uva-bi-sdad/dc.webmd.obgyn",
+    "files": [
+      {
+        "location": "data",
+        "date": "2022-03-29T12:20:06Z",
+        "size": 422132,
+        "sha": "e9ee9c8d504a0ca6bb66ebf21782f8d93b365f16",
+        "md5": "e7bd4cc3a70c96292d9bcaa60c78c316",
+        "baseurl": "https://github.com/uva-bi-sdad/dc.webmd.obgyn"
+      }
+    ]
+  },
   "uva-bi-sdad/dc.webmd.pediatrics": {
     "repository": "uva-bi-sdad/dc.webmd.pediatrics",
     "files": [
-      {
-        "baseurl": "https://github.com/uva-bi-sdad/dc.webmd.pediatrics"
-      },
-      {
-        "baseurl": "https://github.com/uva-bi-sdad/dc.webmd.pediatrics"
-      },
-      {
-        "baseurl": "https://github.com/uva-bi-sdad/dc.webmd.pediatrics"
-      },
-      {
-        "baseurl": "https://github.com/uva-bi-sdad/dc.webmd.pediatrics"
-      },
-      {
-        "baseurl": "https://github.com/uva-bi-sdad/dc.webmd.pediatrics"
-      },
-      {
-        "baseurl": "https://github.com/uva-bi-sdad/dc.webmd.pediatrics"
-      },
       {
         "location": "data",
         "date": "2022-03-29T12:20:00Z",
@@ -39,54 +296,19 @@
         "sha": "f0d8685623f852e8ec7a3fe1503658b564830d3e",
         "md5": "39ce3b7644741a96bc1393dc23cbb291",
         "baseurl": "https://github.com/uva-bi-sdad/dc.webmd.pediatrics"
-      },
+      }
+    ]
+  },
+  "uva-bi-sdad/dc.webmd.primcare": {
+    "repository": "uva-bi-sdad/dc.webmd.primcare",
+    "files": [
       {
-        "baseurl": "https://github.com/uva-bi-sdad/dc.webmd.pediatrics"
-      },
-      {
-        "baseurl": "https://github.com/uva-bi-sdad/dc.webmd.pediatrics"
-      },
-      {
-        "baseurl": "https://github.com/uva-bi-sdad/dc.webmd.pediatrics"
-      },
-      {
-        "baseurl": "https://github.com/uva-bi-sdad/dc.webmd.pediatrics"
-      },
-      {
-        "baseurl": "https://github.com/uva-bi-sdad/dc.webmd.pediatrics"
-      },
-      {
-        "baseurl": "https://github.com/uva-bi-sdad/dc.webmd.pediatrics"
-      },
-      {
-        "baseurl": "https://github.com/uva-bi-sdad/dc.webmd.pediatrics"
-      },
-      {
-        "baseurl": "https://github.com/uva-bi-sdad/dc.webmd.pediatrics"
-      },
-      {
-        "baseurl": "https://github.com/uva-bi-sdad/dc.webmd.pediatrics"
-      },
-      {
-        "baseurl": "https://github.com/uva-bi-sdad/dc.webmd.pediatrics"
-      },
-      {
-        "baseurl": "https://github.com/uva-bi-sdad/dc.webmd.pediatrics"
-      },
-      {
-        "baseurl": "https://github.com/uva-bi-sdad/dc.webmd.pediatrics"
-      },
-      {
-        "baseurl": "https://github.com/uva-bi-sdad/dc.webmd.pediatrics"
-      },
-      {
-        "baseurl": "https://github.com/uva-bi-sdad/dc.webmd.pediatrics"
-      },
-      {
-        "baseurl": "https://github.com/uva-bi-sdad/dc.webmd.pediatrics"
-      },
-      {
-        "baseurl": "https://github.com/uva-bi-sdad/dc.webmd.pediatrics"
+        "location": "data",
+        "date": "2022-03-29T12:20:02Z",
+        "size": 440988,
+        "sha": "a797602fcb5145d147a174c9cb92824621b32b6a",
+        "md5": "d9fdbe5d4f0f3c58f88476aa0143d9c5",
+        "baseurl": "https://github.com/uva-bi-sdad/dc.webmd.primcare"
       }
     ]
   },

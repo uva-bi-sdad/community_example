@@ -41,6 +41,9 @@
 "food_insecurity_and_cost:Food_Insecurity_Rate",1,1330,350,0
 "food_insecurity_and_cost:Num_Child_Food_Insecure",1,1330,350,0
 "health_literacy_estimates:health_literacy_estimate",1,133,35,1897
+"hifld:hospital_beds_per_100k",1,133,35,2175
+"hifld:hospitals",1,133,35,2175
+"hifld:hospitals_min_drivetime",1,133,35,2175
 "ID",0,1742,455,31889
 "kotelchuck_apncu_index:adequate",1,925,0,0
 "kotelchuck_apncu_index:adequate_pc",1,925,0,0

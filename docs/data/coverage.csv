@@ -20,7 +20,6 @@
 "daycare_access_scores:daycare_3sfca",1,133,35,1863
 "daycare_access_scores:daycare_cnt",1,133,35,1539
 "daycare_access_scores:daycare_median_drive_time_top5",1,133,35,1891
-"dei:norm_dei",1,399,105,5598
 "demographics:perc_20_64",1,1468,385,19812
 "demographics:perc_65_plus",1,1468,385,19812
 "demographics:perc_AAPI",1,1468,385,19812
@@ -41,9 +40,12 @@
 "food_insecurity_and_cost:Food_Insecurity_Rate",1,1330,350,0
 "food_insecurity_and_cost:Num_Child_Food_Insecure",1,1330,350,0
 "health_literacy_estimates:health_literacy_estimate",1,133,35,1897
-"hifld:hospital_beds_per_100k",1,133,35,2175
-"hifld:hospitals",1,133,35,2175
-"hifld:hospitals_min_drivetime",1,133,35,2175
+"hhs:childrens_hospitals_min_drivetime",1,133,35,2175
+"hhs:childrens_hospitals_per_100k",1,133,35,2175
+"hhs:hospitals_min_drivetime",1,133,35,2175
+"hhs:hospitals_per_100k",1,133,35,2175
+"hhs:intensive_care_min_drivetime",1,133,35,2175
+"hhs:intensive_care_per_100k",1,133,35,2175
 "ID",0,1742,455,31889
 "kotelchuck_apncu_index:adequate",1,925,0,0
 "kotelchuck_apncu_index:adequate_pc",1,925,0,0
@@ -69,7 +71,7 @@
 "perc_income_on_internet:perc_income_avg_nat_package",1,133,35,1861
 "perc_income_on_internet:perc_income_min_price_100",1,130,35,1767
 "perc_income_on_internet:perc_income_min_price_25",1,130,35,1767
-"post_hs_education:perc_post_hs_edu",1,1334,350,18733
+"post_hs_education:perc_post_hs_edu",1,1334,0,18733
 "preventable_hospitalizations:prevent_hosp_rate",1,903,182,0
 "speed_measurements:avg_down_using_devices",1,399,0,5657
 "substance_access_scores:subs_10near_median",1,0,0,1890

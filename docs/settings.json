@@ -9556,7 +9556,9 @@
   },
   "select": {
     "selected_variable": {
-      "category": "variable_type"
+      "filters": {
+        "category": "variable_type"
+      }
     }
   },
   "datatable": {
@@ -10154,6 +10156,7 @@
         "zoom": 7,
         "height": "430px",
         "zoomAnimation": "settings.map_zoom_animation",
+        "overlays_from_measures": true,
         "subto": ["main_plot", "rank_table", "main_legend"],
         "background_shapes": "county"
       },

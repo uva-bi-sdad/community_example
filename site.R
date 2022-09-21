@@ -140,19 +140,10 @@ page_menu(
   page_section(
     type = "col",
     wraps = "row form-row",
-    {
-      vars <- jsonlite::read_json('../community_example/docs/data/measure_info.json')
-      varcats <- Filter(nchar, unique(vapply(vars, function(v) if (is.null(v$category)) "" else v$category, "")))
-      input_select(
-        "Variable Category", options = varcats, default = "Health", id = "variable_type",
-        note = "Determines which variables are selectable and show up in the Data table."
-      )
-    },
     input_select(
-      "Variable", options = "variables",
+      "Variable", options = "variables", group_feature = "category",
       default = "no_health_insurance_19_to_64:hlth_ins_pct", depends = "shapes",
-      id = "selected_variable", filters = list(category = "variable_type"),
-      note = paste(
+      id = "selected_variable", note = paste(
         "Determines which variable is shown on the plot's y-axis, in the rank table,",
         "and info fields, and used to color map polygons and plot elements."
       )
@@ -420,10 +411,11 @@ page_section(
         "settings.palette", dataview = "primary_view", click = "region_select",
         subto = c("main_map", "main_plot", "rank_table"), id = "main_legend"
       ),
+      output_info(body = "summary", dataview = "primary_view"),
       output_table("selected_variable", dataview = "primary_view", options = list(
         info = FALSE,
         searching = FALSE,
-        scrollY = 300,
+        scrollY = 250,
         dom = "<'row't>"
       ), id = "rank_table", click = "region_select", subto = c("main_map", "main_plot", "main_legend"))
     ),

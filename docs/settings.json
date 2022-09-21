@@ -9404,6 +9404,20 @@
       "dataview": "primary_view",
       "subto": ["main_map", "main_plot", "rank_table", "main_legend"],
       "variable_info": false
+    },
+    "info19": {
+      "title": "",
+      "body": [
+        {
+          "name": "",
+          "value": "summary",
+          "style": "table"
+        }
+      ],
+      "default": [],
+      "floating": false,
+      "dataview": "primary_view",
+      "variable_info": false
     }
   },
   "text": {
@@ -9556,16 +9570,14 @@
   },
   "select": {
     "selected_variable": {
-      "filters": {
-        "category": "variable_type"
-      }
+      "group": "category"
     }
   },
   "datatable": {
     "rank_table": {
       "info": false,
       "searching": false,
-      "scrollY": 300,
+      "scrollY": 250,
       "dom": "<'row't>",
       "variables": "selected_variable",
       "subto": ["main_map", "main_plot", "main_legend"],
@@ -10181,7 +10193,7 @@
     "bootstrap": {
       "name": "Bootstrap",
       "url": "https://getbootstrap.com",
-      "version": "5.2.0-beta1"
+      "version": "5.2.1"
     },
     "colorbrewer": {
       "name": "ColorBrewer",
@@ -10221,7 +10233,7 @@
     "plotly": {
       "name": "Plotly",
       "url": "https://plotly.com/javascript/getting-started",
-      "version": "2.12.1"
+      "version": "2.14.0"
     }
   },
   "button": {

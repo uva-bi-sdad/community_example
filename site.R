@@ -118,15 +118,15 @@ page_menu(
   page_section(
     type = "col",
     wraps = "row form-row",
-    input_select(
+    input_combobox(
       "Health District", options = "ids", dataset = "district", dataview = "primary_view",
-      id = "selected_district", reset_button = TRUE, note = paste(
+      id = "selected_district", clearable = TRUE, note = paste(
         "Health districts are sets of counties defined by the Virginia Department of Health."
       )
     ),
-    input_select(
+    input_combobox(
       "County", options = "ids", subset = "full_filter", dataset = "county", dataview = "primary_view",
-      id = "selected_county", reset_button = TRUE
+      id = "selected_county", clearable = TRUE
     ),
     conditions = c("starting_shapes == district", "starting_shapes != district || selected_district")
   ),
@@ -140,7 +140,7 @@ page_menu(
   page_section(
     type = "col",
     wraps = "row form-row",
-    input_select(
+    input_combobox(
       "Variable", options = "variables", group_feature = "category",
       default = "no_health_insurance_19_to_64:hlth_ins_pct", depends = "shapes",
       id = "selected_variable", note = paste(

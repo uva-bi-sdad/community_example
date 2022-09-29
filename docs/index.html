@@ -206,7 +206,7 @@ const site = {"settings":{"digits":2,"summary_selection":"all","color_by_order":
 <div class="wrapper checkbox-wrapper">
 <fieldset>
 <legend>Starting Layer</legend>
-<div class="auto-input" role="group" auto-type="radio" id="starting_shapes" default="1"  aria-description="Which geographies to show at the state level.">
+<div class="auto-input" role="group" auto-type="radio" id="starting_shapes" default="1"  aria-description="Which geographies to show at the state level." switch="FALSE">
 <div class="form-check">
 <input type="radio" autocomplete="off" class="form-check-input" name="starting_shapes_options" id="starting_shapes_option1" value="district" checked>
 <label class="form-check-label" for="starting_shapes_option1">Districts</label>
@@ -228,7 +228,7 @@ const site = {"settings":{"digits":2,"summary_selection":"all","color_by_order":
 <div class="row form-row" id="sec31">
 <div class="wrapper combobox-wrapper">
 <div class=" form-floating">
-<div role="combobox" class="auto-input form-select combobox combobox-component" auto-type="combobox" aria-haspopup="listbox" aria-expanded="false" aria-labelledby="selected_district-label" aria-controls="selected_district-listbox" id="selected_district" auto-options="ids" default="-1" aria-description="Health districts are sets of counties defined by the Virginia Department of Health." data-view="primary_view" subset="all" dataset="district"><div class="combobox-selection combobox-component"></div><input class="combobox-input combobox-component" type="text" aria-labelledby="selected_district-label" id="selected_district-input"><button type="button" class="btn-close" title="clear selection"></button></div>
+<div role="combobox" class="auto-input form-select combobox combobox-component" auto-type="combobox" aria-haspopup="listbox" aria-expanded="false" aria-labelledby="selected_district-label" aria-controls="selected_district-listbox" id="selected_district" auto-options="ids" default="-1" aria-description="Health districts are sets of counties defined by the Virginia Department of Health." data-view="primary_view" subset="all" dataset="district"><div class="combobox-selection combobox-component"><span class="combobox-component"></span><input class="combobox-input combobox-component" type="text" aria-labelledby="selected_district-label" id="selected_district-input"></div><button type="button" class="btn-close" title="clear selection"></button></div>
 <div class="combobox-options combobox-component" role="listbox" tabindex="-1" id="selected_district-listbox">
 </div>
 <label id="selected_district-label">Health District</label>
@@ -238,7 +238,7 @@ const site = {"settings":{"digits":2,"summary_selection":"all","color_by_order":
 <div class="row form-row" id="sec32">
 <div class="wrapper combobox-wrapper">
 <div class=" form-floating">
-<div role="combobox" class="auto-input form-select combobox combobox-component" auto-type="combobox" aria-haspopup="listbox" aria-expanded="false" aria-labelledby="selected_county-label" aria-controls="selected_county-listbox" id="selected_county" auto-options="ids" default="-1" data-view="primary_view" subset="full_filter" dataset="county"><div class="combobox-selection combobox-component"></div><input class="combobox-input combobox-component" type="text" aria-labelledby="selected_county-label" id="selected_county-input"><button type="button" class="btn-close" title="clear selection"></button></div>
+<div role="combobox" class="auto-input form-select combobox combobox-component" auto-type="combobox" aria-haspopup="listbox" aria-expanded="false" aria-labelledby="selected_county-label" aria-controls="selected_county-listbox" id="selected_county" auto-options="ids" default="-1" data-view="primary_view" subset="full_filter" dataset="county"><div class="combobox-selection combobox-component"><span class="combobox-component"></span><input class="combobox-input combobox-component" type="text" aria-labelledby="selected_county-label" id="selected_county-input"></div><button type="button" class="btn-close" title="clear selection"></button></div>
 <div class="combobox-options combobox-component" role="listbox" tabindex="-1" id="selected_county-listbox">
 </div>
 <label id="selected_county-label">County</label>
@@ -251,7 +251,7 @@ const site = {"settings":{"digits":2,"summary_selection":"all","color_by_order":
 <div class="wrapper checkbox-wrapper">
 <fieldset>
 <legend>Region Types</legend>
-<div class="auto-input" role="group" auto-type="checkbox" id="region_type" default="rural,mixed,urban"  aria-description="Which region types to include. Types are defined at the county level, so only health districts have mixed types, and all tracts are of the same type as their county.">
+<div class="auto-input" role="group" auto-type="checkbox" id="region_type" default="rural,mixed,urban"  aria-description="Which region types to include. Types are defined at the county level, so only health districts have mixed types, and all tracts are of the same type as their county." switch="TRUE">
 <div class="form-check form-switch">
 <input type="checkbox" autocomplete="off" class="form-check-input" name="region_type_options" id="region_type_option1" role="switch" value="rural" checked>
 <label class="form-check-label" for="region_type_option1">rural</label>
@@ -273,7 +273,7 @@ const site = {"settings":{"digits":2,"summary_selection":"all","color_by_order":
 <div class="row form-row">
 <div class="wrapper combobox-wrapper">
 <div class=" form-floating">
-<div role="combobox" class="auto-input form-select combobox combobox-component" auto-type="combobox" aria-haspopup="listbox" aria-expanded="false" aria-labelledby="selected_variable-label" aria-controls="selected_variable-listbox" id="selected_variable" auto-options="variables" default="no_health_insurance_19_to_64:hlth_ins_pct" aria-description="Determines which variable is shown on the plot's y-axis, in the rank table, and info fields, and used to color map polygons and plot elements." subset="all" depends="shapes"><div class="combobox-selection combobox-component"></div><input class="combobox-input combobox-component" type="text" aria-labelledby="selected_variable-label" id="selected_variable-input"></div>
+<div role="combobox" class="auto-input form-select combobox combobox-component" auto-type="combobox" aria-haspopup="listbox" aria-expanded="false" aria-labelledby="selected_variable-label" aria-controls="selected_variable-listbox" id="selected_variable" auto-options="variables" default="no_health_insurance_19_to_64:hlth_ins_pct" aria-description="Determines which variable is shown on the plot's y-axis, in the rank table, and info fields, and used to color map polygons and plot elements." subset="all" depends="shapes"><div class="combobox-selection combobox-component"><span class="combobox-component"></span><input class="combobox-input combobox-component" type="text" aria-labelledby="selected_variable-label" id="selected_variable-input"></div></div>
 <div class="combobox-options combobox-component" role="listbox" tabindex="-1" id="selected_variable-listbox">
 </div>
 <label id="selected_variable-label">Variable</label>

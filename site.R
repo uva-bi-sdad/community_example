@@ -125,7 +125,7 @@ page_menu(
       )
     ),
     input_combobox(
-      "County", options = "ids", subset = "full_filter", dataset = "county", dataview = "primary_view",
+      "County", options = "ids", dataset = "county", dataview = "primary_view",
       id = "selected_county", clearable = TRUE
     ),
     conditions = c("starting_shapes == district", "starting_shapes != district || selected_district")

@@ -20,7 +20,7 @@ const site = {"settings":{"digits":2,"summary_selection":"all","color_by_order":
 <script type="application/javascript" src="data_handler.min.js" async></script>
 <link href="https://uva-bi-sdad.github.io/community/dist/css/community.min.css" rel="preload" as="style" media="all" onload="this.onload=null;this.rel='stylesheet'">
 <link href="style.css" rel="preload" as="style" media="all" onload="this.onload=null;this.rel='stylesheet'">
-<meta name="generator" content="community v0.0.1.103" />
+<meta name="generator" content="community v0.0.1.104" />
 <title>Virginia Department of Health Data Commons</title>
 <meta name="title" content="Virginia Department of Health Data Commons">
 <meta name="description" content="Virginia Department of Health Data Commons.">
@@ -58,7 +58,7 @@ const site = {"settings":{"digits":2,"summary_selection":"all","color_by_order":
 <div class="wrapper select-wrapper">
 <label for="settings.palette">Color Palette</label>
 <div class="">
-<select class="auto-input form-select" auto-type="select" id="settings.palette" auto-options="palettes" default="-1" subset="all">
+<select class="auto-input form-select" auto-type="select" id="settings.palette" auto-options="palettes" default="-1" subset="all" selection-subset="full_filter">
 </select>
 </div>
 </div>
@@ -87,7 +87,7 @@ const site = {"settings":{"digits":2,"summary_selection":"all","color_by_order":
 <div class="wrapper select-wrapper">
 <label for="settings.color_scale_center">Color Scale Center</label>
 <div class="">
-<select class="auto-input form-select" auto-type="select" id="settings.color_scale_center"  default="none" aria-description="Determines whether and on what the color scale should be centered." subset="all">
+<select class="auto-input form-select" auto-type="select" id="settings.color_scale_center"  default="none" aria-description="Determines whether and on what the color scale should be centered." subset="all" selection-subset="full_filter">
 <option value="none">None</option>
 <option value="median">Median</option>
 <option value="mean">Mean</option>
@@ -97,7 +97,7 @@ const site = {"settings":{"digits":2,"summary_selection":"all","color_by_order":
 <div class="wrapper select-wrapper">
 <label for="settings.summary_selection">Summary Level</label>
 <div class="">
-<select class="auto-input form-select" auto-type="select" id="settings.summary_selection"  default="dataset" aria-description="Determines which regions are included in summaries for box-plots and color scaling; All-Regions are state-wide, Selected Region Types are filtered by the Region Types input, and Selected Region are filtered by region selection." subset="all">
+<select class="auto-input form-select" auto-type="select" id="settings.summary_selection"  default="dataset" aria-description="Determines which regions are included in summaries for box-plots and color scaling; All-Regions are state-wide, Selected Region Types are filtered by the Region Types input, and Selected Region are filtered by region selection." subset="all" selection-subset="full_filter">
 <option value="dataset">All Regions</option>
 <option value="filtered">Selected Region Types</option>
 <option value="children">Selected Super-Region</option>
@@ -121,7 +121,7 @@ const site = {"settings":{"digits":2,"summary_selection":"all","color_by_order":
 <div class="wrapper select-wrapper">
 <label for="settings.map_animations">Animations</label>
 <div class="">
-<select class="auto-input form-select" auto-type="select" id="settings.map_animations"  default="fly" aria-description="Fly animates the whole move to different regions; Zoom only animates changes in zoom level." subset="all">
+<select class="auto-input form-select" auto-type="select" id="settings.map_animations"  default="fly" aria-description="Fly animates the whole move to different regions; Zoom only animates changes in zoom level." subset="all" selection-subset="full_filter">
 <option value="fly">fly</option>
 <option value="zoom">zoom</option>
 <option value="none">none</option>
@@ -140,7 +140,7 @@ const site = {"settings":{"digits":2,"summary_selection":"all","color_by_order":
 <div class="wrapper select-wrapper">
 <label for="plot_type">Plot Type</label>
 <div class="">
-<select class="auto-input form-select" auto-type="select" id="plot_type"  default="scatter" subset="all">
+<select class="auto-input form-select" auto-type="select" id="plot_type"  default="scatter" subset="all" selection-subset="full_filter">
 <option value="scatter">scatter</option>
 <option value="bar">bar</option>
 </select>
@@ -172,7 +172,7 @@ const site = {"settings":{"digits":2,"summary_selection":"all","color_by_order":
 <div class="wrapper select-wrapper">
 <label for="settings.table_scroll_behavior">Scroll Behavior</label>
 <div class="">
-<select class="auto-input form-select" auto-type="select" id="settings.table_scroll_behavior"  default="auto" subset="all">
+<select class="auto-input form-select" auto-type="select" id="settings.table_scroll_behavior"  default="auto" subset="all" selection-subset="full_filter">
 <option value="instant">instant</option>
 <option value="smooth">smooth</option>
 <option value="auto">auto</option>
@@ -228,7 +228,7 @@ const site = {"settings":{"digits":2,"summary_selection":"all","color_by_order":
 <div class="row form-row" id="sec31">
 <div class="wrapper combobox-wrapper">
 <div class=" form-floating">
-<div role="combobox" class="auto-input form-select combobox combobox-component" auto-type="combobox" aria-haspopup="listbox" aria-expanded="false" aria-labelledby="selected_district-label" aria-controls="selected_district-listbox" id="selected_district" auto-options="ids" default="-1" aria-description="Health districts are sets of counties defined by the Virginia Department of Health." data-view="primary_view" subset="all" dataset="district"><div class="combobox-selection combobox-component"><span class="combobox-component"></span><input class="combobox-input combobox-component" type="text" aria-labelledby="selected_district-label" id="selected_district-input"></div><button type="button" class="btn-close" title="clear selection"></button></div>
+<div role="combobox" class="auto-input form-select combobox combobox-component" auto-type="combobox" aria-haspopup="listbox" aria-expanded="false" aria-labelledby="selected_district-label" aria-controls="selected_district-listbox" id="selected_district" auto-options="ids" default="-1" aria-description="Health districts are sets of counties defined by the Virginia Department of Health." data-view="primary_view" subset="all" selection-subset="full_filter" dataset="district"><div class="combobox-selection combobox-component"><span class="combobox-component"></span><input class="combobox-input combobox-component" type="text" aria-labelledby="selected_district-label" id="selected_district-input" autocomplete="false"></div><button type="button" class="btn-close" title="clear selection"></button></div>
 <div class="combobox-options combobox-component" role="listbox" tabindex="-1" id="selected_district-listbox">
 </div>
 <label id="selected_district-label">Health District</label>
@@ -238,7 +238,7 @@ const site = {"settings":{"digits":2,"summary_selection":"all","color_by_order":
 <div class="row form-row" id="sec32">
 <div class="wrapper combobox-wrapper">
 <div class=" form-floating">
-<div role="combobox" class="auto-input form-select combobox combobox-component" auto-type="combobox" aria-haspopup="listbox" aria-expanded="false" aria-labelledby="selected_county-label" aria-controls="selected_county-listbox" id="selected_county" auto-options="ids" default="-1" data-view="primary_view" subset="full_filter" dataset="county"><div class="combobox-selection combobox-component"><span class="combobox-component"></span><input class="combobox-input combobox-component" type="text" aria-labelledby="selected_county-label" id="selected_county-input"></div><button type="button" class="btn-close" title="clear selection"></button></div>
+<div role="combobox" class="auto-input form-select combobox combobox-component" auto-type="combobox" aria-haspopup="listbox" aria-expanded="false" aria-labelledby="selected_county-label" aria-controls="selected_county-listbox" id="selected_county" auto-options="ids" default="-1" data-view="primary_view" subset="all" selection-subset="full_filter" dataset="county"><div class="combobox-selection combobox-component"><span class="combobox-component"></span><input class="combobox-input combobox-component" type="text" aria-labelledby="selected_county-label" id="selected_county-input" autocomplete="false"></div><button type="button" class="btn-close" title="clear selection"></button></div>
 <div class="combobox-options combobox-component" role="listbox" tabindex="-1" id="selected_county-listbox">
 </div>
 <label id="selected_county-label">County</label>
@@ -273,7 +273,7 @@ const site = {"settings":{"digits":2,"summary_selection":"all","color_by_order":
 <div class="row form-row">
 <div class="wrapper combobox-wrapper">
 <div class=" form-floating">
-<div role="combobox" class="auto-input form-select combobox combobox-component" auto-type="combobox" aria-haspopup="listbox" aria-expanded="false" aria-labelledby="selected_variable-label" aria-controls="selected_variable-listbox" id="selected_variable" auto-options="variables" default="no_health_insurance_19_to_64:hlth_ins_pct" aria-description="Determines which variable is shown on the plot's y-axis, in the rank table, and info fields, and used to color map polygons and plot elements." subset="all" depends="shapes"><div class="combobox-selection combobox-component"><span class="combobox-component"></span><input class="combobox-input combobox-component" type="text" aria-labelledby="selected_variable-label" id="selected_variable-input"></div></div>
+<div role="combobox" class="auto-input form-select combobox combobox-component" auto-type="combobox" aria-haspopup="listbox" aria-expanded="false" aria-labelledby="selected_variable-label" aria-controls="selected_variable-listbox" id="selected_variable" auto-options="variables" default="no_health_insurance_19_to_64:hlth_ins_pct" aria-description="Determines which variable is shown on the plot's y-axis, in the rank table, and info fields, and used to color map polygons and plot elements." subset="all" selection-subset="full_filter" depends="shapes"><div class="combobox-selection combobox-component"><span class="combobox-component"></span><input class="combobox-input combobox-component" type="text" aria-labelledby="selected_variable-label" id="selected_variable-input" autocomplete="false"></div></div>
 <div class="combobox-options combobox-component" role="listbox" tabindex="-1" id="selected_variable-listbox">
 </div>
 <label id="selected_variable-label">Variable</label>
@@ -290,9 +290,11 @@ const site = {"settings":{"digits":2,"summary_selection":"all","color_by_order":
 <p auto-type="text" id="text5" class="auto-output output-text compact"></p>
 <h1 auto-type="text" id="text6" class="auto-output output-text text-center"></h1>
 <div class="container-xsm">
-<div class="wrapper text-wrapper form-floating number-input-row">
-<button role="button" label="decrease value" class="btn number-down">&lt;</button><input type="number" id="selected_year" default="max" aria-description="Year of the selected variable to color the map shapes and plot elements by, and to show on hover." min="filter.time_min" max="filter.time_max" class="form-control auto-input" auto-type="number"><label for="selected_year">Selected Year</label><button role="button" label="increase value" class="btn number-down">&gt;</button>
+<div class="wrapper number-input-row"><button role="button" label="decrease value" class="btn number-down">&lt;</button>
+<div class="wrapper text-wrapper form-floating">
+<input type="number" id="selected_year" default="max" aria-description="Year of the selected variable to color the map shapes and plot elements by, and to show on hover." min="filter.time_min" max="filter.time_max" class="form-control auto-input" auto-type="number"><label for="selected_year">Selected Year</label>
 </div>
+<button role="button" label="increase value" class="btn number-up">&gt;</button></div>
 </div>
 <div class="row">
 <div class="col">
@@ -300,10 +302,10 @@ const site = {"settings":{"digits":2,"summary_selection":"all","color_by_order":
 </div>
 <div class="col-5">
 <div class="d-flex flex-column col align-items-end compact">
-<div class="auto-output text-display" auto-type="info" id="variable_info_pane"></div>
+<div class="auto-output text-display" data-view="primary_view" auto-type="info" id="variable_info_pane"></div>
 <div class="row">
 <div class="col-8">
-<div class="auto-output text-display" auto-type="info" id="info10"></div>
+<div class="auto-output text-display" data-view="primary_view" auto-type="info" id="info10"></div>
 </div>
 <div class="col">
 <div class="row">
@@ -317,8 +319,8 @@ const site = {"settings":{"digits":2,"summary_selection":"all","color_by_order":
 </div>
 </div>
 <div class="row">
-<div class="auto-output text-display" auto-type="info" id="info13"></div>
-<div class="auto-output text-display" auto-type="info" id="info14"></div>
+<div class="auto-output text-display" data-view="primary_view" auto-type="info" id="info13"></div>
+<div class="auto-output text-display" data-view="primary_view" auto-type="info" id="info14"></div>
 </div>
 </div>
 </div>
@@ -338,7 +340,7 @@ const site = {"settings":{"digits":2,"summary_selection":"all","color_by_order":
 <div class="legend-summary"></div>
 </div>
 </div>
-<div class="auto-output text-display" auto-type="info" id="info19"></div>
+<div class="auto-output text-display" data-view="primary_view" auto-type="info" id="info19"></div>
 <table class="auto-output datatables compact" data-view="primary_view" click="region_select" id="rank_table" auto-type="datatable"></table>
 </div>
 </div>

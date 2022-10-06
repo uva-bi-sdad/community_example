@@ -9,7 +9,7 @@ data_add(
   rep(list(list(
     ids = list(
       variable = "ID",
-      map = "https://uva-bi-sdad.github.io/community/dist/shapes/VA/virginia_2010.json"
+      map = "https://uva-bi-sdad.github.io/community/dist/shapes/VA/entity_info.json"
     ),
     time = "time",
     variables = "measure_info.json"

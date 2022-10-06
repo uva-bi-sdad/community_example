@@ -1,290 +1,357 @@
 {
   "uva-bi-sdad/dc.acs.broadband": {
     "repository": "uva-bi-sdad/dc.acs.broadband",
-    "files": [
-      {
-        "location": "data",
-        "date": "2022-08-09T11:50:27Z",
+    "files": {
+      "dcmdva_hdcttrbg_2017_2019_broadband_withoutint_compdev.csv.xz": {
+        "location": "/data",
+        "size": 1668380,
+        "sha": "71612dc75928602a7d0e4550884e8cfe524217c7",
+        "md5": "8b2a6ab14f6c20b9277ee847d2f10a1f",
+        "baseurl": "https://github.com/uva-bi-sdad/dc.acs.broadband"
+      },
+      "va_hdcttr_2017_2019_broadband_withoutint_compdev.csv.xz": {
+        "location": "/data",
         "size": 288344,
         "sha": "658f0364453a39c8dc8769486ec6c87ca1db60d9",
         "md5": "fe5a034ba486676a25c50b90ee7c65c1",
         "baseurl": "https://github.com/uva-bi-sdad/dc.acs.broadband"
       }
-    ]
+    }
   },
   "uva-bi-sdad/dc.acs.demographics": {
     "repository": "uva-bi-sdad/dc.acs.demographics",
-    "files": [
-      {
-        "location": "data",
-        "date": "2022-08-09T11:51:13Z",
+    "files": {
+      "dcmdva_hdcttrbg_acs_2009_2019_demographics.csv.xz": {
+        "location": "/data",
+        "size": 40006688,
+        "sha": "3e9a8e43a070b82ee39dbe7af87798d1b336e77e",
+        "md5": "b17c37ec6f4a5fe3d1846733869e36d5",
+        "baseurl": "https://github.com/uva-bi-sdad/dc.acs.demographics"
+      },
+      "va_hdcttr_acs_2009_2019_demographics.csv.xz": {
+        "location": "/data",
         "size": 8879076,
         "sha": "f724dba94e07262291bbed8ebc59b9dbca5eeed5",
         "md5": "83734acabf1cf4cbd9c7febef81cfef3",
         "baseurl": "https://github.com/uva-bi-sdad/dc.acs.demographics"
       }
-    ]
+    }
+  },
+  "uva-bi-sdad/dc.acs.education": {
+    "repository": "uva-bi-sdad/dc.acs.education",
+    "files": {
+      "ncr_cttr_acs_2010_2019_post_hs_education.csv.xz": {
+        "location": "/data",
+        "size": 174188,
+        "sha": "0c1a838b9d3afcaf1abf248d3a5c74f574c2e324",
+        "md5": "63b3ba738957a70661cf34e74ec2600d"
+      },
+      "va_hdcttr_acs_2010_2019_post_hs_education.csv.xz": {
+        "location": "/data",
+        "size": 302764,
+        "sha": "b71fa5fac32e5c4b18270b81912299898dc5d45f",
+        "md5": "d1db104eee5d29ace9cd7a9b11bf7bc7"
+      }
+    }
   },
   "uva-bi-sdad/dc.acs.employment": {
     "repository": "uva-bi-sdad/dc.acs.employment",
-    "files": [
-      {
-        "location": "data",
-        "date": "2022-08-09T11:50:59Z",
+    "files": {
+      "va_tr_acs_2015_2019_emp_rate.csv.xz": {
+        "location": "/data",
         "size": 178072,
         "sha": "5bc46a8f7643af16e7fe251ab9a3fa9b4b60ce3c",
         "md5": "35fcb3181e983499603d5c160ce32a74",
         "baseurl": "https://github.com/uva-bi-sdad/dc.acs.employment"
       }
-    ]
+    }
   },
   "uva-bi-sdad/dc.acs.health": {
     "repository": "uva-bi-sdad/dc.acs.health",
-    "files": [
-      {
-        "location": "data",
-        "date": "2022-08-09T11:50:25Z",
+    "files": {
+      "ncr_cttrbg_acs5_2015_2019_no_health_insurance_19_to_64.csv.xz": {
+        "location": "/data",
+        "size": 397856,
+        "sha": "024fa2d52806101e48c9ded5e9c24682653e856d",
+        "md5": "c2600bbf5e0a297433c68e559ac02ff7",
+        "baseurl": "https://github.com/uva-bi-sdad/dc.acs.health"
+      },
+      "va_hdcttr_acs5_2015_2019_no_health_insurance_19_to_64.csv.xz": {
+        "location": "/data",
         "size": 202628,
         "sha": "8588f273fcfbc71e3510b71bd2a389b74e0a2284",
         "md5": "9848772e50179691fb5367dbb10c6465",
         "baseurl": "https://github.com/uva-bi-sdad/dc.acs.health"
       }
-    ]
+    }
   },
   "uva-bi-sdad/dc.bea.employment": {
     "repository": "uva-bi-sdad/dc.bea.employment",
-    "files": [
-      {
-        "location": "data",
-        "date": "2022-08-09T11:51:03Z",
+    "files": {
+      "va_ct_bea_2015_2020_earnings_per_job.csv.xz": {
+        "location": "/data",
         "size": 12548,
         "sha": "c7b9cc9d8bbbc03251da488648eae4ca584826ad",
         "md5": "715c5be2c01baf9e201e52c28a6a0b5b",
         "baseurl": "https://github.com/uva-bi-sdad/dc.bea.employment"
       }
-    ]
+    }
   },
   "uva-bi-sdad/dc.broadbandnow.broadband.prices": {
     "repository": "uva-bi-sdad/dc.broadbandnow.broadband.prices",
-    "files": [
-      {
-        "location": "data",
-        "date": "2022-08-09T11:50:33Z",
+    "files": {
+      "dcmdva_broadbandnow_acs_sdad_2021_perc_income_on_internet.csv.xz": {
+        "location": "/data",
+        "size": 690944,
+        "sha": "723069775023f5b02a07b86a0859e5e63564da85",
+        "md5": "152ad968743db5b75ffc99936685a95d",
+        "baseurl": "https://github.com/uva-bi-sdad/dc.broadbandnow.broadband.prices"
+      },
+      "va_hdcttr_sdad_2021_perc_income_on_internet.csv.xz": {
+        "location": "/data",
         "size": 94172,
         "sha": "54c93cc55454803e54b408bfd4fbbd7e647732b1",
         "md5": "10c66feb66a0587f94ce6146c91ead39",
         "baseurl": "https://github.com/uva-bi-sdad/dc.broadbandnow.broadband.prices"
       }
-    ]
+    }
   },
   "uva-bi-sdad/dc.chr.preventable.hospitalizations": {
     "repository": "uva-bi-sdad/dc.chr.preventable.hospitalizations",
-    "files": [
-      {
-        "location": "data",
-        "date": "2022-08-09T11:50:23Z",
+    "files": {
+      "va_hdct_chr_2015_2021_preventable_hospitalizations.csv.xz": {
+        "location": "/data",
         "size": 6204,
         "sha": "ac22e681105eeb8ff48db642d81c9eb35d0b9e03",
         "md5": "6a5361df7664cef2aa52d4a2c88b475e",
         "baseurl": "https://github.com/uva-bi-sdad/dc.chr.preventable.hospitalizations"
       }
-    ]
+    }
   },
   "uva-bi-sdad/dc.food.insecurity": {
     "repository": "uva-bi-sdad/dc.food.insecurity",
-    "files": [
-      {
-        "location": "data",
-        "date": "2022-08-09T11:51:07Z",
+    "files": {
+      "ncr_ct_fa_2010_2019_food_insecurity_and_cost.csv.xz": {
+        "location": "/data",
+        "size": 3984,
+        "sha": "b20a674c50cef8263aa8be8fadb629d84047638e",
+        "md5": "bdde0e91300ea7694682c1b051943a08",
+        "baseurl": "https://github.com/uva-bi-sdad/dc.food.insecurity"
+      },
+      "va_hdct_fa_2010_2019_food_insecurity_and_cost.csv.xz": {
+        "location": "/data",
         "size": 53704,
         "sha": "6e066c42e4ce4c82d3edb24271491c5338e2e3d1",
         "md5": "8b2c59e0c4d6fbc308cbe3a7ad88a43a",
         "baseurl": "https://github.com/uva-bi-sdad/dc.food.insecurity"
       }
-    ]
+    }
   },
   "uva-bi-sdad/dc.hifld.ems": {
     "repository": "uva-bi-sdad/dc.hifld.ems",
-    "files": [
-      {
-        "location": "data",
-        "date": "2022-08-09T11:50:18Z",
+    "files": {
+      "dmv_cttrbg_hifld_2021_access_scores_ems.csv.xz": {
+        "location": "/data",
+        "size": 195376,
+        "sha": "f6f098a06073bd8d7bfe6fd865c8a124ce9bb6e7",
+        "md5": "c387e66edfef98899f139570524e807c",
+        "baseurl": "https://github.com/uva-bi-sdad/dc.hifld.ems"
+      },
+      "va_hdcttrbg_hifld_2021_access_scores_ems.csv.xz": {
+        "location": "/data",
         "size": 423784,
         "sha": "05f3a58a54f4378ab533b228bb6856d27a282ce6",
         "md5": "3c01808dd857cf16c90c8321ae206718",
         "baseurl": "https://github.com/uva-bi-sdad/dc.hifld.ems"
       }
-    ]
+    }
   },
   "uva-bi-sdad/dc.hifld.facilityaccess": {
     "repository": "uva-bi-sdad/dc.hifld.facilityaccess",
-    "files": [
-      {
-        "location": "data",
-        "date": "2022-08-09T11:50:21Z",
+    "files": {
+      "va_hdcttr_sdad_2021_mental_access_scores.csv.xz": {
+        "location": "/data",
         "size": 106168,
         "sha": "1bb7e7e2a4e3709633299a79dac564983b717e1a",
         "md5": "5c154d05806561663fc9cddbd21062c3",
         "baseurl": "https://github.com/uva-bi-sdad/dc.hifld.facilityaccess"
       },
-      {
-        "location": "data",
-        "date": "2022-08-09T11:50:21Z",
+      "va_hdcttr_sdad_2021_substance_access_scores.csv.xz": {
+        "location": "/data",
         "size": 102540,
         "sha": "a03d2695af0aa0e1f757362d2f1bd93a5069f0bc",
         "md5": "6e0b85fd5ae790c70fd75e93fa6b27ff",
         "baseurl": "https://github.com/uva-bi-sdad/dc.hifld.facilityaccess"
       }
-    ]
+    }
   },
   "uva-bi-sdad/dc.hifld.hosp": {
     "repository": "uva-bi-sdad/dc.hifld.hosp",
-    "files": [
-      {
-        "location": "data/distribution/",
-        "date": "2022-08-09T11:50:14Z",
+    "files": {
+      "hhs.csv.xz": {
+        "location": "/data/distribution",
         "size": 593476,
         "sha": "8b13142d9e3839dbe4e1be123b22ca3c1fe8b922",
         "md5": "ab6abb0cc74b054d354e35f7188753fd",
         "baseurl": "https://github.com/uva-bi-sdad/dc.hifld.hosp"
       }
-    ]
+    }
+  },
+  "uva-bi-sdad/dc.meps.acs.health.literacy": {
+    "repository": "uva-bi-sdad/dc.meps.acs.health.literacy",
+    "files": {
+      "va_hccttr_sdad_2019_health_literacy_estimates.csv.xz": {
+        "location": "/data",
+        "size": 13800,
+        "sha": "9c1df77e4de79ba601acb07deaeca42a9acf8798",
+        "md5": "14a42ebf428eed059434b60fcc567e75"
+      }
+    }
   },
   "uva-bi-sdad/dc.ookla.broadband": {
     "repository": "uva-bi-sdad/dc.ookla.broadband",
-    "files": [
-      {
-        "location": "data",
-        "date": "2022-08-09T11:50:29Z",
+    "files": {
+      "dcmdva_hdcttrbg_2019_2021q3_speed_measurements.csv.xz": {
+        "location": "/data",
         "size": 3320496,
         "sha": "0221c8235743af2a641752275250413686ea2127",
         "md5": "822a31ea38e56e6c177dbbd095798c26",
         "baseurl": "https://github.com/uva-bi-sdad/dc.ookla.broadband"
       }
-    ]
+    }
   },
   "uva-bi-sdad/dc.sdad.health.outcomes": {
     "repository": "uva-bi-sdad/dc.sdad.health.outcomes",
-    "files": [
-      {
-        "location": "data",
-        "date": "2022-08-09T11:50:23Z",
+    "files": {
+      "dc_health_behavior_diet.ncr_trct_sdad_2015_2019_brfss_sae.csv.xz": {
+        "location": "/data",
+        "size": 94520,
+        "sha": "62334bd073c56f5d199477fba2845991d91cfd33",
+        "md5": "6c961ff4e6f5e8ea32d43f1e94b509b2",
+        "baseurl": "https://github.com/uva-bi-sdad/dc.sdad.health.outcomes"
+      },
+      "dc_health_behavior_diet.va_trcthd_sdad_2015_2019_brfss_sae.csv.xz": {
+        "location": "/data",
         "size": 171304,
         "sha": "bf6e02673d627c61df5cc507ecb8a6eb413bb302",
         "md5": "12541f8a6e55d3940f320bf4b0dfabf8",
         "baseurl": "https://github.com/uva-bi-sdad/dc.sdad.health.outcomes"
       }
-    ]
+    }
   },
   "uva-bi-sdad/dc.vdh.drug.overdose": {
     "repository": "uva-bi-sdad/dc.vdh.drug.overdose",
-    "files": [
-      {
-        "location": "data",
-        "date": "2022-08-09T11:50:22Z",
+    "files": {
+      "va_hdct_vdh_2015_2021_drug_overdose_ed_visits.csv.xz": {
+        "location": "/data",
         "size": 11300,
         "sha": "8d0c5854f0823f7f92cec9da89e3be1597092cf5",
         "md5": "836e3952e4ac1192019eb43bc103c255",
         "baseurl": "https://github.com/uva-bi-sdad/dc.vdh.drug.overdose"
       }
-    ]
+    }
   },
   "uva-bi-sdad/dc.webmd.dental": {
     "repository": "uva-bi-sdad/dc.webmd.dental",
-    "files": [
-      {
-        "location": "data",
-        "date": "2022-08-09T11:50:07Z",
+    "files": {
+      "dmv_cttrbg_webmd_2021_access_scores_dentists.csv.xz": {
+        "location": "/data",
+        "size": 171216,
+        "sha": "ac936ed3793d120a1e128d29de26098cf7b7f22d",
+        "md5": "441ba2449e694ded57e9f9735075f898",
+        "baseurl": "https://github.com/uva-bi-sdad/dc.webmd.dental"
+      },
+      "va_hdcttrbg_webmd_2021_access_scores_dentists.csv.xz": {
+        "location": "/data",
         "size": 428224,
         "sha": "806b2e04f3057052ce69b879a2397c4f081c8c5a",
         "md5": "cab8a5830904f36d21e9a65b2210461a",
         "baseurl": "https://github.com/uva-bi-sdad/dc.webmd.dental"
       }
-    ]
+    }
   },
   "uva-bi-sdad/dc.webmd.obgyn": {
     "repository": "uva-bi-sdad/dc.webmd.obgyn",
-    "files": [
-      {
-        "location": "data",
-        "date": "2022-08-09T11:50:08Z",
+    "files": {
+      "dmv_cttrbg_webmd_2021_access_scores_obgyn.csv.xz": {
+        "location": "/data",
+        "size": 191292,
+        "sha": "8385da0f336ed409c41056f4b9aa10b7871442d7",
+        "md5": "db30acf4caa08a04b875207813e30334",
+        "baseurl": "https://github.com/uva-bi-sdad/dc.webmd.obgyn"
+      },
+      "va_hdcttrbg_webmd_2021_access_scores_obgyn.csv.xz": {
+        "location": "/data",
         "size": 422132,
         "sha": "e9ee9c8d504a0ca6bb66ebf21782f8d93b365f16",
         "md5": "e7bd4cc3a70c96292d9bcaa60c78c316",
         "baseurl": "https://github.com/uva-bi-sdad/dc.webmd.obgyn"
       }
-    ]
+    }
   },
   "uva-bi-sdad/dc.webmd.pediatrics": {
     "repository": "uva-bi-sdad/dc.webmd.pediatrics",
-    "files": [
-      {
-        "location": "data",
-        "date": "2022-08-09T11:50:04Z",
+    "files": {
+      "va_hdcttrbg_webmd_2021_access_scores_pediatric.csv.xz": {
+        "location": "/data",
         "size": 425728,
         "sha": "f0d8685623f852e8ec7a3fe1503658b564830d3e",
         "md5": "39ce3b7644741a96bc1393dc23cbb291",
         "baseurl": "https://github.com/uva-bi-sdad/dc.webmd.pediatrics"
       }
-    ]
+    }
   },
   "uva-bi-sdad/dc.webmd.primcare": {
     "repository": "uva-bi-sdad/dc.webmd.primcare",
-    "files": [
-      {
-        "location": "data",
-        "date": "2022-08-09T11:50:06Z",
+    "files": {
+      "dmv_cttrbg_webmd_2021_access_scores_primcare.csv.xz": {
+        "location": "/data",
+        "size": 193860,
+        "sha": "f4dff84ff05017e75f51b2004ef500570d859905",
+        "md5": "7407f799ed52cc7b01bce4debd1d5883",
+        "baseurl": "https://github.com/uva-bi-sdad/dc.webmd.primcare"
+      },
+      "va_hdcttrbg_webmd_2021_access_scores_primcare.csv.xz": {
+        "location": "/data",
         "size": 440988,
         "sha": "a797602fcb5145d147a174c9cb92824621b32b6a",
         "md5": "d9fdbe5d4f0f3c58f88476aa0143d9c5",
         "baseurl": "https://github.com/uva-bi-sdad/dc.webmd.primcare"
       }
-    ]
+    }
   },
   "uva-bi-sdad/sdc.education": {
     "repository": "uva-bi-sdad/sdc.education",
-    "files": [
-      {
-        "location": "data/nces/",
-        "date": "2022-08-09T13:20:02Z",
-        "size": 6916980,
-        "sha": "a1dfdae419a1c4f4191ea27dbe6f0bd11249e3ad",
-        "md5": "1fecfe33bbc7bde613504584431b4e40"
-      },
-      {
-        "location": "data/meps/",
-        "date": "2022-08-09T13:20:02Z",
-        "size": 13800,
-        "sha": "9c1df77e4de79ba601acb07deaeca42a9acf8798",
-        "md5": "14a42ebf428eed059434b60fcc567e75"
-      },
-      {
-        "location": "data/dss/",
-        "date": "2022-08-09T13:20:02Z",
+    "files": {
+      "va_hdcttrbg_dss_2021_daycare_access_scores.csv.bz2": {
+        "location": "data/dss/distribution",
         "size": 210620,
         "sha": "3687a7f7147ae7b148a7208ee8edffc4e03dbda8",
         "md5": "115bf6bc8584535ac0ff81758bf611e4"
       },
-      {
-        "location": "data/meps/",
-        "date": "2022-08-09T13:20:02Z",
-        "size": 302764,
-        "sha": "b71fa5fac32e5c4b18270b81912299898dc5d45f",
-        "md5": "d1db104eee5d29ace9cd7a9b11bf7bc7"
+      "nces.csv.xz": {
+        "location": "data/nces/distribution",
+        "size": 6916980,
+        "sha": "a1dfdae419a1c4f4191ea27dbe6f0bd11249e3ad",
+        "md5": "1fecfe33bbc7bde613504584431b4e40"
       },
-      {
-        "location": "data/vdoe/",
-        "date": "2022-08-09T13:20:04Z",
+      "va_hdctsd_vdoe_2019_2021_3rd_grade_mean_median_read_score.csv.xz": {
+        "location": "data/vdoe/distribution",
         "size": 7328,
         "sha": "d4f2778ed488a27970c132b726c90f0f3c11a9c7",
         "md5": "7dfe6fd85bf3e26b68d93f2863a8f367"
       }
-    ]
+    }
   },
   "uva-bi-sdad/temp_health": {
     "repository": "uva-bi-sdad/temp_health",
-    "files": [
-      {}
-    ]
+    "files": {
+      "va_co_cdc_2020_2014_kotelchuck_apncu_index.csv.xz": {
+        "location": ".",
+        "size": 34716,
+        "sha": "e9edcc49ca96c60bd83c863acbaa8885df2b350b",
+        "md5": "c461e68b803b50b8d7f8a1b3830235f7"
+      }
+    }
   }
 }

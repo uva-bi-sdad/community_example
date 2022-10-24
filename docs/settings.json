@@ -9522,12 +9522,26 @@
       "dataview": "primary_view",
       "variable_info": false
     },
-    "info10": {
+    "info11": {
       "title": "",
       "body": [
         {
           "name": "",
-          "value": "variables.sources",
+          "value": "summary",
+          "style": "table"
+        }
+      ],
+      "default": [],
+      "floating": false,
+      "dataview": "primary_view",
+      "variable_info": false
+    },
+    "info12": {
+      "title": "Filters",
+      "body": [
+        {
+          "name": "",
+          "value": "filter",
           "style": "table"
         }
       ],
@@ -9545,7 +9559,7 @@
       },
       "floating": false,
       "dataview": "primary_view",
-      "subto": ["main_map", "main_plot", "rank_table"],
+      "subto": ["main_map", "main_plot", "rank_table", "main_legend"],
       "variable_info": false
     },
     "info14": {
@@ -9571,20 +9585,6 @@
       "floating": false,
       "dataview": "primary_view",
       "subto": ["main_map", "main_plot", "rank_table", "main_legend"],
-      "variable_info": false
-    },
-    "info19": {
-      "title": "",
-      "body": [
-        {
-          "name": "",
-          "value": "summary",
-          "style": "table"
-        }
-      ],
-      "default": [],
-      "floating": false,
-      "dataview": "primary_view",
       "variable_info": false
     }
   },
@@ -9740,7 +9740,7 @@
     "rank_table": {
       "info": false,
       "searching": false,
-      "scrollY": 250,
+      "scrollY": 300,
       "dom": "<'row't>",
       "variables": "selected_variable",
       "subto": ["main_map", "main_plot", "main_legend"],

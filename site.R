@@ -358,37 +358,36 @@ page_section(
       )
     ),
     page_section(
-      type = "d-flex flex-column col align-items-end compact",
+      type = "flex-column col",
       ## use `output_info` to display information about selected and hovered-over entities
       output_info(
         title = "variables.short_name",
         dataview = "primary_view",
         id = "variable_info_pane",
       ),
-      page_section(
-        wraps = "col", sizes = c(8, NA),
-        output_info(body = "variables.sources", dataview = "primary_view"),
-        page_section(
-          input_button(
-            "Download", "export", dataview = "primary_view", query = list(
-              include = "selected_variable",
-              features = list(geoid = "id", name = "name", region_type = "type")
-            ), class = "btn-full"
-          ),
-          input_button(
-            "Copy API link", "copy", dataview = "primary_view", query = list(
-              include = "selected_variable", dataset = "shapes",
-              features = list(geoid = "id", name = "name", region_type = "type")
-            ), class = "btn-full"
-          )
+      page_popup(
+        "Export",
+        input_button(
+          "Download", "export", dataview = "primary_view", query = list(
+            include = "selected_variable",
+            features = list(geoid = "id", name = "name", region_type = "type")
+          ), class = "btn-full"
+        ),
+        input_button(
+          "Copy API link", "copy", dataview = "primary_view", query = list(
+            include = "selected_variable", dataset = "shapes",
+            features = list(geoid = "id", name = "name", region_type = "type")
+          ), class = "btn-full"
         )
       ),
+      output_info(body = "summary", dataview = "primary_view"),
+      output_info("Filters", "filter", dataview = "primary_view"),
       page_section(
         output_info(
           title = "features.name",
           default = c(title = "Virginia", body = "Hover over or select a region for more information."),
           dataview = "primary_view",
-          subto = c("main_map", "main_plot", "rank_table")
+          subto = c("main_map", "main_plot", "rank_table", "main_legend")
         ),
         output_info(
           body = c(
@@ -413,11 +412,10 @@ page_section(
         "settings.palette", dataview = "primary_view", click = "region_select",
         subto = c("main_map", "main_plot", "rank_table"), id = "main_legend"
       ),
-      output_info(body = "summary", dataview = "primary_view"),
       output_table("selected_variable", dataview = "primary_view", options = list(
         info = FALSE,
         searching = FALSE,
-        scrollY = 250,
+        scrollY = 300,
         dom = "<'row't>"
       ), id = "rank_table", click = "region_select", subto = c("main_map", "main_plot", "main_legend"))
     ),

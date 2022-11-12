@@ -39,6 +39,7 @@
             "map": "https://uva-bi-sdad.github.io/community/dist/shapes/VA/entity_info.json"
           }
         ],
+        "id_length": 11,
         "time": "time",
         "profile": "data-resource",
         "created": "2022-10-06 17:40:38",
@@ -3142,6 +3143,7 @@
             "map": "https://uva-bi-sdad.github.io/community/dist/shapes/VA/entity_info.json"
           }
         ],
+        "id_length": 5,
         "time": "time",
         "profile": "data-resource",
         "created": "2022-10-06 17:40:30",
@@ -6301,6 +6303,7 @@
             "map": "https://uva-bi-sdad.github.io/community/dist/shapes/VA/entity_info.json"
           }
         ],
+        "id_length": 8,
         "time": "time",
         "profile": "data-resource",
         "created": "2022-10-06 17:40:30",
@@ -9393,14 +9396,14 @@
     {
       "condition": [
         {
-          "id": "starting_shapes",
-          "type": "=",
-          "value": "district",
+          "id": "selected_county",
+          "type": "!",
+          "value": "",
           "any": false
         }
       ],
       "effects": {
-        "display": "sec31"
+        "lock": "sec31"
       }
     },
     {
@@ -9462,7 +9465,8 @@
           "value": "tract"
         }
       ],
-      "default": "county"
+      "default": "county",
+      "display": []
     },
     {
       "id": "region_select",
@@ -9479,7 +9483,8 @@
           "value": "selected_county"
         }
       ],
-      "default": "selected_district"
+      "default": "selected_district",
+      "display": []
     },
     {
       "id": "selected_region",
@@ -9496,7 +9501,26 @@
           "value": "selected_county"
         }
       ],
-      "default": "selected_district"
+      "default": "selected_district",
+      "display": []
+    },
+    {
+      "id": "county_subset",
+      "states": [
+        {
+          "condition": [
+            {
+              "id": "selected_district",
+              "type": "",
+              "value": "",
+              "any": false
+            }
+          ],
+          "value": "siblings"
+        }
+      ],
+      "default": "full_filter",
+      "display": []
     }
   ],
   "dataviews": {

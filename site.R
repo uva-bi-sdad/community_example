@@ -65,7 +65,7 @@ page_navbar(
         note = "Radius of the circles that are parts of overlays."
       ),
       '<p class="section-heading">Plot Options</p>',
-      input_select("Plot Type", c("scatter", "bar"), "scatter", id = "plot_type", floating_label = FALSE),
+      input_select("Plot Type", c("scatter", "scattergl", "bar"), "scatter", id = "plot_type", floating_label = FALSE),
       input_switch("Box Plots", default_on = TRUE, id = "settings.boxplots"),
       input_switch(
         "Use IQR Whiskers", default_on = TRUE, id = "settings.iqr_box",
@@ -128,9 +128,9 @@ page_menu(
     ),
     input_combobox(
       "County", options = "ids", dataset = "county", dataview = "primary_view",
-      id = "selected_county", clearable = TRUE
+      id = "selected_county", selection_subset = "county_subset", clearable = TRUE
     ),
-    conditions = c("starting_shapes == district", "starting_shapes != district || selected_district")
+    conditions = c("lock: !selected_county", "starting_shapes != district || selected_district")
   ),
   input_checkbox(
     "Region Types", options = c("rural", "mixed", "urban"), id = "region_type", as.switch = TRUE,
@@ -170,6 +170,10 @@ input_variable("selected_region", list(
   "selected_county" = "selected_county"
 ), "selected_district")
 
+input_variable("county_subset", list(
+  "selected_district" = "siblings"
+), "full_filter")
+
 ## `input_dataview` can collect multiple inputs as filters for a shared data view
 input_dataview(
   "primary_view",
@@ -202,7 +206,7 @@ page_section(
     type = "container-xsm",
     input_number(
       "Selected Year", min = "filter.time_min", max = "filter.time_max", default = "max",
-      id = "selected_year", buttons = TRUE, note = paste(
+      id = "selected_year", buttons = TRUE, show_range = TRUE, note = paste(
         "Year of the selected variable to color the map shapes and plot elements by, and to show on hover."
       )
     )

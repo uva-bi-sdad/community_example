@@ -54,6 +54,7 @@
 "kotelchuck_apncu_index:inadequate_pc",1,925,0,0
 "kotelchuck_apncu_index:intermediate",1,925,0,0
 "kotelchuck_apncu_index:intermediate_pc",1,925,0,0
+"median_household_income",1,665,0,9323
 "mental_access_scores:mental_10near_median",1,0,0,1896
 "mental_access_scores:mental_3sfca",1,133,35,1897
 "mental_access_scores:mental_cnt",1,133,35,198

@@ -220,6 +220,18 @@
       }
     }
   },
+  "uva-bi-sdad/dc.sdad.demographics": {
+    "repository": "uva-bi-sdad/dc.sdad.demographics",
+    "files": {
+      "va013_nb_sdad_2013_2019_demographics.csv.xz": {
+        "location": "/data",
+        "size": 94000,
+        "sha": "45ab00e8c5d6c3c39db4fc9eb9a3be4b1ff9d9a2",
+        "md5": "02a59cfa0d1d12632f4aea7c59c86332",
+        "baseurl": "https://github.com/uva-bi-sdad/dc.sdad.demographics"
+      }
+    }
+  },
   "uva-bi-sdad/dc.sdad.health.outcomes": {
     "repository": "uva-bi-sdad/dc.sdad.health.outcomes",
     "files": {
@@ -340,6 +352,35 @@
         "size": 7328,
         "sha": "d4f2778ed488a27970c132b726c90f0f3c11a9c7",
         "md5": "7dfe6fd85bf3e26b68d93f2863a8f367"
+      }
+    }
+  },
+  "uva-bi-sdad/sdc.financial_well_being": {
+    "repository": "uva-bi-sdad/sdc.financial_well_being",
+    "files": {
+      "va_tr_acs_2015_2019_emp_rate.csv.xz": {
+        "location": "Employment/data/distribution",
+        "size": 178072,
+        "sha": "5bc46a8f7643af16e7fe251ab9a3fa9b4b60ce3c",
+        "md5": "35fcb3181e983499603d5c160ce32a74"
+      },
+      "ncr_cttrbg_2015_2019_median_household_income.csv.xz": {
+        "location": "Pay and Benefits/Household Income/data/distribution",
+        "size": 167112,
+        "sha": "420cf6e226cfb885a3000e2f31a79b54bc9dee28",
+        "md5": "a058ab0f647c622a9256f5b653455dec"
+      },
+      "va_cttrbg_2015_2019_median_household_income.csv.xz": {
+        "location": "Pay and Benefits/Household Income/data/distribution",
+        "size": 277424,
+        "sha": "0898b450bc2035d5ad98cbced072ee143fe421fc",
+        "md5": "6b20d03a6c3f3f5d6512243fbfd38bd6"
+      },
+      "va_ct_bea_2015_2020_earnings_per_job.csv.xz": {
+        "location": "Pay and Benefits/Personal Income/data/distribution",
+        "size": 12548,
+        "sha": "c7b9cc9d8bbbc03251da488648eae4ca584826ad",
+        "md5": "715c5be2c01baf9e201e52c28a6a0b5b"
       }
     }
   },

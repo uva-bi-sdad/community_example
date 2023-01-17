@@ -309,9 +309,9 @@
     "files": {
       "vdss.csv.xz": {
         "location": "Daycare/data/distribution",
-        "size": 554644,
-        "sha": "0ce6fc51cf7ed633ba2cc9b5ef59c9c136f8fb61",
-        "md5": "3125c21cff8a40774d3e2bd82c2929b4"
+        "size": 554072,
+        "sha": "497d467500a74e6c3d673522f900f6efade0cb1f",
+        "md5": "88edebb6ec901babd28f48273094f4e9"
       },
       "acs.csv.xz": {
         "location": "Postsecondary/data/distribution",

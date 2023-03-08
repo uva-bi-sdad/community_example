@@ -47,6 +47,16 @@
   "uva-bi-sdad/sdc.demographics": {
     "repository": "uva-bi-sdad/sdc.demographics",
     "files": {
+      "Veteran/data/distribution/va013_civic_sdad_20132020_veteran_demographics.csv.xz": {
+        "size": 10424,
+        "sha": "03ef754fa775ec3cca795a89ec4de77d61eb01e6",
+        "md5": "ac1f2378a0967a15f4aa5395e2628d57"
+      },
+      "Veteran/data/distribution/va059_hsrpdsdzc_sdad_20132019_veteran_demographics.csv.xz": {
+        "size": 12144,
+        "sha": "2e75d57ebb44fc153965f343fefe8b1befe13c05",
+        "md5": "f98b1b01b24ca211a8b9b791490852bc"
+      },
       "Race/data/distribution/va013_civic_sdad_20132020_race_demographics.csv.xz": {
         "size": 70876,
         "sha": "afaab061f226df8e733c00a8214045617b5be56b",
@@ -56,6 +66,21 @@
         "size": 90344,
         "sha": "f4ddb6a439c81e51d9257859927ad7c105a49539",
         "md5": "6c82c3bd72bdb31117938f703bd8b6fd"
+      },
+      "Language/data/distribution/va013_civic_sdad_20132020_language_demographics.csv.xz": {
+        "size": 10980,
+        "sha": "235977f46a01ddb5e8a3d372b34e3a4a804efafc",
+        "md5": "30361f76ba901bfe38aff2ff4b15ea7c"
+      },
+      "Language/data/distribution/va059_hsrpdsdzc_sdad_20132019_language_demographics.csv.xz": {
+        "size": 12684,
+        "sha": "ade9a03cda57947da28aaed59367b3e713f22d1b",
+        "md5": "b2c6731b3d6ff26d69e4ac2e4394b14c"
+      },
+      "Gender/data/distribution/va059_hsrpdsdzc_sdad_20132019_gender_demographics.csv.xz": {
+        "size": 12684,
+        "sha": "ade9a03cda57947da28aaed59367b3e713f22d1b",
+        "md5": "b2c6731b3d6ff26d69e4ac2e4394b14c"
       },
       "Gender/data/distribution/va013_civic_sdad_20132020_gender_demographics.csv.xz": {
         "size": 25764,
@@ -72,6 +97,16 @@
         "sha": "4470b9bbb09d491fd77023c2a916bfb0eec609b4",
         "md5": "81e7f36a988ca583b61efca26a152abf"
       },
+      "Veteran/data/distribution/va_trctbg_acs_20092020_veteran_demographics.csv.xz": {
+        "size": 955420,
+        "sha": "61407689bf41da99c17412ead6bfab76da63c294",
+        "md5": "b23483de3f6215c3d6fc486aeb85c27a"
+      },
+      "Veteran/data/distribution/ncr_trctbg_acs_20092020_veteran_demographics.csv.xz": {
+        "size": 589616,
+        "sha": "757230e510df88ae856224df1bfb3bb6d41d21a0",
+        "md5": "9cc335f6730d72b4b77bc54778a65fef"
+      },
       "Race/data/distribution/va_trctbg_acs_20092020_race_demographics.csv.xz": {
         "size": 6427384,
         "sha": "72782cbaff10fd40876e70bbd570d1f2dc532e27",
@@ -81,6 +116,16 @@
         "size": 4363644,
         "sha": "7c1dfc8ffd25e150efc9fb1722fa61aca63de32e",
         "md5": "0c0bec26fa2798d3b035baed06bca895"
+      },
+      "Language/data/distribution/va_trctbg_acs_20092020_language_demographics.csv.xz": {
+        "size": 602004,
+        "sha": "1a9427d24134444b87b27c062f166b0d9a69049e",
+        "md5": "76eb33b97e56215873746324b313302a"
+      },
+      "Language/data/distribution/ncr_trctbg_acs_20092020_language_demographics.csv.xz": {
+        "size": 409692,
+        "sha": "c305b2f05ab1451aa71497bcb5c916e6c6d1be38",
+        "md5": "b9a9605dd3d6fba23b42285ca8c5e102"
       },
       "Gender/data/distribution/va_trctbg_acs_20092020_gender_demographics.csv.xz": {
         "size": 2391576,
@@ -162,6 +207,16 @@
   "uva-bi-sdad/sdc.food": {
     "repository": "uva-bi-sdad/sdc.food",
     "files": {
+      "Food and Nutrition Assistance/Supplemental Nutrition Assistance Program (SNAP)/data/distribution/va_hdcttrbg_acs_2013_2020_hh_receiving_snap.csv.xz": {
+        "size": 985560,
+        "sha": "a8b585ffc7a4559adb0fb35a19ff70dff45dd30b",
+        "md5": "70a6fd988d8b9c03f88966c859ced338"
+      },
+      "Food and Nutrition Assistance/Supplemental Nutrition Assistance Program (SNAP)/data/distribution/ncr_cttrbg_acs_2013_2020_hh_receiving_snap.csv.xz": {
+        "size": 571372,
+        "sha": "03fcf2b93e18440e4357b903df920fee57f26488",
+        "md5": "9fb6f38f7e85d61a30d9455f49e5b3b4"
+      },
       "Food Security/Overall Food Insecurity/data/distribution/ncr_cttr_fa_2014_2020_overall_food_insecurity.csv.xz": {
         "size": 15608,
         "sha": "1f543953d8287f29882bf7d78baf9e563a405842",

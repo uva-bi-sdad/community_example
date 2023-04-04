@@ -27,9 +27,9 @@
     "variables": ["ID", "perc_income_min_price_100", "perc_income_min_price_25", "perc_total_100_20_using_devices", "perc_total_25_3_using_devices", "perc_w_int_100_20_using_devices", "perc_w_int_25_3_using_devices", "avg_up_using_devices", "avg_down_using_devices", "devices", "perc_hh_with_broadband", "perc_hh_with_cable_fiber_dsl", "perc_hh_without_compdev", "perc_hh_without_internet", "median_read_pass_rate", "emp_rate", "daycare_capacity", "daycare_min_drivetime", "daycare_per_1k", "daycare_over_4_per_1k", "daycare_under_10_per_1k", "schools_2year_per_100k", "schools_2year_min_drivetime", "schools_under2year_per_100k", "schools_under2year_min_drivetime", "schools_2year_with_biomedical_program_per_100k", "schools_2year_with_computer_program_per_100k", "schools_2year_with_engineering_program_per_100k", "schools_2year_with_physical_program_per_100k", "schools_2year_with_science_program_per_100k", "avg_monthly_rate", "Child_Food_Insecurity_Rate", "Cost_Per_Meal", "Num_Child_Food_Insecure", "percent_food_insecure", "number_food_insecure", "mental_near_10_median", "mental_3sfca", "mental_cnt", "no_hlth_ins_pct", "obgyn_cnt", "obgyn_3sfca", "perc_income_avg_nat_package", "perc_poor_ment_hlth_days_14_and_over", "perc_poor_phys_hlth_days_14_and_over", "acs_postsecondary_percent", "prevent_hosp_rate", "subs_near_10_median", "subs_3sfca", "subs_cnt", "earnings_per_job", "perc_hispanic_or_latino", "perc_wht_alone", "perc_afr_amer_alone", "perc_native_alone", "perc_AAPI", "perc_other", "perc_two_or_more", "perc_pop_under_20", "perc_pop_20_64", "perc_pop_65_plus", "perc_male", "perc_female", "perc_veteran", "perc_hh_limited_english", "dent_cnt", "dent_e2sfca", "ems_near_10_median", "ems_3sfca", "ems_cnt", "ped_cnt", "ped_3sfca", "primcare_cnt", "primcare_3sfca", "inadequate", "intermediate", "adequate", "adequateplus", "inadequate_pc", "intermediate_pc", "adequate_pc", "adequateplus_pc", "median_household_income", "health_opportunity_indicator", "economic_opportunity_indicator", "community_environment_indicator", "wellness_disparity_indicator", "consumer_opportunity_indicator", "education_indicator", "employment_access_indicator", "food_accessibility_indicator", "income_inequality_indicator", "job_participation_indicator", "material_deprivation_indicator", "pop_churning_indicator", "pop_density_indicator", "segregation_indicator", "walkability_indicator", "affordability_indicator", "air_quality_indicator", "access_care_indicator", "hh_received_snap_cnt", "hh_received_snap_pct", "gini_index"],
     "info": {
       "tract": {
-        "bytes": 4353900,
+        "bytes": 4332484,
         "encoding": "ISO-8859-1",
-        "md5": "30d28bc1b312d5bc235430ec976fa88b",
+        "md5": "def7fd6f9588ddb39fab106a9df81038",
         "format": "csv",
         "name": "tract",
         "filename": "tract.csv.xz",
@@ -43,8 +43,8 @@
         "id_length": 11,
         "time": "time",
         "profile": "data-resource",
-        "created": "2023-04-04 13:58:28",
-        "last_modified": "2023-04-04 13:58:28",
+        "created": "2023-04-04 16:57:59",
+        "last_modified": "2023-04-04 16:57:59",
         "row_count": 32032,
         "entity_count": 2464,
         "schema": {
@@ -628,16 +628,16 @@
             },
             {
               "name": "emp_rate",
-              "duplicates": 23050,
+              "duplicates": 30264,
               "time_range": [
                 6,
-                10
+                12
               ],
               "type": "float",
-              "missing": 22668,
-              "mean": 94.128,
-              "sd": 4.0213,
-              "min": 63.5048,
+              "missing": 18344,
+              "mean": 94.4519,
+              "sd": 4.0699,
+              "min": 29.41,
               "max": 100,
               "info": {
                 "category": "Employment/Workforce Development",
@@ -4541,13 +4541,13 @@
             "url": "https://www.cdc.gov/obesity/downloads/census-tract-level-state-maps-mrfei_TAG508.pdf"
           }
         },
-        "sha512": "ba021e220e8f166fcd0bff6edaf729c42bbedf8a5e4215835731ae6b1059166bfcb5964cf393515eb5eef25130e0059cabe31401dbb2cfb0e6eff72c89b4a946",
+        "sha512": "4fea65711248be638ce67943a2d7b4efd8494afe2f953b0197cbff7e9157bd15c5e348f4fff5d323ecf88586ac4908c07a08082027e52d232b169ad2fffc104e",
         "site_file": "tract.json"
       },
       "county": {
-        "bytes": 377636,
+        "bytes": 379788,
         "encoding": "ISO-8859-1",
-        "md5": "13d6a48574c8a45108e42569fc87e0c3",
+        "md5": "8fc162b7fc982edfd23f671a0ac5a4c1",
         "format": "csv",
         "name": "county",
         "filename": "county.csv.xz",
@@ -4561,8 +4561,8 @@
         "id_length": 5,
         "time": "time",
         "profile": "data-resource",
-        "created": "2023-04-04 13:58:18",
-        "last_modified": "2023-04-04 13:58:18",
+        "created": "2023-04-04 16:57:50",
+        "last_modified": "2023-04-04 16:57:50",
         "row_count": 1742,
         "entity_count": 134,
         "schema": {
@@ -5154,13 +5154,17 @@
             },
             {
               "name": "emp_rate",
-              "duplicates": 1741,
+              "duplicates": 1190,
               "time_range": [
-                -1,
-                -1
+                6,
+                12
               ],
-              "type": "unknown",
-              "missing": 1742,
+              "type": "float",
+              "missing": 811,
+              "mean": 94.1762,
+              "sd": 2.62,
+              "min": 76.63,
+              "max": 99.45,
               "info": {
                 "category": "Employment/Workforce Development",
                 "measure_table": "civilian_employment_rate",
@@ -9051,7 +9055,7 @@
             "url": "https://www.cdc.gov/obesity/downloads/census-tract-level-state-maps-mrfei_TAG508.pdf"
           }
         },
-        "sha512": "98b534c6f934c62d46d0ff7f32a0d8a6ea4342a21eab14acdacb802cac2ba584af156bba2d5e05d2517db527108144adc3a77d25bb098fcb77854af08d09ca01",
+        "sha512": "523e695b5fcd2a520cc9bbc9fe0281fd39308e45414af371126fb1557d99642d1afe87de765ec7ec17b9d901338eee67c976fed7e1c33898e09af260272460d8",
         "site_file": "county.json"
       },
       "district": {
@@ -9071,8 +9075,8 @@
         "id_length": 8,
         "time": "time",
         "profile": "data-resource",
-        "created": "2023-04-04 13:58:19",
-        "last_modified": "2023-04-04 13:58:19",
+        "created": "2023-04-04 16:57:50",
+        "last_modified": "2023-04-04 16:57:50",
         "row_count": 455,
         "entity_count": 35,
         "schema": {

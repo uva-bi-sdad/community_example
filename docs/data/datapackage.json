@@ -25,8 +25,8 @@
       "id_length": 8,
       "time": "time",
       "profile": "data-resource",
-      "created": "2023-04-04 13:58:19",
-      "last_modified": "2023-04-04 13:58:19",
+      "created": "2023-04-04 16:57:50",
+      "last_modified": "2023-04-04 16:57:50",
       "row_count": 455,
       "entity_count": 35,
       "schema": {
@@ -4013,9 +4013,9 @@
       "sha512": "cda01820f60ba5687cabd0034b696ba7a3c588c12f3e6c106b4653400540e33e3e671c97409903b85d7315b9814801c3c56a3f2b9fc1d8c3455a7c5136e8e3e6"
     },
     {
-      "bytes": 377636,
+      "bytes": 379788,
       "encoding": "ISO-8859-1",
-      "md5": "13d6a48574c8a45108e42569fc87e0c3",
+      "md5": "8fc162b7fc982edfd23f671a0ac5a4c1",
       "format": "csv",
       "name": "county",
       "filename": "county.csv.xz",
@@ -4029,8 +4029,8 @@
       "id_length": 5,
       "time": "time",
       "profile": "data-resource",
-      "created": "2023-04-04 13:58:18",
-      "last_modified": "2023-04-04 13:58:18",
+      "created": "2023-04-04 16:57:50",
+      "last_modified": "2023-04-04 16:57:50",
       "row_count": 1742,
       "entity_count": 134,
       "schema": {
@@ -4577,10 +4577,14 @@
           },
           {
             "name": "emp_rate",
-            "duplicates": 1741,
-            "time_range": [-1, -1],
-            "type": "unknown",
-            "missing": 1742,
+            "duplicates": 1190,
+            "time_range": [6, 12],
+            "type": "float",
+            "missing": 811,
+            "mean": 94.1762,
+            "sd": 2.62,
+            "min": 76.63,
+            "max": 99.45,
             "info": {
               "category": "Employment/Workforce Development",
               "measure_table": "civilian_employment_rate",
@@ -8142,12 +8146,12 @@
           "url": "https://www.cdc.gov/obesity/downloads/census-tract-level-state-maps-mrfei_TAG508.pdf"
         }
       },
-      "sha512": "98b534c6f934c62d46d0ff7f32a0d8a6ea4342a21eab14acdacb802cac2ba584af156bba2d5e05d2517db527108144adc3a77d25bb098fcb77854af08d09ca01"
+      "sha512": "523e695b5fcd2a520cc9bbc9fe0281fd39308e45414af371126fb1557d99642d1afe87de765ec7ec17b9d901338eee67c976fed7e1c33898e09af260272460d8"
     },
     {
-      "bytes": 4353900,
+      "bytes": 4332484,
       "encoding": "ISO-8859-1",
-      "md5": "30d28bc1b312d5bc235430ec976fa88b",
+      "md5": "def7fd6f9588ddb39fab106a9df81038",
       "format": "csv",
       "name": "tract",
       "filename": "tract.csv.xz",
@@ -8161,8 +8165,8 @@
       "id_length": 11,
       "time": "time",
       "profile": "data-resource",
-      "created": "2023-04-04 13:58:28",
-      "last_modified": "2023-04-04 13:58:28",
+      "created": "2023-04-04 16:57:59",
+      "last_modified": "2023-04-04 16:57:59",
       "row_count": 32032,
       "entity_count": 2464,
       "schema": {
@@ -8701,13 +8705,13 @@
           },
           {
             "name": "emp_rate",
-            "duplicates": 23050,
-            "time_range": [6, 10],
+            "duplicates": 30264,
+            "time_range": [6, 12],
             "type": "float",
-            "missing": 22668,
-            "mean": 94.128,
-            "sd": 4.0213,
-            "min": 63.5048,
+            "missing": 18344,
+            "mean": 94.4519,
+            "sd": 4.0699,
+            "min": 29.41,
             "max": 100,
             "info": {
               "category": "Employment/Workforce Development",
@@ -12282,7 +12286,7 @@
           "url": "https://www.cdc.gov/obesity/downloads/census-tract-level-state-maps-mrfei_TAG508.pdf"
         }
       },
-      "sha512": "ba021e220e8f166fcd0bff6edaf729c42bbedf8a5e4215835731ae6b1059166bfcb5964cf393515eb5eef25130e0059cabe31401dbb2cfb0e6eff72c89b4a946"
+      "sha512": "4fea65711248be638ce67943a2d7b4efd8494afe2f953b0197cbff7e9157bd15c5e348f4fff5d323ecf88586ac4908c07a08082027e52d232b169ad2fffc104e"
     }
   ]
 }

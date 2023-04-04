@@ -24,12 +24,12 @@
   "metadata": {
     "package": "data/datapackage.json",
     "datasets": ["tract", "county", "district"],
-    "variables": ["ID", "perc_income_min_price_100", "perc_income_min_price_25", "perc_total_100_20_using_devices", "perc_total_25_3_using_devices", "perc_w_int_100_20_using_devices", "perc_w_int_25_3_using_devices", "avg_up_using_devices", "avg_down_using_devices", "devices", "perc_hh_with_broadband", "perc_hh_with_cable_fiber_dsl", "perc_hh_without_compdev", "perc_hh_without_internet", "median_read_pass_rate", "emp_rate", "daycare_capacity", "daycare_min_drivetime", "daycare_per_1k", "daycare_over_4_per_1k", "daycare_under_10_per_1k", "schools_2year_per_100k", "schools_2year_min_drivetime", "schools_under2year_per_100k", "schools_under2year_min_drivetime", "schools_2year_with_biomedical_program_per_100k", "schools_2year_with_computer_program_per_100k", "schools_2year_with_engineering_program_per_100k", "schools_2year_with_physical_program_per_100k", "schools_2year_with_science_program_per_100k", "avg_monthly_rate", "Child_Food_Insecurity_Rate", "Cost_Per_Meal", "Num_Child_Food_Insecure", "percent_food_insecure", "number_food_insecure", "mental_near_10_median", "mental_3sfca", "mental_cnt", "no_hlth_ins_pct", "obgyn_cnt", "obgyn_3sfca", "perc_income_avg_nat_package", "perc_poor_ment_hlth_days_14_and_over", "perc_poor_phys_hlth_days_14_and_over", "acs_postsecondary_percent", "prevent_hosp_rate", "subs_near_10_median", "subs_3sfca", "subs_cnt", "earnings_per_job", "perc_hispanic_or_latino", "perc_wht_alone", "perc_afr_amer_alone", "perc_native_alone", "perc_AAPI", "perc_other", "perc_two_or_more", "perc_pop_under_20", "perc_pop_20_64", "perc_pop_65_plus", "perc_male", "perc_female", "perc_veteran", "perc_hh_limited_english", "dent_cnt", "dent_e2sfca", "ems_near_10_median", "ems_3sfca", "ems_cnt", "ped_cnt", "ped_3sfca", "primcare_cnt", "primcare_3sfca", "inadequate", "intermediate", "adequate", "adequateplus", "inadequate_pc", "intermediate_pc", "adequate_pc", "adequateplus_pc", "median_household_income", "health_opportunity_indicator", "economic_opportunity_indicator", "community_environment_indicator", "wellness_disparity_indicator", "consumer_opportunity_indicator", "education_indicator", "employment_access_indicator", "food_accessibility_indicator", "income_inequality_indicator", "job_participation_indicator", "material_deprivation_indicator", "pop_churning_indicator", "pop_density_indicator", "segregation_indicator", "walkability_indicator", "affordability_indicator", "air_quality_indicator", "access_care_indicator", "hh_received_snap_cnt", "hh_received_snap_pct", "gini_index"],
+    "variables": ["ID", "perc_income_min_price_100", "perc_income_min_price_25", "perc_total_100_20_using_devices", "perc_total_25_3_using_devices", "perc_w_int_100_20_using_devices", "perc_w_int_25_3_using_devices", "avg_up_using_devices", "avg_down_using_devices", "devices", "perc_hh_with_broadband", "perc_hh_with_cable_fiber_dsl", "perc_hh_without_compdev", "perc_hh_without_internet", "median_read_pass_rate", "emp_rate", "daycare_capacity", "daycare_min_drivetime", "daycare_per_1k", "daycare_over_4_per_1k", "daycare_under_10_per_1k", "schools_2year_per_100k", "schools_2year_min_drivetime", "schools_under2year_per_100k", "schools_under2year_min_drivetime", "schools_2year_with_biomedical_program_per_100k", "schools_2year_with_computer_program_per_100k", "schools_2year_with_engineering_program_per_100k", "schools_2year_with_physical_program_per_100k", "schools_2year_with_science_program_per_100k", "avg_monthly_rate", "Child_Food_Insecurity_Rate", "Cost_Per_Meal", "Num_Child_Food_Insecure", "percent_food_insecure", "number_food_insecure", "mental_near_10_median", "mental_3sfca", "mental_cnt", "no_hlth_ins_pct", "obgyn_cnt", "obgyn_3sfca", "perc_income_avg_nat_package", "perc_poor_ment_hlth_days_14_and_over", "perc_poor_phys_hlth_days_14_and_over", "acs_postsecondary_percent", "prevent_hosp_rate", "subs_near_10_median", "subs_3sfca", "subs_cnt", "earnings_per_job", "perc_hispanic_or_latino", "perc_wht_alone", "perc_afr_amer_alone", "perc_native_alone", "perc_AAPI", "perc_other", "perc_two_or_more", "perc_pop_under_20", "perc_pop_20_64", "perc_pop_65_plus", "perc_male", "perc_female", "perc_veteran", "perc_hh_limited_english", "dent_cnt", "dent_e2sfca", "ems_near_10_median", "ems_3sfca", "ems_cnt", "ped_cnt", "ped_3sfca", "primcare_cnt", "primcare_3sfca", "inadequate", "intermediate", "adequate", "adequateplus", "inadequate_pc", "intermediate_pc", "adequate_pc", "adequateplus_pc", "median_household_income", "health_opportunity_indicator", "economic_opportunity_indicator", "community_environment_indicator", "wellness_disparity_indicator", "consumer_opportunity_indicator", "education_indicator", "employment_access_indicator", "food_accessibility_indicator", "income_inequality_indicator", "job_participation_indicator", "material_deprivation_indicator", "pop_churning_indicator", "pop_density_indicator", "segregation_indicator", "walkability_indicator", "affordability_indicator", "air_quality_indicator", "access_care_indicator", "hh_received_snap_cnt", "hh_received_snap_pct", "gini_index", "job_participate_rate"],
     "info": {
       "tract": {
-        "bytes": 4332484,
+        "bytes": 4372512,
         "encoding": "ISO-8859-1",
-        "md5": "def7fd6f9588ddb39fab106a9df81038",
+        "md5": "e7855cae00f822c617b7a8c33638995b",
         "format": "csv",
         "name": "tract",
         "filename": "tract.csv.xz",
@@ -43,8 +43,8 @@
         "id_length": 11,
         "time": "time",
         "profile": "data-resource",
-        "created": "2023-04-04 16:57:59",
-        "last_modified": "2023-04-04 16:57:59",
+        "created": "2023-04-04 17:16:02",
+        "last_modified": "2023-04-04 17:16:02",
         "row_count": 32032,
         "entity_count": 2464,
         "schema": {
@@ -4401,6 +4401,45 @@
                 },
                 "citations": {}
               }
+            },
+            {
+              "name": "job_participate_rate",
+              "duplicates": 27752,
+              "time_range": [
+                6,
+                12
+              ],
+              "type": "float",
+              "missing": 18309,
+              "mean": 63.767,
+              "sd": 11.983,
+              "min": 0,
+              "max": 100,
+              "info": {
+                "category": "Employment/Workforce Development",
+                "type": "percent",
+                "short_name": "Job Participation Pecentage",
+                "long_name": "Job Participation Pecentage",
+                "short_description": "The percentage of individuals 16-64 years of age in the active labor force.",
+                "long_description": "The percentage of individuals 16-64 years of age in the active labor force. The job particpation rate is often used by economists as an indicator of economic development and growth.",
+                "statement": "{value} of the population in {features.name} is participating in the civilian job force.",
+                "equity_category": "Status",
+                "sources": [
+                  {
+                    "name": "American Community Survey",
+                    "location": "Table B23025",
+                    "date_accessed": "2023",
+                    "url": "https://www.census.gov/programs-surveys/acs.html"
+                  }
+                ],
+                "unit": "",
+                "data_type": "numeric",
+                "measure_type": "percent",
+                "layer": {
+                  "filter": {}
+                },
+                "citations": {}
+              }
             }
           ]
         },
@@ -4541,13 +4580,13 @@
             "url": "https://www.cdc.gov/obesity/downloads/census-tract-level-state-maps-mrfei_TAG508.pdf"
           }
         },
-        "sha512": "4fea65711248be638ce67943a2d7b4efd8494afe2f953b0197cbff7e9157bd15c5e348f4fff5d323ecf88586ac4908c07a08082027e52d232b169ad2fffc104e",
+        "sha512": "290dd469c1c0d7c7377615b38c89ae82781c06587d1b8c61715ea69bc2a27ecef0c5d926413a62fd621778cace35b8b17682537c9ad73875480750152e817149",
         "site_file": "tract.json"
       },
       "county": {
-        "bytes": 379788,
+        "bytes": 382668,
         "encoding": "ISO-8859-1",
-        "md5": "8fc162b7fc982edfd23f671a0ac5a4c1",
+        "md5": "a6d9430fb2c369ed52d4625bd814a915",
         "format": "csv",
         "name": "county",
         "filename": "county.csv.xz",
@@ -4561,8 +4600,8 @@
         "id_length": 5,
         "time": "time",
         "profile": "data-resource",
-        "created": "2023-04-04 16:57:50",
-        "last_modified": "2023-04-04 16:57:50",
+        "created": "2023-04-04 17:15:53",
+        "last_modified": "2023-04-04 17:15:53",
         "row_count": 1742,
         "entity_count": 134,
         "schema": {
@@ -8915,6 +8954,45 @@
                 },
                 "citations": {}
               }
+            },
+            {
+              "name": "job_participate_rate",
+              "duplicates": 964,
+              "time_range": [
+                6,
+                12
+              ],
+              "type": "float",
+              "missing": 811,
+              "mean": 58.2437,
+              "sd": 8.1199,
+              "min": 26.82,
+              "max": 77.85,
+              "info": {
+                "category": "Employment/Workforce Development",
+                "type": "percent",
+                "short_name": "Job Participation Pecentage",
+                "long_name": "Job Participation Pecentage",
+                "short_description": "The percentage of individuals 16-64 years of age in the active labor force.",
+                "long_description": "The percentage of individuals 16-64 years of age in the active labor force. The job particpation rate is often used by economists as an indicator of economic development and growth.",
+                "statement": "{value} of the population in {features.name} is participating in the civilian job force.",
+                "equity_category": "Status",
+                "sources": [
+                  {
+                    "name": "American Community Survey",
+                    "location": "Table B23025",
+                    "date_accessed": "2023",
+                    "url": "https://www.census.gov/programs-surveys/acs.html"
+                  }
+                ],
+                "unit": "",
+                "data_type": "numeric",
+                "measure_type": "percent",
+                "layer": {
+                  "filter": {}
+                },
+                "citations": {}
+              }
             }
           ]
         },
@@ -9055,13 +9133,13 @@
             "url": "https://www.cdc.gov/obesity/downloads/census-tract-level-state-maps-mrfei_TAG508.pdf"
           }
         },
-        "sha512": "523e695b5fcd2a520cc9bbc9fe0281fd39308e45414af371126fb1557d99642d1afe87de765ec7ec17b9d901338eee67c976fed7e1c33898e09af260272460d8",
+        "sha512": "281d23c2f9fa087dcb99a0447bf47e0e6d303fc197ff44b61ee8f7ba7b64f68f0299c0be22092f9deeb501a2902b1470581f075fa5296c7032e9d35c67675af9",
         "site_file": "county.json"
       },
       "district": {
-        "bytes": 53432,
+        "bytes": 53400,
         "encoding": "ISO-8859-1",
-        "md5": "3532ec5dc58c265e6137d0524633894b",
+        "md5": "98084a727f494ec393a98ca06e6e5ffe",
         "format": "csv",
         "name": "district",
         "filename": "health_district.csv.xz",
@@ -9075,8 +9153,8 @@
         "id_length": 8,
         "time": "time",
         "profile": "data-resource",
-        "created": "2023-04-04 16:57:50",
-        "last_modified": "2023-04-04 16:57:50",
+        "created": "2023-04-04 17:15:53",
+        "last_modified": "2023-04-04 17:15:53",
         "row_count": 455,
         "entity_count": 35,
         "schema": {
@@ -13297,6 +13375,41 @@
                 },
                 "citations": {}
               }
+            },
+            {
+              "name": "job_participate_rate",
+              "duplicates": 454,
+              "time_range": [
+                -1,
+                -1
+              ],
+              "type": "unknown",
+              "missing": 455,
+              "info": {
+                "category": "Employment/Workforce Development",
+                "type": "percent",
+                "short_name": "Job Participation Pecentage",
+                "long_name": "Job Participation Pecentage",
+                "short_description": "The percentage of individuals 16-64 years of age in the active labor force.",
+                "long_description": "The percentage of individuals 16-64 years of age in the active labor force. The job particpation rate is often used by economists as an indicator of economic development and growth.",
+                "statement": "{value} of the population in {features.name} is participating in the civilian job force.",
+                "equity_category": "Status",
+                "sources": [
+                  {
+                    "name": "American Community Survey",
+                    "location": "Table B23025",
+                    "date_accessed": "2023",
+                    "url": "https://www.census.gov/programs-surveys/acs.html"
+                  }
+                ],
+                "unit": "",
+                "data_type": "numeric",
+                "measure_type": "percent",
+                "layer": {
+                  "filter": {}
+                },
+                "citations": {}
+              }
             }
           ]
         },
@@ -13437,7 +13550,7 @@
             "url": "https://www.cdc.gov/obesity/downloads/census-tract-level-state-maps-mrfei_TAG508.pdf"
           }
         },
-        "sha512": "cda01820f60ba5687cabd0034b696ba7a3c588c12f3e6c106b4653400540e33e3e671c97409903b85d7315b9814801c3c56a3f2b9fc1d8c3455a7c5136e8e3e6",
+        "sha512": "98186e2c6b0c4f3ca397c37a3283575d7e3c81e64a6d60ff0b3c033aa40a05612c741624cbccc865a0208c14eae6d66f6ed84c8e770b94066dd814694a684818",
         "site_file": "district.json"
       }
     },

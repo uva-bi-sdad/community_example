@@ -25,8 +25,8 @@
       "id_length": 8,
       "time": "time",
       "profile": "data-resource",
-      "created": "2023-04-06 13:31:08",
-      "last_modified": "2023-04-06 13:31:08",
+      "created": "2023-04-06 14:27:40",
+      "last_modified": "2023-04-06 14:27:40",
       "row_count": 490,
       "entity_count": 35,
       "schema": {
@@ -4075,8 +4075,8 @@
       "id_length": 5,
       "time": "time",
       "profile": "data-resource",
-      "created": "2023-04-06 13:31:08",
-      "last_modified": "2023-04-06 13:31:08",
+      "created": "2023-04-06 14:27:39",
+      "last_modified": "2023-04-06 14:27:39",
       "row_count": 1876,
       "entity_count": 134,
       "schema": {
@@ -8245,9 +8245,9 @@
       "sha512": "77e3206f139738d4d99d207fe96c11b07e25fca4f8256cdc3a46068edfd1ad6f213a5c4ff5ff8ef8558fdc5c88002ea72e61149c4db2a1c76ec12b73024dec80"
     },
     {
-      "bytes": 4392680,
+      "bytes": 4395428,
       "encoding": "ISO-8859-1",
-      "md5": "e52777498bac2e72e4823afa6aa3be1e",
+      "md5": "4ea175945214d4f6fe70ee98b6e62ee4",
       "format": "csv",
       "name": "tract",
       "filename": "tract.csv.xz",
@@ -8261,8 +8261,8 @@
       "id_length": 11,
       "time": "time",
       "profile": "data-resource",
-      "created": "2023-04-06 13:31:38",
-      "last_modified": "2023-04-06 13:31:38",
+      "created": "2023-04-06 14:28:10",
+      "last_modified": "2023-04-06 14:28:10",
       "row_count": 34496,
       "entity_count": 2464,
       "schema": {
@@ -11546,9 +11546,9 @@
             "duplicates": 34490,
             "time_range": [8, 13],
             "type": "integer",
-            "missing": 31021,
-            "mean": 3.0383,
-            "sd": 1.4284,
+            "missing": 30453,
+            "mean": 3.0015,
+            "sd": 1.4133,
             "min": 1,
             "max": 5,
             "info": {
@@ -12432,7 +12432,7 @@
           "url": "https://www.cdc.gov/obesity/downloads/census-tract-level-state-maps-mrfei_TAG508.pdf"
         }
       },
-      "sha512": "539df04da139b16ec9b44b9cc6bd46d10b72223cf5fd4640e2644604e432d99f60bb122d36924de2fde6092a368a6389532e0f16bcaafe301f22e99ee135239e"
+      "sha512": "b36d07ae3009d59fb7b8f861700640501c77f146f9ba7910fd951098e1f307a581933da0a390f170a4a54ed8fbeb36a3fc7f72e4ecd213c863127aea987390d1"
     }
   ]
 }

@@ -308,9 +308,9 @@
     "repository": "uva-bi-sdad/sdc.health",
     "files": {
       "Population Health/Health Opportunity Index/data/distribution/va_cttr_vdh_2017_2022_health_opportunity_profile.csv": {
-        "size": 390426,
-        "sha": "aa33914c854874609e2ce100b932490a73a585b4",
-        "md5": "a34fce0336191382c76d49b6e2ccad91"
+        "size": 529704,
+        "sha": "c5dffc6e2f9ae5d78f8c616a1866da16bde135c9",
+        "md5": "a254a8f623a2e06f514eb09216031a3c"
       },
       "Population Health/System Usage and Insurance/Without Health Insurance/data/distribution/va_hdcttr_acs5_2015_2019_no_health_insurance_19_to_64.csv.xz": {
         "size": 202628,

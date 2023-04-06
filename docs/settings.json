@@ -27,9 +27,9 @@
     "variables": ["ID", "perc_income_min_price_100", "perc_income_min_price_25", "perc_total_100_20_using_devices", "perc_total_25_3_using_devices", "perc_w_int_100_20_using_devices", "perc_w_int_25_3_using_devices", "avg_up_using_devices", "avg_down_using_devices", "devices", "perc_hh_with_broadband", "perc_hh_with_cable_fiber_dsl", "perc_hh_without_compdev", "perc_hh_without_internet", "median_read_pass_rate", "emp_rate", "daycare_capacity", "daycare_min_drivetime", "daycare_per_1k", "daycare_over_4_per_1k", "daycare_under_10_per_1k", "schools_2year_per_100k", "schools_2year_min_drivetime", "schools_under2year_per_100k", "schools_under2year_min_drivetime", "schools_2year_with_biomedical_program_per_100k", "schools_2year_with_computer_program_per_100k", "schools_2year_with_engineering_program_per_100k", "schools_2year_with_physical_program_per_100k", "schools_2year_with_science_program_per_100k", "avg_monthly_rate", "Child_Food_Insecurity_Rate", "Cost_Per_Meal", "Num_Child_Food_Insecure", "percent_food_insecure", "number_food_insecure", "mental_near_10_median", "mental_3sfca", "mental_cnt", "no_hlth_ins_pct", "obgyn_cnt", "obgyn_3sfca", "perc_income_avg_nat_package", "perc_poor_ment_hlth_days_14_and_over", "perc_poor_phys_hlth_days_14_and_over", "acs_postsecondary_percent", "prevent_hosp_rate", "subs_near_10_median", "subs_3sfca", "subs_cnt", "earnings_per_job", "perc_hispanic_or_latino", "perc_wht_alone", "perc_afr_amer_alone", "perc_native_alone", "perc_AAPI", "perc_other", "perc_two_or_more", "perc_pop_under_20", "perc_pop_20_64", "perc_pop_65_plus", "perc_male", "perc_female", "perc_veteran", "perc_hh_limited_english", "dent_cnt", "dent_e2sfca", "ems_near_10_median", "ems_3sfca", "ems_cnt", "ped_cnt", "ped_3sfca", "primcare_cnt", "primcare_3sfca", "inadequate", "intermediate", "adequate", "adequateplus", "inadequate_pc", "intermediate_pc", "adequate_pc", "adequateplus_pc", "median_household_income", "health_opportunity_indicator", "economic_opportunity_indicator", "community_environment_indicator", "wellness_disparity_indicator", "consumer_opportunity_indicator", "education_indicator", "employment_access_indicator", "food_accessibility_indicator", "income_inequality_indicator", "job_participation_indicator", "material_deprivation_indicator", "pop_churning_indicator", "pop_density_indicator", "segregation_indicator", "walkability_indicator", "affordability_indicator", "air_quality_indicator", "access_care_indicator", "hh_received_snap_cnt", "hh_received_snap_pct", "gini_index", "job_participate_rate"],
     "info": {
       "tract": {
-        "bytes": 4392680,
+        "bytes": 4395428,
         "encoding": "ISO-8859-1",
-        "md5": "e52777498bac2e72e4823afa6aa3be1e",
+        "md5": "4ea175945214d4f6fe70ee98b6e62ee4",
         "format": "csv",
         "name": "tract",
         "filename": "tract.csv.xz",
@@ -43,8 +43,8 @@
         "id_length": 11,
         "time": "time",
         "profile": "data-resource",
-        "created": "2023-04-06 13:31:38",
-        "last_modified": "2023-04-06 13:31:38",
+        "created": "2023-04-06 14:28:10",
+        "last_modified": "2023-04-06 14:28:10",
         "row_count": 34496,
         "entity_count": 2464,
         "schema": {
@@ -3645,9 +3645,9 @@
                 13
               ],
               "type": "integer",
-              "missing": 31021,
-              "mean": 3.0383,
-              "sd": 1.4284,
+              "missing": 30453,
+              "mean": 3.0015,
+              "sd": 1.4133,
               "min": 1,
               "max": 5,
               "info": {
@@ -4594,7 +4594,7 @@
             "url": "https://www.cdc.gov/obesity/downloads/census-tract-level-state-maps-mrfei_TAG508.pdf"
           }
         },
-        "sha512": "539df04da139b16ec9b44b9cc6bd46d10b72223cf5fd4640e2644604e432d99f60bb122d36924de2fde6092a368a6389532e0f16bcaafe301f22e99ee135239e",
+        "sha512": "b36d07ae3009d59fb7b8f861700640501c77f146f9ba7910fd951098e1f307a581933da0a390f170a4a54ed8fbeb36a3fc7f72e4ecd213c863127aea987390d1",
         "site_file": "tract.json"
       },
       "county": {
@@ -4614,8 +4614,8 @@
         "id_length": 5,
         "time": "time",
         "profile": "data-resource",
-        "created": "2023-04-06 13:31:08",
-        "last_modified": "2023-04-06 13:31:08",
+        "created": "2023-04-06 14:27:39",
+        "last_modified": "2023-04-06 14:27:39",
         "row_count": 1876,
         "entity_count": 134,
         "schema": {
@@ -9181,8 +9181,8 @@
         "id_length": 8,
         "time": "time",
         "profile": "data-resource",
-        "created": "2023-04-06 13:31:08",
-        "last_modified": "2023-04-06 13:31:08",
+        "created": "2023-04-06 14:27:40",
+        "last_modified": "2023-04-06 14:27:40",
         "row_count": 490,
         "entity_count": 35,
         "schema": {

@@ -11,10 +11,10 @@
 "avg_down_using_devices",0,399,105,5670
 "avg_monthly_rate",1,926,245,0
 "avg_up_using_devices",0,399,105,5670
-"Child_Food_Insecurity_Rate",1,798,210,0
+"Child_Food_Insecurity_Rate",0,798,210,0
 "community_environment_indicator",0,0,0,1875
 "consumer_opportunity_indicator",0,0,0,1875
-"Cost_Per_Meal",1,798,210,0
+"Cost_Per_Meal",0,798,210,0
 "daycare_capacity",0,133,35,2186
 "daycare_min_drivetime",0,133,35,2186
 "daycare_over_4_per_1k",0,133,35,2186
@@ -24,7 +24,7 @@
 "dent_e2sfca",1,133,35,2218
 "devices",0,399,105,5670
 "earnings_per_job",1,492,0,0
-"economic_opportunity_indicator",0,0,0,1875
+"economic_opportunity_indicator",0,0,0,4038
 "education_indicator",0,0,0,1875
 "emp_rate",1,931,0,13688
 "employment_access_indicator",0,0,0,1875
@@ -50,7 +50,7 @@
 "mental_cnt",1,133,35,2235
 "mental_near_10_median",0,133,35,2217
 "no_hlth_ins_pct",0,665,175,9360
-"Num_Child_Food_Insecure",1,798,210,0
+"Num_Child_Food_Insecure",0,798,210,0
 "number_food_insecure",0,798,210,2078
 "obgyn_3sfca",1,133,35,2214
 "obgyn_cnt",1,133,35,2235

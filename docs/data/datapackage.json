@@ -9,9 +9,9 @@
   },
   "resources": [
     {
-      "bytes": 54216,
+      "bytes": 55724,
       "encoding": "ISO-8859-1",
-      "md5": "5bb1b0e29a96c176c9b12f46b80b9e7d",
+      "md5": "b093d27955a77f1461bce3168178971d",
       "format": "csv",
       "name": "district",
       "filename": "health_district.csv.xz",
@@ -25,8 +25,8 @@
       "id_length": 8,
       "time": "time",
       "profile": "data-resource",
-      "created": "2023-05-09 07:23:13.452652",
-      "last_modified": "2023-05-09 06:50:49.022665",
+      "created": "2023-05-09 16:31:25",
+      "last_modified": "2023-05-09 16:31:25",
       "row_count": 490,
       "entity_count": 35,
       "schema": {
@@ -135,25 +135,25 @@
           },
           {
             "name": "perc_hh_with_broadband",
-            "duplicates": 384,
-            "time_range": [8, 10],
+            "duplicates": 314,
+            "time_range": [8, 12],
             "type": "float",
-            "missing": 385,
-            "mean": 77.4409,
-            "sd": 10.1325,
+            "missing": 315,
+            "mean": 79.6972,
+            "sd": 9.8489,
             "min": 54.1467,
-            "max": 94.6151
+            "max": 96.2002
           },
           {
             "name": "perc_hh_with_cable_fiber_dsl",
-            "duplicates": 384,
-            "time_range": [8, 10],
+            "duplicates": 314,
+            "time_range": [8, 12],
             "type": "float",
-            "missing": 385,
-            "mean": 62.1007,
-            "sd": 14.9794,
+            "missing": 315,
+            "mean": 63.1879,
+            "sd": 14.8458,
             "min": 30.4352,
-            "max": 87.9704
+            "max": 88.6951
           },
           {
             "name": "perc_hh_without_compdev",
@@ -168,13 +168,13 @@
           },
           {
             "name": "perc_hh_without_internet",
-            "duplicates": 384,
-            "time_range": [8, 10],
+            "duplicates": 314,
+            "time_range": [8, 12],
             "type": "float",
-            "missing": 385,
-            "mean": 18.2278,
-            "sd": 8.8223,
-            "min": 3.5262,
+            "missing": 315,
+            "mean": 16.5057,
+            "sd": 8.5519,
+            "min": 2.3148,
             "max": 38.5563
           },
           {
@@ -1061,12 +1061,12 @@
           }
         ]
       },
-      "sha512": "5a09d2bfb0e9d7534c47f43e85e9a0a3c80f1824592cd2560005cd2b90ee0473cffe5b562c05a80c1f45704a746ec8e2b5ea00840b4905a84c3fa3c6fa0eec1c"
+      "sha512": "28107efad132632c466e2abb828320bf80a7adcc26aba4d33de8e6d827dde8bf2eaccf7653635e441b2b07430ca3ad1e4c0209699ab547d44a56962fca80272e"
     },
     {
-      "bytes": 406732,
+      "bytes": 413140,
       "encoding": "ISO-8859-1",
-      "md5": "17b53e7a2e47afc2107ee2a25944a044",
+      "md5": "3bd0ec370df53fd5a4306f6f2c5c5e1a",
       "format": "csv",
       "name": "county",
       "filename": "county.csv.xz",
@@ -1080,8 +1080,8 @@
       "id_length": 5,
       "time": "time",
       "profile": "data-resource",
-      "created": "2023-05-09 07:23:13.372133",
-      "last_modified": "2023-05-09 06:50:49.019665",
+      "created": "2023-05-09 16:31:25",
+      "last_modified": "2023-05-09 16:31:25",
       "row_count": 1876,
       "entity_count": 134,
       "schema": {
@@ -1198,25 +1198,25 @@
           },
           {
             "name": "perc_hh_with_broadband",
-            "duplicates": 1476,
-            "time_range": [8, 10],
+            "duplicates": 1210,
+            "time_range": [8, 12],
             "type": "float",
-            "missing": 1477,
-            "mean": 73.1099,
-            "sd": 10.3811,
+            "missing": 1211,
+            "mean": 75.7636,
+            "sd": 10.293,
             "min": 48.2457,
-            "max": 95.418
+            "max": 96.3943
           },
           {
             "name": "perc_hh_with_cable_fiber_dsl",
-            "duplicates": 1476,
-            "time_range": [8, 10],
+            "duplicates": 1210,
+            "time_range": [8, 12],
             "type": "float",
-            "missing": 1477,
-            "mean": 54.313,
-            "sd": 17.1723,
+            "missing": 1211,
+            "mean": 55.6661,
+            "sd": 17.0558,
             "min": 10.0733,
-            "max": 89.7517
+            "max": 90.3908
           },
           {
             "name": "perc_hh_without_compdev",
@@ -1231,13 +1231,13 @@
           },
           {
             "name": "perc_hh_without_internet",
-            "duplicates": 1476,
-            "time_range": [8, 10],
+            "duplicates": 1210,
+            "time_range": [8, 12],
             "type": "float",
-            "missing": 1477,
-            "mean": 22.0161,
-            "sd": 9.2136,
-            "min": 2.6932,
+            "missing": 1211,
+            "mean": 20.028,
+            "sd": 9.0916,
+            "min": 1.8472,
             "max": 43.4009
           },
           {
@@ -1488,9 +1488,9 @@
             "time_range": [12, 12],
             "type": "float",
             "missing": 1743,
-            "mean": 40.8729,
-            "sd": 17.4384,
-            "min": 7.2919,
+            "mean": 40.7857,
+            "sd": 17.5506,
+            "min": 7.2639,
             "max": 96.4534
           },
           {
@@ -1499,10 +1499,10 @@
             "time_range": [12, 12],
             "type": "float",
             "missing": 1743,
-            "mean": 0.3376,
-            "sd": 0.2788,
+            "mean": 2.5941,
+            "sd": 8.7499,
             "min": 0,
-            "max": 1.573
+            "max": 48.4744
           },
           {
             "name": "mental_cnt",
@@ -1510,10 +1510,10 @@
             "time_range": [12, 12],
             "type": "integer",
             "missing": 1743,
-            "mean": 1.4737,
-            "sd": 2.221,
+            "mean": 1.4511,
+            "sd": 2.1478,
             "min": 0,
-            "max": 19
+            "max": 18
           },
           {
             "name": "no_hlth_ins_pct",
@@ -1532,10 +1532,10 @@
             "time_range": [12, 12],
             "type": "integer",
             "missing": 1743,
-            "mean": 22.8421,
-            "sd": 59.8737,
+            "mean": 20.2932,
+            "sd": 46.8889,
             "min": 0,
-            "max": 562
+            "max": 374
           },
           {
             "name": "obgyn_3sfca",
@@ -1543,8 +1543,8 @@
             "time_range": [12, 12],
             "type": "float",
             "missing": 1743,
-            "mean": 0.5821,
-            "sd": 0.4323,
+            "mean": 0.5847,
+            "sd": 0.4365,
             "min": 0,
             "max": 2.4767
           },
@@ -1609,8 +1609,8 @@
             "time_range": [12, 12],
             "type": "float",
             "missing": 1743,
-            "mean": 41.0985,
-            "sd": 18.0517,
+            "mean": 41.1135,
+            "sd": 18.0129,
             "min": 5.5582,
             "max": 99.7104
           },
@@ -1620,10 +1620,10 @@
             "time_range": [12, 12],
             "type": "float",
             "missing": 1743,
-            "mean": 0.2845,
-            "sd": 0.229,
+            "mean": 2.8625,
+            "sd": 9.7091,
             "min": 0,
-            "max": 1.2279
+            "max": 52.0669
           },
           {
             "name": "subs_cnt",
@@ -1631,10 +1631,10 @@
             "time_range": [12, 12],
             "type": "integer",
             "missing": 1743,
-            "mean": 1.3459,
-            "sd": 2.2497,
+            "mean": 1.3158,
+            "sd": 2.0127,
             "min": 0,
-            "max": 20
+            "max": 16
           },
           {
             "name": "earnings_per_job",
@@ -1807,10 +1807,10 @@
             "time_range": [12, 12],
             "type": "integer",
             "missing": 1743,
-            "mean": 32.3383,
-            "sd": 89.6899,
+            "mean": 46.3383,
+            "sd": 198.0052,
             "min": 0,
-            "max": 894
+            "max": 2201
           },
           {
             "name": "dent_e2sfca",
@@ -1818,10 +1818,10 @@
             "time_range": [12, 12],
             "type": "float",
             "missing": 1743,
-            "mean": 0.3089,
-            "sd": 0.1815,
+            "mean": 0.4006,
+            "sd": 0.44,
             "min": 0,
-            "max": 0.8267
+            "max": 2.5017
           },
           {
             "name": "ems_near_10_median",
@@ -1829,9 +1829,9 @@
             "time_range": [12, 12],
             "type": "float",
             "missing": 1743,
-            "mean": 20.1388,
-            "sd": 8.3931,
-            "min": 6.117,
+            "mean": 20.1695,
+            "sd": 8.3631,
+            "min": 6.265,
             "max": 58.6853
           },
           {
@@ -1840,32 +1840,32 @@
             "time_range": [12, 12],
             "type": "float",
             "missing": 1743,
-            "mean": 0.2433,
-            "sd": 0.1555,
-            "min": 0.0331,
-            "max": 1.2021
+            "mean": 5.6402,
+            "sd": 20.2559,
+            "min": 0.0558,
+            "max": 95.7483
           },
           {
             "name": "ems_cnt",
-            "duplicates": 1849,
+            "duplicates": 1851,
             "time_range": [12, 12],
             "type": "integer",
             "missing": 1743,
-            "mean": 8.406,
-            "sd": 6.7432,
+            "mean": 8.3609,
+            "sd": 6.7007,
             "min": 0,
             "max": 42
           },
           {
             "name": "ped_cnt",
-            "duplicates": 1830,
+            "duplicates": 1829,
             "time_range": [12, 12],
             "type": "integer",
             "missing": 1743,
-            "mean": 29.8571,
-            "sd": 82.8406,
+            "mean": 29.2406,
+            "sd": 83.5827,
             "min": 0,
-            "max": 756
+            "max": 783
           },
           {
             "name": "ped_3sfca",
@@ -1873,8 +1873,8 @@
             "time_range": [12, 12],
             "type": "float",
             "missing": 1743,
-            "mean": 1.5436,
-            "sd": 1.349,
+            "mean": 1.6183,
+            "sd": 1.4384,
             "min": 0,
             "max": 11.5383
           },
@@ -1884,10 +1884,10 @@
             "time_range": [12, 12],
             "type": "integer",
             "missing": 1743,
-            "mean": 109.4737,
-            "sd": 258.6403,
+            "mean": 106.782,
+            "sd": 250.0723,
             "min": 0,
-            "max": 2256
+            "max": 2141
           },
           {
             "name": "primcare_3sfca",
@@ -1895,8 +1895,8 @@
             "time_range": [12, 12],
             "type": "float",
             "missing": 1743,
-            "mean": 2.015,
-            "sd": 1.0896,
+            "mean": 2.0325,
+            "sd": 1.0985,
             "min": 0.2814,
             "max": 8.0354
           },
@@ -2292,12 +2292,12 @@
           }
         ]
       },
-      "sha512": "aa4fed9b485b5f5345953e94a6dc96f8cf87eea0e58cbe943f11c71a691e594076762e4171d34aeb5ec0eb28498700469c7a29f5e5408810817c76095018a788"
+      "sha512": "61440efb4c2c890efb2da52adc4143ae25d01e51f26b4d77d04bafa1984b9bb7ef2995504cebeee94b3d3fc25c5b3b5860fa7a85fbba5c776ad89d5a27f5f7f4"
     },
     {
-      "bytes": 4689576,
+      "bytes": 4787584,
       "encoding": "ISO-8859-1",
-      "md5": "a1014101e48a5ba07cfcfb9deafecf58",
+      "md5": "b612f6add630c587afe970ff1e3fc5ed",
       "format": "csv",
       "name": "tract",
       "filename": "tract.csv.xz",
@@ -2311,8 +2311,8 @@
       "id_length": 11,
       "time": "time",
       "profile": "data-resource",
-      "created": "2023-05-09 07:23:25.328978",
-      "last_modified": "2023-05-09 06:50:49.038204",
+      "created": "2023-05-09 16:31:36",
+      "last_modified": "2023-05-09 16:31:36",
       "row_count": 34496,
       "entity_count": 2464,
       "schema": {
@@ -2429,21 +2429,25 @@
           },
           {
             "name": "perc_hh_with_broadband",
-            "duplicates": 28993,
-            "time_range": [8, 10],
+            "duplicates": 24958,
+            "time_range": [8, 12],
             "type": "float",
-            "missing": 28882,
-            "mean": 81.2787,
-            "sd": 13.3111,
-            "min": 23.4487,
+            "missing": 24395,
+            "mean": 82.0058,
+            "sd": 16.4204,
+            "min": 0,
             "max": 100
           },
           {
             "name": "perc_hh_with_cable_fiber_dsl",
-            "duplicates": 34495,
-            "time_range": [-1, -1],
-            "type": "unknown",
-            "missing": 34496
+            "duplicates": 24765,
+            "time_range": [8, 12],
+            "type": "float",
+            "missing": 24395,
+            "mean": 68.047,
+            "sd": 21.9358,
+            "min": 0,
+            "max": 100
           },
           {
             "name": "perc_hh_without_compdev",
@@ -2458,12 +2462,12 @@
           },
           {
             "name": "perc_hh_without_internet",
-            "duplicates": 29077,
-            "time_range": [8, 10],
+            "duplicates": 25175,
+            "time_range": [8, 12],
             "type": "float",
-            "missing": 28882,
-            "mean": 14.9325,
-            "sd": 11.7156,
+            "missing": 24395,
+            "mean": 13.1082,
+            "sd": 11.2043,
             "min": 0,
             "max": 69.3844
           },
@@ -2691,25 +2695,25 @@
           },
           {
             "name": "mental_near_10_median",
-            "duplicates": 32300,
+            "duplicates": 32301,
             "time_range": [12, 12],
             "type": "float",
             "missing": 32279,
-            "mean": 27.5303,
-            "sd": 16.8807,
-            "min": 2.2318,
+            "mean": 27.3447,
+            "sd": 17.01,
+            "min": 2.0949,
             "max": 106.0057
           },
           {
             "name": "mental_3sfca",
-            "duplicates": 32515,
+            "duplicates": 32503,
             "time_range": [12, 12],
             "type": "float",
             "missing": 32278,
-            "mean": 1.0024,
-            "sd": 5.4089,
+            "mean": 8.1239,
+            "sd": 15.2635,
             "min": 0,
-            "max": 53.9487
+            "max": 113.3123
           },
           {
             "name": "mental_cnt",
@@ -2717,8 +2721,8 @@
             "time_range": [12, 12],
             "type": "integer",
             "missing": 32261,
-            "mean": 0.0877,
-            "sd": 0.3351,
+            "mean": 0.0881,
+            "sd": 0.3383,
             "min": 0,
             "max": 4
           },
@@ -2735,12 +2739,12 @@
           },
           {
             "name": "obgyn_cnt",
-            "duplicates": 34453,
+            "duplicates": 34451,
             "time_range": [12, 12],
             "type": "integer",
             "missing": 32261,
-            "mean": 1.3593,
-            "sd": 6.544,
+            "mean": 1.3123,
+            "sd": 6.4771,
             "min": 0,
             "max": 136
           },
@@ -2750,8 +2754,8 @@
             "time_range": [12, 12],
             "type": "float",
             "missing": 32282,
-            "mean": 0.8304,
-            "sd": 0.4563,
+            "mean": 0.835,
+            "sd": 0.4596,
             "min": 0,
             "max": 2.5727
           },
@@ -2808,25 +2812,25 @@
           },
           {
             "name": "subs_near_10_median",
-            "duplicates": 32306,
+            "duplicates": 32309,
             "time_range": [12, 12],
             "type": "float",
             "missing": 32279,
-            "mean": 27.8542,
-            "sd": 16.745,
-            "min": 2.2318,
+            "mean": 28.0763,
+            "sd": 16.5464,
+            "min": 2.7866,
             "max": 112.5874
           },
           {
             "name": "subs_3sfca",
-            "duplicates": 32500,
+            "duplicates": 32496,
             "time_range": [12, 12],
             "type": "float",
             "missing": 32278,
-            "mean": 1.0737,
-            "sd": 5.6686,
+            "mean": 8.8422,
+            "sd": 16.2952,
             "min": 0,
-            "max": 51.8572
+            "max": 70.7168
           },
           {
             "name": "subs_cnt",
@@ -2834,8 +2838,8 @@
             "time_range": [12, 12],
             "type": "integer",
             "missing": 32261,
-            "mean": 0.0801,
-            "sd": 0.3085,
+            "mean": 0.0805,
+            "sd": 0.312,
             "min": 0,
             "max": 3
           },
@@ -3002,14 +3006,14 @@
           },
           {
             "name": "dent_cnt",
-            "duplicates": 34463,
+            "duplicates": 34442,
             "time_range": [12, 12],
             "type": "integer",
             "missing": 32261,
-            "mean": 1.9244,
-            "sd": 3.7648,
+            "mean": 2.9078,
+            "sd": 7.8539,
             "min": 0,
-            "max": 39
+            "max": 154
           },
           {
             "name": "dent_e2sfca",
@@ -3017,20 +3021,20 @@
             "time_range": [12, 12],
             "type": "float",
             "missing": 32278,
-            "mean": 0.4378,
-            "sd": 0.3057,
+            "mean": 0.7194,
+            "sd": 0.6681,
             "min": 0,
-            "max": 2.7527
+            "max": 2.8741
           },
           {
             "name": "ems_near_10_median",
-            "duplicates": 32339,
+            "duplicates": 32342,
             "time_range": [12, 12],
             "type": "float",
             "missing": 32278,
-            "mean": 14.4449,
-            "sd": 7.569,
-            "min": 2.2318,
+            "mean": 14.5133,
+            "sd": 7.5878,
+            "min": 2.0949,
             "max": 69.8202
           },
           {
@@ -3039,10 +3043,10 @@
             "time_range": [12, 12],
             "type": "float",
             "missing": 32278,
-            "mean": 1.9606,
-            "sd": 12.2881,
+            "mean": 18.0418,
+            "sd": 33.69,
             "min": 0,
-            "max": 172.6034
+            "max": 249.3065
           },
           {
             "name": "ems_cnt",
@@ -3050,21 +3054,21 @@
             "time_range": [12, 12],
             "type": "integer",
             "missing": 32261,
-            "mean": 0.5083,
-            "sd": 0.7963,
+            "mean": 0.5065,
+            "sd": 0.7958,
             "min": 0,
             "max": 6
           },
           {
             "name": "ped_cnt",
-            "duplicates": 34452,
+            "duplicates": 34453,
             "time_range": [12, 12],
             "type": "integer",
             "missing": 32261,
-            "mean": 1.7767,
-            "sd": 8.1513,
+            "mean": 1.8474,
+            "sd": 8.7728,
             "min": 0,
-            "max": 190
+            "max": 205
           },
           {
             "name": "ped_3sfca",
@@ -3072,19 +3076,19 @@
             "time_range": [12, 12],
             "type": "float",
             "missing": 32290,
-            "mean": 2.257,
-            "sd": 1.5692,
+            "mean": 2.4795,
+            "sd": 1.6776,
             "min": 0,
             "max": 12.0351
           },
           {
             "name": "primcare_cnt",
-            "duplicates": 34402,
+            "duplicates": 34404,
             "time_range": [12, 12],
             "type": "integer",
             "missing": 32261,
-            "mean": 6.5145,
-            "sd": 28.705,
+            "mean": 6.3611,
+            "sd": 28.3325,
             "min": 0,
             "max": 835
           },
@@ -3094,8 +3098,8 @@
             "time_range": [12, 12],
             "type": "float",
             "missing": 32278,
-            "mean": 2.3366,
-            "sd": 1.1471,
+            "mean": 2.3819,
+            "sd": 1.1551,
             "min": 0,
             "max": 8.143
           },
@@ -3499,7 +3503,7 @@
           }
         ]
       },
-      "sha512": "da1bed92e6161985c0744f1c1afeeee2845170b386cc63a59ba390e8c2116e703c127e3d755660ef43bb72f10f5c08e62ad1ee2be5826505e01a91dc0c51e91e"
+      "sha512": "7020bae397780013144f5a471945841cb8c5792cf75de6bba8c00ea28225188b04435f5509bf227350dc471d2f2a3bdfd617a88135a497d40ecf55f027fb98de"
     }
   ],
   "measure_info": {
@@ -3659,180 +3663,117 @@
       "type": "",
       "unit": ""
     },
-    "total_calves_sales": {
-      "category": "Agriculture Industry",
+    "earnings_per_job": {
+      "category": "Employment/Workforce Development",
       "citations": "",
       "data_type": "numeric",
       "equity_category": "Status",
       "layer": "",
-      "long_description": "",
-      "long_name": "Total sales of calves within a given county",
-      "measure_type": "count",
-      "short_description": "Total sales of calves",
-      "short_name": "Total sales of calves",
+      "long_description": "Earnings per job is calculated based on the GDP and Personal Income table from the Bureau of Economic Analysis.",
+      "long_name": "Earnings per job",
+      "measure_type": "dollars",
+      "short_description": "Average of earnings per job.",
+      "short_name": "Earnings per job",
       "sources": [
         {
-          "name": "Department of Agriculture National Agriculture Statistics Service",
-          "date_accessed": 2023,
-          "url": "https://www.nass.usda.gov/"
+          "name": "Bureau of Economic Analysis",
+          "date_accessed": "2021",
+          "url": "https://apps.bea.gov/iTable/iTable.cfm?reqid=70&step=1&acrdn=6"
         }
       ],
-      "statement": "Total sales of calves to {feature.name} is {value}.",
-      "type": "count",
+      "statement": "Earnings per job in {features.name} is {value}.",
+      "type": "dollar",
       "unit": ""
     },
-    "total_commodity_sales": {
-      "category": "Agriculture Industry",
+    "gini_index": {
+      "category": "Financial Well Being",
       "citations": "",
       "data_type": "numeric",
-      "equity_category": "Status",
+      "equity_category": "",
       "layer": "",
-      "long_description": "",
-      "long_name": "Total sales of commodities within a given county",
-      "measure_type": "count",
-      "short_description": "Total sales of commodities",
-      "short_name": "Total sales of commodities",
+      "long_description": "The Gini Index is a summary measure of income inequality. The Gini coefficient incorporates the detailed shares data into a single statistic, which summarizes the dispersion of income across the entire income distribution. The Gini coefficient ranges from 0, indicating perfect equality (where everyone receives an equal share), to 1, perfect inequality (where only one recipient or group of recipients receives all the income). The Gini is based on the difference between the Lorenz curve (the observed cumulative income distribution) and the notion of a perfectly equal income distribution.",
+      "long_name": "Income Inequality (Gini Index)",
+      "measure_type": "index",
+      "short_description": "The Gini Index is a summary measure of income inequality.",
+      "short_name": "Income Inequality (Gini Index)",
       "sources": [
         {
-          "name": "Department of Agriculture National Agriculture Statistics Service",
-          "date_accessed": 2023,
-          "url": "https://www.nass.usda.gov/"
+          "name": "U.S. Census American Community Survey",
+          "location": "Table B19083",
+          "date_accessed": "2023"
         }
       ],
-      "statement": "Total sales of commodities to {feature.name} is {value}",
-      "type": "dollar",
-      "unit": "dollar"
-    },
-    "total_animalProducts_sales": {
-      "category": "Agriculture Industry",
-      "citations": "",
-      "data_type": "numeric",
-      "equity_category": "Status",
-      "layer": "",
-      "long_description": "",
-      "long_name": "Total sales of animal products within a given county",
-      "measure_type": "count",
-      "short_description": "Total sales of animal products",
-      "short_name": "Total sales of animal products",
-      "sources": [
-        {
-          "name": "Department of Agriculture National Agriculture Statistics Service",
-          "date_accessed": 2023,
-          "url": "https://www.nass.usda.gov/"
-        }
-      ],
-      "statement": "Total sales of animal products to {features.name} is {value}.",
-      "type": "dollar",
-      "unit": "dollar"
-    },
-    "fruit_treeNut_total_sales": {
-      "category": "Agriculture Industry",
-      "citations": "",
-      "data_type": "numeric",
-      "equity_category": "Status",
-      "layer": "",
-      "long_description": "",
-      "long_name": "Total sales of fruits and treenuts within a given county",
-      "measure_type": "count",
-      "short_description": "Total sales of fruits and treenuts",
-      "short_name": "Total sales of fruits and treenuts",
-      "sources": [
-        {
-          "name": "Department of Agriculture National Agriculture Statistics Service",
-          "date_accessed": 2023,
-          "url": "https://www.nass.usda.gov/"
-        }
-      ],
-      "statement": "Total sales of fruit and tree nuts to {features.name} is {value}.",
-      "type": "dollar",
-      "unit": "dollar"
-    },
-    "total_animal_expense": {
-      "category": "Agriculture Industry",
-      "citations": "",
-      "data_type": "numeric",
-      "equity_category": "Status",
-      "layer": "",
-      "long_description": "",
-      "long_name": "County's total expenses towards animal industry",
-      "measure_type": "count",
-      "short_description": "Total expenses towards animal industry",
-      "short_name": "Total expenses towards animal industry",
-      "sources": [
-        {
-          "name": "Department of Agriculture National Agriculture Statistics Service",
-          "date_accessed": 2023,
-          "url": "https://www.nass.usda.gov/"
-        }
-      ],
-      "statement": "The overall expenses towards animals to {features.name} is {value}.",
-      "type": "dollar",
-      "unit": "dollar"
-    },
-    "total_cropland_operations": {
-      "category": "Agriculture Industry",
-      "citations": "",
-      "data_type": "numeric",
-      "equity_category": "Status",
-      "layer": "",
-      "long_description": "",
-      "long_name": "Number of operations with land devoted to cropland growing",
-      "measure_type": "count",
-      "short_description": "Number of operations with cropland",
-      "short_name": "Number of operations with cropland",
-      "sources": [
-        {
-          "name": "Department of Agriculture National Agriculture Statistics Service",
-          "date_accessed": 2023,
-          "url": "https://www.nass.usda.gov/"
-        }
-      ],
-      "statement": "The total number of operations with cropland to {features.name} is {value}.",
-      "type": "count",
+      "statement": "Income Inequality (Gini Index) in {features.name} is {value}.",
+      "type": "",
       "unit": ""
     },
-    "total_irrigatedCropland_acre": {
-      "category": "Agriculture Industry",
+    "median_household_income": {
+      "category": "Financial Well Being",
       "citations": "",
       "data_type": "numeric",
       "equity_category": "Status",
       "layer": "",
-      "long_description": "",
-      "long_name": "Total acreage used in agriculture for irrigated cropland",
+      "long_description": "Self-reported median household income in the past 12 months (in 2019 inflation adjusted-dollars. Based on the American Community Survey Table B19013 ACS 2015/2019 5-year estimates.",
+      "long_name": "Median household income",
       "measure_type": "count",
-      "short_description": "Total acerage for irrigated cropland",
-      "short_name": "Total acerage for irrigated cropland",
+      "short_description": "Self-reported median household income in the past 12 months (in 2019 inflation adjusted-dollars.",
+      "short_name": "Median household income",
       "sources": [
         {
-          "name": "Department of Agriculture National Agriculture Statistics Service",
-          "date_accessed": 2023,
-          "url": "https://www.nass.usda.gov/"
+          "date_accessed": 2022,
+          "name": "American Community Survey",
+          "location": "Table B19013",
+          "url": "https://www.census.gov/programs-surveys/acs"
         }
       ],
-      "statement": "The total acreage for irrigated cropland to {features.name} is {value}.",
-      "type": "count",
+      "statement": "The median household income in {features.name} is {value} per year.",
+      "type": "dollar",
       "unit": ""
     },
-    "total_cropland_acres": {
-      "category": "Agriculture Industry",
+    "job_participate_rate": {
+      "category": "Employment/Workforce Development",
       "citations": "",
       "data_type": "numeric",
       "equity_category": "Status",
       "layer": "",
-      "long_description": "",
-      "long_name": "Total acerage used in agriculture for cropland",
-      "measure_type": "count",
-      "short_description": "Total acreage for cropland",
-      "short_name": "Total acreage for cropland",
+      "long_description": "The percentage of individuals 16-64 years of age in the active labor force. The job particpation rate is often used by economists as an indicator of economic development and growth.",
+      "long_name": "Job Participation Pecentage",
+      "measure_type": "percent",
+      "short_description": "The percentage of individuals 16-64 years of age in the active labor force.",
+      "short_name": "Job Participation Pecentage",
       "sources": [
         {
-          "name": "Department of Agriculture National Agriculture Statistics Service",
-          "date_accessed": 2023,
-          "url": "https://www.nass.usda.gov/"
+          "name": "American Community Survey",
+          "location": "Table B23025",
+          "date_accessed": "2023",
+          "url": "https://www.census.gov/programs-surveys/acs.html"
         }
       ],
-      "statement": "The total acreage for cropland to {features.name} is {value}.",
-      "type": "count",
+      "statement": "{value} of the population in {features.name} is participating in the civilian job force.",
+      "type": "percent",
+      "unit": ""
+    },
+    "emp_rate": {
+      "category": "Employment/Workforce Development",
+      "citations": "",
+      "data_type": "numeric",
+      "equity_category": "Status",
+      "layer": "",
+      "long_description": "Population self-reported as employed as a percentage of total civilian workforce population. Based on American Community Survey Table B23025 ACS 2015/2019 5-year estimates.",
+      "long_name": "Percentage civilian employed",
+      "measure_type": "percent",
+      "short_description": "Population self-reported as employed as a percentage of total civilian workforce population.",
+      "short_name": "Percentage employed",
+      "sources": [
+        {
+          "name": "American Community Survey",
+          "location": "Table B23025",
+          "date_accessed": "2021",
+          "url": "https://www.census.gov/programs-surveys/acs.html"
+        }
+      ],
+      "statement": "{value} of the population in {features.name} is employed.",
+      "type": "percent",
       "unit": ""
     },
     "perc_veteran": {
@@ -4166,117 +4107,180 @@
       "type": "percent",
       "unit": ""
     },
-    "earnings_per_job": {
-      "category": "Employment/Workforce Development",
+    "total_calves_sales": {
+      "category": "Agriculture Industry",
       "citations": "",
       "data_type": "numeric",
       "equity_category": "Status",
       "layer": "",
-      "long_description": "Earnings per job is calculated based on the GDP and Personal Income table from the Bureau of Economic Analysis.",
-      "long_name": "Earnings per job",
-      "measure_type": "dollars",
-      "short_description": "Average of earnings per job.",
-      "short_name": "Earnings per job",
-      "sources": [
-        {
-          "name": "Bureau of Economic Analysis",
-          "date_accessed": "2021",
-          "url": "https://apps.bea.gov/iTable/iTable.cfm?reqid=70&step=1&acrdn=6"
-        }
-      ],
-      "statement": "Earnings per job in {features.name} is {value}.",
-      "type": "dollar",
-      "unit": ""
-    },
-    "gini_index": {
-      "category": "Financial Well Being",
-      "citations": "",
-      "data_type": "numeric",
-      "equity_category": "",
-      "layer": "",
-      "long_description": "The Gini Index is a summary measure of income inequality. The Gini coefficient incorporates the detailed shares data into a single statistic, which summarizes the dispersion of income across the entire income distribution. The Gini coefficient ranges from 0, indicating perfect equality (where everyone receives an equal share), to 1, perfect inequality (where only one recipient or group of recipients receives all the income). The Gini is based on the difference between the Lorenz curve (the observed cumulative income distribution) and the notion of a perfectly equal income distribution.",
-      "long_name": "Income Inequality (Gini Index)",
-      "measure_type": "index",
-      "short_description": "The Gini Index is a summary measure of income inequality.",
-      "short_name": "Income Inequality (Gini Index)",
-      "sources": [
-        {
-          "name": "U.S. Census American Community Survey",
-          "location": "Table B19083",
-          "date_accessed": "2023"
-        }
-      ],
-      "statement": "Income Inequality (Gini Index) in {features.name} is {value}.",
-      "type": "",
-      "unit": ""
-    },
-    "median_household_income": {
-      "category": "Financial Well Being",
-      "citations": "",
-      "data_type": "numeric",
-      "equity_category": "Status",
-      "layer": "",
-      "long_description": "Self-reported median household income in the past 12 months (in 2019 inflation adjusted-dollars. Based on the American Community Survey Table B19013 ACS 2015/2019 5-year estimates.",
-      "long_name": "Median household income",
+      "long_description": "",
+      "long_name": "Total sales of calves within a given county",
       "measure_type": "count",
-      "short_description": "Self-reported median household income in the past 12 months (in 2019 inflation adjusted-dollars.",
-      "short_name": "Median household income",
+      "short_description": "Total sales of calves",
+      "short_name": "Total sales of calves",
       "sources": [
         {
-          "date_accessed": 2022,
-          "name": "American Community Survey",
-          "location": "Table B19013",
-          "url": "https://www.census.gov/programs-surveys/acs"
+          "name": "Department of Agriculture National Agriculture Statistics Service",
+          "date_accessed": 2023,
+          "url": "https://www.nass.usda.gov/"
         }
       ],
-      "statement": "The median household income in {features.name} is {value} per year.",
+      "statement": "Total sales of calves to {feature.name} is {value}.",
+      "type": "count",
+      "unit": ""
+    },
+    "total_commodity_sales": {
+      "category": "Agriculture Industry",
+      "citations": "",
+      "data_type": "numeric",
+      "equity_category": "Status",
+      "layer": "",
+      "long_description": "",
+      "long_name": "Total sales of commodities within a given county",
+      "measure_type": "count",
+      "short_description": "Total sales of commodities",
+      "short_name": "Total sales of commodities",
+      "sources": [
+        {
+          "name": "Department of Agriculture National Agriculture Statistics Service",
+          "date_accessed": 2023,
+          "url": "https://www.nass.usda.gov/"
+        }
+      ],
+      "statement": "Total sales of commodities to {feature.name} is {value}",
       "type": "dollar",
-      "unit": ""
+      "unit": "dollar"
     },
-    "job_participate_rate": {
-      "category": "Employment/Workforce Development",
+    "total_animalProducts_sales": {
+      "category": "Agriculture Industry",
       "citations": "",
       "data_type": "numeric",
       "equity_category": "Status",
       "layer": "",
-      "long_description": "The percentage of individuals 16-64 years of age in the active labor force. The job particpation rate is often used by economists as an indicator of economic development and growth.",
-      "long_name": "Job Participation Pecentage",
-      "measure_type": "percent",
-      "short_description": "The percentage of individuals 16-64 years of age in the active labor force.",
-      "short_name": "Job Participation Pecentage",
+      "long_description": "",
+      "long_name": "Total sales of animal products within a given county",
+      "measure_type": "count",
+      "short_description": "Total sales of animal products",
+      "short_name": "Total sales of animal products",
       "sources": [
         {
-          "name": "American Community Survey",
-          "location": "Table B23025",
-          "date_accessed": "2023",
-          "url": "https://www.census.gov/programs-surveys/acs.html"
+          "name": "Department of Agriculture National Agriculture Statistics Service",
+          "date_accessed": 2023,
+          "url": "https://www.nass.usda.gov/"
         }
       ],
-      "statement": "{value} of the population in {features.name} is participating in the civilian job force.",
-      "type": "percent",
-      "unit": ""
+      "statement": "Total sales of animal products to {features.name} is {value}.",
+      "type": "dollar",
+      "unit": "dollar"
     },
-    "emp_rate": {
-      "category": "Employment/Workforce Development",
+    "fruit_treeNut_total_sales": {
+      "category": "Agriculture Industry",
       "citations": "",
       "data_type": "numeric",
       "equity_category": "Status",
       "layer": "",
-      "long_description": "Population self-reported as employed as a percentage of total civilian workforce population. Based on American Community Survey Table B23025 ACS 2015/2019 5-year estimates.",
-      "long_name": "Percentage civilian employed",
-      "measure_type": "percent",
-      "short_description": "Population self-reported as employed as a percentage of total civilian workforce population.",
-      "short_name": "Percentage employed",
+      "long_description": "",
+      "long_name": "Total sales of fruits and treenuts within a given county",
+      "measure_type": "count",
+      "short_description": "Total sales of fruits and treenuts",
+      "short_name": "Total sales of fruits and treenuts",
       "sources": [
         {
-          "name": "American Community Survey",
-          "location": "Table B23025",
-          "date_accessed": "2021",
-          "url": "https://www.census.gov/programs-surveys/acs.html"
+          "name": "Department of Agriculture National Agriculture Statistics Service",
+          "date_accessed": 2023,
+          "url": "https://www.nass.usda.gov/"
         }
       ],
-      "statement": "{value} of the population in {features.name} is employed.",
-      "type": "percent",
+      "statement": "Total sales of fruit and tree nuts to {features.name} is {value}.",
+      "type": "dollar",
+      "unit": "dollar"
+    },
+    "total_animal_expense": {
+      "category": "Agriculture Industry",
+      "citations": "",
+      "data_type": "numeric",
+      "equity_category": "Status",
+      "layer": "",
+      "long_description": "",
+      "long_name": "County's total expenses towards animal industry",
+      "measure_type": "count",
+      "short_description": "Total expenses towards animal industry",
+      "short_name": "Total expenses towards animal industry",
+      "sources": [
+        {
+          "name": "Department of Agriculture National Agriculture Statistics Service",
+          "date_accessed": 2023,
+          "url": "https://www.nass.usda.gov/"
+        }
+      ],
+      "statement": "The overall expenses towards animals to {features.name} is {value}.",
+      "type": "dollar",
+      "unit": "dollar"
+    },
+    "total_cropland_operations": {
+      "category": "Agriculture Industry",
+      "citations": "",
+      "data_type": "numeric",
+      "equity_category": "Status",
+      "layer": "",
+      "long_description": "",
+      "long_name": "Number of operations with land devoted to cropland growing",
+      "measure_type": "count",
+      "short_description": "Number of operations with cropland",
+      "short_name": "Number of operations with cropland",
+      "sources": [
+        {
+          "name": "Department of Agriculture National Agriculture Statistics Service",
+          "date_accessed": 2023,
+          "url": "https://www.nass.usda.gov/"
+        }
+      ],
+      "statement": "The total number of operations with cropland to {features.name} is {value}.",
+      "type": "count",
+      "unit": ""
+    },
+    "total_irrigatedCropland_acre": {
+      "category": "Agriculture Industry",
+      "citations": "",
+      "data_type": "numeric",
+      "equity_category": "Status",
+      "layer": "",
+      "long_description": "",
+      "long_name": "Total acreage used in agriculture for irrigated cropland",
+      "measure_type": "count",
+      "short_description": "Total acerage for irrigated cropland",
+      "short_name": "Total acerage for irrigated cropland",
+      "sources": [
+        {
+          "name": "Department of Agriculture National Agriculture Statistics Service",
+          "date_accessed": 2023,
+          "url": "https://www.nass.usda.gov/"
+        }
+      ],
+      "statement": "The total acreage for irrigated cropland to {features.name} is {value}.",
+      "type": "count",
+      "unit": ""
+    },
+    "total_cropland_acres": {
+      "category": "Agriculture Industry",
+      "citations": "",
+      "data_type": "numeric",
+      "equity_category": "Status",
+      "layer": "",
+      "long_description": "",
+      "long_name": "Total acerage used in agriculture for cropland",
+      "measure_type": "count",
+      "short_description": "Total acreage for cropland",
+      "short_name": "Total acreage for cropland",
+      "sources": [
+        {
+          "name": "Department of Agriculture National Agriculture Statistics Service",
+          "date_accessed": 2023,
+          "url": "https://www.nass.usda.gov/"
+        }
+      ],
+      "statement": "The total acreage for cropland to {features.name} is {value}.",
+      "type": "count",
       "unit": ""
     },
     "no_hlth_ins_pct": {
@@ -5336,6 +5340,352 @@
       "type": "count",
       "unit": ""
     },
+    "perc_no_vehicle": {
+      "category": "Transportation",
+      "citations": "",
+      "data_type": "numeric",
+      "equity_category": "Status",
+      "layer": "",
+      "long_description": "Percentage of households self-reported to not have a vehicle available at home. Based on American Community Survey Table S2504 ACS 5-year estimates.",
+      "long_name": "Percentage of households without vehicle available",
+      "measure_type": "float",
+      "short_description": "Households self-reported to not have a vehicle available at home.",
+      "short_name": "Without vehicle",
+      "sources": [
+        {
+          "name": "American Community Survey",
+          "location": "Table S2504",
+          "date_accessed": "2023",
+          "url": "https://www.census.gov/programs-surveys/acs.html"
+        }
+      ],
+      "statement": "{value} of households in {features.name} do not have a vehicle available at home.",
+      "type": "percent",
+      "unit": "percent"
+    },
+    "perc_income_avg_nat_package": {
+      "category": "Broadband",
+      "citations": "",
+      "data_type": "numeric",
+      "equity_category": "Affordability",
+      "layer": "",
+      "long_description": "The national average price for internet ($64) as a percentage of median household income.",
+      "long_name": "The national average price for internet as a percentage of average income",
+      "measure_type": "percent",
+      "short_description": "The national average price for internet ($64) as a percentage of median household income",
+      "short_name": "Percentage of income for internet (average)",
+      "sources": [
+        {
+          "name": "American Community Survey",
+          "date_accessed": 2021,
+          "url": "https://www.census.gov/programs-surveys/acs.html"
+        },
+        {
+          "name": "Broadband Now",
+          "date_accessed": 2021,
+          "url": "https://broadbandnow.com/"
+        }
+      ],
+      "statement": "The national average internet package costs {value} of the median household income in {features.name}.",
+      "type": "percent",
+      "unit": ""
+    },
+    "perc_income_min_price_25": {
+      "category": "Broadband",
+      "citations": "",
+      "data_type": "numeric",
+      "equity_category": "Affordability",
+      "layer": "",
+      "long_description": "The minimum price for good internet (25 MB/s upload) as a percentage of median household income.",
+      "long_name": "The minimum price for good internet (25 MB/s upload) as a percentage of median household income",
+      "measure_type": "percent",
+      "short_description": "The minimum price for good internet (25 MB/s upload) as a percentage of median household income",
+      "short_name": "Percentage of income for good internet",
+      "sources": [
+        {
+          "name": "American Community Survey",
+          "date_accessed": 2021,
+          "url": "https://www.census.gov/programs-surveys/acs.html"
+        },
+        {
+          "name": "Broadband Now",
+          "date_accessed": 2021,
+          "url": "https://broadbandnow.com/"
+        }
+      ],
+      "statement": "Good internet costs {value} of the median household income in {features.name}.",
+      "type": "percent",
+      "unit": ""
+    },
+    "perc_income_min_price_100": {
+      "category": "Broadband",
+      "citations": "",
+      "data_type": "numeric",
+      "equity_category": "Affordability",
+      "layer": "",
+      "long_description": "The minimum price for fast internet (100 MB/s upload) as a percentage of median household income.",
+      "long_name": "The minimum price for fast internet (100 MB/s upload) as a percentage of median household income",
+      "measure_type": "percent",
+      "short_description": "The minimum price for fast internet (100 MB/s upload) as a percent of median household income",
+      "short_name": "Percentage of income for fast internet",
+      "sources": [
+        {
+          "name": "American Community Survey",
+          "date_accessed": 2021,
+          "url": "https://www.census.gov/programs-surveys/acs.html"
+        },
+        {
+          "name": "Broadband Now",
+          "date_accessed": 2021,
+          "url": "https://broadbandnow.com/"
+        }
+      ],
+      "statement": "Fast internet costs {value} of the median household income in {features.name}.",
+      "type": "percent",
+      "unit": ""
+    },
+    "perc_hh_without_internet": {
+      "category": "Broadband",
+      "citations": "",
+      "data_type": "numeric",
+      "equity_category": "Availability",
+      "layer": "",
+      "long_description": "Percentage of households self-reported to not have internet access at home. Based on American Community Survey Table B28002 in ACS 2015/2019 5-year estimates.",
+      "long_name": "Percentage of households without internet access",
+      "measure_type": "percent",
+      "short_description": "Percentage of households self-reported to not have internet access at home",
+      "short_name": "Households without internet access",
+      "sources": [
+        {
+          "name": "American Community Survey Table B28002",
+          "date_accessed": 2021,
+          "url": "https://www.census.gov/programs-surveys/acs.html"
+        }
+      ],
+      "statement": "{value} of households in {features.name} do not have internet access.",
+      "type": "percent",
+      "unit": ""
+    },
+    "perc_hh_with_cable_fiber_dsl": {
+      "category": "Broadband",
+      "citations": "",
+      "data_type": "numeric",
+      "equity_category": "Availability",
+      "layer": "",
+      "long_description": "Percentage of households self-reported to have a high speed internet service. A high speed internet service is defined as a cable, fiber optic, or DSL internet connection. Based on American Community Survey Table B28002 in ACS 2015/2019 5-year estimates.",
+      "long_name": "Percentage of households with a high speed internet service (cable, fiber optic, or DSL)",
+      "measure_type": "percent",
+      "short_description": "Percentage of households self-reported to have a high speed internet service (cable, fiber optic, or DSL)",
+      "short_name": "Households with cable, fiber optic, or DSL",
+      "sources": [
+        {
+          "name": "American Community Survey Table B28002",
+          "date_accessed": 2021,
+          "url": "https://www.census.gov/programs-surveys/acs.html"
+        }
+      ],
+      "statement": "{value} of households in {features.name} have a cable, fiber optic, or DSL internet connection.",
+      "type": "percent",
+      "unit": ""
+    },
+    "perc_hh_with_broadband": {
+      "category": "Broadband",
+      "citations": "",
+      "data_type": "numeric",
+      "equity_category": "Availability",
+      "layer": "",
+      "long_description": "Percentage of households self-reported to have a broadband internet connection. Broadband internet is defined as any type of internet other than a dial-up. Based on American Community Survey Table B28002 in ACS 2015/2019 5-year estimates.",
+      "long_name": "Percentage of households with broadband",
+      "measure_type": "percent",
+      "short_description": "Percentage of households self-reported to have a broadband internet connection (any type of internet other than a dial-up)",
+      "short_name": "Households with broadband",
+      "sources": [
+        {
+          "name": "American Community Survey Table B28002",
+          "date_accessed": 2021,
+          "url": "https://www.census.gov/programs-surveys/acs.html"
+        }
+      ],
+      "statement": "{value} of households in {features.name} have a broadband connection.",
+      "type": "percent",
+      "unit": ""
+    },
+    "perc_hh_without_compdev": {
+      "category": "Broadband",
+      "citations": "",
+      "data_type": "decimal",
+      "equity_category": "Accessibility",
+      "layer": "",
+      "long_description": "Percentage of the households self-reported to not have a computer or device at home. Based on American Community Survey Table B28001 in ACS 2015/2019 5-year estimates.",
+      "long_name": "Percentage of households without a computer",
+      "measure_type": "percent",
+      "short_description": "Percentage of households self-reported to not have a computer or device at home",
+      "short_name": "Households without a computer",
+      "sources": [
+        {
+          "name": "American Community Survey Table B28001",
+          "date_accessed": 2023,
+          "url": "https://www.census.gov/programs-surveys/acs.html"
+        }
+      ],
+      "statement": "{value} of households in {features.name} do not have a computer or device.",
+      "type": "percent",
+      "unit": ""
+    },
+    "perc_total_25_3_using_devices": {
+      "category": "Broadband",
+      "citations": "",
+      "data_type": "numeric",
+      "equity_category": "Availability",
+      "layer": "",
+      "long_description": "",
+      "long_name": "Percent of the Total Population with Good Internet Speed",
+      "measure_type": "percent",
+      "short_description": "Percent of the total population with a good internet speed (above 25/3 MB/s, able to stream video or online game for one device).",
+      "short_name": "Percent Good (total)",
+      "sources": [
+        {
+          "name": "Ookla",
+          "date_accessed": 2021,
+          "url": "https://www.ookla.com/ookla-for-good/open-data"
+        }
+      ],
+      "statement": "{value} of the total population in {features.name} has a good internet speed.",
+      "type": "percent",
+      "unit": ""
+    },
+    "perc_w_int_25_3_using_devices": {
+      "category": "Broadband",
+      "citations": "",
+      "data_type": "numeric",
+      "equity_category": "Availability",
+      "layer": "",
+      "long_description": "",
+      "long_name": "Percent of the Internet-Connected Population with Good Internet Speed",
+      "measure_type": "percent",
+      "short_description": "Percent of the internet-connected population with a good internet speed (above 25/3 MB/s, able to stream video or online game for one device).",
+      "short_name": "Percent Good (internet-connected)",
+      "sources": [
+        {
+          "name": "Ookla",
+          "date_accessed": 2021,
+          "url": "https://www.ookla.com/ookla-for-good/open-data"
+        }
+      ],
+      "statement": "{value} of the internet-connected population in {features.name} has a good internet speed.",
+      "type": "percent",
+      "unit": ""
+    },
+    "perc_total_100_20_using_devices": {
+      "category": "Broadband",
+      "citations": "",
+      "data_type": "numeric",
+      "equity_category": "Availability",
+      "layer": "",
+      "long_description": "",
+      "long_name": "Percent of the Total Population with Fast Internet Speed",
+      "measure_type": "percent",
+      "short_description": "Percent of the total population with a fast internet speed (above 100/20 MB/s, able to stream HD video on multiple devices or download large files quickly).",
+      "short_name": "Percent Fast (total)",
+      "sources": [
+        {
+          "name": "Ookla",
+          "date_accessed": 2021,
+          "url": "https://www.ookla.com/ookla-for-good/open-data"
+        }
+      ],
+      "statement": "{value} of the total population in {features.name} has a fast internet speed.",
+      "type": "percent",
+      "unit": ""
+    },
+    "perc_w_int_100_20_using_devices": {
+      "category": "Broadband",
+      "citations": "",
+      "data_type": "numeric",
+      "equity_category": "Availability",
+      "layer": "",
+      "long_description": "",
+      "long_name": "Percent of the Internet-Connected Population with Fast Internet Speed",
+      "measure_type": "percent",
+      "short_description": "Percent of the internet-connected population with a fast internet speed (above 100/20 MB/s, able to stream HD video on multiple devices or download large files quickly).",
+      "short_name": "Percent Fast (internet-connected)",
+      "sources": [
+        {
+          "name": "Ookla",
+          "date_accessed": 2021,
+          "url": "https://www.ookla.com/ookla-for-good/open-data"
+        }
+      ],
+      "statement": "{value} of the internet-connected population in {features.name} has a fast internet speed.",
+      "type": "percent",
+      "unit": ""
+    },
+    "devices": {
+      "category": "Broadband",
+      "citations": "",
+      "data_type": "numeric",
+      "equity_category": "Accessibility",
+      "layer": "",
+      "long_description": "",
+      "long_name": "Number of devices",
+      "measure_type": "count",
+      "short_description": "The number of unique devices accessing Ookla Internet speed tests.",
+      "short_name": "Number of devices",
+      "sources": [
+        {
+          "name": "Ookla",
+          "date_accessed": 2021,
+          "url": "https://www.ookla.com/ookla-for-good/open-data"
+        }
+      ],
+      "statement": "There are {value} unique devices in {features.name} accessing Ookla Internet speed tests.",
+      "type": "count",
+      "unit": ""
+    },
+    "avg_up_using_devices": {
+      "category": "Broadband",
+      "citations": "",
+      "data_type": "numeric",
+      "equity_category": "Availability",
+      "layer": "",
+      "long_description": "",
+      "long_name": "Average Upload Speed",
+      "measure_type": "mean",
+      "short_description": "Average upload speed weighted by number of devices.",
+      "short_name": "Average Upload Speed",
+      "sources": [
+        {
+          "name": "Ookla",
+          "date_accessed": 2021,
+          "url": "https://www.ookla.com/ookla-for-good/open-data"
+        }
+      ],
+      "statement": "The average upload speed is {value} in {features.name}.",
+      "type": "internet speed",
+      "unit": ""
+    },
+    "avg_down_using_devices": {
+      "category": "Broadband",
+      "citations": "",
+      "data_type": "numeric",
+      "equity_category": "Availability",
+      "layer": "",
+      "long_description": "",
+      "long_name": "Average Download Speed",
+      "measure_type": "speed",
+      "short_description": "Average download speed weighted by number of devices.",
+      "short_name": "Average Download Speed",
+      "sources": [
+        {
+          "name": "Ookla",
+          "date_accessed": 2021,
+          "url": "https://www.ookla.com/ookla-for-good/open-data"
+        }
+      ],
+      "statement": "The average download speed is {value} in {features.name}.",
+      "type": "internet speed",
+      "unit": ""
+    },
     "average_years_schooling": {
       "category": "Education",
       "type": "average",
@@ -6142,352 +6492,6 @@
         "title": "Census Tract Level State Maps of the Modified Retail Food Environment Index (mRFEI)",
         "url": "https://www.cdc.gov/obesity/downloads/census-tract-level-state-maps-mrfei_TAG508.pdf"
       }
-    },
-    "perc_no_vehicle": {
-      "category": "Transportation",
-      "citations": "",
-      "data_type": "numeric",
-      "equity_category": "Status",
-      "layer": "",
-      "long_description": "Percentage of households self-reported to not have a vehicle available at home. Based on American Community Survey Table S2504 ACS 5-year estimates.",
-      "long_name": "Percentage of households without vehicle available",
-      "measure_type": "float",
-      "short_description": "Households self-reported to not have a vehicle available at home.",
-      "short_name": "Without vehicle",
-      "sources": [
-        {
-          "name": "American Community Survey",
-          "location": "Table S2504",
-          "date_accessed": "2023",
-          "url": "https://www.census.gov/programs-surveys/acs.html"
-        }
-      ],
-      "statement": "{value} of households in {features.name} do not have a vehicle available at home.",
-      "type": "percent",
-      "unit": "percent"
-    },
-    "perc_income_avg_nat_package": {
-      "category": "Broadband",
-      "citations": "",
-      "data_type": "numeric",
-      "equity_category": "Affordability",
-      "layer": "",
-      "long_description": "The national average price for internet ($64) as a percentage of median household income.",
-      "long_name": "The national average price for internet as a percentage of average income",
-      "measure_type": "percent",
-      "short_description": "The national average price for internet ($64) as a percentage of median household income",
-      "short_name": "Percentage of income for internet (average)",
-      "sources": [
-        {
-          "name": "American Community Survey",
-          "date_accessed": 2021,
-          "url": "https://www.census.gov/programs-surveys/acs.html"
-        },
-        {
-          "name": "Broadband Now",
-          "date_accessed": 2021,
-          "url": "https://broadbandnow.com/"
-        }
-      ],
-      "statement": "The national average internet package costs {value} of the median household income in {features.name}.",
-      "type": "percent",
-      "unit": ""
-    },
-    "perc_income_min_price_25": {
-      "category": "Broadband",
-      "citations": "",
-      "data_type": "numeric",
-      "equity_category": "Affordability",
-      "layer": "",
-      "long_description": "The minimum price for good internet (25 MB/s upload) as a percentage of median household income.",
-      "long_name": "The minimum price for good internet (25 MB/s upload) as a percentage of median household income",
-      "measure_type": "percent",
-      "short_description": "The minimum price for good internet (25 MB/s upload) as a percentage of median household income",
-      "short_name": "Percentage of income for good internet",
-      "sources": [
-        {
-          "name": "American Community Survey",
-          "date_accessed": 2021,
-          "url": "https://www.census.gov/programs-surveys/acs.html"
-        },
-        {
-          "name": "Broadband Now",
-          "date_accessed": 2021,
-          "url": "https://broadbandnow.com/"
-        }
-      ],
-      "statement": "Good internet costs {value} of the median household income in {features.name}.",
-      "type": "percent",
-      "unit": ""
-    },
-    "perc_income_min_price_100": {
-      "category": "Broadband",
-      "citations": "",
-      "data_type": "numeric",
-      "equity_category": "Affordability",
-      "layer": "",
-      "long_description": "The minimum price for fast internet (100 MB/s upload) as a percentage of median household income.",
-      "long_name": "The minimum price for fast internet (100 MB/s upload) as a percentage of median household income",
-      "measure_type": "percent",
-      "short_description": "The minimum price for fast internet (100 MB/s upload) as a percent of median household income",
-      "short_name": "Percentage of income for fast internet",
-      "sources": [
-        {
-          "name": "American Community Survey",
-          "date_accessed": 2021,
-          "url": "https://www.census.gov/programs-surveys/acs.html"
-        },
-        {
-          "name": "Broadband Now",
-          "date_accessed": 2021,
-          "url": "https://broadbandnow.com/"
-        }
-      ],
-      "statement": "Fast internet costs {value} of the median household income in {features.name}.",
-      "type": "percent",
-      "unit": ""
-    },
-    "perc_hh_without_internet": {
-      "category": "Broadband",
-      "citations": "",
-      "data_type": "numeric",
-      "equity_category": "Availability",
-      "layer": "",
-      "long_description": "Percentage of households self-reported to not have internet access at home. Based on American Community Survey Table B28002 in ACS 2015/2019 5-year estimates.",
-      "long_name": "Percentage of households without internet access",
-      "measure_type": "percent",
-      "short_description": "Percentage of households self-reported to not have internet access at home",
-      "short_name": "Households without internet access",
-      "sources": [
-        {
-          "name": "American Community Survey Table B28002",
-          "date_accessed": 2021,
-          "url": "https://www.census.gov/programs-surveys/acs.html"
-        }
-      ],
-      "statement": "{value} of households in {features.name} do not have internet access.",
-      "type": "percent",
-      "unit": ""
-    },
-    "perc_hh_without_compdev": {
-      "category": "Broadband",
-      "citations": "",
-      "data_type": "decimal",
-      "equity_category": "Accessibility",
-      "layer": "",
-      "long_description": "Percentage of the households self-reported to not have a computer or device at home. Based on American Community Survey Table B28001 in ACS 2015/2019 5-year estimates.",
-      "long_name": "Percentage of households without a computer",
-      "measure_type": "percent",
-      "short_description": "Percentage of households self-reported to not have a computer or device at home",
-      "short_name": "Households without a computer",
-      "sources": [
-        {
-          "name": "American Community Survey Table B28001",
-          "date_accessed": 2023,
-          "url": "https://www.census.gov/programs-surveys/acs.html"
-        }
-      ],
-      "statement": "{value} of households in {features.name} do not have a computer or device.",
-      "type": "percent",
-      "unit": ""
-    },
-    "perc_hh_with_cable_fiber_dsl": {
-      "category": "Broadband",
-      "citations": "",
-      "data_type": "numeric",
-      "equity_category": "Availability",
-      "layer": "",
-      "long_description": "Percentage of households self-reported to have a high speed internet service. A high speed internet service is defined as a cable, fiber optic, or DSL internet connection. Based on American Community Survey Table B28002 in ACS 2015/2019 5-year estimates.",
-      "long_name": "Percentage of households with a high speed internet service (cable, fiber optic, or DSL)",
-      "measure_type": "percent",
-      "short_description": "Percentage of households self-reported to have a high speed internet service (cable, fiber optic, or DSL)",
-      "short_name": "Households with cable, fiber optic, or DSL",
-      "sources": [
-        {
-          "name": "American Community Survey Table B28002",
-          "date_accessed": 2021,
-          "url": "https://www.census.gov/programs-surveys/acs.html"
-        }
-      ],
-      "statement": "{value} of households in {features.name} have a cable, fiber optic, or DSL internet connection.",
-      "type": "percent",
-      "unit": ""
-    },
-    "perc_hh_with_broadband": {
-      "category": "Broadband",
-      "citations": "",
-      "data_type": "numeric",
-      "equity_category": "Availability",
-      "layer": "",
-      "long_description": "Percentage of households self-reported to have a broadband internet connection. Broadband internet is defined as any type of internet other than a dial-up. Based on American Community Survey Table B28002 in ACS 2015/2019 5-year estimates.",
-      "long_name": "Percentage of households with broadband",
-      "measure_type": "percent",
-      "short_description": "Percentage of households self-reported to have a broadband internet connection (any type of internet other than a dial-up)",
-      "short_name": "Households with broadband",
-      "sources": [
-        {
-          "name": "American Community Survey Table B28002",
-          "date_accessed": 2021,
-          "url": "https://www.census.gov/programs-surveys/acs.html"
-        }
-      ],
-      "statement": "{value} of households in {features.name} have a broadband connection.",
-      "type": "percent",
-      "unit": ""
-    },
-    "perc_total_25_3_using_devices": {
-      "category": "Broadband",
-      "citations": "",
-      "data_type": "numeric",
-      "equity_category": "Availability",
-      "layer": "",
-      "long_description": "",
-      "long_name": "Percent of the Total Population with Good Internet Speed",
-      "measure_type": "percent",
-      "short_description": "Percent of the total population with a good internet speed (above 25/3 MB/s, able to stream video or online game for one device).",
-      "short_name": "Percent Good (total)",
-      "sources": [
-        {
-          "name": "Ookla",
-          "date_accessed": 2021,
-          "url": "https://www.ookla.com/ookla-for-good/open-data"
-        }
-      ],
-      "statement": "{value} of the total population in {features.name} has a good internet speed.",
-      "type": "percent",
-      "unit": ""
-    },
-    "perc_w_int_25_3_using_devices": {
-      "category": "Broadband",
-      "citations": "",
-      "data_type": "numeric",
-      "equity_category": "Availability",
-      "layer": "",
-      "long_description": "",
-      "long_name": "Percent of the Internet-Connected Population with Good Internet Speed",
-      "measure_type": "percent",
-      "short_description": "Percent of the internet-connected population with a good internet speed (above 25/3 MB/s, able to stream video or online game for one device).",
-      "short_name": "Percent Good (internet-connected)",
-      "sources": [
-        {
-          "name": "Ookla",
-          "date_accessed": 2021,
-          "url": "https://www.ookla.com/ookla-for-good/open-data"
-        }
-      ],
-      "statement": "{value} of the internet-connected population in {features.name} has a good internet speed.",
-      "type": "percent",
-      "unit": ""
-    },
-    "perc_total_100_20_using_devices": {
-      "category": "Broadband",
-      "citations": "",
-      "data_type": "numeric",
-      "equity_category": "Availability",
-      "layer": "",
-      "long_description": "",
-      "long_name": "Percent of the Total Population with Fast Internet Speed",
-      "measure_type": "percent",
-      "short_description": "Percent of the total population with a fast internet speed (above 100/20 MB/s, able to stream HD video on multiple devices or download large files quickly).",
-      "short_name": "Percent Fast (total)",
-      "sources": [
-        {
-          "name": "Ookla",
-          "date_accessed": 2021,
-          "url": "https://www.ookla.com/ookla-for-good/open-data"
-        }
-      ],
-      "statement": "{value} of the total population in {features.name} has a fast internet speed.",
-      "type": "percent",
-      "unit": ""
-    },
-    "perc_w_int_100_20_using_devices": {
-      "category": "Broadband",
-      "citations": "",
-      "data_type": "numeric",
-      "equity_category": "Availability",
-      "layer": "",
-      "long_description": "",
-      "long_name": "Percent of the Internet-Connected Population with Fast Internet Speed",
-      "measure_type": "percent",
-      "short_description": "Percent of the internet-connected population with a fast internet speed (above 100/20 MB/s, able to stream HD video on multiple devices or download large files quickly).",
-      "short_name": "Percent Fast (internet-connected)",
-      "sources": [
-        {
-          "name": "Ookla",
-          "date_accessed": 2021,
-          "url": "https://www.ookla.com/ookla-for-good/open-data"
-        }
-      ],
-      "statement": "{value} of the internet-connected population in {features.name} has a fast internet speed.",
-      "type": "percent",
-      "unit": ""
-    },
-    "devices": {
-      "category": "Broadband",
-      "citations": "",
-      "data_type": "numeric",
-      "equity_category": "Accessibility",
-      "layer": "",
-      "long_description": "",
-      "long_name": "Number of devices",
-      "measure_type": "count",
-      "short_description": "The number of unique devices accessing Ookla Internet speed tests.",
-      "short_name": "Number of devices",
-      "sources": [
-        {
-          "name": "Ookla",
-          "date_accessed": 2021,
-          "url": "https://www.ookla.com/ookla-for-good/open-data"
-        }
-      ],
-      "statement": "There are {value} unique devices in {features.name} accessing Ookla Internet speed tests.",
-      "type": "count",
-      "unit": ""
-    },
-    "avg_up_using_devices": {
-      "category": "Broadband",
-      "citations": "",
-      "data_type": "numeric",
-      "equity_category": "Availability",
-      "layer": "",
-      "long_description": "",
-      "long_name": "Average Upload Speed",
-      "measure_type": "mean",
-      "short_description": "Average upload speed weighted by number of devices.",
-      "short_name": "Average Upload Speed",
-      "sources": [
-        {
-          "name": "Ookla",
-          "date_accessed": 2021,
-          "url": "https://www.ookla.com/ookla-for-good/open-data"
-        }
-      ],
-      "statement": "The average upload speed is {value} in {features.name}.",
-      "type": "internet speed",
-      "unit": ""
-    },
-    "avg_down_using_devices": {
-      "category": "Broadband",
-      "citations": "",
-      "data_type": "numeric",
-      "equity_category": "Availability",
-      "layer": "",
-      "long_description": "",
-      "long_name": "Average Download Speed",
-      "measure_type": "speed",
-      "short_description": "Average download speed weighted by number of devices.",
-      "short_name": "Average Download Speed",
-      "sources": [
-        {
-          "name": "Ookla",
-          "date_accessed": 2021,
-          "url": "https://www.ookla.com/ookla-for-good/open-data"
-        }
-      ],
-      "statement": "The average download speed is {value} in {features.name}.",
-      "type": "internet speed",
-      "unit": ""
     }
   }
 }

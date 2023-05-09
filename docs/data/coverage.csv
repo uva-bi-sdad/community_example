@@ -62,10 +62,10 @@
 "perc_children_raised_by_GPs",1,1600,0,23119
 "perc_female",1,1601,0,22031
 "perc_hh_limited_english",1,665,0,9646
-"perc_hh_with_broadband",1,399,105,5614
-"perc_hh_with_cable_fiber_dsl",1,399,105,0
+"perc_hh_with_broadband",1,665,175,10101
+"perc_hh_with_cable_fiber_dsl",1,665,175,10101
 "perc_hh_without_compdev",1,665,175,10101
-"perc_hh_without_internet",1,399,105,5614
+"perc_hh_without_internet",1,665,175,10101
 "perc_hispanic_or_latino",1,1601,0,22031
 "perc_income_avg_nat_package",1,133,0,1863
 "perc_income_min_price_100",1,132,0,1839

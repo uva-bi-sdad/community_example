@@ -33,6 +33,7 @@
             "district"
         ],
         "variables": {},
+        "entity_info": {},
         "files": [
             "tract.csv.xz",
             "county.csv.xz",

@@ -32,7 +32,7 @@
 "ems_cnt",1,133,35,2235
 "ems_near_10_median",1,133,35,2218
 "food_accessibility_indicator",1,133,35,1884
-"fruit_treeNut_total_sales",1,70,0,0
+"fruit_treeNut_total_sales",1,95,0,0
 "gini_index",1,931,0,13663
 "health_opportunity_indicator",1,266,70,4052
 "hh_received_snap_cnt",1,1065,280,15518
@@ -57,6 +57,9 @@
 "obgyn_cnt",1,133,35,2235
 "ped_3sfca",1,133,35,2206
 "ped_cnt",1,133,35,2235
+"per_above30",1,1064,280,15810
+"per_mor_above30",1,1064,280,15810
+"per_rent_above30",1,1064,280,15810
 "perc_AAPI",1,1601,0,22031
 "perc_afr_amer_alone",1,1601,0,22031
 "perc_children_raised_by_GPs",1,1600,0,23119
@@ -105,12 +108,12 @@
 "subs_3sfca",1,133,35,2218
 "subs_cnt",1,133,35,2235
 "subs_near_10_median",1,133,35,2217
-"total_animal_expense",1,93,0,0
-"total_animalProducts_sales",1,94,0,0
-"total_calves_sales",1,89,0,0
+"total_animal_expense",1,98,0,0
+"total_animalProducts_sales",1,98,0,0
+"total_calves_sales",1,97,0,0
 "total_commodity_sales",1,98,0,0
 "total_cropland_acres",1,97,0,0
 "total_cropland_operations",1,97,0,0
-"total_irrigatedCropland_acre",1,84,0,0
+"total_irrigatedCropland_acre",1,94,0,0
 "walkability_indicator",1,133,35,1884
 "wellness_disparity_indicator",1,133,35,1884

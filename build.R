@@ -9,7 +9,10 @@ data_add(
   list(
     ids = list(
       variable = "ID",
-      map = "https://uva-bi-sdad.github.io/community/dist/shapes/VA/entity_info.json"
+      map = paste0(
+        "https://raw.githubusercontent.com/uva-bi-sdad/sdc.geographies/main/",
+        "entities/data/distribution/VA.json"
+      )
     ),
     time = "time",
     variables = "measure_info.json"

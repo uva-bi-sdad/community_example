@@ -238,9 +238,9 @@
     "repository": "uva-bi-sdad/sdc.financial_well_being",
     "files": {
       "Asset Limited Income Constrained Employed (ALICE)/data/distribution/va_ct_2010_2021_alice.csv.xz": {
-        "size": 6644,
-        "sha": "30eeed563faf320bb2ecbe22e57507e1d789caa4",
-        "md5": "567a7574c9fcc6ed91dd2ceb8058dced"
+        "size": 8396,
+        "sha": "d030feaa4d28ede84cf8d29688c433ba6cb60eb1",
+        "md5": "c7c2e33ef57896f7b231819614871701"
       },
       "Employment/data/distribution/va_cttr_2015_2021_job_participate_rate.csv": {
         "size": 1598711,

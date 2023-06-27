@@ -24,7 +24,7 @@
 "dent_cnt",1,133,35,2235
 "dent_e2sfca",1,133,35,2218
 "devices",1,399,105,5670
-"earnings_per_job",1,492,0,0
+"earnings_per_job",1,798,210,0
 "economic_opportunity_indicator",1,266,70,4052
 "education_indicator",1,133,35,1884
 "emp_rate",1,931,0,13688
@@ -79,8 +79,8 @@
 "perc_native_alone",1,1601,0,22031
 "perc_no_vehicle",1,1600,0,23035
 "perc_other",1,1601,0,22031
-"perc_poor_ment_hlth_days_14_and_over",1,665,0,9357
-"perc_poor_phys_hlth_days_14_and_over",1,665,0,9357
+"perc_poor_ment_hlth_days_14_and_over",1,665,175,9357
+"perc_poor_phys_hlth_days_14_and_over",1,665,175,9357
 "perc_pop_20_64",1,1601,0,22031
 "perc_pop_65_plus",1,1601,0,22031
 "perc_pop_under_20",1,1601,0,22031

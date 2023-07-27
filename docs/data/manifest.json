@@ -212,6 +212,11 @@
   },
   "uva-bi-sdad/sdc.financial_well_being": {
     "files": {
+      "Employment Access/data/distribution/va_cttr_2015_2019_2020_employment_access_index.csv.xz": {
+        "size": 27652,
+        "sha": "eba894d2521a0ad3d5abe704ff51b7318047b0c2",
+        "md5": "c210039588c3a4e61a613d4d7e050102"
+      },
       "Pay and Benefits/Income Inequality/data/distribution/va_cttr_2015_2021_income_inequality_gini_index.csv.xz": {
         "size": 95904,
         "sha": "1587027182bfde647be58ba14544b0e16c1b0cd2",

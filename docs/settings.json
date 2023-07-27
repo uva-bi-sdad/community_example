@@ -29,6 +29,8 @@
     "url": "",
     "package": "data/datapackage.json",
     "datasets": ["tract", "county", "district"],
+    "variables": {},
+    "entity_info": {},
     "files": ["tract.csv.xz", "county.csv.xz", "health_district.csv.xz"]
   },
   "rules": [
@@ -37,7 +39,8 @@
         {
           "id": "selected_county",
           "type": "!",
-          "value": ""
+          "value": "",
+          "any": false
         }
       ],
       "effects": {
@@ -73,12 +76,14 @@
             {
               "id": "starting_shapes",
               "type": "=",
-              "value": "district"
+              "value": "district",
+              "any": false
             },
             {
               "id": "selected_district",
               "type": "!",
-              "value": ""
+              "value": "",
+              "any": false
             }
           ],
           "value": "district"
@@ -101,7 +106,8 @@
           "value": "tract"
         }
       ],
-      "default": "county"
+      "default": "county",
+      "display": []
     },
     {
       "id": "region_select",
@@ -111,13 +117,15 @@
             {
               "id": "shapes",
               "type": "=",
-              "value": "county"
+              "value": "county",
+              "any": false
             }
           ],
           "value": "selected_county"
         }
       ],
-      "default": "selected_district"
+      "default": "selected_district",
+      "display": []
     },
     {
       "id": "selected_region",
@@ -127,13 +135,15 @@
             {
               "id": "selected_county",
               "type": "",
-              "value": ""
+              "value": "",
+              "any": false
             }
           ],
           "value": "selected_county"
         }
       ],
-      "default": "selected_district"
+      "default": "selected_district",
+      "display": []
     },
     {
       "id": "county_subset",
@@ -143,13 +153,15 @@
             {
               "id": "selected_district",
               "type": "",
-              "value": ""
+              "value": "",
+              "any": false
             }
           ],
           "value": "siblings"
         }
       ],
-      "default": "full_filter"
+      "default": "full_filter",
+      "display": []
     }
   ],
   "dataviews": {
@@ -247,7 +259,8 @@
             {
               "id": "selected_district",
               "type": "",
-              "value": ""
+              "value": "",
+              "any": false
             }
           ],
           "button": {
@@ -267,7 +280,8 @@
             {
               "id": "selected_county",
               "type": "",
-              "value": ""
+              "value": "",
+              "any": false
             }
           ],
           "text": [" > ", "selected_county"]
@@ -283,7 +297,8 @@
               {
                 "id": "default",
                 "type": "",
-                "value": ""
+                "value": "",
+                "any": false
               }
             ]
           },
@@ -293,7 +308,8 @@
               {
                 "id": "starting_shapes",
                 "type": "=",
-                "value": "tract"
+                "value": "tract",
+                "any": false
               }
             ]
           },
@@ -312,7 +328,8 @@
               {
                 "id": "starting_shapes",
                 "type": "=",
-                "value": "district"
+                "value": "district",
+                "any": false
               }
             ]
           },
@@ -322,7 +339,8 @@
               {
                 "id": "selected_district",
                 "type": "",
-                "value": ""
+                "value": "",
+                "any": false
               }
             ]
           },
@@ -332,7 +350,8 @@
               {
                 "id": "selected_county",
                 "type": "",
-                "value": ""
+                "value": "",
+                "any": false
               }
             ]
           }

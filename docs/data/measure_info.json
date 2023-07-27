@@ -90,6 +90,20 @@
       "volume": "Preprint",
       "doi": "10.13140/RG.2.2.12396.28807"
     },
+    "cdc11a": {
+      "id": "cdc11a",
+      "author": "Centers for Disease Control and Prevention",
+      "year": 2011,
+      "title": "Children’s Food Environment State Indicator Report",
+      "url": "https://www.cdc.gov/obesity/downloads/ChildrensFoodEnvironment.pdf"
+    },
+    "cdc11b": {
+      "id": "cdc11b",
+      "author": "Centers for Disease Control and Prevention",
+      "year": 2011,
+      "title": "Census Tract Level State Maps of the Modified Retail Food Environment Index (mRFEI)",
+      "url": "https://www.cdc.gov/obesity/downloads/census-tract-level-state-maps-mrfei_TAG508.pdf"
+    },
     "wan12": {
       "id": "wan12",
       "author": [
@@ -120,20 +134,6 @@
       "title": "catchment: Calculate spatial access and availability metrics",
       "version": "0.0.1",
       "url": "https://github.com/uva-bi-sdad/catchment"
-    },
-    "cdc11a": {
-      "id": "cdc11a",
-      "author": "Centers for Disease Control and Prevention",
-      "year": 2011,
-      "title": "Children’s Food Environment State Indicator Report",
-      "url": "https://www.cdc.gov/obesity/downloads/ChildrensFoodEnvironment.pdf"
-    },
-    "cdc11b": {
-      "id": "cdc11b",
-      "author": "Centers for Disease Control and Prevention",
-      "year": 2011,
-      "title": "Census Tract Level State Maps of the Modified Retail Food Environment Index (mRFEI)",
-      "url": "https://www.cdc.gov/obesity/downloads/census-tract-level-state-maps-mrfei_TAG508.pdf"
     },
     "bls": {
       "id": "bls",
@@ -346,6 +346,35 @@
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Reproductive Health/Prenatal Care Adequacy/data/distribution/measure_info.json",
     "origin": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Reproductive Health/Prenatal Care Adequacy/data/distribution/va_ct_nchs_2014_2020_kotelchuck.csv.xz"
+  },
+  "affordability_index": {
+    "aggregation_method": "",
+    "categories": "",
+    "category": "Housing",
+    "citations": "",
+    "data_type": "numeric",
+    "equity_category": "Affordability",
+    "layer": "",
+    "long_description": "The Affordability index is developed to measure the proportion of income spent on housing and transportation.The index of affordability is calculated by combining housing and transportation costs in a neighborhood and dividing that number by income.We extracted the affordability index by using H+T index.H+T index have three different affordability index to account for different households like Regional Typical Household, Regional Moderate Household and National Typical Household",
+    "long_name": "Affordability index",
+    "measure_type": "",
+    "short_description": "Affordability index is developed to measure the proportion of income spent on housing and transportation",
+    "short_name": "Affordability index",
+    "sources": [
+      {
+        "name": "Housing + Transportation Affordability Index, Center for Neighborhood Technology",
+        "url": "https://htaindex.cnt.org/",
+        "location": "2015, 2019, and 2020 Datasets",
+        "location_url": "https://htaindex.cnt.org/download/",
+        "date_accessed": "2023"
+      }
+    ],
+    "statement": "The Affordability index in {region_name} is {value}.",
+    "type": "",
+    "unit": "percent",
+    "variants": "",
+    "source_file": "https://github.com/uva-bi-sdad/sdc.housing/blob/main/Cost/Affordability_HT/data/distribution/measure_info.json",
+    "origin": "https://github.com/uva-bi-sdad/sdc.housing/blob/main/Cost/Affordability_HT/data/distribution/va_cttr_2015_2019_2020_affordability_index.csv.xz"
   },
   "affordability_indicator": {
     "aggregation_method": "",
@@ -560,7 +589,7 @@
     "unit": "",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.food/blob/main/Food Security/Children's Food Insecurity/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.food/blob/main/Food Security/Children's Food Insecurity/data/distribution/va_hdct_fa_2014_2019_childrens_food_insecurity.csv.xz"
+    "origin": ["https://github.com/uva-bi-sdad/sdc.food/blob/main/Food Security/Children's Food Insecurity/data/distribution/ncr_ct_fa_2014_2019_childrens_food_insecurity.csv.xz", "https://github.com/uva-bi-sdad/sdc.food/blob/main/Food Security/Children's Food Insecurity/data/distribution/va_hdct_fa_2014_2019_childrens_food_insecurity.csv.xz"]
   },
   "community_environment_indicator": {
     "aggregation_method": "",
@@ -641,7 +670,7 @@
     "unit": "",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.food/blob/main/Food Security/Food Secure Average Meal Cost/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.food/blob/main/Food Security/Food Secure Average Meal Cost/data/distribution/va_hdct_fa_2014_2019_food_secure_avg_meal_cost.csv.xz"
+    "origin": ["https://github.com/uva-bi-sdad/sdc.food/blob/main/Food Security/Food Secure Average Meal Cost/data/distribution/ncr_ct_fa_2014_2019_food_secure_avg_meal_cost.csv.xz", "https://github.com/uva-bi-sdad/sdc.food/blob/main/Food Security/Food Secure Average Meal Cost/data/distribution/va_hdct_fa_2014_2019_food_secure_avg_meal_cost.csv.xz"]
   },
   "daycare_capacity": {
     "data_type": "integer",
@@ -985,7 +1014,7 @@
     "unit": "individual",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.financial_well_being/blob/main/Employment/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.financial_well_being/blob/main/Employment/data/distribution/ncr_cttr_2015_2021_employment_rate.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.financial_well_being/blob/main/Employment/data/distribution/va_cttr_2015_2021_employment_rate.csv.xz"
   },
   "employment_access_indicator": {
     "aggregation_method": "",
@@ -1044,7 +1073,7 @@
     "unit": "",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Health Care Services/EMS/Service Catchment Scores/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Health Care Services/EMS/Service Catchment Scores/data/distribution/va_hdcttrbgca_hifld_2021_access_scores_ems.csv.xz"
+    "origin": ["https://github.com/uva-bi-sdad/sdc.health/blob/main/Health Care Services/EMS/Service Catchment Scores/data/distribution/ncr_cttrbg_hifld_2021_access_scores_ems.csv.xz", "https://github.com/uva-bi-sdad/sdc.health/blob/main/Health Care Services/EMS/Service Catchment Scores/data/distribution/va_hdcttrbgca_hifld_2021_access_scores_ems.csv.xz"]
   },
   "ems_cnt": {
     "aggregation_method": "",
@@ -1071,7 +1100,7 @@
     "unit": "",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Health Care Services/EMS/Service Catchment Scores/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Health Care Services/EMS/Service Catchment Scores/data/distribution/va_hdcttrbgca_hifld_2021_access_scores_ems.csv.xz"
+    "origin": ["https://github.com/uva-bi-sdad/sdc.health/blob/main/Health Care Services/EMS/Service Catchment Scores/data/distribution/ncr_cttrbg_hifld_2021_access_scores_ems.csv.xz", "https://github.com/uva-bi-sdad/sdc.health/blob/main/Health Care Services/EMS/Service Catchment Scores/data/distribution/va_hdcttrbgca_hifld_2021_access_scores_ems.csv.xz"]
   },
   "ems_near_10_median": {
     "aggregation_method": "",
@@ -1098,7 +1127,7 @@
     "unit": "",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Health Care Services/EMS/Service Catchment Scores/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Health Care Services/EMS/Service Catchment Scores/data/distribution/va_hdcttrbgca_hifld_2021_access_scores_ems.csv.xz"
+    "origin": ["https://github.com/uva-bi-sdad/sdc.health/blob/main/Health Care Services/EMS/Service Catchment Scores/data/distribution/ncr_cttrbg_hifld_2021_access_scores_ems.csv.xz", "https://github.com/uva-bi-sdad/sdc.health/blob/main/Health Care Services/EMS/Service Catchment Scores/data/distribution/va_hdcttrbgca_hifld_2021_access_scores_ems.csv.xz"]
   },
   "food_accessibility_indicator": {
     "aggregation_method": "",
@@ -1129,6 +1158,7 @@
   },
   "fruit_treeNut_total_sales": {
     "aggregation_method": "",
+    "categories": "",
     "category": "Agriculture Industry",
     "citations": "",
     "data_type": "numeric",
@@ -1149,6 +1179,7 @@
     "statement": "Total sales of fruit and tree nuts to {features.name} is {value}.",
     "type": "dollar",
     "unit": "dollar",
+    "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Industry specific/Agriculture/data/distribution/measure_info.json",
     "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Industry specific/Agriculture/data/distribution/va_ct_2017_industry_agriculture.csv.xz"
   },
@@ -1232,7 +1263,7 @@
     "unit": "",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.food/blob/main/Food and Nutrition Assistance/Supplemental Nutrition Assistance Program (SNAP)/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.food/blob/main/Food and Nutrition Assistance/Supplemental Nutrition Assistance Program (SNAP)/data/distribution/va_hdcttrbg_acs_2013_2020_hh_receiving_snap.csv.xz"
+    "origin": ["https://github.com/uva-bi-sdad/sdc.food/blob/main/Food and Nutrition Assistance/Supplemental Nutrition Assistance Program (SNAP)/data/distribution/ncr_cttrbg_acs_2013_2020_hh_receiving_snap.csv.xz", "https://github.com/uva-bi-sdad/sdc.food/blob/main/Food and Nutrition Assistance/Supplemental Nutrition Assistance Program (SNAP)/data/distribution/va_hdcttrbg_acs_2013_2020_hh_receiving_snap.csv.xz"]
   },
   "hh_received_snap_pct": {
     "aggregation_method": "",
@@ -1260,7 +1291,7 @@
     "unit": "",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.food/blob/main/Food and Nutrition Assistance/Supplemental Nutrition Assistance Program (SNAP)/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.food/blob/main/Food and Nutrition Assistance/Supplemental Nutrition Assistance Program (SNAP)/data/distribution/va_hdcttrbg_acs_2013_2020_hh_receiving_snap.csv.xz"
+    "origin": ["https://github.com/uva-bi-sdad/sdc.food/blob/main/Food and Nutrition Assistance/Supplemental Nutrition Assistance Program (SNAP)/data/distribution/ncr_cttrbg_acs_2013_2020_hh_receiving_snap.csv.xz", "https://github.com/uva-bi-sdad/sdc.food/blob/main/Food and Nutrition Assistance/Supplemental Nutrition Assistance Program (SNAP)/data/distribution/va_hdcttrbg_acs_2013_2020_hh_receiving_snap.csv.xz"]
   },
   "inadequate": {
     "aggregation_method": "",
@@ -1424,7 +1455,7 @@
     "unit": "individual",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.financial_well_being/blob/main/Employment/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.financial_well_being/blob/main/Employment/data/distribution/va_cttr_2015_2021_job_participate_rate.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.financial_well_being/blob/main/Employment/data/distribution/ncr_cttr_2015_2021_job_participate_rate.csv.xz"
   },
   "job_participation_indicator": {
     "aggregation_method": "",
@@ -1506,7 +1537,7 @@
     "unit": "dollars",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.financial_well_being/blob/main/Pay and Benefits/Household Income/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.financial_well_being/blob/main/Pay and Benefits/Household Income/data/distribution/va_cttrbg_2015_2019_median_household_income.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.financial_well_being/blob/main/Pay and Benefits/Household Income/data/distribution/ncr_cttrbg_2015_2019_median_household_income.csv.xz"
   },
   "mental_3sfca": {
     "aggregation_method": "",
@@ -1538,7 +1569,7 @@
     "unit": "",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Health Care Services/Mental Health/Service Access Scores/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Health Care Services/Mental Health/Service Access Scores/data/distribution/va_hdcttrbgca_samhsa_2021_access_scores_mental.csv.xz"
+    "origin": ["https://github.com/uva-bi-sdad/sdc.health/blob/main/Health Care Services/Mental Health/Service Access Scores/data/distribution/ncr_cttrbg_samhsa_2021_access_scores_mental.csv.xz", "https://github.com/uva-bi-sdad/sdc.health/blob/main/Health Care Services/Mental Health/Service Access Scores/data/distribution/va_hdcttrbgca_samhsa_2021_access_scores_mental.csv.xz"]
   },
   "mental_cnt": {
     "aggregation_method": "",
@@ -1565,7 +1596,7 @@
     "unit": "",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Health Care Services/Mental Health/Service Access Scores/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Health Care Services/Mental Health/Service Access Scores/data/distribution/va_hdcttrbgca_samhsa_2021_access_scores_mental.csv.xz"
+    "origin": ["https://github.com/uva-bi-sdad/sdc.health/blob/main/Health Care Services/Mental Health/Service Access Scores/data/distribution/ncr_cttrbg_samhsa_2021_access_scores_mental.csv.xz", "https://github.com/uva-bi-sdad/sdc.health/blob/main/Health Care Services/Mental Health/Service Access Scores/data/distribution/va_hdcttrbgca_samhsa_2021_access_scores_mental.csv.xz"]
   },
   "mental_near_10_median": {
     "aggregation_method": "",
@@ -1592,7 +1623,7 @@
     "unit": "",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Health Care Services/Mental Health/Service Access Scores/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Health Care Services/Mental Health/Service Access Scores/data/distribution/va_hdcttrbgca_samhsa_2021_access_scores_mental.csv.xz"
+    "origin": ["https://github.com/uva-bi-sdad/sdc.health/blob/main/Health Care Services/Mental Health/Service Access Scores/data/distribution/ncr_cttrbg_samhsa_2021_access_scores_mental.csv.xz", "https://github.com/uva-bi-sdad/sdc.health/blob/main/Health Care Services/Mental Health/Service Access Scores/data/distribution/va_hdcttrbgca_samhsa_2021_access_scores_mental.csv.xz"]
   },
   "no_hlth_ins_pct": {
     "aggregation_method": "",
@@ -1620,7 +1651,7 @@
     "unit": "",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/System Usage and Insurance/Without Health Insurance/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/System Usage and Insurance/Without Health Insurance/data/distribution/va_hdcttr_acs5_2015_2019_no_health_insurance_19_to_64.csv.xz"
+    "origin": ["https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/System Usage and Insurance/Without Health Insurance/data/distribution/ncr_cttrbg_acs5_2015_2019_no_health_insurance_19_to_64.csv.xz", "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/System Usage and Insurance/Without Health Insurance/data/distribution/va_hdcttr_acs5_2015_2019_no_health_insurance_19_to_64.csv.xz"]
   },
   "Num_Child_Food_Insecure": {
     "aggregation_method": "",
@@ -1647,7 +1678,7 @@
     "unit": "",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.food/blob/main/Food Security/Children's Food Insecurity/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.food/blob/main/Food Security/Children's Food Insecurity/data/distribution/va_hdct_fa_2014_2019_childrens_food_insecurity.csv.xz"
+    "origin": ["https://github.com/uva-bi-sdad/sdc.food/blob/main/Food Security/Children's Food Insecurity/data/distribution/ncr_ct_fa_2014_2019_childrens_food_insecurity.csv.xz", "https://github.com/uva-bi-sdad/sdc.food/blob/main/Food Security/Children's Food Insecurity/data/distribution/va_hdct_fa_2014_2019_childrens_food_insecurity.csv.xz"]
   },
   "number_food_insecure": {
     "aggregation_method": "",
@@ -1674,7 +1705,7 @@
     "unit": "",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.food/blob/main/Food Security/Overall Food Insecurity/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.food/blob/main/Food Security/Overall Food Insecurity/data/distribution/va_hdcttr_fa_2014_2020_overall_food_insecurity.csv.xz"
+    "origin": ["https://github.com/uva-bi-sdad/sdc.food/blob/main/Food Security/Overall Food Insecurity/data/distribution/ncr_cttr_fa_2014_2020_overall_food_insecurity.csv.xz", "https://github.com/uva-bi-sdad/sdc.food/blob/main/Food Security/Overall Food Insecurity/data/distribution/va_hdcttr_fa_2014_2020_overall_food_insecurity.csv.xz"]
   },
   "obgyn_3sfca": {
     "aggregation_method": "",
@@ -1737,6 +1768,7 @@
   },
   "operation_farmValue": {
     "aggregation_method": "",
+    "categories": "",
     "category": "Agriculture Industry",
     "citations": "",
     "data_type": "numeric",
@@ -1757,6 +1789,7 @@
     "statement": "Total asset value per operation to {features.name} is {value}.",
     "type": "dollar",
     "unit": "dollar",
+    "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Industry specific/Agriculture/data/distribution/measure_info.json",
     "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Industry specific/Agriculture/data/distribution/va_ct_2017_industry_agriculture.csv.xz"
   },
@@ -1821,6 +1854,7 @@
   },
   "per_above30": {
     "aggregation_method": "",
+    "categories": "",
     "category": "Housing",
     "citations": "",
     "data_type": "decimal",
@@ -1842,11 +1876,13 @@
     "statement": "The percentage of households whose monthly housing costs from mortgage payments or rent account for 30% or more of their household income in {features.name} is {value}",
     "type": "percent",
     "unit": "households",
+    "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.housing/blob/main/Cost-burdened HHs/data/distribution/measure_info.json",
     "origin": "https://github.com/uva-bi-sdad/sdc.housing/blob/main/Cost-burdened HHs/data/distribution/va_hdcttrbg_acs_2014_2021_cost_burdened_hhs.csv.xz"
   },
   "per_mor_above30": {
     "aggregation_method": "",
+    "categories": "",
     "category": "Housing",
     "citations": "",
     "data_type": "decimal",
@@ -1868,11 +1904,13 @@
     "statement": "The percentage of owner-occupied households whose monthly housing costs from mortgage payments account for 30% or more of their household income in {features.name} is {value}",
     "type": "percent",
     "unit": "households",
+    "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.housing/blob/main/Cost-burdened HHs/data/distribution/measure_info.json",
     "origin": "https://github.com/uva-bi-sdad/sdc.housing/blob/main/Cost-burdened HHs/data/distribution/va_hdcttrbg_acs_2014_2021_cost_burdened_hhs.csv.xz"
   },
   "per_rent_above30": {
     "aggregation_method": "",
+    "categories": "",
     "category": "Housing",
     "citations": "",
     "data_type": "decimal",
@@ -1894,6 +1932,7 @@
     "statement": "The percentage of renter-occupied households whose monthly housing costs from rent account for 30% or more of their household income in {features.name} is {value}",
     "type": "percent",
     "unit": "households",
+    "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.housing/blob/main/Cost-burdened HHs/data/distribution/measure_info.json",
     "origin": "https://github.com/uva-bi-sdad/sdc.housing/blob/main/Cost-burdened HHs/data/distribution/va_hdcttrbg_acs_2014_2021_cost_burdened_hhs.csv.xz"
   },
@@ -2096,7 +2135,7 @@
     "unit": "household",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.broadband/blob/main/Wired/Adoption/Computer Type/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.broadband/blob/main/Wired/Adoption/Computer Type/data/distribution/va_hdcttrbg_acs_2017_2021_hh_without_compdev.csv.xz"
+    "origin": ["https://github.com/uva-bi-sdad/sdc.broadband/blob/main/Wired/Adoption/Computer Type/data/distribution/ncr_cttrbg_acs_2017_2021_hh_without_compdev.csv.xz", "https://github.com/uva-bi-sdad/sdc.broadband/blob/main/Wired/Adoption/Computer Type/data/distribution/va_hdcttrbg_acs_2017_2021_hh_without_compdev.csv.xz"]
   },
   "perc_hh_without_internet": {
     "aggregation_method": "percent",
@@ -2314,7 +2353,7 @@
     "type": "percent",
     "unit": "percent",
     "source_file": "https://github.com/uva-bi-sdad/sdc.transportation/blob/main/Population Characteristics/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.transportation/blob/main/Population Characteristics/data/distribution/va_cttr_2010_2021_perc_no_car_households.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.transportation/blob/main/Population Characteristics/data/distribution/ncr_cttr_acs_2016_2020_vehicles.csv.xz"
   },
   "perc_other": {
     "category": "Demographics",
@@ -2560,7 +2599,7 @@
       }
     ],
     "source_file": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Veteran/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Veteran/data/distribution/va_hsrsdpdzccttrbg_sdad_2013_2021_veteran_demographics1.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Veteran/data/distribution/va_cttrbg_acs_2009_2021_veteran_demographics.csv.xz"
   },
   "perc_w_int_100_20_using_devices": {
     "aggregation_method": "percent",
@@ -2664,7 +2703,7 @@
     "unit": "",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.food/blob/main/Food Security/Overall Food Insecurity/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.food/blob/main/Food Security/Overall Food Insecurity/data/distribution/va_hdcttr_fa_2014_2020_overall_food_insecurity.csv.xz"
+    "origin": ["https://github.com/uva-bi-sdad/sdc.food/blob/main/Food Security/Overall Food Insecurity/data/distribution/ncr_cttr_fa_2014_2020_overall_food_insecurity.csv.xz", "https://github.com/uva-bi-sdad/sdc.food/blob/main/Food Security/Overall Food Insecurity/data/distribution/va_hdcttr_fa_2014_2020_overall_food_insecurity.csv.xz"]
   },
   "pop_churning_indicator": {
     "aggregation_method": "",
@@ -3200,6 +3239,7 @@
   },
   "total_acres": {
     "aggregation_method": "",
+    "categories": "",
     "category": "Business climate",
     "citations": "",
     "data_type": "numeric",
@@ -3220,11 +3260,13 @@
     "statement": "Total acres used for agriculture in {features.name} is {value}",
     "type": "count",
     "unit": "",
+    "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Industry specific/Agriculture/data/distribution/measure_info.json",
     "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Industry specific/Agriculture/data/distribution/va_ct_2017_industry_agriculture.csv.xz"
   },
   "total_animal_expense": {
     "aggregation_method": "",
+    "categories": "",
     "category": "Agriculture Industry",
     "citations": "",
     "data_type": "numeric",
@@ -3245,11 +3287,13 @@
     "statement": "The overall expenses towards animals to {features.name} is {value}.",
     "type": "dollar",
     "unit": "dollar",
+    "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Industry specific/Agriculture/data/distribution/measure_info.json",
     "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Industry specific/Agriculture/data/distribution/va_ct_2017_industry_agriculture.csv.xz"
   },
   "total_animalProducts_sales": {
     "aggregation_method": "",
+    "categories": "",
     "category": "Agriculture Industry",
     "citations": "",
     "data_type": "numeric",
@@ -3270,11 +3314,13 @@
     "statement": "Total sales of animal products to {features.name} is {value}.",
     "type": "dollar",
     "unit": "dollar",
+    "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Industry specific/Agriculture/data/distribution/measure_info.json",
     "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Industry specific/Agriculture/data/distribution/va_ct_2017_industry_agriculture.csv.xz"
   },
   "total_calves_sales": {
     "aggregation_method": "",
+    "categories": "",
     "category": "Agriculture Industry",
     "citations": "",
     "data_type": "numeric",
@@ -3295,11 +3341,13 @@
     "statement": "Total sales of calves to {features.name} is {value}.",
     "type": "dollar",
     "unit": "dollar",
+    "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Industry specific/Agriculture/data/distribution/measure_info.json",
     "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Industry specific/Agriculture/data/distribution/va_ct_2017_industry_agriculture.csv.xz"
   },
   "total_commodity_sales": {
     "aggregation_method": "",
+    "categories": "",
     "category": "Agriculture Industry",
     "citations": "",
     "data_type": "numeric",
@@ -3320,11 +3368,13 @@
     "statement": "Total sales of commodities to {features.name} is {value}",
     "type": "dollar",
     "unit": "dollar",
+    "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Industry specific/Agriculture/data/distribution/measure_info.json",
     "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Industry specific/Agriculture/data/distribution/va_ct_2017_industry_agriculture.csv.xz"
   },
   "total_cropland_acres": {
     "aggregation_method": "",
+    "categories": "",
     "category": "Agriculture Industry",
     "citations": "",
     "data_type": "numeric",
@@ -3345,11 +3395,13 @@
     "statement": "The total acreage for cropland to {features.name} is {value}.",
     "type": "count",
     "unit": "",
+    "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Industry specific/Agriculture/data/distribution/measure_info.json",
     "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Industry specific/Agriculture/data/distribution/va_ct_2017_industry_agriculture.csv.xz"
   },
   "total_cropland_operations": {
     "aggregation_method": "",
+    "categories": "",
     "category": "Agriculture Industry",
     "citations": "",
     "data_type": "numeric",
@@ -3370,11 +3422,13 @@
     "statement": "The total number of operations with cropland to {features.name} is {value}.",
     "type": "count",
     "unit": "",
+    "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Industry specific/Agriculture/data/distribution/measure_info.json",
     "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Industry specific/Agriculture/data/distribution/va_ct_2017_industry_agriculture.csv.xz"
   },
   "total_irrigatedCropland_acre": {
     "aggregation_method": "",
+    "categories": "",
     "category": "Agriculture Industry",
     "citations": "",
     "data_type": "numeric",
@@ -3395,11 +3449,13 @@
     "statement": "The total acreage for irrigated cropland to {features.name} is {value}.",
     "type": "count",
     "unit": "",
+    "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Industry specific/Agriculture/data/distribution/measure_info.json",
     "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Industry specific/Agriculture/data/distribution/va_ct_2017_industry_agriculture.csv.xz"
   },
   "total_operations": {
     "aggregation_method": "",
+    "categories": "",
     "category": "Business climate",
     "citations": "",
     "data_type": "numeric",
@@ -3420,6 +3476,7 @@
     "statement": "Total operations used for agriculture in {features.name} is {value}",
     "type": "count",
     "unit": "",
+    "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Industry specific/Agriculture/data/distribution/measure_info.json",
     "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Industry specific/Agriculture/data/distribution/va_ct_2017_industry_agriculture.csv.xz"
   },

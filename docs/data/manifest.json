@@ -316,9 +316,9 @@
   "uva-bi-sdad/sdc.health": {
     "files": {
       "Population Health/Health Opportunity Index/data/distribution/va_tr_vdh_2017_2022_access_to_care_index.csv.xz": {
-        "size": 10608,
-        "sha": "00342c8421b15c8c47188e811a304cad64ecc82d",
-        "md5": "d3bc58f153b6207dcd6a8b6b7272812a"
+        "size": 10704,
+        "sha": "248e8685885bfa97fe6493d236690deadcab6292",
+        "md5": "b4bb24a4de18b8b9bf15d8751112e57a"
       },
       "Population Health/Health Opportunity Index/data/distribution/va_tr_vdh_2017_2022_air_quality_index.csv.xz": {
         "size": 10632,

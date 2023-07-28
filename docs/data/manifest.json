@@ -315,6 +315,11 @@
   },
   "uva-bi-sdad/sdc.health": {
     "files": {
+      "Population Health/Health Opportunity Index/data/distribution/va_hdcttr_vdh_2017_2022_segregation_index.csv.xz": {
+        "size": 11132,
+        "sha": "86920461da1f6ceb0c0eb4c710052a731f78375e",
+        "md5": "e6da884816f876e841179b9ca193e060"
+      },
       "Population Health/Health Opportunity Index/data/distribution/va_tr_vdh_2017_2022_food_accessibility_index.csv.xz": {
         "size": 11660,
         "sha": "9a9f0570f7325457db9d5979affbecd0b4fd67c1",
@@ -399,11 +404,6 @@
         "size": 4748,
         "sha": "2a09384543a5f766070cd6b0a4f9e5ea4b4868c3",
         "md5": "3b57508d6161410ddfe5a22f4fe6623f"
-      },
-      "Population Health/Health Opportunity Index/data/distribution/va_hdcttr_vdh_2017_segregation_index.csv.xz": {
-        "size": 5080,
-        "sha": "8671600eb7fd8b71386767738128b0d7467858e2",
-        "md5": "fd6a4696d9f6bebba531e7c84cc9459e"
       },
       "Population Health/Health Opportunity Index/data/distribution/va_hdcttr_vdh_2017_pop_churning_index.csv.xz": {
         "size": 5340,

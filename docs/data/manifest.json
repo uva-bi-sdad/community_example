@@ -315,6 +315,11 @@
   },
   "uva-bi-sdad/sdc.health": {
     "files": {
+      "Population Health/Health Opportunity Index/data/distribution/va_tr_vdh_2017_2022_air_quality_index.csv.xz": {
+        "size": 10700,
+        "sha": "83ea005af3375a514acae48bc2eb6a5b775bee4a",
+        "md5": "55fab87fa28afa055b67d05211499762"
+      },
       "Population Health/Health Opportunity Index/data/distribution/va_tr_vdh_2022_wellness_disparity_profile.csv.xz": {
         "size": 7996,
         "sha": "f38edbb8928c463f87b5adae5c8a556079085169",
@@ -424,16 +429,6 @@
         "size": 4884,
         "sha": "0875e3b927b89dcadf391bac4a7eff531b67c483",
         "md5": "31c0d37cc8d54da0f13ad368a50495b4"
-      },
-      "Population Health/Health Opportunity Index/data/distribution/va_hdcttr_vdh_2017_community_environmental_profile.csv.xz": {
-        "size": 4948,
-        "sha": "751e17a0e176833c30f17047bb68a18a9a760635",
-        "md5": "cfa7fb821bdf7431161b7027bd0d03fd"
-      },
-      "Population Health/Health Opportunity Index/data/distribution/va_hdcttr_vdh_2017_air_quality_index.csv.xz": {
-        "size": 4560,
-        "sha": "d566955faf3b176a094a7b4c9ad40fa13cd8bddd",
-        "md5": "56d91c3d480451a3b7258505bdef5285"
       },
       "Population Health/Health Opportunity Index/data/distribution/va_hdcttr_vdh_2017_affordability_index.csv.xz": {
         "size": 4976,

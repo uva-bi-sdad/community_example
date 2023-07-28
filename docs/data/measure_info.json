@@ -428,7 +428,7 @@
     "unit": "",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Health Opportunity Index/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Health Opportunity Index/data/distribution/va_hdcttr_vdh_2017_air_quality_index.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Health Opportunity Index/data/distribution/va_tr_vdh_2017_2022_air_quality_index.csv.xz"
   },
   "alice_pct": {
     "aggregation_method": "",
@@ -616,7 +616,7 @@
     "unit": "",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Health Opportunity Index/data/distribution/measure_info.json",
-    "origin": ["https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Health Opportunity Index/data/distribution/va_hdcttr_vdh_2017_community_environmental_profile.csv.xz", "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Health Opportunity Index/data/distribution/va_tr_vdh_2022_community_environment_profile.csv.xz"]
+    "origin": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Health Opportunity Index/data/distribution/va_tr_vdh_2022_community_environment_profile.csv.xz"
   },
   "consumer_opportunity_indicator": {
     "aggregation_method": "",

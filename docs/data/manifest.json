@@ -212,10 +212,15 @@
   },
   "uva-bi-sdad/sdc.financial_well_being": {
     "files": {
-      "Employment Access/data/distribution/va_cttr_2015_2019_2020_employment_access_index.csv.xz": {
-        "size": 22944,
-        "sha": "af9e3668cec543c080137ddcfdfd9af993c06796",
-        "md5": "a1f1064d3982439cd6dc54b3f593002a"
+      "Material Deprivation/data/distribution/va_hdcttr_vdh_2017_2022_material_deprivation_index.csv.xz": {
+        "size": 104196,
+        "sha": "c9e17da7ba963fccebb86dc1d984ef713ec1b11e",
+        "md5": "751c75dc857c674152449fcb596655ae"
+      },
+      "Employment Access/data/distribution/va_cttr_2015_2019_2020_employment_access_index.csv": {
+        "size": 272409,
+        "sha": "5b3f5adc0363aa20a26fe8d507af0bdb3826f19b",
+        "md5": "56dc1f3885f508a2b60eabb0f8d84b1c"
       },
       "Pay and Benefits/Personal Income/data/distribution/va_hdct_bea_2015_2020_earnings_per_job.csv.xz": {
         "size": 19232,
@@ -315,11 +320,6 @@
   },
   "uva-bi-sdad/sdc.health": {
     "files": {
-      "Population Health/Health Opportunity Index/data/distribution/va_hdcttr_vdh_2017_2022_material_deprivation_index.csv.xz": {
-        "size": 10296,
-        "sha": "3e2cc3b63bb4b837c8d3124f5f37c1f1a6cd5345",
-        "md5": "897b4fd9b0c560745b2e855dc9a16766"
-      },
       "Population Health/Health Opportunity Index/data/distribution/va_hdcttr_vdh_2017_2022_walkability_index.csv.xz": {
         "size": 10792,
         "sha": "59055c8f514e3817a5b9c5c1a6a2b8f4c61baaba",

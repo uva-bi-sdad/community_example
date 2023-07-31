@@ -1070,7 +1070,7 @@
     "unit": "job",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.financial_well_being/blob/main/Employment Access/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.financial_well_being/blob/main/Employment Access/data/distribution/va_cttr_2015_2019_2020_employment_access_index.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.financial_well_being/blob/main/Employment Access/data/distribution/va_cttr_2015_2019_2020_employment_access_index.csv"
   },
   "ems_3sfca": {
     "aggregation_method": "",
@@ -1537,8 +1537,8 @@
     "type": "index",
     "unit": "",
     "variants": "",
-    "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Health Opportunity Index/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Health Opportunity Index/data/distribution/va_hdcttr_vdh_2017_2022_material_deprivation_index.csv.xz"
+    "source_file": "https://github.com/uva-bi-sdad/sdc.financial_well_being/blob/main/Material Deprivation/data/distribution/measure_info.json",
+    "origin": "https://github.com/uva-bi-sdad/sdc.financial_well_being/blob/main/Material Deprivation/data/distribution/va_hdcttr_vdh_2017_2022_material_deprivation_index.csv.xz"
   },
   "median_household_income": {
     "aggregation_method": "",

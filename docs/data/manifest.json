@@ -271,6 +271,36 @@
   },
   "uva-bi-sdad/sdc.food": {
     "files": {
+      "Food Security/Feeding America/Overall Food Insecurity/data/distribution/va_hdcttr_fa_2014_2020_overall_food_insecurity.csv.xz": {
+        "size": 35484,
+        "sha": "c4652fa24b605d9a5d3d0bf696cb9a4b677403d0",
+        "md5": "c357ce4b1cf9ad82eead2e003b9d0b11"
+      },
+      "Food Security/Feeding America/Overall Food Insecurity/data/distribution/ncr_cttr_fa_2014_2020_overall_food_insecurity.csv.xz": {
+        "size": 15608,
+        "sha": "1f543953d8287f29882bf7d78baf9e563a405842",
+        "md5": "daa72d32735c1cc12a699075dd8736e2"
+      },
+      "Food Security/Feeding America/Food Secure Average Meal Cost/data/distribution/va_hdct_fa_2014_2019_food_secure_avg_meal_cost.csv.xz": {
+        "size": 5440,
+        "sha": "bc04744112fb9bd766d3ec2193709351482f814b",
+        "md5": "5afdffc624da50f388861a5cf2f1749c"
+      },
+      "Food Security/Feeding America/Food Secure Average Meal Cost/data/distribution/ncr_ct_fa_2014_2019_food_secure_avg_meal_cost.csv.xz": {
+        "size": 684,
+        "sha": "d33305d448288fd84608e67fa16aac7bf3ded9ac",
+        "md5": "88c4798c1339b51160d726188c6b4b86"
+      },
+      "Food Security/Feeding America/Children's Food Insecurity/data/distribution/va_hdct_fa_2014_2019_childrens_food_insecurity.csv.xz": {
+        "size": 10916,
+        "sha": "1aba2a27b211bc7d141b39968372ad313ca8d9c4",
+        "md5": "4c85bafd3962ea3734eff46a06fbff2c"
+      },
+      "Food Security/Feeding America/Children's Food Insecurity/data/distribution/ncr_ct_fa_2014_2019_childrens_food_insecurity.csv.xz": {
+        "size": 1196,
+        "sha": "1a7120ffdb6052a2914c074ce546e8a17e5ad7de",
+        "md5": "b24935e4c1987dd022949685bc6efb91"
+      },
       "Food and Nutrition Assistance/Supplemental Nutrition Assistance Program (SNAP)/data/distribution/va_hdcttrbg_acs_2013_2020_hh_receiving_snap.csv.xz": {
         "size": 985560,
         "sha": "a8b585ffc7a4559adb0fb35a19ff70dff45dd30b",
@@ -280,36 +310,6 @@
         "size": 571372,
         "sha": "03fcf2b93e18440e4357b903df920fee57f26488",
         "md5": "9fb6f38f7e85d61a30d9455f49e5b3b4"
-      },
-      "Food Security/Overall Food Insecurity/data/distribution/va_hdcttr_fa_2014_2020_overall_food_insecurity.csv.xz": {
-        "size": 35484,
-        "sha": "c4652fa24b605d9a5d3d0bf696cb9a4b677403d0",
-        "md5": "c357ce4b1cf9ad82eead2e003b9d0b11"
-      },
-      "Food Security/Overall Food Insecurity/data/distribution/ncr_cttr_fa_2014_2020_overall_food_insecurity.csv.xz": {
-        "size": 15608,
-        "sha": "1f543953d8287f29882bf7d78baf9e563a405842",
-        "md5": "daa72d32735c1cc12a699075dd8736e2"
-      },
-      "Food Security/Food Secure Average Meal Cost/data/distribution/va_hdct_fa_2014_2019_food_secure_avg_meal_cost.csv.xz": {
-        "size": 5440,
-        "sha": "bc04744112fb9bd766d3ec2193709351482f814b",
-        "md5": "5afdffc624da50f388861a5cf2f1749c"
-      },
-      "Food Security/Food Secure Average Meal Cost/data/distribution/ncr_ct_fa_2014_2019_food_secure_avg_meal_cost.csv.xz": {
-        "size": 684,
-        "sha": "d33305d448288fd84608e67fa16aac7bf3ded9ac",
-        "md5": "88c4798c1339b51160d726188c6b4b86"
-      },
-      "Food Security/Children's Food Insecurity/data/distribution/va_hdct_fa_2014_2019_childrens_food_insecurity.csv.xz": {
-        "size": 10916,
-        "sha": "1aba2a27b211bc7d141b39968372ad313ca8d9c4",
-        "md5": "4c85bafd3962ea3734eff46a06fbff2c"
-      },
-      "Food Security/Children's Food Insecurity/data/distribution/ncr_ct_fa_2014_2019_childrens_food_insecurity.csv.xz": {
-        "size": 1196,
-        "sha": "1a7120ffdb6052a2914c074ce546e8a17e5ad7de",
-        "md5": "b24935e4c1987dd022949685bc6efb91"
       }
     }
   },
@@ -514,10 +514,10 @@
   },
   "uva-bi-sdad/sdc.housing": {
     "files": {
-      "Cost/Affordability_HT/data/distribution/va_cttr_2015_2019_2020_affordability_index.csv.xz": {
-        "size": 19920,
-        "sha": "2834282ed1ed9e857246dfc620a38b0e7654a639",
-        "md5": "ef445836b61f3da34fb33c5ef495768b"
+      "Cost/Affordability_HT/data/distribution/va_cttr_2015_2020_affordability_index.csv.xz": {
+        "size": 31292,
+        "sha": "6698003e84d656f7ab025495345bc2cdb6dac564",
+        "md5": "7c4a006aa266994af04fd153affda747"
       },
       "Cost-burdened HHs/data/distribution/va_hdcttrbg_acs_2014_2021_cost_burdened_hhs.csv.xz": {
         "size": 1049528,

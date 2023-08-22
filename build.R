@@ -22,6 +22,6 @@ data_add(
 )
 
 site_build(
-  "../community_example", version = "dev", serve = TRUE,
+  "../community_example", version = "dev", aggregate = FALSE, serve = TRUE,
   endpoint = "https://vdh-data-commons.netlify.app/api"
 )

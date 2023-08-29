@@ -569,5 +569,5 @@
     }
   },
   "endpoint": "https://vdh-data-commons.netlify.app/api",
-  "aggregated": false
+  "aggregated": true
 }

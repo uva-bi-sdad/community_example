@@ -1,13 +1,5 @@
 {
   "_references": {
-    "bii-redist": {
-      "id": "bii-redist",
-      "author": "Biocomplexity Institute and Initiative",
-      "year": 2022,
-      "title": "redistribute: An R package to redistribute data",
-      "version": "0.0.1",
-      "url": "https://github.com/uva-bi-sdad/redistribute"
-    },
     "wan12": {
       "id": "wan12",
       "author": [
@@ -38,6 +30,14 @@
       "title": "catchment: Calculate spatial access and availability metrics",
       "version": "0.0.1",
       "url": "https://github.com/uva-bi-sdad/catchment"
+    },
+    "bii-redist": {
+      "id": "bii-redist",
+      "author": "Biocomplexity Institute and Initiative",
+      "year": 2022,
+      "title": "redistribute: An R package to redistribute data",
+      "version": "0.0.1",
+      "url": "https://github.com/uva-bi-sdad/redistribute"
     },
     "lou04": {
       "id": "lou04",
@@ -160,7 +160,7 @@
         "name": "Virginia Department of Education",
         "location": "Data & Reports > Statistics & Reports > SOL Test Pass Rates & Other Results",
         "location_url": "https://www.doe.virginia.gov/data-policy-funding/data-reports/statistics-reports/sol-test-pass-rates-other-results",
-        "date_accessed": 2021,
+        "date_accessed": 2023,
         "url": "https://www.doe.virginia.gov"
       }
     ],
@@ -175,7 +175,7 @@
       }
     },
     "source_file": "https://github.com/uva-bi-sdad/sdc.education/blob/main/Reading/code/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.education/blob/main/Reading/data/distribution/va_hdctsd_vdoe_2019_2021_3rd_grade_mean_median_read_score.csv.xz"
+    "origin": ["https://github.com/uva-bi-sdad/sdc.education/blob/main/Reading/data/distribution/va_hdctsd_vdoe_2015_2021_3rd_grade_mean_read_score.csv.xz", "https://github.com/uva-bi-sdad/sdc.education/blob/main/Reading/data/distribution/va_hdctsd_vdoe_2019_2021_3rd_grade_mean_median_read_score.csv.xz"]
   },
   "{variant.name}{category.name}": {
     "category": "Demographics",
@@ -1170,7 +1170,7 @@
     "unit": "dollar",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.financial_well_being/blob/main/Pay and Benefits/Personal Income/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.financial_well_being/blob/main/Pay and Benefits/Personal Income/data/distribution/va_hdct_bea_2015_2020_earnings_per_job.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.financial_well_being/blob/main/Pay and Benefits/Personal Income/data/distribution/va_hdct_bea_2015_2021_earnings_per_job.csv.xz"
   },
   "economic_opportunity_indicator": {
     "aggregation_method": "",
@@ -1974,8 +1974,8 @@
     "type": "index",
     "unit": "",
     "variants": "",
-    "source_file": "https://github.com/uva-bi-sdad/sdc.financial_well_being/blob/main/Material Deprivation/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.financial_well_being/blob/main/Material Deprivation/data/distribution/va_hdcttr_vdh_2017_2022_material_deprivation_index.csv.xz"
+    "source_file": "https://github.com/uva-bi-sdad/sdc.financial_well_being/blob/main/Material_Deprivation/data/distribution/measure_info.json",
+    "origin": "https://github.com/uva-bi-sdad/sdc.financial_well_being/blob/main/Material_Deprivation/data/distribution/va_hdcttr_vdh_2015_2021_material_deprivation_index.csv.xz"
   },
   "median_household_income": {
     "aggregation_method": "",
@@ -2636,6 +2636,7 @@
   },
   "perc_no_vehicle": {
     "aggregation_method": "",
+    "categories": "",
     "category": "Transportation",
     "citations": "",
     "data_type": "numeric",
@@ -2657,6 +2658,7 @@
     "statement": "{value} of households in {features.name} do not have a vehicle available at home.",
     "type": "percent",
     "unit": "percent",
+    "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.transportation/blob/main/Population Characteristics/data/distribution/measure_info.json",
     "origin": "https://github.com/uva-bi-sdad/sdc.transportation/blob/main/Population Characteristics/data/distribution/va_cttr_2010_2021_perc_no_car_households.csv.xz"
   },

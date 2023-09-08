@@ -17,8 +17,8 @@
 "avg_monthly_rate",1,926,245,0
 "avg_up_using_devices",1,27,0,1678
 "Child_Food_Insecurity_Rate",1,798,210,0
-"community_environment_indicator",1,0,0,2168
-"consumer_opportunity_indicator",1,0,0,2168
+"community_environment_indicator",1,0,0,4052
+"consumer_opportunity_indicator",1,0,0,4052
 "Cost_Per_Meal",1,798,210,0
 "daycare_capacity",1,133,35,2190
 "daycare_min_drivetime",1,133,35,2190
@@ -30,7 +30,7 @@
 "devices",1,399,105,5670
 "disconnectedYouth",1,352,0,0
 "earnings_per_job",1,931,245,0
-"economic_opportunity_indicator",1,0,0,2168
+"economic_opportunity_indicator",1,0,0,4052
 "education_indicator",1,133,35,1884
 "emp_rate",1,931,0,13688
 "employment_access_indicator",1,133,35,1884
@@ -54,9 +54,9 @@
 "job_participate_rate",1,931,0,13723
 "job_participation_indicator",1,133,35,1884
 "language_hh_limited_english_percent_direct",1,798,210,11808
-"material_deprivation_indicator",1,0,0,13675
+"material_deprivation_indicator",1,931,245,13675
 "median_household_income",1,665,0,9323
-"median_read_pass_rate",1,907,70,0
+"median_read_pass_rate",1,778,0,0
 "mental_3sfca",1,133,35,2218
 "mental_cnt",1,133,35,2235
 "mental_near_10_median",1,133,35,2217
@@ -91,7 +91,7 @@
 "population_density_direct",1,931,245,13907
 "population_direct",1,931,245,13907
 "poverty_pct",1,933,0,0
-"prevent_hosp_rate",1,903,0,0
+"prevent_hosp_rate",1,903,245,0
 "primcare_3sfca",1,133,35,2218
 "primcare_cnt",1,133,35,2235
 "race_AAPI_percent_direct",1,1734,455,24200
@@ -132,4 +132,4 @@
 "vi_socioeconomic",1,532,0,7773
 "voterTurnout",1,133,0,0
 "walkability_indicator",1,0,0,4052
-"wellness_disparity_indicator",1,0,0,2168
+"wellness_disparity_indicator",1,0,0,4052

@@ -1,44 +1,5 @@
 {
   "_references": {
-    "wan12": {
-      "id": "wan12",
-      "author": [
-        {
-          "given": "Neng",
-          "family": "Wan"
-        },
-        {
-          "given": "Bin",
-          "family": "Zou"
-        },
-        {
-          "given": "Troy",
-          "family": "Sternberg"
-        }
-      ],
-      "year": 2012,
-      "title": "A three-step floating catchment area method for analyzing spatial access to health services",
-      "journal": "International Journal of Geographical Information Science",
-      "volume": "26",
-      "page": "1073–1089",
-      "doi": "10.1080/13658816.2011.624987"
-    },
-    "bii21": {
-      "id": "bii21",
-      "author": "Biocomplexity Institute and Initiative",
-      "year": 2021,
-      "title": "catchment: Calculate spatial access and availability metrics",
-      "version": "0.0.1",
-      "url": "https://github.com/uva-bi-sdad/catchment"
-    },
-    "bii-redist": {
-      "id": "bii-redist",
-      "author": "Biocomplexity Institute and Initiative",
-      "year": 2022,
-      "title": "redistribute: An R package to redistribute data",
-      "version": "0.0.1",
-      "url": "https://github.com/uva-bi-sdad/redistribute"
-    },
     "lou04": {
       "id": "lou04",
       "author": [
@@ -129,6 +90,45 @@
       "volume": "Preprint",
       "doi": "10.13140/RG.2.2.12396.28807"
     },
+    "wan12": {
+      "id": "wan12",
+      "author": [
+        {
+          "given": "Neng",
+          "family": "Wan"
+        },
+        {
+          "given": "Bin",
+          "family": "Zou"
+        },
+        {
+          "given": "Troy",
+          "family": "Sternberg"
+        }
+      ],
+      "year": 2012,
+      "title": "A three-step floating catchment area method for analyzing spatial access to health services",
+      "journal": "International Journal of Geographical Information Science",
+      "volume": "26",
+      "page": "1073–1089",
+      "doi": "10.1080/13658816.2011.624987"
+    },
+    "bii21": {
+      "id": "bii21",
+      "author": "Biocomplexity Institute and Initiative",
+      "year": 2021,
+      "title": "catchment: Calculate spatial access and availability metrics",
+      "version": "0.0.1",
+      "url": "https://github.com/uva-bi-sdad/catchment"
+    },
+    "bii-redist": {
+      "id": "bii-redist",
+      "author": "Biocomplexity Institute and Initiative",
+      "year": 2022,
+      "title": "redistribute: An R package to redistribute data",
+      "version": "0.0.1",
+      "url": "https://github.com/uva-bi-sdad/redistribute"
+    },
     "cdc11a": {
       "id": "cdc11a",
       "author": "Centers for Disease Control and Prevention",
@@ -175,94 +175,7 @@
       }
     },
     "source_file": "https://github.com/uva-bi-sdad/sdc.education/blob/main/Reading/code/distribution/measure_info.json",
-    "origin": ["https://github.com/uva-bi-sdad/sdc.education/blob/main/Reading/data/distribution/va_hdctsd_vdoe_2015_2021_3rd_grade_mean_read_score.csv.xz", "https://github.com/uva-bi-sdad/sdc.education/blob/main/Reading/data/distribution/va_hdctsd_vdoe_2019_2021_3rd_grade_mean_median_read_score.csv.xz"]
-  },
-  "{variant.name}{category.name}": {
-    "category": "Demographics",
-    "data_type": "{variant}",
-    "unit": "individual",
-    "equity_category": "Status",
-    "aggregation_method": "{variant}",
-    "short_name": "{variant} {category}",
-    "long_name": "{variant.short_description}",
-    "short_description": "{variant}",
-    "long_description": "{variant} 5-year ACS estimates in provided census geolevels. For non-census geolevels (such as zip codes), spatial overlaps are calculated between census block groups {category} Redistribution to non-census geolevels was performed using the redistribute R package.",
-    "statement": "{variant}",
-    "citations": "bii-redist",
-    "sources": [
-      {
-        "name": "American Community Survey",
-        "location": "5-Year estimates, table B21001, via the API",
-        "location_url": "https://www.census.gov/data/developers/data-sets/acs-5year.html",
-        "date_accessed": 2023,
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      },
-      {
-        "name": "Fairfax County Geospatial Data",
-        "location": "Boundaries > Zip Codes",
-        "location_url": "https://data-fairfaxcountygis.opendata.arcgis.com/datasets/Fairfaxcountygis::zip-codes/about",
-        "date_accessed": 2022,
-        "url": "https://data-fairfaxcountygis.opendata.arcgis.com/"
-      },
-      {
-        "name": "Fairfax County Geospatial Data",
-        "location": "Boundaries > Supervisor Districts",
-        "location_url": "https://data-fairfaxcountygis.opendata.arcgis.com/datasets/Fairfaxcountygis::supervisor-districts-5/about",
-        "date_accessed": 2022,
-        "url": "https://data-fairfaxcountygis.opendata.arcgis.com/"
-      },
-      {
-        "name": "Fairfax County Geospatial Data",
-        "location": "Health & Human Service > Human Services Regions",
-        "location_url": "https://data-fairfaxcountygis.opendata.arcgis.com/datasets/Fairfaxcountygis::human-services-regions/about",
-        "date_accessed": 2022,
-        "url": "https://data-fairfaxcountygis.opendata.arcgis.com/"
-      },
-      {
-        "name": "Arlington County GIS Open Data",
-        "location": "MHUD Polygons",
-        "location_url": "https://gisdata-arlgis.opendata.arcgis.com/datasets/ArlGIS::mhud-polygons/about",
-        "date_accessed": 2023,
-        "url": "https://gisdata-arlgis.opendata.arcgis.com/"
-      },
-      {
-        "name": "Arlington County GIS Open Data",
-        "location": "Civic Association Polygons",
-        "location_url": "https://gisdata-arlgis.opendata.arcgis.com/datasets/ArlGIS::civic-association-polygons-1/about",
-        "date_accessed": 2021,
-        "url": "https://gisdata-arlgis.opendata.arcgis.com/"
-      }
-    ],
-    "categories": {
-      "_parcels": {
-        "default": "parcels",
-        "long_description": "and parcels, then the value of each block group is divided across all living units within each intersecting parcel. Once parcel-level values are assigned, spatial overlaps are calculated between parcels and target regions such that parcel values can be aggregated to each intersecting target region based on proportion of overlap."
-      },
-      "_direct": {
-        "default": "direct",
-        "long_description": "and target regions, then the value of each block group is aggregated/disaggregated to any intersecting target region based on proportion of overlap."
-      }
-    },
-    "variants": {
-      "veteran_count": {
-        "default": "The Veteran population",
-        "data_type": "decimal",
-        "aggregation_method": "count",
-        "short_description": "The Veteran population.",
-        "long_description": "The Veteran population.",
-        "statement": "The Veteran population is {value} in {region_name}."
-      },
-      "veteran_percent": {
-        "default": "The Veteran population percent",
-        "data_type": "decimal",
-        "aggregation_method": "percent",
-        "short_description": "The Veteran population percent.",
-        "long_description": "The Veteran population percent.",
-        "statement": "The Veteran population percent is {value} in {region_name}."
-      }
-    },
-    "source_file": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Veteran/code/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Veteran/data/distribution/va_hsrsdpdzccttrbg_sdad_2009_2021_veteran_demographics.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.education/blob/main/Reading/data/distribution/va_hdctsd_vdoe_2015_2021_3rd_grade_mean_read_score.csv.xz"
   },
   "access_care_indicator": {
     "aggregation_method": "",
@@ -491,17 +404,17 @@
     "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Health Opportunity Index/data/distribution/measure_info.json",
     "origin": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Health Opportunity Index/data/distribution/va_hdcttr_vdh_2017_affordability_index.csv.xz"
   },
-  "age_{variant.name}{category.name}": {
+  "age_20_64_percent_direct": {
     "category": "Demographics",
-    "data_type": "{variant}",
+    "data_type": "decimal",
     "unit": "individual",
     "equity_category": "Status",
-    "aggregation_method": "{variant}",
-    "short_name": "{variant} {category}",
-    "long_name": "{variant.short_description}",
-    "short_description": "{variant}",
-    "long_description": "{variant} 5-year ACS estimates in provided census geolevels. For non-census geolevels (such as zip codes), spatial overlaps are calculated between census block groups {category} Redistribution to non-census geolevels was performed using the redistribute R package.",
-    "statement": "{variant}",
+    "aggregation_method": "percent",
+    "short_name": "Percent of the population between age 20 and 64 direct",
+    "long_name": "The percent of the population over age 64.",
+    "short_description": "The percent of the population over age 64.",
+    "long_description": "The percent of the population over age 64. 5-year ACS estimates in provided census geolevels. For non-census geolevels (such as zip codes), spatial overlaps are calculated between census block groups and target regions, then the value of each block group is aggregated to any intersecting target region based on proportion of overlap. Redistribution to non-census geolevels was performed using the redistribute R package.",
+    "statement": "The percent of the population over age 64 is {value} in {region_name}.",
     "citations": "bii-redist",
     "sources": [
       {
@@ -547,75 +460,125 @@
         "url": "https://gisdata-arlgis.opendata.arcgis.com/"
       }
     ],
-    "categories": {
-      "_parcels": {
-        "default": "parcels",
-        "long_description": "and parcels, then the value of each block group is divided across all living units within each intersecting parcel. Once parcel-level values are assigned, spatial overlaps are calculated between parcels and target regions such that parcel values can be aggregated to each intersecting target region based on proportion of overlap."
+    "source_file": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/docs/data/measure_info.json",
+    "origin": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Age/data/distribution/va_hsrsdpdzccttrbg_sdad_2009_2021_age_demographics.csv.xz"
+  },
+  "age_65_plus_percent_direct": {
+    "category": "Demographics",
+    "data_type": "decimal",
+    "unit": "individual",
+    "equity_category": "Status",
+    "aggregation_method": "percent",
+    "short_name": "Percent of the population over age 64 direct",
+    "long_name": "The percent of the population over age 64.",
+    "short_description": "The percent of the population over age 64.",
+    "long_description": "The percent of the population over age 64. 5-year ACS estimates in provided census geolevels. For non-census geolevels (such as zip codes), spatial overlaps are calculated between census block groups and target regions, then the value of each block group is aggregated to any intersecting target region based on proportion of overlap. Redistribution to non-census geolevels was performed using the redistribute R package.",
+    "statement": "The percent of the population over age 64 is {value} in {region_name}.",
+    "citations": "bii-redist",
+    "sources": [
+      {
+        "name": "American Community Survey",
+        "location": "5-Year estimates, table B01001, via the API",
+        "location_url": "https://www.census.gov/data/developers/data-sets/acs-5year.html",
+        "date_accessed": 2023,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
       },
-      "_direct": {
-        "default": "direct",
-        "long_description": "and target regions, then the value of each block group is aggregated to any intersecting target region based on proportion of overlap."
+      {
+        "name": "Fairfax County Geospatial Data",
+        "location": "Boundaries > Zip Codes",
+        "location_url": "https://data-fairfaxcountygis.opendata.arcgis.com/datasets/Fairfaxcountygis::zip-codes/about",
+        "date_accessed": 2022,
+        "url": "https://data-fairfaxcountygis.opendata.arcgis.com/"
+      },
+      {
+        "name": "Fairfax County Geospatial Data",
+        "location": "Boundaries > Supervisor Districts",
+        "location_url": "https://data-fairfaxcountygis.opendata.arcgis.com/datasets/Fairfaxcountygis::supervisor-districts-5/about",
+        "date_accessed": 2022,
+        "url": "https://data-fairfaxcountygis.opendata.arcgis.com/"
+      },
+      {
+        "name": "Fairfax County Geospatial Data",
+        "location": "Health & Human Service > Human Services Regions",
+        "location_url": "https://data-fairfaxcountygis.opendata.arcgis.com/datasets/Fairfaxcountygis::human-services-regions/about",
+        "date_accessed": 2022,
+        "url": "https://data-fairfaxcountygis.opendata.arcgis.com/"
+      },
+      {
+        "name": "Arlington County GIS Open Data",
+        "location": "MHUD Polygons",
+        "location_url": "https://gisdata-arlgis.opendata.arcgis.com/datasets/ArlGIS::mhud-polygons/about",
+        "date_accessed": 2023,
+        "url": "https://gisdata-arlgis.opendata.arcgis.com/"
+      },
+      {
+        "name": "Arlington County GIS Open Data",
+        "location": "Civic Association Polygons",
+        "location_url": "https://gisdata-arlgis.opendata.arcgis.com/datasets/ArlGIS::civic-association-polygons-1/about",
+        "date_accessed": 2021,
+        "url": "https://gisdata-arlgis.opendata.arcgis.com/"
       }
-    },
-    "variants": {
-      "under_20_count": {
-        "default": "Population under age 20",
-        "data_type": "decimal",
-        "aggregation_method": "arithmetic mean",
-        "short_description": "The population estimates under age 20.",
-        "long_description": "The population estimates under age 20.",
-        "statement": "The population under age 20 is {value} in {region_name}."
+    ],
+    "source_file": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/docs/data/measure_info.json",
+    "origin": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Age/data/distribution/va_hsrsdpdzccttrbg_sdad_2009_2021_age_demographics.csv.xz"
+  },
+  "age_under_20_percent_direct": {
+    "category": "Demographics",
+    "data_type": "decimal",
+    "unit": "individual",
+    "equity_category": "Status",
+    "aggregation_method": "percent",
+    "short_name": "Percent of the population under age 20 direct",
+    "long_name": "The percent of the population under age 20.",
+    "short_description": "The percent of the population under age 20.",
+    "long_description": "The percent of the population under age 20. 5-year ACS estimates in provided census geolevels. For non-census geolevels (such as zip codes), spatial overlaps are calculated between census block groups and target regions, then the value of each block group is aggregated to any intersecting target region based on proportion of overlap. Redistribution to non-census geolevels was performed using the redistribute R package.",
+    "statement": "The percent of the population under age 20 is {value} in {region_name}.",
+    "citations": "bii-redist",
+    "sources": [
+      {
+        "name": "American Community Survey",
+        "location": "5-Year estimates, table B01001, via the API",
+        "location_url": "https://www.census.gov/data/developers/data-sets/acs-5year.html",
+        "date_accessed": 2023,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
       },
-      "20_64_count": {
-        "default": "Population between age 20 and 64",
-        "data_type": "decimal",
-        "aggregation_method": "arithmetic mean",
-        "short_description": "The population estimates between age 20 and 64.",
-        "long_description": "The population estimates between age 20 and 64.",
-        "statement": "The population between age 20 and 64 is {value} in {region_name}."
+      {
+        "name": "Fairfax County Geospatial Data",
+        "location": "Boundaries > Zip Codes",
+        "location_url": "https://data-fairfaxcountygis.opendata.arcgis.com/datasets/Fairfaxcountygis::zip-codes/about",
+        "date_accessed": 2022,
+        "url": "https://data-fairfaxcountygis.opendata.arcgis.com/"
       },
-      "65_plus_count": {
-        "default": "Population over age 64",
-        "data_type": "decimal",
-        "aggregation_method": "arithmetic mean",
-        "short_description": "The population over age 64.",
-        "long_description": "The population over age 64.",
-        "statement": "The population over age 64 is {value} in {region_name}."
+      {
+        "name": "Fairfax County Geospatial Data",
+        "location": "Boundaries > Supervisor Districts",
+        "location_url": "https://data-fairfaxcountygis.opendata.arcgis.com/datasets/Fairfaxcountygis::supervisor-districts-5/about",
+        "date_accessed": 2022,
+        "url": "https://data-fairfaxcountygis.opendata.arcgis.com/"
       },
-      "under_20_percent": {
-        "default": "Percent of the population under age 20",
-        "data_type": "decimal",
-        "aggregation_method": "percent",
-        "short_description": "The percent of the population under age 20.",
-        "long_description": "The percent of the population under age 20.",
-        "statement": "The percent of the population under age 20 is {value} in {region_name}."
+      {
+        "name": "Fairfax County Geospatial Data",
+        "location": "Health & Human Service > Human Services Regions",
+        "location_url": "https://data-fairfaxcountygis.opendata.arcgis.com/datasets/Fairfaxcountygis::human-services-regions/about",
+        "date_accessed": 2022,
+        "url": "https://data-fairfaxcountygis.opendata.arcgis.com/"
       },
-      "20_64_percent": {
-        "default": "Percent of the population between age 20 and 64",
-        "data_type": "decimal",
-        "aggregation_method": "percent",
-        "short_description": "The percent of the population over age 64.",
-        "long_description": "The percent of the population over age 64.",
-        "statement": "The percent of the population over age 64 is {value} in {region_name}."
+      {
+        "name": "Arlington County GIS Open Data",
+        "location": "MHUD Polygons",
+        "location_url": "https://gisdata-arlgis.opendata.arcgis.com/datasets/ArlGIS::mhud-polygons/about",
+        "date_accessed": 2023,
+        "url": "https://gisdata-arlgis.opendata.arcgis.com/"
       },
-      "65_plus_percent": {
-        "default": "Percent of the population over age 64",
-        "data_type": "decimal",
-        "aggregation_method": "percent",
-        "short_description": "The percent of the population over age 64.",
-        "long_description": "The percent of the population over age 64.",
-        "statement": "The percent of the population over age 64 is {value} in {region_name}."
-      },
-      "total_count": {
-        "default": "Total count of the population",
-        "data_type": "decimal",
-        "aggregation_method": "arithmetic mean",
-        "short_description": "Total count of the population.",
-        "long_description": "Total count of the population.",
-        "statement": "Total count of the population is {value} in {region_name}."
+      {
+        "name": "Arlington County GIS Open Data",
+        "location": "Civic Association Polygons",
+        "location_url": "https://gisdata-arlgis.opendata.arcgis.com/datasets/ArlGIS::civic-association-polygons-1/about",
+        "date_accessed": 2021,
+        "url": "https://gisdata-arlgis.opendata.arcgis.com/"
       }
-    },
-    "source_file": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Age/code/distribution/measure_info.json",
+    ],
+    "source_file": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/docs/data/measure_info.json",
     "origin": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Age/data/distribution/va_hsrsdpdzccttrbg_sdad_2009_2021_age_demographics.csv.xz"
   },
   "air_quality_indicator": {
@@ -696,7 +659,7 @@
     "type": "average",
     "unit": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.education/blob/main/Years of Schooling/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.education/blob/main/Years of Schooling/data/distribution/ncr_tr_acs5_2017_2021_years_of_schooling.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.education/blob/main/Years of Schooling/data/distribution/va_tr_acs5_2017_2021_years_of_schooling.csv.xz"
   },
   "avg_down_using_devices": {
     "aggregation_method": "weighted arithmetic mean",
@@ -804,7 +767,7 @@
     "unit": "",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.food/blob/main/Food Security/Feeding America/Children's Food Insecurity/data/distribution/measure_info.json",
-    "origin": ["https://github.com/uva-bi-sdad/sdc.food/blob/main/Food Security/Feeding America/Children's Food Insecurity/data/distribution/ncr_ct_fa_2014_2019_childrens_food_insecurity.csv.xz", "https://github.com/uva-bi-sdad/sdc.food/blob/main/Food Security/Feeding America/Children's Food Insecurity/data/distribution/va_hdct_fa_2014_2019_childrens_food_insecurity.csv.xz"]
+    "origin": "https://github.com/uva-bi-sdad/sdc.food/blob/main/Food Security/Feeding America/Children's Food Insecurity/data/distribution/va_hdct_fa_2014_2019_childrens_food_insecurity.csv.xz"
   },
   "community_environment_indicator": {
     "aggregation_method": "",
@@ -815,10 +778,10 @@
     "equity_category": "",
     "layer": "",
     "long_description": "A measure of the natural, built and social environment of a community. It includes the air quality indicator, the population churning indicator, the population density indicator, and the walkability indicator.",
-    "long_name": "Community environmental profile",
+    "long_name": "Built Environment Profile",
     "measure_type": "index",
     "short_description": "A measure of the natural, built and social environment of a community.",
-    "short_name": "Community environmental profile",
+    "short_name": "Built Environment Profile",
     "sources": [
       {
         "name": "Virginia Department of Health",
@@ -831,7 +794,7 @@
     "unit": "",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Health Opportunity Index/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Health Opportunity Index/data/distribution/va_tr_vdh_2022_community_environment_profile.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Health Opportunity Index/data/distribution/va_tr_vdh_2020_community_environment_profile.csv.xz"
   },
   "consumer_opportunity_indicator": {
     "aggregation_method": "",
@@ -858,7 +821,7 @@
     "unit": "",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Health Opportunity Index/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Health Opportunity Index/data/distribution/va_tr_vdh_2022_consumer_opportunity_profile.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Health Opportunity Index/data/distribution/va_tr_vdh_2020_consumer_opportunity_profile.csv.xz"
   },
   "Cost_Per_Meal": {
     "aggregation_method": "",
@@ -885,7 +848,7 @@
     "unit": "",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.food/blob/main/Food Security/Feeding America/Food Secure Average Meal Cost/data/distribution/measure_info.json",
-    "origin": ["https://github.com/uva-bi-sdad/sdc.food/blob/main/Food Security/Feeding America/Food Secure Average Meal Cost/data/distribution/ncr_ct_fa_2014_2019_food_secure_avg_meal_cost.csv.xz", "https://github.com/uva-bi-sdad/sdc.food/blob/main/Food Security/Feeding America/Food Secure Average Meal Cost/data/distribution/va_hdct_fa_2014_2019_food_secure_avg_meal_cost.csv.xz"]
+    "origin": "https://github.com/uva-bi-sdad/sdc.food/blob/main/Food Security/Feeding America/Food Secure Average Meal Cost/data/distribution/va_hdct_fa_2014_2019_food_secure_avg_meal_cost.csv.xz"
   },
   "daycare_capacity": {
     "data_type": "integer",
@@ -1142,7 +1105,7 @@
     "statement": "Disconnected youth account for {value} in {features.name}.",
     "type": "percent",
     "unit": "",
-    "source_file": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Cooperative extension/data/distribution/measure_info.json",
+    "source_file": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/docs/data/measure_info.json",
     "origin": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Cooperative extension/data/distribution/va_ct_20172023_vote_youth.csv.xz"
   },
   "earnings_per_job": {
@@ -1197,7 +1160,7 @@
     "unit": "",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Health Opportunity Index/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Health Opportunity Index/data/distribution/va_tr_vdh_2022_economic_opportunity_profile.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Health Opportunity Index/data/distribution/va_tr_vdh_2020_economic_opportunity_profile.csv.xz"
   },
   "education_indicator": {
     "aggregation_method": "",
@@ -1253,7 +1216,7 @@
     "unit": "individual",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.financial_well_being/blob/main/Employment/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.financial_well_being/blob/main/Employment/data/distribution/ncr_cttr_2015_2021_employment_rate.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.financial_well_being/blob/main/Employment/data/distribution/va_cttr_2015_2021_employment_rate.csv.xz"
   },
   "employment_access_indicator": {
     "aggregation_method": "",
@@ -1451,17 +1414,17 @@
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Industry specific/Agriculture/data/distribution/measure_info.json",
     "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Industry specific/Agriculture/data/distribution/va_ct_2017_industry_agriculture.csv.xz"
   },
-  "gender_{variant.name}{category.name}": {
+  "gender_female_percent_direct": {
     "category": "Demographics",
-    "data_type": "{variant}",
+    "data_type": "decimal",
     "unit": "individual",
     "equity_category": "Status",
-    "aggregation_method": "{variant}",
-    "short_name": "{variant} {category}",
-    "long_name": "{variant.short_description}",
-    "short_description": "{variant}",
-    "long_description": "{variant} 5-year ACS estimates in provided census geolevels. For non-census geolevels (such as zip codes), spatial overlaps are calculated between census block groups {category} Redistribution to non-census geolevels was performed using the redistribute R package.",
-    "statement": "{variant}",
+    "aggregation_method": "percent",
+    "short_name": "Percentage of females direct",
+    "long_name": "The percent of females in the total population.",
+    "short_description": "The percent of females in the total population.",
+    "long_description": "The percent of females in the total population. 5-year ACS estimates in provided census geolevels. For non-census geolevels (such as zip codes), spatial overlaps are calculated between census block groups and target regions, then the value of each block group is aggregated/disaggregated to any intersecting target region based on proportion of overlap. Redistribution to non-census geolevels was performed using the redistribute R package.",
+    "statement": "The percent of females is {value} in {region_name}.",
     "citations": "bii-redist",
     "sources": [
       {
@@ -1507,59 +1470,66 @@
         "url": "https://gisdata-arlgis.opendata.arcgis.com/"
       }
     ],
-    "categories": {
-      "_parcels": {
-        "default": "parcels",
-        "long_description": "and parcels, then the value of each block group is divided across all living units within each intersecting parcel. Once parcel-level values are assigned, spatial overlaps are calculated between parcels and target regions such that parcel values can be aggregated to each intersecting target region based on proportion of overlap."
+    "source_file": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/docs/data/measure_info.json",
+    "origin": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Gender/data/distribution/va_hsrsdpdzccttrbg_sdad_2009_2021_gender_demographics.csv.xz"
+  },
+  "gender_male_percent_direct": {
+    "category": "Demographics",
+    "data_type": "decimal",
+    "unit": "individual",
+    "equity_category": "Status",
+    "aggregation_method": "percent",
+    "short_name": "Percentage of males direct",
+    "long_name": "The percent of males in the total population.",
+    "short_description": "The percent of males in the total population.",
+    "long_description": "The percent of males in the total population. 5-year ACS estimates in provided census geolevels. For non-census geolevels (such as zip codes), spatial overlaps are calculated between census block groups and target regions, then the value of each block group is aggregated/disaggregated to any intersecting target region based on proportion of overlap. Redistribution to non-census geolevels was performed using the redistribute R package.",
+    "statement": "The percent of males is {value} in {region_name}.",
+    "citations": "bii-redist",
+    "sources": [
+      {
+        "name": "American Community Survey",
+        "location": "5-Year estimates, table S0101, via the API",
+        "location_url": "https://www.census.gov/data/developers/data-sets/acs-5year.html",
+        "date_accessed": 2023,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
       },
-      "_direct": {
-        "default": "direct",
-        "long_description": "and target regions, then the value of each block group is aggregated/disaggregated to any intersecting target region based on proportion of overlap."
+      {
+        "name": "Fairfax County Geospatial Data",
+        "location": "Boundaries > Zip Codes",
+        "location_url": "https://data-fairfaxcountygis.opendata.arcgis.com/datasets/Fairfaxcountygis::zip-codes/about",
+        "date_accessed": 2022,
+        "url": "https://data-fairfaxcountygis.opendata.arcgis.com/"
+      },
+      {
+        "name": "Fairfax County Geospatial Data",
+        "location": "Boundaries > Supervisor Districts",
+        "location_url": "https://data-fairfaxcountygis.opendata.arcgis.com/datasets/Fairfaxcountygis::supervisor-districts-5/about",
+        "date_accessed": 2022,
+        "url": "https://data-fairfaxcountygis.opendata.arcgis.com/"
+      },
+      {
+        "name": "Fairfax County Geospatial Data",
+        "location": "Health & Human Service > Human Services Regions",
+        "location_url": "https://data-fairfaxcountygis.opendata.arcgis.com/datasets/Fairfaxcountygis::human-services-regions/about",
+        "date_accessed": 2022,
+        "url": "https://data-fairfaxcountygis.opendata.arcgis.com/"
+      },
+      {
+        "name": "Arlington County GIS Open Data",
+        "location": "MHUD Polygons",
+        "location_url": "https://gisdata-arlgis.opendata.arcgis.com/datasets/ArlGIS::mhud-polygons/about",
+        "date_accessed": 2023,
+        "url": "https://gisdata-arlgis.opendata.arcgis.com/"
+      },
+      {
+        "name": "Arlington County GIS Open Data",
+        "location": "Civic Association Polygons",
+        "location_url": "https://gisdata-arlgis.opendata.arcgis.com/datasets/ArlGIS::civic-association-polygons-1/about",
+        "date_accessed": 2021,
+        "url": "https://gisdata-arlgis.opendata.arcgis.com/"
       }
-    },
-    "variants": {
-      "male_count": {
-        "default": "Male population",
-        "data_type": "decimal",
-        "aggregation_method": "arithmetic mean",
-        "short_description": "The count of males in population.",
-        "long_description": "The count of males in the total population.",
-        "statement": "The male population is {value} in {region_name}."
-      },
-      "female_count": {
-        "default": "Female population",
-        "data_type": "decimal",
-        "aggregation_method": "arithmetic mean",
-        "short_description": "The count of females in population.",
-        "long_description": "The count of females in the total population.",
-        "statement": "The female population is {value} in {region_name}."
-      },
-      "male_percent": {
-        "default": "Percentage of males",
-        "data_type": "decimal",
-        "aggregation_method": "percent",
-        "short_description": "The percent of males in the total population.",
-        "long_description": "The percent of males in the total population.",
-        "statement": "The percent of males is {value} in {region_name}."
-      },
-      "female_percent": {
-        "default": "Percentage of females",
-        "data_type": "decimal",
-        "aggregation_method": "percent",
-        "short_description": "The percent of females in the total population.",
-        "long_description": "The percent of females in the total population.",
-        "statement": "The percent of females is {value} in {region_name}."
-      },
-      "total_count": {
-        "default": "Total count of the population",
-        "data_type": "decimal",
-        "aggregation_method": "arithmetic mean",
-        "short_description": "Total count of the population.",
-        "long_description": "Total count of the population.",
-        "statement": "Total count of the population is {value} in {region_name}."
-      }
-    },
-    "source_file": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Gender/code/distribution/measure_info.json",
+    ],
+    "source_file": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/docs/data/measure_info.json",
     "origin": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Gender/data/distribution/va_hsrsdpdzccttrbg_sdad_2009_2021_gender_demographics.csv.xz"
   },
   "gini_index": {
@@ -1863,17 +1833,17 @@
     "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Health Opportunity Index/data/distribution/measure_info.json",
     "origin": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Health Opportunity Index/data/distribution/va_hdcttr_vdh_2017_job_participation_index.csv.xz"
   },
-  "language_{variant.name}{category.name}": {
+  "language_hh_limited_english_percent_direct": {
     "category": "Demographics",
-    "data_type": "{variant}",
+    "data_type": "decimal",
     "unit": "individual",
     "equity_category": "Status",
-    "aggregation_method": "{variant}",
-    "short_name": "{variant} {category}",
-    "long_name": "{variant.short_description}",
-    "short_description": "{variant}",
-    "long_description": "{variant} 5-year ACS estimates in provided census geolevels. For non-census geolevels (such as zip codes), spatial overlaps are calculated between census block groups {category} Redistribution to non-census geolevels was performed using the redistribute R package.",
-    "statement": "{variant}",
+    "aggregation_method": "percent",
+    "short_name": "Percentage of households with limited English direct",
+    "long_name": "The percent of households with limited English.",
+    "short_description": "The percent of households with limited English.",
+    "long_description": "The percent of households with limited English. 5-year ACS estimates in provided census geolevels. For non-census geolevels (such as zip codes), spatial overlaps are calculated between census block groups and target regions, then the value of each block group is aggregated/disaggregated to any intersecting target region based on proportion of overlap. Redistribution to non-census geolevels was performed using the redistribute R package.",
+    "statement": "The percent of households with limited English is {value} in {region_name}.",
     "citations": "bii-redist",
     "sources": [
       {
@@ -1919,35 +1889,7 @@
         "url": "https://gisdata-arlgis.opendata.arcgis.com/"
       }
     ],
-    "categories": {
-      "_parcels": {
-        "default": "parcels",
-        "long_description": "and parcels, then the value of each block group is divided across all living units within each intersecting parcel. Once parcel-level values are assigned, spatial overlaps are calculated between parcels and target regions such that parcel values can be aggregated to each intersecting target region based on proportion of overlap."
-      },
-      "_direct": {
-        "default": "direct",
-        "long_description": "and target regions, then the value of each block group is aggregated/disaggregated to any intersecting target region based on proportion of overlap."
-      }
-    },
-    "variants": {
-      "hh_limited_english_count": {
-        "default": "Households with limited English",
-        "data_type": "decimal",
-        "aggregation_method": "arithmetic mean",
-        "short_description": "The count of households with limited English.",
-        "long_description": "The count of households with limited English.",
-        "statement": "The count of households with limited English is {value} in {region_name}."
-      },
-      "hh_limited_english_percent": {
-        "default": "Percentage of households with limited English",
-        "data_type": "decimal",
-        "aggregation_method": "percent",
-        "short_description": "The percent of households with limited English.",
-        "long_description": "The percent of households with limited English.",
-        "statement": "The percent of households with limited English is {value} in {region_name}."
-      }
-    },
-    "source_file": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Language/code/distribution/measure_info.json",
+    "source_file": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/docs/data/measure_info.json",
     "origin": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Language/data/distribution/va_hsrsdpdzccttrbg_sdad_2009_2021_language_demographics.csv.xz"
   },
   "material_deprivation_indicator": {
@@ -2144,7 +2086,7 @@
     "unit": "",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.food/blob/main/Food Security/Feeding America/Children's Food Insecurity/data/distribution/measure_info.json",
-    "origin": ["https://github.com/uva-bi-sdad/sdc.food/blob/main/Food Security/Feeding America/Children's Food Insecurity/data/distribution/ncr_ct_fa_2014_2019_childrens_food_insecurity.csv.xz", "https://github.com/uva-bi-sdad/sdc.food/blob/main/Food Security/Feeding America/Children's Food Insecurity/data/distribution/va_hdct_fa_2014_2019_childrens_food_insecurity.csv.xz"]
+    "origin": "https://github.com/uva-bi-sdad/sdc.food/blob/main/Food Security/Feeding America/Children's Food Insecurity/data/distribution/va_hdct_fa_2014_2019_childrens_food_insecurity.csv.xz"
   },
   "number_food_insecure": {
     "aggregation_method": "",
@@ -2427,7 +2369,7 @@
     "type": "percent",
     "unit": "",
     "variants": "",
-    "source_file": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Cooperative extension/data/distribution/measure_info.json",
+    "source_file": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/docs/data/measure_info.json",
     "origin": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Cooperative extension/data/distribution/va_cttr_2010_2021_perc_children_raised_by_GPs.csv.xz"
   },
   "perc_hh_with_broadband": {
@@ -2687,7 +2629,7 @@
     "unit": "",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Mental Health/Mental and Physical Healthy Days/data/distribution/measure_info.json",
-    "origin": ["https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Mental Health/Mental and Physical Healthy Days/data/distribution/ncr_trct_sdad_2015_2019_brfss_sae.csv.xz", "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Mental Health/Mental and Physical Healthy Days/data/distribution/va_trcthd_sdad_2015_2019_brfss_sae.csv.xz"]
+    "origin": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Mental Health/Mental and Physical Healthy Days/data/distribution/va_trcthd_sdad_2015_2019_brfss_sae.csv.xz"
   },
   "perc_poor_phys_hlth_days_14_and_over": {
     "aggregation_method": "",
@@ -2714,7 +2656,7 @@
     "unit": "",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Mental Health/Mental and Physical Healthy Days/data/distribution/measure_info.json",
-    "origin": ["https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Mental Health/Mental and Physical Healthy Days/data/distribution/ncr_trct_sdad_2015_2019_brfss_sae.csv.xz", "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Mental Health/Mental and Physical Healthy Days/data/distribution/va_trcthd_sdad_2015_2019_brfss_sae.csv.xz"]
+    "origin": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Mental Health/Mental and Physical Healthy Days/data/distribution/va_trcthd_sdad_2015_2019_brfss_sae.csv.xz"
   },
   "perc_total_100_20_using_devices": {
     "aggregation_method": "percent",
@@ -2878,6 +2820,152 @@
     "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Health Opportunity Index/data/distribution/measure_info.json",
     "origin": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Health Opportunity Index/data/distribution/va_hdcttr_vdh_2017_pop_churning_index.csv.xz"
   },
+  "population_density_direct": {
+    "data_type": "decimal",
+    "category": "Demographics",
+    "equity_category": "Status",
+    "short_name": "Population Density (direct method)",
+    "long_name": "Population Density: People Per Square Mile (direct method)",
+    "short_description": "People per square mile (direct method).",
+    "long_description": "Population density, or number of people per square mile, as calculated from census ACS population data and shapefile areas: \\[\\frac{population_{r}}{meters^{2}_{r}}1609.344^{2}\\] Where r is each region (e.g., census tract or county). For non-census geographies, values are redistributed based on proportional overlap between census block groups and the local regions, using the redistribute R package.",
+    "statement": "There are {value} people per square mile in {region_name}.",
+    "citations": "bii-redist",
+    "sources": [
+      {
+        "name": "American Community Survey",
+        "location": "5-Year estimates, table B01003, via the API",
+        "location_url": "https://www.census.gov/data/developers/data-sets/acs-5year.html",
+        "date_accessed": 2023,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      },
+      {
+        "name": "TIGER/Line Shapefiles",
+        "location": "FTP Archive: TIGER{year} > BG > tl_{year}_{fips}_bg.zip",
+        "location_url": "https://www2.census.gov/geo/tiger",
+        "date_accessed": 2023,
+        "url": "https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.html"
+      },
+      {
+        "name": "Fairfax County Geospatial Data",
+        "location": "Demography > Current Housing Units",
+        "location_url": "https://data-fairfaxcountygis.opendata.arcgis.com/datasets/Fairfaxcountygis::current-housing-units/about",
+        "date_accessed": 2023,
+        "url": "https://data-fairfaxcountygis.opendata.arcgis.com/"
+      },
+      {
+        "name": "Fairfax County Geospatial Data",
+        "location": "Boundaries > Zip Codes",
+        "location_url": "https://data-fairfaxcountygis.opendata.arcgis.com/datasets/Fairfaxcountygis::zip-codes/about",
+        "date_accessed": 2022,
+        "url": "https://data-fairfaxcountygis.opendata.arcgis.com/"
+      },
+      {
+        "name": "Fairfax County Geospatial Data",
+        "location": "Boundaries > Supervisor Districts",
+        "location_url": "https://data-fairfaxcountygis.opendata.arcgis.com/datasets/Fairfaxcountygis::supervisor-districts-5/about",
+        "date_accessed": 2022,
+        "url": "https://data-fairfaxcountygis.opendata.arcgis.com/"
+      },
+      {
+        "name": "Fairfax County Geospatial Data",
+        "location": "Health & Human Service > Human Services Regions",
+        "location_url": "https://data-fairfaxcountygis.opendata.arcgis.com/datasets/Fairfaxcountygis::human-services-regions/about",
+        "date_accessed": 2022,
+        "url": "https://data-fairfaxcountygis.opendata.arcgis.com/"
+      },
+      {
+        "name": "Arlington County GIS Open Data",
+        "location": "MHUD Polygons",
+        "location_url": "https://gisdata-arlgis.opendata.arcgis.com/datasets/ArlGIS::mhud-polygons/about",
+        "date_accessed": 2023,
+        "url": "https://gisdata-arlgis.opendata.arcgis.com/"
+      },
+      {
+        "name": "Arlington County GIS Open Data",
+        "location": "Civic Association Polygons",
+        "location_url": "https://gisdata-arlgis.opendata.arcgis.com/datasets/ArlGIS::civic-association-polygons-1/about",
+        "date_accessed": 2021,
+        "url": "https://gisdata-arlgis.opendata.arcgis.com/"
+      }
+    ],
+    "unit": "individual per square mile",
+    "aggregation_method": "ratio",
+    "source_file": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/docs/data/measure_info.json",
+    "origin": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Overall/data/distribution/census.csv.xz"
+  },
+  "population_direct": {
+    "data_type": "decimal",
+    "category": "Demographics",
+    "equity_category": "Status",
+    "short_name": "Population (direct method)",
+    "long_name": "Population: Total Number of People (direct method)",
+    "short_description": "Total number of people (direct method).",
+    "long_description": "Total number of people, as reported in census ACS population data. For non-census geographies, values are redistributed based on proportional overlap between census block groups and the local regions, using the redistribute R package.",
+    "statement": "There are {value} people in {region_name}.",
+    "citations": "bii-redist",
+    "sources": [
+      {
+        "name": "American Community Survey",
+        "location": "5-Year estimates, table B01003, via the API",
+        "location_url": "https://www.census.gov/data/developers/data-sets/acs-5year.html",
+        "date_accessed": 2023,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      },
+      {
+        "name": "TIGER/Line Shapefiles",
+        "location": "FTP Archive: TIGER{year} > BG > tl_{year}_{fips}_bg.zip",
+        "location_url": "https://www2.census.gov/geo/tiger",
+        "date_accessed": 2023,
+        "url": "https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.html"
+      },
+      {
+        "name": "Fairfax County Geospatial Data",
+        "location": "Demography > Current Housing Units",
+        "location_url": "https://data-fairfaxcountygis.opendata.arcgis.com/datasets/Fairfaxcountygis::current-housing-units/about",
+        "date_accessed": 2023,
+        "url": "https://data-fairfaxcountygis.opendata.arcgis.com/"
+      },
+      {
+        "name": "Fairfax County Geospatial Data",
+        "location": "Boundaries > Zip Codes",
+        "location_url": "https://data-fairfaxcountygis.opendata.arcgis.com/datasets/Fairfaxcountygis::zip-codes/about",
+        "date_accessed": 2022,
+        "url": "https://data-fairfaxcountygis.opendata.arcgis.com/"
+      },
+      {
+        "name": "Fairfax County Geospatial Data",
+        "location": "Boundaries > Supervisor Districts",
+        "location_url": "https://data-fairfaxcountygis.opendata.arcgis.com/datasets/Fairfaxcountygis::supervisor-districts-5/about",
+        "date_accessed": 2022,
+        "url": "https://data-fairfaxcountygis.opendata.arcgis.com/"
+      },
+      {
+        "name": "Fairfax County Geospatial Data",
+        "location": "Health & Human Service > Human Services Regions",
+        "location_url": "https://data-fairfaxcountygis.opendata.arcgis.com/datasets/Fairfaxcountygis::human-services-regions/about",
+        "date_accessed": 2022,
+        "url": "https://data-fairfaxcountygis.opendata.arcgis.com/"
+      },
+      {
+        "name": "Arlington County GIS Open Data",
+        "location": "MHUD Polygons",
+        "location_url": "https://gisdata-arlgis.opendata.arcgis.com/datasets/ArlGIS::mhud-polygons/about",
+        "date_accessed": 2023,
+        "url": "https://gisdata-arlgis.opendata.arcgis.com/"
+      },
+      {
+        "name": "Arlington County GIS Open Data",
+        "location": "Civic Association Polygons",
+        "location_url": "https://gisdata-arlgis.opendata.arcgis.com/datasets/ArlGIS::civic-association-polygons-1/about",
+        "date_accessed": 2021,
+        "url": "https://gisdata-arlgis.opendata.arcgis.com/"
+      }
+    ],
+    "unit": "individual",
+    "aggregation_method": "count",
+    "source_file": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/docs/data/measure_info.json",
+    "origin": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Overall/data/distribution/census.csv.xz"
+  },
   "population{variant}{category.name}": {
     "data_type": "decimal",
     "category": "Demographics",
@@ -2977,8 +3065,7 @@
         "long_description": "from census block groups to parcels, based on proportional geometric overlap and weighted by number of living units per parcel, then from parcels to the local regions based on proportional geometric overlap"
       }
     },
-    "source_file": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Overall/code/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Overall/data/distribution/census.csv.xz"
+    "source_file": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Overall/code/distribution/measure_info.json"
   },
   "poverty_pct": {
     "aggregation_method": "",
@@ -3032,7 +3119,7 @@
     "unit": "",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/System Usage and Insurance/Preventable Hospitalizations/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/System Usage and Insurance/Preventable Hospitalizations/data/distribution/va_ct_chr_2015_2021_preventable_hospitalizations.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/System Usage and Insurance/Preventable Hospitalizations/data/distribution/va_hdct_2015_2021_preventable_hospitalizations.csv.xz"
   },
   "primcare_3sfca": {
     "aggregation_method": "",
@@ -3093,17 +3180,17 @@
     "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Health Care Services/Physicians/Primary Care/Service Access Scores/data/distribution/measure_info.json",
     "origin": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Health Care Services/Physicians/Primary Care/Service Access Scores/data/distribution/va_hdcttrbgca_webmd_2021_access_scores_primcare.csv.xz"
   },
-  "race_{variant.name}{category.name}": {
+  "race_AAPI_percent_direct": {
     "category": "Demographics",
-    "data_type": "{variant}",
+    "data_type": "decimal",
     "unit": "individual",
     "equity_category": "Status",
-    "aggregation_method": "{variant}",
-    "short_name": "{variant} {category}",
-    "long_name": "{variant.short_description}",
-    "short_description": "{variant}",
-    "long_description": "{variant} 5-year ACS estimates in provided census geolevels. For non-census geolevels (such as zip codes), spatial overlaps are calculated between census block groups {category} Redistribution to non-census geolevels was performed using the redistribute R package.",
-    "statement": "{variant}",
+    "aggregation_method": "percent",
+    "short_name": "The Asian American/Pacific Islander population percentage direct",
+    "long_name": "The Asian American/Pacific Islander population percent.",
+    "short_description": "The Asian American/Pacific Islander population percent.",
+    "long_description": "The Asian American/Pacific Islander population percent. 5-year ACS estimates in provided census geolevels. For non-census geolevels (such as zip codes), spatial overlaps are calculated between census block groups and target regions, then the value of each block group is aggregated/disaggregated to any intersecting target region based on proportion of overlap. Redistribution to non-census geolevels was performed using the redistribute R package.",
+    "statement": "The Asian American/Pacific Islander population percent is {value} in {region_name}.",
     "citations": "bii-redist",
     "sources": [
       {
@@ -3149,147 +3236,361 @@
         "url": "https://gisdata-arlgis.opendata.arcgis.com/"
       }
     ],
-    "categories": {
-      "_parcels": {
-        "default": "parcels",
-        "long_description": "and parcels, then the value of each block group is divided across all living units within each intersecting parcel. Once parcel-level values are assigned, spatial overlaps are calculated between parcels and target regions such that parcel values can be aggregated to each intersecting target region based on proportion of overlap."
+    "source_file": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/docs/data/measure_info.json",
+    "origin": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Race/data/distribution/va_hsrsdpdzccttrbg_sdad_2009_2021_race_demographics.csv.xz"
+  },
+  "race_afr_amer_alone_percent_direct": {
+    "category": "Demographics",
+    "data_type": "decimal",
+    "unit": "individual",
+    "equity_category": "Status",
+    "aggregation_method": "percent",
+    "short_name": "Black population percentage direct",
+    "long_name": "The Black population percent.",
+    "short_description": "The Black population percent.",
+    "long_description": "The Black population percent. 5-year ACS estimates in provided census geolevels. For non-census geolevels (such as zip codes), spatial overlaps are calculated between census block groups and target regions, then the value of each block group is aggregated/disaggregated to any intersecting target region based on proportion of overlap. Redistribution to non-census geolevels was performed using the redistribute R package.",
+    "statement": "The Black population percent is {value} in {region_name}.",
+    "citations": "bii-redist",
+    "sources": [
+      {
+        "name": "American Community Survey",
+        "location": "5-Year estimates, table B01001, via the API",
+        "location_url": "https://www.census.gov/data/developers/data-sets/acs-5year.html",
+        "date_accessed": 2023,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
       },
-      "_direct": {
-        "default": "direct",
-        "long_description": "and target regions, then the value of each block group is aggregated/disaggregated to any intersecting target region based on proportion of overlap."
+      {
+        "name": "Fairfax County Geospatial Data",
+        "location": "Boundaries > Zip Codes",
+        "location_url": "https://data-fairfaxcountygis.opendata.arcgis.com/datasets/Fairfaxcountygis::zip-codes/about",
+        "date_accessed": 2022,
+        "url": "https://data-fairfaxcountygis.opendata.arcgis.com/"
+      },
+      {
+        "name": "Fairfax County Geospatial Data",
+        "location": "Boundaries > Supervisor Districts",
+        "location_url": "https://data-fairfaxcountygis.opendata.arcgis.com/datasets/Fairfaxcountygis::supervisor-districts-5/about",
+        "date_accessed": 2022,
+        "url": "https://data-fairfaxcountygis.opendata.arcgis.com/"
+      },
+      {
+        "name": "Fairfax County Geospatial Data",
+        "location": "Health & Human Service > Human Services Regions",
+        "location_url": "https://data-fairfaxcountygis.opendata.arcgis.com/datasets/Fairfaxcountygis::human-services-regions/about",
+        "date_accessed": 2022,
+        "url": "https://data-fairfaxcountygis.opendata.arcgis.com/"
+      },
+      {
+        "name": "Arlington County GIS Open Data",
+        "location": "MHUD Polygons",
+        "location_url": "https://gisdata-arlgis.opendata.arcgis.com/datasets/ArlGIS::mhud-polygons/about",
+        "date_accessed": 2023,
+        "url": "https://gisdata-arlgis.opendata.arcgis.com/"
+      },
+      {
+        "name": "Arlington County GIS Open Data",
+        "location": "Civic Association Polygons",
+        "location_url": "https://gisdata-arlgis.opendata.arcgis.com/datasets/ArlGIS::civic-association-polygons-1/about",
+        "date_accessed": 2021,
+        "url": "https://gisdata-arlgis.opendata.arcgis.com/"
       }
-    },
-    "variants": {
-      "afr_amer_alone_count": {
-        "default": "The Black population",
-        "data_type": "decimal",
-        "aggregation_method": "arithmetic mean",
-        "short_description": "The Black population.",
-        "long_description": "The Black population.",
-        "statement": "The Black population is {value} in {region_name}."
+    ],
+    "source_file": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/docs/data/measure_info.json",
+    "origin": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Race/data/distribution/va_hsrsdpdzccttrbg_sdad_2009_2021_race_demographics.csv.xz"
+  },
+  "race_hispanic_or_latino_percent_direct": {
+    "category": "Demographics",
+    "data_type": "decimal",
+    "unit": "individual",
+    "equity_category": "Status",
+    "aggregation_method": "percent",
+    "short_name": "The Hispanic/Latino population percentage direct",
+    "long_name": "The Hispanic/Latino population percent.",
+    "short_description": "The Hispanic/Latino population percent.",
+    "long_description": "The Hispanic/Latino population percent. 5-year ACS estimates in provided census geolevels. For non-census geolevels (such as zip codes), spatial overlaps are calculated between census block groups and target regions, then the value of each block group is aggregated/disaggregated to any intersecting target region based on proportion of overlap. Redistribution to non-census geolevels was performed using the redistribute R package.",
+    "statement": "The Hispanic/Latino population percent is {value} in {region_name}.",
+    "citations": "bii-redist",
+    "sources": [
+      {
+        "name": "American Community Survey",
+        "location": "5-Year estimates, table B01001, via the API",
+        "location_url": "https://www.census.gov/data/developers/data-sets/acs-5year.html",
+        "date_accessed": 2023,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
       },
-      "native_alone_count": {
-        "default": "The Native population",
-        "data_type": "decimal",
-        "aggregation_method": "arithmetic mean",
-        "short_description": "The Native population.",
-        "long_description": "The Native population.",
-        "statement": "The Native population is {value} in {region_name}."
+      {
+        "name": "Fairfax County Geospatial Data",
+        "location": "Boundaries > Zip Codes",
+        "location_url": "https://data-fairfaxcountygis.opendata.arcgis.com/datasets/Fairfaxcountygis::zip-codes/about",
+        "date_accessed": 2022,
+        "url": "https://data-fairfaxcountygis.opendata.arcgis.com/"
       },
-      "AAPI_count": {
-        "default": "The Asian American/Pacific Islander population",
-        "data_type": "decimal",
-        "aggregation_method": "arithmetic mean",
-        "short_description": "The Asian American/Pacific Islander population.",
-        "long_description": "The Asian American/Pacific Islander population.",
-        "statement": "The Asian American/Pacific Islander population is {value} in {region_name}."
+      {
+        "name": "Fairfax County Geospatial Data",
+        "location": "Boundaries > Supervisor Districts",
+        "location_url": "https://data-fairfaxcountygis.opendata.arcgis.com/datasets/Fairfaxcountygis::supervisor-districts-5/about",
+        "date_accessed": 2022,
+        "url": "https://data-fairfaxcountygis.opendata.arcgis.com/"
       },
-      "wht_alone_count": {
-        "default": "The White population",
-        "data_type": "decimal",
-        "aggregation_method": "arithmetic mean",
-        "short_description": "The White population.",
-        "long_description": "The White population.",
-        "statement": "The White population is {value} in {region_name}."
+      {
+        "name": "Fairfax County Geospatial Data",
+        "location": "Health & Human Service > Human Services Regions",
+        "location_url": "https://data-fairfaxcountygis.opendata.arcgis.com/datasets/Fairfaxcountygis::human-services-regions/about",
+        "date_accessed": 2022,
+        "url": "https://data-fairfaxcountygis.opendata.arcgis.com/"
       },
-      "hispanic_or_latino_count": {
-        "default": "The Hispanic/Latino population",
-        "data_type": "decimal",
-        "aggregation_method": "arithmetic mean",
-        "short_description": "The Hispanic/Latino population.",
-        "long_description": "The Hispanic/Latino population.",
-        "statement": "The Hispanic/Latino population is {value} in {region_name}."
+      {
+        "name": "Arlington County GIS Open Data",
+        "location": "MHUD Polygons",
+        "location_url": "https://gisdata-arlgis.opendata.arcgis.com/datasets/ArlGIS::mhud-polygons/about",
+        "date_accessed": 2023,
+        "url": "https://gisdata-arlgis.opendata.arcgis.com/"
       },
-      "other_count": {
-        "default": "The Other racial population",
-        "data_type": "decimal",
-        "aggregation_method": "arithmetic mean",
-        "short_description": "The Other racial population.",
-        "long_description": "The Other racial population.",
-        "statement": "The Other racial population is {value} in {region_name}."
-      },
-      "two_or_more_count": {
-        "default": "The two or more races population",
-        "data_type": "decimal",
-        "aggregation_method": "arithmetic mean",
-        "short_description": "The two or more races population.",
-        "long_description": "The two or more races population.",
-        "statement": "The two or more races population is {value} in {region_name}."
-      },
-      "total_count": {
-        "default": "Total count of the population",
-        "data_type": "decimal",
-        "aggregation_method": "arithmetic mean",
-        "short_description": "Total count of the population.",
-        "long_description": "Total count of the population.",
-        "statement": "Total count of the population is {value} in {region_name}."
-      },
-      "eth_tot_count": {
-        "default": "Total population ethnique",
-        "data_type": "decimal",
-        "aggregation_method": "arithmetic mean",
-        "short_description": "Total population ethnique.",
-        "long_description": "Total population ethnique.",
-        "statement": "Total population ethnique is {value} in {region_name}."
-      },
-      "afr_amer_alone_percent": {
-        "default": "Black population percentage",
-        "data_type": "decimal",
-        "aggregation_method": "percent",
-        "short_description": "The Black population percent.",
-        "long_description": "The Black population percent.",
-        "statement": "The Black population percent is {value} in {region_name}."
-      },
-      "native_alone_percent": {
-        "default": "The Native population percentage",
-        "data_type": "decimal",
-        "aggregation_method": "percent",
-        "short_description": "The Native population percent.",
-        "long_description": "The Native population percent.",
-        "statement": "The Native population percent is {value} in {region_name}."
-      },
-      "AAPI_percent": {
-        "default": "The Asian American/Pacific Islander population percentage",
-        "data_type": "decimal",
-        "aggregation_method": "percent",
-        "short_description": "The Asian American/Pacific Islander population percent.",
-        "long_description": "The Asian American/Pacific Islander population percent.",
-        "statement": "The Asian American/Pacific Islander population percent is {value} in {region_name}."
-      },
-      "wht_alone_percent": {
-        "default": "The White population percentage",
-        "data_type": "decimal",
-        "aggregation_method": "percent",
-        "short_description": "The White population percent.",
-        "long_description": "The White population percent.",
-        "statement": "The White population percent is {value} in {region_name}."
-      },
-      "hispanic_or_latino_percent": {
-        "default": "The Hispanic/Latino population percentage",
-        "data_type": "decimal",
-        "aggregation_method": "percent",
-        "short_description": "The Hispanic/Latino population percent.",
-        "long_description": "The Hispanic/Latino population percent.",
-        "statement": "The Hispanic/Latino population percent is {value} in {region_name}."
-      },
-      "other_percent": {
-        "default": "The Other racial population percentage",
-        "data_type": "decimal",
-        "aggregation_method": "percent",
-        "short_description": "The Other racial population percent.",
-        "long_description": "The Other racial population percent.",
-        "statement": "The Other racial population percent is {value} in {region_name}."
-      },
-      "two_or_more_percent": {
-        "default": "The two or more races population percentage",
-        "data_type": "decimal",
-        "aggregation_method": "percent",
-        "short_description": "The two or more races population percent.",
-        "long_description": "The two or more races population percent.",
-        "statement": "The two or more races population percent is {value} in {region_name}."
+      {
+        "name": "Arlington County GIS Open Data",
+        "location": "Civic Association Polygons",
+        "location_url": "https://gisdata-arlgis.opendata.arcgis.com/datasets/ArlGIS::civic-association-polygons-1/about",
+        "date_accessed": 2021,
+        "url": "https://gisdata-arlgis.opendata.arcgis.com/"
       }
-    },
-    "source_file": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Race/code/distribution/measure_info.json",
+    ],
+    "source_file": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/docs/data/measure_info.json",
+    "origin": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Race/data/distribution/va_hsrsdpdzccttrbg_sdad_2009_2021_race_demographics.csv.xz"
+  },
+  "race_native_alone_percent_direct": {
+    "category": "Demographics",
+    "data_type": "decimal",
+    "unit": "individual",
+    "equity_category": "Status",
+    "aggregation_method": "percent",
+    "short_name": "The Native population percentage direct",
+    "long_name": "The Native population percent.",
+    "short_description": "The Native population percent.",
+    "long_description": "The Native population percent. 5-year ACS estimates in provided census geolevels. For non-census geolevels (such as zip codes), spatial overlaps are calculated between census block groups and target regions, then the value of each block group is aggregated/disaggregated to any intersecting target region based on proportion of overlap. Redistribution to non-census geolevels was performed using the redistribute R package.",
+    "statement": "The Native population percent is {value} in {region_name}.",
+    "citations": "bii-redist",
+    "sources": [
+      {
+        "name": "American Community Survey",
+        "location": "5-Year estimates, table B01001, via the API",
+        "location_url": "https://www.census.gov/data/developers/data-sets/acs-5year.html",
+        "date_accessed": 2023,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      },
+      {
+        "name": "Fairfax County Geospatial Data",
+        "location": "Boundaries > Zip Codes",
+        "location_url": "https://data-fairfaxcountygis.opendata.arcgis.com/datasets/Fairfaxcountygis::zip-codes/about",
+        "date_accessed": 2022,
+        "url": "https://data-fairfaxcountygis.opendata.arcgis.com/"
+      },
+      {
+        "name": "Fairfax County Geospatial Data",
+        "location": "Boundaries > Supervisor Districts",
+        "location_url": "https://data-fairfaxcountygis.opendata.arcgis.com/datasets/Fairfaxcountygis::supervisor-districts-5/about",
+        "date_accessed": 2022,
+        "url": "https://data-fairfaxcountygis.opendata.arcgis.com/"
+      },
+      {
+        "name": "Fairfax County Geospatial Data",
+        "location": "Health & Human Service > Human Services Regions",
+        "location_url": "https://data-fairfaxcountygis.opendata.arcgis.com/datasets/Fairfaxcountygis::human-services-regions/about",
+        "date_accessed": 2022,
+        "url": "https://data-fairfaxcountygis.opendata.arcgis.com/"
+      },
+      {
+        "name": "Arlington County GIS Open Data",
+        "location": "MHUD Polygons",
+        "location_url": "https://gisdata-arlgis.opendata.arcgis.com/datasets/ArlGIS::mhud-polygons/about",
+        "date_accessed": 2023,
+        "url": "https://gisdata-arlgis.opendata.arcgis.com/"
+      },
+      {
+        "name": "Arlington County GIS Open Data",
+        "location": "Civic Association Polygons",
+        "location_url": "https://gisdata-arlgis.opendata.arcgis.com/datasets/ArlGIS::civic-association-polygons-1/about",
+        "date_accessed": 2021,
+        "url": "https://gisdata-arlgis.opendata.arcgis.com/"
+      }
+    ],
+    "source_file": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/docs/data/measure_info.json",
+    "origin": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Race/data/distribution/va_hsrsdpdzccttrbg_sdad_2009_2021_race_demographics.csv.xz"
+  },
+  "race_other_percent_direct": {
+    "category": "Demographics",
+    "data_type": "decimal",
+    "unit": "individual",
+    "equity_category": "Status",
+    "aggregation_method": "percent",
+    "short_name": "The Other racial population percentage direct",
+    "long_name": "The Other racial population percent.",
+    "short_description": "The Other racial population percent.",
+    "long_description": "The Other racial population percent. 5-year ACS estimates in provided census geolevels. For non-census geolevels (such as zip codes), spatial overlaps are calculated between census block groups and target regions, then the value of each block group is aggregated/disaggregated to any intersecting target region based on proportion of overlap. Redistribution to non-census geolevels was performed using the redistribute R package.",
+    "statement": "The Other racial population percent is {value} in {region_name}.",
+    "citations": "bii-redist",
+    "sources": [
+      {
+        "name": "American Community Survey",
+        "location": "5-Year estimates, table B01001, via the API",
+        "location_url": "https://www.census.gov/data/developers/data-sets/acs-5year.html",
+        "date_accessed": 2023,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      },
+      {
+        "name": "Fairfax County Geospatial Data",
+        "location": "Boundaries > Zip Codes",
+        "location_url": "https://data-fairfaxcountygis.opendata.arcgis.com/datasets/Fairfaxcountygis::zip-codes/about",
+        "date_accessed": 2022,
+        "url": "https://data-fairfaxcountygis.opendata.arcgis.com/"
+      },
+      {
+        "name": "Fairfax County Geospatial Data",
+        "location": "Boundaries > Supervisor Districts",
+        "location_url": "https://data-fairfaxcountygis.opendata.arcgis.com/datasets/Fairfaxcountygis::supervisor-districts-5/about",
+        "date_accessed": 2022,
+        "url": "https://data-fairfaxcountygis.opendata.arcgis.com/"
+      },
+      {
+        "name": "Fairfax County Geospatial Data",
+        "location": "Health & Human Service > Human Services Regions",
+        "location_url": "https://data-fairfaxcountygis.opendata.arcgis.com/datasets/Fairfaxcountygis::human-services-regions/about",
+        "date_accessed": 2022,
+        "url": "https://data-fairfaxcountygis.opendata.arcgis.com/"
+      },
+      {
+        "name": "Arlington County GIS Open Data",
+        "location": "MHUD Polygons",
+        "location_url": "https://gisdata-arlgis.opendata.arcgis.com/datasets/ArlGIS::mhud-polygons/about",
+        "date_accessed": 2023,
+        "url": "https://gisdata-arlgis.opendata.arcgis.com/"
+      },
+      {
+        "name": "Arlington County GIS Open Data",
+        "location": "Civic Association Polygons",
+        "location_url": "https://gisdata-arlgis.opendata.arcgis.com/datasets/ArlGIS::civic-association-polygons-1/about",
+        "date_accessed": 2021,
+        "url": "https://gisdata-arlgis.opendata.arcgis.com/"
+      }
+    ],
+    "source_file": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/docs/data/measure_info.json",
+    "origin": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Race/data/distribution/va_hsrsdpdzccttrbg_sdad_2009_2021_race_demographics.csv.xz"
+  },
+  "race_two_or_more_percent_direct": {
+    "category": "Demographics",
+    "data_type": "decimal",
+    "unit": "individual",
+    "equity_category": "Status",
+    "aggregation_method": "percent",
+    "short_name": "The two or more races population percentage direct",
+    "long_name": "The two or more races population percent.",
+    "short_description": "The two or more races population percent.",
+    "long_description": "The two or more races population percent. 5-year ACS estimates in provided census geolevels. For non-census geolevels (such as zip codes), spatial overlaps are calculated between census block groups and target regions, then the value of each block group is aggregated/disaggregated to any intersecting target region based on proportion of overlap. Redistribution to non-census geolevels was performed using the redistribute R package.",
+    "statement": "The two or more races population percent is {value} in {region_name}.",
+    "citations": "bii-redist",
+    "sources": [
+      {
+        "name": "American Community Survey",
+        "location": "5-Year estimates, table B01001, via the API",
+        "location_url": "https://www.census.gov/data/developers/data-sets/acs-5year.html",
+        "date_accessed": 2023,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      },
+      {
+        "name": "Fairfax County Geospatial Data",
+        "location": "Boundaries > Zip Codes",
+        "location_url": "https://data-fairfaxcountygis.opendata.arcgis.com/datasets/Fairfaxcountygis::zip-codes/about",
+        "date_accessed": 2022,
+        "url": "https://data-fairfaxcountygis.opendata.arcgis.com/"
+      },
+      {
+        "name": "Fairfax County Geospatial Data",
+        "location": "Boundaries > Supervisor Districts",
+        "location_url": "https://data-fairfaxcountygis.opendata.arcgis.com/datasets/Fairfaxcountygis::supervisor-districts-5/about",
+        "date_accessed": 2022,
+        "url": "https://data-fairfaxcountygis.opendata.arcgis.com/"
+      },
+      {
+        "name": "Fairfax County Geospatial Data",
+        "location": "Health & Human Service > Human Services Regions",
+        "location_url": "https://data-fairfaxcountygis.opendata.arcgis.com/datasets/Fairfaxcountygis::human-services-regions/about",
+        "date_accessed": 2022,
+        "url": "https://data-fairfaxcountygis.opendata.arcgis.com/"
+      },
+      {
+        "name": "Arlington County GIS Open Data",
+        "location": "MHUD Polygons",
+        "location_url": "https://gisdata-arlgis.opendata.arcgis.com/datasets/ArlGIS::mhud-polygons/about",
+        "date_accessed": 2023,
+        "url": "https://gisdata-arlgis.opendata.arcgis.com/"
+      },
+      {
+        "name": "Arlington County GIS Open Data",
+        "location": "Civic Association Polygons",
+        "location_url": "https://gisdata-arlgis.opendata.arcgis.com/datasets/ArlGIS::civic-association-polygons-1/about",
+        "date_accessed": 2021,
+        "url": "https://gisdata-arlgis.opendata.arcgis.com/"
+      }
+    ],
+    "source_file": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/docs/data/measure_info.json",
+    "origin": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Race/data/distribution/va_hsrsdpdzccttrbg_sdad_2009_2021_race_demographics.csv.xz"
+  },
+  "race_wht_alone_percent_direct": {
+    "category": "Demographics",
+    "data_type": "decimal",
+    "unit": "individual",
+    "equity_category": "Status",
+    "aggregation_method": "percent",
+    "short_name": "The White population percentage direct",
+    "long_name": "The White population percent.",
+    "short_description": "The White population percent.",
+    "long_description": "The White population percent. 5-year ACS estimates in provided census geolevels. For non-census geolevels (such as zip codes), spatial overlaps are calculated between census block groups and target regions, then the value of each block group is aggregated/disaggregated to any intersecting target region based on proportion of overlap. Redistribution to non-census geolevels was performed using the redistribute R package.",
+    "statement": "The White population percent is {value} in {region_name}.",
+    "citations": "bii-redist",
+    "sources": [
+      {
+        "name": "American Community Survey",
+        "location": "5-Year estimates, table B01001, via the API",
+        "location_url": "https://www.census.gov/data/developers/data-sets/acs-5year.html",
+        "date_accessed": 2023,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      },
+      {
+        "name": "Fairfax County Geospatial Data",
+        "location": "Boundaries > Zip Codes",
+        "location_url": "https://data-fairfaxcountygis.opendata.arcgis.com/datasets/Fairfaxcountygis::zip-codes/about",
+        "date_accessed": 2022,
+        "url": "https://data-fairfaxcountygis.opendata.arcgis.com/"
+      },
+      {
+        "name": "Fairfax County Geospatial Data",
+        "location": "Boundaries > Supervisor Districts",
+        "location_url": "https://data-fairfaxcountygis.opendata.arcgis.com/datasets/Fairfaxcountygis::supervisor-districts-5/about",
+        "date_accessed": 2022,
+        "url": "https://data-fairfaxcountygis.opendata.arcgis.com/"
+      },
+      {
+        "name": "Fairfax County Geospatial Data",
+        "location": "Health & Human Service > Human Services Regions",
+        "location_url": "https://data-fairfaxcountygis.opendata.arcgis.com/datasets/Fairfaxcountygis::human-services-regions/about",
+        "date_accessed": 2022,
+        "url": "https://data-fairfaxcountygis.opendata.arcgis.com/"
+      },
+      {
+        "name": "Arlington County GIS Open Data",
+        "location": "MHUD Polygons",
+        "location_url": "https://gisdata-arlgis.opendata.arcgis.com/datasets/ArlGIS::mhud-polygons/about",
+        "date_accessed": 2023,
+        "url": "https://gisdata-arlgis.opendata.arcgis.com/"
+      },
+      {
+        "name": "Arlington County GIS Open Data",
+        "location": "Civic Association Polygons",
+        "location_url": "https://gisdata-arlgis.opendata.arcgis.com/datasets/ArlGIS::civic-association-polygons-1/about",
+        "date_accessed": 2021,
+        "url": "https://gisdata-arlgis.opendata.arcgis.com/"
+      }
+    ],
+    "source_file": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/docs/data/measure_info.json",
     "origin": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Race/data/distribution/va_hsrsdpdzccttrbg_sdad_2009_2021_race_demographics.csv.xz"
   },
   "schoolFundAdequacy": {
@@ -3921,6 +4222,65 @@
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Industry specific/Agriculture/data/distribution/measure_info.json",
     "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Industry specific/Agriculture/data/distribution/va_ct_2017_industry_agriculture.csv.xz"
   },
+  "veteran_percent_direct": {
+    "category": "Demographics",
+    "data_type": "decimal",
+    "unit": "individual",
+    "equity_category": "Status",
+    "aggregation_method": "percent",
+    "short_name": "The Veteran population percent direct",
+    "long_name": "The Veteran population percent.",
+    "short_description": "The Veteran population percent.",
+    "long_description": "The Veteran population percent. 5-year ACS estimates in provided census geolevels. For non-census geolevels (such as zip codes), spatial overlaps are calculated between census block groups and target regions, then the value of each block group is aggregated/disaggregated to any intersecting target region based on proportion of overlap. Redistribution to non-census geolevels was performed using the redistribute R package.",
+    "statement": "The Veteran population percent is {value} in {region_name}.",
+    "citations": "bii-redist",
+    "sources": [
+      {
+        "name": "American Community Survey",
+        "location": "5-Year estimates, table B21001, via the API",
+        "location_url": "https://www.census.gov/data/developers/data-sets/acs-5year.html",
+        "date_accessed": 2023,
+        "url": "https://www.census.gov/programs-surveys/acs.html"
+      },
+      {
+        "name": "Fairfax County Geospatial Data",
+        "location": "Boundaries > Zip Codes",
+        "location_url": "https://data-fairfaxcountygis.opendata.arcgis.com/datasets/Fairfaxcountygis::zip-codes/about",
+        "date_accessed": 2022,
+        "url": "https://data-fairfaxcountygis.opendata.arcgis.com/"
+      },
+      {
+        "name": "Fairfax County Geospatial Data",
+        "location": "Boundaries > Supervisor Districts",
+        "location_url": "https://data-fairfaxcountygis.opendata.arcgis.com/datasets/Fairfaxcountygis::supervisor-districts-5/about",
+        "date_accessed": 2022,
+        "url": "https://data-fairfaxcountygis.opendata.arcgis.com/"
+      },
+      {
+        "name": "Fairfax County Geospatial Data",
+        "location": "Health & Human Service > Human Services Regions",
+        "location_url": "https://data-fairfaxcountygis.opendata.arcgis.com/datasets/Fairfaxcountygis::human-services-regions/about",
+        "date_accessed": 2022,
+        "url": "https://data-fairfaxcountygis.opendata.arcgis.com/"
+      },
+      {
+        "name": "Arlington County GIS Open Data",
+        "location": "MHUD Polygons",
+        "location_url": "https://gisdata-arlgis.opendata.arcgis.com/datasets/ArlGIS::mhud-polygons/about",
+        "date_accessed": 2023,
+        "url": "https://gisdata-arlgis.opendata.arcgis.com/"
+      },
+      {
+        "name": "Arlington County GIS Open Data",
+        "location": "Civic Association Polygons",
+        "location_url": "https://gisdata-arlgis.opendata.arcgis.com/datasets/ArlGIS::civic-association-polygons-1/about",
+        "date_accessed": 2021,
+        "url": "https://gisdata-arlgis.opendata.arcgis.com/"
+      }
+    ],
+    "source_file": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/docs/data/measure_info.json",
+    "origin": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Veteran/data/distribution/va_hsrsdpdzccttrbg_sdad_2009_2021_veteran_demographics.csv.xz"
+  },
   "vi_household": {
     "aggregation_method": "",
     "categories": "",
@@ -4077,7 +4437,7 @@
     "statement": "The voter turnout is {value} in {features.name}.",
     "type": "percent",
     "unit": "",
-    "source_file": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Cooperative extension/data/distribution/measure_info.json",
+    "source_file": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/docs/data/measure_info.json",
     "origin": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Cooperative extension/data/distribution/va_ct_20172023_vote_youth.csv.xz"
   },
   "walkability_indicator": {
@@ -4132,6 +4492,6 @@
     "unit": "",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Health Opportunity Index/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Health Opportunity Index/data/distribution/va_tr_vdh_2022_wellness_disparity_profile.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Health Opportunity Index/data/distribution/va_tr_vdh_2020_wellness_disparity_profile.csv.xz"
   }
 }

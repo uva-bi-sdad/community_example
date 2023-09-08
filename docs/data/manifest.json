@@ -300,6 +300,11 @@
   },
   "uva-bi-sdad/sdc.health": {
     "files": {
+      "Population Health/Health Opportunity Index/data/distribution/va_tr_vdh_2020_health_opportunity_profile.csv.xz": {
+        "size": 7268,
+        "sha": "2cdad45fac37591d13bf1f066606ca1d21c1072c",
+        "md5": "c6df8a015830971b0b45ac2816db2600"
+      },
       "Population Health/System Usage and Insurance/Preventable Hospitalizations/data/distribution/va_hdct_2015_2021_preventable_hospitalizations.csv.xz": {
         "size": 4512,
         "sha": "b70dd7cbd18f4ed0f05c3673da78e3305896ad61",
@@ -349,11 +354,6 @@
         "size": 10632,
         "sha": "e5f9ca31b40288cc3583acf693001fe4274bc77b",
         "md5": "6fd2fc0dc76a28b64f43a4cc831a88b8"
-      },
-      "Population Health/Health Opportunity Index/data/distribution/va_tr_vdh_2022_health_opportunity_profile.csv.xz": {
-        "size": 7264,
-        "sha": "cd2811627580ed2151e1a8d80567e9dae713ca43",
-        "md5": "521afb147e492385fd759017aeda44d3"
       },
       "Population Health/System Usage and Insurance/Without Health Insurance/data/distribution/va_hdcttr_acs5_2015_2019_no_health_insurance_19_to_64.csv.xz": {
         "size": 202628,

@@ -1728,7 +1728,7 @@
   },
   "incarceration_rate_per_100000": {
     "aggregation_method": "count",
-    "category": "Public Safety",
+    "category": "Health Opportunity Index",
     "citations": "",
     "data_type": "integer",
     "equity_category": "",
@@ -1741,7 +1741,7 @@
     "sources": [
       {
         "name": "Prison Policy Initiative",
-        "location": "https://www.prisonpolicy.org/origin/va/2020/tract.html",
+        "url": "https://www.prisonpolicy.org/origin/va/2020/tract.html",
         "date_accessed": "2023"
       }
     ],

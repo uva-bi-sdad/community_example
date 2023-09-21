@@ -514,9 +514,9 @@
   "uva-bi-sdad/sdc.public_safety": {
     "files": {
       "Incarceration/data/distribution/va_hdcttr_2020_incarceration_rate.csv.xz": {
-        "size": 8000,
-        "sha": "ffa3487a8732383c6a237d3d39045dd1b3b12298",
-        "md5": "7fb850afb843c40f7090689de9752c21"
+        "size": 8060,
+        "sha": "0460bb0d0e69edb896fbbd5304f9808cdcb1cad3",
+        "md5": "1891288cb9dc5844e64b5b011a5a01c2"
       }
     }
   },

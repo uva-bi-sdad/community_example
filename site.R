@@ -108,9 +108,9 @@ page_navbar(
           "[Virginia Department of Health](https://www.vdh.virginia.gov)."
         ),
         "View its source on [GitHub](https://github.com/uva-bi-sdad/community_example).",
-        input_button("Download Loaded Data", "export", query = list(
-          features = list(geoid = "id", name = "name", region_type = "type")
-        ), class = "btn-full"),
+        # input_button("Download Loaded Data", "export", query = list(
+        #   features = list(geoid = "id", name = "name", region_type = "type")
+        # ), class = "btn-full"),
         "Credits",
         paste(
           "Built in [R](https://www.r-project.org) with the",

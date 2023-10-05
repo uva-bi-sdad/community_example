@@ -2,10 +2,10 @@ name: build_vdh_dashboard
 on:
   push:
     branches:
-        - dashboard
+        - main
   pull_request:
     branches:
-        - dashboard
+        - main
 jobs:
   generate-dashboard:
     runs-on: ubuntu-latest

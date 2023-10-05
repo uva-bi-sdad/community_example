@@ -1,13 +1,11 @@
 name: build_vdh_dashboard
 on:
-  schedule:
-    - cron: '0 21 * * 2,5' # utc
   push:
     branches:
-        - main
+        - dashboard
   pull_request:
     branches:
-        - main
+        - dashboard
 jobs:
   generate-dashboard:
     runs-on: ubuntu-latest

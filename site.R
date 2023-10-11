@@ -154,7 +154,7 @@ page_menu(
     type = "col",
     wraps = "row form-row",
     input_combobox(
-      "Variable", options = "variables", group_feature = "category",
+      "Measure", options = "variables", group_feature = "category",
       default = "no_health_insurance_19_to_64:hlth_ins_pct", depends = "shapes",
       id = "selected_variable", note = paste(
         "Determines which variable is shown on the plot's y-axis, in the rank table,",

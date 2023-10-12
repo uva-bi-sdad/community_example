@@ -305,12 +305,18 @@ page_section(
       type = "flex-column col",
       ## use `output_info` to display information about selected and hovered-over entities
       output_info(
-        title = "variables.short_name",
         dataview = "primary_view",
         id = "variable_info_pane",
       ),
+      '
+        <script>
+          var url = new URL(url_string);
+          var c = url.searchParams.get("selected_variable");
+        </script>
+        <button id= "download_variable_button" type="button" class="btn popup-button mb-3" data-bs-toggle="modal" target="_blank">Download All</button>
+      ',
       page_popup(
-        "Export",
+        "Download Filtered",
         page_section(
           wraps = "col",
           input_select("Table Format", c("tall", "mixed", "wide"), "mixed", id = "export_table_format"),

@@ -90,6 +90,20 @@
       "volume": "Preprint",
       "doi": "10.13140/RG.2.2.12396.28807"
     },
+    "cdc11a": {
+      "id": "cdc11a",
+      "author": "Centers for Disease Control and Prevention",
+      "year": 2011,
+      "title": "Children’s Food Environment State Indicator Report",
+      "url": "https://www.cdc.gov/obesity/downloads/ChildrensFoodEnvironment.pdf"
+    },
+    "cdc11b": {
+      "id": "cdc11b",
+      "author": "Centers for Disease Control and Prevention",
+      "year": 2011,
+      "title": "Census Tract Level State Maps of the Modified Retail Food Environment Index (mRFEI)",
+      "url": "https://www.cdc.gov/obesity/downloads/census-tract-level-state-maps-mrfei_TAG508.pdf"
+    },
     "wan12": {
       "id": "wan12",
       "author": [
@@ -128,20 +142,6 @@
       "title": "redistribute: An R package to redistribute data",
       "version": "0.0.1",
       "url": "https://github.com/uva-bi-sdad/redistribute"
-    },
-    "cdc11a": {
-      "id": "cdc11a",
-      "author": "Centers for Disease Control and Prevention",
-      "year": 2011,
-      "title": "Children’s Food Environment State Indicator Report",
-      "url": "https://www.cdc.gov/obesity/downloads/ChildrensFoodEnvironment.pdf"
-    },
-    "cdc11b": {
-      "id": "cdc11b",
-      "author": "Centers for Disease Control and Prevention",
-      "year": 2011,
-      "title": "Census Tract Level State Maps of the Modified Retail Food Environment Index (mRFEI)",
-      "url": "https://www.cdc.gov/obesity/downloads/census-tract-level-state-maps-mrfei_TAG508.pdf"
     }
   },
   "{variant.name}_read_pass_rate": {
@@ -696,7 +696,7 @@
     "type": "average",
     "unit": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.education/blob/main/Years of Schooling/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.education/blob/main/Years of Schooling/data/distribution/ncr_tr_acs5_2017_2021_years_of_schooling.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.education/blob/main/Years of Schooling/data/distribution/va_tr_acs5_2017_2021_years_of_schooling.csv.xz"
   },
   "avg_down_using_devices": {
     "aggregation_method": "weighted arithmetic mean",
@@ -794,8 +794,9 @@
     "short_name": "Percentage of food insecure children",
     "sources": [
       {
-        "name": "Feeding America",
         "date_accessed": "2021",
+        "location": "",
+        "name": "Feeding America",
         "url": "https://www.feedingamerica.org/"
       }
     ],
@@ -804,7 +805,7 @@
     "unit": "",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.food/blob/main/Food Security/Feeding America/Children's Food Insecurity/data/distribution/measure_info.json",
-    "origin": ["https://github.com/uva-bi-sdad/sdc.food/blob/main/Food Security/Feeding America/Children's Food Insecurity/data/distribution/ncr_ct_fa_2014_2019_childrens_food_insecurity.csv.xz", "https://github.com/uva-bi-sdad/sdc.food/blob/main/Food Security/Feeding America/Children's Food Insecurity/data/distribution/va_hdct_fa_2014_2019_childrens_food_insecurity.csv.xz"]
+    "origin": "https://github.com/uva-bi-sdad/sdc.food/blob/main/Food Security/Feeding America/Children's Food Insecurity/data/distribution/va_hdct_fa_2014_2019_childrens_food_insecurity.csv.xz"
   },
   "community_environment_indicator": {
     "aggregation_method": "",
@@ -875,8 +876,9 @@
     "short_name": "Average meal cost ($)",
     "sources": [
       {
-        "name": "Feeding America",
         "date_accessed": "2021",
+        "location": "",
+        "name": "Feeding America",
         "url": "https://www.feedingamerica.org/"
       }
     ],
@@ -885,7 +887,7 @@
     "unit": "",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.food/blob/main/Food Security/Feeding America/Food Secure Average Meal Cost/data/distribution/measure_info.json",
-    "origin": ["https://github.com/uva-bi-sdad/sdc.food/blob/main/Food Security/Feeding America/Food Secure Average Meal Cost/data/distribution/ncr_ct_fa_2014_2019_food_secure_avg_meal_cost.csv.xz", "https://github.com/uva-bi-sdad/sdc.food/blob/main/Food Security/Feeding America/Food Secure Average Meal Cost/data/distribution/va_hdct_fa_2014_2019_food_secure_avg_meal_cost.csv.xz"]
+    "origin": "https://github.com/uva-bi-sdad/sdc.food/blob/main/Food Security/Feeding America/Food Secure Average Meal Cost/data/distribution/va_hdct_fa_2014_2019_food_secure_avg_meal_cost.csv.xz"
   },
   "daycare_capacity": {
     "data_type": "integer",
@@ -1253,7 +1255,7 @@
     "unit": "individual",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.financial_well_being/blob/main/Employment/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.financial_well_being/blob/main/Employment/data/distribution/ncr_cttr_2015_2021_employment_rate.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.financial_well_being/blob/main/Employment/data/distribution/va_cttr_2015_2021_employment_rate.csv.xz"
   },
   "employment_access_indicator": {
     "aggregation_method": "",
@@ -1308,8 +1310,7 @@
     "type": "",
     "unit": "job",
     "variants": "",
-    "source_file": "https://github.com/uva-bi-sdad/sdc.financial_well_being/blob/main/Employment Access/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.financial_well_being/blob/main/Employment Access/data/distribution/va_cttr_2015_2019_2020_employment_access_index.csv"
+    "source_file": "https://github.com/uva-bi-sdad/sdc.financial_well_being/blob/main/Employment Access/data/distribution/measure_info.json"
   },
   "ems_3sfca": {
     "aggregation_method": "",
@@ -1831,35 +1832,6 @@
     "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Reproductive Health/Prenatal Care Adequacy/data/distribution/measure_info.json",
     "origin": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Reproductive Health/Prenatal Care Adequacy/data/distribution/va_ct_nchs_2014_2020_kotelchuck.csv.xz"
   },
-  "job_participate_rate": {
-    "aggregation_method": "percent",
-    "categories": "",
-    "category": "Employment/Workforce Development",
-    "citations": "",
-    "data_type": "decimal",
-    "equity_category": "Status",
-    "layer": "",
-    "long_description": "The percentage of individuals 16-64 years of age in the active labor force. The job particpation rate is often used by economists as an indicator of economic development and growth.",
-    "long_name": "Job Participation Percentage",
-    "measure_type": "",
-    "short_description": "The percentage of individuals 16-64 years of age in the active labor force.",
-    "short_name": "Job Participation Percentage",
-    "sources": [
-      {
-        "name": "American Community Survey",
-        "location": "5-Year estimates, table B23025, via the API",
-        "location_url": "https://www.census.gov/data/developers/data-sets/acs-5year.html",
-        "date_accessed": "2023",
-        "url": "https://www.census.gov/programs-surveys/acs.html"
-      }
-    ],
-    "statement": "{value} of the population in {region_name} is participating in the civilian job force.",
-    "type": "percent",
-    "unit": "individual",
-    "variants": "",
-    "source_file": "https://github.com/uva-bi-sdad/sdc.financial_well_being/blob/main/Employment/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.financial_well_being/blob/main/Employment/data/distribution/va_cttr_2015_2021_job_participate_rate.csv.xz"
-  },
   "job_participation_indicator": {
     "aggregation_method": "",
     "categories": "",
@@ -2158,8 +2130,9 @@
     "short_name": "Food insecure children (count)",
     "sources": [
       {
-        "name": "Feeding America",
         "date_accessed": "2021",
+        "location": "",
+        "name": "Feeding America",
         "url": "https://www.feedingamerica.org/"
       }
     ],
@@ -2168,7 +2141,7 @@
     "unit": "",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.food/blob/main/Food Security/Feeding America/Children's Food Insecurity/data/distribution/measure_info.json",
-    "origin": ["https://github.com/uva-bi-sdad/sdc.food/blob/main/Food Security/Feeding America/Children's Food Insecurity/data/distribution/ncr_ct_fa_2014_2019_childrens_food_insecurity.csv.xz", "https://github.com/uva-bi-sdad/sdc.food/blob/main/Food Security/Feeding America/Children's Food Insecurity/data/distribution/va_hdct_fa_2014_2019_childrens_food_insecurity.csv.xz"]
+    "origin": "https://github.com/uva-bi-sdad/sdc.food/blob/main/Food Security/Feeding America/Children's Food Insecurity/data/distribution/va_hdct_fa_2014_2019_childrens_food_insecurity.csv.xz"
   },
   "number_food_insecure": {
     "aggregation_method": "",
@@ -2186,6 +2159,7 @@
     "sources": [
       {
         "date_accessed": 2022,
+        "location": "",
         "name": "Feeding America",
         "url": "https://map.feedingamerica.org/"
       }
@@ -2711,7 +2685,7 @@
     "unit": "",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Mental Health/Mental and Physical Healthy Days/data/distribution/measure_info.json",
-    "origin": ["https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Mental Health/Mental and Physical Healthy Days/data/distribution/ncr_trct_sdad_2015_2019_brfss_sae.csv.xz", "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Mental Health/Mental and Physical Healthy Days/data/distribution/va_trcthd_sdad_2015_2019_brfss_sae.csv.xz"]
+    "origin": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Mental Health/Mental and Physical Healthy Days/data/distribution/va_trcthd_sdad_2015_2019_brfss_sae.csv.xz"
   },
   "perc_poor_phys_hlth_days_14_and_over": {
     "aggregation_method": "",
@@ -2738,7 +2712,7 @@
     "unit": "",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Mental Health/Mental and Physical Healthy Days/data/distribution/measure_info.json",
-    "origin": ["https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Mental Health/Mental and Physical Healthy Days/data/distribution/ncr_trct_sdad_2015_2019_brfss_sae.csv.xz", "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Mental Health/Mental and Physical Healthy Days/data/distribution/va_trcthd_sdad_2015_2019_brfss_sae.csv.xz"]
+    "origin": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/Mental Health/Mental and Physical Healthy Days/data/distribution/va_trcthd_sdad_2015_2019_brfss_sae.csv.xz"
   },
   "perc_total_100_20_using_devices": {
     "aggregation_method": "percent",
@@ -2864,6 +2838,7 @@
     "sources": [
       {
         "date_accessed": 2022,
+        "location": "",
         "name": "Feeding America",
         "url": "https://map.feedingamerica.org/"
       }

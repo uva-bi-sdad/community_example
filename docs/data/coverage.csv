@@ -34,7 +34,7 @@
 "education_indicator",1,133,35,1884
 "emp_rate",1,931,0,13688
 "employment_access_indicator",1,133,35,1884
-"employment_access_sqmi",1,0,0,5903
+"employment_access_sqmi",1,0,0,0
 "ems_3sfca",1,133,35,2218
 "ems_cnt",1,133,35,2235
 "ems_near_10_median",1,133,35,2218
@@ -52,7 +52,7 @@
 "income_inequality_indicator",1,133,35,1884
 "intermediate",1,925,0,0
 "intermediate_pc",1,925,0,0
-"job_participate_rate",1,931,0,13723
+"job_participate_rate",0,931,0,13723
 "job_participation_indicator",1,133,35,1884
 "language_hh_limited_english_percent_direct",1,798,210,11808
 "material_deprivation_indicator",1,931,245,13675

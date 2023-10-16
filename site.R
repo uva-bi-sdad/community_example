@@ -155,7 +155,7 @@ page_menu(
     wraps = "row form-row",
     input_combobox(
       "Measure", options = "variables", group_feature = "category",
-      default = "no_health_insurance_19_to_64:hlth_ins_pct", depends = "shapes",
+      default = "incarceration_rate_per_100000", depends = "shapes",
       id = "selected_variable", note = paste(
         "Determines which variable is shown on the plot's y-axis, in the rank table,",
         "and info fields, and used to color map polygons and plot elements."
@@ -305,12 +305,37 @@ page_section(
       type = "flex-column col",
       ## use `output_info` to display information about selected and hovered-over entities
       output_info(
-        title = "variables.short_name",
         dataview = "primary_view",
         id = "variable_info_pane",
       ),
+      '
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-278827H8WK"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag("js", new Date());
+          gtag("config", "G-278827H8WK");
+        </script>
+
+        <script>
+          function download_variable(){
+            var urlParams = new URLSearchParams(window.location.search);
+            let selectedVar = urlParams.get("selected_variable");
+
+            if (selectedVar == null){
+              selectedVar = "incarceration_rate_per_100000"; // The default starting variable name for this repository
+            }
+
+            window.location = "https://github.com/uva-bi-sdad/sdc.measures/raw/main/"+ selectedVar + ".csv.xz";            
+            gtag("event", "file_download", {
+              "measure": selectedVar
+            });
+          }
+        </script>
+        <button onclick="download_variable()" id= "download_variable_button" type="button" class="btn popup-button mb-2">Download All</button>
+      ',
       page_popup(
-        "Export",
+        "Download Filtered",
         page_section(
           wraps = "col",
           input_select("Table Format", c("tall", "mixed", "wide"), "mixed", id = "export_table_format"),

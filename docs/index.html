@@ -302,7 +302,7 @@ const site = {"settings":{"digits":2,"summary_selection":"all","color_by_order":
 <div class="row form-row">
 <div class="wrapper combobox-wrapper">
 <div class="form-floating">
-<div class="auto-input form-select combobox combobox-component" data-autoType="combobox" id="selected_variable" data-optionSource="variables" data-default="no_health_insurance_19_to_64:hlth_ins_pct" aria-description="Determines which variable is shown on the plot's y-axis, in the rank table, and info fields, and used to color map polygons and plot elements." data-subset="filtered" data-selectionsubset="full_filter" data-depends="shapes"><div class="combobox-selection combobox-component"><span aria-live="assertive" aria-atomic="true" aria-role="log" class="combobox-component"></span><input class="combobox-input combobox-component" role="combobox" type="text" aria-expanded="false" aria-autocomplete="list" aria-controls="selected_variable-listbox" aria-controls="selected_variable-listbox" id="selected_variable-input" autocomplete="off"></div></div>
+<div class="auto-input form-select combobox combobox-component" data-autoType="combobox" id="selected_variable" data-optionSource="variables" data-default="incarceration_rate_per_100000" aria-description="Determines which variable is shown on the plot's y-axis, in the rank table, and info fields, and used to color map polygons and plot elements." data-subset="filtered" data-selectionsubset="full_filter" data-depends="shapes"><div class="combobox-selection combobox-component"><span aria-live="assertive" aria-atomic="true" aria-role="log" class="combobox-component"></span><input class="combobox-input combobox-component" role="combobox" type="text" aria-expanded="false" aria-autocomplete="list" aria-controls="selected_variable-listbox" aria-controls="selected_variable-listbox" id="selected_variable-input" autocomplete="off"></div></div>
 <div class="combobox-options combobox-component" role="listbox" id="selected_variable-listbox" aria-labelledby="selected_variable-label">
 </div>
 <label id="selected_variable-label" for="selected_variable-input">Measure</label>
@@ -373,7 +373,60 @@ const site = {"settings":{"digits":2,"summary_selection":"all","color_by_order":
 <div class="flex-column col">
 <div class="auto-output text-display" data-view="primary_view" data-autoType="info" id="variable_info_pane"></div>
 
-        <button type="button" class="btn popup-button mb-3" data-bs-toggle="modal">Download All</button>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-278827H8WK"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag("js", new Date());
+          gtag("config", "G-278827H8WK");
+        </script>
+        <script>
+          function UrlExists(url) {
+              var http = new XMLHttpRequest();
+              http.open("HEAD", url, false);
+              http.send();
+              if (http.status != 404)
+                  return true;
+              else
+                  return false;
+          }
+          function check(){
+            console.log("Selected variable changed!");
+            var urlParams = new URLSearchParams(window.location.search);
+            let selectedVar = urlParams.get("selected_variable");
+            
+            if (selectedVar == null){
+              selectedVar = "incarceration_rate_per_100000"; // The default starting variable name for this repository
+            }
+            
+            let url = "https://github.com/uva-bi-sdad/sdc.measures/raw/main/"+ selectedVar + ".csv.xz";
+            
+            if (!UrlExists(url)){
+              console.log("url exists!" + url);
+              document.getElementById("download_variable_button").disabled = true;
+            }else{
+              document.getElementById("download_variable_button").disabled = false;
+            }
+          }
+          
+          document.getElementById("selected_variable").setAttribute("onkeydown", check());
+        </script>
+        <script>
+          function download_variable(){
+            var urlParams = new URLSearchParams(window.location.search);
+            let selectedVar = urlParams.get("selected_variable");
+
+            if (selectedVar == null){
+              selectedVar = "incarceration_rate_per_100000"; // The default starting variable name for this repository
+            }
+
+            window.location = "https://github.com/uva-bi-sdad/sdc.measures/raw/main/"+ selectedVar + ".csv.xz";            
+            gtag("event", "file_download", {
+              "measure": selectedVar
+            });
+          }
+        </script>
+        <button onclick="download_variable()" id= "download_variable_button" type="button" class="btn popup-button mb-2">Download All</button>
       
 <button type="button" class="btn popup-button" data-bs-toggle="modal" data-bs-target="#dialog10">Download Filtered</button>
 <div class="auto-output text-display" data-view="primary_view" data-autoType="info" id="info12"></div>

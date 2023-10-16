@@ -155,7 +155,7 @@ page_menu(
     wraps = "row form-row",
     input_combobox(
       "Measure", options = "variables", group_feature = "category",
-      default = "no_health_insurance_19_to_64:hlth_ins_pct", depends = "shapes",
+      default = "incarceration_rate_per_100000", depends = "shapes",
       id = "selected_variable", note = paste(
         "Determines which variable is shown on the plot's y-axis, in the rank table,",
         "and info fields, and used to color map polygons and plot elements."
@@ -309,11 +309,60 @@ page_section(
         id = "variable_info_pane",
       ),
       '
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-278827H8WK"></script>
         <script>
-          var url = new URL(url_string);
-          var c = url.searchParams.get("selected_variable");
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag("js", new Date());
+          gtag("config", "G-278827H8WK");
         </script>
-        <button id= "download_variable_button" type="button" class="btn popup-button mb-3" data-bs-toggle="modal" target="_blank">Download All</button>
+        <script>
+          function UrlExists(url) {
+              var http = new XMLHttpRequest();
+              http.open("HEAD", url, false);
+              http.send();
+              if (http.status != 404)
+                  return true;
+              else
+                  return false;
+          }
+          function check(){
+            console.log("Selected variable changed!");
+            var urlParams = new URLSearchParams(window.location.search);
+            let selectedVar = urlParams.get("selected_variable");
+            
+            if (selectedVar == null){
+              selectedVar = "incarceration_rate_per_100000"; // The default starting variable name for this repository
+            }
+            
+            let url = "https://github.com/uva-bi-sdad/sdc.measures/raw/main/"+ selectedVar + ".csv.xz";
+            
+            if (!UrlExists(url)){
+              console.log("url exists!" + url);
+              document.getElementById("download_variable_button").disabled = true;
+            }else{
+              document.getElementById("download_variable_button").disabled = false;
+            }
+          }
+          
+          document.getElementById("selected_variable").setAttribute("onkeydown", check());
+        </script>
+        <script>
+          function download_variable(){
+            var urlParams = new URLSearchParams(window.location.search);
+            let selectedVar = urlParams.get("selected_variable");
+
+            if (selectedVar == null){
+              selectedVar = "incarceration_rate_per_100000"; // The default starting variable name for this repository
+            }
+
+            window.location = "https://github.com/uva-bi-sdad/sdc.measures/raw/main/"+ selectedVar + ".csv.xz";            
+            gtag("event", "file_download", {
+              "measure": selectedVar
+            });
+          }
+        </script>
+        <button onclick="download_variable()" id= "download_variable_button" type="button" class="btn popup-button mb-2">Download All</button>
       ',
       page_popup(
         "Download Filtered",

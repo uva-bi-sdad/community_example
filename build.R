@@ -17,15 +17,15 @@ data_add(
     time = "time",
     variables = "measure_info.json"
   ),
-  dir = "../community_example/docs/data",
+  dir = "./docs/data",
   clean = TRUE
 )
 
 site_build(
-  "../community_example", serve = TRUE,
+  ".", serve = TRUE,
   endpoint = "https://vdh-data-commons.netlify.app/api"
 )
 # site_build(
-#   "../community_example", version = "dev", serve = TRUE,
+#   ".", version = "dev", serve = TRUE,
 #   endpoint = "https://vdh-data-commons.netlify.app/api"
 # )

@@ -316,37 +316,7 @@ page_section(
           gtag("js", new Date());
           gtag("config", "G-278827H8WK");
         </script>
-        <script>
-          function UrlExists(url) {
-              var http = new XMLHttpRequest();
-              http.open("HEAD", url, false);
-              http.send();
-              if (http.status != 404)
-                  return true;
-              else
-                  return false;
-          }
-          function check(){
-            console.log("Selected variable changed!");
-            var urlParams = new URLSearchParams(window.location.search);
-            let selectedVar = urlParams.get("selected_variable");
-            
-            if (selectedVar == null){
-              selectedVar = "incarceration_rate_per_100000"; // The default starting variable name for this repository
-            }
-            
-            let url = "https://github.com/uva-bi-sdad/sdc.measures/raw/main/"+ selectedVar + ".csv.xz";
-            
-            if (!UrlExists(url)){
-              console.log("url exists!" + url);
-              document.getElementById("download_variable_button").disabled = true;
-            }else{
-              document.getElementById("download_variable_button").disabled = false;
-            }
-          }
-          
-          document.getElementById("selected_variable").setAttribute("onkeydown", check());
-        </script>
+
         <script>
           function download_variable(){
             var urlParams = new URLSearchParams(window.location.search);

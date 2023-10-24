@@ -1648,7 +1648,7 @@
     "unit": "",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.financial_well_being/blob/main/Pay and Benefits/Income Inequality/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.financial_well_being/blob/main/Pay and Benefits/Income Inequality/data/distribution/ncr_cttr_2015_2021_income_inequality_gini_index.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.financial_well_being/blob/main/Pay and Benefits/Income Inequality/data/distribution/va_cttr_2015_2021_income_inequality_gini_index.csv.xz"
   },
   "health_opportunity_indicator": {
     "aggregation_method": "",
@@ -2228,7 +2228,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS11_business_destruction_job": {
     "aggregation_method": "count",
@@ -2257,7 +2257,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS11_entry_rate": {
     "aggregation_method": "percent",
@@ -2373,7 +2373,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_ct_mi_2010_2020_herfindalh_index_by_industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_ct_mi_2010_2020_herfindalh_index_by_industry.csv.xz"
   },
   "NAICS11_job_creation_active": {
     "aggregation_method": "count",
@@ -2402,7 +2402,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS11_job_creation_new": {
     "aggregation_method": "count",
@@ -2431,7 +2431,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS11_job_destruction_active": {
     "aggregation_method": "count",
@@ -2460,7 +2460,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS11_job_destruction_exit": {
     "aggregation_method": "count",
@@ -2489,7 +2489,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS11_Location_quotient": {
     "aggregation_method": "index",
@@ -2605,7 +2605,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS11_perc_job_creation_new": {
     "aggregation_method": "percent",
@@ -2634,7 +2634,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS11_perc_job_destruction_active": {
     "aggregation_method": "percent",
@@ -2663,7 +2663,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS11_perc_job_destruction_exit": {
     "aggregation_method": "percent",
@@ -2692,7 +2692,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS11_total_employment": {
     "aggregation_method": "count",
@@ -2721,7 +2721,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS11_total_job_creation": {
     "aggregation_method": "count",
@@ -2750,7 +2750,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS11_total_job_destruction": {
     "aggregation_method": "count",
@@ -2779,7 +2779,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS21_business_create_job": {
     "aggregation_method": "count",
@@ -2808,7 +2808,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS21_business_destruction_job": {
     "aggregation_method": "count",
@@ -2837,7 +2837,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS21_entry_rate": {
     "aggregation_method": "percent",
@@ -2953,7 +2953,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_ct_mi_2010_2020_herfindalh_index_by_industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_ct_mi_2010_2020_herfindalh_index_by_industry.csv.xz"
   },
   "NAICS21_job_creation_active": {
     "aggregation_method": "count",
@@ -2982,7 +2982,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS21_job_creation_new": {
     "aggregation_method": "count",
@@ -3011,7 +3011,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS21_job_destruction_active": {
     "aggregation_method": "count",
@@ -3040,7 +3040,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS21_job_destruction_exit": {
     "aggregation_method": "count",
@@ -3069,7 +3069,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS21_Location_quotient": {
     "aggregation_method": "index",
@@ -3185,7 +3185,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS21_perc_job_creation_new": {
     "aggregation_method": "percent",
@@ -3214,7 +3214,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS21_perc_job_destruction_active": {
     "aggregation_method": "percent",
@@ -3243,7 +3243,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS21_perc_job_destruction_exit": {
     "aggregation_method": "percent",
@@ -3272,7 +3272,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS21_total_employment": {
     "aggregation_method": "count",
@@ -3301,7 +3301,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS21_total_job_creation": {
     "aggregation_method": "count",
@@ -3330,7 +3330,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS21_total_job_destruction": {
     "aggregation_method": "count",
@@ -3359,7 +3359,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS22_business_create_job": {
     "aggregation_method": "count",
@@ -3388,7 +3388,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS22_business_destruction_job": {
     "aggregation_method": "count",
@@ -3417,7 +3417,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS22_entry_rate": {
     "aggregation_method": "percent",
@@ -3533,7 +3533,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_ct_mi_2010_2020_herfindalh_index_by_industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_ct_mi_2010_2020_herfindalh_index_by_industry.csv.xz"
   },
   "NAICS22_job_creation_active": {
     "aggregation_method": "count",
@@ -3562,7 +3562,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS22_job_creation_new": {
     "aggregation_method": "count",
@@ -3591,7 +3591,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS22_job_destruction_active": {
     "aggregation_method": "count",
@@ -3620,7 +3620,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS22_job_destruction_exit": {
     "aggregation_method": "count",
@@ -3649,7 +3649,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS22_Location_quotient": {
     "aggregation_method": "index",
@@ -3765,7 +3765,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS22_perc_job_creation_new": {
     "aggregation_method": "percent",
@@ -3794,7 +3794,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS22_perc_job_destruction_active": {
     "aggregation_method": "percent",
@@ -3823,7 +3823,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS22_perc_job_destruction_exit": {
     "aggregation_method": "percent",
@@ -3852,7 +3852,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS22_total_employment": {
     "aggregation_method": "count",
@@ -3881,7 +3881,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS22_total_job_creation": {
     "aggregation_method": "count",
@@ -3910,7 +3910,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS22_total_job_destruction": {
     "aggregation_method": "count",
@@ -3939,7 +3939,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS23_business_create_job": {
     "aggregation_method": "count",
@@ -3968,7 +3968,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS23_business_destruction_job": {
     "aggregation_method": "count",
@@ -3997,7 +3997,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS23_entry_rate": {
     "aggregation_method": "percent",
@@ -4113,7 +4113,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_ct_mi_2010_2020_herfindalh_index_by_industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_ct_mi_2010_2020_herfindalh_index_by_industry.csv.xz"
   },
   "NAICS23_job_creation_active": {
     "aggregation_method": "count",
@@ -4142,7 +4142,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS23_job_creation_new": {
     "aggregation_method": "count",
@@ -4171,7 +4171,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS23_job_destruction_active": {
     "aggregation_method": "count",
@@ -4200,7 +4200,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS23_job_destruction_exit": {
     "aggregation_method": "count",
@@ -4229,7 +4229,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS23_Location_quotient": {
     "aggregation_method": "index",
@@ -4345,7 +4345,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS23_perc_job_creation_new": {
     "aggregation_method": "percent",
@@ -4374,7 +4374,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS23_perc_job_destruction_active": {
     "aggregation_method": "percent",
@@ -4403,7 +4403,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS23_perc_job_destruction_exit": {
     "aggregation_method": "percent",
@@ -4432,7 +4432,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS23_total_employment": {
     "aggregation_method": "count",
@@ -4461,7 +4461,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS23_total_job_creation": {
     "aggregation_method": "count",
@@ -4490,7 +4490,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS23_total_job_destruction": {
     "aggregation_method": "count",
@@ -4519,7 +4519,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS31_33_business_create_job": {
     "aggregation_method": "count",
@@ -4548,7 +4548,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS31_33_business_destruction_job": {
     "aggregation_method": "count",
@@ -4577,7 +4577,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS31_33_entry_rate": {
     "aggregation_method": "percent",
@@ -4693,7 +4693,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_ct_mi_2010_2020_herfindalh_index_by_industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_ct_mi_2010_2020_herfindalh_index_by_industry.csv.xz"
   },
   "NAICS31_33_job_creation_active": {
     "aggregation_method": "count",
@@ -4722,7 +4722,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS31_33_job_creation_new": {
     "aggregation_method": "count",
@@ -4751,7 +4751,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS31_33_job_destruction_active": {
     "aggregation_method": "count",
@@ -4780,7 +4780,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS31_33_job_destruction_exit": {
     "aggregation_method": "count",
@@ -4809,7 +4809,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS31_33_Location_quotient": {
     "aggregation_method": "index",
@@ -4925,7 +4925,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS31_33_perc_job_creation_new": {
     "aggregation_method": "percent",
@@ -4954,7 +4954,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS31_33_perc_job_destruction_active": {
     "aggregation_method": "percent",
@@ -4983,7 +4983,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS31_33_perc_job_destruction_exit": {
     "aggregation_method": "percent",
@@ -5012,7 +5012,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS31_33_total_employment": {
     "aggregation_method": "count",
@@ -5041,7 +5041,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS31_33_total_job_creation": {
     "aggregation_method": "count",
@@ -5070,7 +5070,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS31_33_total_job_destruction": {
     "aggregation_method": "count",
@@ -5099,7 +5099,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS42_business_create_job": {
     "aggregation_method": "count",
@@ -5128,7 +5128,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS42_business_destruction_job": {
     "aggregation_method": "count",
@@ -5157,7 +5157,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS42_entry_rate": {
     "aggregation_method": "percent",
@@ -5273,7 +5273,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_ct_mi_2010_2020_herfindalh_index_by_industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_ct_mi_2010_2020_herfindalh_index_by_industry.csv.xz"
   },
   "NAICS42_job_creation_active": {
     "aggregation_method": "count",
@@ -5302,7 +5302,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS42_job_creation_new": {
     "aggregation_method": "count",
@@ -5331,7 +5331,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS42_job_destruction_active": {
     "aggregation_method": "count",
@@ -5360,7 +5360,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS42_job_destruction_exit": {
     "aggregation_method": "count",
@@ -5389,7 +5389,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS42_Location_quotient": {
     "aggregation_method": "index",
@@ -5505,7 +5505,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS42_perc_job_creation_new": {
     "aggregation_method": "percent",
@@ -5534,7 +5534,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS42_perc_job_destruction_active": {
     "aggregation_method": "percent",
@@ -5563,7 +5563,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS42_perc_job_destruction_exit": {
     "aggregation_method": "percent",
@@ -5592,7 +5592,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS42_total_employment": {
     "aggregation_method": "count",
@@ -5621,7 +5621,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS42_total_job_creation": {
     "aggregation_method": "count",
@@ -5650,7 +5650,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS42_total_job_destruction": {
     "aggregation_method": "count",
@@ -5679,7 +5679,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS44_45_business_create_job": {
     "aggregation_method": "count",
@@ -5708,7 +5708,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS44_45_business_destruction_job": {
     "aggregation_method": "count",
@@ -5737,7 +5737,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS44_45_entry_rate": {
     "aggregation_method": "percent",
@@ -5853,7 +5853,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_ct_mi_2010_2020_herfindalh_index_by_industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_ct_mi_2010_2020_herfindalh_index_by_industry.csv.xz"
   },
   "NAICS44_45_job_creation_active": {
     "aggregation_method": "count",
@@ -5882,7 +5882,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS44_45_job_creation_new": {
     "aggregation_method": "count",
@@ -5911,7 +5911,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS44_45_job_destruction_active": {
     "aggregation_method": "count",
@@ -5940,7 +5940,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS44_45_job_destruction_exit": {
     "aggregation_method": "count",
@@ -5969,7 +5969,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS44_45_Location_quotient": {
     "aggregation_method": "index",
@@ -6085,7 +6085,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS44_45_perc_job_creation_new": {
     "aggregation_method": "percent",
@@ -6114,7 +6114,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS44_45_perc_job_destruction_active": {
     "aggregation_method": "percent",
@@ -6143,7 +6143,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS44_45_perc_job_destruction_exit": {
     "aggregation_method": "percent",
@@ -6172,7 +6172,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS44_45_total_employment": {
     "aggregation_method": "count",
@@ -6201,7 +6201,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS44_45_total_job_creation": {
     "aggregation_method": "count",
@@ -6230,7 +6230,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS44_45_total_job_destruction": {
     "aggregation_method": "count",
@@ -6259,7 +6259,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS48_49_business_create_job": {
     "aggregation_method": "count",
@@ -6288,7 +6288,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS48_49_business_destruction_job": {
     "aggregation_method": "count",
@@ -6317,7 +6317,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS48_49_entry_rate": {
     "aggregation_method": "percent",
@@ -6433,7 +6433,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_ct_mi_2010_2020_herfindalh_index_by_industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_ct_mi_2010_2020_herfindalh_index_by_industry.csv.xz"
   },
   "NAICS48_49_job_creation_active": {
     "aggregation_method": "count",
@@ -6462,7 +6462,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS48_49_job_creation_new": {
     "aggregation_method": "count",
@@ -6491,7 +6491,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS48_49_job_destruction_active": {
     "aggregation_method": "count",
@@ -6520,7 +6520,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS48_49_job_destruction_exit": {
     "aggregation_method": "count",
@@ -6549,7 +6549,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS48_49_Location_quotient": {
     "aggregation_method": "index",
@@ -6665,7 +6665,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS48_49_perc_job_creation_new": {
     "aggregation_method": "percent",
@@ -6694,7 +6694,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS48_49_perc_job_destruction_active": {
     "aggregation_method": "percent",
@@ -6723,7 +6723,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS48_49_perc_job_destruction_exit": {
     "aggregation_method": "percent",
@@ -6752,7 +6752,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS48_49_total_employment": {
     "aggregation_method": "count",
@@ -6781,7 +6781,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS48_49_total_job_creation": {
     "aggregation_method": "count",
@@ -6810,7 +6810,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS48_49_total_job_destruction": {
     "aggregation_method": "count",
@@ -6839,7 +6839,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS51_business_create_job": {
     "aggregation_method": "count",
@@ -6868,7 +6868,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS51_business_destruction_job": {
     "aggregation_method": "count",
@@ -6897,7 +6897,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS51_entry_rate": {
     "aggregation_method": "percent",
@@ -7013,7 +7013,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_ct_mi_2010_2020_herfindalh_index_by_industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_ct_mi_2010_2020_herfindalh_index_by_industry.csv.xz"
   },
   "NAICS51_job_creation_active": {
     "aggregation_method": "count",
@@ -7042,7 +7042,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS51_job_creation_new": {
     "aggregation_method": "count",
@@ -7071,7 +7071,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS51_job_destruction_active": {
     "aggregation_method": "count",
@@ -7100,7 +7100,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS51_job_destruction_exit": {
     "aggregation_method": "count",
@@ -7129,7 +7129,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS51_Location_quotient": {
     "aggregation_method": "index",
@@ -7245,7 +7245,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS51_perc_job_creation_new": {
     "aggregation_method": "percent",
@@ -7274,7 +7274,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS51_perc_job_destruction_active": {
     "aggregation_method": "percent",
@@ -7303,7 +7303,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS51_perc_job_destruction_exit": {
     "aggregation_method": "percent",
@@ -7332,7 +7332,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS51_total_employment": {
     "aggregation_method": "count",
@@ -7361,7 +7361,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS51_total_job_creation": {
     "aggregation_method": "count",
@@ -7390,7 +7390,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS51_total_job_destruction": {
     "aggregation_method": "count",
@@ -7419,7 +7419,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS52_business_create_job": {
     "aggregation_method": "count",
@@ -7448,7 +7448,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS52_business_destruction_job": {
     "aggregation_method": "count",
@@ -7477,7 +7477,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS52_entry_rate": {
     "aggregation_method": "percent",
@@ -7593,7 +7593,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_ct_mi_2010_2020_herfindalh_index_by_industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_ct_mi_2010_2020_herfindalh_index_by_industry.csv.xz"
   },
   "NAICS52_job_creation_active": {
     "aggregation_method": "count",
@@ -7622,7 +7622,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS52_job_creation_new": {
     "aggregation_method": "count",
@@ -7651,7 +7651,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS52_job_destruction_active": {
     "aggregation_method": "count",
@@ -7680,7 +7680,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS52_job_destruction_exit": {
     "aggregation_method": "count",
@@ -7709,7 +7709,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS52_Location_quotient": {
     "aggregation_method": "index",
@@ -7825,7 +7825,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS52_perc_job_creation_new": {
     "aggregation_method": "percent",
@@ -7854,7 +7854,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS52_perc_job_destruction_active": {
     "aggregation_method": "percent",
@@ -7883,7 +7883,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS52_perc_job_destruction_exit": {
     "aggregation_method": "percent",
@@ -7912,7 +7912,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS52_total_employment": {
     "aggregation_method": "count",
@@ -7941,7 +7941,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS52_total_job_creation": {
     "aggregation_method": "count",
@@ -7970,7 +7970,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS52_total_job_destruction": {
     "aggregation_method": "count",
@@ -7999,7 +7999,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS53_business_create_job": {
     "aggregation_method": "count",
@@ -8028,7 +8028,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS53_business_destruction_job": {
     "aggregation_method": "count",
@@ -8057,7 +8057,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS53_entry_rate": {
     "aggregation_method": "percent",
@@ -8173,7 +8173,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_ct_mi_2010_2020_herfindalh_index_by_industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_ct_mi_2010_2020_herfindalh_index_by_industry.csv.xz"
   },
   "NAICS53_job_creation_active": {
     "aggregation_method": "count",
@@ -8202,7 +8202,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS53_job_creation_new": {
     "aggregation_method": "count",
@@ -8231,7 +8231,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS53_job_destruction_active": {
     "aggregation_method": "count",
@@ -8260,7 +8260,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS53_job_destruction_exit": {
     "aggregation_method": "count",
@@ -8289,7 +8289,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS53_Location_quotient": {
     "aggregation_method": "index",
@@ -8405,7 +8405,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS53_perc_job_creation_new": {
     "aggregation_method": "percent",
@@ -8434,7 +8434,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS53_perc_job_destruction_active": {
     "aggregation_method": "percent",
@@ -8463,7 +8463,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS53_perc_job_destruction_exit": {
     "aggregation_method": "percent",
@@ -8492,7 +8492,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS53_total_employment": {
     "aggregation_method": "count",
@@ -8521,7 +8521,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS53_total_job_creation": {
     "aggregation_method": "count",
@@ -8550,7 +8550,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS53_total_job_destruction": {
     "aggregation_method": "count",
@@ -8579,7 +8579,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS54_business_create_job": {
     "aggregation_method": "count",
@@ -8608,7 +8608,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS54_business_destruction_job": {
     "aggregation_method": "count",
@@ -8637,7 +8637,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS54_entry_rate": {
     "aggregation_method": "percent",
@@ -8753,7 +8753,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_ct_mi_2010_2020_herfindalh_index_by_industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_ct_mi_2010_2020_herfindalh_index_by_industry.csv.xz"
   },
   "NAICS54_job_creation_active": {
     "aggregation_method": "count",
@@ -8782,7 +8782,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS54_job_creation_new": {
     "aggregation_method": "count",
@@ -8811,7 +8811,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS54_job_destruction_active": {
     "aggregation_method": "count",
@@ -8840,7 +8840,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS54_job_destruction_exit": {
     "aggregation_method": "count",
@@ -8869,7 +8869,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS54_Location_quotient": {
     "aggregation_method": "index",
@@ -8985,7 +8985,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS54_perc_job_creation_new": {
     "aggregation_method": "percent",
@@ -9014,7 +9014,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS54_perc_job_destruction_active": {
     "aggregation_method": "percent",
@@ -9043,7 +9043,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS54_perc_job_destruction_exit": {
     "aggregation_method": "percent",
@@ -9072,7 +9072,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS54_total_employment": {
     "aggregation_method": "count",
@@ -9101,7 +9101,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS54_total_job_creation": {
     "aggregation_method": "count",
@@ -9130,7 +9130,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS54_total_job_destruction": {
     "aggregation_method": "count",
@@ -9159,7 +9159,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS55_business_create_job": {
     "aggregation_method": "count",
@@ -9188,7 +9188,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS55_business_destruction_job": {
     "aggregation_method": "count",
@@ -9217,7 +9217,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS55_entry_rate": {
     "aggregation_method": "percent",
@@ -9333,7 +9333,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_ct_mi_2010_2020_herfindalh_index_by_industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_ct_mi_2010_2020_herfindalh_index_by_industry.csv.xz"
   },
   "NAICS55_job_creation_active": {
     "aggregation_method": "count",
@@ -9362,7 +9362,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS55_job_creation_new": {
     "aggregation_method": "count",
@@ -9391,7 +9391,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS55_job_destruction_active": {
     "aggregation_method": "count",
@@ -9420,7 +9420,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS55_job_destruction_exit": {
     "aggregation_method": "count",
@@ -9449,7 +9449,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS55_Location_quotient": {
     "aggregation_method": "index",
@@ -9565,7 +9565,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS55_perc_job_creation_new": {
     "aggregation_method": "percent",
@@ -9594,7 +9594,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS55_perc_job_destruction_active": {
     "aggregation_method": "percent",
@@ -9623,7 +9623,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS55_perc_job_destruction_exit": {
     "aggregation_method": "percent",
@@ -9652,7 +9652,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS55_total_employment": {
     "aggregation_method": "count",
@@ -9681,7 +9681,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS55_total_job_creation": {
     "aggregation_method": "count",
@@ -9710,7 +9710,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS55_total_job_destruction": {
     "aggregation_method": "count",
@@ -9739,7 +9739,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS56_business_create_job": {
     "aggregation_method": "count",
@@ -9768,7 +9768,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS56_business_destruction_job": {
     "aggregation_method": "count",
@@ -9797,7 +9797,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS56_entry_rate": {
     "aggregation_method": "percent",
@@ -9913,7 +9913,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_ct_mi_2010_2020_herfindalh_index_by_industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_ct_mi_2010_2020_herfindalh_index_by_industry.csv.xz"
   },
   "NAICS56_job_creation_active": {
     "aggregation_method": "count",
@@ -9942,7 +9942,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS56_job_creation_new": {
     "aggregation_method": "count",
@@ -9971,7 +9971,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS56_job_destruction_active": {
     "aggregation_method": "count",
@@ -10000,7 +10000,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS56_job_destruction_exit": {
     "aggregation_method": "count",
@@ -10029,7 +10029,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS56_Location_quotient": {
     "aggregation_method": "index",
@@ -10145,7 +10145,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS56_perc_job_creation_new": {
     "aggregation_method": "percent",
@@ -10174,7 +10174,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS56_perc_job_destruction_active": {
     "aggregation_method": "percent",
@@ -10203,7 +10203,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS56_perc_job_destruction_exit": {
     "aggregation_method": "percent",
@@ -10232,7 +10232,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS56_total_employment": {
     "aggregation_method": "count",
@@ -10261,7 +10261,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS56_total_job_creation": {
     "aggregation_method": "count",
@@ -10290,7 +10290,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS56_total_job_destruction": {
     "aggregation_method": "count",
@@ -10319,7 +10319,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS61_business_create_job": {
     "aggregation_method": "count",
@@ -10348,7 +10348,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS61_business_destruction_job": {
     "aggregation_method": "count",
@@ -10377,7 +10377,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS61_entry_rate": {
     "aggregation_method": "percent",
@@ -10493,7 +10493,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_ct_mi_2010_2020_herfindalh_index_by_industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_ct_mi_2010_2020_herfindalh_index_by_industry.csv.xz"
   },
   "NAICS61_job_creation_active": {
     "aggregation_method": "count",
@@ -10522,7 +10522,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS61_job_creation_new": {
     "aggregation_method": "count",
@@ -10551,7 +10551,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS61_job_destruction_active": {
     "aggregation_method": "count",
@@ -10580,7 +10580,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS61_job_destruction_exit": {
     "aggregation_method": "count",
@@ -10609,7 +10609,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS61_Location_quotient": {
     "aggregation_method": "index",
@@ -10725,7 +10725,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS61_perc_job_creation_new": {
     "aggregation_method": "percent",
@@ -10754,7 +10754,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS61_perc_job_destruction_active": {
     "aggregation_method": "percent",
@@ -10783,7 +10783,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS61_perc_job_destruction_exit": {
     "aggregation_method": "percent",
@@ -10812,7 +10812,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS61_total_employment": {
     "aggregation_method": "count",
@@ -10841,7 +10841,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS61_total_job_creation": {
     "aggregation_method": "count",
@@ -10870,7 +10870,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS61_total_job_destruction": {
     "aggregation_method": "count",
@@ -10899,7 +10899,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS62_business_create_job": {
     "aggregation_method": "count",
@@ -10928,7 +10928,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS62_business_destruction_job": {
     "aggregation_method": "count",
@@ -10957,7 +10957,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS62_entry_rate": {
     "aggregation_method": "percent",
@@ -11073,7 +11073,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_ct_mi_2010_2020_herfindalh_index_by_industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_ct_mi_2010_2020_herfindalh_index_by_industry.csv.xz"
   },
   "NAICS62_job_creation_active": {
     "aggregation_method": "count",
@@ -11102,7 +11102,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS62_job_creation_new": {
     "aggregation_method": "count",
@@ -11131,7 +11131,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS62_job_destruction_active": {
     "aggregation_method": "count",
@@ -11160,7 +11160,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS62_job_destruction_exit": {
     "aggregation_method": "count",
@@ -11189,7 +11189,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS62_Location_quotient": {
     "aggregation_method": "index",
@@ -11305,7 +11305,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS62_perc_job_creation_new": {
     "aggregation_method": "percent",
@@ -11334,7 +11334,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS62_perc_job_destruction_active": {
     "aggregation_method": "percent",
@@ -11363,7 +11363,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS62_perc_job_destruction_exit": {
     "aggregation_method": "percent",
@@ -11392,7 +11392,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS62_total_employment": {
     "aggregation_method": "count",
@@ -11421,7 +11421,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS62_total_job_creation": {
     "aggregation_method": "count",
@@ -11450,7 +11450,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS62_total_job_destruction": {
     "aggregation_method": "count",
@@ -11479,7 +11479,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS71_business_create_job": {
     "aggregation_method": "count",
@@ -11508,7 +11508,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS71_business_destruction_job": {
     "aggregation_method": "count",
@@ -11537,7 +11537,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS71_entry_rate": {
     "aggregation_method": "percent",
@@ -11653,7 +11653,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_ct_mi_2010_2020_herfindalh_index_by_industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_ct_mi_2010_2020_herfindalh_index_by_industry.csv.xz"
   },
   "NAICS71_job_creation_active": {
     "aggregation_method": "count",
@@ -11682,7 +11682,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS71_job_creation_new": {
     "aggregation_method": "count",
@@ -11711,7 +11711,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS71_job_destruction_active": {
     "aggregation_method": "count",
@@ -11740,7 +11740,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS71_job_destruction_exit": {
     "aggregation_method": "count",
@@ -11769,7 +11769,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS71_Location_quotient": {
     "aggregation_method": "index",
@@ -11885,7 +11885,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS71_perc_job_creation_new": {
     "aggregation_method": "percent",
@@ -11914,7 +11914,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS71_perc_job_destruction_active": {
     "aggregation_method": "percent",
@@ -11943,7 +11943,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS71_perc_job_destruction_exit": {
     "aggregation_method": "percent",
@@ -11972,7 +11972,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS71_total_employment": {
     "aggregation_method": "count",
@@ -12001,7 +12001,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS71_total_job_creation": {
     "aggregation_method": "count",
@@ -12030,7 +12030,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS71_total_job_destruction": {
     "aggregation_method": "count",
@@ -12059,7 +12059,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS72_business_create_job": {
     "aggregation_method": "count",
@@ -12088,7 +12088,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS72_business_destruction_job": {
     "aggregation_method": "count",
@@ -12117,7 +12117,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS72_entry_rate": {
     "aggregation_method": "percent",
@@ -12233,7 +12233,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_ct_mi_2010_2020_herfindalh_index_by_industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_ct_mi_2010_2020_herfindalh_index_by_industry.csv.xz"
   },
   "NAICS72_job_creation_active": {
     "aggregation_method": "count",
@@ -12262,7 +12262,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS72_job_creation_new": {
     "aggregation_method": "count",
@@ -12291,7 +12291,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS72_job_destruction_active": {
     "aggregation_method": "count",
@@ -12320,7 +12320,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS72_job_destruction_exit": {
     "aggregation_method": "count",
@@ -12349,7 +12349,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS72_Location_quotient": {
     "aggregation_method": "index",
@@ -12465,7 +12465,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS72_perc_job_creation_new": {
     "aggregation_method": "percent",
@@ -12494,7 +12494,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS72_perc_job_destruction_active": {
     "aggregation_method": "percent",
@@ -12523,7 +12523,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS72_perc_job_destruction_exit": {
     "aggregation_method": "percent",
@@ -12552,7 +12552,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS72_total_employment": {
     "aggregation_method": "count",
@@ -12581,7 +12581,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS72_total_job_creation": {
     "aggregation_method": "count",
@@ -12610,7 +12610,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS72_total_job_destruction": {
     "aggregation_method": "count",
@@ -12639,7 +12639,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS81_business_create_job": {
     "aggregation_method": "count",
@@ -12668,7 +12668,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS81_business_destruction_job": {
     "aggregation_method": "count",
@@ -12697,7 +12697,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS81_entry_rate": {
     "aggregation_method": "percent",
@@ -12813,7 +12813,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_ct_mi_2010_2020_herfindalh_index_by_industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_ct_mi_2010_2020_herfindalh_index_by_industry.csv.xz"
   },
   "NAICS81_job_creation_active": {
     "aggregation_method": "count",
@@ -12842,7 +12842,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS81_job_creation_new": {
     "aggregation_method": "count",
@@ -12871,7 +12871,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS81_job_destruction_active": {
     "aggregation_method": "count",
@@ -12900,7 +12900,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS81_job_destruction_exit": {
     "aggregation_method": "count",
@@ -12929,7 +12929,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS81_Location_quotient": {
     "aggregation_method": "index",
@@ -13045,7 +13045,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS81_perc_job_creation_new": {
     "aggregation_method": "percent",
@@ -13074,7 +13074,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS81_perc_job_destruction_active": {
     "aggregation_method": "percent",
@@ -13103,7 +13103,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS81_perc_job_destruction_exit": {
     "aggregation_method": "percent",
@@ -13132,7 +13132,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS81_total_employment": {
     "aggregation_method": "count",
@@ -13161,7 +13161,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS81_total_job_creation": {
     "aggregation_method": "count",
@@ -13190,7 +13190,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS81_total_job_destruction": {
     "aggregation_method": "count",
@@ -13219,7 +13219,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS92_business_create_job": {
     "aggregation_method": "count",
@@ -13248,7 +13248,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS92_business_destruction_job": {
     "aggregation_method": "count",
@@ -13277,7 +13277,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS92_entry_rate": {
     "aggregation_method": "percent",
@@ -13393,7 +13393,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_ct_mi_2010_2020_herfindalh_index_by_industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_ct_mi_2010_2020_herfindalh_index_by_industry.csv.xz"
   },
   "NAICS92_job_creation_active": {
     "aggregation_method": "count",
@@ -13422,7 +13422,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS92_job_creation_new": {
     "aggregation_method": "count",
@@ -13451,7 +13451,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS92_job_destruction_active": {
     "aggregation_method": "count",
@@ -13480,7 +13480,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS92_job_destruction_exit": {
     "aggregation_method": "count",
@@ -13509,7 +13509,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS92_Location_quotient": {
     "aggregation_method": "index",
@@ -13625,7 +13625,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS92_perc_job_creation_new": {
     "aggregation_method": "percent",
@@ -13654,7 +13654,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS92_perc_job_destruction_active": {
     "aggregation_method": "percent",
@@ -13683,7 +13683,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS92_perc_job_destruction_exit": {
     "aggregation_method": "percent",
@@ -13712,7 +13712,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS92_total_employment": {
     "aggregation_method": "count",
@@ -13741,7 +13741,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS92_total_job_creation": {
     "aggregation_method": "count",
@@ -13770,7 +13770,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS92_total_job_destruction": {
     "aggregation_method": "count",
@@ -13799,7 +13799,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS99_business_create_job": {
     "aggregation_method": "count",
@@ -13828,7 +13828,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS99_business_destruction_job": {
     "aggregation_method": "count",
@@ -13857,7 +13857,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS99_entry_rate": {
     "aggregation_method": "percent",
@@ -13973,7 +13973,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_ct_mi_2010_2020_herfindalh_index_by_industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_ct_mi_2010_2020_herfindalh_index_by_industry.csv.xz"
   },
   "NAICS99_job_creation_active": {
     "aggregation_method": "count",
@@ -14002,7 +14002,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS99_job_creation_new": {
     "aggregation_method": "count",
@@ -14031,7 +14031,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS99_job_destruction_active": {
     "aggregation_method": "count",
@@ -14060,7 +14060,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS99_job_destruction_exit": {
     "aggregation_method": "count",
@@ -14089,7 +14089,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS99_Location_quotient": {
     "aggregation_method": "index",
@@ -14205,7 +14205,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS99_perc_job_creation_new": {
     "aggregation_method": "percent",
@@ -14234,7 +14234,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS99_perc_job_destruction_active": {
     "aggregation_method": "percent",
@@ -14263,7 +14263,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS99_perc_job_destruction_exit": {
     "aggregation_method": "percent",
@@ -14292,7 +14292,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS99_total_employment": {
     "aggregation_method": "count",
@@ -14321,7 +14321,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS99_total_job_creation": {
     "aggregation_method": "count",
@@ -14350,7 +14350,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "NAICS99_total_job_destruction": {
     "aggregation_method": "count",
@@ -14379,7 +14379,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz"
   },
   "no_hlth_ins_pct": {
     "aggregation_method": "",
@@ -14824,7 +14824,7 @@
     "unit": "household",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.broadband/blob/main/Wired/Adoption/Computer Type/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.broadband/blob/main/Wired/Adoption/Computer Type/data/distribution/va_hdcttrbg_acs_2017_2021_hh_without_compdev.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.broadband/blob/main/Wired/Adoption/Computer Type/data/distribution/ncr_cttrbg_acs_2017_2021_hh_without_compdev.csv.xz"
   },
   "perc_hh_without_internet": {
     "aggregation_method": "percent",

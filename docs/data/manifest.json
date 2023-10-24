@@ -1,6 +1,16 @@
 {
   "uva-bi-sdad/sdc.broadband": {
     "files": {
+      "Wired/Affordability/Percentage of income for internet (average)/data/distribution/ncr_broadbandnow_acs_sdad_2021_perc_income_on_internet.csv.xz": {
+        "size": 207380,
+        "sha": "feed45a3e6deddb2bd041e78e9d8d6e13894b061",
+        "md5": "df020286d8313347478fd0fbc5bff398"
+      },
+      "Wired/Adoption/Internet Type/data/distribution/va_hdcttrbg_acs_2017_2021_hh_internet_type.csv.xz": {
+        "size": 1993984,
+        "sha": "a41fa9c23e96760421a5e5444849c7b10ff89125",
+        "md5": "1742a5f1753c415735d8047ef858458e"
+      },
       "Wired/Affordability/Percentage of income for fast internet/data/distribution/ncr_broadbandnow_acs_sdad_2021_perc_income_on_internet.csv.xz": {
         "size": 200184,
         "sha": "84e0f130cde76bb3a0bec5780ada9943b6b21cb7",
@@ -11,40 +21,15 @@
         "sha": "fef1bedebb6455fc13813b705369f1c098b226c1",
         "md5": "208dd4d0422e6e1918bfbbfc982b7782"
       },
-      "Wired/Affordability/Percentage of income for internet (average)/data/distribution/ncr_broadbandnow_acs_sdad_2021_perc_income_on_internet.csv.xz": {
-        "size": 207380,
-        "sha": "feed45a3e6deddb2bd041e78e9d8d6e13894b061",
-        "md5": "df020286d8313347478fd0fbc5bff398"
-      },
-      "Wired/Adoption/Internet Type/data/distribution/ncr_cttrbg_acs_2017_2021_hh_internet_type.csv.xz": {
-        "size": 1144600,
-        "sha": "ae987dd3124e3a0f5cda1a452bad221cfa476e22",
-        "md5": "7e62ca6cd1aa69e5237f2e2de5561873"
-      },
-      "Wired/Adoption/Internet Type/data/distribution/va_hdcttrbg_acs_2017_2021_hh_internet_type.csv.xz": {
-        "size": 1993984,
-        "sha": "a41fa9c23e96760421a5e5444849c7b10ff89125",
-        "md5": "1742a5f1753c415735d8047ef858458e"
-      },
-      "Wired/Adoption/Computer Type/data/distribution/ncr_cttrbg_acs_2017_2021_hh_without_compdev.csv.xz": {
-        "size": 432984,
-        "sha": "5eb8c4650c7d6d9fecb4b67b44619317fc7f51b8",
-        "md5": "6b9a11f0cf947637c1186af3a80ef8b8"
-      },
       "Wired/Adoption/Computer Type/data/distribution/va_hdcttrbg_acs_2017_2021_hh_without_compdev.csv.xz": {
         "size": 729500,
         "sha": "47f598aee072e2c8e239eb965205cd9433eca469",
         "md5": "123079ca68209af279f2bf223db17743"
       },
-      "Wired/Accessibility/Percent Fast (internet-connected)/data/distribution/ncr_hdcttrbg_2019_2021q3_percent_above_threshold.csv.xz": {
-        "size": 484276,
-        "sha": "57393d6fe55088dd30c8c3d394e252ee5eed0829",
-        "md5": "16f4d4ac795a5022c5637509d568d629"
-      },
-      "Wired/Accessibility/Percent Fast (total)/data/distribution/ncr_hdcttrbg_2019_2021q3_percent_above_threshold.csv.xz": {
-        "size": 481696,
-        "sha": "38db1740bd44cb22281692606938e8fb2273c15e",
-        "md5": "c16793809891558aa576d6c63350b878"
+      "Wired/Adoption/Internet Type/data/distribution/ncr_cttrbg_acs_2017_2021_hh_internet_type.csv.xz": {
+        "size": 1144600,
+        "sha": "ae987dd3124e3a0f5cda1a452bad221cfa476e22",
+        "md5": "7e62ca6cd1aa69e5237f2e2de5561873"
       },
       "Wired/Accessibility/Percent Good (internet-connected)/data/distribution/ncr_hdcttrbg_2019_2021q3_percent_above_threshold.csv.xz": {
         "size": 465220,
@@ -55,6 +40,21 @@
         "size": 472452,
         "sha": "5ed440e9d846bd54f97a5865314e6883e98a2874",
         "md5": "308cb9c6fe53c17c191c122e2474a064"
+      },
+      "Wired/Adoption/Computer Type/data/distribution/ncr_cttrbg_acs_2017_2021_hh_without_compdev.csv.xz": {
+        "size": 432984,
+        "sha": "5eb8c4650c7d6d9fecb4b67b44619317fc7f51b8",
+        "md5": "6b9a11f0cf947637c1186af3a80ef8b8"
+      },
+      "Wired/Accessibility/Percent Fast (internet-connected)/data/distribution/ncr_hdcttrbg_2019_2021q3_percent_above_threshold.csv.xz": {
+        "size": 484276,
+        "sha": "57393d6fe55088dd30c8c3d394e252ee5eed0829",
+        "md5": "16f4d4ac795a5022c5637509d568d629"
+      },
+      "Wired/Accessibility/Percent Fast (total)/data/distribution/ncr_hdcttrbg_2019_2021q3_percent_above_threshold.csv.xz": {
+        "size": 481696,
+        "sha": "38db1740bd44cb22281692606938e8fb2273c15e",
+        "md5": "c16793809891558aa576d6c63350b878"
       },
       "Wired/Accessibility/Average Download Speed/data/distribution/ncr_cttrbg_ookla_download_speeds.csv.xz": {
         "size": 55512,
@@ -75,10 +75,25 @@
   },
   "uva-bi-sdad/sdc.business_climate": {
     "files": {
+      "Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz": {
+        "size": 1146456,
+        "sha": "dae4a552bd9cbaa6b4bbe59c22ae0d676c74a704",
+        "md5": "ff6e444a2089268c94ab5b4eb72be963"
+      },
       "Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_location_quotient_by_industry.csv.xz": {
         "size": 329232,
         "sha": "346ba6ae4acdfdf7789a8904cb91884703d798bb",
         "md5": "429b95770942fea8a7a30d90b0b292ce"
+      },
+      "Employment/Industry/data/distribution/ncr_cttrbg_mi_2010_2020_location_quotient_by_industry.csv.xz": {
+        "size": 1925908,
+        "sha": "b23749c4e78e4d72bb2d22ea38b6a8e0bde6a7cf",
+        "md5": "207e6389d6a935e21f94bde92f129186"
+      },
+      "Employment/Industry/data/distribution/rva_ct_mi_2010_2020_herfindalh_index_by_industry.csv.xz": {
+        "size": 2520,
+        "sha": "9a993e5f74dc1a9cd0d9a3d0c40c4b8120429fae",
+        "md5": "9fb76e88948d00260c65ae54b1400397"
       },
       "Employment/Industry/data/distribution/rva_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz": {
         "size": 1123820,
@@ -95,45 +110,30 @@
         "sha": "fb10df7b231179fbd2c6312d0a0f53eac66b7c99",
         "md5": "37d151cf1c4aa9f7dcaeab60b02c5fd7"
       },
-      "Employment/Industry/data/distribution/va059_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz": {
-        "size": 1146456,
-        "sha": "dae4a552bd9cbaa6b4bbe59c22ae0d676c74a704",
-        "md5": "ff6e444a2089268c94ab5b4eb72be963"
-      },
-      "Employment/Industry/data/distribution/ncr_cttrbg_mi_2010_2020_location_quotient_by_industry.csv.xz": {
-        "size": 1925908,
-        "sha": "b23749c4e78e4d72bb2d22ea38b6a8e0bde6a7cf",
-        "md5": "207e6389d6a935e21f94bde92f129186"
-      },
-      "Employment/Industry/data/distribution/rva_ct_mi_2010_2020_herfindalh_index_by_industry.csv.xz": {
-        "size": 2520,
-        "sha": "9a993e5f74dc1a9cd0d9a3d0c40c4b8120429fae",
-        "md5": "9fb76e88948d00260c65ae54b1400397"
-      },
       "Employment/Industry/data/distribution/ncr_cttrbg_mi_2010_2020_employment_metrics_by_Industry.csv.xz": {
         "size": 10702740,
         "sha": "631b21e821195d2cf146e881efa67f1960220b3c",
         "md5": "50e4e11c9414131e647039d3be5d7e5d"
-      },
-      "Employment/Industry/data/distribution/ncr_ct_mi_2010_2020_herfindalh_index_by_industry.csv.xz": {
-        "size": 14468,
-        "sha": "5ce503ac32588b7cd5626bbec980852b27e1eef7",
-        "md5": "6b372eaa6953f488d2faadc2b417a4a3"
-      },
-      "Business_characteristics/Industry/data/distribution/rva_cttrbg_mi_2010_2020_business_metrics_by_Industry.csv.xz": {
-        "size": 757104,
-        "sha": "4f8891458a46e745745639b25d0a2fcc8d6c1672",
-        "md5": "1fe80477e6f2f7751b78000b94e7a740"
       },
       "Business_characteristics/Industry/data/distribution/va059_cttrbg_mi_2010_2020_business_metrics_by_Industry.csv.xz": {
         "size": 905808,
         "sha": "cd9d7e0e1d9bf9fb1f7722e71b930dffdb031501",
         "md5": "3004046a4a99ed141e8cb6c0a8221d1a"
       },
+      "Employment/Industry/data/distribution/ncr_ct_mi_2010_2020_herfindalh_index_by_industry.csv.xz": {
+        "size": 14468,
+        "sha": "5ce503ac32588b7cd5626bbec980852b27e1eef7",
+        "md5": "6b372eaa6953f488d2faadc2b417a4a3"
+      },
       "Business_characteristics/Industry/data/distribution/ncr_cttrbg_mi_2010_2020_business_metrics_by_Industry.csv.xz": {
         "size": 7055520,
         "sha": "46836f2e4a5a6991b319ddc55cefb9b2faa8dd6a",
         "md5": "2a190e098d8f6719bb6bc57cb0e47044"
+      },
+      "Business_characteristics/Industry/data/distribution/rva_cttrbg_mi_2010_2020_business_metrics_by_Industry.csv.xz": {
+        "size": 757104,
+        "sha": "4f8891458a46e745745639b25d0a2fcc8d6c1672",
+        "md5": "1fe80477e6f2f7751b78000b94e7a740"
       },
       "Industry specific/Agriculture/data/distribution/va_ct_2017_industry_agriculture.csv.xz": {
         "size": 5436,
@@ -252,26 +252,6 @@
   },
   "uva-bi-sdad/sdc.financial_well_being": {
     "files": {
-      "Material_Deprivation/data/distribution/va_hdcttr_vdh_2015_2021_material_deprivation_index.csv.xz": {
-        "size": 138484,
-        "sha": "f453f6489c7ef96f19a0f39d059eaf7d515d223b",
-        "md5": "c13b672647b43dde0fec4f3299961648"
-      },
-      "Pay and Benefits/Household Income/data/distribution/ncr_cttrbg_2015_2019_median_household_income.csv.xz": {
-        "size": 188944,
-        "sha": "f3e7b7721ed574025ffd52a38862d6b8d8f8a9e9",
-        "md5": "b62c7c109fcd1a549592d37ec31bd4f1"
-      },
-      "Pay and Benefits/Household Income/data/distribution/ncr_cttrbg_2015_2021_median_household_income.csv.xz": {
-        "size": 290740,
-        "sha": "8f1a3cb2c2eff357c536d272bafbc1d4480c9402",
-        "md5": "70782517c5436e40017189869debcd12"
-      },
-      "Pay and Benefits/Household Income/data/distribution/va_cttrbg_2015_2019_median_household_income.csv.xz": {
-        "size": 305404,
-        "sha": "13146389615ac09f3474f5b4e53a1eb02a43a81b",
-        "md5": "78a088c063921d099504a79ee1e35097"
-      },
       "Pay and Benefits/Income Inequality/data/distribution/ncr_cttr_2015_2021_income_inequality_gini_index.csv.xz": {
         "size": 63020,
         "sha": "d87c26a60feeea406e3c91900d0adb3c095a42b9",
@@ -292,11 +272,6 @@
         "sha": "23ca442c9762513ae6cdf59f668ac442c8007703",
         "md5": "615acd9f289582c3b0b485dad934bf53"
       },
-      "Asset Limited Income Constrained Employed (ALICE)/data/distribution/va_ct_2010_2021_alice.csv.xz": {
-        "size": 7812,
-        "sha": "122543ddb6f7833826319f25bcfe34debb537bc6",
-        "md5": "baa13910f9a95549314af0ea17a1dffa"
-      },
       "Employment/data/distribution/ncr_cttr_2015_2021_employment_rate.csv.xz": {
         "size": 43868,
         "sha": "45e930f2693cd6b1ea9c2c790da24f9fd6cd1eef",
@@ -316,6 +291,36 @@
         "size": 68728,
         "sha": "00c1e94b637863198032a5af0fd688f72cafc8a9",
         "md5": "d66a986a1f011c1a4753890e3ac1b095"
+      },
+      "Material_Deprivation/data/distribution/va_hdcttr_vdh_2015_2021_material_deprivation_index.csv.xz": {
+        "size": 138484,
+        "sha": "f453f6489c7ef96f19a0f39d059eaf7d515d223b",
+        "md5": "c13b672647b43dde0fec4f3299961648"
+      },
+      "Pay and Benefits/Household Income/data/distribution/ncr_cttrbg_2015_2019_median_household_income.csv.xz": {
+        "size": 188944,
+        "sha": "f3e7b7721ed574025ffd52a38862d6b8d8f8a9e9",
+        "md5": "b62c7c109fcd1a549592d37ec31bd4f1"
+      },
+      "Pay and Benefits/Household Income/data/distribution/ncr_cttrbg_2015_2021_median_household_income.csv.xz": {
+        "size": 290740,
+        "sha": "8f1a3cb2c2eff357c536d272bafbc1d4480c9402",
+        "md5": "70782517c5436e40017189869debcd12"
+      },
+      "Pay and Benefits/Household Income/data/distribution/va_cttrbg_2015_2019_median_household_income.csv.xz": {
+        "size": 305404,
+        "sha": "13146389615ac09f3474f5b4e53a1eb02a43a81b",
+        "md5": "78a088c063921d099504a79ee1e35097"
+      },
+      "Asset Limited Income Constrained Employed (ALICE)/data/distribution/va_ct_2010_2021_alice.csv.xz": {
+        "size": 7812,
+        "sha": "122543ddb6f7833826319f25bcfe34debb537bc6",
+        "md5": "baa13910f9a95549314af0ea17a1dffa"
+      },
+      "Employment Access/data/distribution/va_hdcttr_2015_2021_employment_access_index.csv.xz": {
+        "size": 57292,
+        "sha": "5d5738023fce33680389ee7cbf8e9b3a25b41937",
+        "md5": "70f3ff432c13082f39c73dae417f3e11"
       }
     }
   },
@@ -365,21 +370,6 @@
   },
   "uva-bi-sdad/sdc.health": {
     "files": {
-      "Population Health/Health Opportunity Index/data/distribution/va_hdcttr_vdh_2017_2020_segregation_index.csv.xz": {
-        "size": 10924,
-        "sha": "0aca9e644e0e281edb48c096a152922d64abbe1e",
-        "md5": "06fe8a4fc409f9d4da8877cbc0ebd8d8"
-      },
-      "Population Health/Health Opportunity Index/data/distribution/va_hdcttr_vdh_2017_2020_walkability_index.csv.xz": {
-        "size": 10680,
-        "sha": "f8653cff524977d448adcca58efda18c15554615",
-        "md5": "83c038a708e39b51a065e40c7a0a1052"
-      },
-      "Population Health/Health Opportunity Index/data/distribution/va_hdcttr_vdh_2017_affordability_index.csv.xz": {
-        "size": 5048,
-        "sha": "ca07763ae84a64c6757aa9deaa210c7e087d7bba",
-        "md5": "344de5edca2942164a28a3078d882f71"
-      },
       "Population Health/Health Opportunity Index/data/distribution/va_hdcttr_vdh_2017_education_index.csv.xz": {
         "size": 4884,
         "sha": "f5112c00c8c81ff80be3a07bb7dcc70f0eff3428",
@@ -444,6 +434,21 @@
         "size": 7932,
         "sha": "f6b0c4221b036f95e548ee07973a47ad2b355e5b",
         "md5": "8e08ac23b63c00deaa62124e804ba622"
+      },
+      "Population Health/Health Opportunity Index/data/distribution/va_hdcttr_vdh_2017_2020_segregation_index.csv.xz": {
+        "size": 10924,
+        "sha": "0aca9e644e0e281edb48c096a152922d64abbe1e",
+        "md5": "06fe8a4fc409f9d4da8877cbc0ebd8d8"
+      },
+      "Population Health/Health Opportunity Index/data/distribution/va_hdcttr_vdh_2017_2020_walkability_index.csv.xz": {
+        "size": 10680,
+        "sha": "f8653cff524977d448adcca58efda18c15554615",
+        "md5": "83c038a708e39b51a065e40c7a0a1052"
+      },
+      "Population Health/Health Opportunity Index/data/distribution/va_hdcttr_vdh_2017_affordability_index.csv.xz": {
+        "size": 5048,
+        "sha": "ca07763ae84a64c6757aa9deaa210c7e087d7bba",
+        "md5": "344de5edca2942164a28a3078d882f71"
       },
       "Population Health/Mental Health/Mental and Physical Healthy Days/data/distribution/ncr_trct_sdad_2015_2019_brfss_sae.csv.xz": {
         "size": 94520,

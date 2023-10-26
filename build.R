@@ -1,3 +1,4 @@
+# install.packages('uva-bi-sdad/community')
 library(community)
 
 data_add(
@@ -21,13 +22,13 @@ data_add(
   clean = TRUE
 )
 
-# clone/pull the data repositories
-datacommons_refresh("../social_data_commons")
-
-# rebuild the view
-datacommons_view(
-  "../social_data_commons", "community_example", entity_info = NULL, prefer_repo = TRUE
-)
+# # clone/pull the data repositories
+# datacommons_refresh("../social_data_commons")
+# 
+# # rebuild the view
+# datacommons_view(
+#   "../social_data_commons", "community_example", entity_info = NULL, prefer_repo = TRUE
+# )
 
 site_build(
   ".", serve = TRUE,

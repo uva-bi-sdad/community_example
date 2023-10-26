@@ -1,7 +1,7 @@
 name: build_vdh_dashboard
 on:
-  schedule:
-    - cron: '0 21 * * 2,5' # Run on Tuesday and Friday 9pm UTC (5pm EST)
+  # schedule:
+  #   - cron: '0 21 * * 2,5' # Run on Tuesday and Friday 9pm UTC (5pm EST)
   push:
     branches:
         - main
@@ -64,6 +64,10 @@ jobs:
           install.packages('remotes')
           remotes::install_github('uva-bi-sdad/community')
           source("build.R")
+          datacommons_view(
+            "../social_data_commons", "${{ github.event.repository.name }}",
+            metadata = entities, entity_info = NULL
+          )
           renv::snapshot()
       - name: build ${{ github.event.repository.name }}
         working-directory: ${{ github.workspace }}/parent/${{ github.event.repository.name }}

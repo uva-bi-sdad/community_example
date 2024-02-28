@@ -63,7 +63,9 @@ jobs:
           renv::restore()	
           install.packages('remotes')
           remotes::install_github('uva-bi-sdad/community')
-          library(community)
+          ip = as.data.frame(installed.packages()[,c(1,3:4)])
+          ip = ip[is.na(ip$Priority),1:2,drop=FALSE]
+          print(ip)
           source("build.R")
           datacommons_view(
             "../social_data_commons", "${{ github.event.repository.name }}",

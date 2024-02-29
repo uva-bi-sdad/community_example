@@ -64,7 +64,7 @@ jobs:
         run: |
           .libPaths('~/.local/share/R/site-packages') # Update custom installation path
           print(.libPaths()) # print install paths to debug erros
-          if (!requireNamespace("renv", quietly = TRUE)) install.packages("renv")
+          if (!requireNamespace("renv", quietly = TRUE)) install.packages("renv", lib = '~/.local/share/R/site-packages')
           renv::init()	
           renv::restore()	
           install.packages('remotes')

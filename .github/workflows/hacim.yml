@@ -45,7 +45,7 @@ jobs:
       #     key: ${{ runner.os }}-renv-${{ hashFiles('**/renv.lock') }}
       #     restore-keys: |
       #       ${{ runner.os }}-renv-
-      # - uses: r-lib/actions/setup-r@v2
+      - uses: r-lib/actions/setup-r@v2
       # - name: Cache downloaded repositories
       #   uses: actions/cache@v3
       #   with:
@@ -62,9 +62,8 @@ jobs:
         working-directory: ${{ github.workspace }}/parent/social_data_commons
         shell: Rscript {0}
         run: |
-          .libPaths('~/.local/share/R/site-packages') # Update custom installation path
           print(.libPaths()) # print install paths to debug erros
-          if (!requireNamespace("renv", quietly = TRUE)) install.packages("renv", lib = '~/.local/share/R/site-packages')
+          if (!requireNamespace("renv", quietly = TRUE)) install.packages("renv")
           renv::init()	
           renv::restore()	
           install.packages('remotes')

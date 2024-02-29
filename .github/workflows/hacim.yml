@@ -53,17 +53,16 @@ jobs:
       #     key: ${{ runner.os }}-repos
       #     restore-keys: |
       #       ${{ runner.os }}-repos
-      - name: Downlowng pre-packaged renv cache files, update install location
+      - name: Downlowng pre-packaged renv cache files
         run: |
           wget https://github.com/uva-bi-sdad/pre-pack-community/raw/main/renv.zip
           unzip renv.zip -d ${{ env.RENV_PATHS_ROOT }}
-          printf ".libPaths('~/.local/share/R/site-packages')\n" >> ~/.Rprofile
-          cat ~/.Rprofile
       - run: echo "💡 The ${{ github.repository }} repository have been cloned to the runner."
       - name: Set up "data commons"
         working-directory: ${{ github.workspace }}/parent/social_data_commons
         shell: Rscript {0}
         run: |
+          .libPaths('~/.local/share/R/site-packages') # Update custom installation path
           print(.libPaths()) # print install paths to debug erros
           if (!requireNamespace("renv", quietly = TRUE)) install.packages("renv")
           renv::init()	

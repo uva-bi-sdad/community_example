@@ -62,6 +62,8 @@ jobs:
         working-directory: ${{ github.workspace }}/parent/social_data_commons
         shell: Rscript {0}
         run: |
+          .libPaths( c( .libPaths(), " ~/.local/share/rlib/") ) # Setting custom install paths
+          print(.libPaths()) # print install paths to debug erros
           if (!requireNamespace("renv", quietly = TRUE)) install.packages("renv")
           renv::init()	
           renv::restore()	

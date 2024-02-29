@@ -56,7 +56,7 @@ jobs:
       - name: Downlowng renv cache files
         run: |
           wget https://github.com/uva-bi-sdad/pre-pack-community/raw/main/renv.zip
-          unzip renv.zip -d ${{ RENV_PATHS_ROOT }}
+          unzip renv.zip -d ~/.local/share/renv
       - run: echo "💡 The ${{ github.repository }} repository have been cloned to the runner."
       - name: Set up "data commons"
         working-directory: ${{ github.workspace }}/parent/social_data_commons

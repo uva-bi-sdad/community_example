@@ -57,7 +57,7 @@ jobs:
         run: |
           wget https://github.com/uva-bi-sdad/pre-pack-community/raw/main/renv.zip
           unzip renv.zip -d ${{ env.RENV_PATHS_ROOT }}
-          echo ".libPaths("~/.local/share/R/site-packages/")" >> ~/.Rprofile
+          echo ".libPaths("~/.local/share/R/site-packages")" >> ~/.Rprofile
           cat ~/.Rprofile
       - run: echo "💡 The ${{ github.repository }} repository have been cloned to the runner."
       - name: Set up "data commons"

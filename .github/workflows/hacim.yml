@@ -40,13 +40,13 @@ jobs:
           path: 'parent/social_data_commons'
       - name: copy renv and lock file to sdc
         run: |
-          cp -a ${{ github.workspace }}/parent/pre-pack-community/renv ${{ github.workspace }}/parent/social_data_commons/renv
           cp ${{ github.workspace }}/parent/pre-pack-community/renv.lock ${{ github.workspace }}/parent/social_data_commons/
-      - name: Cache packages
-        uses: actions/cache@v3
+      # Notes: https://github.com/actions/cache/blob/main/restore/README.md
+      - uses: actions/cache/restore@v3
+        id: renv cache
         with:
           path: ${{ github.workspace }}/parent/social_data_commons/renv
-          key: ${{ runner.os }}-renv-${{ hashFiles('**/renv.lock') }}
+          key: Linux-renv-1c9a2254467290e9a5bc3dbca350a34fbc679fbb58acb02e9a9c43fcb99aa7d0
       - name: Run tree
         run: |
           tree ..

@@ -56,20 +56,23 @@ jobs:
       - name: Downlowng pre-packaged renv cache files
         run: |
           wget https://github.com/uva-bi-sdad/pre-pack-community/raw/main/renv.zip
-          unzip renv.zip -d ${{ github.workspace }}/parent/social_data_commons
+          unzip renv.zip -d ${{ env.RENV_PATHS_ROOT }}
       - run: echo "💡 The ${{ github.repository }} repository have been cloned to the runner."
       - name: Set up "data commons"
         working-directory: ${{ github.workspace }}/parent/social_data_commons
         shell: Rscript {0}
         run: |
           if (!requireNamespace("renv", quietly = TRUE)) install.packages("renv")
-          # renv::init()	
+          renv::init()	
           renv::restore()	
           install.packages('remotes')
           remotes::install_github('uva-bi-sdad/community')
+
+          # Printing all installed packages
           ip = as.data.frame(installed.packages()[,c(1,3:4)])
           ip = ip[is.na(ip$Priority),1:2,drop=FALSE]
           print(ip)
+          
           source("build.R")
           datacommons_view(
             "../social_data_commons", "${{ github.event.repository.name }}",

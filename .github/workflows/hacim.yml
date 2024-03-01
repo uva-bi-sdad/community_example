@@ -41,12 +41,8 @@ jobs:
       - name: copy renv and lock file to sdc
         run: |
           cp ${{ github.workspace }}/parent/pre-pack-community/renv.lock ${{ github.workspace }}/parent/social_data_commons/
-      # Notes: https://github.com/actions/cache/blob/main/restore/README.md
-      - uses: actions/cache/restore@v3
-        id: renvcache
-        with:
-          path: ${{ github.workspace }}/parent/social_data_commons/renv
-          key: Linux-renv-1c9a2254467290e9a5bc3dbca350a34fbc679fbb58acb02e9a9c43fcb99aa7d0
+          wget https://github.com/uva-bi-sdad/pre-pack-community/releases/download/community_renv/linux_community_renv.zip -O ${{ github.workspace }}/parent/pre-pack-community/renv.zip
+          unzip ${{ github.workspace }}/parent/pre-pack-community/renv.zip -d ${{ github.workspace }}/parent/pre-pack-community/renv
       - name: Run tree
         run: |
           tree ..

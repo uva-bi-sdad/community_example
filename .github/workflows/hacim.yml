@@ -70,18 +70,18 @@ jobs:
           renv::init()
           renv::restore()
           
-          # remotes::install_github('uva-bi-sdad/community') # because apparently the custom installations are not packed?
+          remotes::install_github('uva-bi-sdad/community') # because apparently the custom installations are not packed?
 
           # Printing all installed packages
           ip = as.data.frame(installed.packages()[,c(1,3:4)])
           ip = ip[is.na(ip$Priority),1:2,drop=FALSE]
           print(ip)
           
-          # source("build.R")
-          # datacommons_view(
-          #   "../social_data_commons", "${{ github.event.repository.name }}",
-          #   metadata = entities, entity_info = NULL
-          # )
+          source("build.R")
+          datacommons_view(
+            "../social_data_commons", "${{ github.event.repository.name }}",
+            metadata = entities, entity_info = NULL
+          )
       # - name: build ${{ github.event.repository.name }}
       #   working-directory: ${{ github.workspace }}/parent/${{ github.event.repository.name }}
       #   shell: Rscript {0}

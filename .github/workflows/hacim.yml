@@ -59,9 +59,6 @@ jobs:
           key: ${{ runner.os }}-repos
           restore-keys: |
             ${{ runner.os }}-repos
-      - name: Install additional dependencies
-        run: |
-          apt-get install libcurl4-openssl-dev
       - run: echo "💡 The ${{ github.repository }} repository have been cloned to the runner."
       - name: Set up "data commons"
         working-directory: ${{ github.workspace }}/parent/social_data_commons

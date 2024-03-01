@@ -73,7 +73,7 @@ jobs:
           renv::init()
           renv::restore()
           
-          remotes::install_github('uva-bi-sdad/community') # because apparently the custom installations are not packed?
+          remotes::install_github('uva-bi-sdad/community@5ac8e389a41a790f7f1de7b1706cbe88d130c200') # because apparently the custom installations are not packed?
           library(community)
           
           # Printing all installed packages

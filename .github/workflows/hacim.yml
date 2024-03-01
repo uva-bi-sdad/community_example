@@ -66,6 +66,8 @@ jobs:
         run: |
           print(.libPaths()) # print install paths to debug erros
           if (!requireNamespace("renv", quietly = TRUE)) install.packages("renv")
+          
+          renv::init()
           renv::restore()
           
           # remotes::install_github('uva-bi-sdad/community') # because apparently the custom installations are not packed?

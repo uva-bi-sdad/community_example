@@ -42,7 +42,7 @@ jobs:
         run: |
           cp ${{ github.workspace }}/parent/pre-pack-community/renv.lock ${{ github.workspace }}/parent/social_data_commons/
           wget https://github.com/uva-bi-sdad/pre-pack-community/releases/download/community_renv/linux_community_renv.zip -O ${{ github.workspace }}/parent/pre-pack-community/renv.zip
-          unzip ${{ github.workspace }}/parent/pre-pack-community/renv.zip -d ${{ github.workspace }}/parent/pre-pack-community/renv
+          unzip ${{ github.workspace }}/parent/pre-pack-community/renv.zip -d ${{ github.workspace }}/parent/social_data_commons/renv
       - name: Run tree
         run: |
           tree ..
@@ -79,7 +79,6 @@ jobs:
         shell: Rscript {0}
         run: |
           if (!requireNamespace("renv", quietly = TRUE)) install.packages("renv")
-          renv::init()	
           renv::restore()	
           install.packages('remotes')
           remotes::install_github('uva-bi-sdad/community')

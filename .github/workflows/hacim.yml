@@ -42,7 +42,8 @@ jobs:
         run: |
           cp ${{ github.workspace }}/parent/pre-pack-community/renv.lock ${{ github.workspace }}/parent/social_data_commons/
           wget https://github.com/uva-bi-sdad/pre-pack-community/releases/download/linux-renv/renv.zip -O ${{ github.workspace }}/parent/pre-pack-community/renv.zip
-          unzip ${{ github.workspace }}/parent/pre-pack-community/renv.zip -d ${{ github.workspace }}/parent/social_data_commons/renv          
+          unzip ${{ github.workspace }}/parent/pre-pack-community/renv.zip -d ${{ github.workspace }}/pre-pack-community/
+          mv ${{ github.workspace }}/parent/pre-pack-community/renv ${{ github.workspace }}/parent/social_data_commons/
       - name: Run tree
         run: |
           tree ..

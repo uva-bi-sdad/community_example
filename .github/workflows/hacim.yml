@@ -47,7 +47,7 @@ jobs:
         working-directory: ${{ github.workspace }}/parent/pre-pack-community      
         run: |          
           unzip renv.zip -d renv
-          mv renv ${{ github.workspace }}/parent/social_data_commons/
+          mv renv/renv ${{ github.workspace }}/parent/social_data_commons/
       - name: Run tree
         run: |
           tree ..

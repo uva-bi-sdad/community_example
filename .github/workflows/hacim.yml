@@ -45,9 +45,8 @@ jobs:
           wget https://github.com/uva-bi-sdad/pre-pack-community/releases/download/linux-renv/renv.zip -O renv.zip
       - name: Unzip and move to proper locations
         working-directory: ${{ github.workspace }}/parent/pre-pack-community      
-        run: |
-          tree .
-          unzip renv.zip
+        run: |          
+          unzip renv.zip -d renv
           mv renv ${{ github.workspace }}/parent/social_data_commons/
       - name: Run tree
         run: |

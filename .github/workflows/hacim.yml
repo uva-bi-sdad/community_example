@@ -69,8 +69,12 @@ jobs:
           
           renv::init()
           renv::restore()
+
+          install.packages('curl')
+          install.packages('V8')
+          install.packages('katex')
           
-          remotes::install_github('uva-bi-sdad/community@5ac8e389a41a790f7f1de7b1706cbe88d130c200') # because apparently the custom installations are not packed?
+          remotes::install_github('uva-bi-sdad/community')
           library(community)
           
           # Printing all installed packages

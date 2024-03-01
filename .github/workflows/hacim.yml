@@ -72,6 +72,8 @@ jobs:
           
           renv::init()
           renv::restore()
+
+          install.packages('vroom')
           
           remotes::install_github('uva-bi-sdad/community')
           library(community)

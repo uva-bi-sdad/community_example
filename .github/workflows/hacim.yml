@@ -14,9 +14,6 @@ concurrency:
   group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
   cancel-in-progress: true
 
-env:
-  community_renv_zip_path: ${{ github.workspace }}/parent/pre-pack-community/renv.zip
-
 jobs:
   generate-dashboard:
     # Don't run if a pull request but not closed
@@ -42,13 +39,16 @@ jobs:
           repository: uva-bi-sdad/social_data_commons
           path: 'parent/social_data_commons'
       - name: copy renv and lock file to sdc
-        run: |
-          cp ${{ github.workspace }}/parent/pre-pack-community/renv.lock ${{ github.workspace }}/parent/social_data_commons/
-          wget https://github.com/uva-bi-sdad/pre-pack-community/releases/download/linux-renv/renv.zip -O $community_renv_zip_path
+        working-directory: ${{ github.workspace }}/parent/pre-pack-community
+        run: |          
+          cp renv.lock ${{ github.workspace }}/parent/social_data_commons/
+          wget https://github.com/uva-bi-sdad/pre-pack-community/releases/download/linux-renv/renv.zip -O renv.zip
       - name: Unzip and move to proper locations
+        working-directory: ${{ github.workspace }}/parent/pre-pack-community      
         run: |
-          unzip $community_renv_zip_path -d ${{ github.workspace }}/parent/pre-pack-community/
-          mv ${{ github.workspace }}/parent/pre-pack-community/renv ${{ github.workspace }}/parent/social_data_commons/
+          tree .
+          unzip $community_renv_zip_path
+          mv renv ${{ github.workspace }}/parent/social_data_commons/
       - name: Run tree
         run: |
           tree ..

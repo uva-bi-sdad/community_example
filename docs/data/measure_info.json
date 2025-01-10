@@ -255,7 +255,7 @@
       }
     },
     "source_file": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Veteran/code/distribution/measure_info.json",
-    "origin": ["https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Veteran/data/distribution/ncr_cttrbg_acs_2009_2021_veteran_demographics.csv.xz", "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Veteran/data/distribution/va_hsrsdpdzccttrbg_sdad_2009_2021_veteran_demographics.csv.xz"]
+    "origin": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Veteran/data/distribution/va_hsrsdpdzccttrbg_sdad_2009_2021_veteran_demographics.csv.xz"
   },
   "access_care_indicator": {
     "aggregation_method": "",
@@ -1842,7 +1842,7 @@
       }
     },
     "source_file": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Language/code/distribution/measure_info.json",
-    "origin": ["https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Language/data/distribution/ncr_cttrbg_acs_2016_2021_language_demographics.csv.xz", "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Language/data/distribution/va_hsrsdpdzccttrbg_sdad_2009_2021_language_demographics.csv.xz"]
+    "origin": "https://github.com/uva-bi-sdad/sdc.demographics/blob/main/Language/data/distribution/va_hsrsdpdzccttrbg_sdad_2009_2021_language_demographics.csv.xz"
   },
   "median_household_income": {
     "aggregation_method": "",
@@ -1871,7 +1871,7 @@
     "unit": "dollars",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.financial_well_being/blob/main/Pay and Benefits/Household Income/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.financial_well_being/blob/main/Pay and Benefits/Household Income/data/distribution/ncr_cttrbg_2015_2019_median_household_income.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.financial_well_being/blob/main/Pay and Benefits/Household Income/data/distribution/va_cttrbg_2015_2019_median_household_income.csv.xz"
   },
   "mental_3sfca": {
     "aggregation_method": "",
@@ -2137,7 +2137,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_ct_mi_2010_2020_herfindalh_index_by_industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_ct_mi_2010_2020_herfindalh_index_by_industry.csv.xz"
   },
   "NAICS11_job_creation_active": {
     "aggregation_method": "count",
@@ -2717,7 +2717,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_ct_mi_2010_2020_herfindalh_index_by_industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_ct_mi_2010_2020_herfindalh_index_by_industry.csv.xz"
   },
   "NAICS21_job_creation_active": {
     "aggregation_method": "count",
@@ -3297,7 +3297,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_ct_mi_2010_2020_herfindalh_index_by_industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_ct_mi_2010_2020_herfindalh_index_by_industry.csv.xz"
   },
   "NAICS22_job_creation_active": {
     "aggregation_method": "count",
@@ -3877,7 +3877,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_ct_mi_2010_2020_herfindalh_index_by_industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_ct_mi_2010_2020_herfindalh_index_by_industry.csv.xz"
   },
   "NAICS23_job_creation_active": {
     "aggregation_method": "count",
@@ -4457,7 +4457,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_ct_mi_2010_2020_herfindalh_index_by_industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_ct_mi_2010_2020_herfindalh_index_by_industry.csv.xz"
   },
   "NAICS31_33_job_creation_active": {
     "aggregation_method": "count",
@@ -5037,7 +5037,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_ct_mi_2010_2020_herfindalh_index_by_industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_ct_mi_2010_2020_herfindalh_index_by_industry.csv.xz"
   },
   "NAICS42_job_creation_active": {
     "aggregation_method": "count",
@@ -5617,7 +5617,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_ct_mi_2010_2020_herfindalh_index_by_industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_ct_mi_2010_2020_herfindalh_index_by_industry.csv.xz"
   },
   "NAICS44_45_job_creation_active": {
     "aggregation_method": "count",
@@ -6197,7 +6197,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_ct_mi_2010_2020_herfindalh_index_by_industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_ct_mi_2010_2020_herfindalh_index_by_industry.csv.xz"
   },
   "NAICS48_49_job_creation_active": {
     "aggregation_method": "count",
@@ -6777,7 +6777,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_ct_mi_2010_2020_herfindalh_index_by_industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_ct_mi_2010_2020_herfindalh_index_by_industry.csv.xz"
   },
   "NAICS51_job_creation_active": {
     "aggregation_method": "count",
@@ -7357,7 +7357,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_ct_mi_2010_2020_herfindalh_index_by_industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_ct_mi_2010_2020_herfindalh_index_by_industry.csv.xz"
   },
   "NAICS52_job_creation_active": {
     "aggregation_method": "count",
@@ -7937,7 +7937,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_ct_mi_2010_2020_herfindalh_index_by_industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_ct_mi_2010_2020_herfindalh_index_by_industry.csv.xz"
   },
   "NAICS53_job_creation_active": {
     "aggregation_method": "count",
@@ -8517,7 +8517,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_ct_mi_2010_2020_herfindalh_index_by_industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_ct_mi_2010_2020_herfindalh_index_by_industry.csv.xz"
   },
   "NAICS54_job_creation_active": {
     "aggregation_method": "count",
@@ -9097,7 +9097,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_ct_mi_2010_2020_herfindalh_index_by_industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_ct_mi_2010_2020_herfindalh_index_by_industry.csv.xz"
   },
   "NAICS55_job_creation_active": {
     "aggregation_method": "count",
@@ -9677,7 +9677,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_ct_mi_2010_2020_herfindalh_index_by_industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_ct_mi_2010_2020_herfindalh_index_by_industry.csv.xz"
   },
   "NAICS56_job_creation_active": {
     "aggregation_method": "count",
@@ -10257,7 +10257,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_ct_mi_2010_2020_herfindalh_index_by_industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_ct_mi_2010_2020_herfindalh_index_by_industry.csv.xz"
   },
   "NAICS61_job_creation_active": {
     "aggregation_method": "count",
@@ -10837,7 +10837,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_ct_mi_2010_2020_herfindalh_index_by_industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_ct_mi_2010_2020_herfindalh_index_by_industry.csv.xz"
   },
   "NAICS62_job_creation_active": {
     "aggregation_method": "count",
@@ -11417,7 +11417,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_ct_mi_2010_2020_herfindalh_index_by_industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_ct_mi_2010_2020_herfindalh_index_by_industry.csv.xz"
   },
   "NAICS71_job_creation_active": {
     "aggregation_method": "count",
@@ -11997,7 +11997,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_ct_mi_2010_2020_herfindalh_index_by_industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_ct_mi_2010_2020_herfindalh_index_by_industry.csv.xz"
   },
   "NAICS72_job_creation_active": {
     "aggregation_method": "count",
@@ -12577,7 +12577,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_ct_mi_2010_2020_herfindalh_index_by_industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_ct_mi_2010_2020_herfindalh_index_by_industry.csv.xz"
   },
   "NAICS81_job_creation_active": {
     "aggregation_method": "count",
@@ -13157,7 +13157,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_ct_mi_2010_2020_herfindalh_index_by_industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_ct_mi_2010_2020_herfindalh_index_by_industry.csv.xz"
   },
   "NAICS92_job_creation_active": {
     "aggregation_method": "count",
@@ -13737,7 +13737,7 @@
     "unit": "business",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/rva_ct_mi_2010_2020_herfindalh_index_by_industry.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.business_climate/blob/main/Employment/Industry/data/distribution/va059_ct_mi_2010_2020_herfindalh_index_by_industry.csv.xz"
   },
   "NAICS99_job_creation_active": {
     "aggregation_method": "count",
@@ -14172,7 +14172,7 @@
     "unit": "",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/System Usage and Insurance/Without Health Insurance/data/distribution/measure_info.json",
-    "origin": ["https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/System Usage and Insurance/Without Health Insurance/data/distribution/ncr_cttrbg_acs5_2015_2019_no_health_insurance_19_to_64.csv.xz", "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/System Usage and Insurance/Without Health Insurance/data/distribution/va_hdcttr_acs5_2015_2019_no_health_insurance_19_to_64.csv.xz"]
+    "origin": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/System Usage and Insurance/Without Health Insurance/data/distribution/va_hdcttr_acs5_2015_2019_no_health_insurance_19_to_64.csv.xz"
   },
   "Num_Child_Food_Insecure": {
     "aggregation_method": "",
@@ -14264,7 +14264,7 @@
     "unit": "",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Health Care Services/Physicians/OB-GYN/Service Access Scores/data/distribution/measure_info.json",
-    "origin": ["https://github.com/uva-bi-sdad/sdc.health/blob/main/Health Care Services/Physicians/OB-GYN/Service Access Scores/data/distribution/ncr_cttrbg_webmd_2021_access_scores_obgyn.csv.xz", "https://github.com/uva-bi-sdad/sdc.health/blob/main/Health Care Services/Physicians/OB-GYN/Service Access Scores/data/distribution/va_hdcttrbgca_webmd_2021_access_scores_obgyn.csv.xz"]
+    "origin": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Health Care Services/Physicians/OB-GYN/Service Access Scores/data/distribution/va_hdcttrbgca_webmd_2021_access_scores_obgyn.csv.xz"
   },
   "obgyn_cnt": {
     "aggregation_method": "",
@@ -14293,7 +14293,7 @@
     "unit": "",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Health Care Services/Physicians/OB-GYN/Service Access Scores/data/distribution/measure_info.json",
-    "origin": ["https://github.com/uva-bi-sdad/sdc.health/blob/main/Health Care Services/Physicians/OB-GYN/Service Access Scores/data/distribution/ncr_cttrbg_webmd_2021_access_scores_obgyn.csv.xz", "https://github.com/uva-bi-sdad/sdc.health/blob/main/Health Care Services/Physicians/OB-GYN/Service Access Scores/data/distribution/va_hdcttrbgca_webmd_2021_access_scores_obgyn.csv.xz"]
+    "origin": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Health Care Services/Physicians/OB-GYN/Service Access Scores/data/distribution/va_hdcttrbgca_webmd_2021_access_scores_obgyn.csv.xz"
   },
   "operation_farmValue": {
     "aggregation_method": "",
@@ -14356,7 +14356,7 @@
     "unit": "",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Health Care Services/Physicians/Pediatric/Service Access Scores/data/distribution/measure_info.json",
-    "origin": ["https://github.com/uva-bi-sdad/sdc.health/blob/main/Health Care Services/Physicians/Pediatric/Service Access Scores/data/distribution/ncr_cttrbg_webmd_2021_access_scores_pediatrics.csv.xz", "https://github.com/uva-bi-sdad/sdc.health/blob/main/Health Care Services/Physicians/Pediatric/Service Access Scores/data/distribution/va_hdcttrbgca_webmd_2021_access_scores_pediatrics.csv.xz"]
+    "origin": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Health Care Services/Physicians/Pediatric/Service Access Scores/data/distribution/va_hdcttrbgca_webmd_2021_access_scores_pediatrics.csv.xz"
   },
   "ped_cnt": {
     "aggregation_method": "",
@@ -14385,7 +14385,7 @@
     "unit": "",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Health Care Services/Physicians/Pediatric/Service Access Scores/data/distribution/measure_info.json",
-    "origin": ["https://github.com/uva-bi-sdad/sdc.health/blob/main/Health Care Services/Physicians/Pediatric/Service Access Scores/data/distribution/ncr_cttrbg_webmd_2021_access_scores_pediatrics.csv.xz", "https://github.com/uva-bi-sdad/sdc.health/blob/main/Health Care Services/Physicians/Pediatric/Service Access Scores/data/distribution/va_hdcttrbgca_webmd_2021_access_scores_pediatrics.csv.xz"]
+    "origin": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Health Care Services/Physicians/Pediatric/Service Access Scores/data/distribution/va_hdcttrbgca_webmd_2021_access_scores_pediatrics.csv.xz"
   },
   "per_above30": {
     "aggregation_method": "",
@@ -14588,7 +14588,7 @@
     "unit": "household",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.broadband/blob/main/Wired/Adoption/Computer Type/data/distribution/measure_info.json",
-    "origin": ["https://github.com/uva-bi-sdad/sdc.broadband/blob/main/Wired/Adoption/Computer Type/data/distribution/ncr_cttrbg_acs_2017_2021_hh_without_compdev.csv.xz", "https://github.com/uva-bi-sdad/sdc.broadband/blob/main/Wired/Adoption/Computer Type/data/distribution/va_hdcttrbg_acs_2017_2021_hh_without_compdev.csv.xz"]
+    "origin": "https://github.com/uva-bi-sdad/sdc.broadband/blob/main/Wired/Adoption/Computer Type/data/distribution/va_hdcttrbg_acs_2017_2021_hh_without_compdev.csv.xz"
   },
   "perc_hh_without_internet": {
     "aggregation_method": "percent",
@@ -15719,7 +15719,7 @@
     "unit": "",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Health Care Services/Drug and Rehab/Service Catchment Scores/data/distribution/measure_info.json",
-    "origin": ["https://github.com/uva-bi-sdad/sdc.health/blob/main/Health Care Services/Drug and Rehab/Service Catchment Scores/data/distribution/ncr_cttrbg_samhsa_2021_access_scores_substance.csv.xz", "https://github.com/uva-bi-sdad/sdc.health/blob/main/Health Care Services/Drug and Rehab/Service Catchment Scores/data/distribution/va_hdcttrbgca_samhsa_2021_access_scores_substance.csv.xz"]
+    "origin": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Health Care Services/Drug and Rehab/Service Catchment Scores/data/distribution/va_hdcttrbgca_samhsa_2021_access_scores_substance.csv.xz"
   },
   "subs_cnt": {
     "aggregation_method": "",
@@ -15748,7 +15748,7 @@
     "unit": "",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Health Care Services/Drug and Rehab/Service Catchment Scores/data/distribution/measure_info.json",
-    "origin": ["https://github.com/uva-bi-sdad/sdc.health/blob/main/Health Care Services/Drug and Rehab/Service Catchment Scores/data/distribution/ncr_cttrbg_samhsa_2021_access_scores_substance.csv.xz", "https://github.com/uva-bi-sdad/sdc.health/blob/main/Health Care Services/Drug and Rehab/Service Catchment Scores/data/distribution/va_hdcttrbgca_samhsa_2021_access_scores_substance.csv.xz"]
+    "origin": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Health Care Services/Drug and Rehab/Service Catchment Scores/data/distribution/va_hdcttrbgca_samhsa_2021_access_scores_substance.csv.xz"
   },
   "subs_near_10_median": {
     "aggregation_method": "",
@@ -15777,7 +15777,7 @@
     "unit": "",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Health Care Services/Drug and Rehab/Service Catchment Scores/data/distribution/measure_info.json",
-    "origin": ["https://github.com/uva-bi-sdad/sdc.health/blob/main/Health Care Services/Drug and Rehab/Service Catchment Scores/data/distribution/ncr_cttrbg_samhsa_2021_access_scores_substance.csv.xz", "https://github.com/uva-bi-sdad/sdc.health/blob/main/Health Care Services/Drug and Rehab/Service Catchment Scores/data/distribution/va_hdcttrbgca_samhsa_2021_access_scores_substance.csv.xz"]
+    "origin": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Health Care Services/Drug and Rehab/Service Catchment Scores/data/distribution/va_hdcttrbgca_samhsa_2021_access_scores_substance.csv.xz"
   },
   "total_acres": {
     "aggregation_method": "",

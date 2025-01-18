@@ -149,6 +149,21 @@
   },
   "uva-bi-sdad/sdc.demographics": {
     "files": {
+      "Race/data/distribution/ncr_cttrbg_acs_2009_2023_race_demographics.csv.xz": {
+        "size": 12340232,
+        "sha": "0b26c1089e36a8920ccd26a0ac8c9fa557cbe33c",
+        "md5": "e86371d4edbc15fe70f04674bc0a9084"
+      },
+      "Language/data/distribution/ncr_cttrbg_acs_2016_2023_language_demographics.csv.xz": {
+        "size": 893136,
+        "sha": "b2cbb0821ee6d08295d6c4337274b09576d61ee0",
+        "md5": "42ba88b8285d027dd931e2f5be37b993"
+      },
+      "Gender/data/distribution/ncr_cttrbg_acs_2009_2023_gender_demographics.csv.xz": {
+        "size": 3621456,
+        "sha": "724f8fc52a8fa3b7ef6e8e640a31c2d7d8017562",
+        "md5": "eb8d170fc3f338fff83ca8791ea1f569"
+      },
       "Veteran/data/distribution/va_hsrsdpdzccttrbg_sdad_2009_2021_veteran_demographics.csv.xz": {
         "size": 1500820,
         "sha": "e7ca55be1cb3a602ef8171d2ddf60db5dbe1baaf",
@@ -163,11 +178,6 @@
         "size": 11206828,
         "sha": "019ab6b1246a0f5bc57f02494757ed3e147134a6",
         "md5": "eff78ec16bc5f77be43493e27e37b7c8"
-      },
-      "Race/data/distribution/ncr_cttrbg_acs_2009_2021_race_demographics.csv.xz": {
-        "size": 10785396,
-        "sha": "776744b51e72a727feb37444fdbf34b7267bccd1",
-        "md5": "e1e30079a001c6110fa976add31384e0"
       },
       "Overall/data/distribution/census.csv.xz": {
         "size": 3276644,
@@ -188,11 +198,6 @@
         "size": 3634976,
         "sha": "032fb959e4d0abb2716426dc114e006447ba9427",
         "md5": "f9343f8eb544ac5048f6498eeb391ce5"
-      },
-      "Gender/data/distribution/ncr_cttrbg_acs_2009_2021_gender_demographics.csv.xz": {
-        "size": 3603876,
-        "sha": "b6c8e84af66fe3372bc329ef8dbb7fbb31e04849",
-        "md5": "adece9470a6adcc1c86ca2f9f5dd516d"
       },
       "Age/data/distribution/va_hsrsdpdzccttrbg_sdad_2009_2021_age_demographics.csv.xz": {
         "size": 5195140,
@@ -247,11 +252,6 @@
         "size": 479776,
         "sha": "618a712ba55812a38fdcf707a96c897486d4874b",
         "md5": "1cc349a536182702e4eb2fcd4a55eb82"
-      },
-      "Funding/data/distribution/va_ct_2022_2023_funding_adequacy.csv.xz": {
-        "size": 1324,
-        "sha": "a2f1e494fbe9af9f48f5747900dbf7b404e59ec5",
-        "md5": "253f56814f55e74281bd5414cd5dd2b6"
       }
     }
   },
@@ -380,15 +380,15 @@
   },
   "uva-bi-sdad/sdc.health": {
     "files": {
-      "Population Health/System Usage and Insurance/Without Health Insurance/data/distribution/va_hdcttr_acs5_2015_2023_no_health_insurance_19_to_64.csv.xz": {
-        "size": 353244,
-        "sha": "8c699071efe8fe52e97cf572630384a80b151172",
-        "md5": "82fa77b5310a4656890de389c8760ca3"
-      },
       "Population Health/System Usage and Insurance/Without Health Insurance/data/distribution/ncr_cttrbg_acs5_2015_2023_no_health_insurance_19_to_64.csv.xz": {
         "size": 629816,
         "sha": "d5c30e42ef63bd7a1236ce9fbb05118da3cd5e9b",
         "md5": "deb0a24ea5eb5cca3d1d499acf1394f2"
+      },
+      "Population Health/System Usage and Insurance/Without Health Insurance/data/distribution/va_hdcttr_acs5_2015_2023_no_health_insurance_19_to_64.csv.xz": {
+        "size": 353244,
+        "sha": "8c699071efe8fe52e97cf572630384a80b151172",
+        "md5": "82fa77b5310a4656890de389c8760ca3"
       },
       "Population Health/Social Vulnerability Index/data/distribution/va_cttr_2014_2020_social_vulnerability_index.csv.xz": {
         "size": 145776,

@@ -14172,7 +14172,7 @@
     "unit": "",
     "variants": "",
     "source_file": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/System Usage and Insurance/Without Health Insurance/data/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/System Usage and Insurance/Without Health Insurance/data/distribution/va_hdcttr_acs5_2015_2023_no_health_insurance_19_to_64.csv.xz"
+    "origin": ["https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/System Usage and Insurance/Without Health Insurance/data/distribution/ncr_cttrbg_acs5_2015_2023_no_health_insurance_19_to_64.csv.xz", "https://github.com/uva-bi-sdad/sdc.health/blob/main/Population Health/System Usage and Insurance/Without Health Insurance/data/distribution/va_hdcttr_acs5_2015_2023_no_health_insurance_19_to_64.csv.xz"]
   },
   "Num_Child_Food_Insecure": {
     "aggregation_method": "",

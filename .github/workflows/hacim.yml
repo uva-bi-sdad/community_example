@@ -38,15 +38,15 @@ jobs:
         with:
           repository: uva-bi-sdad/social_data_commons
           path: 'parent/social_data_commons'
-      # - name: copy lock file to sdc
-      #   working-directory: ${{ github.workspace }}/parent/pre-pack-community
-      #   run: |          
-      #     cp renv.lock ${{ github.workspace }}/parent/social_data_commons/
-      - name: Unzip and move to proper locations
-        working-directory: ${{ github.workspace }}/parent/pre-pack-community      
+      - name: copy lock file to sdc
+        working-directory: ${{ github.workspace }}/parent/pre-pack-community
         run: |          
-          unzip renv.zip -d renv
-          mv renv/renv ${{ github.workspace }}/parent/social_data_commons/
+          cp renv.lock ${{ github.workspace }}/parent/social_data_commons/
+      # - name: Unzip and move to proper locations
+      #   working-directory: ${{ github.workspace }}/parent/pre-pack-community      
+      #   run: |          
+      #     unzip renv.zip -d renv
+      #     mv renv/renv ${{ github.workspace }}/parent/social_data_commons/
       - name: Cache downloaded dependencies
         uses: actions/cache@v4
         with:

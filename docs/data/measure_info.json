@@ -90,21 +90,6 @@
       "volume": "Preprint",
       "doi": "10.13140/RG.2.2.12396.28807"
     },
-    "bii-redist": {
-      "id": "bii-redist",
-      "author": "Biocomplexity Institute and Initiative",
-      "year": 2022,
-      "title": "redistribute: An R package to redistribute data",
-      "version": "0.0.1",
-      "url": "https://github.com/uva-bi-sdad/redistribute"
-    },
-    "usdafara": {
-      "id": "usdafara",
-      "author": "Economic Research Service, U.S. DEPARTMENT OF AGRICULTURE",
-      "year": 2021,
-      "title": "Food Access Research Atlas",
-      "url": "https://www.ers.usda.gov/data-products/food-access-research-atlas/download-the-data/"
-    },
     "wan12": {
       "id": "wan12",
       "author": [
@@ -135,6 +120,21 @@
       "title": "catchment: Calculate spatial access and availability metrics",
       "version": "0.0.1",
       "url": "https://github.com/uva-bi-sdad/catchment"
+    },
+    "bii-redist": {
+      "id": "bii-redist",
+      "author": "Biocomplexity Institute and Initiative",
+      "year": 2022,
+      "title": "redistribute: An R package to redistribute data",
+      "version": "0.0.1",
+      "url": "https://github.com/uva-bi-sdad/redistribute"
+    },
+    "usdafara": {
+      "id": "usdafara",
+      "author": "Economic Research Service, U.S. DEPARTMENT OF AGRICULTURE",
+      "year": 2021,
+      "title": "Food Access Research Atlas",
+      "url": "https://www.ers.usda.gov/data-products/food-access-research-atlas/download-the-data/"
     }
   },
   "{variant.name}_read_pass_rate": {
@@ -168,7 +168,7 @@
       }
     },
     "source_file": "https://github.com/uva-bi-sdad/sdc.education/blob/main/Reading/code/distribution/measure_info.json",
-    "origin": "https://github.com/uva-bi-sdad/sdc.education/blob/main/Reading/data/distribution/va_hdctsd_vdoe_2015_2021_3rd_grade_mean_read_score.csv.xz"
+    "origin": "https://github.com/uva-bi-sdad/sdc.education/blob/main/Reading/data/distribution/va_hdctsd_vdoe_2015_2023_3rd_grade_mean_read_score.csv.xz"
   },
   "{variant.name}{category.name}": {
     "category": "Demographics",
